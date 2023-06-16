@@ -524,3 +524,45 @@
 [2023-06-17 00:43:11] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon-api-proxy-0.3.4a8.tar.gz]
 [2023-06-17 00:43:11] INFO root fetch - main [MainThread]: End processing [neon-api-proxy]: success
 [2023-06-17 00:43:11] INFO root fetch - main [MainThread]: Store serial: [18538022]
+[2023-06-17 00:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538022]
+[2023-06-17 00:48:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 00:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-htu31d
+[2023-06-17 00:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synapse
+[2023-06-17 00:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingai
+[2023-06-17 00:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warframe.py
+[2023-06-17 00:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langflow
+[2023-06-17 00:48:20] INFO root fetch - processPackages [synapse]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-17 00:48:20] WARNING root fetch - processPackages [micropython-htu31d]: Skipping, unable to determine old version
+[2023-06-17 00:48:20] INFO root fetch - main [MainThread]: End processing [micropython-htu31d] error
+[2023-06-17 00:48:20] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 00:48:20] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-17 00:48:20] INFO root fetch - processPackages [warframe.py]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-17 00:48:20] INFO root fetch - processPackages [langflow]: New version: [0.1.0] Old Version: [0.0.89]
+[2023-06-17 00:48:20] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/a0/16/05b574cbcacea5a4e03b3992f83fa15d65e908bbe429c52c6c618808810e/synapse-2.98.0.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/1d/d0/940eea480f47fc8f54294ef5dd5be8c1e72f94d5ff385cf82d43eb5882ab/warframe.py-0.3.4.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/2e/04/08eca6073911cc599e004681df48bd1617bf43e5314e1b41d2bb12ce1ecc/langflow-0.0.89.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-17 00:48:21] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230617/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 00:48:21] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/82/72/26c8a3f2a420a09ccb5a1f9a84d3655b6a1a1dc0eba93935285772fc45ad/warframe.py-0.3.5.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/6d/c7/9f83caee3522a85b4e4c80a4308801fb6bbbdcd7ba86efd93fd74ee3accf/synapse-2.99.0.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/29/b9928db22178efec9ab4c7ea254fc4d10b9520efdd41ebad181472ded4c9/langflow-0.1.0.tar.gz
+[2023-06-17 00:48:21] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-17 00:48:21] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.3.4.tar.gz tmp/warframe.py-0.3.5.tar.gz --markdown 20230617/w/warframe.py/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-17 00:48:21] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-17 00:48:21] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.89.tar.gz tmp/langflow-0.1.0.tar.gz --markdown 20230617/l/langflow/0.0.89-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 00:48:22] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-17 00:48:22] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-17 00:48:22] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-17 00:48:22] INFO root fetch - processPackages [synapse]: executing diffoscope
+[2023-06-17 00:48:22] INFO root fetch - processPackages [synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse-2.98.0.tar.gz tmp/synapse-2.99.0.tar.gz --markdown 20230617/s/synapse/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-17 00:48:22] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.4.tar.gz]
+[2023-06-17 00:48:22] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.5.tar.gz]
+[2023-06-17 00:48:22] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-17 00:48:27] INFO root fetch - processPackages [synapse]: Remove: archive file [/home/abi/fetcher/tmp/synapse-2.98.0.tar.gz]
+[2023-06-17 00:48:27] INFO root fetch - processPackages [synapse]: Remove: archive file [/home/abi/fetcher/tmp/synapse-2.99.0.tar.gz]
+[2023-06-17 00:48:27] INFO root fetch - main [MainThread]: End processing [synapse]: success
+[2023-06-17 00:48:49] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.89.tar.gz]
+[2023-06-17 00:48:49] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.0.tar.gz]
+[2023-06-17 00:48:49] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-17 00:48:49] INFO root fetch - main [MainThread]: Store serial: [18538041]
