@@ -969,3 +969,37 @@
 [2023-06-17 01:21:24] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-06-17 01:21:24] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-06-17 01:21:24] INFO root fetch - main [MainThread]: Store serial: [18538196]
+[2023-06-17 01:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538196]
+[2023-06-17 01:26:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcdl
+[2023-06-17 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-kafka-schemas
+[2023-06-17 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music21
+[2023-06-17 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemreport
+[2023-06-17 01:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-master
+[2023-06-17 01:26:32] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 01:26:32] INFO root fetch - processPackages [music21]: New version: [9.1.0] Old Version: [8.3.0]
+[2023-06-17 01:26:32] INFO root fetch - processPackages [pcdl]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-17 01:26:32] INFO root fetch - processPackages [api-master]: New version: [1.1] Old Version: [1.0]
+[2023-06-17 01:26:32] WARNING root fetch - processPackages [nemreport]: Skipping, unable to determine old version
+[2023-06-17 01:26:32] INFO root fetch - main [MainThread]: End processing [nemreport] error
+[2023-06-17 01:26:32] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/2b/48/bbeeac72148365973154839f814e1ba50d53dc1cc3b85a44df13d7e96aea/sentry-kafka-schemas-0.1.8.tar.gz
+[2023-06-17 01:26:32] INFO root fetch - processPackages [music21]: Downloading https://files.pythonhosted.org/packages/28/dc/ab7cfcd91b8bddcc556f7c39f2770a660d5352b3fb45e0841b0577519e09/music21-8.3.0.tar.gz
+[2023-06-17 01:26:32] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/d6/ea/83ba8b47bddc01fe04accef7be5e6d716297ee9c539f319ae70208707daa/api_master-1.0.tar.gz
+[2023-06-17 01:26:32] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2023-06-17 01:26:32] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/35/a7/db250335b69364cd828c437c4925e46036d8203f7ac4b0acaa9f41ebac28/pcdl-3.2.1.tar.gz
+[2023-06-17 01:26:33] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16735188>=10485760
+[2023-06-17 01:26:33] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-17 01:26:33] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-06-17 01:26:33] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.8.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20230617/s/sentry-kafka-schemas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 01:26:33] WARNING root fetch - processPackages [music21]: Skipping package: exceeds size limit 19413960>=10485760
+[2023-06-17 01:26:33] INFO root fetch - main [MainThread]: End processing [music21] error
+[2023-06-17 01:26:33] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/6c/bd/98ab94319ab0d6fa4889384c1e58821925e63f2b3ef9e5fe026fa92b5ed5/api_master-1.1.tar.gz
+[2023-06-17 01:26:33] INFO root fetch - processPackages [api-master]: executing diffoscope
+[2023-06-17 01:26:33] INFO root fetch - processPackages [api-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_master-1.0.tar.gz tmp/api_master-1.1.tar.gz --markdown 20230617/a/api-master/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-17 01:26:34] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.8.tar.gz]
+[2023-06-17 01:26:34] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2023-06-17 01:26:34] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-06-17 01:26:35] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.0.tar.gz]
+[2023-06-17 01:26:35] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.1.tar.gz]
+[2023-06-17 01:26:35] INFO root fetch - main [MainThread]: End processing [api-master]: success
+[2023-06-17 01:26:35] INFO root fetch - main [MainThread]: Store serial: [18538215]
