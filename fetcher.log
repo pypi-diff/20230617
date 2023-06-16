@@ -437,3 +437,69 @@
 [2023-06-17 00:32:44] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.5.0.tar.gz]
 [2023-06-17 00:32:44] INFO root fetch - main [MainThread]: End processing [trame-vtk]: success
 [2023-06-17 00:32:44] INFO root fetch - main [MainThread]: Store serial: [18537994]
+[2023-06-17 00:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18537994]
+[2023-06-17 00:37:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airunner
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m23
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secureli
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmanage
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-time
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-github
+[2023-06-17 00:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantconnect-stubs
+[2023-06-17 00:37:54] INFO root fetch - processPackages [m23]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [lmanage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pytest-time]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/26/50/c18987068101de2bf7104f32c5a710dc6fad29eeef65dc482a3ad7ad1616/m23-0.8.0.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/06/01/291b16f862c076ce7d41e568a3165866abb01450ba80b6365c2333644291/lmanage-0.3.8.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [secureli]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/e3/f2/a4a36b457fcdccd2a68c88ad51def572b655a45518692d4f27f478c093b9/pytest_time-0.1.0.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/fd/9c/75371f4fb58180be5c61f0bbeb9bb4acfdd8346695078152649022e2d5dc/secureli-0.4.1.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/d4/2e/45e2ac8fabb03178e415d273d64259ee0a3a310fc4aaa21d87a6acade773/lmanage-0.3.9.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/d8/8c/3c3ec7fab6da292136b2d12a51c0729960f8bfd4dbbd47f93eb112cb5290/pytest_time-0.1.1.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/52/79/9f38753756af22d3b4534c7c8b6dbd01380f866967c87915348505e5e08d/m23-0.9.0.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.8.tar.gz tmp/lmanage-0.3.9.tar.gz --markdown 20230617/l/lmanage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pytest-time]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pytest-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_time-0.1.0.tar.gz tmp/pytest_time-0.1.1.tar.gz --markdown 20230617/p/pytest-time/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 00:37:54] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230617/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230617/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-17 00:37:54] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/b3/a0/7a61d42ed07e3fcce54d961a07b89d2f0f6afb31f565d910ffe26b5d89b1/secureli-0.4.2.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-0.8.0.tar.gz tmp/m23-0.9.0.tar.gz --markdown 20230617/m/m23/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 00:37:54] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-17 00:37:54] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-06-17 00:37:54] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.4.1.tar.gz tmp/secureli-0.4.2.tar.gz --markdown 20230617/s/secureli/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-17 00:37:55] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-17 00:37:55] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-17 00:37:55] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230617/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-17 00:37:55] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-17 00:37:55] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-17 00:37:55] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-17 00:37:55] INFO root fetch - processPackages [pytest-time]: Remove: archive file [/home/abi/fetcher/tmp/pytest_time-0.1.0.tar.gz]
+[2023-06-17 00:37:55] INFO root fetch - processPackages [pytest-time]: Remove: archive file [/home/abi/fetcher/tmp/pytest_time-0.1.1.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - main [MainThread]: End processing [pytest-time]: success
+[2023-06-17 00:37:56] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-0.8.0.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-0.9.0.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-17 00:37:56] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-17 00:37:56] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.4.1.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.4.2.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-06-17 00:37:56] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.8.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.9.tar.gz]
+[2023-06-17 00:37:56] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-06-17 00:38:00] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-17 00:38:00] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-17 00:38:00] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-17 00:38:00] INFO root fetch - main [MainThread]: Store serial: [18538016]
