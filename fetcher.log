@@ -739,3 +739,78 @@
 [2023-06-17 00:59:40] INFO root fetch - processPackages [scale-sensor-fusion-io]: Remove: archive file [/home/abi/fetcher/tmp/scale_sensor_fusion_io-0.2.3.tar.gz]
 [2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
 [2023-06-17 00:59:40] INFO root fetch - main [MainThread]: Store serial: [18538099]
+[2023-06-17 01:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538099]
+[2023-06-17 01:04:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opteryx
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-fastetl
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodvana
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kedro-ibis-dataset
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ofscraper
+[2023-06-17 01:04:50] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ofscraper]: New version: [2.4.3] Old Version: [2.4.1]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230615] Old Version: [0.7.0b20230614]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/4f/17/c915dd2ed7fe070ba6037fde008fc78b9a5b952facd7a29535f107498a5b/kedro_ibis_dataset-0.0.1.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [prodvana]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/f2/c2/9e7ac137ff43470836125dc5e1c2227595775ef8f30a2c6d2085dd8eb7fe/apache-airflow-providers-fastetl-0.0.8.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230615] Old Version: [0.7.0b20230614]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a3/f2/bb0b6b9037f3514f2c43bb836db6ad3ff3d1c062433cf1963f7bf00d1d14/tmnt-0.7.0b20230614.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/74/d6/13fc19f385aa5ed8661a7426365a6aedbefa8bc477366e2af5ffe4048233/ofscraper-2.4.1.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230616] Old Version: [1.5.0.dev20230615]
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/63/aa/e1b9b8471886412cf110dc24f4134fea127450ffda27a7069faf38d44137/tmnt-cu101-0.7.0b20230614.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/5e/91/765e2a472f1ca3feaa2526a4bbec45d770e3d67f120965da4092459d8d99/opteryx-0.9.2.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/4e/75/3473c4ab2fcf9448e163015d2ae905180fcc7238e940748a1153d00d90ea/kedro_ibis_dataset-0.0.2.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/3a/7a/c54125ee1d8b035c415415bfef4c63e7901981f8f2ce0cdd04746a4dcdd5/prodvana-0.1.8.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/69/fa/5225b177cd9250d8c201b76d2df3896698e6ec77ad978907c3a3a2208aea/tmnt-0.7.0b20230615.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/d4/f8/baf9fc62b93aeb50681580f8298179926c73ad768fa3910640c56d6c583e/apache-airflow-providers-fastetl-0.0.9.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/1b/70/8a12fbb8a2dcd8d74833226bcb51e31b6bd5072e457c98915de61b9a6319/flwr_nightly-1.5.0.dev20230615.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 01:04:50] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.1.tar.gz tmp/kedro_ibis_dataset-0.0.2.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/be/ad/3b59039a2d2f643c22511b3cb3b8841e5ce4d30d1fce9d469844eebe3b9f/ofscraper-2.4.3.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/51/c9/1d827600d9a2e25417027b2c8ef27b9a9f0d2108153e7a41b45ee98c0d01/tmnt-cu101-0.7.0b20230615.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-06-17 01:04:50] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz --markdown 20230617/a/apache-airflow-providers-fastetl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-06-17 01:04:50] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.4.1.tar.gz tmp/ofscraper-2.4.3.tar.gz --markdown 20230617/o/ofscraper/2.4.1-2.4.3/diff.md --exclude *.pyd
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230614.tar.gz tmp/tmnt-0.7.0b20230615.tar.gz --markdown 20230617/t/tmnt/0.7.0b20230614-0.7.0b20230615/diff.md --exclude *.pyd
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-17 01:04:50] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230614.tar.gz tmp/tmnt-cu101-0.7.0b20230615.tar.gz --markdown 20230617/t/tmnt-cu101/0.7.0b20230614-0.7.0b20230615/diff.md --exclude *.pyd
+[2023-06-17 01:04:50] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/69/06/90596fb26d2ac7ef4f64a6b7aacf20cb6a48fa7fea333d8c5b9ad537072d/prodvana-0.1.9.tar.gz
+[2023-06-17 01:04:50] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/61/db/374cdd73cfd94a76e1e790afe796260fecf210ee789452cba06f319b53d2/flwr_nightly-1.5.0.dev20230616.tar.gz
+[2023-06-17 01:04:51] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/64/71/44793ad728906cb5f308a98ffac1dea36c22000fac4080dd51bc5c9a0ef4/opteryx-0.9.3.tar.gz
+[2023-06-17 01:04:51] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2023-06-17 01:04:51] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.1.8.tar.gz tmp/prodvana-0.1.9.tar.gz --markdown 20230617/p/prodvana/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 01:04:51] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-17 01:04:51] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230615.tar.gz tmp/flwr_nightly-1.5.0.dev20230616.tar.gz --markdown 20230617/f/flwr-nightly/1.5.0.dev20230615-1.5.0.dev20230616/diff.md --exclude *.pyd
+[2023-06-17 01:04:51] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2023-06-17 01:04:51] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20230617/o/opteryx/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-17 01:04:51] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.1.tar.gz]
+[2023-06-17 01:04:51] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.2.tar.gz]
+[2023-06-17 01:04:51] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 01:04:52] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-06-17 01:04:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230614.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230615.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-17 01:04:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230614.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230615.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-17 01:04:52] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.4.1.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.4.3.tar.gz]
+[2023-06-17 01:04:52] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-06-17 01:04:53] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.2.tar.gz]
+[2023-06-17 01:04:53] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.3.tar.gz]
+[2023-06-17 01:04:53] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2023-06-17 01:04:53] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.8.tar.gz]
+[2023-06-17 01:04:53] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.9.tar.gz]
+[2023-06-17 01:04:53] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2023-06-17 01:04:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230615.tar.gz]
+[2023-06-17 01:04:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230616.tar.gz]
+[2023-06-17 01:04:54] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-17 01:04:54] INFO root fetch - main [MainThread]: Store serial: [18538137]
