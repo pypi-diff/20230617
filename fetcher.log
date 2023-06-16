@@ -1033,3 +1033,59 @@
 [2023-06-17 01:31:47] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.1.tar.gz]
 [2023-06-17 01:31:47] INFO root fetch - main [MainThread]: End processing [api-master]: success
 [2023-06-17 01:31:47] INFO root fetch - main [MainThread]: Store serial: [18538226]
+[2023-06-17 01:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538226]
+[2023-06-17 01:36:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Algorithm-Selection
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: featureform
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Algorithm-Selection
+[2023-06-17 01:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitmopy
+[2023-06-17 01:36:57] INFO root fetch - processPackages [gitmopy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-17 01:36:57] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-17 01:36:57] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 01:36:57] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc1] Old Version: [1.9.2rc0]
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 01:36:57] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/7e/35/a142c588d939315893c348305124a2d2f5c3993063b14adc62cdc386f6be/gitmopy-0.2.0.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/3c/04/58e56cf6d8077fbb3f1e68be4ce4f4d893c8d78cfee1a6c214090afb783c/Algorithm-Selection-0.0.7.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/3c/04/58e56cf6d8077fbb3f1e68be4ce4f4d893c8d78cfee1a6c214090afb783c/Algorithm-Selection-0.0.7.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/10/40/da24d337dd9cb37ae33ce45f19a9cdd28496724f27233355d314e1e3089c/featureform-1.9.2rc0.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-17 01:36:57] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/ae/07/c96168d2bafc9ae6c3d26f8a17d246a0271c46518a249834e022a36f9854/Algorithm-Selection-0.0.8.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/ae/07/c96168d2bafc9ae6c3d26f8a17d246a0271c46518a249834e022a36f9854/Algorithm-Selection-0.0.8.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/6b/0f/ce2585f802a61d917c534b9f9b7925492e5cc8befa28818b017932fc49f3/featureform-1.9.2rc1.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/db/f0/b38c24dce38f6a22622eac6e41a12d9764dfc10f9434a9453bbe0fa39f1a/gitmopy-0.3.0.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: executing diffoscope
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algorithm-Selection-0.0.7.tar.gz tmp/Algorithm-Selection-0.0.8.tar.gz --markdown 20230617/A/Algorithm-Selection/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 01:36:57] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: executing diffoscope
+[2023-06-17 01:36:57] INFO root fetch - processPackages [Algorithm-Selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algorithm-Selection-0.0.7.tar.gz tmp/Algorithm-Selection-0.0.8.tar.gz --markdown 20230617/A/Algorithm-Selection/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 01:36:57] INFO root fetch - processPackages [gitmopy]: executing diffoscope
+[2023-06-17 01:36:57] INFO root fetch - processPackages [gitmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitmopy-0.2.0.tar.gz tmp/gitmopy-0.3.0.tar.gz --markdown 20230617/g/gitmopy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 01:36:57] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 01:36:57] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc0.tar.gz tmp/featureform-1.9.2rc1.tar.gz --markdown 20230617/f/featureform/1.9.2rc0-1.9.2rc1/diff.md --exclude *.pyd
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-17 01:36:58] INFO root fetch - processPackages [Algorithm-Selection]: Remove: archive file [/home/abi/fetcher/tmp/Algorithm-Selection-0.0.7.tar.gz]
+[2023-06-17 01:36:58] INFO root fetch - processPackages [Algorithm-Selection]: Remove: archive file [/home/abi/fetcher/tmp/Algorithm-Selection-0.0.8.tar.gz]
+[2023-06-17 01:36:58] INFO root fetch - main [MainThread]: End processing [Algorithm-Selection]: success
+[2023-06-17 01:36:58] INFO root fetch - main [MainThread]: End processing [Algorithm-Selection]: success
+[2023-06-17 01:36:58] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.2.0.tar.gz]
+[2023-06-17 01:36:58] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.0.tar.gz]
+[2023-06-17 01:36:58] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230617/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-17 01:36:58] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230617/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-17 01:37:04] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-17 01:37:05] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-17 01:37:05] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-17 01:37:05] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-17 01:37:23] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc0.tar.gz]
+[2023-06-17 01:37:23] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc1.tar.gz]
+[2023-06-17 01:37:23] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 01:37:23] INFO root fetch - main [MainThread]: Store serial: [18538250]
