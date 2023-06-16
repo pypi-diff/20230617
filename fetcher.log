@@ -332,3 +332,51 @@
 [2023-06-17 00:22:09] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.9.tar.gz]
 [2023-06-17 00:22:09] INFO root fetch - main [MainThread]: End processing [lmanage]: success
 [2023-06-17 00:22:09] INFO root fetch - main [MainThread]: Store serial: [18537948]
+[2023-06-17 00:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18537948]
+[2023-06-17 00:27:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 00:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deduplicationdict
+[2023-06-17 00:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-apertium
+[2023-06-17 00:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrademacher
+[2023-06-17 00:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: american-options
+[2023-06-17 00:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsociety
+[2023-06-17 00:27:18] INFO root fetch - processPackages [deduplicationdict]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 00:27:18] INFO root fetch - processPackages [tree-sitter-apertium]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 00:27:18] INFO root fetch - processPackages [american-options]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 00:27:18] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-17 00:27:18] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/02/12/6b35c4f5c1445a0947c03a2d92b9549033a7c04b9cb4afb639778d7fb131/pyrademacher-0.9.8.tar.gz
+[2023-06-17 00:27:18] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/23/70/762cd77a1c1730831ab8dad311cb05b9cf694239ba858637c778307a4d4e/tree-sitter-apertium-0.1.4.tar.gz
+[2023-06-17 00:27:18] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/68/78/2dddd8b54afad92d6393704c256f6fbafe94523702e6f7aab26625fdf5c5/american_options-0.1.2.tar.gz
+[2023-06-17 00:27:18] INFO root fetch - processPackages [fsociety]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-06-17 00:27:18] INFO root fetch - processPackages [deduplicationdict]: Downloading https://files.pythonhosted.org/packages/1e/ff/ebc4c137d4e3c0d4ba36d221d8db6b637f42fe264632ceb030360b3112bc/deduplicationdict-1.0.1.tar.gz
+[2023-06-17 00:27:18] INFO root fetch - processPackages [fsociety]: Downloading https://files.pythonhosted.org/packages/bf/19/0372236ead3340abc61aa127cfd0641c04689c9fdaf99be32ed62b2ff616/fsociety-3.2.8.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/97/06/40b8c17bb8a3a79653e7c9fa154c89fb8e4e1122553a6f696919593d2fa9/pyrademacher-0.9.9.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/bd/02/50fefc836cc92b020c20e325fb931bd8a0995d51fbb290a18275d224ce47/american_options-0.1.3.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-17 00:27:19] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.8.tar.gz tmp/pyrademacher-0.9.9.tar.gz --markdown 20230617/p/pyrademacher/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-17 00:27:19] INFO root fetch - processPackages [american-options]: executing diffoscope
+[2023-06-17 00:27:19] INFO root fetch - processPackages [american-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/american_options-0.1.2.tar.gz tmp/american_options-0.1.3.tar.gz --markdown 20230617/a/american-options/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 00:27:19] INFO root fetch - processPackages [deduplicationdict]: Downloading https://files.pythonhosted.org/packages/77/1f/701ce11e743b4e8ff0364c9df888cf017de229cf03d9ac4ff64b87e23241/deduplicationdict-1.0.2.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/dc/a1/008a20822ce82639aa424c34620449cbd12d57dfff0362f0810b86d732f2/tree-sitter-apertium-0.1.5.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [fsociety]: Downloading https://files.pythonhosted.org/packages/c2/70/527a3971031a9783957c000be4f158ddfd4d17ec4d0390ea152f3a17aae4/fsociety-3.2.9.tar.gz
+[2023-06-17 00:27:19] INFO root fetch - processPackages [tree-sitter-apertium]: executing diffoscope
+[2023-06-17 00:27:19] INFO root fetch - processPackages [tree-sitter-apertium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-apertium-0.1.4.tar.gz tmp/tree-sitter-apertium-0.1.5.tar.gz --markdown 20230617/t/tree-sitter-apertium/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 00:27:19] INFO root fetch - processPackages [deduplicationdict]: executing diffoscope
+[2023-06-17 00:27:19] INFO root fetch - processPackages [deduplicationdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deduplicationdict-1.0.1.tar.gz tmp/deduplicationdict-1.0.2.tar.gz --markdown 20230617/d/deduplicationdict/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 00:27:19] INFO root fetch - processPackages [fsociety]: executing diffoscope
+[2023-06-17 00:27:19] INFO root fetch - processPackages [fsociety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsociety-3.2.8.tar.gz tmp/fsociety-3.2.9.tar.gz --markdown 20230617/f/fsociety/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-06-17 00:27:20] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.8.tar.gz]
+[2023-06-17 00:27:20] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.9.tar.gz]
+[2023-06-17 00:27:20] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-17 00:27:21] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.2.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.3.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - main [MainThread]: End processing [american-options]: success
+[2023-06-17 00:27:21] INFO root fetch - processPackages [deduplicationdict]: Remove: archive file [/home/abi/fetcher/tmp/deduplicationdict-1.0.1.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - processPackages [deduplicationdict]: Remove: archive file [/home/abi/fetcher/tmp/deduplicationdict-1.0.2.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - main [MainThread]: End processing [deduplicationdict]: success
+[2023-06-17 00:27:21] INFO root fetch - processPackages [fsociety]: Remove: archive file [/home/abi/fetcher/tmp/fsociety-3.2.8.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - processPackages [fsociety]: Remove: archive file [/home/abi/fetcher/tmp/fsociety-3.2.9.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - main [MainThread]: End processing [fsociety]: success
+[2023-06-17 00:27:21] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.4.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.5.tar.gz]
+[2023-06-17 00:27:21] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
+[2023-06-17 00:27:21] INFO root fetch - main [MainThread]: Store serial: [18537975]
