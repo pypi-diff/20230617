@@ -1217,3 +1217,24 @@
 [2023-06-17 01:53:11] INFO root fetch - processPackages [bigquery-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-17 01:53:11] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
 [2023-06-17 01:53:11] INFO root fetch - main [MainThread]: Store serial: [18538301]
+[2023-06-17 01:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538301]
+[2023-06-17 01:58:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 01:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kedro-ibis-dataset
+[2023-06-17 01:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excel-models
+[2023-06-17 01:58:19] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 01:58:19] INFO root fetch - processPackages [excel-models]: New version: [0.3] Old Version: [0.2.1]
+[2023-06-17 01:58:20] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/f9/d0/502e8ba108f82b3ec6f4c7fd7ee506773f743e317b0dbde2f0fb59a6af45/kedro_ibis_dataset-0.0.3.tar.gz
+[2023-06-17 01:58:20] INFO root fetch - processPackages [excel-models]: Downloading https://files.pythonhosted.org/packages/6d/4e/27818e5385077f7f6564b524340072e7a4477834869d97ade1b7793dd908/excel-models-0.2.1.tar.gz
+[2023-06-17 01:58:20] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/a7/f0/0d27a89d88e76d3ef3eb2219e48a8a7c8f4bb5e0ecaa32f332bb8aa86927/kedro_ibis_dataset-0.0.4.tar.gz
+[2023-06-17 01:58:20] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 01:58:20] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.3.tar.gz tmp/kedro_ibis_dataset-0.0.4.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 01:58:20] INFO root fetch - processPackages [excel-models]: Downloading https://files.pythonhosted.org/packages/72/9d/dc723b317ca3dda8bc8ab9cbd761fc926326649402fd8bb72b7b9297b262/excel-models-0.3.tar.gz
+[2023-06-17 01:58:20] INFO root fetch - processPackages [excel-models]: executing diffoscope
+[2023-06-17 01:58:20] INFO root fetch - processPackages [excel-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel-models-0.2.1.tar.gz tmp/excel-models-0.3.tar.gz --markdown 20230617/e/excel-models/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-06-17 01:58:21] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.3.tar.gz]
+[2023-06-17 01:58:21] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.4.tar.gz]
+[2023-06-17 01:58:21] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 01:58:22] INFO root fetch - processPackages [excel-models]: Remove: archive file [/home/abi/fetcher/tmp/excel-models-0.2.1.tar.gz]
+[2023-06-17 01:58:22] INFO root fetch - processPackages [excel-models]: Remove: archive file [/home/abi/fetcher/tmp/excel-models-0.3.tar.gz]
+[2023-06-17 01:58:22] INFO root fetch - main [MainThread]: End processing [excel-models]: success
+[2023-06-17 01:58:22] INFO root fetch - main [MainThread]: Store serial: [18538307]
