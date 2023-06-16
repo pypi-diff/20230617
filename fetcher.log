@@ -277,3 +277,58 @@
 [2023-06-17 00:16:00] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
 [2023-06-17 00:16:00] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2023-06-17 00:16:00] INFO root fetch - main [MainThread]: Store serial: [18537897]
+[2023-06-17 00:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18537897]
+[2023-06-17 00:21:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmanage
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scmagneto
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thundra
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxruntime
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxruntime-directml
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scmagneto
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protoletariat
+[2023-06-17 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onnxruntime-gpu
+[2023-06-17 00:21:09] INFO root fetch - processPackages [lmanage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-17 00:21:09] WARNING root fetch - processPackages [scmagneto]: Skipping, unable to determine old version
+[2023-06-17 00:21:09] INFO root fetch - main [MainThread]: End processing [scmagneto] error
+[2023-06-17 00:21:09] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 00:21:09] WARNING root fetch - processPackages [scmagneto]: Skipping, unable to determine old version
+[2023-06-17 00:21:09] INFO root fetch - main [MainThread]: End processing [scmagneto] error
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime-directml]: New version: [1.9.0] Old Version: [1.15.1]
+[2023-06-17 00:21:10] INFO root fetch - processPackages [protoletariat]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-06-17 00:21:10] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime-gpu]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-17 00:21:10] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/06/01/291b16f862c076ce7d41e568a3165866abb01450ba80b6365c2333644291/lmanage-0.3.8.tar.gz
+[2023-06-17 00:21:10] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime-directml]: Downloading https://files.pythonhosted.org/packages/8a/90/ad1489dd3c13e4d5285db5789ddeaabd7b48f4337ffe336068c840199021/onnxruntime_directml-1.15.1-cp39-cp39-win_amd64.whl
+[2023-06-17 00:21:10] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime]: Downloading https://files.pythonhosted.org/packages/c7/d4/b59694df6ca8308dea9c979520058fbcf197fc37cd5cbd9f2759e8caad3b/onnxruntime-1.8.1-cp39-cp39-win_amd64.whl
+[2023-06-17 00:21:10] INFO root fetch - processPackages [onnxruntime-gpu]: Downloading https://files.pythonhosted.org/packages/e7/99/ac9d4415ed323a9e3aee4757b078bb108cfbf04dd52f68eef73500f53fe1/onnxruntime_gpu-1.8.1-cp39-cp39-win_amd64.whl
+[2023-06-17 00:21:10] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 00:21:10] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 00:21:10] WARNING root fetch - processPackages [onnxruntime-gpu]: Skipping package: exceeds size limit 62696041>=10485760
+[2023-06-17 00:21:10] INFO root fetch - main [MainThread]: End processing [onnxruntime-gpu] error
+[2023-06-17 00:21:10] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/d4/2e/45e2ac8fabb03178e415d273d64259ee0a3a310fc4aaa21d87a6acade773/lmanage-0.3.9.tar.gz
+[2023-06-17 00:21:10] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-06-17 00:21:10] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.8.tar.gz tmp/lmanage-0.3.9.tar.gz --markdown 20230617/l/lmanage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-17 00:21:10] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/82/e9/8d4ccdda9f4ef2c3528285f9a792eedd538a2690ca7e808a885a3eb7116e/protoletariat-3.2.9.tar.gz
+[2023-06-17 00:21:10] WARNING root fetch - processPackages [onnxruntime-directml]: Skipping package: exceeds size limit 14700230>=10485760
+[2023-06-17 00:21:10] INFO root fetch - main [MainThread]: End processing [onnxruntime-directml] error
+[2023-06-17 00:21:10] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-06-17 00:21:10] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.8.tar.gz tmp/protoletariat-3.2.9.tar.gz --markdown 20230617/p/protoletariat/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-06-17 00:21:11] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-17 00:21:11] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-17 00:21:11] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 00:21:11] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.8.tar.gz]
+[2023-06-17 00:21:11] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.9.tar.gz]
+[2023-06-17 00:21:11] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-06-17 00:21:12] INFO root fetch - processPackages [onnxruntime]: Downloading https://files.pythonhosted.org/packages/4b/f2/fc1fe9109358a1750996ebd16ac7666244025f1613f4e61a5fd47ca069b5/onnxruntime-1.9.0-cp39-cp39-win_amd64.whl
+[2023-06-17 00:21:13] INFO root fetch - processPackages [onnxruntime]: executing diffoscope
+[2023-06-17 00:21:13] INFO root fetch - processPackages [onnxruntime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime-1.8.1-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230617/o/onnxruntime/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-17 00:21:16] INFO root fetch - processPackages [onnxruntime]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime-1.8.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 00:21:16] INFO root fetch - processPackages [onnxruntime]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 00:21:16] INFO root fetch - main [MainThread]: End processing [onnxruntime]: success
+[2023-06-17 00:22:09] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.8.tar.gz]
+[2023-06-17 00:22:09] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.9.tar.gz]
+[2023-06-17 00:22:09] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-06-17 00:22:09] INFO root fetch - main [MainThread]: Store serial: [18537948]
