@@ -814,3 +814,68 @@
 [2023-06-17 01:04:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230616.tar.gz]
 [2023-06-17 01:04:54] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-06-17 01:04:54] INFO root fetch - main [MainThread]: Store serial: [18538137]
+[2023-06-17 01:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538137]
+[2023-06-17 01:10:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hveto
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-decorators
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orbax-checkpoint
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qick
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bunnyapi
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesiwka
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: revelionn
+[2023-06-17 01:10:04] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [hveto]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [orbax-checkpoint]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [qick]: New version: [0.2.152] Old Version: [0.2.151]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.365] Old Version: [0.3.364]
+[2023-06-17 01:10:04] WARNING root fetch - processPackages [revelionn]: Skipping, unable to determine old version
+[2023-06-17 01:10:04] INFO root fetch - main [MainThread]: End processing [revelionn] error
+[2023-06-17 01:10:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/54/49/c9dec70e45cdbfb48225b620a103fb2777846f317a602e6d69cd1ac0e897/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz
+[2023-06-17 01:10:04] INFO root fetch - processPackages [bunnyapi]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [lesiwka]: New version: [2.1.20230616.0] Old Version: [2.1.20230423.0]
+[2023-06-17 01:10:04] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/d5/a8/87105454a80ca8f345a8fd9583c0ace769e93ada6482d802193467139f75/orbax_checkpoint-0.2.5.tar.gz
+[2023-06-17 01:10:04] INFO root fetch - processPackages [hveto]: Downloading https://files.pythonhosted.org/packages/f5/28/bf34dbd3191362644a713c0c36f68c1ff61e22652d827837eb5007e2f767/hveto-2.1.3.tar.gz
+[2023-06-17 01:10:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/6c/f2cead43b6a6671722671012823751413a35fb967ae59cfd2a86965b649a/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz
+[2023-06-17 01:10:04] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/fd/61/33191e9436cb6ab380b6972c9234b2d9d6a68b48a65a29aa5702e0fe1c54/qick-0.2.151.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [lesiwka]: Downloading https://files.pythonhosted.org/packages/2f/e1/a5f05714ac35163264f4bcb81890888c561594abb43e6192b61f6d2b29c5/lesiwka-2.1.20230423.0.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz --markdown 20230617/p/pepperize.cdk-ses-smtp-credentials/0.3.364-0.3.365/diff.md --exclude *.pyd
+[2023-06-17 01:10:05] INFO root fetch - processPackages [bunnyapi]: Downloading https://files.pythonhosted.org/packages/81/75/d931ee62140ca676b1f25b0f7f63c610d1591cc9d1de7f40dfa6caa38f03/bunnyApi-0.1.1.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [orbax-checkpoint]: Downloading https://files.pythonhosted.org/packages/9d/35/c6f1c241d7c7a790a6cb63d41f2fd53115a41c63a37c1240b77d51840ec2/orbax_checkpoint-0.2.6.tar.gz
+[2023-06-17 01:10:05] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13546710>=10485760
+[2023-06-17 01:10:05] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-06-17 01:10:05] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/4f/85/aa2958e5e7c4554b7931edb92a6fc617dffcefee63444a8211db21a6a635/langchain-decorators-0.0.7.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [hveto]: Downloading https://files.pythonhosted.org/packages/54/c7/7edd7fdcd3c24be54852eb33cbe628a8c2334f1d3682b2a0b8dec12f4b29/hveto-2.1.4.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [orbax-checkpoint]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [orbax-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbax_checkpoint-0.2.5.tar.gz tmp/orbax_checkpoint-0.2.6.tar.gz --markdown 20230617/o/orbax-checkpoint/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 01:10:05] INFO root fetch - processPackages [hveto]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [hveto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hveto-2.1.3.tar.gz tmp/hveto-2.1.4.tar.gz --markdown 20230617/h/hveto/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-17 01:10:05] INFO root fetch - processPackages [lesiwka]: Downloading https://files.pythonhosted.org/packages/62/73/6e460b9abb76c96168199451a60941927711fc1ab89d748bc377d2a0de15/lesiwka-2.1.20230616.0.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [bunnyapi]: Downloading https://files.pythonhosted.org/packages/9b/d7/473acf16fdd0aa2f0eee2c90213d193cd6eb655205c1bc1724776d046d2d/bunnyapi-0.1.5.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/d9/df/ebebbf4dd21793b1ca5212be8e0f7cba37e8c611bbd80b3110f8573c2892/langchain-decorators-0.0.8.tar.gz
+[2023-06-17 01:10:05] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.7.tar.gz tmp/langchain-decorators-0.0.8.tar.gz --markdown 20230617/l/langchain-decorators/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 01:10:05] INFO root fetch - processPackages [lesiwka]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [lesiwka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesiwka-2.1.20230423.0.tar.gz tmp/lesiwka-2.1.20230616.0.tar.gz --markdown 20230617/l/lesiwka/2.1.20230423.0-2.1.20230616.0/diff.md --exclude *.pyd
+[2023-06-17 01:10:05] INFO root fetch - processPackages [bunnyapi]: executing diffoscope
+[2023-06-17 01:10:05] INFO root fetch - processPackages [bunnyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bunnyApi-0.1.1.tar.gz tmp/bunnyapi-0.1.5.tar.gz --markdown 20230617/b/bunnyapi/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 01:10:06] INFO root fetch - processPackages [hveto]: Remove: archive file [/home/abi/fetcher/tmp/hveto-2.1.3.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [hveto]: Remove: archive file [/home/abi/fetcher/tmp/hveto-2.1.4.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [hveto]: success
+[2023-06-17 01:10:06] INFO root fetch - processPackages [orbax-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/orbax_checkpoint-0.2.5.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [orbax-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/orbax_checkpoint-0.2.6.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [orbax-checkpoint]: success
+[2023-06-17 01:10:06] INFO root fetch - processPackages [bunnyapi]: Remove: archive file [/home/abi/fetcher/tmp/bunnyApi-0.1.1.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [bunnyapi]: Remove: archive file [/home/abi/fetcher/tmp/bunnyapi-0.1.5.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [bunnyapi]: success
+[2023-06-17 01:10:06] INFO root fetch - processPackages [lesiwka]: Remove: archive file [/home/abi/fetcher/tmp/lesiwka-2.1.20230423.0.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [lesiwka]: Remove: archive file [/home/abi/fetcher/tmp/lesiwka-2.1.20230616.0.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [lesiwka]: success
+[2023-06-17 01:10:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-17 01:10:06] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.7.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.8.tar.gz]
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-06-17 01:10:06] INFO root fetch - main [MainThread]: Store serial: [18538164]
