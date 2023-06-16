@@ -1089,3 +1089,24 @@
 [2023-06-17 01:37:23] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc1.tar.gz]
 [2023-06-17 01:37:23] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-17 01:37:23] INFO root fetch - main [MainThread]: Store serial: [18538250]
+[2023-06-17 01:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538250]
+[2023-06-17 01:42:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 01:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatial-summarize-within
+[2023-06-17 01:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2023-06-17 01:42:32] INFO root fetch - processPackages [spatial-summarize-within]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 01:42:32] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-17 01:42:32] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/c0/57/bd8bc58ecab184b2d442e25544faaf3f459b52237f72dd0e7f707487e065/spatial_summarize_within-1.0.1.tar.gz
+[2023-06-17 01:42:32] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-17 01:42:33] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/64/fd/d33585dd4540e2e2aa7082f3e76edea504bc4352923c8525fc5e0db67203/spatial_summarize_within-1.0.2.tar.gz
+[2023-06-17 01:42:33] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-17 01:42:33] INFO root fetch - processPackages [spatial-summarize-within]: executing diffoscope
+[2023-06-17 01:42:33] INFO root fetch - processPackages [spatial-summarize-within]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_summarize_within-1.0.1.tar.gz tmp/spatial_summarize_within-1.0.2.tar.gz --markdown 20230617/s/spatial-summarize-within/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 01:42:33] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-17 01:42:33] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230617/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-17 01:42:34] INFO root fetch - processPackages [spatial-summarize-within]: Remove: archive file [/home/abi/fetcher/tmp/spatial_summarize_within-1.0.1.tar.gz]
+[2023-06-17 01:42:34] INFO root fetch - processPackages [spatial-summarize-within]: Remove: archive file [/home/abi/fetcher/tmp/spatial_summarize_within-1.0.2.tar.gz]
+[2023-06-17 01:42:34] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
+[2023-06-17 01:42:42] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-17 01:42:42] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-17 01:42:42] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-17 01:42:42] INFO root fetch - main [MainThread]: Store serial: [18538256]
