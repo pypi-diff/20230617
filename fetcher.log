@@ -211,3 +211,69 @@
 [2023-06-17 00:10:46] INFO root fetch - main [MainThread]: End processing [cortex-command-mod-converter-engine]: success
 [2023-06-17 00:10:46] INFO root fetch - main [MainThread]: End processing [thundra]: success
 [2023-06-17 00:10:46] INFO root fetch - main [MainThread]: Store serial: [18537878]
+[2023-06-17 00:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18537878]
+[2023-06-17 00:15:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vercel-llm-api
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aolab-bmi3d
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thundra
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitsnet-py
+[2023-06-17 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-github
+[2023-06-17 00:15:56] INFO root fetch - processPackages [aolab-bmi3d]: New version: [0.9.4] Old Version: [0.9.3.7]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [vercel-llm-api]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [coiled]: New version: [0.7.7.dev9] Old Version: [0.7.7.dev6]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [aolab-bmi3d]: Downloading https://files.pythonhosted.org/packages/a8/fa/a9c80df6ae4f2692e667f714d3076af1b532daa2b1d458b3932d95ba0b97/aolab-bmi3d-0.9.3.7.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-17 00:15:56] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/00/aa/b1a3be66c0fe55b3ca8a7093b209c44ddec604fb3eb79f4d84697559ea66/coiled-0.7.7.dev6.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 00:15:56] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/d4/7f/d27ba979dec01024518a23294082ebea5ed4d1cf85c8bb8d3e64d702bbc6/vercel_llm_api-0.1.1-py3-none-any.whl
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230617/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/20/4b/eefeb59ad67b8f6efb9cd42d78923d2261d22ab585c8378a359bc6c7f28a/unitsnet-py-0.1.39.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [aolab-bmi3d]: Downloading https://files.pythonhosted.org/packages/12/09/a386f236d756afc99f9853239afd661d9b42c5fee6bd546e101afa92fc8c/aolab-bmi3d-0.9.4.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/63/58/ce8e78d3ae0a140c4fcf759b53dd2acc7e72fc32836991f092c85d87f208/coiled-0.7.7.dev9.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [aolab-bmi3d]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [aolab-bmi3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aolab-bmi3d-0.9.3.7.tar.gz tmp/aolab-bmi3d-0.9.4.tar.gz --markdown 20230617/a/aolab-bmi3d/0.9.3.7-0.9.4/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.7.dev6.tar.gz tmp/coiled-0.7.7.dev9.tar.gz --markdown 20230617/c/coiled/0.7.7.dev6-0.7.7.dev9/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/5a/5f/e35aeb3f38ea5924272e77064947942404b0453c66034e3224ac98d3d5ee/vercel_llm_api-0.2.0-py3-none-any.whl
+[2023-06-17 00:15:56] INFO root fetch - processPackages [vercel-llm-api]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [vercel-llm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vercel_llm_api-0.1.1-py3-none-any.whl.zip tmp/vercel_llm_api-0.2.0-py3-none-any.whl.zip --markdown 20230617/v/vercel-llm-api/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-17 00:15:56] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230617/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-17 00:15:56] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/e1/57/2e55082375ca275f1895c10b75ed7d756fea3d95749e2ea868b4bf9c92d5/unitsnet-py-0.1.40.tar.gz
+[2023-06-17 00:15:56] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-06-17 00:15:57] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.39.tar.gz tmp/unitsnet-py-0.1.40.tar.gz --markdown 20230617/u/unitsnet-py/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-06-17 00:15:57] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-17 00:15:57] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-17 00:15:57] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 00:15:57] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.1.1-py3-none-any.whl.zip]
+[2023-06-17 00:15:57] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.2.0-py3-none-any.whl.zip]
+[2023-06-17 00:15:57] INFO root fetch - main [MainThread]: End processing [vercel-llm-api]: success
+[2023-06-17 00:15:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-17 00:15:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.7.dev6.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.7.dev9.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-17 00:15:58] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.39.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.40.tar.gz]
+[2023-06-17 00:15:58] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-06-17 00:15:59] INFO root fetch - processPackages [aolab-bmi3d]: Remove: archive file [/home/abi/fetcher/tmp/aolab-bmi3d-0.9.3.7.tar.gz]
+[2023-06-17 00:15:59] INFO root fetch - processPackages [aolab-bmi3d]: Remove: archive file [/home/abi/fetcher/tmp/aolab-bmi3d-0.9.4.tar.gz]
+[2023-06-17 00:15:59] INFO root fetch - main [MainThread]: End processing [aolab-bmi3d]: success
+[2023-06-17 00:16:00] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-17 00:16:00] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-17 00:16:00] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-17 00:16:00] INFO root fetch - main [MainThread]: Store serial: [18537897]
