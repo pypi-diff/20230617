@@ -92,3 +92,122 @@
 [2023-06-17 00:05:31] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip]
 [2023-06-17 00:05:31] INFO root fetch - main [MainThread]: End processing [altimeter]: success
 [2023-06-17 00:05:31] INFO root fetch - main [MainThread]: Store serial: [18537820]
+[2023-06-17 00:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18537820]
+[2023-06-17 00:10:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cortex-command-mod-converter-engine
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nuvpy
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectorstore
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reasoner-validator
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aolab-bmi3d
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-fluentbit
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghrocker
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lmanage
+[2023-06-17 00:10:41] INFO root fetch - processPackages [nuvpy]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 00:10:41] WARNING root fetch - processPackages [vectorstore]: Skipping, unable to determine old version
+[2023-06-17 00:10:41] INFO root fetch - processPackages [aolab-bmi3d]: New version: [0.9.3.7] Old Version: [0.9.3.6]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [vectorstore]: Start processing: pytheus
+[2023-06-17 00:10:41] INFO root fetch - main [MainThread]: End processing [vectorstore] error
+[2023-06-17 00:10:41] INFO root fetch - processPackages [reasoner-validator]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [nuvpy]: Downloading https://files.pythonhosted.org/packages/8f/55/bde382c0478fa7c2edfc266566031e1431ae0cbbd6034d0fa6e90161d674/nuvpy-1.4.6.tar.gz
+[2023-06-17 00:10:41] INFO root fetch - processPackages [aolab-bmi3d]: Downloading https://files.pythonhosted.org/packages/70/2e/dbdcc37884e875b28e98d89c7b151ec8515724a37fa7142dc2082e7b9855/aolab-bmi3d-0.9.3.6.tar.gz
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ghrocker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [pytest-fluentbit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [lmanage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/0c/aa/4fb3946b5f3c187d8c3ce029afad65655a577fe0d309d1c0b920f5b35d88/reasoner_validator-3.5.8.tar.gz
+[2023-06-17 00:10:41] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 00:10:41] INFO root fetch - processPackages [pytheus]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-17 00:10:41] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: Downloading https://files.pythonhosted.org/packages/de/a8/51ea734b834a45a69aadd21ad2301aea5da1c26273a8b16fe84e7210ccdb/cortex_command_mod_converter_engine-1.0.8.tar.gz
+[2023-06-17 00:10:41] INFO root fetch - processPackages [ghrocker]: Downloading https://files.pythonhosted.org/packages/58/a6/75ae46906699f693747322a53dc9f28873b521c67df22a637378d184732f/ghrocker-0.0.6.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/06/01/291b16f862c076ce7d41e568a3165866abb01450ba80b6365c2333644291/lmanage-0.3.8.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytest-fluentbit]: Downloading https://files.pythonhosted.org/packages/98/9d/029816901792407316e299cd33386aee23fb147ade9c30dd85ebf529b00b/pytest-fluentbit-0.1.4.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/81/91/2118822eee94be679af19c9fd9c9bfe2289d5eeb0f18883b2bfbdeeba393/pytheus-0.0.9.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/fa/b9/e69dd29ab69970d89dd38884491c20a8e9221ab2acf98d0c9453344a77e3/reasoner_validator-3.5.9.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [aolab-bmi3d]: Downloading https://files.pythonhosted.org/packages/a8/fa/a9c80df6ae4f2692e667f714d3076af1b532daa2b1d458b3932d95ba0b97/aolab-bmi3d-0.9.3.7.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.8.tar.gz tmp/reasoner_validator-3.5.9.tar.gz --markdown 20230617/r/reasoner-validator/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [nuvpy]: Downloading https://files.pythonhosted.org/packages/4b/4d/ef6baf401dfaff6e09d1c96884b991442d10d8b2b8ed6253c1d09fa8aac7/nuvpy-1.4.7.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [aolab-bmi3d]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [aolab-bmi3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aolab-bmi3d-0.9.3.6.tar.gz tmp/aolab-bmi3d-0.9.3.7.tar.gz --markdown 20230617/a/aolab-bmi3d/0.9.3.6-0.9.3.7/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [nuvpy]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [nuvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvpy-1.4.6.tar.gz tmp/nuvpy-1.4.7.tar.gz --markdown 20230617/n/nuvpy/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytest-fluentbit]: Downloading https://files.pythonhosted.org/packages/f5/31/1f8a40524275615f11ca5c6c4a6b829898df0272f0a810bf8b77bf3fdfed/pytest-fluentbit-0.1.5.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [ghrocker]: Downloading https://files.pythonhosted.org/packages/06/7e/ceef8f552a5508055a3784a5616dcdfc9a98de548cdabdb36bcb82dd40a7/ghrocker-0.0.7.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230617/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/01/00/0bf64326637e6d10c82a80125233c351de0801a9228229847160442fcb52/pytheus-0.1.0.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/d4/2e/45e2ac8fabb03178e415d273d64259ee0a3a310fc4aaa21d87a6acade773/lmanage-0.3.9.tar.gz
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytest-fluentbit]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytest-fluentbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-fluentbit-0.1.4.tar.gz tmp/pytest-fluentbit-0.1.5.tar.gz --markdown 20230617/p/pytest-fluentbit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [ghrocker]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [ghrocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghrocker-0.0.6.tar.gz tmp/ghrocker-0.0.7.tar.gz --markdown 20230617/g/ghrocker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.0.9.tar.gz tmp/pytheus-0.1.0.tar.gz --markdown 20230617/p/pytheus/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 00:10:42] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-06-17 00:10:42] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.8.tar.gz tmp/lmanage-0.3.9.tar.gz --markdown 20230617/l/lmanage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-17 00:10:43] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: Downloading https://files.pythonhosted.org/packages/c1/20/0cf554662f9b0208d3b1083d5c8d99572ba6ed3a4548339b43603b63057e/cortex_command_mod_converter_engine-1.0.9.tar.gz
+[2023-06-17 00:10:43] INFO root fetch - processPackages [ghrocker]: Remove: archive file [/home/abi/fetcher/tmp/ghrocker-0.0.6.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [ghrocker]: Remove: archive file [/home/abi/fetcher/tmp/ghrocker-0.0.7.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [ghrocker]: Start processing: sagemaker-rightline
+[2023-06-17 00:10:43] INFO root fetch - main [MainThread]: End processing [ghrocker]: success
+[2023-06-17 00:10:43] INFO root fetch - processPackages [sagemaker-rightline]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytest-fluentbit]: Remove: archive file [/home/abi/fetcher/tmp/pytest-fluentbit-0.1.4.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytest-fluentbit]: Remove: archive file [/home/abi/fetcher/tmp/pytest-fluentbit-0.1.5.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytest-fluentbit]: Start processing: anesthetic
+[2023-06-17 00:10:43] INFO root fetch - main [MainThread]: End processing [pytest-fluentbit]: success
+[2023-06-17 00:10:43] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.0.9.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.1.0.tar.gz]
+[2023-06-17 00:10:43] INFO root fetch - processPackages [pytheus]: Start processing: thundra
+[2023-06-17 00:10:43] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-06-17 00:10:44] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-06-17 00:10:44] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 00:10:44] INFO root fetch - processPackages [sagemaker-rightline]: Downloading https://files.pythonhosted.org/packages/92/60/5c0eeb5099c87d6f48c870d710047ac9b2dedba8a56b15218eb1de45dc9a/sagemaker-rightline-0.3.1.tar.gz
+[2023-06-17 00:10:44] INFO root fetch - processPackages [nuvpy]: Remove: archive file [/home/abi/fetcher/tmp/nuvpy-1.4.6.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - processPackages [nuvpy]: Remove: archive file [/home/abi/fetcher/tmp/nuvpy-1.4.7.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - main [MainThread]: End processing [nuvpy]: success
+[2023-06-17 00:10:44] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 00:10:44] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 00:10:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-17 00:10:44] INFO root fetch - processPackages [sagemaker-rightline]: Downloading https://files.pythonhosted.org/packages/df/15/36bb39f196c4a33b23afe4b39d672ce00d4a871e4cee64136d9f8a9538c1/sagemaker-rightline-0.3.2.tar.gz
+[2023-06-17 00:10:44] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.8.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - processPackages [lmanage]: Remove: archive file [/home/abi/fetcher/tmp/lmanage-0.3.9.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-06-17 00:10:44] INFO root fetch - processPackages [sagemaker-rightline]: executing diffoscope
+[2023-06-17 00:10:44] INFO root fetch - processPackages [sagemaker-rightline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-rightline-0.3.1.tar.gz tmp/sagemaker-rightline-0.3.2.tar.gz --markdown 20230617/s/sagemaker-rightline/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-17 00:10:44] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-06-17 00:10:44] INFO root fetch - processPackages [aolab-bmi3d]: Remove: archive file [/home/abi/fetcher/tmp/aolab-bmi3d-0.9.3.6.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - processPackages [aolab-bmi3d]: Remove: archive file [/home/abi/fetcher/tmp/aolab-bmi3d-0.9.3.7.tar.gz]
+[2023-06-17 00:10:44] INFO root fetch - main [MainThread]: End processing [aolab-bmi3d]: success
+[2023-06-17 00:10:44] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-06-17 00:10:44] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230617/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-17 00:10:44] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: executing diffoscope
+[2023-06-17 00:10:44] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_command_mod_converter_engine-1.0.8.tar.gz tmp/cortex_command_mod_converter_engine-1.0.9.tar.gz --markdown 20230617/c/cortex-command-mod-converter-engine/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 00:10:45] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-17 00:10:45] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-17 00:10:45] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 00:10:45] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.8.tar.gz]
+[2023-06-17 00:10:45] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.9.tar.gz]
+[2023-06-17 00:10:45] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-17 00:10:45] INFO root fetch - processPackages [sagemaker-rightline]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-rightline-0.3.1.tar.gz]
+[2023-06-17 00:10:45] INFO root fetch - processPackages [sagemaker-rightline]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-rightline-0.3.2.tar.gz]
+[2023-06-17 00:10:45] INFO root fetch - main [MainThread]: End processing [sagemaker-rightline]: success
+[2023-06-17 00:10:46] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b7.tar.gz]
+[2023-06-17 00:10:46] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
+[2023-06-17 00:10:46] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-06-17 00:10:46] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: Remove: archive file [/home/abi/fetcher/tmp/cortex_command_mod_converter_engine-1.0.8.tar.gz]
+[2023-06-17 00:10:46] INFO root fetch - processPackages [cortex-command-mod-converter-engine]: Remove: archive file [/home/abi/fetcher/tmp/cortex_command_mod_converter_engine-1.0.9.tar.gz]
+[2023-06-17 00:10:46] INFO root fetch - main [MainThread]: End processing [cortex-command-mod-converter-engine]: success
+[2023-06-17 00:10:46] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 00:10:46] INFO root fetch - main [MainThread]: Store serial: [18537878]
