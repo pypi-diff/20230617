@@ -1110,3 +1110,45 @@
 [2023-06-17 01:42:42] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-17 01:42:42] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-17 01:42:42] INFO root fetch - main [MainThread]: Store serial: [18538256]
+[2023-06-17 01:47:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538256]
+[2023-06-17 01:47:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 01:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haidarlibs
+[2023-06-17 01:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsetypes
+[2023-06-17 01:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laptrack
+[2023-06-17 01:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtfield
+[2023-06-17 01:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Algorithm-Selection
+[2023-06-17 01:47:53] INFO root fetch - processPackages [Algorithm-Selection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 01:47:53] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/ae/07/c96168d2bafc9ae6c3d26f8a17d246a0271c46518a249834e022a36f9854/Algorithm-Selection-0.0.8.tar.gz
+[2023-06-17 01:47:53] WARNING root fetch - processPackages [haidarlibs]: Skipping, unable to determine old version
+[2023-06-17 01:47:53] INFO root fetch - main [MainThread]: End processing [haidarlibs] error
+[2023-06-17 01:47:53] INFO root fetch - processPackages [laptrack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 01:47:53] INFO root fetch - processPackages [parsetypes]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-17 01:47:53] INFO root fetch - processPackages [dtfield]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 01:47:54] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/b4/f5/0aa35ae6fc22db6b2ceadd0271c6a5cc23e1293d28a076f6f5c168a38c51/laptrack-0.9.0.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [Algorithm-Selection]: Downloading https://files.pythonhosted.org/packages/5c/27/c6805e253f0d3668e3af08ac9b939716a57e550dca27cb6134324b5f9e02/Algorithm-Selection-0.0.9.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [parsetypes]: Downloading https://files.pythonhosted.org/packages/46/a4/d62558c568dbf9510c0e050bf97f9993abed15a2649f4f2d80534b36b27e/parsetypes-0.3.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/92/f7/a7dc8547481edca116ec1c271608c33d44f3996df5325a1bd81fa5b1ca82/dtfield-0.2.0.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [Algorithm-Selection]: executing diffoscope
+[2023-06-17 01:47:54] INFO root fetch - processPackages [Algorithm-Selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algorithm-Selection-0.0.8.tar.gz tmp/Algorithm-Selection-0.0.9.tar.gz --markdown 20230617/A/Algorithm-Selection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 01:47:54] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/20/7c/08983aa29eb72f42019a5cde5753fde7dedac1946ec3d4f63e1fd14d2879/laptrack-0.9.1.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/f6/4f/08f82464259369e41c2d44e007833d14c44d3a64bc53e1f1c4c33467c0e9/dtfield-0.2.1.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [laptrack]: executing diffoscope
+[2023-06-17 01:47:54] INFO root fetch - processPackages [laptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laptrack-0.9.0.tar.gz tmp/laptrack-0.9.1.tar.gz --markdown 20230617/l/laptrack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 01:47:54] INFO root fetch - processPackages [parsetypes]: Downloading https://files.pythonhosted.org/packages/34/58/557f4740785b68f66b62518bc6d5635e7d021372bcce8185b3e9027ed572/parsetypes-0.3.1.tar.gz
+[2023-06-17 01:47:54] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-17 01:47:54] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.2.0.tar.gz tmp/dtfield-0.2.1.tar.gz --markdown 20230617/d/dtfield/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 01:47:54] INFO root fetch - processPackages [parsetypes]: executing diffoscope
+[2023-06-17 01:47:54] INFO root fetch - processPackages [parsetypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsetypes-0.3.tar.gz tmp/parsetypes-0.3.1.tar.gz --markdown 20230617/p/parsetypes/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-17 01:47:55] INFO root fetch - processPackages [Algorithm-Selection]: Remove: archive file [/home/abi/fetcher/tmp/Algorithm-Selection-0.0.8.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - processPackages [Algorithm-Selection]: Remove: archive file [/home/abi/fetcher/tmp/Algorithm-Selection-0.0.9.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - main [MainThread]: End processing [Algorithm-Selection]: success
+[2023-06-17 01:47:55] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.0.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.1.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-17 01:47:55] INFO root fetch - processPackages [laptrack]: Remove: archive file [/home/abi/fetcher/tmp/laptrack-0.9.0.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - processPackages [laptrack]: Remove: archive file [/home/abi/fetcher/tmp/laptrack-0.9.1.tar.gz]
+[2023-06-17 01:47:55] INFO root fetch - main [MainThread]: End processing [laptrack]: success
+[2023-06-17 01:47:57] INFO root fetch - processPackages [parsetypes]: Remove: archive file [/home/abi/fetcher/tmp/parsetypes-0.3.tar.gz]
+[2023-06-17 01:47:57] INFO root fetch - processPackages [parsetypes]: Remove: archive file [/home/abi/fetcher/tmp/parsetypes-0.3.1.tar.gz]
+[2023-06-17 01:47:57] INFO root fetch - main [MainThread]: End processing [parsetypes]: success
+[2023-06-17 01:47:57] INFO root fetch - main [MainThread]: Store serial: [18538273]
