@@ -879,3 +879,45 @@
 [2023-06-17 01:10:06] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.8.tar.gz]
 [2023-06-17 01:10:06] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
 [2023-06-17 01:10:06] INFO root fetch - main [MainThread]: Store serial: [18538164]
+[2023-06-17 01:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538164]
+[2023-06-17 01:15:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 01:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasai
+[2023-06-17 01:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardena-bluetooth
+[2023-06-17 01:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finops
+[2023-06-17 01:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-17 01:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-master
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pandasai]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-17 01:15:15] INFO root fetch - processPackages [gardena-bluetooth]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.366] Old Version: [0.3.365]
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/47/09/fc48383ba858f7a0e791bcaed2457235339d28382b8fc629b10e435ca0ff/pandasai-0.5.3.tar.gz
+[2023-06-17 01:15:15] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/a3/ce/e76fa7f1c2acb290b50c77992d5310be8b1b833f8ab2a0c3bd416509ba4d/gardena_bluetooth-0.1.0.tar.gz
+[2023-06-17 01:15:15] WARNING root fetch - processPackages [api-master]: Skipping, unable to determine old version
+[2023-06-17 01:15:15] INFO root fetch - main [MainThread]: End processing [api-master] error
+[2023-06-17 01:15:15] INFO root fetch - processPackages [finops]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/6c/f2cead43b6a6671722671012823751413a35fb967ae59cfd2a86965b649a/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a0/9e/3cb8e1afd3a1c452d772601b4b8fa8d959c17d4b7913afcbd700f931becc/pandasai-0.5.4.tar.gz
+[2023-06-17 01:15:15] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/bb/be/b11b4cd55c3118f8137bf2c3aa53e21ec4d3dfcee6b1883d445d3fd0a73c/gardena_bluetooth-0.2.0.tar.gz
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.5.3.tar.gz tmp/pandasai-0.5.4.tar.gz --markdown 20230617/p/pandasai/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-17 01:15:15] INFO root fetch - processPackages [gardena-bluetooth]: executing diffoscope
+[2023-06-17 01:15:15] INFO root fetch - processPackages [gardena-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardena_bluetooth-0.1.0.tar.gz tmp/gardena_bluetooth-0.2.0.tar.gz --markdown 20230617/g/gardena-bluetooth/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 01:15:15] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/41/67/b19aa1ed60d0e2a5a92ec16ca3cfdbd4ab448a4b1665f8bc9060202877af/finops-0.0.4.tar.gz
+[2023-06-17 01:15:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/cd/09/a1933d58531414bf77ef87c780bfad9b478baf005c144c97261cc242f486/pepperize.cdk-ses-smtp-credentials-0.3.366.tar.gz
+[2023-06-17 01:15:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-17 01:15:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.366.tar.gz --markdown 20230617/p/pepperize.cdk-ses-smtp-credentials/0.3.365-0.3.366/diff.md --exclude *.pyd
+[2023-06-17 01:15:16] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/9f/57/93c2aded59c7c3cd0ec3bbf72b34775d8f66358ed4d09af0b1d9dfb1b71d/finops-0.1.0.tar.gz
+[2023-06-17 01:15:16] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-06-17 01:15:16] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.0.4.tar.gz tmp/finops-0.1.0.tar.gz --markdown 20230617/f/finops/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 01:15:16] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.1.0.tar.gz]
+[2023-06-17 01:15:16] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.2.0.tar.gz]
+[2023-06-17 01:15:16] INFO root fetch - main [MainThread]: End processing [gardena-bluetooth]: success
+[2023-06-17 01:15:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.366.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-17 01:15:17] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.3.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.4.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-17 01:15:17] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.0.4.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.0.tar.gz]
+[2023-06-17 01:15:17] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-06-17 01:15:17] INFO root fetch - main [MainThread]: Store serial: [18538181]
