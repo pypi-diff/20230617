@@ -650,3 +650,92 @@
 [2023-06-17 00:54:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.0.tar.gz]
 [2023-06-17 00:54:29] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-06-17 00:54:29] INFO root fetch - main [MainThread]: Store serial: [18538072]
+[2023-06-17 00:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538072]
+[2023-06-17 00:59:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardena-bluetooth
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secureli
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mock-cli-framework
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamatic
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: democracy
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Lab93-Finance
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-aggregator
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitmopy
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scale-sensor-fusion-io
+[2023-06-17 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: askedith
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gardena-bluetooth]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [democracy]: New version: [1.0.32] Old Version: [1.0.31]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [Lab93-Finance]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [datamatic]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [mock-cli-framework]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [scale-sensor-fusion-io]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [data-aggregator]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [secureli]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gitmopy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [Lab93-Finance]: Downloading https://files.pythonhosted.org/packages/9d/d9/67ecaba6b3f2c3d05abf4eedcd78bf40b4ccd8159f358f5f88b4abfc2625/Lab93-Finance-0.0.1.2.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/2e/a7/c0d2febad87edb0de4ad40c468b38281936ecf8403fe40b3155059ac718c/democracy-1.0.31.tar.gz
+[2023-06-17 00:59:38] WARNING root fetch - processPackages [democracy]: Skipping package: exceeds size limit 75947955>=10485760
+[2023-06-17 00:59:38] INFO root fetch - main [MainThread]: End processing [democracy] error
+[2023-06-17 00:59:38] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-17 00:59:38] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/02/72/51280f19bdf52a8c5e801f028b73ff10a6424f250ce6c01eeed4ac9174c3/data_aggregator-1.0.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/a3/ce/e76fa7f1c2acb290b50c77992d5310be8b1b833f8ab2a0c3bd416509ba4d/gardena_bluetooth-0.1.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/7e/35/a142c588d939315893c348305124a2d2f5c3993063b14adc62cdc386f6be/gitmopy-0.2.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/4e/c2/15f0b2d5aef46e61269a553594a281a46956d34f567d15e321f78aba5f08/datamatic-0.1.3.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/73/af/a02092c91e28b7b1563a42bebc47816aed0c32eaa858297d61f9e39fc680/mock-cli-framework-0.4.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/bf/cd/555e29f9a107f64d042a25ff4652a8196fa8483e683a49c9d7ade1227296/scale_sensor_fusion_io-0.2.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/b3/a0/7a61d42ed07e3fcce54d961a07b89d2f0f6afb31f565d910ffe26b5d89b1/secureli-0.4.2.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [Lab93-Finance]: Downloading https://files.pythonhosted.org/packages/c4/bc/2e7bd8a77e06a6a58c69c75a2cd9dd0c2c6f0017b561a1d4a099bbb0cd0e/Lab93-Finance-0.0.1.3.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-06-17 00:59:38] INFO root fetch - processPackages [Lab93-Finance]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [Lab93-Finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lab93-Finance-0.0.1.2.tar.gz tmp/Lab93-Finance-0.0.1.3.tar.gz --markdown 20230617/L/Lab93-Finance/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/bb/be/b11b4cd55c3118f8137bf2c3aa53e21ec4d3dfcee6b1883d445d3fd0a73c/gardena_bluetooth-0.2.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/a7/0a/1f551f65c4e5c0562a6b58e5a5a5ea65936a9ef476f6337530fbd7f57be1/datamatic-0.1.4.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/f0/3a/d8122fe02dd4bb2d695e0703e9970d92f6b68db6ecc6d8e92481203c4833/secureli-0.4.3.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gardena-bluetooth]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gardena-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardena_bluetooth-0.1.0.tar.gz tmp/gardena_bluetooth-0.2.0.tar.gz --markdown 20230617/g/gardena-bluetooth/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/db/f0/b38c24dce38f6a22622eac6e41a12d9764dfc10f9434a9453bbe0fa39f1a/gitmopy-0.3.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/64/f8/250e6c2a3ef7b86b08667419dc40e9bc11c76d9b7fe76bf953e0b002b079/data_aggregator-1.1.0.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.4.2.tar.gz tmp/secureli-0.4.3.tar.gz --markdown 20230617/s/secureli/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/ae/c5/ce42d5ecd1c7df9a50d709bae043d9590b2c433bdc28c04516b99348e6ad/mock-cli-framework-0.4.1.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [datamatic]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [datamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamatic-0.1.3.tar.gz tmp/datamatic-0.1.4.tar.gz --markdown 20230617/d/datamatic/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/72/79/d618d38e343b8343f5da40d7129dff85eecb4deac75d5733d77fb1a06b1c/scale_sensor_fusion_io-0.2.3.tar.gz
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gitmopy]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [gitmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitmopy-0.2.0.tar.gz tmp/gitmopy-0.3.0.tar.gz --markdown 20230617/g/gitmopy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [data-aggregator]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [data-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_aggregator-1.0.0.tar.gz tmp/data_aggregator-1.1.0.tar.gz --markdown 20230617/d/data-aggregator/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [mock-cli-framework]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [mock-cli-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock-cli-framework-0.4.0.tar.gz tmp/mock-cli-framework-0.4.1.tar.gz --markdown 20230617/m/mock-cli-framework/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [scale-sensor-fusion-io]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [scale-sensor-fusion-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_sensor_fusion_io-0.2.0.tar.gz tmp/scale_sensor_fusion_io-0.2.3.tar.gz --markdown 20230617/s/scale-sensor-fusion-io/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 00:59:38] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-06-17 00:59:38] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-06-17 00:59:38] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230617/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-17 00:59:40] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.3.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.4.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [datamatic]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.1.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.2.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [gardena-bluetooth]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.2.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.4.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.4.1.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [mock-cli-framework]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.4.2.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.4.3.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [Lab93-Finance]: Remove: archive file [/home/abi/fetcher/tmp/Lab93-Finance-0.0.1.2.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [Lab93-Finance]: Remove: archive file [/home/abi/fetcher/tmp/Lab93-Finance-0.0.1.3.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [Lab93-Finance]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.6-py3-none-any.whl.zip]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.7-py3-none-any.whl.zip]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.0.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.1.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [data-aggregator]: success
+[2023-06-17 00:59:40] INFO root fetch - processPackages [scale-sensor-fusion-io]: Remove: archive file [/home/abi/fetcher/tmp/scale_sensor_fusion_io-0.2.0.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - processPackages [scale-sensor-fusion-io]: Remove: archive file [/home/abi/fetcher/tmp/scale_sensor_fusion_io-0.2.3.tar.gz]
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
+[2023-06-17 00:59:40] INFO root fetch - main [MainThread]: Store serial: [18538099]
