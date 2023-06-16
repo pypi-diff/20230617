@@ -1152,3 +1152,68 @@
 [2023-06-17 01:47:57] INFO root fetch - processPackages [parsetypes]: Remove: archive file [/home/abi/fetcher/tmp/parsetypes-0.3.1.tar.gz]
 [2023-06-17 01:47:57] INFO root fetch - main [MainThread]: End processing [parsetypes]: success
 [2023-06-17 01:47:57] INFO root fetch - main [MainThread]: Store serial: [18538273]
+[2023-06-17 01:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538273]
+[2023-06-17 01:53:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kodexam
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtmodel
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigquery-ml-utils
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: momento-wire-types
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crnpy
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: focalnet-tf
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aind-data-schema
+[2023-06-17 01:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdp-backend
+[2023-06-17 01:53:07] WARNING root fetch - processPackages [kodexam]: Skipping, unable to determine old version
+[2023-06-17 01:53:07] INFO root fetch - main [MainThread]: End processing [kodexam] error
+[2023-06-17 01:53:07] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [cdp-backend]: New version: [4.1.1] Old Version: [4.1.0rc2]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [dtmodel]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/18/54/ccd65bdf20002ba25a699332474568819f75c3de8212c94571f4a0146af7/momento-wire-types-0.9.1.tar.gz
+[2023-06-17 01:53:07] INFO root fetch - processPackages [bigquery-ml-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [focalnet-tf]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [crnpy]: New version: [0.3.post1] Old Version: [0.2.post29]
+[2023-06-17 01:53:07] INFO root fetch - processPackages [cdp-backend]: Downloading https://files.pythonhosted.org/packages/1e/1e/40e800d60fd89d1fa91cfc425b71ee2bfa9964dba13d9fb9b55353f9552c/cdp-backend-4.1.0rc2.tar.gz
+[2023-06-17 01:53:07] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-17 01:53:08] WARNING root fetch - processPackages [cdp-backend]: Skipping package: exceeds size limit 50966423>=10485760
+[2023-06-17 01:53:08] INFO root fetch - main [MainThread]: End processing [cdp-backend] error
+[2023-06-17 01:53:08] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/9b/e6/988dd94004817926c61c1ae4a52ddca7cfbaa8a269d462c54e5a84e5bc9b/dtmodel-0.1.1.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/4e/84/55787a167f2fe71dbb0a6613b973f182e2464c7b8d68bd0ee116b0cb70fc/focalnet-tf-0.0.2.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/e4/5a/83b5edb92cbb3e1212dc147c9bec1b0148bb7fcda1c44d8949d71b1ecf45/crnpy-0.2.post29.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/4a/57/6672a03abdd5473c48a109ecbb349d6ff204c77048dd58812a9699cf61ce/bigquery_ml_utils-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 01:53:08] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/75/15/7d75acb737fa02bd4cb50ec1a419edf9095d3a1dae489937169934768b51/momento-wire-types-0.9.2.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-06-17 01:53:08] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230617/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-17 01:53:08] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/db/eb/b3f9ea8d695b620ca5a03d7173fc83363c38be11804fb2ac7caf78729f71/dtmodel-0.1.2.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/57/98/dc2c391832d4b2b14d7a5ad0330227d894780d33b6f0060db417f1065d40/focalnet-tf-0.0.2.1.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/38/f9/bf5d312bb27ab8ada61772c8a2470c13e4c06c911dd3fda4f98b4ded4671/crnpy-0.3.post1.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [dtmodel]: executing diffoscope
+[2023-06-17 01:53:08] INFO root fetch - processPackages [dtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtmodel-0.1.1.tar.gz tmp/dtmodel-0.1.2.tar.gz --markdown 20230617/d/dtmodel/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 01:53:08] INFO root fetch - processPackages [focalnet-tf]: executing diffoscope
+[2023-06-17 01:53:08] INFO root fetch - processPackages [focalnet-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focalnet-tf-0.0.2.tar.gz tmp/focalnet-tf-0.0.2.1.tar.gz --markdown 20230617/f/focalnet-tf/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-06-17 01:53:08] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-06-17 01:53:08] INFO root fetch - processPackages [crnpy]: executing diffoscope
+[2023-06-17 01:53:08] INFO root fetch - processPackages [crnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crnpy-0.2.post29.tar.gz tmp/crnpy-0.3.post1.tar.gz --markdown 20230617/c/crnpy/0.2.post29-0.3.post1/diff.md --exclude *.pyd
+[2023-06-17 01:53:08] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-06-17 01:53:08] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230617/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-17 01:53:09] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento-wire-types-0.9.1.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento-wire-types-0.9.2.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-06-17 01:53:09] INFO root fetch - processPackages [bigquery-ml-utils]: Downloading https://files.pythonhosted.org/packages/46/f2/c7a4f468909e98a985a731527e97c1fd4ba29f8c8859d2a55a3a5ee70d12/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 01:53:09] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.1.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.2.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - main [MainThread]: End processing [dtmodel]: success
+[2023-06-17 01:53:09] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.2.post29.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.3.post1.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - main [MainThread]: End processing [crnpy]: success
+[2023-06-17 01:53:09] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.2.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.2.1.tar.gz]
+[2023-06-17 01:53:09] INFO root fetch - main [MainThread]: End processing [focalnet-tf]: success
+[2023-06-17 01:53:10] INFO root fetch - processPackages [bigquery-ml-utils]: executing diffoscope
+[2023-06-17 01:53:10] INFO root fetch - processPackages [bigquery-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigquery_ml_utils-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230617/b/bigquery-ml-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 01:53:10] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-06-17 01:53:10] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-06-17 01:53:10] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-06-17 01:53:11] INFO root fetch - processPackages [bigquery-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/bigquery_ml_utils-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 01:53:11] INFO root fetch - processPackages [bigquery-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/bigquery_ml_utils-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 01:53:11] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
+[2023-06-17 01:53:11] INFO root fetch - main [MainThread]: Store serial: [18538301]
