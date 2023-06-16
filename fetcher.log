@@ -566,3 +566,87 @@
 [2023-06-17 00:48:49] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.0.tar.gz]
 [2023-06-17 00:48:49] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-06-17 00:48:49] INFO root fetch - main [MainThread]: Store serial: [18538041]
+[2023-06-17 00:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538041]
+[2023-06-17 00:54:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fxn
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fgo-api-types
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kedro-ibis-dataset
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngitl-common-py
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mp-api
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvisacharts
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: democracy
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ptyme-track
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neophile
+[2023-06-17 00:54:00] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [pyvisacharts]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ngitl-common-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [democracy]: New version: [1.0.31] Old Version: [1.0.30]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [fxn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [langflow]: New version: [0.1.0] Old Version: [0.0.89]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.6.8.15.39.7] Old Version: [2023.6.7.4.47.40]
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/c0/9f/43d5071addabc5194d68efff52bbb9eaa50ef5e8cdc486ad1bd039bf2c9b/ngitl_common_py-0.2.0.tar.gz
+[2023-06-17 00:54:00] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/40/ea/07f42b620fa19e6ea2c02886317c7c8ac5a8695f3dd29584f6dea90e367c/fgo_api_types-2023.6.7.4.47.40.tar.gz
+[2023-06-17 00:54:00] INFO root fetch - processPackages [ptyme-track]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-17 00:54:00] WARNING root fetch - processPackages [neophile]: Skipping, unable to determine old version
+[2023-06-17 00:54:00] INFO root fetch - main [MainThread]: End processing [neophile] error
+[2023-06-17 00:54:00] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/4f/17/c915dd2ed7fe070ba6037fde008fc78b9a5b952facd7a29535f107498a5b/kedro_ibis_dataset-0.0.1.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/d0/3b/c0f76330b2f702efab6d6b22672c31c3a367b6d2af4b70db241a553c0097/mp-api-0.9.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fxn]: Downloading https://files.pythonhosted.org/packages/f6/d0/830118db59d210c9a93b7883d7c6298116681c31c394a877e93bc951cd8b/fxn-0.0.8.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [pyvisacharts]: Downloading https://files.pythonhosted.org/packages/c3/06/bda2e3f454df660a53af192c85f480a2e397f7f6004e706c2268936d64a3/pyvisacharts-2.0.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/3f/5a/a8df9da5cee0663f89aeade51482e43c395fdd56c07d7526af0d9eb798af/democracy-1.0.30.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/2e/04/08eca6073911cc599e004681df48bd1617bf43e5314e1b41d2bb12ce1ecc/langflow-0.0.89.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/9f/af/f4400258fd9d1157a71a29160593590a4650b6e5c7f7742c0a2eab96f675/ptyme_track-0.1.2.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/17/0e/e654e95355b69d39aa9284d0680e54ade076d483f2834f89863be32dfe91/ngitl_common_py-0.3.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/d2/ee/93d61572a7f4647514cd5763194fee7ca0eb73e1c09c2693be94313a41e4/fgo_api_types-2023.6.8.15.39.7.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/4e/75/3473c4ab2fcf9448e163015d2ae905180fcc7238e940748a1153d00d90ea/kedro_ibis_dataset-0.0.2.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz --markdown 20230617/f/fgo-api-types/2023.6.7.4.47.40-2023.6.8.15.39.7/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ngitl-common-py]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ngitl-common-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngitl_common_py-0.2.0.tar.gz tmp/ngitl_common_py-0.3.0.tar.gz --markdown 20230617/n/ngitl-common-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/2e/a7/c0d2febad87edb0de4ad40c468b38281936ecf8403fe40b3155059ac718c/democracy-1.0.31.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/85/3a/31a0788a4365777d291cfd863bb07799b5454cd283485b7f4433c90e551d/ptyme_track-0.2.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/6c/0e/759b93c4da8606f9bb1b3db9c592fb1b8eeaddcd0f0b6a2d901b6889bc2f/mp-api-0.9.1.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.1.tar.gz tmp/kedro_ibis_dataset-0.0.2.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] WARNING root fetch - processPackages [democracy]: Skipping package: exceeds size limit 75947955>=10485760
+[2023-06-17 00:54:01] INFO root fetch - main [MainThread]: End processing [democracy] error
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fxn]: Downloading https://files.pythonhosted.org/packages/83/0a/476760db9cac6b1baac6f1d0b7736e79d64d8a18e9dea83ec6b9eb32d820/fxn-0.0.9.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/29/b9928db22178efec9ab4c7ea254fc4d10b9520efdd41ebad181472ded4c9/langflow-0.1.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fxn]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [fxn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxn-0.0.8.tar.gz tmp/fxn-0.0.9.tar.gz --markdown 20230617/f/fxn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [pyvisacharts]: Downloading https://files.pythonhosted.org/packages/07/c3/bdbbdf4e1289433596beae6dd43e46fdfcc175c211e4a447d27816ce2453/pyvisacharts-2.1.0.tar.gz
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ptyme-track]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [ptyme-track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptyme_track-0.1.2.tar.gz tmp/ptyme_track-0.2.0.tar.gz --markdown 20230617/p/ptyme-track/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.89.tar.gz tmp/langflow-0.1.0.tar.gz --markdown 20230617/l/langflow/0.0.89-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230617/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 00:54:01] INFO root fetch - processPackages [pyvisacharts]: executing diffoscope
+[2023-06-17 00:54:01] INFO root fetch - processPackages [pyvisacharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisacharts-2.0.0.tar.gz tmp/pyvisacharts-2.1.0.tar.gz --markdown 20230617/p/pyvisacharts/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 00:54:02] ERROR root fetch - processPackages [pyvisacharts]: Diffoscope failed: Error: error creating container storage: the container name "angry_thompson" is already in use by "3f1648f839fd262fe905cc8ab278ab2c296951aa997f4728e72722a5b59c2deb". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-17 00:54:02] INFO root fetch - main [MainThread]: End processing [pyvisacharts] error
+[2023-06-17 00:54:02] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.2.0.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.3.0.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - main [MainThread]: End processing [ngitl-common-py]: success
+[2023-06-17 00:54:02] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.1.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.2.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 00:54:02] INFO root fetch - processPackages [fxn]: Remove: archive file [/home/abi/fetcher/tmp/fxn-0.0.8.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - processPackages [fxn]: Remove: archive file [/home/abi/fetcher/tmp/fxn-0.0.9.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - main [MainThread]: End processing [fxn]: success
+[2023-06-17 00:54:02] INFO root fetch - processPackages [ptyme-track]: Remove: archive file [/home/abi/fetcher/tmp/ptyme_track-0.1.2.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - processPackages [ptyme-track]: Remove: archive file [/home/abi/fetcher/tmp/ptyme_track-0.2.0.tar.gz]
+[2023-06-17 00:54:02] INFO root fetch - main [MainThread]: End processing [ptyme-track]: success
+[2023-06-17 00:54:03] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz]
+[2023-06-17 00:54:03] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz]
+[2023-06-17 00:54:03] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-06-17 00:54:04] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.0.tar.gz]
+[2023-06-17 00:54:04] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.1.tar.gz]
+[2023-06-17 00:54:04] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-06-17 00:54:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.89.tar.gz]
+[2023-06-17 00:54:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.0.tar.gz]
+[2023-06-17 00:54:29] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-17 00:54:29] INFO root fetch - main [MainThread]: Store serial: [18538072]
