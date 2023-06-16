@@ -503,3 +503,24 @@
 [2023-06-17 00:38:00] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-17 00:38:00] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-17 00:38:00] INFO root fetch - main [MainThread]: Store serial: [18538016]
+[2023-06-17 00:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538016]
+[2023-06-17 00:43:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 00:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huma-utils
+[2023-06-17 00:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-api-proxy
+[2023-06-17 00:43:09] INFO root fetch - processPackages [huma-utils]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-17 00:43:09] INFO root fetch - processPackages [huma-utils]: Downloading https://files.pythonhosted.org/packages/25/cd/55c2abf9b4485ec674a915237e79bb0bfc5f7ac1987ce428036615841344/huma_utils-0.2.2.tar.gz
+[2023-06-17 00:43:10] INFO root fetch - processPackages [neon-api-proxy]: New version: [0.3.4a8] Old Version: [0.3.4a7]
+[2023-06-17 00:43:10] INFO root fetch - processPackages [huma-utils]: Downloading https://files.pythonhosted.org/packages/36/63/699e1a6d53df904a93d00ba0ef98055f7c8075f17197600d1f6f6ad3825a/huma_utils-0.3.0.tar.gz
+[2023-06-17 00:43:10] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/e6/51/1d0f684fe5cb67f35bc8559b78d7eae0999089809a29504497d063e3cdc7/neon_api_proxy-0.3.4a7-py3-none-any.whl
+[2023-06-17 00:43:10] INFO root fetch - processPackages [huma-utils]: executing diffoscope
+[2023-06-17 00:43:10] INFO root fetch - processPackages [huma-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_utils-0.2.2.tar.gz tmp/huma_utils-0.3.0.tar.gz --markdown 20230617/h/huma-utils/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 00:43:10] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/78/1c/0b97b8040b55b7c82b329796406f7c1b3e2991c9b64a75ec57ee20eee101/neon-api-proxy-0.3.4a8.tar.gz
+[2023-06-17 00:43:11] INFO root fetch - processPackages [neon-api-proxy]: executing diffoscope
+[2023-06-17 00:43:11] INFO root fetch - processPackages [neon-api-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_api_proxy-0.3.4a7-py3-none-any.whl.zip tmp/neon-api-proxy-0.3.4a8.tar.gz --markdown 20230617/n/neon-api-proxy/0.3.4a7-0.3.4a8/diff.md --exclude *.pyd
+[2023-06-17 00:43:11] INFO root fetch - processPackages [huma-utils]: Remove: archive file [/home/abi/fetcher/tmp/huma_utils-0.2.2.tar.gz]
+[2023-06-17 00:43:11] INFO root fetch - processPackages [huma-utils]: Remove: archive file [/home/abi/fetcher/tmp/huma_utils-0.3.0.tar.gz]
+[2023-06-17 00:43:11] INFO root fetch - main [MainThread]: End processing [huma-utils]: success
+[2023-06-17 00:43:11] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon_api_proxy-0.3.4a7-py3-none-any.whl.zip]
+[2023-06-17 00:43:11] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon-api-proxy-0.3.4a8.tar.gz]
+[2023-06-17 00:43:11] INFO root fetch - main [MainThread]: End processing [neon-api-proxy]: success
+[2023-06-17 00:43:11] INFO root fetch - main [MainThread]: Store serial: [18538022]
