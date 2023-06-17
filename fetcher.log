@@ -16589,3 +16589,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:48:41] INFO root fetch - processPackages [libfsapfs-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsapfs-python-20230617.tar.gz]
 [2023-06-17 18:48:41] INFO root fetch - main [MainThread]: End processing [libfsapfs-python]: success
 [2023-06-17 18:48:41] INFO root fetch - main [MainThread]: Store serial: [18544726]
+[2023-06-17 18:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544726]
+[2023-06-17 18:53:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: med-seg-diff-pytorch
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgoMaster
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProTaska-GPT
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycistem
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dal-python
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-logikal
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: featureform
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytmlib
+[2023-06-17 18:53:53] INFO root fetch - processPackages [pycistem]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 18:53:53] INFO root fetch - processPackages [dal-python]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-17 18:53:53] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc8] Old Version: [1.9.2rc7]
+[2023-06-17 18:53:53] INFO root fetch - processPackages [pycistem]: Downloading https://files.pythonhosted.org/packages/c1/df/0e5444e95abe41c12efc61690ccff566cb8d7c4c03ba72ef74ebbc9ff87d/pycistem-0.3.1.tar.gz
+[2023-06-17 18:53:53] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/3e/b2/7b0e19858992185458ffe1c3b766ff7e5b3a9390a53a9eece1c004acc947/dal_python-0.1.5-cp39-none-any.whl
+[2023-06-17 18:53:53] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/b4/67/2507df30b36107f74c1cd4f556a5b4ad9923c71c67d053be65c12668ecb8/ProTaska-GPT-0.0.5.tar.gz
+[2023-06-17 18:53:53] WARNING root fetch - processPackages [AlgoMaster]: Skipping, unable to determine old version
+[2023-06-17 18:53:53] INFO root fetch - main [MainThread]: End processing [AlgoMaster] error
+[2023-06-17 18:53:53] INFO root fetch - processPackages [med-seg-diff-pytorch]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 18:53:53] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/b9/65/6899c413b99c5ef19d5553fcc75bbc916b246cb6597d71ebd173e5bfbe37/featureform-1.9.2rc7.tar.gz
+[2023-06-17 18:53:53] INFO root fetch - processPackages [pytmlib]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-06-17 18:53:53] WARNING root fetch - processPackages [pycistem]: Skipping package: exceeds size limit 16204026>=10485760
+[2023-06-17 18:53:53] WARNING root fetch - processPackages [django-logikal]: Skipping, unable to determine old version
+[2023-06-17 18:53:53] INFO root fetch - main [MainThread]: End processing [pycistem] error
+[2023-06-17 18:53:53] INFO root fetch - main [MainThread]: End processing [django-logikal] error
+[2023-06-17 18:53:54] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/22/b4/55b9fb18202e59e82104e7ea37179ac9ebc3748432747da929fc3926d8fa/pytmlib-1.0.0rc3.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/04/cc/807f0172c573bfdb3a0df8be13e4ae3aefd17ac3c6de4dc823b79ababb38/featureform-1.9.2rc8.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [med-seg-diff-pytorch]: Downloading https://files.pythonhosted.org/packages/4b/50/214c086c13e9f7f41a6ef35a45759d45a1aff1d2875e9b1c539702717e14/med-seg-diff-pytorch-0.2.5.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/42/f2/8e58489a292938ff342527503df91b647aacc82cff40ab0dab6445ca30a6/ProTaska-GPT-0.0.6.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 18:53:54] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc7.tar.gz tmp/featureform-1.9.2rc8.tar.gz --markdown 20230617/f/featureform/1.9.2rc7-1.9.2rc8/diff.md --exclude *.pyd
+[2023-06-17 18:53:54] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-17 18:53:54] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.5.tar.gz tmp/ProTaska-GPT-0.0.6.tar.gz --markdown 20230617/P/ProTaska-GPT/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 18:53:54] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/32/b3/9890a6a9a47047c376b9b3d351f266b489bdbadf98aa6a75ac4e6bbdade7/pytmlib-1.0.0rc4.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [med-seg-diff-pytorch]: Downloading https://files.pythonhosted.org/packages/d1/0e/810115b49185017271409d5a1439c791a70cadc3682825d8a017bd02d121/med-seg-diff-pytorch-0.2.6.tar.gz
+[2023-06-17 18:53:54] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-17 18:53:54] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.0.0rc3.tar.gz tmp/pytmlib-1.0.0rc4.tar.gz --markdown 20230617/p/pytmlib/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-06-17 18:53:54] INFO root fetch - processPackages [med-seg-diff-pytorch]: executing diffoscope
+[2023-06-17 18:53:54] INFO root fetch - processPackages [med-seg-diff-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/med-seg-diff-pytorch-0.2.5.tar.gz tmp/med-seg-diff-pytorch-0.2.6.tar.gz --markdown 20230617/m/med-seg-diff-pytorch/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 18:53:55] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/0f/8c/953f90360c645fb334f575805c2b80c970495b9d10f21ce16fef35977441/dal_python-0.2.0-cp39-non-any.whl
+[2023-06-17 18:53:55] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.5.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.6.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-17 18:53:55] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-17 18:53:55] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.1.5-cp39-none-any.whl.zip tmp/dal_python-0.2.0-cp39-non-any.whl.zip --markdown 20230617/d/dal-python/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 18:53:55] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc3.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc4.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-17 18:53:55] INFO root fetch - processPackages [med-seg-diff-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/med-seg-diff-pytorch-0.2.5.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - processPackages [med-seg-diff-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/med-seg-diff-pytorch-0.2.6.tar.gz]
+[2023-06-17 18:53:55] INFO root fetch - main [MainThread]: End processing [med-seg-diff-pytorch]: success
+[2023-06-17 18:53:57] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc7.tar.gz]
+[2023-06-17 18:53:57] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc8.tar.gz]
+[2023-06-17 18:53:57] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 18:54:06] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.1.5-cp39-none-any.whl.zip]
+[2023-06-17 18:54:06] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.0-cp39-non-any.whl.zip]
+[2023-06-17 18:54:06] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-17 18:54:06] INFO root fetch - main [MainThread]: Store serial: [18544755]
