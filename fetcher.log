@@ -18674,3 +18674,66 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:32:07] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
 [2023-06-17 22:32:07] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
 [2023-06-17 22:32:07] INFO root fetch - main [MainThread]: Store serial: [18545741]
+[2023-06-17 22:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545741]
+[2023-06-17 22:37:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FluidPyPLC
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: object-settings
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FluidPyPLC
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: languagemodels
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytdl-sub
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dfipy
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.6.3] Old Version: [2023.6.17]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [languagemodels]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [object-settings]: New version: [4.2] Old Version: [4.1]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [dfipy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/4b/96/70b730542779b44a8c37e27e20a27013d9cfe2c5324c1ba40267fce36573/ytdl-sub-2023.6.17.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/3e/07/27905ec2e6430befda22dd4e21ea9980864769699dd104476d54ae4614b4/languagemodels-0.4.0.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/54/c9/717d9b5e6d66338b2db9dfe168ddfafd0d427dd0fa2be3db10f336ef8069/FluidPyPLC-0.1.9.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.8.tar.gz tmp/FluidPyPLC-0.1.9.tar.gz --markdown 20230617/F/FluidPyPLC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:37:16] INFO root fetch - processPackages [object-settings]: Downloading https://files.pythonhosted.org/packages/b9/49/90ddd9ba11b975ccba8b6af6037781be73f386cf91c6c0faa7ef3b2e0904/object-settings-4.1.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.8.tar.gz tmp/FluidPyPLC-0.1.9.tar.gz --markdown 20230617/F/FluidPyPLC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/6d/3a3da8b1a8081732036cac9976155ed25006692dc0d50256ec4f22126ee5/ytdl-sub-2023.6.3.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/26/ed/1261792a77b2114baf72f1492f862685d2e6aa0254f3123b082ab74706f4/dfipy-1.0.0.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.6.17.tar.gz tmp/ytdl-sub-2023.6.3.tar.gz --markdown 20230617/y/ytdl-sub/2023.6.17-2023.6.3/diff.md --exclude *.pyd
+[2023-06-17 22:37:16] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/5a/a5/dd8a553e85af8e20524248339775205bbff006df454d9b445de0ef00537b/languagemodels-0.5.0.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [languagemodels]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [languagemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languagemodels-0.4.0.tar.gz tmp/languagemodels-0.5.0.tar.gz --markdown 20230617/l/languagemodels/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 22:37:16] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230617/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-17 22:37:16] INFO root fetch - processPackages [object-settings]: Downloading https://files.pythonhosted.org/packages/95/62/1eee21cd0f1e2f7ce777fb52003fb3cc04123cf97110510ba90d6a0c530e/object-settings-4.2.tar.gz
+[2023-06-17 22:37:16] INFO root fetch - processPackages [object-settings]: executing diffoscope
+[2023-06-17 22:37:16] INFO root fetch - processPackages [object-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/object-settings-4.1.tar.gz tmp/object-settings-4.2.tar.gz --markdown 20230617/o/object-settings/4.1-4.2/diff.md --exclude *.pyd
+[2023-06-17 22:37:17] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/78/b0/e4b9780e74518ad82f11bfb588c9c693a8b4e73c28ef4d1bb0d4346d3e72/dfipy-1.0.1.tar.gz
+[2023-06-17 22:37:17] INFO root fetch - processPackages [dfipy]: executing diffoscope
+[2023-06-17 22:37:17] INFO root fetch - processPackages [dfipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfipy-1.0.0.tar.gz tmp/dfipy-1.0.1.tar.gz --markdown 20230617/d/dfipy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 22:37:17] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.8.tar.gz]
+[2023-06-17 22:37:17] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.9.tar.gz]
+[2023-06-17 22:37:17] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-17 22:37:17] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-17 22:37:18] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.4.0.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.5.0.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
+[2023-06-17 22:37:18] INFO root fetch - processPackages [object-settings]: Remove: archive file [/home/abi/fetcher/tmp/object-settings-4.1.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - processPackages [object-settings]: Remove: archive file [/home/abi/fetcher/tmp/object-settings-4.2.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [object-settings]: success
+[2023-06-17 22:37:18] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.17.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-06-17 22:37:18] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-1.0.0.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-1.0.1.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [dfipy]: success
+[2023-06-17 22:37:18] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-17 22:37:18] INFO root fetch - main [MainThread]: Store serial: [18545763]
