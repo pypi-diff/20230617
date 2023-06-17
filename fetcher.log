@@ -9495,3 +9495,69 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:27:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230617.tar.gz]
 [2023-06-17 08:27:00] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-17 08:27:00] INFO root fetch - main [MainThread]: Store serial: [18541357]
+[2023-06-17 08:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541357]
+[2023-06-17 08:32:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk-preview
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssbdplus
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: is-bot
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typedpy
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atksh-utils
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: featureform
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yambs
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ssbdplus]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [is-bot]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [atksh-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc8] Old Version: [1.9.2rc7]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ssbdplus]: Downloading https://files.pythonhosted.org/packages/14/4b/f981cd7f86175dd4035535358f9cbeb3d112383db69297c17b8231b55fbf/ssbdplus-2.1.0.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [yambs]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-17 08:32:09] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/90/9a/fc5b4b95a32477663893b1b96cee878a3dbdec7fd425b12b8786856adabe/atksh-utils-0.0.3.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/b9/65/6899c413b99c5ef19d5553fcc75bbc916b246cb6597d71ebd173e5bfbe37/featureform-1.9.2rc7.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [is-bot]: Downloading https://files.pythonhosted.org/packages/df/6f/47aca7f148cf6bfe6543bba429ccd6895835c819dfc51caf0ede5c1ec77d/is_bot-0.2.2.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/04/3b/b2d8ae29cc4ba6fb5f15a8c9b900cff79e0f24c11a47ae2b310131b36f62/yambs-1.8.0.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [ssbdplus]: Downloading https://files.pythonhosted.org/packages/cf/91/3485896b4ab0234069182f2b9664a653afb7534ff72fe08bbbd86d7e4bed/ssbdplus-2.2.0.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/49/1f/99083bd2953ec1280d729576ed197be555b1d18ad4ebe0d14644a9963b4d/atksh-utils-0.0.4.tar.gz
+[2023-06-17 08:32:09] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/04/cc/807f0172c573bfdb3a0df8be13e4ae3aefd17ac3c6de4dc823b79ababb38/featureform-1.9.2rc8.tar.gz
+[2023-06-17 08:32:10] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.0.3.tar.gz tmp/atksh-utils-0.0.4.tar.gz --markdown 20230617/a/atksh-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [ssbdplus]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [ssbdplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssbdplus-2.1.0.tar.gz tmp/ssbdplus-2.2.0.tar.gz --markdown 20230617/s/ssbdplus/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [is-bot]: Downloading https://files.pythonhosted.org/packages/e5/0a/ced6801b45829ceee5f822d5a83089218381867386909d46e5ea88e0b1af/is_bot-0.2.3.tar.gz
+[2023-06-17 08:32:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-17 08:32:10] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ea/6e/8bd210c676dfcea28eebca726612b734cee6a6914f0aa460514e0a8cef09/yambs-1.8.1.tar.gz
+[2023-06-17 08:32:10] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-06-17 08:32:10] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230617/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [is-bot]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [is-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/is_bot-0.2.2.tar.gz tmp/is_bot-0.2.3.tar.gz --markdown 20230617/i/is-bot/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.8.0.tar.gz tmp/yambs-1.8.1.tar.gz --markdown 20230617/y/yambs/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230617/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-17 08:32:10] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 08:32:10] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc7.tar.gz tmp/featureform-1.9.2rc8.tar.gz --markdown 20230617/f/featureform/1.9.2rc7-1.9.2rc8/diff.md --exclude *.pyd
+[2023-06-17 08:32:11] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.3.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.4.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-17 08:32:11] INFO root fetch - processPackages [ssbdplus]: Remove: archive file [/home/abi/fetcher/tmp/ssbdplus-2.1.0.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - processPackages [ssbdplus]: Remove: archive file [/home/abi/fetcher/tmp/ssbdplus-2.2.0.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - main [MainThread]: End processing [ssbdplus]: success
+[2023-06-17 08:32:11] INFO root fetch - processPackages [is-bot]: Remove: archive file [/home/abi/fetcher/tmp/is_bot-0.2.2.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - processPackages [is-bot]: Remove: archive file [/home/abi/fetcher/tmp/is_bot-0.2.3.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - main [MainThread]: End processing [is-bot]: success
+[2023-06-17 08:32:11] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-06-17 08:32:11] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.8.0.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.8.1.tar.gz]
+[2023-06-17 08:32:11] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-06-17 08:32:13] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-17 08:32:13] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-17 08:32:13] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-17 08:32:14] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc7.tar.gz]
+[2023-06-17 08:32:14] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc8.tar.gz]
+[2023-06-17 08:32:14] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 08:32:14] INFO root fetch - main [MainThread]: Store serial: [18541382]
