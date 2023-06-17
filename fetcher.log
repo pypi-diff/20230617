@@ -8746,3 +8746,105 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:06:39] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-06-17 07:06:39] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-06-17 07:06:39] INFO root fetch - main [MainThread]: Store serial: [18541020]
+[2023-06-17 07:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541020]
+[2023-06-17 07:12:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-changeset
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-mass-mailing-custom-unsubscribe
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-mass-mailing-custom-unsubscribe
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yunpancli
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bikeshare-model
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezdxf
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idoctorai
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-runtime-nightly
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thelogger
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo-addon-base-changeset]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [yunpancli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: New version: [8.0.2.1.0.99.dev9] Old Version: [8.0.2.1.0.99.dev8]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: New version: [9.0.3.0.0.99.dev9] Old Version: [9.0.3.0.0.99.dev8]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [thelogger]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [idoctorai]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [bikeshare-model]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [ezdxf]: New version: [1.1.0b4] Old Version: [1.1.0b3]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230615] Old Version: [2.14.0.dev20230614]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/6e/e5/68e649f13b0c686f65e2a58164cca8439beed730c7dc0e0e0c49cef34fcd/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev8-py2-none-any.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230617] Old Version: [23.8.0a230616]
+[2023-06-17 07:12:02] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/6b/e5/a2731504862ec1f638d37b8e8e7e924093919b88eb75eecc654ff3f412d2/idoctorai-0.4.3.tar.gz
+[2023-06-17 07:12:02] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/bb/7a/960410330112677c17d690a3fd69a07bd712e806f4f618359aad6b549592/thelogger-0.2.9-py3-none-any.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/a9/c7/ca70e91bf794a8e0d1bca4d961662368f933dad08d736cee006b27f967e3/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3f/85/9cac5aeee64266e0e2c46ae275f2c607e9fc70dd21f911d36ce022d56b41/tflite_runtime_nightly-2.14.0.dev20230614-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/5b/18/6cd63f74908de4d3d1801b2717445522889045b8b7280846f1b9c4e5e818/bikeshare_model-0.0.9-py3-none-any.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/a6/69/f027965353a5a389eb339b2eaf77d31c3dda7e2a317ecb062f91dcc4950e/odoo_addon_base_changeset-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-17 07:12:02] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/8a/e5/49b3bfc50427c24632507317ab0c78e6dda2cfffa6263642311d0acd74b7/dask-cuda-23.8.0a230616.tar.gz
+[2023-06-17 07:12:02] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/1f/7b/cd473725848b3c0da1ec174b3be740ad195ce0135d0240566950fbc594ed/yunpancli-0.0.8.tar.gz
+[2023-06-17 07:12:02] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/b0/05/c19fa66621368e77def240acf8836f2dd5847aaabd0a5a5e0367b1c62ecf/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/80/fd/22a7fa1946346395d9cc71705ec1a57f61f40c0d1d0048ec5a43fb61f001/idoctorai-0.4.4.tar.gz
+[2023-06-17 07:12:03] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/db/aa/72e1919ec02c630c77fefcebcffdf9de81d6038a9b4f5582d6c9e1cf1df6/tflite_runtime_nightly-2.14.0.dev20230615-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/39/e8/99480c73b0a7da2607f4def5a333336a67c093bae7e15ce3c334d210146c/thelogger-0.3.0-py3-none-any.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/53/74/62bc3e8fc7476e33a7017022daf125f69a932d5ed11e3154a582735edbac/ezdxf-1.1.0b3.zip
+[2023-06-17 07:12:03] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/9f/8d/e3613aa368613eba26953f58e15ae93ad7360c67874dc66a0b22b31a8833/yunpancli-0.0.9.tar.gz
+[2023-06-17 07:12:03] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/ab/97/ef6714780c60bc8ec4fafdcdf1cb725e58183915bb57da73c2c98a1f8dd1/bikeshare_model-0.1.0-py3-none-any.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo8-addon-mass-mailing-custom-unsubscribe/8.0.2.1.0.99.dev8-8.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.3.tar.gz tmp/idoctorai-0.4.4.tar.gz --markdown 20230617/i/idoctorai/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/24/99/9d052f82d9361d8df428745f0ee368860246a386e36eb5679339334fbc66/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev9-py2-none-any.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [yunpancli]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [yunpancli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunpancli-0.0.8.tar.gz tmp/yunpancli-0.0.9.tar.gz --markdown 20230617/y/yunpancli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/35/35/3208957407feda655ffcbd4d21e4f3fec246cfbb022c5ede98c74649769e/dask-cuda-23.8.0a230617.tar.gz
+[2023-06-17 07:12:03] INFO root fetch - processPackages [bikeshare-model]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [bikeshare-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshare_model-0.0.9-py3-none-any.whl.zip tmp/bikeshare_model-0.1.0-py3-none-any.whl.zip --markdown 20230617/b/bikeshare-model/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230614-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230615-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230617/t/tflite-runtime-nightly/2.14.0.dev20230614-2.14.0.dev20230615/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/5f/d3/1a5c975c5420d315bce4c4b6682014b166065d28213997911e9de5ec5243/odoo_addon_base_changeset-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-mass-mailing-custom-unsubscribe/9.0.3.0.0.99.dev8-9.0.3.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [thelogger]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [thelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thelogger-0.2.9-py3-none-any.whl.zip tmp/thelogger-0.3.0-py3-none-any.whl.zip --markdown 20230617/t/thelogger/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo-addon-base-changeset]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [odoo-addon-base-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_changeset-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_changeset-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-base-changeset/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-17 07:12:03] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230616.tar.gz tmp/dask-cuda-23.8.0a230617.tar.gz --markdown 20230617/d/dask-cuda/23.8.0a230616-23.8.0a230617/diff.md --exclude *.pyd
+[2023-06-17 07:12:03] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/d2/ff/40e7689a600f00678a1ef62d17e284fbd873c744916c04d1c1423795ce07/ezdxf-1.1.0b4.zip
+[2023-06-17 07:12:04] INFO root fetch - processPackages [ezdxf]: executing diffoscope
+[2023-06-17 07:12:04] INFO root fetch - processPackages [ezdxf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdxf-1.1.0b3.zip tmp/ezdxf-1.1.0b4.zip --markdown 20230617/e/ezdxf/1.1.0b3-1.1.0b4/diff.md --exclude *.pyd
+[2023-06-17 07:12:04] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.8.tar.gz]
+[2023-06-17 07:12:04] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.9.tar.gz]
+[2023-06-17 07:12:04] INFO root fetch - processPackages [yunpancli]: Start processing: rapid-pe
+[2023-06-17 07:12:04] INFO root fetch - main [MainThread]: End processing [yunpancli]: success
+[2023-06-17 07:12:04] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.3.tar.gz]
+[2023-06-17 07:12:04] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.4.tar.gz]
+[2023-06-17 07:12:04] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 07:12:04] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230617] Old Version: [0.1.1.dev20230616]
+[2023-06-17 07:12:04] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.2.9-py3-none-any.whl.zip]
+[2023-06-17 07:12:04] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.0-py3-none-any.whl.zip]
+[2023-06-17 07:12:04] INFO root fetch - main [MainThread]: End processing [thelogger]: success
+[2023-06-17 07:12:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8b/19/a001cc5f375c8aa1c6aecbd12f7aefcb6fcfe11da1cf976048e0716a2c4d/rapid_pe-0.1.1.dev20230616.tar.gz
+[2023-06-17 07:12:05] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/56/1e/d53ed2a6b4636c97001fa371c28150680ba5cd61f0f726ce31ea6edc0eaf/rapid_pe-0.1.1.dev20230617.tar.gz
+[2023-06-17 07:12:05] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-17 07:12:05] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230616.tar.gz tmp/rapid_pe-0.1.1.dev20230617.tar.gz --markdown 20230617/r/rapid-pe/0.1.1.dev20230616-0.1.1.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo8-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mass_mailing_custom_unsubscribe-8.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo-addon-base-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_changeset-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - processPackages [odoo-addon-base-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_changeset-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-changeset]: success
+[2023-06-17 07:12:05] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.0.9-py3-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.1.0-py3-none-any.whl.zip]
+[2023-06-17 07:12:05] INFO root fetch - main [MainThread]: End processing [bikeshare-model]: success
+[2023-06-17 07:12:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230616.tar.gz]
+[2023-06-17 07:12:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230617.tar.gz]
+[2023-06-17 07:12:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-17 07:12:06] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230616.tar.gz]
+[2023-06-17 07:12:06] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230617.tar.gz]
+[2023-06-17 07:12:06] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-17 07:12:07] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230614-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-17 07:12:07] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230615-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-17 07:12:07] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-17 07:12:14] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.1.0b3.zip]
+[2023-06-17 07:12:14] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.1.0b4.zip]
+[2023-06-17 07:12:14] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
+[2023-06-17 07:12:14] INFO root fetch - main [MainThread]: Store serial: [18541060]
