@@ -17672,3 +17672,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:39:50] INFO root fetch - processPackages [chainladder]: Remove: archive file [/home/abi/fetcher/tmp/chainladder-0.8.9.tar.gz]
 [2023-06-17 20:39:50] INFO root fetch - main [MainThread]: End processing [chainladder]: success
 [2023-06-17 20:39:50] INFO root fetch - main [MainThread]: Store serial: [18545232]
+[2023-06-17 20:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545232]
+[2023-06-17 20:44:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 20:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodeToCAD
+[2023-06-17 20:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-06-17 20:44:59] INFO root fetch - processPackages [mercury-sync]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-17 20:44:59] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1686968696]
+[2023-06-17 20:44:59] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/c2/bb/16e8f44a17ca16e3bbd73d7c0c10ac314d52b3b40919c22e9f583d2095b4/mercury-sync-0.1.9.tar.gz
+[2023-06-17 20:44:59] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/bb/24/913c061d1a965cab3f3e2c72d3101aa142da10ba82b8c64e5cd70a1a3e34/CodeToCAD-0.2.1686968696.tar.gz
+[2023-06-17 20:44:59] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-17 20:44:59] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/44/22/870cb40b50d5144d3a130ae9dc7fb3e4413d337e0980aec3ae617634c48c/mercury-sync-0.2.0.tar.gz
+[2023-06-17 20:44:59] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-17 20:44:59] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1686968696.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230617/C/CodeToCAD/0.2.1686968696-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 20:45:00] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-17 20:45:00] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.9.tar.gz tmp/mercury-sync-0.2.0.tar.gz --markdown 20230617/m/mercury-sync/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 20:45:01] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.9.tar.gz]
+[2023-06-17 20:45:01] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.2.0.tar.gz]
+[2023-06-17 20:45:01] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-17 20:45:01] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1686968696.tar.gz]
+[2023-06-17 20:45:01] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-17 20:45:01] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-17 20:45:01] INFO root fetch - main [MainThread]: Store serial: [18545237]
