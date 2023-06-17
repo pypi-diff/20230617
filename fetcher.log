@@ -15483,3 +15483,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:23:59] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.6.tar.gz]
 [2023-06-17 17:23:59] INFO root fetch - main [MainThread]: End processing [microcat]: success
 [2023-06-17 17:23:59] INFO root fetch - main [MainThread]: Store serial: [18544110]
+[2023-06-17 17:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544110]
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltachat
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-subs-migrate
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mizcore
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erniechatbotsdk
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: watch-diff
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daisykit
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honkairail
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: halborn-ctf
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytmlib
+[2023-06-17 17:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mizcore
+[2023-06-17 17:29:08] WARNING root fetch - processPackages [yt-subs-migrate]: Skipping, unable to determine old version
+[2023-06-17 17:29:08] INFO root fetch - processPackages [yt-subs-migrate]: Start processing: getmodelspec
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: End processing [yt-subs-migrate] error
+[2023-06-17 17:29:08] INFO root fetch - processPackages [watch-diff]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-17 17:29:08] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 17:29:08] WARNING root fetch - processPackages [pytmlib]: Skipping, unable to determine old version
+[2023-06-17 17:29:08] INFO root fetch - processPackages [honkairail]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-17 17:29:08] INFO root fetch - processPackages [pytmlib]: Start processing: micropython-bmp581
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: End processing [pytmlib] error
+[2023-06-17 17:29:08] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-17 17:29:08] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/40/91/e4dd3e5d68fc9c3ee6f0037b682cbe7ff86ad8b4f2c3d100222846fbd0af/watch-diff-1.1.2.tar.gz
+[2023-06-17 17:29:08] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/cc/af/ebd64e8232ff388b6ba3dc8e84a9d58f2148aa53971d4022d8131f628d9e/honkairail-1.0.5.tar.gz
+[2023-06-17 17:29:08] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/74/24/dbbc18112296be7ea6d1d589210bfc5be848b63d188c94837e91c91007ef/erniechatbotsdk-0.0.2.tar.gz
+[2023-06-17 17:29:08] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 17:29:08] WARNING root fetch - processPackages [mizcore]: Skipping, unable to determine old version
+[2023-06-17 17:29:08] WARNING root fetch - processPackages [mizcore]: Skipping, unable to determine old version
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: End processing [mizcore] error
+[2023-06-17 17:29:08] INFO root fetch - main [MainThread]: End processing [mizcore] error
+[2023-06-17 17:29:08] INFO root fetch - processPackages [daisykit]: New version: [0.3.0.4] Old Version: [0.3.0.3]
+[2023-06-17 17:29:08] INFO root fetch - processPackages [deltachat]: New version: [1.99.0] Old Version: [1.97.0]
+[2023-06-17 17:29:08] INFO root fetch - processPackages [micropython-bmp581]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:29:09] INFO root fetch - processPackages [daisykit]: Downloading https://files.pythonhosted.org/packages/65/21/c9255a53ed3894c5b8dfeb2d8cd8f6d2488586a39b08a508ee7b604d216c/daisykit-0.3.0.3.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/5a/08/82242afd72d9379c2f4f7c84b3dd1900aa3af4301f7d61b1c023ea47b0ee/watch-diff-1.1.3.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/70/50/f59e3f87d6458c291b8f778fc48b1132897743db6eef2c442180786e19a7/erniechatbotsdk-0.0.3.tar.gz
+[2023-06-17 17:29:09] WARNING root fetch - processPackages [daisykit]: Skipping package: exceeds size limit 18679894>=10485760
+[2023-06-17 17:29:09] INFO root fetch - main [MainThread]: End processing [daisykit] error
+[2023-06-17 17:29:09] INFO root fetch - processPackages [deltachat]: Downloading https://files.pythonhosted.org/packages/5f/68/643961814a496ee1878b93d46de85b2e15936390f691e51e812111ec11e4/deltachat-1.97.0.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [micropython-bmp581]: Downloading https://files.pythonhosted.org/packages/d0/68/d4b0c1b3354eeb082e62b4c7598cac82d96376dc076bd3d52923ec526c7c/micropython-bmp581-0.1.0.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/8e/a9/761413a5136d0dac4465b34b9155f36f007992e9ca11beac1c71e08718d2/honkairail-1.0.6.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [watch-diff]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [watch-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-diff-1.1.2.tar.gz tmp/watch-diff-1.1.3.tar.gz --markdown 20230617/w/watch-diff/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-17 17:29:09] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.2.tar.gz tmp/erniechatbotsdk-0.0.3.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 17:29:09] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.5.tar.gz tmp/honkairail-1.0.6.tar.gz --markdown 20230617/h/honkairail/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-17 17:29:09] INFO root fetch - processPackages [micropython-bmp581]: Downloading https://files.pythonhosted.org/packages/a3/3d/b99e6fa5d087c8c20105e1835f3df27bc56d129f03aee100805244afe85e/micropython-bmp581-0.1.1.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [deltachat]: Downloading https://files.pythonhosted.org/packages/09/4c/e0b2fffd856e28a2210708bd2d419ebe84cdf5314eb7e5ec3eb002de38ae/deltachat-1.99.0.tar.gz
+[2023-06-17 17:29:09] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 17:29:09] INFO root fetch - processPackages [micropython-bmp581]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [micropython-bmp581]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bmp581-0.1.0.tar.gz tmp/micropython-bmp581-0.1.1.tar.gz --markdown 20230617/m/micropython-bmp581/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:29:09] INFO root fetch - processPackages [deltachat]: executing diffoscope
+[2023-06-17 17:29:09] INFO root fetch - processPackages [deltachat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-1.97.0.tar.gz tmp/deltachat-1.99.0.tar.gz --markdown 20230617/d/deltachat/1.97.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-17 17:29:10] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.2.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.3.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - main [MainThread]: End processing [watch-diff]: success
+[2023-06-17 17:29:10] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.2.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.3.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 17:29:10] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.5.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.6.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-17 17:29:10] INFO root fetch - processPackages [micropython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmp581-0.1.0.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - processPackages [micropython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmp581-0.1.1.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - main [MainThread]: End processing [micropython-bmp581]: success
+[2023-06-17 17:29:10] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 17:29:10] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 17:29:11] INFO root fetch - processPackages [deltachat]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-1.97.0.tar.gz]
+[2023-06-17 17:29:11] INFO root fetch - processPackages [deltachat]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-1.99.0.tar.gz]
+[2023-06-17 17:29:11] INFO root fetch - main [MainThread]: End processing [deltachat]: success
+[2023-06-17 17:29:11] INFO root fetch - main [MainThread]: Store serial: [18544204]
