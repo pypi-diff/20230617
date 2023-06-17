@@ -16034,3 +16034,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:11:30] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-17 18:11:30] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-17 18:11:30] INFO root fetch - main [MainThread]: Store serial: [18544477]
+[2023-06-17 18:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544477]
+[2023-06-17 18:16:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 18:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e-qsl
+[2023-06-17 18:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skmetpy
+[2023-06-17 18:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mospy-wallet
+[2023-06-17 18:16:39] INFO root fetch - processPackages [mospy-wallet]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-17 18:16:39] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 18:16:39] INFO root fetch - processPackages [skmetpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 18:16:39] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/4c/fe/5737a35357eae054315729884adbf0b70c6922b739f0b4f823626b4fb4e9/mospy_wallet-0.4.1.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/2a/be/4b10dc626dc3a584ea61c14363701b46504ba060a0b56624aba1d2f613d6/skmetpy-0.0.4.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/1d/e4/f98965ad46a5e52221c2dcd82f071628344eaebbb5dda2e663e2f69749cc/e-qsl-0.1.8.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/c9/36/32ac8a42f1fdc5f8bdb617bf52386d4de1c5042d261021774c3de53cb63d/mospy_wallet-0.4.2.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [mospy-wallet]: executing diffoscope
+[2023-06-17 18:16:40] INFO root fetch - processPackages [mospy-wallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mospy_wallet-0.4.1.tar.gz tmp/mospy_wallet-0.4.2.tar.gz --markdown 20230617/m/mospy-wallet/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-17 18:16:40] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/ce/a1/ec4811e97d368e948eb505a5aed250bcd913864941dc177655a72f2a6de2/skmetpy-0.0.5.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-17 18:16:40] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.4.tar.gz tmp/skmetpy-0.0.5.tar.gz --markdown 20230617/s/skmetpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 18:16:40] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/53/3b/0affc5c6730054741a521330a3878a5d86a23d03e6c4b7b6222c10bf04b1/e-qsl-0.1.9.tar.gz
+[2023-06-17 18:16:40] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-06-17 18:16:40] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230617/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 18:16:41] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.4.1.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.4.2.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - main [MainThread]: End processing [mospy-wallet]: success
+[2023-06-17 18:16:41] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.4.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.5.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-17 18:16:41] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.8.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
+[2023-06-17 18:16:41] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-06-17 18:16:41] INFO root fetch - main [MainThread]: Store serial: [18544488]
