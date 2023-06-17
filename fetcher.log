@@ -2373,3 +2373,54 @@
 [2023-06-17 03:12:02] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.1.tar.gz]
 [2023-06-17 03:12:02] INFO root fetch - main [MainThread]: End processing [modin]: success
 [2023-06-17 03:12:02] INFO root fetch - main [MainThread]: Store serial: [18538815]
+[2023-06-17 03:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538815]
+[2023-06-17 03:17:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dioptic.profileparser
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-gitconfig
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finance-enums
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scicookie
+[2023-06-17 03:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idoctorai
+[2023-06-17 03:17:10] WARNING root fetch - processPackages [dioptic.profileparser]: Skipping, unable to determine old version
+[2023-06-17 03:17:10] INFO root fetch - main [MainThread]: End processing [dioptic.profileparser] error
+[2023-06-17 03:17:10] INFO root fetch - processPackages [idoctorai]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-17 03:17:10] INFO root fetch - processPackages [pytest-gitconfig]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 03:17:11] INFO root fetch - processPackages [scicookie]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-17 03:17:11] INFO root fetch - processPackages [finance-enums]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 03:17:11] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-17 03:17:11] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/1e/a0/af4f1bf89ed9d2d419a16da0b504df0327fa355f79db5bd78b1f5d13355c/idoctorai-0.4.2.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [finance-enums]: Downloading https://files.pythonhosted.org/packages/7e/80/7a1e6f1a4678d94a3fd9588b320debef553f48961a6474899e5696952097/finance_enums-0.2.2.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/a1/e1/eb9056f25d40a653b296bb5bd493ddced0a8b267ff1fce39f0acd0832aba/scicookie-0.1.1.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [pytest-gitconfig]: Downloading https://files.pythonhosted.org/packages/ec/91/70c6ac0e53c256e456f93e41e36067840e0710fbffe3f74f1aa7fd82683e/pytest_gitconfig-0.1.0.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [pytest-gitconfig]: Downloading https://files.pythonhosted.org/packages/43/d9/7dd802b5aec6966cc009b1e1c1d0652ee83a08ebbdd0b67ad99dfcd23dda/pytest_gitconfig-0.1.1.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/6b/e5/a2731504862ec1f638d37b8e8e7e924093919b88eb75eecc654ff3f412d2/idoctorai-0.4.3.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/ed/2b/60d3e91c1a1b3c7f3c88869714a795c96eff499ccf01206ecb3956a1ddc9/scicookie-0.2.0.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [pytest-gitconfig]: executing diffoscope
+[2023-06-17 03:17:11] INFO root fetch - processPackages [pytest-gitconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_gitconfig-0.1.0.tar.gz tmp/pytest_gitconfig-0.1.1.tar.gz --markdown 20230617/p/pytest-gitconfig/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 03:17:11] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 03:17:11] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.2.tar.gz tmp/idoctorai-0.4.3.tar.gz --markdown 20230617/i/idoctorai/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-17 03:17:11] INFO root fetch - processPackages [scicookie]: executing diffoscope
+[2023-06-17 03:17:11] INFO root fetch - processPackages [scicookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicookie-0.1.1.tar.gz tmp/scicookie-0.2.0.tar.gz --markdown 20230617/s/scicookie/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 03:17:11] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-17 03:17:11] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230617/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-17 03:17:11] INFO root fetch - processPackages [finance-enums]: Downloading https://files.pythonhosted.org/packages/6d/25/42ef17da6b00f41e69f20af6d4cab54481519ff6e1d3bab8048c9ba8ba6a/finance_enums-0.2.3.tar.gz
+[2023-06-17 03:17:11] INFO root fetch - processPackages [finance-enums]: executing diffoscope
+[2023-06-17 03:17:11] INFO root fetch - processPackages [finance-enums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance_enums-0.2.2.tar.gz tmp/finance_enums-0.2.3.tar.gz --markdown 20230617/f/finance-enums/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 03:17:12] INFO root fetch - processPackages [pytest-gitconfig]: Remove: archive file [/home/abi/fetcher/tmp/pytest_gitconfig-0.1.0.tar.gz]
+[2023-06-17 03:17:12] INFO root fetch - processPackages [pytest-gitconfig]: Remove: archive file [/home/abi/fetcher/tmp/pytest_gitconfig-0.1.1.tar.gz]
+[2023-06-17 03:17:12] INFO root fetch - main [MainThread]: End processing [pytest-gitconfig]: success
+[2023-06-17 03:17:12] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.2.tar.gz]
+[2023-06-17 03:17:12] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.3.tar.gz]
+[2023-06-17 03:17:12] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 03:17:13] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.1.1.tar.gz]
+[2023-06-17 03:17:13] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.2.0.tar.gz]
+[2023-06-17 03:17:13] INFO root fetch - main [MainThread]: End processing [scicookie]: success
+[2023-06-17 03:17:13] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-17 03:17:13] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-17 03:17:13] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-17 03:17:14] INFO root fetch - processPackages [finance-enums]: Remove: archive file [/home/abi/fetcher/tmp/finance_enums-0.2.2.tar.gz]
+[2023-06-17 03:17:14] INFO root fetch - processPackages [finance-enums]: Remove: archive file [/home/abi/fetcher/tmp/finance_enums-0.2.3.tar.gz]
+[2023-06-17 03:17:14] INFO root fetch - main [MainThread]: End processing [finance-enums]: success
+[2023-06-17 03:17:14] INFO root fetch - main [MainThread]: Store serial: [18538844]
