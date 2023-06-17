@@ -18372,3 +18372,69 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:05:09] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
 [2023-06-17 22:05:09] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
 [2023-06-17 22:05:09] INFO root fetch - main [MainThread]: Store serial: [18545629]
+[2023-06-17 22:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545629]
+[2023-06-17 22:10:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluetooth-numbers
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphium
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git2doc
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oneapi-sdk
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hvac
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight-core
+[2023-06-17 22:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape
+[2023-06-17 22:10:18] INFO root fetch - processPackages [git2doc]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-17 22:10:18] INFO root fetch - processPackages [oneapi-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 22:10:18] INFO root fetch - processPackages [graphium]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-17 22:10:18] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 22:10:19] INFO root fetch - processPackages [bluetooth-numbers]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-17 22:10:19] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-17 22:10:19] INFO root fetch - processPackages [hvac]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-17 22:10:19] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/cd/b7/d926d67a34ab9b423e1eefda9937fef6e3d4445f9661721dcc68632a94d0/git2doc-0.1.8.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [oneapi-sdk]: Downloading https://files.pythonhosted.org/packages/19/75/6691b1542057af19fa46a9549ca1c3fc8a86179f615ec53066333ba50976/oneapi_sdk-0.0.2.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [bluetooth-numbers]: Downloading https://files.pythonhosted.org/packages/62/e2/74c7e9f1c49a1714854e2469c08fa40ac1a7a8c5c97185bbf29d109063b2/bluetooth-numbers-1.1.0.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [graphium]: Downloading https://files.pythonhosted.org/packages/87/29/05754f564be1f113fdb1e4d96792adba32e3c2fbf5a121a5907f55c8991f/graphium-2.0.1.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [hvac]: Downloading https://files.pythonhosted.org/packages/fe/5f/f7ce8c7aca0f3738a993f21cd2eb3150e6f5bcaa707d42e012089f4dc23b/hvac-1.1.0.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-17 22:10:19] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230617/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 22:10:19] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/87/ed/8422eb2b298f0a9597f9cfaa5c26405c1de5b8369f9c2c1953f1e90df980/git2doc-0.2.0.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [oneapi-sdk]: Downloading https://files.pythonhosted.org/packages/d7/6d/ac5891220400ec3cca4b768bb016c126c9ab35c1461260bce58f3d40119b/oneapi_sdk-0.0.3.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [git2doc]: executing diffoscope
+[2023-06-17 22:10:19] INFO root fetch - processPackages [git2doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2doc-0.1.8.tar.gz tmp/git2doc-0.2.0.tar.gz --markdown 20230617/g/git2doc/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 22:10:19] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [oneapi-sdk]: executing diffoscope
+[2023-06-17 22:10:19] INFO root fetch - processPackages [oneapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneapi_sdk-0.0.2.tar.gz tmp/oneapi_sdk-0.0.3.tar.gz --markdown 20230617/o/oneapi-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 22:10:19] INFO root fetch - processPackages [hvac]: Downloading https://files.pythonhosted.org/packages/b3/17/8c91d50220c382466c2498703f7f0a06f47e3224e3fabdc6beafea7bef31/hvac-1.1.1.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-17 22:10:19] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230617/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 22:10:19] INFO root fetch - processPackages [hvac]: executing diffoscope
+[2023-06-17 22:10:19] INFO root fetch - processPackages [hvac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvac-1.1.0.tar.gz tmp/hvac-1.1.1.tar.gz --markdown 20230617/h/hvac/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-17 22:10:19] INFO root fetch - processPackages [bluetooth-numbers]: Downloading https://files.pythonhosted.org/packages/a7/5d/c8df0da7291d0e97736c7babab7edc6e2867fb60b367df456a0ff7547c2e/bluetooth-numbers-1.1.1.tar.gz
+[2023-06-17 22:10:19] INFO root fetch - processPackages [graphium]: Downloading https://files.pythonhosted.org/packages/8a/74/27082a39c4b0d81dafd7731b44262de67f5ef8eb40f3553c3c5e4e8c3577/graphium-2.0.2.tar.gz
+[2023-06-17 22:10:20] INFO root fetch - processPackages [bluetooth-numbers]: executing diffoscope
+[2023-06-17 22:10:20] INFO root fetch - processPackages [bluetooth-numbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth-numbers-1.1.0.tar.gz tmp/bluetooth-numbers-1.1.1.tar.gz --markdown 20230617/b/bluetooth-numbers/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-17 22:10:20] INFO root fetch - processPackages [graphium]: executing diffoscope
+[2023-06-17 22:10:20] INFO root fetch - processPackages [graphium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphium-2.0.1.tar.gz tmp/graphium-2.0.2.tar.gz --markdown 20230617/g/graphium/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-17 22:10:20] INFO root fetch - processPackages [oneapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oneapi_sdk-0.0.2.tar.gz]
+[2023-06-17 22:10:20] INFO root fetch - processPackages [oneapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oneapi_sdk-0.0.3.tar.gz]
+[2023-06-17 22:10:20] INFO root fetch - main [MainThread]: End processing [oneapi-sdk]: success
+[2023-06-17 22:10:20] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.1.8.tar.gz]
+[2023-06-17 22:10:20] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.0.tar.gz]
+[2023-06-17 22:10:20] INFO root fetch - main [MainThread]: End processing [git2doc]: success
+[2023-06-17 22:10:21] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-06-17 22:10:21] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-06-17 22:10:21] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-17 22:10:21] INFO root fetch - processPackages [hvac]: Remove: archive file [/home/abi/fetcher/tmp/hvac-1.1.0.tar.gz]
+[2023-06-17 22:10:21] INFO root fetch - processPackages [hvac]: Remove: archive file [/home/abi/fetcher/tmp/hvac-1.1.1.tar.gz]
+[2023-06-17 22:10:21] INFO root fetch - main [MainThread]: End processing [hvac]: success
+[2023-06-17 22:10:23] INFO root fetch - processPackages [graphium]: Remove: archive file [/home/abi/fetcher/tmp/graphium-2.0.1.tar.gz]
+[2023-06-17 22:10:23] INFO root fetch - processPackages [graphium]: Remove: archive file [/home/abi/fetcher/tmp/graphium-2.0.2.tar.gz]
+[2023-06-17 22:10:23] INFO root fetch - main [MainThread]: End processing [graphium]: success
+[2023-06-17 22:10:31] INFO root fetch - processPackages [bluetooth-numbers]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth-numbers-1.1.0.tar.gz]
+[2023-06-17 22:10:31] INFO root fetch - processPackages [bluetooth-numbers]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth-numbers-1.1.1.tar.gz]
+[2023-06-17 22:10:31] INFO root fetch - main [MainThread]: End processing [bluetooth-numbers]: success
+[2023-06-17 22:11:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-17 22:11:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-17 22:11:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-17 22:11:13] INFO root fetch - main [MainThread]: Store serial: [18545652]
