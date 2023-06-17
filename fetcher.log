@@ -16234,3 +16234,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:27:24] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
 [2023-06-17 18:27:24] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
 [2023-06-17 18:27:24] INFO root fetch - main [MainThread]: Store serial: [18544580]
+[2023-06-17 18:32:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544580]
+[2023-06-17 18:32:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpsbot
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dielectric
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-mahjong-scoreboard
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erniechatbotsdk
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitson-tool-helper
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: philbot-voice
+[2023-06-17 18:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mensajes-larg
+[2023-06-17 18:32:33] WARNING root fetch - processPackages [dielectric]: Skipping, unable to determine old version
+[2023-06-17 18:32:33] INFO root fetch - main [MainThread]: End processing [dielectric] error
+[2023-06-17 18:32:34] INFO root fetch - processPackages [whitson-tool-helper]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-17 18:32:34] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: New version: [0.4.1.post4] Old Version: [0.4.1.post2]
+[2023-06-17 18:32:34] WARNING root fetch - processPackages [Mensajes-larg]: Skipping, unable to determine old version
+[2023-06-17 18:32:34] WARNING root fetch - processPackages [rpsbot]: Skipping, unable to determine old version
+[2023-06-17 18:32:34] INFO root fetch - main [MainThread]: End processing [Mensajes-larg] error
+[2023-06-17 18:32:34] INFO root fetch - main [MainThread]: End processing [rpsbot] error
+[2023-06-17 18:32:34] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 18:32:34] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-17 18:32:34] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Downloading https://files.pythonhosted.org/packages/cf/98/864d7ceb47a828a14d5014fcc8294369c119e94cf87c3d03c9a0fe069ed4/nonebot_plugin_mahjong_scoreboard-0.4.1.post2.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/4d/d6/f57a143758fd269cc177aa04c47e1477de4fd1458e9d06d8250729874a4c/whitson_tool_helper-0.1.7.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/47/9acbb6be835bf604e58c663b9251f83f37a10a32058b6f1171aaa3e6a6aa/erniechatbotsdk-0.0.9.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-17 18:32:34] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230617/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-17 18:32:34] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/8a/6f/a5c8313fa93dc6a14cb4cd095ead412cbb46df6acc2ffdcde302f1d04647/whitson_tool_helper-0.1.8.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Downloading https://files.pythonhosted.org/packages/de/98/ffa4e99696d57ff308fdfe6f178aee3226f8d611def616fbd36dd9fee10a/nonebot_plugin_mahjong_scoreboard-0.4.1.post4.tar.gz
+[2023-06-17 18:32:34] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 18:32:34] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.8.tar.gz tmp/erniechatbotsdk-0.0.9.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 18:32:34] INFO root fetch - processPackages [whitson-tool-helper]: executing diffoscope
+[2023-06-17 18:32:34] INFO root fetch - processPackages [whitson-tool-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitson_tool_helper-0.1.7.tar.gz tmp/whitson_tool_helper-0.1.8.tar.gz --markdown 20230617/w/whitson-tool-helper/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-17 18:32:34] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: executing diffoscope
+[2023-06-17 18:32:34] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mahjong_scoreboard-0.4.1.post2.tar.gz tmp/nonebot_plugin_mahjong_scoreboard-0.4.1.post4.tar.gz --markdown 20230617/n/nonebot-plugin-mahjong-scoreboard/0.4.1.post2-0.4.1.post4/diff.md --exclude *.pyd
+[2023-06-17 18:32:35] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-17 18:32:35] INFO root fetch - processPackages [whitson-tool-helper]: Remove: archive file [/home/abi/fetcher/tmp/whitson_tool_helper-0.1.7.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - processPackages [whitson-tool-helper]: Remove: archive file [/home/abi/fetcher/tmp/whitson_tool_helper-0.1.8.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - main [MainThread]: End processing [whitson-tool-helper]: success
+[2023-06-17 18:32:35] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.9.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 18:32:35] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mahjong_scoreboard-0.4.1.post2.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mahjong_scoreboard-0.4.1.post4.tar.gz]
+[2023-06-17 18:32:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mahjong-scoreboard]: success
+[2023-06-17 18:32:35] INFO root fetch - main [MainThread]: Store serial: [18544609]
