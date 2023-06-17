@@ -11291,3 +11291,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:46:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b7-py3-none-any.whl.zip]
 [2023-06-17 11:46:29] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-06-17 11:46:29] INFO root fetch - main [MainThread]: Store serial: [18542117]
+[2023-06-17 11:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542117]
+[2023-06-17 11:51:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: similarweb-rapidapi
+[2023-06-17 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2023-06-17 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2023-06-17 11:51:38] INFO root fetch - processPackages [similarweb-rapidapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 11:51:38] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-17 11:51:38] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [similarweb-rapidapi]: Downloading https://files.pythonhosted.org/packages/75/23/2a36e2de0748c602523e3423cc91c67ea2a720d27558077bfce0e1210225/similarweb_rapidapi-0.1.3.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [similarweb-rapidapi]: Downloading https://files.pythonhosted.org/packages/5f/38/b5301212d4dc4d915a12b26d8424097a865ed32457ae9df9a7c41392e21c/similarweb_rapidapi-0.1.4.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [similarweb-rapidapi]: executing diffoscope
+[2023-06-17 11:51:39] INFO root fetch - processPackages [similarweb-rapidapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarweb_rapidapi-0.1.3.tar.gz tmp/similarweb_rapidapi-0.1.4.tar.gz --markdown 20230617/s/similarweb-rapidapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230617/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-17 11:51:39] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230617/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-17 11:51:40] INFO root fetch - processPackages [similarweb-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/similarweb_rapidapi-0.1.3.tar.gz]
+[2023-06-17 11:51:40] INFO root fetch - processPackages [similarweb-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/similarweb_rapidapi-0.1.4.tar.gz]
+[2023-06-17 11:51:40] INFO root fetch - main [MainThread]: End processing [similarweb-rapidapi]: success
+[2023-06-17 11:52:00] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-17 11:52:00] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-17 11:52:00] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-17 11:52:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-17 11:52:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-17 11:52:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-17 11:52:11] INFO root fetch - main [MainThread]: Store serial: [18542130]
