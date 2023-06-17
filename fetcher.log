@@ -14230,3 +14230,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:53:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306161353.tar.gz]
 [2023-06-17 15:53:33] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-17 15:53:33] INFO root fetch - main [MainThread]: Store serial: [18543484]
+[2023-06-17 15:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543484]
+[2023-06-17 15:58:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: listrology
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sp-repo-review
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insurance
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-usernames
+[2023-06-17 15:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-pypi-ejarkm-project2
+[2023-06-17 15:58:42] INFO root fetch - processPackages [insurance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 15:58:42] INFO root fetch - processPackages [python-usernames]: New version: [1.0.0rc0] Old Version: [0.4.1]
+[2023-06-17 15:58:42] WARNING root fetch - processPackages [listrology]: Skipping, unable to determine old version
+[2023-06-17 15:58:42] INFO root fetch - main [MainThread]: End processing [listrology] error
+[2023-06-17 15:58:42] WARNING root fetch - processPackages [my-pypi-ejarkm-project2]: Skipping, unable to determine old version
+[2023-06-17 15:58:42] INFO root fetch - processPackages [sp-repo-review]: New version: [2023.6.7] Old Version: [2023.6.17]
+[2023-06-17 15:58:42] INFO root fetch - main [MainThread]: End processing [my-pypi-ejarkm-project2] error
+[2023-06-17 15:58:42] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/04/a7/0fbbc2df96f7c6c1de1e1a065985a2c459c6837c6e76a3464481283fe9c7/insurance-0.0.3.tar.gz
+[2023-06-17 15:58:42] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-17 15:58:42] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/52/1a/107a956788b283e99a4f1c1c51068192c810d002c2794255f5f9ce75400e/python-usernames-0.4.1.tar.gz
+[2023-06-17 15:58:42] INFO root fetch - processPackages [sp-repo-review]: Downloading https://files.pythonhosted.org/packages/05/90/b197bb1c7be24992ee6ec30c551bebab748edf244bff339a7371b2824504/sp_repo_review-2023.6.17.tar.gz
+[2023-06-17 15:58:42] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/c2/2e/e3d16dede8c655bf2c09949166bf9ca810ab926becfdc017b6990070ede0/insurance-0.0.4.tar.gz
+[2023-06-17 15:58:42] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-17 15:58:43] INFO root fetch - processPackages [insurance]: executing diffoscope
+[2023-06-17 15:58:43] INFO root fetch - processPackages [insurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insurance-0.0.3.tar.gz tmp/insurance-0.0.4.tar.gz --markdown 20230617/i/insurance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 15:58:43] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/42/c9/ca99d043418ef4f3d3c05b183e725a49792ac9052f3ae8c9c4de978beee4/python_usernames-1.0.0rc0.tar.gz
+[2023-06-17 15:58:43] INFO root fetch - processPackages [python-usernames]: executing diffoscope
+[2023-06-17 15:58:43] INFO root fetch - processPackages [python-usernames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-usernames-0.4.1.tar.gz tmp/python_usernames-1.0.0rc0.tar.gz --markdown 20230617/p/python-usernames/0.4.1-1.0.0rc0/diff.md --exclude *.pyd
+[2023-06-17 15:58:43] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-17 15:58:43] INFO root fetch - processPackages [sp-repo-review]: Downloading https://files.pythonhosted.org/packages/64/f8/7d9c06ab461fa671449f450220b0280ea4f046d51b692fe23771f4241a5b/sp_repo_review-2023.6.7.tar.gz
+[2023-06-17 15:58:43] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-17 15:58:43] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230617/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-17 15:58:43] INFO root fetch - processPackages [sp-repo-review]: executing diffoscope
+[2023-06-17 15:58:43] INFO root fetch - processPackages [sp-repo-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sp_repo_review-2023.6.17.tar.gz tmp/sp_repo_review-2023.6.7.tar.gz --markdown 20230617/s/sp-repo-review/2023.6.17-2023.6.7/diff.md --exclude *.pyd
+[2023-06-17 15:58:44] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.3.tar.gz]
+[2023-06-17 15:58:44] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.4.tar.gz]
+[2023-06-17 15:58:44] INFO root fetch - main [MainThread]: End processing [insurance]: success
+[2023-06-17 15:58:44] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python-usernames-0.4.1.tar.gz]
+[2023-06-17 15:58:44] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python_usernames-1.0.0rc0.tar.gz]
+[2023-06-17 15:58:44] INFO root fetch - main [MainThread]: End processing [python-usernames]: success
+[2023-06-17 15:58:44] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-17 15:58:44] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-17 15:58:44] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-17 15:58:45] INFO root fetch - processPackages [sp-repo-review]: Remove: archive file [/home/abi/fetcher/tmp/sp_repo_review-2023.6.17.tar.gz]
+[2023-06-17 15:58:45] INFO root fetch - processPackages [sp-repo-review]: Remove: archive file [/home/abi/fetcher/tmp/sp_repo_review-2023.6.7.tar.gz]
+[2023-06-17 15:58:45] INFO root fetch - main [MainThread]: End processing [sp-repo-review]: success
+[2023-06-17 15:58:45] INFO root fetch - main [MainThread]: Store serial: [18543524]
