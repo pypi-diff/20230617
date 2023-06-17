@@ -12016,3 +12016,60 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 13:07:30] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.2.tar.gz]
 [2023-06-17 13:07:30] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
 [2023-06-17 13:07:30] INFO root fetch - main [MainThread]: Store serial: [18542493]
+[2023-06-17 13:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542493]
+[2023-06-17 13:12:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bin2coe
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: insurance
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GCoCF
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-astrolab
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-threads
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygrb-lc
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libdev
+[2023-06-17 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-testing
+[2023-06-17 13:12:39] WARNING root fetch - processPackages [insurance]: Skipping, unable to determine old version
+[2023-06-17 13:12:39] INFO root fetch - main [MainThread]: End processing [insurance] error
+[2023-06-17 13:12:39] INFO root fetch - processPackages [bin2coe]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-17 13:12:39] WARNING root fetch - processPackages [pygrb-lc]: Skipping, unable to determine old version
+[2023-06-17 13:12:39] INFO root fetch - main [MainThread]: End processing [pygrb-lc] error
+[2023-06-17 13:12:39] INFO root fetch - processPackages [mo-testing]: New version: [5.53.21241] Old Version: [5.413.23168]
+[2023-06-17 13:12:39] INFO root fetch - processPackages [GCoCF]: New version: [0.9.94] Old Version: [0.9.91]
+[2023-06-17 13:12:39] INFO root fetch - processPackages [mo-threads]: New version: [5.53.21241] Old Version: [5.413.23168]
+[2023-06-17 13:12:39] INFO root fetch - processPackages [libdev]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 13:12:39] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/41/aa/8b6a50e1496c7385d62b6255a70aa9ddc845bd5594d88c66347c26e426f8/mo_threads-5.413.23168-py2.py3-none-any.whl
+[2023-06-17 13:12:39] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/64/0e/4dc1f786d07ed7745ad29ee45b3c028ee930eafb8cc98e153356cc28b316/mo_testing-5.413.23168-py2.py3-none-any.whl
+[2023-06-17 13:12:39] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/e2/8d/bcacab1d4f911d6fbf6c411dfb5a06ce836e521ccc40dc8175441fdb80b8/libdev-0.8.tar.gz
+[2023-06-17 13:12:40] ERROR root fetch - processPackages [py-astrolab]: Unable to get metadata: No such project 'py-astrolab'
+[2023-06-17 13:12:40] INFO root fetch - main [MainThread]: End processing [py-astrolab] error
+[2023-06-17 13:12:40] INFO root fetch - processPackages [bin2coe]: Downloading https://files.pythonhosted.org/packages/4b/9f/3eaf69da1c1ed33f8c86938794db7a19822f099f02e107b160a3ded549fe/bin2coe-1.1.0.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/51/13/761e2c392a6d9ac1749628eade6aa54350943dc568068e78680d5a29595f/gcocf-0.9.91.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d9/cd/f2576ce1ba78bee930d7589319531827d26adb89f1ffc604ffe0395e6bb5/mo-testing-5.53.21241.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/42/9d/de356c2c8539c56dda084e897ea07d5f2553c6ff16ac6252cd6047268782/mo-threads-5.53.21241.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/7d/2f/227c058dbbd649c3bb70bbd6d279691828eba2b5bac3cf27685382669b09/libdev-0.9.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-5.413.23168-py2.py3-none-any.whl.zip tmp/mo-testing-5.53.21241.tar.gz --markdown 20230617/m/mo-testing/5.413.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 13:12:40] INFO root fetch - processPackages [libdev]: executing diffoscope
+[2023-06-17 13:12:40] INFO root fetch - processPackages [libdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdev-0.8.tar.gz tmp/libdev-0.9.tar.gz --markdown 20230617/l/libdev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2023-06-17 13:12:40] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-5.413.23168-py2.py3-none-any.whl.zip tmp/mo-threads-5.53.21241.tar.gz --markdown 20230617/m/mo-threads/5.413.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 13:12:40] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/3c/30/f2b02a6f6540b747e45dfac6c35d645f1934c22cd65cda24f1d2d796649f/gcocf-0.9.94.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [bin2coe]: Downloading https://files.pythonhosted.org/packages/d4/eb/929999660334db46a48680f95b8d244a889fb1154f4f5c7ded6e786efc99/bin2coe-1.1.1.tar.gz
+[2023-06-17 13:12:40] INFO root fetch - processPackages [bin2coe]: executing diffoscope
+[2023-06-17 13:12:40] INFO root fetch - processPackages [bin2coe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bin2coe-1.1.0.tar.gz tmp/bin2coe-1.1.1.tar.gz --markdown 20230617/b/bin2coe/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-17 13:12:40] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 13:12:40] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.91.tar.gz tmp/gcocf-0.9.94.tar.gz --markdown 20230617/G/GCoCF/0.9.91-0.9.94/diff.md --exclude *.pyd
+[2023-06-17 13:12:41] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-5.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:12:41] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo-testing-5.53.21241.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2023-06-17 13:12:41] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-5.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:12:41] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo-threads-5.53.21241.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2023-06-17 13:12:41] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.8.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.9.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [libdev]: success
+[2023-06-17 13:12:41] INFO root fetch - processPackages [bin2coe]: Remove: archive file [/home/abi/fetcher/tmp/bin2coe-1.1.0.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - processPackages [bin2coe]: Remove: archive file [/home/abi/fetcher/tmp/bin2coe-1.1.1.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [bin2coe]: success
+[2023-06-17 13:12:41] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.91.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.94.tar.gz]
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 13:12:41] INFO root fetch - main [MainThread]: Store serial: [18542521]
