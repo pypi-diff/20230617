@@ -12614,3 +12614,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 13:52:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-06-17 13:52:15] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-17 13:52:15] INFO root fetch - main [MainThread]: Store serial: [18542721]
+[2023-06-17 13:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542721]
+[2023-06-17 13:57:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shamela2epub
+[2023-06-17 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dblp-crawler
+[2023-06-17 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pharindoko.cdk-internal-gateway
+[2023-06-17 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invokees
+[2023-06-17 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-06-17 13:57:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-17 13:57:26] INFO root fetch - processPackages [invokees]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 13:57:26] INFO root fetch - processPackages [shamela2epub]: New version: [1.3.0] Old Version: [1.1.4]
+[2023-06-17 13:57:26] INFO root fetch - processPackages [minidevice]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-17 13:57:26] INFO root fetch - processPackages [dblp-crawler]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-17 13:57:26] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/0b/e5/e75dc3ba6e8473bd331e581414ab2832cf740fee0aca55c2bb99254eb0a8/invokees-0.1.0.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/3c/a4/e86c4c207f726d8ecc681112c3e4f0082bfcdb639758872649eae52f9d95/minidevice-1.1.1.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [shamela2epub]: Downloading https://files.pythonhosted.org/packages/e4/b7/9314d0d98ef1443aba4bbfb5f607daa91f115362f0dd603d4420fe93e4ac/shamela2epub-1.1.4.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/8c/52/8e5316f20e64bf8299d3cf49afa3f3fce28dd3598809b74dc560cbd03d52/minidevice-2.0.0.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/6e/39/e6ea684cb269d315b7f9ae5acaa9251f332f49ddebefb6b72873ff6b86f6/dblp_crawler-1.6.4.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-17 13:57:26] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.1.1.tar.gz tmp/minidevice-2.0.0.tar.gz --markdown 20230617/m/minidevice/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 13:57:26] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/b9/f0/9fd152e2f9a9b423f683559deb28b307011703d7d9ec95f0abe8084d89d7/invokees-0.2.0.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/a8/0c/0f7b53b92303867b74cf71e814637d683cac6a66bea26543ca1ea88880c8/dblp_crawler-1.6.5.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [invokees]: executing diffoscope
+[2023-06-17 13:57:26] INFO root fetch - processPackages [invokees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokees-0.1.0.tar.gz tmp/invokees-0.2.0.tar.gz --markdown 20230617/i/invokees/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 13:57:26] INFO root fetch - processPackages [shamela2epub]: Downloading https://files.pythonhosted.org/packages/47/95/579f5619bb4c487ef2ef990a3383cb59aec63456e51e79fe7859b7049f6b/shamela2epub-1.3.0.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-06-17 13:57:26] INFO root fetch - processPackages [dblp-crawler]: executing diffoscope
+[2023-06-17 13:57:26] INFO root fetch - processPackages [dblp-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblp_crawler-1.6.4.tar.gz tmp/dblp_crawler-1.6.5.tar.gz --markdown 20230617/d/dblp-crawler/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-17 13:57:26] INFO root fetch - processPackages [shamela2epub]: executing diffoscope
+[2023-06-17 13:57:26] INFO root fetch - processPackages [shamela2epub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shamela2epub-1.1.4.tar.gz tmp/shamela2epub-1.3.0.tar.gz --markdown 20230617/s/shamela2epub/1.1.4-1.3.0/diff.md --exclude *.pyd
+[2023-06-17 13:57:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-06-17 13:57:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230617/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-17 13:57:27] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.1.0.tar.gz]
+[2023-06-17 13:57:27] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.2.0.tar.gz]
+[2023-06-17 13:57:27] INFO root fetch - main [MainThread]: End processing [invokees]: success
+[2023-06-17 13:57:28] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-06-17 13:57:28] INFO root fetch - processPackages [shamela2epub]: Remove: archive file [/home/abi/fetcher/tmp/shamela2epub-1.1.4.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - processPackages [shamela2epub]: Remove: archive file [/home/abi/fetcher/tmp/shamela2epub-1.3.0.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - main [MainThread]: End processing [shamela2epub]: success
+[2023-06-17 13:57:28] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.4.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.5.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - main [MainThread]: End processing [dblp-crawler]: success
+[2023-06-17 13:57:28] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.1.1.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.0.tar.gz]
+[2023-06-17 13:57:28] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-17 13:57:28] INFO root fetch - main [MainThread]: Store serial: [18542739]
