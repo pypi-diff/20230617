@@ -10561,3 +10561,48 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:38:20] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.2.tar.gz]
 [2023-06-17 10:38:20] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
 [2023-06-17 10:38:20] INFO root fetch - main [MainThread]: Store serial: [18541818]
+[2023-06-17 10:43:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541818]
+[2023-06-17 10:43:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 10:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-06-17 10:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-scheduler-sdk-preview
+[2023-06-17 10:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anecc
+[2023-06-17 10:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-06-17 10:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-usernames
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230616] Old Version: [0.0.1.dev20230615]
+[2023-06-17 10:43:31] INFO root fetch - processPackages [anecc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 10:43:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.795] Old Version: [0.0.794]
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230617] Old Version: [2.14.0.dev20230616]
+[2023-06-17 10:43:31] INFO root fetch - processPackages [python-usernames]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-06-17 10:43:31] INFO root fetch - processPackages [anecc]: Downloading https://files.pythonhosted.org/packages/da/ae/2eea1e2e96e2daba2a4bdd97975fd7a01f99448c69baa2045454b7674b97/anecc-1.0.8-py3.11.egg
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/07/ce/c8051dc735b1d42e3f4baba742ef1d8de88af85c9407b84bf6fdc8f4c095/tff_nightly-0.0.1.dev20230615-py2.py3-none-any.whl
+[2023-06-17 10:43:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/6b/85/3e3f8f3c5e2ce082a676c5f23180adc1c350c4dc268734b7dabdb258abc5/lusid-scheduler-sdk-preview-0.0.794.tar.gz
+[2023-06-17 10:43:31] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/ea/0b/e470603bb81f127a8385846237049d50b88941417990b2cc45b78fb77df1/python-usernames-0.3.1.tar.gz
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/53/d2/aee15c6fe8af44e7239fac8c423c5d3156e6df1ed53e3b4a3da1e15cf0cf/tf_nightly-2.14.0.dev20230616-cp39-cp39-win_amd64.whl
+[2023-06-17 10:43:31] INFO root fetch - processPackages [anecc]: Downloading https://files.pythonhosted.org/packages/d6/6b/8eae7d73f6d253bee8cb2b96a01b8d05091c392d9a24a3581f9ba26c8c47/anecc-1.0.9-py3.11.egg
+[2023-06-17 10:43:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/da/b2/799da349e66379c79106a6e8b794fb6a3a86583b074a493cb883686342f9/lusid-scheduler-sdk-preview-0.0.795.tar.gz
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ff/66/6f9ba91a2c26654805ee6f5bc0700a32570b4484be122231fabcd9198385/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl
+[2023-06-17 10:43:31] INFO root fetch - processPackages [anecc]: executing diffoscope
+[2023-06-17 10:43:31] INFO root fetch - processPackages [anecc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anecc-1.0.8-py3.11.egg tmp/anecc-1.0.9-py3.11.egg --markdown 20230617/a/anecc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:43:31] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/69/d2/3a44f858714039c533bc964f15bbd39e44a4c0b15fcf788e8610c0aa57c8/tf_nightly-2.14.0.dev20230617-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 10:43:31] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/52/1a/107a956788b283e99a4f1c1c51068192c810d002c2794255f5f9ce75400e/python-usernames-0.4.1.tar.gz
+[2023-06-17 10:43:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-06-17 10:43:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.794.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.795.tar.gz --markdown 20230617/l/lusid-scheduler-sdk-preview/0.0.794-0.0.795/diff.md --exclude *.pyd
+[2023-06-17 10:43:31] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491192686>=10485760
+[2023-06-17 10:43:31] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-17 10:43:32] INFO root fetch - processPackages [python-usernames]: executing diffoscope
+[2023-06-17 10:43:32] INFO root fetch - processPackages [python-usernames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-usernames-0.3.1.tar.gz tmp/python-usernames-0.4.1.tar.gz --markdown 20230617/p/python-usernames/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 10:43:32] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-17 10:43:32] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230615-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl.zip --markdown 20230617/t/tff-nightly/0.0.1.dev20230615-0.0.1.dev20230616/diff.md --exclude *.pyd
+[2023-06-17 10:43:32] INFO root fetch - processPackages [anecc]: Remove: archive file [/home/abi/fetcher/tmp/anecc-1.0.8-py3.11.egg]
+[2023-06-17 10:43:32] INFO root fetch - processPackages [anecc]: Remove: archive file [/home/abi/fetcher/tmp/anecc-1.0.9-py3.11.egg]
+[2023-06-17 10:43:32] INFO root fetch - main [MainThread]: End processing [anecc]: success
+[2023-06-17 10:43:33] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python-usernames-0.3.1.tar.gz]
+[2023-06-17 10:43:33] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python-usernames-0.4.1.tar.gz]
+[2023-06-17 10:43:33] INFO root fetch - main [MainThread]: End processing [python-usernames]: success
+[2023-06-17 10:43:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.794.tar.gz]
+[2023-06-17 10:43:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.795.tar.gz]
+[2023-06-17 10:43:33] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-06-17 10:43:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230615-py2.py3-none-any.whl.zip]
+[2023-06-17 10:43:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl.zip]
+[2023-06-17 10:43:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-17 10:43:34] INFO root fetch - main [MainThread]: Store serial: [18541837]
