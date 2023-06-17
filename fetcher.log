@@ -16845,3 +16845,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:14:52] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.95.tar.gz]
 [2023-06-17 19:14:52] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-06-17 19:14:52] INFO root fetch - main [MainThread]: Store serial: [18544837]
+[2023-06-17 19:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544837]
+[2023-06-17 19:20:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OhlcvPlus
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MuSeqPose
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newshomepages
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-core
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-cgap
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bu-cvkit
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evatr-client
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roktools
+[2023-06-17 19:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dtorch
+[2023-06-17 19:20:01] WARNING root fetch - processPackages [MuSeqPose]: Skipping, unable to determine old version
+[2023-06-17 19:20:01] INFO root fetch - main [MainThread]: End processing [MuSeqPose] error
+[2023-06-17 19:20:01] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-17 19:20:01] INFO root fetch - processPackages [bu-cvkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 19:20:01] INFO root fetch - processPackages [newshomepages]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 19:20:01] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-17 19:20:02] INFO root fetch - processPackages [bu-cvkit]: Downloading https://files.pythonhosted.org/packages/7c/e5/bb8afcbffa6723692f24078b636d6b8fd5300d443216e663dbc46e959023/bu_cvkit-0.0.2.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-17 19:20:02] ERROR root fetch - processPackages [OhlcvPlus]: Unable to get metadata: No such project 'OhlcvPlus'
+[2023-06-17 19:20:02] INFO root fetch - main [MainThread]: End processing [OhlcvPlus] error
+[2023-06-17 19:20:02] INFO root fetch - processPackages [roktools]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [dtorch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 19:20:02] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/80/b1/9f8f691f3103d37bd22fdefccc25330667e9cdd7219746b425109e9770b1/newshomepages-0.0.8.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [evatr-client]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-17 19:20:02] INFO root fetch - processPackages [bu-cvkit]: Downloading https://files.pythonhosted.org/packages/44/03/ef3ad9d80d3dbd8ce32a56c05346a1dd55ff0de90a50f1cefdbc8c16f8d7/bu_cvkit-0.0.3.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/cf/3f/fc0b51aa1d9d5ec84490b77c71eef83783acdb86dc419567f6e307f4c6b4/evatr-client-0.0.4.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [bu-cvkit]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [bu-cvkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bu_cvkit-0.0.2.tar.gz tmp/bu_cvkit-0.0.3.tar.gz --markdown 20230617/b/bu-cvkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/de/9a/f8f35bbfd451692da750cbe9016b17c12fcd933b5914fd03026a782ef788/roktools-5.5.0-py2.py3-none-any.whl
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230617/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/1d/5c/05fcc1e4ec8e4b21176bb31f51c01dde00e6193396ddf209aacb4683f1a1/dtorch-0.0.5.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/11/c4/54b425f19c160653a3dc7ea1b0d4c3cac1599d9bcf7ae5d4bc1eff1b4b12/newshomepages-0.0.9.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230617/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230617/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/34/c1/c8d1c2ab5b788da16c53e7861cd005c1dbe7231062ea5e4d49928ef5cfa8/evatr-client-0.1.0.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [newshomepages]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [newshomepages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newshomepages-0.0.8.tar.gz tmp/newshomepages-0.0.9.tar.gz --markdown 20230617/n/newshomepages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/cd/22/15d2bbf1e55105984a729c143445d368144f0e1ca8f4601c48800d4baf36/dtorch-0.0.6.tar.gz
+[2023-06-17 19:20:02] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/2f/5c/c35187a8d96cbbeb56c1733085ce24c611b70f9178132f7ddbdb38a29be7/roktools-5.5.1-py2.py3-none-any.whl
+[2023-06-17 19:20:02] INFO root fetch - processPackages [evatr-client]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [evatr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evatr-client-0.0.4.tar.gz tmp/evatr-client-0.1.0.tar.gz --markdown 20230617/e/evatr-client/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [dtorch]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [dtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtorch-0.0.5.tar.gz tmp/dtorch-0.0.6.tar.gz --markdown 20230617/d/dtorch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 19:20:02] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2023-06-17 19:20:02] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.5.0-py2.py3-none-any.whl.zip tmp/roktools-5.5.1-py2.py3-none-any.whl.zip --markdown 20230617/r/roktools/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-06-17 19:20:03] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-17 19:20:03] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-17 19:20:03] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.0.4.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.1.0.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [evatr-client]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.5.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.6.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [dtorch]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [bu-cvkit]: Remove: archive file [/home/abi/fetcher/tmp/bu_cvkit-0.0.2.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [bu-cvkit]: Remove: archive file [/home/abi/fetcher/tmp/bu_cvkit-0.0.3.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [bu-cvkit]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-17 19:20:04] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.5.0-py2.py3-none-any.whl.zip]
+[2023-06-17 19:20:04] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.5.1-py2.py3-none-any.whl.zip]
+[2023-06-17 19:20:04] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2023-06-17 19:20:08] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.8.tar.gz]
+[2023-06-17 19:20:08] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
+[2023-06-17 19:20:08] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
+[2023-06-17 19:20:08] INFO root fetch - main [MainThread]: Store serial: [18544878]
