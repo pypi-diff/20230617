@@ -6524,3 +6524,51 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 04:31:37] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
 [2023-06-17 04:31:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-06-17 04:31:37] INFO root fetch - main [MainThread]: Store serial: [18540256]
+[2023-06-17 04:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540256]
+[2023-06-17 04:36:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 04:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naif-eop-high-prec
+[2023-06-17 04:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-06-17 04:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-06-17 04:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpr
+[2023-06-17 04:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atksh-utils
+[2023-06-17 04:36:46] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-17 04:36:46] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-17 04:36:46] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 04:36:46] INFO root fetch - processPackages [atksh-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 04:36:46] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230617] Old Version: [1.2.20230616]
+[2023-06-17 04:36:46] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-17 04:36:46] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/be/53/e26a2e6282948d5729bbdd290416a418e2861d75909be85563cbcc90aa27/atksh-utils-0.0.1.tar.gz
+[2023-06-17 04:36:46] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-17 04:36:46] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e5/f0/2581d6f3702d2dc0e34115de4478ac81dcd2d2010c147df614a2e9e98b11/iam_actions-1.2.20230616.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d7/ae/c52f20206ba0fed1917bd84359dba5eaeefbcf93ce9f441d1811e6311ed6/atksh-utils-0.0.2.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-17 04:36:47] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230617/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-17 04:36:47] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-06-17 04:36:47] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230617/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 04:36:47] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/86/a2/fd80560546220cc39542c08ab8c1ae104c65ead896b0443a2028982d9edb/iam_actions-1.2.20230617.tar.gz
+[2023-06-17 04:36:47] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-17 04:36:47] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.0.1.tar.gz tmp/atksh-utils-0.0.2.tar.gz --markdown 20230617/a/atksh-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 04:36:47] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-17 04:36:47] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230616.tar.gz tmp/iam_actions-1.2.20230617.tar.gz --markdown 20230617/i/iam-actions/1.2.20230616-1.2.20230617/diff.md --exclude *.pyd
+[2023-06-17 04:36:48] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-17 04:36:48] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-17 04:36:48] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230617/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-17 04:36:48] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.1.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.2.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-17 04:36:48] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.8.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.9.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-06-17 04:36:48] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-17 04:36:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-17 04:36:52] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230616.tar.gz]
+[2023-06-17 04:36:52] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230617.tar.gz]
+[2023-06-17 04:36:52] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-17 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-17 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-17 04:36:52] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-17 04:36:52] INFO root fetch - main [MainThread]: Store serial: [18540276]
