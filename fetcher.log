@@ -7779,3 +7779,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:46:42] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
 [2023-06-17 05:46:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
 [2023-06-17 05:46:42] INFO root fetch - main [MainThread]: Store serial: [18540653]
+[2023-06-17 05:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540653]
+[2023-06-17 05:51:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bikeshare-model
+[2023-06-17 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-delivery-note
+[2023-06-17 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gisting-test
+[2023-06-17 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bittrade-luno-websocket
+[2023-06-17 05:51:51] INFO root fetch - processPackages [gisting-test]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bikeshare-model]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bittrade-luno-websocket]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 05:51:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.0.3.1] Old Version: [16.0.1.0.3]
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/b1/9d/3f8ea50744e64daccface090ea759d38a344e648005097731c84cf884cb4/bikeshare_model-0.0.5-py3-none-any.whl
+[2023-06-17 05:51:51] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/38/a2/ddef437bd178b3690d9cf0468c2312f0f33b296547e6995d7ac975a52f58/gisting_test-0.1.9.tar.gz
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/0d/6d/75fc8f24535f9750c11545a59e970a6443cf0e1d3b7ce1bf88791724986d/bittrade_luno_websocket-0.1.4.tar.gz
+[2023-06-17 05:51:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/12/a2/7148277fa32a95afc385b7a0eeef8ef466086666939d0a9f02eb55972d2b/odoo_addon_l10n_it_delivery_note-16.0.1.0.3-py3-none-any.whl
+[2023-06-17 05:51:51] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/c8/07/b73c4ee247638afbaa377845115476f67e089ea0c96e735b14312e48a1f7/gisting_test-0.2.0.tar.gz
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/0c/8a/f9ad7258367f92f7e1e4acf43c82836deceb16ed9ce260f028c17115f056/bikeshare_model-0.0.6-py3-none-any.whl
+[2023-06-17 05:51:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/0e/76/b7ffd4fc30732df3e823643ed53f440321ee3a232c44239c89624b3a7594/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl
+[2023-06-17 05:51:51] INFO root fetch - processPackages [gisting-test]: executing diffoscope
+[2023-06-17 05:51:51] INFO root fetch - processPackages [gisting-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting_test-0.1.9.tar.gz tmp/gisting_test-0.2.0.tar.gz --markdown 20230617/g/gisting-test/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 05:51:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-06-17 05:51:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-l10n-it-delivery-note/16.0.1.0.3-16.0.1.0.3.1/diff.md --exclude *.pyd
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bikeshare-model]: executing diffoscope
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bikeshare-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshare_model-0.0.5-py3-none-any.whl.zip tmp/bikeshare_model-0.0.6-py3-none-any.whl.zip --markdown 20230617/b/bikeshare-model/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/f6/d6/ab30172120789b8f9de751aa980d3746049e8dcf8182c6ac0ca2cdaa777d/bittrade_luno_websocket-0.1.5.tar.gz
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bittrade-luno-websocket]: executing diffoscope
+[2023-06-17 05:51:51] INFO root fetch - processPackages [bittrade-luno-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_luno_websocket-0.1.4.tar.gz tmp/bittrade_luno_websocket-0.1.5.tar.gz --markdown 20230617/b/bittrade-luno-websocket/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 05:51:52] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.1.9.tar.gz]
+[2023-06-17 05:51:52] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.2.0.tar.gz]
+[2023-06-17 05:51:52] INFO root fetch - main [MainThread]: End processing [gisting-test]: success
+[2023-06-17 05:51:52] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.0.5-py3-none-any.whl.zip]
+[2023-06-17 05:51:52] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.0.6-py3-none-any.whl.zip]
+[2023-06-17 05:51:52] INFO root fetch - main [MainThread]: End processing [bikeshare-model]: success
+[2023-06-17 05:51:52] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.4.tar.gz]
+[2023-06-17 05:51:52] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.5.tar.gz]
+[2023-06-17 05:51:52] INFO root fetch - main [MainThread]: End processing [bittrade-luno-websocket]: success
+[2023-06-17 05:51:53] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-17 05:51:53] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-06-17 05:51:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2023-06-17 05:51:53] INFO root fetch - main [MainThread]: Store serial: [18540666]
