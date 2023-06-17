@@ -12200,3 +12200,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-17 13:17:54] INFO root fetch - main [MainThread]: End processing [GCoCF] error
 [2023-06-17 13:17:54] INFO root fetch - main [MainThread]: Store serial: [18542537]
+[2023-06-17 13:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542537]
+[2023-06-17 13:23:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insurance
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdf-invoicing
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-json
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daisykit
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-files
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mo-testing
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ayt-api
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GCoCF
+[2023-06-17 13:23:04] INFO root fetch - processPackages [insurance]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [daisykit]: New version: [0.3.0.2] Old Version: [0.3.0.1]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-json]: New version: [6.420.23168] Old Version: [6.413.23168]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-files]: New version: [6.420.23168] Old Version: [6.413.23168]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [ayt-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-testing]: New version: [5.53.21241] Old Version: [5.420.23168]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [GCoCF]: New version: [0.9.97] Old Version: [0.9.96]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/b2/93/2ca1e6f0838a2c7d8d36183a481c2eed1437beed72e3e548edd48607591c/mo_json-6.413.23168-py2.py3-none-any.whl
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/d2/ec/8d923c1c1897920dee1ebfabd7bb7f1c07269db6bfe747bc80f2dc0afa33/mo_files-6.413.23168-py2.py3-none-any.whl
+[2023-06-17 13:23:04] WARNING root fetch - processPackages [pdf-invoicing]: Skipping, unable to determine old version
+[2023-06-17 13:23:04] INFO root fetch - main [MainThread]: End processing [pdf-invoicing] error
+[2023-06-17 13:23:04] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/db/19/c96946f75fd65258f045effb7b6e1efcd18c7b44c04f490908abb0becd1d/insurance-0.0.2.tar.gz
+[2023-06-17 13:23:04] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/2c/2b/2bff2129935bd651b543b202600c1553805c582ce531adec4ce38fe3a01f/mo_testing-5.420.23168-py2.py3-none-any.whl
+[2023-06-17 13:23:05] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/d7/48/a1c5c2d6fb05a561711dcaed6a881f32229b394185bd2f425823a42a71ef/ayt-api-0.1.1.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/df/92/d5b2b8e107dbcc37d0bd09b84045a7d65167916d2961e787e3d640287d35/gcocf-0.9.96.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [daisykit]: Downloading https://files.pythonhosted.org/packages/7d/71/6fed885b730223083f5aa7ea147cb8566301f745ef8ad6d168aed6cb2df5/daisykit-0.3.0.1.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/f9/d7/ac587095e6f4cd8408345dc334e7150eecd87a3e20a19b426a05af290606/mo_files-6.420.23168-py2.py3-none-any.whl
+[2023-06-17 13:23:05] WARNING root fetch - processPackages [daisykit]: Skipping package: exceeds size limit 18519641>=10485760
+[2023-06-17 13:23:05] INFO root fetch - main [MainThread]: End processing [daisykit] error
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/ac/4f/5dd619104ba1ab9552e3ae712a23ca75347f933a0f5ae5455e79b24526c2/mo_json-6.420.23168-py2.py3-none-any.whl
+[2023-06-17 13:23:05] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/04/a7/0fbbc2df96f7c6c1de1e1a065985a2c459c6837c6e76a3464481283fe9c7/insurance-0.0.3.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d9/cd/f2576ce1ba78bee930d7589319531827d26adb89f1ffc604ffe0395e6bb5/mo-testing-5.53.21241.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.413.23168-py2.py3-none-any.whl.zip tmp/mo_files-6.420.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-files/6.413.23168-6.420.23168/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [insurance]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [insurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insurance-0.0.2.tar.gz tmp/insurance-0.0.3.tar.gz --markdown 20230617/i/insurance/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/fb/f5/2bbe1a0b55ccfe8bd22abc085f990e1065e6709dae5bb6bcf3cbf612ed5f/ayt-api-0.1.2.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-5.420.23168-py2.py3-none-any.whl.zip tmp/mo-testing-5.53.21241.tar.gz --markdown 20230617/m/mo-testing/5.420.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.413.23168-py2.py3-none-any.whl.zip tmp/mo_json-6.420.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-json/6.413.23168-6.420.23168/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/31/34/b1aff421f7f96499f5846698a987f919ad53775932694789f3efadd58f61/gcocf-0.9.97.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-17 13:23:05] INFO root fetch - processPackages [ayt-api]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [ayt-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayt-api-0.1.1.tar.gz tmp/ayt-api-0.1.2.tar.gz --markdown 20230617/a/ayt-api/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230617/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-17 13:23:05] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 13:23:05] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.96.tar.gz tmp/gcocf-0.9.97.tar.gz --markdown 20230617/G/GCoCF/0.9.96-0.9.97/diff.md --exclude *.pyd
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.420.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:23:06] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-5.420.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo-testing-5.53.21241.tar.gz]
+[2023-06-17 13:23:06] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2023-06-17 13:23:06] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.2.tar.gz]
+[2023-06-17 13:23:06] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.3.tar.gz]
+[2023-06-17 13:23:06] INFO root fetch - main [MainThread]: End processing [insurance]: success
+[2023-06-17 13:23:06] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.1.tar.gz]
+[2023-06-17 13:23:06] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.2.tar.gz]
+[2023-06-17 13:23:06] INFO root fetch - main [MainThread]: End processing [ayt-api]: success
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:23:06] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.420.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:23:06] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-06-17 13:23:07] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.96.tar.gz]
+[2023-06-17 13:23:07] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.97.tar.gz]
+[2023-06-17 13:23:07] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 13:23:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-17 13:23:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-17 13:23:09] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-17 13:23:09] INFO root fetch - main [MainThread]: Store serial: [18542561]
