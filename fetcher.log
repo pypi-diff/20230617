@@ -6482,3 +6482,45 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 04:26:26] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
 [2023-06-17 04:26:26] INFO root fetch - main [MainThread]: End processing [hmfs]: success
 [2023-06-17 04:26:26] INFO root fetch - main [MainThread]: Store serial: [18540238]
+[2023-06-17 04:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540238]
+[2023-06-17 04:31:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 04:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Albumize
+[2023-06-17 04:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-06-17 04:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brunotest
+[2023-06-17 04:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psyke
+[2023-06-17 04:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-06-17 04:31:35] WARNING root fetch - processPackages [Albumize]: Skipping, unable to determine old version
+[2023-06-17 04:31:35] INFO root fetch - main [MainThread]: End processing [Albumize] error
+[2023-06-17 04:31:35] INFO root fetch - processPackages [brunotest]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-17 04:31:35] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev4] Old Version: [0.4.9.dev3]
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-17 04:31:35] INFO root fetch - processPackages [brunotest]: Downloading https://files.pythonhosted.org/packages/0a/3a/9ef19983f97b4cb25580024a8a59eddc61c4ddb1dad11682bd2ebe9801cb/brunotest-0.1.tar.gz
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-17 04:31:35] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/95/ee/4fe2624e9bf6494ce8e08e83a3808ed8b6df658775d043d3849dd60ac252/psyke-0.4.9.dev3.tar.gz
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-17 04:31:35] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230617/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-17 04:31:36] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-17 04:31:36] INFO root fetch - processPackages [brunotest]: Downloading https://files.pythonhosted.org/packages/22/43/b829757270763b2e6dbb4e1ad3e17ddd99a20591e1a77085e15491bb6b25/brunotest-0.1.1.tar.gz
+[2023-06-17 04:31:36] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/6e/cb/30347c87103fd40e91af0766a293a2c1aba1ecb25abaa6b2158cea165588/psyke-0.4.9.dev4.tar.gz
+[2023-06-17 04:31:36] INFO root fetch - processPackages [brunotest]: executing diffoscope
+[2023-06-17 04:31:36] INFO root fetch - processPackages [brunotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunotest-0.1.tar.gz tmp/brunotest-0.1.1.tar.gz --markdown 20230617/b/brunotest/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 04:31:36] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-06-17 04:31:36] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev3.tar.gz tmp/psyke-0.4.9.dev4.tar.gz --markdown 20230617/p/psyke/0.4.9.dev3-0.4.9.dev4/diff.md --exclude *.pyd
+[2023-06-17 04:31:36] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-17 04:31:36] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230617/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-17 04:31:37] INFO root fetch - processPackages [brunotest]: Remove: archive file [/home/abi/fetcher/tmp/brunotest-0.1.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - processPackages [brunotest]: Remove: archive file [/home/abi/fetcher/tmp/brunotest-0.1.1.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - main [MainThread]: End processing [brunotest]: success
+[2023-06-17 04:31:37] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-17 04:31:37] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev3.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev4.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-06-17 04:31:37] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-17 04:31:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-17 04:31:37] INFO root fetch - main [MainThread]: Store serial: [18540256]
