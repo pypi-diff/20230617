@@ -18737,3 +18737,45 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:37:18] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
 [2023-06-17 22:37:18] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2023-06-17 22:37:18] INFO root fetch - main [MainThread]: Store serial: [18545763]
+[2023-06-17 22:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545763]
+[2023-06-17 22:42:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 22:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-space-toolkit-physics
+[2023-06-17 22:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: not1mm
+[2023-06-17 22:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-benedict
+[2023-06-17 22:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metlo-python-agent-bindings-common-custom
+[2023-06-17 22:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-ext-helper
+[2023-06-17 22:42:29] INFO root fetch - processPackages [not1mm]: New version: [23.6.2] Old Version: [23.6.17]
+[2023-06-17 22:42:29] INFO root fetch - processPackages [python-benedict]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-17 22:42:29] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-17 22:42:29] WARNING root fetch - processPackages [web-ext-helper]: Skipping, unable to determine old version
+[2023-06-17 22:42:29] INFO root fetch - main [MainThread]: End processing [web-ext-helper] error
+[2023-06-17 22:42:29] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-17 22:42:29] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/3f/7f/6476877832f82db0772d21f2e0e893413d9c21289c039ebe098bf091ddcc/not1mm-23.6.17.tar.gz
+[2023-06-17 22:42:29] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/83/db/e83d23c0c59ab6cb947957649bfdb9921f1553a9bf871067a4a0d037c99c/open_space_toolkit_physics-1.0.1-py39-none-any.whl
+[2023-06-17 22:42:29] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: Downloading https://files.pythonhosted.org/packages/e1/8a/cded0aece08929af1eee39dcb1f854a25ca8b3c00a0f8776e11b61da4680/metlo_python_agent_bindings_common_custom-0.0.1-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-17 22:42:29] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/ca/01/a5df1dbaaea3f3dc79d59b241499f7b4cae5aa5e1eb3fcac8c3b71b9e4b4/python-benedict-0.8.0.tar.gz
+[2023-06-17 22:42:29] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/2a/ab/303c6eade0fecac8a3475d19983c41b00607b0a9a76ec22a3ae7d5f22c25/not1mm-23.6.2.tar.gz
+[2023-06-17 22:42:29] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: Downloading https://files.pythonhosted.org/packages/a3/ed/3077ed27af8837dc98706b31738fa73b7d5e23e941d449a4fe50f0f41060/metlo_python_agent_bindings_common_custom-0.0.3-cp37-cp37m-manylinux_2_34_x86_64.whl
+[2023-06-17 22:42:29] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/c9/63/552d76504237f413c99d89933f68b6d940a6675fa6edb3c69e7ab5ab2ac8/python-benedict-0.9.0.tar.gz
+[2023-06-17 22:42:30] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: executing diffoscope
+[2023-06-17 22:42:30] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metlo_python_agent_bindings_common_custom-0.0.1-cp38-cp38-macosx_11_0_arm64.whl.zip tmp/metlo_python_agent_bindings_common_custom-0.0.3-cp37-cp37m-manylinux_2_34_x86_64.whl.zip --markdown 20230617/m/metlo-python-agent-bindings-common-custom/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 22:42:30] INFO root fetch - processPackages [python-benedict]: executing diffoscope
+[2023-06-17 22:42:30] INFO root fetch - processPackages [python-benedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-benedict-0.8.0.tar.gz tmp/python-benedict-0.9.0.tar.gz --markdown 20230617/p/python-benedict/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 22:42:30] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/45/b6/0494a0a0776e5bd3692a4bef9249ed60c780b0d30138357707d3ee21bcc4/open_space_toolkit_physics-1.1.0-py39-none-any.whl
+[2023-06-17 22:42:30] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-06-17 22:42:30] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-1.0.1-py39-none-any.whl.zip tmp/open_space_toolkit_physics-1.1.0-py39-none-any.whl.zip --markdown 20230617/o/open-space-toolkit-physics/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 22:42:30] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-06-17 22:42:30] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.6.17.tar.gz tmp/not1mm-23.6.2.tar.gz --markdown 20230617/n/not1mm/23.6.17-23.6.2/diff.md --exclude *.pyd
+[2023-06-17 22:42:31] INFO root fetch - processPackages [python-benedict]: Remove: archive file [/home/abi/fetcher/tmp/python-benedict-0.8.0.tar.gz]
+[2023-06-17 22:42:31] INFO root fetch - processPackages [python-benedict]: Remove: archive file [/home/abi/fetcher/tmp/python-benedict-0.9.0.tar.gz]
+[2023-06-17 22:42:31] INFO root fetch - main [MainThread]: End processing [python-benedict]: success
+[2023-06-17 22:42:31] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: Remove: archive file [/home/abi/fetcher/tmp/metlo_python_agent_bindings_common_custom-0.0.1-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-17 22:42:31] INFO root fetch - processPackages [metlo-python-agent-bindings-common-custom]: Remove: archive file [/home/abi/fetcher/tmp/metlo_python_agent_bindings_common_custom-0.0.3-cp37-cp37m-manylinux_2_34_x86_64.whl.zip]
+[2023-06-17 22:42:31] INFO root fetch - main [MainThread]: End processing [metlo-python-agent-bindings-common-custom]: success
+[2023-06-17 22:42:33] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.17.tar.gz]
+[2023-06-17 22:42:33] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.2.tar.gz]
+[2023-06-17 22:42:33] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-06-17 22:42:55] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.0.1-py39-none-any.whl.zip]
+[2023-06-17 22:42:55] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.0-py39-none-any.whl.zip]
+[2023-06-17 22:42:55] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-06-17 22:42:55] INFO root fetch - main [MainThread]: Store serial: [18545779]
