@@ -13112,3 +13112,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:37:15] INFO root fetch - processPackages [simple-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/simple_toolbox-0.1.7.tar.gz]
 [2023-06-17 14:37:15] INFO root fetch - main [MainThread]: End processing [simple-toolbox]: success
 [2023-06-17 14:37:15] INFO root fetch - main [MainThread]: Store serial: [18542954]
+[2023-06-17 14:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542954]
+[2023-06-17 14:42:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitz
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CallingGPT
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-moegoe
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docassemble
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docassemble.base
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docassemble.demo
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docassemble.webapp
+[2023-06-17 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thundra
+[2023-06-17 14:42:24] INFO root fetch - processPackages [gitz]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-17 14:42:24] INFO root fetch - processPackages [CallingGPT]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-17 14:42:24] INFO root fetch - processPackages [nonebot-plugin-moegoe]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-17 14:42:24] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [nonebot-plugin-moegoe]: Downloading https://files.pythonhosted.org/packages/7b/75/39d981383b8e8dac7cdd322136f5b5252b0550ded877fcc9b218e9234164/nonebot_plugin_moegoe-0.7.6.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/71/b7/a3fa221145ef0cddae5ca63caa80bfdfb82dcc8d57064e4deb238a4e341b/CallingGPT-0.0.0.1.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-17 14:42:25] INFO root fetch - processPackages [gitz]: Downloading https://files.pythonhosted.org/packages/a1/1f/490d1d8106561a009db9dcad13925ff786fd4e6d50e583c8776e4429cba7/gitz-1.4.1.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 14:42:25] INFO root fetch - processPackages [nonebot-plugin-moegoe]: Downloading https://files.pythonhosted.org/packages/61/1f/c6475a2f48639a62d4c8b2c549c02871a2f8a2c83e9b01c146268266b842/nonebot_plugin_moegoe-0.7.7.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 14:42:25] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [nonebot-plugin-moegoe]: executing diffoscope
+[2023-06-17 14:42:25] INFO root fetch - processPackages [nonebot-plugin-moegoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_moegoe-0.7.6.tar.gz tmp/nonebot_plugin_moegoe-0.7.7.tar.gz --markdown 20230617/n/nonebot-plugin-moegoe/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-17 14:42:25] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/f7/2f/ad5d646823ad7755a4797e26dd5619b502b01308951e850657f6272565da/CallingGPT-0.0.0.2.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-17 14:42:25] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230617/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-17 14:42:25] INFO root fetch - processPackages [gitz]: Downloading https://files.pythonhosted.org/packages/6a/42/0b5ca2227bd2ffb329c9b1f63cd501873ae400fa67b3af21437f1682f7b3/gitz-1.5.0.tar.gz
+[2023-06-17 14:42:25] INFO root fetch - processPackages [CallingGPT]: executing diffoscope
+[2023-06-17 14:42:25] INFO root fetch - processPackages [CallingGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CallingGPT-0.0.0.1.tar.gz tmp/CallingGPT-0.0.0.2.tar.gz --markdown 20230617/C/CallingGPT/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-17 14:42:25] INFO root fetch - processPackages [gitz]: executing diffoscope
+[2023-06-17 14:42:25] INFO root fetch - processPackages [gitz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitz-1.4.1.tar.gz tmp/gitz-1.5.0.tar.gz --markdown 20230617/g/gitz/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-17 14:42:25] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-06-17 14:42:26] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-06-17 14:42:26] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-06-17 14:42:26] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-06-17 14:42:26] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230617/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-17 14:42:26] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-17 14:42:26] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 14:42:26] INFO root fetch - processPackages [nonebot-plugin-moegoe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_moegoe-0.7.6.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - processPackages [nonebot-plugin-moegoe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_moegoe-0.7.7.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-moegoe]: success
+[2023-06-17 14:42:26] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.1.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.2.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - main [MainThread]: End processing [CallingGPT]: success
+[2023-06-17 14:42:26] INFO root fetch - processPackages [gitz]: Remove: archive file [/home/abi/fetcher/tmp/gitz-1.4.1.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - processPackages [gitz]: Remove: archive file [/home/abi/fetcher/tmp/gitz-1.5.0.tar.gz]
+[2023-06-17 14:42:26] INFO root fetch - main [MainThread]: End processing [gitz]: success
+[2023-06-17 14:42:27] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.8.tar.gz]
+[2023-06-17 14:42:27] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.9.tar.gz]
+[2023-06-17 14:42:27] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-06-17 14:42:27] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-17 14:42:27] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-17 14:42:27] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-17 14:42:28] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-06-17 14:42:28] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-06-17 14:42:30] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-06-17 14:42:30] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230617/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-17 14:42:31] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-06-17 14:42:31] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230617/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-17 14:42:36] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.8.tar.gz]
+[2023-06-17 14:42:36] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.9.tar.gz]
+[2023-06-17 14:42:36] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-06-17 14:42:39] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.8.tar.gz]
+[2023-06-17 14:42:39] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
+[2023-06-17 14:42:39] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-06-17 14:42:39] INFO root fetch - main [MainThread]: Store serial: [18542980]
