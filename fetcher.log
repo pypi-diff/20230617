@@ -19385,3 +19385,15 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:46:51] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
 [2023-06-17 23:46:51] INFO root fetch - main [MainThread]: End processing [griptape]: success
 [2023-06-17 23:46:51] INFO root fetch - main [MainThread]: Store serial: [18546056]
+[2023-06-17 23:51:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546056]
+[2023-06-17 23:52:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-17 23:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griptape-tools
+[2023-06-17 23:52:02] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-17 23:52:02] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-06-17 23:52:02] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-06-17 23:52:02] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-17 23:52:02] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230617/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-17 23:52:03] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.1.tar.gz]
+[2023-06-17 23:52:03] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
+[2023-06-17 23:52:03] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-17 23:52:03] INFO root fetch - main [MainThread]: Store serial: [18546059]
