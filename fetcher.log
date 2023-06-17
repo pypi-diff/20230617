@@ -11027,3 +11027,57 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:15:03] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.79.tar.gz]
 [2023-06-17 11:15:03] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
 [2023-06-17 11:15:03] INFO root fetch - main [MainThread]: Store serial: [18541997]
+[2023-06-17 11:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541997]
+[2023-06-17 11:20:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zdatabase
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tbp-nightly
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-17 11:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etm-dgraham
+[2023-06-17 11:20:12] INFO root fetch - processPackages [etm-dgraham]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [zdatabase]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/ec/2c/15d16f7cd2a302d316bc86f110799ef66cd25a4dcddc1eb154ca02c7d557/zdatabase-0.4.8.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/bb/3d/9d110a2ae4372db54604cc90e1d22573ed1ce6158d99eda423ed708d0c91/etm-dgraham-5.0.8.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 11:20:12] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/95/34/1f3ef42127e7244650e0b9ba18418821f1476cf60524bba67237ba73c469/etm-dgraham-5.0.9.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/d1/53/9b506db6e4cb23002d7a0953830eda5e44f4eaa06bd76755c1fe8910ecf0/zdatabase-0.5.0.tar.gz
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 11:20:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 11:20:12] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-17 11:20:12] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.8.tar.gz tmp/etm-dgraham-5.0.9.tar.gz --markdown 20230617/e/etm-dgraham/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-06-17 11:20:13] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-06-17 11:20:13] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.4.8.tar.gz tmp/zdatabase-0.5.0.tar.gz --markdown 20230617/z/zdatabase/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 11:20:13] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-17 11:20:13] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-17 11:20:13] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230617/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 11:20:13] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-17 11:20:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-17 11:20:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-17 11:20:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 11:20:14] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.4.8.tar.gz]
+[2023-06-17 11:20:14] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.0.tar.gz]
+[2023-06-17 11:20:14] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-06-17 11:20:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 11:20:15] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-17 11:20:15] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230617/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-17 11:20:16] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.8.tar.gz]
+[2023-06-17 11:20:16] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.9.tar.gz]
+[2023-06-17 11:20:16] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-17 11:20:18] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-17 11:20:18] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-17 11:20:18] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-17 11:20:25] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-17 11:20:25] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-17 11:20:25] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-17 11:20:25] INFO root fetch - main [MainThread]: Store serial: [18542027]
