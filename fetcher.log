@@ -10155,3 +10155,15 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:40:08] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.4.tar.gz]
 [2023-06-17 09:40:08] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
 [2023-06-17 09:40:08] INFO root fetch - main [MainThread]: Store serial: [18541642]
+[2023-06-17 09:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541642]
+[2023-06-17 09:45:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-17 09:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hume
+[2023-06-17 09:45:16] INFO root fetch - processPackages [hume]: New version: [0.3.3] Old Version: [0.3.20b0]
+[2023-06-17 09:45:16] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/6d/3b/8ab4d6aa0a12dc9009d813a9ed9f857b246abaf7817534690614896e060e/hume-0.3.20b0.tar.gz
+[2023-06-17 09:45:17] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/d6/be/7b6644856d4e659487ddb231006e9693c3dbd43f7c97e8e0cdccdd370907/hume-0.3.3.tar.gz
+[2023-06-17 09:45:17] INFO root fetch - processPackages [hume]: executing diffoscope
+[2023-06-17 09:45:17] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.3.20b0.tar.gz tmp/hume-0.3.3.tar.gz --markdown 20230617/h/hume/0.3.20b0-0.3.3/diff.md --exclude *.pyd
+[2023-06-17 09:45:18] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.3.20b0.tar.gz]
+[2023-06-17 09:45:18] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.3.3.tar.gz]
+[2023-06-17 09:45:18] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2023-06-17 09:45:18] INFO root fetch - main [MainThread]: Store serial: [18541647]
