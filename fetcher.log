@@ -16780,3 +16780,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:04:34] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.5.tar.gz]
 [2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [polar-diagrams]: success
 [2023-06-17 19:04:34] INFO root fetch - main [MainThread]: Store serial: [18544813]
+[2023-06-17 19:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544813]
+[2023-06-17 19:09:44] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-17 19:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544814]
+[2023-06-17 19:14:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yid-langchain-extensions
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udl-vis
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tepgacast
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-manifest
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runweb
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pancollection
+[2023-06-17 19:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pidgin-eng-dictionary
+[2023-06-17 19:14:49] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.1] Old Version: [0.3]
+[2023-06-17 19:14:50] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.95] Old Version: [4.2.94]
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pidgin-eng-dictionary]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 19:14:50] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/32/a8/199e3484a7c7ae911be04a84b17e5fb0747b3edc2262250ddd66fdc1564b/yid_langchain_extensions-0.3.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ad/da/63a4c2142b6cd31138a68c52df7779de3214f58d80f5dde9dac017be4791/cyberdrop-dl-4.2.94.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pidgin-eng-dictionary]: Downloading https://files.pythonhosted.org/packages/ab/64/50019e3c43ebb1ca1572d922ff8e5a842fdc738526aa8de15df1f235c421/pidgin_eng_dictionary-0.0.1-py3-none-any.whl
+[2023-06-17 19:14:50] INFO root fetch - processPackages [udl-vis]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-17 19:14:50] WARNING root fetch - processPackages [tepgacast]: Skipping, unable to determine old version
+[2023-06-17 19:14:50] INFO root fetch - main [MainThread]: End processing [tepgacast] error
+[2023-06-17 19:14:50] INFO root fetch - processPackages [python-manifest]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-17 19:14:50] WARNING root fetch - processPackages [runweb]: Skipping, unable to determine old version
+[2023-06-17 19:14:50] INFO root fetch - main [MainThread]: End processing [runweb] error
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pancollection]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-17 19:14:50] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/4b/b7/fbc2ee83a4367469e83d8721326c763f2e4b9c0644039bd8366f749058d7/yid_langchain_extensions-0.4.1.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pidgin-eng-dictionary]: Downloading https://files.pythonhosted.org/packages/21/7d/b002da4f3876509047e1c22d41a0d59208728bc2628e76c4940684244711/pidgin-eng-dictionary-0.0.2.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/df/95/5fcdb7c8152d7432143c3a6b835fda3d65577fe840c45c1a897db4bdaf10/cyberdrop-dl-4.2.95.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pidgin-eng-dictionary]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pidgin-eng-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidgin_eng_dictionary-0.0.1-py3-none-any.whl.zip tmp/pidgin-eng-dictionary-0.0.2.tar.gz --markdown 20230617/p/pidgin-eng-dictionary/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 19:14:50] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.94.tar.gz tmp/cyberdrop-dl-4.2.95.tar.gz --markdown 20230617/c/cyberdrop-dl/4.2.94-4.2.95/diff.md --exclude *.pyd
+[2023-06-17 19:14:50] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.3.tar.gz tmp/yid_langchain_extensions-0.4.1.tar.gz --markdown 20230617/y/yid-langchain-extensions/0.3-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 19:14:50] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/a2/49/d6261d52d95e4e37c058e721253f820e806e20699a64578aaedb5ab2a70d/udl_vis-0.3.1.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/b8/ea/966a9b6a79d103b3774547bb442e70e2058a1dc1f90d9cb5bd9c18ab55d7/python_manifest-1.4.0-py3-none-any.whl
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/d8/9c/2511f5c122a92d463619fa30a4fc21edf5358a8497a7ba98e5747a17f893/pancollection-0.3.2.tar.gz
+[2023-06-17 19:14:50] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/7d/a1/4a42214a9d0e60cbbc2ea164a235e19200a4e8c53a88e6ec22f0078f161c/udl_vis-0.3.2-py3-none-any.whl
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/ae/21/a642e04e139f04d37ec393c241d0b87b25e4161040f844eea3debfa16a41/pancollection-0.3.3-py3-none-any.whl
+[2023-06-17 19:14:50] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/a9/69/db03d12b74f15071a3f3fde6b92e7bec91a14ac8d07edd00b505e298a1e9/python_manifest-1.4.1-py3-none-any.whl
+[2023-06-17 19:14:50] INFO root fetch - processPackages [udl-vis]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [udl-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udl_vis-0.3.1.tar.gz tmp/udl_vis-0.3.2-py3-none-any.whl.zip --markdown 20230617/u/udl-vis/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pancollection]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [pancollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancollection-0.3.2.tar.gz tmp/pancollection-0.3.3-py3-none-any.whl.zip --markdown 20230617/p/pancollection/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-17 19:14:50] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-17 19:14:50] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.4.0-py3-none-any.whl.zip tmp/python_manifest-1.4.1-py3-none-any.whl.zip --markdown 20230617/p/python-manifest/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-17 19:14:51] INFO root fetch - processPackages [pidgin-eng-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/pidgin_eng_dictionary-0.0.1-py3-none-any.whl.zip]
+[2023-06-17 19:14:51] INFO root fetch - processPackages [pidgin-eng-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/pidgin-eng-dictionary-0.0.2.tar.gz]
+[2023-06-17 19:14:51] INFO root fetch - main [MainThread]: End processing [pidgin-eng-dictionary]: success
+[2023-06-17 19:14:51] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.3.tar.gz]
+[2023-06-17 19:14:51] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.1.tar.gz]
+[2023-06-17 19:14:51] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-17 19:14:51] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.3.2.tar.gz]
+[2023-06-17 19:14:51] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.3.3-py3-none-any.whl.zip]
+[2023-06-17 19:14:51] INFO root fetch - main [MainThread]: End processing [pancollection]: success
+[2023-06-17 19:14:51] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.4.0-py3-none-any.whl.zip]
+[2023-06-17 19:14:51] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.4.1-py3-none-any.whl.zip]
+[2023-06-17 19:14:51] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-17 19:14:51] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.1.tar.gz]
+[2023-06-17 19:14:51] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.2-py3-none-any.whl.zip]
+[2023-06-17 19:14:51] INFO root fetch - main [MainThread]: End processing [udl-vis]: success
+[2023-06-17 19:14:52] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.94.tar.gz]
+[2023-06-17 19:14:52] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.95.tar.gz]
+[2023-06-17 19:14:52] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-17 19:14:52] INFO root fetch - main [MainThread]: Store serial: [18544837]
