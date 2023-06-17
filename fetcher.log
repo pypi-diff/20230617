@@ -6069,3 +6069,33 @@
 [2023-06-17 03:59:20] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.8.tar.gz]
 [2023-06-17 03:59:20] INFO root fetch - main [MainThread]: End processing [kultimate]: success
 [2023-06-17 03:59:20] INFO root fetch - main [MainThread]: Store serial: [18540093]
+[2023-06-17 04:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540093]
+[2023-06-17 04:04:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-06-17 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naludaq-rs
+[2023-06-17 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric_cf
+[2023-06-17 04:04:29] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.95] Old Version: [4.2.94]
+[2023-06-17 04:04:29] INFO root fetch - processPackages [naludaq-rs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 04:04:29] INFO root fetch - processPackages [fabric_cf]: New version: [1.5.1rc0] Old Version: [1.5.0b5]
+[2023-06-17 04:04:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ad/da/63a4c2142b6cd31138a68c52df7779de3214f58d80f5dde9dac017be4791/cyberdrop-dl-4.2.94.tar.gz
+[2023-06-17 04:04:29] INFO root fetch - processPackages [naludaq-rs]: Downloading https://files.pythonhosted.org/packages/fa/08/fe8766b43a00610cde4dbf76c45ee760367b8638743e41019de012dbdf7d/naludaq_rs-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 04:04:29] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/29/a5/48e335cff7de908469d836e1c5de3959ce1c6b30aa29ae880635bebedd4d/fabric_cf-1.5.0b5.tar.gz
+[2023-06-17 04:04:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/df/95/5fcdb7c8152d7432143c3a6b835fda3d65577fe840c45c1a897db4bdaf10/cyberdrop-dl-4.2.95.tar.gz
+[2023-06-17 04:04:29] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-17 04:04:29] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.94.tar.gz tmp/cyberdrop-dl-4.2.95.tar.gz --markdown 20230617/c/cyberdrop-dl/4.2.94-4.2.95/diff.md --exclude *.pyd
+[2023-06-17 04:04:29] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/93/da/14c6e45dc188e8a3c4134156d28ee62c00d4b91c12c0804a24717d76b841/fabric_cf-1.5.1rc0.tar.gz
+[2023-06-17 04:04:30] INFO root fetch - processPackages [fabric_cf]: executing diffoscope
+[2023-06-17 04:04:30] INFO root fetch - processPackages [fabric_cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_cf-1.5.0b5.tar.gz tmp/fabric_cf-1.5.1rc0.tar.gz --markdown 20230617/f/fabric_cf/1.5.0b5-1.5.1rc0/diff.md --exclude *.pyd
+[2023-06-17 04:04:31] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.94.tar.gz]
+[2023-06-17 04:04:31] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.95.tar.gz]
+[2023-06-17 04:04:31] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-17 04:04:32] INFO root fetch - processPackages [naludaq-rs]: Downloading https://files.pythonhosted.org/packages/64/36/f9209fb01ec712773f0d23f719d32a1eec799712a5be6240d2437b9b61dd/naludaq_rs-0.1.9-cp39-none-win_amd64.whl
+[2023-06-17 04:04:33] INFO root fetch - processPackages [naludaq-rs]: executing diffoscope
+[2023-06-17 04:04:33] INFO root fetch - processPackages [naludaq-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq_rs-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/naludaq_rs-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230617/n/naludaq-rs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 04:04:34] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.0b5.tar.gz]
+[2023-06-17 04:04:34] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.1rc0.tar.gz]
+[2023-06-17 04:04:34] INFO root fetch - main [MainThread]: End processing [fabric_cf]: success
+[2023-06-17 04:04:35] INFO root fetch - processPackages [naludaq-rs]: Remove: archive file [/home/abi/fetcher/tmp/naludaq_rs-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 04:04:35] INFO root fetch - processPackages [naludaq-rs]: Remove: archive file [/home/abi/fetcher/tmp/naludaq_rs-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-17 04:04:35] INFO root fetch - main [MainThread]: End processing [naludaq-rs]: success
+[2023-06-17 04:04:35] INFO root fetch - main [MainThread]: Store serial: [18540111]
