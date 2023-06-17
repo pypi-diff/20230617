@@ -6099,3 +6099,33 @@
 [2023-06-17 04:04:35] INFO root fetch - processPackages [naludaq-rs]: Remove: archive file [/home/abi/fetcher/tmp/naludaq_rs-0.1.9-cp39-none-win_amd64.whl.zip]
 [2023-06-17 04:04:35] INFO root fetch - main [MainThread]: End processing [naludaq-rs]: success
 [2023-06-17 04:04:35] INFO root fetch - main [MainThread]: Store serial: [18540111]
+[2023-06-17 04:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540111]
+[2023-06-17 04:09:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabric-am-handlers
+[2023-06-17 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: progf
+[2023-06-17 04:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2023-06-17 04:09:45] INFO root fetch - processPackages [progf]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-17 04:09:45] INFO root fetch - processPackages [not1mm]: New version: [23.6.2] Old Version: [23.6.16]
+[2023-06-17 04:09:45] INFO root fetch - processPackages [fabric-am-handlers]: New version: [1rc3] Old Version: [1.5.1rc0]
+[2023-06-17 04:09:45] INFO root fetch - processPackages [progf]: Downloading https://files.pythonhosted.org/packages/01/1f/e27cdfbb9e4fa07ea820ca8031578274cd44f64e537883a68347557d46ad/progf-0.0.1.tar.gz
+[2023-06-17 04:09:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/b6/c2/865bfba4c6c2b74e989ba34553bee58bb68ade628e258e33502c2d847cba/not1mm-23.6.16.tar.gz
+[2023-06-17 04:09:45] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/dd/c2/8049a69b427f8b527ce0dcb3acba3bbcbcd3ed6c9992bddfc1fd794e5388/fabric-am-handlers-1.5.1rc0.tar.gz
+[2023-06-17 04:09:45] INFO root fetch - processPackages [progf]: Downloading https://files.pythonhosted.org/packages/ba/36/df33620400cb7162218d88c1318735facef052d499603bce24d33ff9888f/progf-0.0.3-py3-none-any.whl
+[2023-06-17 04:09:45] INFO root fetch - processPackages [progf]: executing diffoscope
+[2023-06-17 04:09:45] INFO root fetch - processPackages [progf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progf-0.0.1.tar.gz tmp/progf-0.0.3-py3-none-any.whl.zip --markdown 20230617/p/progf/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 04:09:45] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/95/fd/5989a4e7b955374f83a339d5b7bb5b046031d451e13fa868379852606d79/fabric-am-handlers-1rc3.tar.gz
+[2023-06-17 04:09:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/2a/ab/303c6eade0fecac8a3475d19983c41b00607b0a9a76ec22a3ae7d5f22c25/not1mm-23.6.2.tar.gz
+[2023-06-17 04:09:46] INFO root fetch - processPackages [fabric-am-handlers]: executing diffoscope
+[2023-06-17 04:09:46] INFO root fetch - processPackages [fabric-am-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-am-handlers-1.5.1rc0.tar.gz tmp/fabric-am-handlers-1rc3.tar.gz --markdown 20230617/f/fabric-am-handlers/1.5.1rc0-1rc3/diff.md --exclude *.pyd
+[2023-06-17 04:09:46] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-06-17 04:09:46] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.6.16.tar.gz tmp/not1mm-23.6.2.tar.gz --markdown 20230617/n/not1mm/23.6.16-23.6.2/diff.md --exclude *.pyd
+[2023-06-17 04:09:46] INFO root fetch - processPackages [progf]: Remove: archive file [/home/abi/fetcher/tmp/progf-0.0.1.tar.gz]
+[2023-06-17 04:09:46] INFO root fetch - processPackages [progf]: Remove: archive file [/home/abi/fetcher/tmp/progf-0.0.3-py3-none-any.whl.zip]
+[2023-06-17 04:09:46] INFO root fetch - main [MainThread]: End processing [progf]: success
+[2023-06-17 04:09:47] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1.5.1rc0.tar.gz]
+[2023-06-17 04:09:47] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1rc3.tar.gz]
+[2023-06-17 04:09:47] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
+[2023-06-17 04:09:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.16.tar.gz]
+[2023-06-17 04:09:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.2.tar.gz]
+[2023-06-17 04:09:50] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-06-17 04:09:50] INFO root fetch - main [MainThread]: Store serial: [18540123]
