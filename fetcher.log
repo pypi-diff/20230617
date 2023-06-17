@@ -11321,3 +11321,66 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:52:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-17 11:52:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-17 11:52:11] INFO root fetch - main [MainThread]: Store serial: [18542130]
+[2023-06-17 11:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542130]
+[2023-06-17 11:57:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixture-experimentalist
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phub
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qetrader
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtpsplit
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mml-qae
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinol-make
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git-timemachine
+[2023-06-17 11:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-motor
+[2023-06-17 11:57:20] INFO root fetch - processPackages [wtpsplit]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-17 11:57:20] INFO root fetch - processPackages [mml-qae]: New version: [1.0.3.1] Old Version: [1.0.2.12]
+[2023-06-17 11:57:20] WARNING root fetch - processPackages [mixture-experimentalist]: Skipping, unable to determine old version
+[2023-06-17 11:57:20] INFO root fetch - main [MainThread]: End processing [mixture-experimentalist] error
+[2023-06-17 11:57:20] INFO root fetch - processPackages [phub]: New version: [2.3] Old Version: [2.2]
+[2023-06-17 11:57:20] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 11:57:20] INFO root fetch - processPackages [git-timemachine]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-17 11:57:20] INFO root fetch - processPackages [sinol-make]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-17 11:57:20] INFO root fetch - processPackages [git-timemachine]: Downloading https://files.pythonhosted.org/packages/ca/c5/bbdb692910bf8dada68c085502afdd156890ee02f81ef74f48c77b0e5337/git_timemachine-2.0.0.tar.gz
+[2023-06-17 11:57:20] WARNING root fetch - processPackages [fastapi-motor]: Skipping, unable to determine old version
+[2023-06-17 11:57:20] INFO root fetch - main [MainThread]: End processing [fastapi-motor] error
+[2023-06-17 11:57:20] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/90/8e/1b49cadcbb9567846d749ad4fc0c5f4764f2256a27df3b7924d15206b117/wtpsplit-1.0.1.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/4c/4f/e5b726a8fddd0657838577af1ac60c0dfb9f18c73d39f257188b5bda6fc9/sinol-make-1.0.0.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/7b/8c/311670952d7e0b40e0a76bf1a5192a7d669d8a53405dec58221c66d9ce45/phub-2.2.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/8f/e8/5c0ddb44db636397cc3aeca7380e54f98a2bf0617817bf8eb165a4b8cdc0/mml_qae-1.0.2.12.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [git-timemachine]: Downloading https://files.pythonhosted.org/packages/55/50/2c54c78dadcf7b24111e640e8bac0356f10e43693539359a45da2e7df63d/git_timemachine-2.1.0.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/6b/74/2c20446209e7f898f74b92493e3b3c7e61843c68a8497b08a4d64c73071d/wtpsplit-1.1.0.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [git-timemachine]: executing diffoscope
+[2023-06-17 11:57:20] INFO root fetch - processPackages [git-timemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_timemachine-2.0.0.tar.gz tmp/git_timemachine-2.1.0.tar.gz --markdown 20230617/g/git-timemachine/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 11:57:20] INFO root fetch - processPackages [wtpsplit]: executing diffoscope
+[2023-06-17 11:57:20] INFO root fetch - processPackages [wtpsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtpsplit-1.0.1.tar.gz tmp/wtpsplit-1.1.0.tar.gz --markdown 20230617/w/wtpsplit/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 11:57:20] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/29/48/6703838c5ad49a9099fc0628f719ca4fe0a7e2675ca41450afed09fc0623/sinol-make-1.1.0.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/31/a3/a4950f57c4150143be24e6d071a0d48bf5a3201fa7a8c62fbd21a8a6f49e/phub-2.3.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [mml-qae]: Downloading https://files.pythonhosted.org/packages/9b/bd/03078692addf921e7e04ba723c594ecc244792705035e8b593685b0be43c/mml_qae-1.0.3.1.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-17 11:57:20] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.2.tar.gz tmp/phub-2.3.tar.gz --markdown 20230617/p/phub/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-17 11:57:20] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-06-17 11:57:20] INFO root fetch - processPackages [sinol-make]: executing diffoscope
+[2023-06-17 11:57:20] INFO root fetch - processPackages [sinol-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinol-make-1.0.0.tar.gz tmp/sinol-make-1.1.0.tar.gz --markdown 20230617/s/sinol-make/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 11:57:20] INFO root fetch - processPackages [mml-qae]: executing diffoscope
+[2023-06-17 11:57:20] INFO root fetch - processPackages [mml-qae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mml_qae-1.0.2.12.tar.gz tmp/mml_qae-1.0.3.1.tar.gz --markdown 20230617/m/mml-qae/1.0.2.12-1.0.3.1/diff.md --exclude *.pyd
+[2023-06-17 11:57:21] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-06-17 11:57:21] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230617/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 11:57:21] INFO root fetch - processPackages [git-timemachine]: Remove: archive file [/home/abi/fetcher/tmp/git_timemachine-2.0.0.tar.gz]
+[2023-06-17 11:57:21] INFO root fetch - processPackages [git-timemachine]: Remove: archive file [/home/abi/fetcher/tmp/git_timemachine-2.1.0.tar.gz]
+[2023-06-17 11:57:21] INFO root fetch - main [MainThread]: End processing [git-timemachine]: success
+[2023-06-17 11:57:21] INFO root fetch - processPackages [wtpsplit]: Remove: archive file [/home/abi/fetcher/tmp/wtpsplit-1.0.1.tar.gz]
+[2023-06-17 11:57:21] INFO root fetch - processPackages [wtpsplit]: Remove: archive file [/home/abi/fetcher/tmp/wtpsplit-1.1.0.tar.gz]
+[2023-06-17 11:57:21] INFO root fetch - main [MainThread]: End processing [wtpsplit]: success
+[2023-06-17 11:57:22] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.2.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.3.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-17 11:57:22] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.0.0.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.1.0.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - main [MainThread]: End processing [sinol-make]: success
+[2023-06-17 11:57:22] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.2.12.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - processPackages [mml-qae]: Remove: archive file [/home/abi/fetcher/tmp/mml_qae-1.0.3.1.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - main [MainThread]: End processing [mml-qae]: success
+[2023-06-17 11:57:22] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-06-17 11:57:22] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-06-17 11:57:22] INFO root fetch - main [MainThread]: Store serial: [18542161]
