@@ -1759,3 +1759,162 @@
 [2023-06-17 02:24:37] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
 [2023-06-17 02:24:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
 [2023-06-17 02:24:37] INFO root fetch - main [MainThread]: Store serial: [18538569]
+[2023-06-17 02:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538569]
+[2023-06-17 02:29:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf-invoice-generator
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexam
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-docker-image-deployment
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtfield
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talk-codebase
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-certbot-dns-route53
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-serverless-clamscan
+[2023-06-17 02:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kedro-ibis-dataset
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:29:46] WARNING root fetch - processPackages [pdf-invoice-generator]: Skipping, unable to determine old version
+[2023-06-17 02:29:46] INFO root fetch - processPackages [pdf-invoice-generator]: Start processing: gpt-index
+[2023-06-17 02:29:46] INFO root fetch - main [MainThread]: End processing [pdf-invoice-generator] error
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.6a0] Old Version: [0.0.5]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [dtfield]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kodexam]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/90/e9/4d6651720dbf44b4c1aa708689843bd4d51b6c50f3c3fa1e18f5cdbeec51/kedro_ibis_dataset-0.0.5.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/f6/4f/08f82464259369e41c2d44e007833d14c44d3a64bc53e1f1c4c33467c0e9/dtfield-0.2.1.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/d2/30/bda10d30c79882d389b2b67f3039a88bbb082288fac8e61763a067928bbd/cdk-serverless-clamscan-2.4.98.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/1d/6e/27a9146970342020e8a4839fbff1cf366d905db296cef9dd83117887e94f/talk_codebase-0.1.30.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kodexam]: Downloading https://files.pythonhosted.org/packages/de/f0/060bd5dc2be20ba637b1e0b9f24aad0eda3a67fed9d9be56f46d908338e1/kodexam-0.0.1.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/c6/c3/5d8da7ae83a94313bf5235dbf568ca8a891ae3cecc8bb943ba9c7dba9d4d/kedro_ibis_dataset-0.0.6a0.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/10/f3/889350bba490b3f934295e0a2fe3ac6af85d8c8969e3fc69d63b853473dd/dtfield-0.2.2.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/3f/c5/eaf34fd54aec59c5c19a71090a6f219af925b3b7fda3a575ba64c873e4e9/talk_codebase-0.1.31.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kodexam]: Downloading https://files.pythonhosted.org/packages/2d/38/7d017abf5a37762e6ce369feb3b4a47baf0e0d4726992b31753f01d25a14/kodexam-0.0.5.tar.gz
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230617/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-17 02:29:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230617/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 02:29:46] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.5.tar.gz tmp/kedro_ibis_dataset-0.0.6a0.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.5-0.0.6a0/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [kodexam]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [kodexam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexam-0.0.1.tar.gz tmp/kodexam-0.0.5.tar.gz --markdown 20230617/k/kodexam/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-17 02:29:47] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.2.1.tar.gz tmp/dtfield-0.2.2.tar.gz --markdown 20230617/d/dtfield/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.30.tar.gz tmp/talk_codebase-0.1.31.tar.gz --markdown 20230617/t/talk-codebase/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230617/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230617/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-17 02:29:47] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230617/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.5.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a0.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kedro-ibis-dataset]: Start processing: llama-index
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.30.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.31.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [talk-codebase]: Start processing: cdk8s-image
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kodexam]: Remove: archive file [/home/abi/fetcher/tmp/kodexam-0.0.1.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kodexam]: Remove: archive file [/home/abi/fetcher/tmp/kodexam-0.0.5.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [kodexam]: Start processing: dtmodel
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [kodexam]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtmodel]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/db/eb/b3f9ea8d695b620ca5a03d7173fc83363c38be11804fb2ac7caf78729f71/dtmodel-0.1.2.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk-certbot-dns-route53
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.1.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.2.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtfield]: Start processing: cdk8s-jenkins
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.98.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.99.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230617/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/25/8f/f606cd38e171ae23f9c5249940269b23711d41626cda56f00d3573446747/dtmodel-0.1.3.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: data-aggregator
+[2023-06-17 02:29:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-17 02:29:48] INFO root fetch - processPackages [data-aggregator]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230617/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:48] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/02/72/51280f19bdf52a8c5e801f028b73ff10a6424f250ce6c01eeed4ac9174c3/data_aggregator-1.0.0.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtmodel]: executing diffoscope
+[2023-06-17 02:29:48] INFO root fetch - processPackages [dtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtmodel-0.1.2.tar.gz tmp/dtmodel-0.1.3.tar.gz --markdown 20230617/d/dtmodel/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-06-17 02:29:48] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230617/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:49] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-17 02:29:49] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230617/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-17 02:29:49] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/64/f8/250e6c2a3ef7b86b08667419dc40e9bc11c76d9b7fe76bf953e0b002b079/data_aggregator-1.1.0.tar.gz
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-06-17 02:29:49] INFO root fetch - processPackages [data-aggregator]: executing diffoscope
+[2023-06-17 02:29:49] INFO root fetch - processPackages [data-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_aggregator-1.0.0.tar.gz tmp/data_aggregator-1.1.0.tar.gz --markdown 20230617/d/data-aggregator/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230617/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-17 02:29:49] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-17 02:29:49] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230617/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.2.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.3.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [dtmodel]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.0.0.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.1.0.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [data-aggregator]: success
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-06-17 02:29:50] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-06-17 02:29:52] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-17 02:29:52] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-17 02:29:52] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-17 02:29:52] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-17 02:29:52] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-17 02:29:52] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-17 02:29:52] INFO root fetch - main [MainThread]: Store serial: [18538630]
