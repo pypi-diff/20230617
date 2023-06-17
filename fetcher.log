@@ -8574,3 +8574,52 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:49:17] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl.zip]
 [2023-06-17 06:49:17] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-claim-rma]: success
 [2023-06-17 06:49:17] INFO root fetch - main [MainThread]: Store serial: [18540960]
+[2023-06-17 06:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540960]
+[2023-06-17 06:54:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webhooklib
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webhooklib
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redis-limit
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wordle-aid
+[2023-06-17 06:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-sale-blanket-order
+[2023-06-17 06:54:26] WARNING root fetch - processPackages [redis-limit]: Skipping, unable to determine old version
+[2023-06-17 06:54:26] INFO root fetch - main [MainThread]: End processing [redis-limit] error
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 06:54:26] INFO root fetch - processPackages [wordle-aid]: New version: [2.2] Old Version: [2.1]
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 06:54:26] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-06-17 06:54:26] INFO root fetch - processPackages [vstutils]: New version: [5.5.0a1] Old Version: [5.4.9]
+[2023-06-17 06:54:26] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/cc/d9/3d347f8997b06fa0fb9cef0155642378ef9aef6f61a1d9f6764dfe8fa8e2/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [wordle-aid]: Downloading https://files.pythonhosted.org/packages/58/31/d5a0066b9b0b0c155e153c44db1c2929501e6167290585d1d3127a28fa3f/wordle-aid-2.1.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c3/e9/d4abad63dcfc1004b5c1557a027354436691c249a98f05da7bf8d54b856f/vstutils-5.4.9.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/1e/45/6dbdb3eee4920a7de3bc5944fd8341d9b5bc029ad486041447963cf1f074/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-06-17 06:54:26] INFO root fetch - processPackages [wordle-aid]: Downloading https://files.pythonhosted.org/packages/63/98/0f602bca9bbe9afa17532b15f222a5a01d0608d850ec8f0aa6a69d0d48fc/wordle-aid-2.2.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 06:54:26] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: executing diffoscope
+[2023-06-17 06:54:26] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo12-addon-sale-blanket-order/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 06:54:26] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:54:26] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c8/2c/e79b626ff2d31587c8a0fcc1327110ebfe6bdd8e20d4dc59e1bd56877aea/vstutils-5.5.0a1.tar.gz
+[2023-06-17 06:54:27] INFO root fetch - processPackages [wordle-aid]: executing diffoscope
+[2023-06-17 06:54:27] INFO root fetch - processPackages [wordle-aid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordle-aid-2.1.tar.gz tmp/wordle-aid-2.2.tar.gz --markdown 20230617/w/wordle-aid/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-17 06:54:27] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-17 06:54:27] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.9.tar.gz tmp/vstutils-5.5.0a1.tar.gz --markdown 20230617/v/vstutils/5.4.9-5.5.0a1/diff.md --exclude *.pyd
+[2023-06-17 06:54:28] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 06:54:28] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 06:54:28] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 06:54:28] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 06:54:28] INFO root fetch - processPackages [wordle-aid]: Remove: archive file [/home/abi/fetcher/tmp/wordle-aid-2.1.tar.gz]
+[2023-06-17 06:54:28] INFO root fetch - processPackages [wordle-aid]: Remove: archive file [/home/abi/fetcher/tmp/wordle-aid-2.2.tar.gz]
+[2023-06-17 06:54:28] INFO root fetch - main [MainThread]: End processing [wordle-aid]: success
+[2023-06-17 06:54:28] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-17 06:54:28] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2023-06-17 06:54:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
+[2023-06-17 06:54:34] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
+[2023-06-17 06:54:34] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.0a1.tar.gz]
+[2023-06-17 06:54:34] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-17 06:54:34] INFO root fetch - main [MainThread]: Store serial: [18540983]
