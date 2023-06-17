@@ -14174,3 +14174,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:48:16] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.3.4.tar.gz]
 [2023-06-17 15:48:16] INFO root fetch - main [MainThread]: End processing [umap-project]: success
 [2023-06-17 15:48:16] INFO root fetch - main [MainThread]: Store serial: [18543455]
+[2023-06-17 15:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543455]
+[2023-06-17 15:53:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nibiru
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastestimator-nightly
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgpmgr
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymolecule-parser
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvectorsearch
+[2023-06-17 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webhooklib
+[2023-06-17 15:53:26] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306161353] Old Version: [1.6.0.dev202306151401]
+[2023-06-17 15:53:26] INFO root fetch - processPackages [pymolecule-parser]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-17 15:53:26] INFO root fetch - processPackages [webhooklib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 15:53:26] INFO root fetch - processPackages [nibiru]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-17 15:53:26] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.16] Old Version: [2023.6.15]
+[2023-06-17 15:53:26] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/6a/a7/78fb58d256169b06e5fcfdbb8a74c6ec8962be74416cd4c97493daae7bd2/fastestimator-nightly-1.6.0.dev202306151401.tar.gz
+[2023-06-17 15:53:26] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/66/ca/717bfd26f5c10c63f718541bf133cb286033e421eb926c6f4281cab3d945/webhooklib-0.2.1.tar.gz
+[2023-06-17 15:53:26] INFO root fetch - processPackages [pymolecule-parser]: Downloading https://files.pythonhosted.org/packages/2e/95/7a60b0cfff6808ba28a39966d9db0b4b7a4c3a680c1e6620afd75e8dfb39/pymolecule_parser-0.0.0.tar.gz
+[2023-06-17 15:53:26] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/c9/8f/3cb00d502eaf610ca4b02f5e37b7c4772342e7a8951630764f454da93faa/nibiru-0.5.3.tar.gz
+[2023-06-17 15:53:26] WARNING root fetch - processPackages [pyvectorsearch]: Skipping, unable to determine old version
+[2023-06-17 15:53:26] INFO root fetch - main [MainThread]: End processing [pyvectorsearch] error
+[2023-06-17 15:53:26] INFO root fetch - processPackages [cgpmgr]: New version: [1.4] Old Version: [1.3]
+[2023-06-17 15:53:27] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/b8/6b/0f6e569ee4fe163ef66bd3867fb6d6b3e2528d671a188f69894d6158c4da/fastestimator-nightly-1.6.0.dev202306161353.tar.gz
+[2023-06-17 15:53:27] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/aa/b4/85ebcffb2a612d84290983c1d564de8e9266a33a7eb84196b139312d42ab/fbgemm_gpu_nightly-2023.6.15-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-17 15:53:27] INFO root fetch - processPackages [pymolecule-parser]: Downloading https://files.pythonhosted.org/packages/d5/05/8c6245165dcf7b1701e89473682dda76401b40a1a24638699b30fe586fec/pymolecule_parser-0.0.1.tar.gz
+[2023-06-17 15:53:27] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 255933493>=10485760
+[2023-06-17 15:53:27] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-17 15:53:27] INFO root fetch - processPackages [cgpmgr]: Downloading https://files.pythonhosted.org/packages/bb/20/3c89cc3c21b87ef71455d975cc974049f0c8a277597fa6b5b67c21ea5940/cgpmgr-1.3.tar.gz
+[2023-06-17 15:53:27] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/50/dc/7e6c979729048b5ab50308a9ee2b3d871bec8633dab926fb0c420a1eab55/nibiru-0.5.4.tar.gz
+[2023-06-17 15:53:27] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/ca/54/3d446bbce0542c1db7140048d479a16605ac2d8c3229334b4fade0cff716/webhooklib-0.2.2.tar.gz
+[2023-06-17 15:53:27] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-17 15:53:27] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306151401.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306161353.tar.gz --markdown 20230617/f/fastestimator-nightly/1.6.0.dev202306151401-1.6.0.dev202306161353/diff.md --exclude *.pyd
+[2023-06-17 15:53:27] INFO root fetch - processPackages [pymolecule-parser]: executing diffoscope
+[2023-06-17 15:53:27] INFO root fetch - processPackages [pymolecule-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymolecule_parser-0.0.0.tar.gz tmp/pymolecule_parser-0.0.1.tar.gz --markdown 20230617/p/pymolecule-parser/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-17 15:53:27] INFO root fetch - processPackages [nibiru]: executing diffoscope
+[2023-06-17 15:53:27] INFO root fetch - processPackages [nibiru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru-0.5.3.tar.gz tmp/nibiru-0.5.4.tar.gz --markdown 20230617/n/nibiru/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-17 15:53:27] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 15:53:27] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.2.1.tar.gz tmp/webhooklib-0.2.2.tar.gz --markdown 20230617/w/webhooklib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 15:53:27] INFO root fetch - processPackages [cgpmgr]: Downloading https://files.pythonhosted.org/packages/a4/dd/633912e8c7e92bf5d2bfa24c09e86d53c9d07fef3d73b80862088c5174de/cgpmgr-1.4.tar.gz
+[2023-06-17 15:53:27] INFO root fetch - processPackages [cgpmgr]: executing diffoscope
+[2023-06-17 15:53:27] INFO root fetch - processPackages [cgpmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgpmgr-1.3.tar.gz tmp/cgpmgr-1.4.tar.gz --markdown 20230617/c/cgpmgr/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-17 15:53:28] INFO root fetch - processPackages [pymolecule-parser]: Remove: archive file [/home/abi/fetcher/tmp/pymolecule_parser-0.0.0.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - processPackages [pymolecule-parser]: Remove: archive file [/home/abi/fetcher/tmp/pymolecule_parser-0.0.1.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - main [MainThread]: End processing [pymolecule-parser]: success
+[2023-06-17 15:53:28] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.2.1.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.2.2.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 15:53:28] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.3.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.4.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - main [MainThread]: End processing [nibiru]: success
+[2023-06-17 15:53:28] INFO root fetch - processPackages [cgpmgr]: Remove: archive file [/home/abi/fetcher/tmp/cgpmgr-1.3.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - processPackages [cgpmgr]: Remove: archive file [/home/abi/fetcher/tmp/cgpmgr-1.4.tar.gz]
+[2023-06-17 15:53:28] INFO root fetch - main [MainThread]: End processing [cgpmgr]: success
+[2023-06-17 15:53:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306151401.tar.gz]
+[2023-06-17 15:53:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306161353.tar.gz]
+[2023-06-17 15:53:33] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-17 15:53:33] INFO root fetch - main [MainThread]: Store serial: [18543484]
