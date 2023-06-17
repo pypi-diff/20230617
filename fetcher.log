@@ -11859,3 +11859,51 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:46:11] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.4.0a0.tar.gz]
 [2023-06-17 12:46:11] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
 [2023-06-17 12:46:11] INFO root fetch - main [MainThread]: Store serial: [18542397]
+[2023-06-17 12:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542397]
+[2023-06-17 12:51:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 12:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-math
+[2023-06-17 12:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamerinsta
+[2023-06-17 12:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-logs
+[2023-06-17 12:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-collections
+[2023-06-17 12:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-times
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-math]: New version: [7.417.23168] Old Version: [7.409.23162]
+[2023-06-17 12:51:21] INFO root fetch - processPackages [gamerinsta]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-times]: New version: [5.53.21241] Old Version: [5.413.23168]
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-logs]: New version: [8.417.23168] Old Version: [8.412.23165]
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/1b/41/436ec4c31dbf5c6e42a4d08cf470cebefd95fbfc7c8e2815329c2863e4b0/mo_times-5.413.23168-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-collections]: New version: [5.45.21241] Old Version: [5.417.23168]
+[2023-06-17 12:51:21] INFO root fetch - processPackages [gamerinsta]: Downloading https://files.pythonhosted.org/packages/5e/a8/151f72891f7f3d2b93786715efe555e96f90f6969d9e73e55b43d4334bf4/gamerinsta-0.0.2.tar.gz
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/a8/1f/f5485b88fdb0d21822ce509858670870bc627177514f40740849720e3a56/mo_math-7.409.23162-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/a4/6c/66501156dc2b870898fbfad57b1115b5b56adb674e1c07f6321ed84e452b/mo_logs-8.412.23165-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/2d/f8/0505fe92479ea248e31143889bd16285dcf50f767547b21a06408b59ff91/mo_collections-5.417.23168-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/03/e0/c83ec4a44a093d55ad4d2ccac4a0a0e96cd7f9ef6d58f0c10a06ce767009/mo-times-5.53.21241.tar.gz
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.413.23168-py2.py3-none-any.whl.zip tmp/mo-times-5.53.21241.tar.gz --markdown 20230617/m/mo-times/5.413.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/4b/9d/14a64c91608257418a16c083eb7b2d6f6677a4b763130b69d698ecd4b914/mo_logs-8.417.23168-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [gamerinsta]: Downloading https://files.pythonhosted.org/packages/8f/3f/433322623084ce39fe63ef01a5a92b9a35d3dbdb4ef9071d7949713343f3/gamerinsta-0.0.3.tar.gz
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/14/7e/28be1ccb5af4e624fc5322d87d36a04c885c4b70d5dd3c32c86beedf31ae/mo_math-7.417.23168-py2.py3-none-any.whl
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.412.23165-py2.py3-none-any.whl.zip tmp/mo_logs-8.417.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-logs/8.412.23165-8.417.23168/diff.md --exclude *.pyd
+[2023-06-17 12:51:21] INFO root fetch - processPackages [gamerinsta]: executing diffoscope
+[2023-06-17 12:51:21] INFO root fetch - processPackages [gamerinsta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamerinsta-0.0.2.tar.gz tmp/gamerinsta-0.0.3.tar.gz --markdown 20230617/g/gamerinsta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.409.23162-py2.py3-none-any.whl.zip tmp/mo_math-7.417.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-math/7.409.23162-7.417.23168/diff.md --exclude *.pyd
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/16/db/c74aa7d84f3c896385e0b68fe16b61f449d101ca62979e35457d05f12655/mo-collections-5.45.21241.tar.gz
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2023-06-17 12:51:21] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_collections-5.417.23168-py2.py3-none-any.whl.zip tmp/mo-collections-5.45.21241.tar.gz --markdown 20230617/m/mo-collections/5.417.23168-5.45.21241/diff.md --exclude *.pyd
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo-times-5.53.21241.tar.gz]
+[2023-06-17 12:51:22] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.412.23165-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.417.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:22] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2023-06-17 12:51:22] INFO root fetch - processPackages [gamerinsta]: Remove: archive file [/home/abi/fetcher/tmp/gamerinsta-0.0.2.tar.gz]
+[2023-06-17 12:51:22] INFO root fetch - processPackages [gamerinsta]: Remove: archive file [/home/abi/fetcher/tmp/gamerinsta-0.0.3.tar.gz]
+[2023-06-17 12:51:22] INFO root fetch - main [MainThread]: End processing [gamerinsta]: success
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.409.23162-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:22] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.417.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:22] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2023-06-17 12:51:23] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.417.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 12:51:23] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo-collections-5.45.21241.tar.gz]
+[2023-06-17 12:51:23] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2023-06-17 12:51:23] INFO root fetch - main [MainThread]: Store serial: [18542422]
