@@ -19079,3 +19079,18 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:10:13] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.0.tar.gz]
 [2023-06-17 23:10:13] INFO root fetch - main [MainThread]: End processing [pandoc-codeblock-include]: success
 [2023-06-17 23:10:13] INFO root fetch - main [MainThread]: Store serial: [18545905]
+[2023-06-17 23:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545905]
+[2023-06-17 23:15:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 23:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onedep-deposition
+[2023-06-17 23:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deqr
+[2023-06-17 23:15:23] WARNING root fetch - processPackages [onedep-deposition]: Skipping, unable to determine old version
+[2023-06-17 23:15:23] INFO root fetch - main [MainThread]: End processing [onedep-deposition] error
+[2023-06-17 23:15:23] INFO root fetch - processPackages [deqr]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 23:15:23] INFO root fetch - processPackages [deqr]: Downloading https://files.pythonhosted.org/packages/a9/0d/c226325dcf8773a9c9bdbf41dc2e327a8c22c512ec1160ddcb86f953f073/deqr-0.2.1.tar.gz
+[2023-06-17 23:15:23] INFO root fetch - processPackages [deqr]: Downloading https://files.pythonhosted.org/packages/bd/24/99ab6dec77caf87ebdc12f00d34b450319dc25720114e65e35d44444f851/deqr-0.2.2.tar.gz
+[2023-06-17 23:15:23] INFO root fetch - processPackages [deqr]: executing diffoscope
+[2023-06-17 23:15:23] INFO root fetch - processPackages [deqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deqr-0.2.1.tar.gz tmp/deqr-0.2.2.tar.gz --markdown 20230617/d/deqr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 23:15:25] INFO root fetch - processPackages [deqr]: Remove: archive file [/home/abi/fetcher/tmp/deqr-0.2.1.tar.gz]
+[2023-06-17 23:15:25] INFO root fetch - processPackages [deqr]: Remove: archive file [/home/abi/fetcher/tmp/deqr-0.2.2.tar.gz]
+[2023-06-17 23:15:25] INFO root fetch - main [MainThread]: End processing [deqr]: success
+[2023-06-17 23:15:25] INFO root fetch - main [MainThread]: Store serial: [18545918]
