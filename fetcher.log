@@ -2325,3 +2325,51 @@
 [2023-06-17 03:06:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-06-17 03:06:48] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-06-17 03:06:48] INFO root fetch - main [MainThread]: Store serial: [18538800]
+[2023-06-17 03:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538800]
+[2023-06-17 03:11:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 03:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modin
+[2023-06-17 03:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpr
+[2023-06-17 03:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-17 03:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tox
+[2023-06-17 03:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CtrlF-TF
+[2023-06-17 03:11:56] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 03:11:56] INFO root fetch - processPackages [tox]: New version: [4.6.2] Old Version: [4.6.1]
+[2023-06-17 03:11:56] INFO root fetch - processPackages [modin]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 03:11:56] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:11:56] INFO root fetch - processPackages [CtrlF-TF]: New version: [1.0b4] Old Version: [1.0b3]
+[2023-06-17 03:11:57] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/12/1f/eee0b32985ff5fd052783c39d990062a7474ae4d8ee6e8795117a94f16b1/tox-4.6.1.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/3c/46/8fe316b681c9807549983d54af91c865572e32f7d6c9d97a0af6f613402f/modin-0.9.0.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [CtrlF-TF]: Downloading https://files.pythonhosted.org/packages/07/40/7adccd0cd9937180a7c1a42104c97f823c88d118027dc9b5230ed7e3b351/CtrlF_TF-1.0b3.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/1d/c8/965a461a5bdce62275ed274bf2acabe64f56a43bb9acedf035827eba0d84/tox-4.6.2.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-06-17 03:11:57] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230617/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 03:11:57] INFO root fetch - processPackages [CtrlF-TF]: Downloading https://files.pythonhosted.org/packages/e8/de/21a4b13297083c4b00a3e43af10f2aebc37d2fb46dbfa5342665c4b29661/CtrlF_TF-1.0b4.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [tox]: executing diffoscope
+[2023-06-17 03:11:57] INFO root fetch - processPackages [tox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-4.6.1.tar.gz tmp/tox-4.6.2.tar.gz --markdown 20230617/t/tox/4.6.1-4.6.2/diff.md --exclude *.pyd
+[2023-06-17 03:11:57] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-17 03:11:57] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230617/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:11:57] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/c4/de/b6befe4f022553b09be9c92bf88128b2e391c580fe7ca4876acb77aec416/modin-0.9.1.tar.gz
+[2023-06-17 03:11:57] INFO root fetch - processPackages [CtrlF-TF]: executing diffoscope
+[2023-06-17 03:11:57] INFO root fetch - processPackages [CtrlF-TF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CtrlF_TF-1.0b3.tar.gz tmp/CtrlF_TF-1.0b4.tar.gz --markdown 20230617/C/CtrlF-TF/1.0b3-1.0b4/diff.md --exclude *.pyd
+[2023-06-17 03:11:57] INFO root fetch - processPackages [modin]: executing diffoscope
+[2023-06-17 03:11:57] INFO root fetch - processPackages [modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modin-0.9.0.tar.gz tmp/modin-0.9.1.tar.gz --markdown 20230617/m/modin/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 03:11:58] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.8.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.9.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-06-17 03:11:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-17 03:11:58] INFO root fetch - processPackages [CtrlF-TF]: Remove: archive file [/home/abi/fetcher/tmp/CtrlF_TF-1.0b3.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - processPackages [CtrlF-TF]: Remove: archive file [/home/abi/fetcher/tmp/CtrlF_TF-1.0b4.tar.gz]
+[2023-06-17 03:11:58] INFO root fetch - main [MainThread]: End processing [CtrlF-TF]: success
+[2023-06-17 03:11:59] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.1.tar.gz]
+[2023-06-17 03:11:59] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.2.tar.gz]
+[2023-06-17 03:11:59] INFO root fetch - main [MainThread]: End processing [tox]: success
+[2023-06-17 03:12:02] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.0.tar.gz]
+[2023-06-17 03:12:02] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.1.tar.gz]
+[2023-06-17 03:12:02] INFO root fetch - main [MainThread]: End processing [modin]: success
+[2023-06-17 03:12:02] INFO root fetch - main [MainThread]: Store serial: [18538815]
