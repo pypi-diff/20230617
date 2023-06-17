@@ -2286,3 +2286,42 @@
 [2023-06-17 03:01:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-17 03:01:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-17 03:01:34] INFO root fetch - main [MainThread]: Store serial: [18538778]
+[2023-06-17 03:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538778]
+[2023-06-17 03:06:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-bitly
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bit-set
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artd-partner
+[2023-06-17 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openrpc
+[2023-06-17 03:06:44] INFO root fetch - processPackages [openrpc]: New version: [6.3.9] Old Version: [6.3.21]
+[2023-06-17 03:06:44] WARNING root fetch - processPackages [bit-set]: Skipping, unable to determine old version
+[2023-06-17 03:06:44] INFO root fetch - main [MainThread]: End processing [bit-set] error
+[2023-06-17 03:06:44] WARNING root fetch - processPackages [artd-partner]: Skipping, unable to determine old version
+[2023-06-17 03:06:44] INFO root fetch - main [MainThread]: End processing [artd-partner] error
+[2023-06-17 03:06:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 03:06:44] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 03:06:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-17 03:06:45] WARNING root fetch - processPackages [tap-bitly]: Skipping, unable to determine old version
+[2023-06-17 03:06:45] INFO root fetch - main [MainThread]: End processing [tap-bitly] error
+[2023-06-17 03:06:45] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/a4/d8/c0aae303eff9980e430ea4eea8cbf76785228ddf9438700e26978daad94e/openrpc-6.3.21.tar.gz
+[2023-06-17 03:06:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-17 03:06:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-17 03:06:45] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/ef/94/fdd388ce588eb41903df09b10feefe76523e9602f0a822048c7355bd453c/openrpc-6.3.9.tar.gz
+[2023-06-17 03:06:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-17 03:06:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230617/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:06:45] INFO root fetch - processPackages [openrpc]: executing diffoscope
+[2023-06-17 03:06:45] INFO root fetch - processPackages [openrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrpc-6.3.21.tar.gz tmp/openrpc-6.3.9.tar.gz --markdown 20230617/o/openrpc/6.3.21-6.3.9/diff.md --exclude *.pyd
+[2023-06-17 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-17 03:06:46] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-6.3.21.tar.gz]
+[2023-06-17 03:06:46] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-6.3.9.tar.gz]
+[2023-06-17 03:06:46] INFO root fetch - main [MainThread]: End processing [openrpc]: success
+[2023-06-17 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-17 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230617/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:06:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-17 03:06:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-17 03:06:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-17 03:06:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-17 03:06:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-17 03:06:48] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-17 03:06:48] INFO root fetch - main [MainThread]: Store serial: [18538800]
