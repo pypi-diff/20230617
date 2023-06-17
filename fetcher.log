@@ -12530,3 +12530,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 13:46:59] ERROR root fetch - processPackages [eng-spacysentiment]: Timeout during execution of pkgdiff
 [2023-06-17 13:46:59] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment] error
 [2023-06-17 13:46:59] INFO root fetch - main [MainThread]: Store serial: [18542669]
+[2023-06-17 13:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542669]
+[2023-06-17 13:52:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-llm
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erniebotchat
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arabica
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minijinja
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dblp-sax-parser
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: carpy
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akshare
+[2023-06-17 13:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scientisttools
+[2023-06-17 13:52:10] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [scientisttools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [hyfi]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [erniebotchat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [dblp-sax-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [carpy]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [arabica]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [minijinja]: New version: [1.0.0] Old Version: [0.32.0]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-17 13:52:10] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/d6/e2/cbfd76f62a71a0a143d047566065726eb3c2db913ceabc8655c4cf9ab49e/arabica-1.6.1.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/37/23/e016c6428c0b37b1621cbdf9fde65ac05c3232840efec7c1b39c1ca3c115/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-17 13:52:10] INFO root fetch - processPackages [dblp-sax-parser]: Downloading https://files.pythonhosted.org/packages/0c/0d/644eb68abbeee5aca49880ec4b44281e20df5758be50aba5cf55a805817d/dblp_sax_parser-0.0.3.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/44/c7/8586552e53c9c85517c7292aa99982840f14bef04ece0dd437c8a1c65318/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-17 13:52:10] INFO root fetch - processPackages [carpy]: Downloading https://files.pythonhosted.org/packages/db/f2/7fcdfd5abcf91d87ccae9ebd0e29d87df45755884fe55c210e2a753f42ff/carpy-0.0.1.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/de/32/c208b2b9ead8b0e9fd49b216bfe38258913429839aa56dc27a7dc92ff77f/hyfi-0.7.1.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [scientisttools]: Downloading https://files.pythonhosted.org/packages/84/9e/75d7b6243e9a232170c984a9843e38bd237941bc07579595425d058521b6/scientisttools-0.0.5.tar.gz
+[2023-06-17 13:52:10] ERROR root fetch - processPackages [erniebotchat]: Unable to fetch info: No such project/version 'erniebotchat' 0.0.2
+[2023-06-17 13:52:10] INFO root fetch - main [MainThread]: End processing [erniebotchat] error
+[2023-06-17 13:52:10] INFO root fetch - processPackages [minijinja]: Downloading https://files.pythonhosted.org/packages/3f/77/6e23924f7bd4b1ec38e56f7834a47f921ef94b9ccf173768b9a09dd0cf33/minijinja-0.32.0.tar.gz
+[2023-06-17 13:52:10] WARNING root fetch - processPackages [scientisttools]: Skipping package: exceeds size limit 16544482>=10485760
+[2023-06-17 13:52:10] INFO root fetch - main [MainThread]: End processing [scientisttools] error
+[2023-06-17 13:52:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/73/f1/c3a23de1942adad03c06e750c6aacb10298d3a2235fe5969225b1d999f3a/arabica-1.6.2.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/9e/5b/047d9296165e2669cd3e9f8237446e63c6e3e2195c4661e8031a0a340643/hyfi-0.7.2.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-17 13:52:10] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230617/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-17 13:52:10] INFO root fetch - processPackages [dblp-sax-parser]: Downloading https://files.pythonhosted.org/packages/ef/3b/3c7d38376337408fca6f8cdf8c29e6c013959cd87ddb6f2f1eab34b942cb/dblp_sax_parser-0.0.4.tar.gz
+[2023-06-17 13:52:10] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-17 13:52:10] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.7.1.tar.gz tmp/hyfi-0.7.2.tar.gz --markdown 20230617/h/hyfi/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-17 13:52:10] INFO root fetch - processPackages [carpy]: Downloading https://files.pythonhosted.org/packages/a6/65/9d7e1d8bc8b5badbee4283577d98fed14be3af7470eccc7a97293928201f/carpy-0.0.1.post1.tar.gz
+[2023-06-17 13:52:11] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.1.tar.gz tmp/arabica-1.6.2.tar.gz --markdown 20230617/a/arabica/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/48/4c/9a444619a772117d9d77b384dbc30fd2541a17bc9692dd5c1c2d5c605906/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-17 13:52:11] INFO root fetch - processPackages [dblp-sax-parser]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [dblp-sax-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblp_sax_parser-0.0.3.tar.gz tmp/dblp_sax_parser-0.0.4.tar.gz --markdown 20230617/d/dblp-sax-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 13:52:11] INFO root fetch - processPackages [minijinja]: Downloading https://files.pythonhosted.org/packages/28/3a/1d6001c4bac707e571406f211c19f6e8f4657f565758e421946d9791c59c/minijinja-1.0.0.tar.gz
+[2023-06-17 13:52:11] INFO root fetch - processPackages [carpy]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [carpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carpy-0.0.1.tar.gz tmp/carpy-0.0.1.post1.tar.gz --markdown 20230617/c/carpy/0.0.1-0.0.1.post1/diff.md --exclude *.pyd
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl.zip --markdown 20230617/b/bigdl-chronos/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-17 13:52:11] INFO root fetch - processPackages [minijinja]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [minijinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minijinja-0.32.0.tar.gz tmp/minijinja-1.0.0.tar.gz --markdown 20230617/m/minijinja/0.32.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5c/c3/bb81f308cd6821aef65070f7193029e1e0b7ca757e077232dfabe6de4887/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-17 13:52:11] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl.zip --markdown 20230617/b/bigdl-llm/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-17 13:52:12] INFO root fetch - processPackages [dblp-sax-parser]: Remove: archive file [/home/abi/fetcher/tmp/dblp_sax_parser-0.0.3.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - processPackages [dblp-sax-parser]: Remove: archive file [/home/abi/fetcher/tmp/dblp_sax_parser-0.0.4.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - main [MainThread]: End processing [dblp-sax-parser]: success
+[2023-06-17 13:52:12] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.1.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.2.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-17 13:52:12] INFO root fetch - processPackages [carpy]: Remove: archive file [/home/abi/fetcher/tmp/carpy-0.0.1.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - processPackages [carpy]: Remove: archive file [/home/abi/fetcher/tmp/carpy-0.0.1.post1.tar.gz]
+[2023-06-17 13:52:12] INFO root fetch - main [MainThread]: End processing [carpy]: success
+[2023-06-17 13:52:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.1.tar.gz]
+[2023-06-17 13:52:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.2.tar.gz]
+[2023-06-17 13:52:13] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-17 13:52:13] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:52:13] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:52:13] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-17 13:52:13] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:52:13] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:52:13] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-17 13:52:13] INFO root fetch - processPackages [minijinja]: Remove: archive file [/home/abi/fetcher/tmp/minijinja-0.32.0.tar.gz]
+[2023-06-17 13:52:13] INFO root fetch - processPackages [minijinja]: Remove: archive file [/home/abi/fetcher/tmp/minijinja-1.0.0.tar.gz]
+[2023-06-17 13:52:13] INFO root fetch - main [MainThread]: End processing [minijinja]: success
+[2023-06-17 13:52:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-17 13:52:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-17 13:52:15] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-17 13:52:15] INFO root fetch - main [MainThread]: Store serial: [18542721]
