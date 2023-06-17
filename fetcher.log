@@ -16064,3 +16064,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:16:41] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
 [2023-06-17 18:16:41] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
 [2023-06-17 18:16:41] INFO root fetch - main [MainThread]: Store serial: [18544488]
+[2023-06-17 18:21:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544488]
+[2023-06-17 18:21:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sapiopylib
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Common
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skmetpy
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: artd-location
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymino
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FRANECpy
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yid-langchain-extensions
+[2023-06-17 18:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: envinfopy
+[2023-06-17 18:21:51] INFO root fetch - processPackages [artd-location]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 18:21:51] INFO root fetch - processPackages [skmetpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 18:21:51] INFO root fetch - processPackages [sapiopylib]: New version: [2023.6.8.142] Old Version: [2023.6.7.141]
+[2023-06-17 18:21:51] INFO root fetch - processPackages [envinfopy]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-06-17 18:21:51] WARNING root fetch - processPackages [FRANECpy]: Skipping, unable to determine old version
+[2023-06-17 18:21:51] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.1] Old Version: [0.3]
+[2023-06-17 18:21:51] INFO root fetch - main [MainThread]: End processing [FRANECpy] error
+[2023-06-17 18:21:51] INFO root fetch - processPackages [pymino]: New version: [1.1.9.9] Old Version: [1.1.9.8]
+[2023-06-17 18:21:51] INFO root fetch - processPackages [artd-location]: Downloading https://files.pythonhosted.org/packages/13/b2/259291cf55c0a8d2384bcf8bbf5858ea8a216be97c971b4d846bd3891216/artd-location-0.0.2.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.1rc1] Old Version: [26.1.0rc2]
+[2023-06-17 18:21:51] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/ce/a1/ec4811e97d368e948eb505a5aed250bcd913864941dc177655a72f2a6de2/skmetpy-0.0.5.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/87/76/0c6d53572aa9bf1e8d5b6c94c99d7f75e5cebc99ece57cba83658ff98ddd/pymino-1.1.9.8.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/32/a8/199e3484a7c7ae911be04a84b17e5fb0747b3edc2262250ddd66fdc1564b/yid_langchain_extensions-0.3.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [envinfopy]: Downloading https://files.pythonhosted.org/packages/a5/15/7ae97b1e66545709fd6d82b5ce32403736392268ab1dd96410b7942470b8/envinfopy-0.0.7.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/1b/07/ea50d0246258f4b3186eb8d3d92795f6fe46cd32145579dd2c28c046aeed/sapiopylib-2023.6.7.141.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/db/50/4193fb3e4f9cec62abb0aae4857031f84711eb3e8ead6331b4f9fb4122b6/Geode_Common-26.1.0rc2-cp39-cp39-win_amd64.whl
+[2023-06-17 18:21:51] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/71/ae/ca3e6e0d3854924fb784deed298643a9f7d4cf7212573d656beb290c35d5/skmetpy-0.0.6.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/79/ed/c3b0aead7bd51e94aa6492a9c0b4cdd46d62f74a664194fd31419e1a687e/pymino-1.1.9.9.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [artd-location]: Downloading https://files.pythonhosted.org/packages/eb/df/21edc8c83c7ab69a1cea0a86ecf4925d418c06cd659f35bd4a494344f9a6/artd-location-0.0.3.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.5.tar.gz tmp/skmetpy-0.0.6.tar.gz --markdown 20230617/s/skmetpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 18:21:51] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.9.8.tar.gz tmp/pymino-1.1.9.9.tar.gz --markdown 20230617/p/pymino/1.1.9.8-1.1.9.9/diff.md --exclude *.pyd
+[2023-06-17 18:21:51] INFO root fetch - processPackages [artd-location]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [artd-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-location-0.0.2.tar.gz tmp/artd-location-0.0.3.tar.gz --markdown 20230617/a/artd-location/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:21:51] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/f4/da/c79ae7f0ee7083983c606c6c253386df58d4d999762c7f147d1b90d17fbe/sapiopylib-2023.6.8.142.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [envinfopy]: Downloading https://files.pythonhosted.org/packages/87/32/d1c6a4c9291f7c375a7d87237c1ed633b695133844ee1c2ed555729bb5aa/envinfopy-0.1.0.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [envinfopy]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [envinfopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envinfopy-0.0.7.tar.gz tmp/envinfopy-0.1.0.tar.gz --markdown 20230617/e/envinfopy/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 18:21:51] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2023.6.7.141.tar.gz tmp/sapiopylib-2023.6.8.142.tar.gz --markdown 20230617/s/sapiopylib/2023.6.7.141-2023.6.8.142/diff.md --exclude *.pyd
+[2023-06-17 18:21:51] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/4b/b7/fbc2ee83a4367469e83d8721326c763f2e4b9c0644039bd8366f749058d7/yid_langchain_extensions-0.4.1.tar.gz
+[2023-06-17 18:21:51] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-17 18:21:51] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.3.tar.gz tmp/yid_langchain_extensions-0.4.1.tar.gz --markdown 20230617/y/yid-langchain-extensions/0.3-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 18:21:52] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/73/35/654faef8114f9d18b044ed9b19d98f4b90772be790c5fb1bf1fd04f304b1/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-06-17 18:21:52] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-06-17 18:21:52] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230617/G/Geode-Common/26.1.0rc2-26.1.1rc1/diff.md --exclude *.pyd
+[2023-06-17 18:21:52] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.5.tar.gz]
+[2023-06-17 18:21:52] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.6.tar.gz]
+[2023-06-17 18:21:52] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-17 18:21:52] INFO root fetch - processPackages [envinfopy]: Remove: archive file [/home/abi/fetcher/tmp/envinfopy-0.0.7.tar.gz]
+[2023-06-17 18:21:52] INFO root fetch - processPackages [envinfopy]: Remove: archive file [/home/abi/fetcher/tmp/envinfopy-0.1.0.tar.gz]
+[2023-06-17 18:21:52] INFO root fetch - main [MainThread]: End processing [envinfopy]: success
+[2023-06-17 18:21:53] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.3.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.1.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-17 18:21:53] INFO root fetch - processPackages [artd-location]: Remove: archive file [/home/abi/fetcher/tmp/artd-location-0.0.2.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - processPackages [artd-location]: Remove: archive file [/home/abi/fetcher/tmp/artd-location-0.0.3.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - main [MainThread]: End processing [artd-location]: success
+[2023-06-17 18:21:53] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.7.141.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.8.142.tar.gz]
+[2023-06-17 18:21:53] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2023-06-17 18:21:54] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.8.tar.gz]
+[2023-06-17 18:21:54] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.9.tar.gz]
+[2023-06-17 18:21:54] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-17 18:22:05] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 18:22:05] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 18:22:05] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-06-17 18:22:05] INFO root fetch - main [MainThread]: Store serial: [18544520]
