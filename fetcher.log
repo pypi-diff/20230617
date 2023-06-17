@@ -17141,3 +17141,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:42:05] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.2-cp39-none-any.whl.zip]
 [2023-06-17 19:42:05] INFO root fetch - main [MainThread]: End processing [dal-python]: success
 [2023-06-17 19:42:05] INFO root fetch - main [MainThread]: Store serial: [18545005]
+[2023-06-17 19:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545005]
+[2023-06-17 19:47:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 19:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amniotic
+[2023-06-17 19:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doe-toolbox
+[2023-06-17 19:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kangforecast
+[2023-06-17 19:47:21] WARNING root fetch - processPackages [doe-toolbox]: Skipping, unable to determine old version
+[2023-06-17 19:47:21] INFO root fetch - main [MainThread]: End processing [doe-toolbox] error
+[2023-06-17 19:47:21] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 19:47:21] INFO root fetch - processPackages [amniotic]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-17 19:47:21] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-17 19:47:21] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-17 19:47:21] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/45/ee/675d10b3f8d235460e284309b11d738585812c04f091a3368d6985f76c0e/amniotic-0.5.6.tar.gz
+[2023-06-17 19:47:21] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-17 19:47:21] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230617/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 19:47:22] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/94/1b/173852564850c0dc7388c742d2d1cadd72d64d485059062be86c128e846e/amniotic-0.5.7.tar.gz
+[2023-06-17 19:47:22] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-06-17 19:47:22] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.6.tar.gz tmp/amniotic-0.5.7.tar.gz --markdown 20230617/a/amniotic/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-17 19:47:22] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-17 19:47:22] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-17 19:47:22] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-17 19:47:23] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.6.tar.gz]
+[2023-06-17 19:47:23] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.7.tar.gz]
+[2023-06-17 19:47:23] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-06-17 19:47:23] INFO root fetch - main [MainThread]: Store serial: [18545028]
