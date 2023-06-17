@@ -11384,3 +11384,45 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:57:22] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
 [2023-06-17 11:57:22] INFO root fetch - main [MainThread]: End processing [qetrader]: success
 [2023-06-17 11:57:22] INFO root fetch - main [MainThread]: Store serial: [18542161]
+[2023-06-17 12:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542161]
+[2023-06-17 12:02:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maestro-music-player
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: croqueta
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocp-tessellate
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongorunway
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-api-admin
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ocp-tessellate]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-17 12:02:32] INFO root fetch - processPackages [mongorunway]: New version: [1.0.6a0] Old Version: [1.0.5a0]
+[2023-06-17 12:02:32] INFO root fetch - processPackages [croqueta]: New version: [0.2.1] Old Version: [0.1]
+[2023-06-17 12:02:32] WARNING root fetch - processPackages [maestro-music-player]: Skipping, unable to determine old version
+[2023-06-17 12:02:32] INFO root fetch - main [MainThread]: End processing [maestro-music-player] error
+[2023-06-17 12:02:32] INFO root fetch - processPackages [django-api-admin]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-17 12:02:32] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/95/63/2029a90ade0887690f48ba391cb330a1fbed6f0a62aa52c941c9988d6b13/django-api-admin-1.1.2.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/52/ae/b6f2766cb32ff8e1dc2f0226491cbbc0a4c40b43c0ae0b6f93ac017b8815/croqueta-0.1.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/b1/3e/bcc9e8d123dc497a4f935c2dcd380ef0552fc03ab6c677c45b7b70ab41ba/ocp_tessellate-1.0.4.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/83/05/4ffec8b404452d946091f763ed2df06515c3495dbfe2885a86f006e5ac74/mongorunway-1.0.5a0.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/c7/e7/148cf9119e783f8d3a5f996a8dfc0247cf80033c456ca8ce8a65cbfbb424/django-api-admin-1.1.3.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/54/dc/64f22bcedcbc17a50d60806e5a7591b8d80f8196a5bb64a595a7e91ebf24/croqueta-0.2.1.tar.gz
+[2023-06-17 12:02:32] INFO root fetch - processPackages [django-api-admin]: executing diffoscope
+[2023-06-17 12:02:32] INFO root fetch - processPackages [django-api-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-api-admin-1.1.2.tar.gz tmp/django-api-admin-1.1.3.tar.gz --markdown 20230617/d/django-api-admin/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-17 12:02:33] INFO root fetch - processPackages [croqueta]: executing diffoscope
+[2023-06-17 12:02:33] INFO root fetch - processPackages [croqueta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croqueta-0.1.tar.gz tmp/croqueta-0.2.1.tar.gz --markdown 20230617/c/croqueta/0.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 12:02:33] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/e2/bc/1b1c238ef4f4027b72b0d0bcebef35e6141cae057749b350d1015d9ec448/mongorunway-1.0.6a0.tar.gz
+[2023-06-17 12:02:33] INFO root fetch - processPackages [ocp-tessellate]: Downloading https://files.pythonhosted.org/packages/2b/5d/82d487cd8d98ea9eefe7c2f868ce25ad156b7229236d9baabd00be6ef02a/ocp_tessellate-1.1.0.tar.gz
+[2023-06-17 12:02:33] INFO root fetch - processPackages [ocp-tessellate]: executing diffoscope
+[2023-06-17 12:02:33] INFO root fetch - processPackages [ocp-tessellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_tessellate-1.0.4.tar.gz tmp/ocp_tessellate-1.1.0.tar.gz --markdown 20230617/o/ocp-tessellate/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 12:02:33] INFO root fetch - processPackages [mongorunway]: executing diffoscope
+[2023-06-17 12:02:33] INFO root fetch - processPackages [mongorunway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongorunway-1.0.5a0.tar.gz tmp/mongorunway-1.0.6a0.tar.gz --markdown 20230617/m/mongorunway/1.0.5a0-1.0.6a0/diff.md --exclude *.pyd
+[2023-06-17 12:02:33] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.2.tar.gz]
+[2023-06-17 12:02:33] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.3.tar.gz]
+[2023-06-17 12:02:33] INFO root fetch - main [MainThread]: End processing [django-api-admin]: success
+[2023-06-17 12:02:34] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.1.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.2.1.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - main [MainThread]: End processing [croqueta]: success
+[2023-06-17 12:02:34] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-1.0.4.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-1.1.0.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - main [MainThread]: End processing [ocp-tessellate]: success
+[2023-06-17 12:02:34] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.5a0.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.6a0.tar.gz]
+[2023-06-17 12:02:34] INFO root fetch - main [MainThread]: End processing [mongorunway]: success
+[2023-06-17 12:02:34] INFO root fetch - main [MainThread]: Store serial: [18542178]
