@@ -11554,3 +11554,90 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:19:06] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-17 12:19:06] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-17 12:19:06] INFO root fetch - main [MainThread]: Store serial: [18542231]
+[2023-06-17 12:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542231]
+[2023-06-17 12:24:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: explorerApi
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spring-centralized-config-client
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypcapkit
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: statements-manager
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qetrader
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sce
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabrictestbed-extensions
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Architectural-Lens
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymultithreading
+[2023-06-17 12:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gmcapsule
+[2023-06-17 12:24:16] WARNING root fetch - processPackages [sce]: Skipping, unable to determine old version
+[2023-06-17 12:24:16] INFO root fetch - processPackages [sce]: Start processing: amino.api
+[2023-06-17 12:24:16] INFO root fetch - main [MainThread]: End processing [sce] error
+[2023-06-17 12:24:16] INFO root fetch - processPackages [statements-manager]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-17 12:24:16] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 12:24:16] WARNING root fetch - processPackages [explorerApi]: Skipping, unable to determine old version
+[2023-06-17 12:24:16] INFO root fetch - processPackages [explorerApi]: Start processing: packitos
+[2023-06-17 12:24:16] INFO root fetch - main [MainThread]: End processing [explorerApi] error
+[2023-06-17 12:24:16] INFO root fetch - processPackages [Architectural-Lens]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 12:24:16] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.1] Old Version: [1.5.0rc4]
+[2023-06-17 12:24:16] INFO root fetch - processPackages [gmcapsule]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-17 12:24:16] INFO root fetch - processPackages [amino.api]: New version: [1.3.2.1] Old Version: [1.3.2]
+[2023-06-17 12:24:16] WARNING root fetch - processPackages [pymultithreading]: Skipping, unable to determine old version
+[2023-06-17 12:24:16] INFO root fetch - main [MainThread]: End processing [pymultithreading] error
+[2023-06-17 12:24:16] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post7] Old Version: [1.0.2.post6]
+[2023-06-17 12:24:17] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/6d/ef/738b1c742669d3458d968ac7e7cad42dbb32cd8b5840bda62641c5f57795/amino.api-1.3.2.tar.gz
+[2023-06-17 12:24:17] WARNING root fetch - processPackages [spring-centralized-config-client]: Skipping, unable to determine old version
+[2023-06-17 12:24:17] INFO root fetch - main [MainThread]: End processing [spring-centralized-config-client] error
+[2023-06-17 12:24:17] INFO root fetch - processPackages [packitos]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-17 12:24:17] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/5a/b6/664cd55f480646670778f649ac460fa6088db0a403910da35acc20485a27/gmcapsule-0.4.1.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [Architectural-Lens]: Downloading https://files.pythonhosted.org/packages/0d/57/233243555fe413e5057de27d544bd060f93a6e3e1be56f42c7631be21931/Architectural%20Lens-0.0.4.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [statements-manager]: Downloading https://files.pythonhosted.org/packages/03/31/f34a6adf44abc5c1eef4da0c7281b3ae27ea99ae872afad264612c70bb40/statements_manager-1.7.8-py3-none-any.whl
+[2023-06-17 12:24:17] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/75/ab/f388663194857bbd9bcddd1cde716db6111f98e343dd5bb29646fce16537/pypcapkit-1.0.2.post6.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/42/76/e1598bb8fff848eb6c0fbebd497d6ceed83ca68de165d2f454a2d378f2c4/fabrictestbed-extensions-1.5.0rc4.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230617/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/5c/47/2093b9d071eeb261fd2535a9da0230896be1d2f7238b23d00da98a2f18ab/packitos-0.8.1.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/e4/d2/7acc6a4408d104c4cf1f5bcadd207aa4c476c39e06a4e08d188bab8087bd/amino.api-1.3.2.1.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [Architectural-Lens]: Downloading https://files.pythonhosted.org/packages/39/e7/a872940cd5a3823d671a366458252f2fe800b75f3bdd5095cc4d4cd87c55/Architectural%20Lens-0.0.5.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/17/9d/80cf8617e8d5f9a14a84b663a576e986c87efc6f3839653305c38be52766/gmcapsule-0.5.0.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [amino.api]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [amino.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.api-1.3.2.tar.gz tmp/amino.api-1.3.2.1.tar.gz --markdown 20230617/a/amino.api/1.3.2-1.3.2.1/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/2a/c3/b14b274fb1f1b41d42dd45c7bbeb220ad305d18b30ca093c977c6dd27a55/fabrictestbed-extensions-1.5.1.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/06/94/8a3b932897a0df9945d693f2613f1f7e10ac36c9316ca44eba428794fe23/pypcapkit-1.0.2.post7.tar.gz
+[2023-06-17 12:24:17] INFO root fetch - processPackages [statements-manager]: Downloading https://files.pythonhosted.org/packages/65/5a/3a8dfc5548306a9431729c1305fa29537dbc297bc12a3e59c99a1ad441f1/statements_manager-1.7.9-py3-none-any.whl
+[2023-06-17 12:24:17] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc4.tar.gz tmp/fabrictestbed-extensions-1.5.1.tar.gz --markdown 20230617/f/fabrictestbed-extensions/1.5.0rc4-1.5.1/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [Architectural-Lens]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [Architectural-Lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Architectural Lens-0.0.4.tar.gz tmp/Architectural Lens-0.0.5.tar.gz --markdown 20230617/A/Architectural-Lens/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post6.tar.gz tmp/pypcapkit-1.0.2.post7.tar.gz --markdown 20230617/p/pypcapkit/1.0.2.post6-1.0.2.post7/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [gmcapsule]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [gmcapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmcapsule-0.4.1.tar.gz tmp/gmcapsule-0.5.0.tar.gz --markdown 20230617/g/gmcapsule/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [statements-manager]: executing diffoscope
+[2023-06-17 12:24:17] INFO root fetch - processPackages [statements-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statements_manager-1.7.8-py3-none-any.whl.zip tmp/statements_manager-1.7.9-py3-none-any.whl.zip --markdown 20230617/s/statements-manager/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-17 12:24:17] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/6a/56/790e643af99b402baa93360e3fa6d152247c44a8a1c76ced1f6d099107ab/packitos-0.9.0.tar.gz
+[2023-06-17 12:24:18] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2023-06-17 12:24:18] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.8.1.tar.gz tmp/packitos-0.9.0.tar.gz --markdown 20230617/p/packitos/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 12:24:18] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-06-17 12:24:18] INFO root fetch - processPackages [Architectural-Lens]: Remove: archive file [/home/abi/fetcher/tmp/Architectural Lens-0.0.4.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - processPackages [Architectural-Lens]: Remove: archive file [/home/abi/fetcher/tmp/Architectural Lens-0.0.5.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - main [MainThread]: End processing [Architectural-Lens]: success
+[2023-06-17 12:24:18] INFO root fetch - processPackages [amino.api]: Remove: archive file [/home/abi/fetcher/tmp/amino.api-1.3.2.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - processPackages [amino.api]: Remove: archive file [/home/abi/fetcher/tmp/amino.api-1.3.2.1.tar.gz]
+[2023-06-17 12:24:18] INFO root fetch - main [MainThread]: End processing [amino.api]: success
+[2023-06-17 12:24:19] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.4.1.tar.gz]
+[2023-06-17 12:24:19] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.5.0.tar.gz]
+[2023-06-17 12:24:19] INFO root fetch - main [MainThread]: End processing [gmcapsule]: success
+[2023-06-17 12:24:19] INFO root fetch - processPackages [statements-manager]: Remove: archive file [/home/abi/fetcher/tmp/statements_manager-1.7.8-py3-none-any.whl.zip]
+[2023-06-17 12:24:19] INFO root fetch - processPackages [statements-manager]: Remove: archive file [/home/abi/fetcher/tmp/statements_manager-1.7.9-py3-none-any.whl.zip]
+[2023-06-17 12:24:19] INFO root fetch - main [MainThread]: End processing [statements-manager]: success
+[2023-06-17 12:24:19] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc4.tar.gz]
+[2023-06-17 12:24:19] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.1.tar.gz]
+[2023-06-17 12:24:19] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-06-17 12:24:21] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.8.1.tar.gz]
+[2023-06-17 12:24:21] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.9.0.tar.gz]
+[2023-06-17 12:24:21] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2023-06-17 12:24:24] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post6.tar.gz]
+[2023-06-17 12:24:24] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post7.tar.gz]
+[2023-06-17 12:24:24] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-17 12:24:24] INFO root fetch - main [MainThread]: Store serial: [18542280]
