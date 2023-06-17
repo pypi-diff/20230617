@@ -16282,3 +16282,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:32:35] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mahjong_scoreboard-0.4.1.post4.tar.gz]
 [2023-06-17 18:32:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mahjong-scoreboard]: success
 [2023-06-17 18:32:35] INFO root fetch - main [MainThread]: Store serial: [18544609]
+[2023-06-17 18:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544609]
+[2023-06-17 18:37:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskiq
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axia-pathfinder-client
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-passkeys
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bu-cvkit
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elphtk
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foundationdb
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-passkeys
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yaman
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AshCrypt
+[2023-06-17 18:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: erniechatbotsdk
+[2023-06-17 18:37:45] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [AshCrypt]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [yaman]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 18:37:45] WARNING root fetch - processPackages [axia-pathfinder-client]: Skipping, unable to determine old version
+[2023-06-17 18:37:45] INFO root fetch - processPackages [axia-pathfinder-client]: Start processing: astro-ghost
+[2023-06-17 18:37:45] INFO root fetch - main [MainThread]: End processing [axia-pathfinder-client] error
+[2023-06-17 18:37:45] WARNING root fetch - processPackages [elphtk]: Skipping, unable to determine old version
+[2023-06-17 18:37:45] INFO root fetch - processPackages [elphtk]: Start processing: feathub-nightly
+[2023-06-17 18:37:45] INFO root fetch - main [MainThread]: End processing [elphtk] error
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [bu-cvkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [yaman]: Downloading https://files.pythonhosted.org/packages/47/34/ee2d334b481be2cf0cf822b73aa29ac9bd97329ed3b4037038907d772e4b/yaman-0.1.0.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [taskiq]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [foundationdb]: New version: [7.3.4] Old Version: [7.3.3]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/eb/c1/2cf0930dc262a64576610088f856ea5c79ef255c02fd4baa3cc6e29d8c62/AshCrypt-1.1.2.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230616] Old Version: [0.1.dev20230615]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/94/dd/8d48d3554ffff2c04a7bab5d6d01b574a833cea9c94d31c03f0aac802140/feathub_nightly-0.1.dev20230615-py3-none-any.whl
+[2023-06-17 18:37:45] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.5] Old Version: [2.0.3]
+[2023-06-17 18:37:45] INFO root fetch - processPackages [yaman]: Downloading https://files.pythonhosted.org/packages/ea/58/9c2f5e477e30ec39fe9e36c518d269b3f42e91b5be4fe263d18f46d295f5/yaman-0.1.1.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/ab/43/06d22ff9eaa5d730699309c109f9d1acd4798007854dbc5c31176d341923/django-passkeys-1.2.2.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/ab/43/06d22ff9eaa5d730699309c109f9d1acd4798007854dbc5c31176d341923/django-passkeys-1.2.2.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [bu-cvkit]: Downloading https://files.pythonhosted.org/packages/7c/e5/bb8afcbffa6723692f24078b636d6b8fd5300d443216e663dbc46e959023/bu_cvkit-0.0.2.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/47/9acbb6be835bf604e58c663b9251f83f37a10a32058b6f1171aaa3e6a6aa/erniechatbotsdk-0.0.9.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/f4/15/40f20819e9f93b4fa9fc8301c84c267802da3c3394f82bacbb4e4a0f9442/taskiq-0.7.1.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5d/80/d83bc5599630da4520f5bc0a32cf79f019d5ddeffa410690143c0d7870d3/foundationdb-7.3.3.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/48/49/a078af5655a89a6bc429dc080e5bdadb29f6267705adb93a5bb3ff0ef0c4/astro_ghost-2.0.3.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [yaman]: executing diffoscope
+[2023-06-17 18:37:45] INFO root fetch - processPackages [yaman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaman-0.1.0.tar.gz tmp/yaman-0.1.1.tar.gz --markdown 20230617/y/yaman/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 18:37:45] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 18:37:45] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.8.tar.gz tmp/erniechatbotsdk-0.0.9.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 18:37:45] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12204069>=10485760
+[2023-06-17 18:37:45] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-17 18:37:45] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/29/ac/f755a796bad013204d461d5c866f0e9b5a32ea3f8fd40333a4bd425b0f69/AshCrypt-1.1.3.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/38/06/79b19bd0ba6f3cc4b2335d9bf6a2133f64062893a0dfa72c04a5b77151f8/django-passkeys-1.2.3.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/38/06/79b19bd0ba6f3cc4b2335d9bf6a2133f64062893a0dfa72c04a5b77151f8/django-passkeys-1.2.3.tar.gz
+[2023-06-17 18:37:45] INFO root fetch - processPackages [bu-cvkit]: Downloading https://files.pythonhosted.org/packages/44/03/ef3ad9d80d3dbd8ce32a56c05346a1dd55ff0de90a50f1cefdbc8c16f8d7/bu_cvkit-0.0.3.tar.gz
+[2023-06-17 18:37:46] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/ab/ab/af6eb88533310bbba589fe475d99ab7927780b0d38e0479d64fdd1dab28a/foundationdb-7.3.4.tar.gz
+[2023-06-17 18:37:46] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.1.2.tar.gz tmp/AshCrypt-1.1.3.tar.gz --markdown 20230617/A/AshCrypt/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/33/d9/7ec419a6447bc4c41f1e6903dc8169f7521501e943b854380cbbe6aeb5a6/taskiq-0.7.2.tar.gz
+[2023-06-17 18:37:46] INFO root fetch - processPackages [django-passkeys]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [django-passkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-passkeys-1.2.2.tar.gz tmp/django-passkeys-1.2.3.tar.gz --markdown 20230617/d/django-passkeys/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [django-passkeys]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [django-passkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-passkeys-1.2.2.tar.gz tmp/django-passkeys-1.2.3.tar.gz --markdown 20230617/d/django-passkeys/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [bu-cvkit]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [bu-cvkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bu_cvkit-0.0.2.tar.gz tmp/bu_cvkit-0.0.3.tar.gz --markdown 20230617/b/bu-cvkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [taskiq]: executing diffoscope
+[2023-06-17 18:37:46] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.3.tar.gz tmp/foundationdb-7.3.4.tar.gz --markdown 20230617/f/foundationdb/7.3.3-7.3.4/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [taskiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-0.7.1.tar.gz tmp/taskiq-0.7.2.tar.gz --markdown 20230617/t/taskiq/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-17 18:37:46] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/0c/12/7c146c812186b87612b32792aad146180349a04bcbfacfd04cd9363294c5/astro_ghost-2.0.5.tar.gz
+[2023-06-17 18:37:46] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-17 18:37:46] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.9.tar.gz]
+[2023-06-17 18:37:46] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [yaman]: Remove: archive file [/home/abi/fetcher/tmp/yaman-0.1.0.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [yaman]: Remove: archive file [/home/abi/fetcher/tmp/yaman-0.1.1.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [yaman]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-06-17 18:37:47] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.0.3.tar.gz tmp/astro_ghost-2.0.5.tar.gz --markdown 20230617/a/astro-ghost/2.0.3-2.0.5/diff.md --exclude *.pyd
+[2023-06-17 18:37:47] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.1.2.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.1.3.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.2.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.3.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [django-passkeys]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.3.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.4.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [django-passkeys]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [bu-cvkit]: Remove: archive file [/home/abi/fetcher/tmp/bu_cvkit-0.0.2.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [bu-cvkit]: Remove: archive file [/home/abi/fetcher/tmp/bu_cvkit-0.0.3.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [bu-cvkit]: success
+[2023-06-17 18:37:47] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.7.1.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.7.2.tar.gz]
+[2023-06-17 18:37:47] INFO root fetch - main [MainThread]: End processing [taskiq]: success
+[2023-06-17 18:37:49] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.3.tar.gz]
+[2023-06-17 18:37:49] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.5.tar.gz]
+[2023-06-17 18:37:49] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-06-17 18:37:49] INFO root fetch - main [MainThread]: Store serial: [18544644]
