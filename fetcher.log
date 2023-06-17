@@ -8228,3 +8228,74 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:28:23] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.3.tar.gz]
 [2023-06-17 06:28:23] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
 [2023-06-17 06:28:23] INFO root fetch - main [MainThread]: Store serial: [18540820]
+[2023-06-17 06:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540820]
+[2023-06-17 06:33:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaber-motion-bindings-windows
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-admin
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaber-motion-bindings-linux
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evadb
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zaber-motion-bindings-darwin
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zaber-motion
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metacountregressor
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: depwatch
+[2023-06-17 06:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yakinori
+[2023-06-17 06:33:31] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [4.2.0] Old Version: [4.0.0]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [4.2.0] Old Version: [4.0.0]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [zaber-motion]: New version: [4.2.0] Old Version: [4.0.0]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [4.2.0] Old Version: [4.0.0]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [domain-admin]: New version: [1.4.0a0] Old Version: [1.3.6]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-17 06:33:31] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-17 06:33:31] ERROR root fetch - processPackages [yakinori]: Unable to get metadata: No such project 'yakinori'
+[2023-06-17 06:33:31] INFO root fetch - main [MainThread]: End processing [yakinori] error
+[2023-06-17 06:33:31] INFO root fetch - processPackages [depwatch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/f2/36/c1479db24641b823769db08812c79bae3522090ec7e5576141b39a6a552c/zaber_motion_bindings_windows-4.0.0.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/b1/2a/000d4333994aad9fec21e13c158c0b4ccb2bdebd1d169a1a830f05ae7858/zaber_motion_bindings_darwin-4.0.0.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/62/4b/191dbb66f2a9da26598aaa15178d3e73676dd4031e2e9cf7e3a9845f25eb/zaber_motion-4.0.0.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/9b/0d/d30120b09de264b5177cac5114665222dbf1f4535c1bbb1071f408983be0/domain-admin-1.3.6.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/7d/6d/970f1736a4be3c1d4c098534112c13bab80c7cada02198a6dbdb1199930e/zaber_motion_bindings_linux-4.0.0.tar.gz
+[2023-06-17 06:33:32] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 20934928>=10485760
+[2023-06-17 06:33:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-06-17 06:33:32] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-17 06:33:32] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-17 06:33:32] INFO root fetch - processPackages [depwatch]: Downloading https://files.pythonhosted.org/packages/8d/3c/7eef45b4df03542c52e287782f5c9b0a6d8019174d65d0ceb106aed52ffe/depwatch-0.1.2.tar.gz
+[2023-06-17 06:33:32] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18815915>=10485760
+[2023-06-17 06:33:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-06-17 06:33:32] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-17 06:33:32] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 37144373>=10485760
+[2023-06-17 06:33:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-06-17 06:33:32] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-17 06:33:32] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230617/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 06:33:32] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [depwatch]: Downloading https://files.pythonhosted.org/packages/cf/bb/91ce28029a2f26ff80e4a3f3f4e7b217ee40608c5dfc388177acbe97571b/depwatch-0.1.3.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/57/f3/ba1e6ce59b09e8e1524acd911cacd836dc4d5f8b525259f5b0142dd8c213/zaber_motion-4.2.0.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [depwatch]: executing diffoscope
+[2023-06-17 06:33:32] INFO root fetch - processPackages [depwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depwatch-0.1.2.tar.gz tmp/depwatch-0.1.3.tar.gz --markdown 20230617/d/depwatch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 06:33:32] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-17 06:33:32] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230617/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-17 06:33:32] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/e7/9f/27bf3cb5541212e8a4d0afd75dd72361e6fe2a109f9a2dff45535bda524b/domain-admin-1.4.0a0.tar.gz
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-06-17 06:33:32] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-4.0.0.tar.gz tmp/zaber_motion-4.2.0.tar.gz --markdown 20230617/z/zaber-motion/4.0.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-17 06:33:32] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-17 06:33:32] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.3.6.tar.gz tmp/domain-admin-1.4.0a0.tar.gz --markdown 20230617/d/domain-admin/1.3.6-1.4.0a0/diff.md --exclude *.pyd
+[2023-06-17 06:33:33] INFO root fetch - processPackages [depwatch]: Remove: archive file [/home/abi/fetcher/tmp/depwatch-0.1.2.tar.gz]
+[2023-06-17 06:33:33] INFO root fetch - processPackages [depwatch]: Remove: archive file [/home/abi/fetcher/tmp/depwatch-0.1.3.tar.gz]
+[2023-06-17 06:33:33] INFO root fetch - main [MainThread]: End processing [depwatch]: success
+[2023-06-17 06:33:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-17 06:33:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-17 06:33:34] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-17 06:33:34] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.0.0.tar.gz]
+[2023-06-17 06:33:34] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.2.0.tar.gz]
+[2023-06-17 06:33:34] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-06-17 06:33:36] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-17 06:33:36] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-17 06:33:36] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-17 06:33:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.3.6.tar.gz]
+[2023-06-17 06:33:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.0a0.tar.gz]
+[2023-06-17 06:33:40] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-17 06:33:40] INFO root fetch - main [MainThread]: Store serial: [18540858]
