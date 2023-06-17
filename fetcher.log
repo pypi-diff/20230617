@@ -11710,3 +11710,63 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:35:41] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.0rc0.tar.gz]
 [2023-06-17 12:35:41] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
 [2023-06-17 12:35:41] INFO root fetch - main [MainThread]: Store serial: [18542312]
+[2023-06-17 12:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542312]
+[2023-06-17 12:40:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenVisus
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agh-vqis
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bio2csv
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenVisusNoGui
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cargo-zigbuild
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maisaedu-utilities-prefect
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maisaedu-poormans-dms
+[2023-06-17 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygrb-lc
+[2023-06-17 12:40:50] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [cargo-zigbuild]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [agh-vqis]: New version: [3.0.3] Old Version: [2.9.0]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [almavik]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-17 12:40:50] WARNING root fetch - processPackages [bio2csv]: Skipping, unable to determine old version
+[2023-06-17 12:40:50] INFO root fetch - main [MainThread]: End processing [bio2csv] error
+[2023-06-17 12:40:50] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [OpenVisus]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-17 12:40:50] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-17 12:40:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-17 12:40:50] WARNING root fetch - processPackages [pygrb-lc]: Skipping, unable to determine old version
+[2023-06-17 12:40:50] INFO root fetch - main [MainThread]: End processing [pygrb-lc] error
+[2023-06-17 12:40:50] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/eb/fc/70299189da7a8857545fc305ae7d3ddbb159807a26d4ddf1bfb5b5fe444b/agh_vqis-2.9.0.tar.gz
+[2023-06-17 12:40:50] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/48/f0/39dbca2478b12e31b5aaf7062ae636fb7ee29e5de5dfe6f3b582b2754fd9/almavik-0.2.4.tar.gz
+[2023-06-17 12:40:50] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/32/ce/65eccbdc2e10dcf359bfee8ccf7e1522568bcb898a0c3306da22188a93e1/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl
+[2023-06-17 12:40:50] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373683>=10485760
+[2023-06-17 12:40:50] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 12:40:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-17 12:40:50] INFO root fetch - processPackages [OpenVisus]: Downloading https://files.pythonhosted.org/packages/ed/58/84763e7f5fb90af81efa4632d3f97d04c81edb451f9e5ea79a27a3799ef8/OpenVisus-2.2.97-cp39-none-win_amd64.whl
+[2023-06-17 12:40:50] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/db/c0/79dda0fe8f2d178da49ea512afd1c1a8f1a366aff5d3cc043a187b2ae6c7/OpenVisusNoGui-2.2.97-cp39-none-win_amd64.whl
+[2023-06-17 12:40:51] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-17 12:40:51] WARNING root fetch - processPackages [OpenVisus]: Skipping package: exceeds size limit 44428616>=10485760
+[2023-06-17 12:40:51] INFO root fetch - main [MainThread]: End processing [OpenVisus] error
+[2023-06-17 12:40:51] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-17 12:40:51] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230617/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 12:40:51] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/21/6a/39fbb53485bc9b351e9284a4ccbf88ad5d253e9582bba80da6a95d413167/agh_vqis-3.0.3.tar.gz
+[2023-06-17 12:40:51] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-17 12:40:51] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230617/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 12:40:51] INFO root fetch - processPackages [agh-vqis]: executing diffoscope
+[2023-06-17 12:40:51] INFO root fetch - processPackages [agh-vqis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agh_vqis-2.9.0.tar.gz tmp/agh_vqis-3.0.3.tar.gz --markdown 20230617/a/agh-vqis/2.9.0-3.0.3/diff.md --exclude *.pyd
+[2023-06-17 12:40:51] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 43066678>=10485760
+[2023-06-17 12:40:51] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2023-06-17 12:40:51] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/e0/c4/785516a9ca5e58d15cb5c210a2aaaf1aa39d58ae869c0a6b3181b4e57115/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl
+[2023-06-17 12:40:52] INFO root fetch - processPackages [cargo-zigbuild]: executing diffoscope
+[2023-06-17 12:40:52] INFO root fetch - processPackages [cargo-zigbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip --markdown 20230617/c/cargo-zigbuild/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 12:40:52] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-17 12:40:52] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-17 12:40:52] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-2.9.0.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.0.3.tar.gz]
+[2023-06-17 12:40:52] INFO root fetch - main [MainThread]: End processing [agh-vqis]: success
+[2023-06-17 12:40:56] INFO root fetch - processPackages [cargo-zigbuild]: Remove: archive file [/home/abi/fetcher/tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip]
+[2023-06-17 12:40:56] INFO root fetch - processPackages [cargo-zigbuild]: Remove: archive file [/home/abi/fetcher/tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip]
+[2023-06-17 12:40:56] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild]: success
+[2023-06-17 12:40:56] INFO root fetch - main [MainThread]: Store serial: [18542356]
