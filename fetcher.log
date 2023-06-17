@@ -15743,3 +15743,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:39:39] INFO root fetch - processPackages [PyQt6-QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_QScintilla-2.14.1.tar.gz]
 [2023-06-17 17:39:39] INFO root fetch - main [MainThread]: End processing [PyQt6-QScintilla]: success
 [2023-06-17 17:39:39] INFO root fetch - main [MainThread]: Store serial: [18544308]
+[2023-06-17 17:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544308]
+[2023-06-17 17:44:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-portfolio-index
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mospy-wallet
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytmlib
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libTSCANAPI
+[2023-06-17 17:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specialStr
+[2023-06-17 17:44:49] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-17 17:44:49] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:44:49] INFO root fetch - processPackages [pytmlib]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-17 17:44:49] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-17 17:44:49] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/85/93/836eaeebe3f491838375f20289cc6fe0518b8568fe4c9dd73b3532519a9e/libTSCANAPI-1.0.5.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/f4/bc/abf7f58cd8a42444077158579d0b9e40d89be898f006f82b6f275f2a68fd/py-portfolio-index-0.0.3.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [mospy-wallet]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-17 17:44:49] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16347593>=10485760
+[2023-06-17 17:44:49] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-17 17:44:49] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/8d/24/20b0368dea5357024c83a87034b5eeaf34787ee7fccb61f730c66b2b842a/pytmlib-1.0.0rc1.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/14/ff/58a6985a133fb2f6850a095eb32b01af1ead86a6c39196ee247da2dc5712/py-portfolio-index-0.0.4.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [specialStr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 17:44:49] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2023-06-17 17:44:49] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.3.tar.gz tmp/py-portfolio-index-0.0.4.tar.gz --markdown 20230617/p/py-portfolio-index/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:44:49] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/69/d6/85de6365c1d5f71858d0d98cd01b7ceadbf4054cc6e775f3055b5272c2c4/mospy_wallet-0.4.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [specialStr]: Downloading https://files.pythonhosted.org/packages/ec/b3/2453f4b8b4404327fc9bfab176e529dadf0a2f662eb317abf4e1f47f5dff/specialStr-0.0.1.tar.gz
+[2023-06-17 17:44:49] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/fd/37/0b511cf944ef2f47abdc5f5d18c3165177eb9617b9eeedb04852cabe1c5b/pytmlib-1.0.0rc2.tar.gz
+[2023-06-17 17:44:50] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/4c/fe/5737a35357eae054315729884adbf0b70c6922b739f0b4f823626b4fb4e9/mospy_wallet-0.4.1.tar.gz
+[2023-06-17 17:44:50] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-17 17:44:50] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-17 17:44:50] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.0.0rc1.tar.gz tmp/pytmlib-1.0.0rc2.tar.gz --markdown 20230617/p/pytmlib/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-17 17:44:50] INFO root fetch - processPackages [specialStr]: Downloading https://files.pythonhosted.org/packages/ce/92/6b2e99e7213c6aa47708daec5ab63015a8953729c12994fb790728245e3b/specialStr-0.0.2.tar.gz
+[2023-06-17 17:44:50] INFO root fetch - processPackages [mospy-wallet]: executing diffoscope
+[2023-06-17 17:44:50] INFO root fetch - processPackages [mospy-wallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mospy_wallet-0.4.tar.gz tmp/mospy_wallet-0.4.1.tar.gz --markdown 20230617/m/mospy-wallet/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 17:44:50] INFO root fetch - processPackages [specialStr]: executing diffoscope
+[2023-06-17 17:44:50] INFO root fetch - processPackages [specialStr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specialStr-0.0.1.tar.gz tmp/specialStr-0.0.2.tar.gz --markdown 20230617/s/specialStr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 17:44:50] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-17 17:44:50] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230617/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-17 17:44:51] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc1.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc2.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-17 17:44:51] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.4.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.4.1.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - main [MainThread]: End processing [mospy-wallet]: success
+[2023-06-17 17:44:51] INFO root fetch - processPackages [specialStr]: Remove: archive file [/home/abi/fetcher/tmp/specialStr-0.0.1.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - processPackages [specialStr]: Remove: archive file [/home/abi/fetcher/tmp/specialStr-0.0.2.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - main [MainThread]: End processing [specialStr]: success
+[2023-06-17 17:44:51] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.3.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.4.tar.gz]
+[2023-06-17 17:44:51] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2023-06-17 17:44:54] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-17 17:44:54] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-17 17:44:54] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-17 17:44:54] INFO root fetch - main [MainThread]: Store serial: [18544340]
