@@ -18177,3 +18177,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:49:30] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.5.0.tar.gz]
 [2023-06-17 21:49:30] INFO root fetch - main [MainThread]: End processing [libsodium]: success
 [2023-06-17 21:49:30] INFO root fetch - main [MainThread]: Store serial: [18545562]
+[2023-06-17 21:54:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545562]
+[2023-06-17 21:54:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 21:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsodium
+[2023-06-17 21:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octomachinery
+[2023-06-17 21:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cropnet
+[2023-06-17 21:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meowerbot
+[2023-06-17 21:54:41] WARNING root fetch - processPackages [cropnet]: Skipping, unable to determine old version
+[2023-06-17 21:54:41] INFO root fetch - main [MainThread]: End processing [cropnet] error
+[2023-06-17 21:54:41] INFO root fetch - processPackages [octomachinery]: New version: [0.3.7] Old Version: [0.3.6.post0]
+[2023-06-17 21:54:41] INFO root fetch - processPackages [meowerbot]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-17 21:54:41] INFO root fetch - processPackages [libsodium]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-06-17 21:54:41] INFO root fetch - processPackages [octomachinery]: Downloading https://files.pythonhosted.org/packages/69/f9/216b87cdbe7c1c39084063262dd1bcc12c247e8aae293e8711bc3f26acb3/octomachinery-0.3.6.post0.tar.gz
+[2023-06-17 21:54:41] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/d7/3c/f5935ebe44c4da20a030e2433079174c48c95ac6537437a4d26ff94884fb/meowerbot-2.6.1.tar.gz
+[2023-06-17 21:54:41] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/32/1d/98e0eca0aefd0cdfa68fb75d88c925adb262a97c18a185bac586f983410a/libsodium-2.4.1.tar.gz
+[2023-06-17 21:54:42] INFO root fetch - processPackages [octomachinery]: Downloading https://files.pythonhosted.org/packages/80/1d/0bdbb2ff840968b74077d187e048e49f08d75276b2c278c0a362e61c1b48/octomachinery-0.3.7.tar.gz
+[2023-06-17 21:54:42] INFO root fetch - processPackages [octomachinery]: executing diffoscope
+[2023-06-17 21:54:42] INFO root fetch - processPackages [octomachinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomachinery-0.3.6.post0.tar.gz tmp/octomachinery-0.3.7.tar.gz --markdown 20230617/o/octomachinery/0.3.6.post0-0.3.7/diff.md --exclude *.pyd
+[2023-06-17 21:54:42] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/20/ea/7fdcd9f289d131b199ca763145de6b161d9b194e20f538adc1aa6daae2cd/meowerbot-2.6.2.tar.gz
+[2023-06-17 21:54:42] INFO root fetch - processPackages [meowerbot]: executing diffoscope
+[2023-06-17 21:54:42] INFO root fetch - processPackages [meowerbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowerbot-2.6.1.tar.gz tmp/meowerbot-2.6.2.tar.gz --markdown 20230617/m/meowerbot/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-17 21:54:42] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/d4/c1/121fa7dfdd60510fed3d7e5561781c505d6d9e8618f5e84190e13f43fb22/libsodium-2.5.0.tar.gz
+[2023-06-17 21:54:42] INFO root fetch - processPackages [libsodium]: executing diffoscope
+[2023-06-17 21:54:42] INFO root fetch - processPackages [libsodium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsodium-2.4.1.tar.gz tmp/libsodium-2.5.0.tar.gz --markdown 20230617/l/libsodium/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-06-17 21:54:43] INFO root fetch - processPackages [meowerbot]: Remove: archive file [/home/abi/fetcher/tmp/meowerbot-2.6.1.tar.gz]
+[2023-06-17 21:54:43] INFO root fetch - processPackages [meowerbot]: Remove: archive file [/home/abi/fetcher/tmp/meowerbot-2.6.2.tar.gz]
+[2023-06-17 21:54:43] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
+[2023-06-17 21:54:43] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.4.1.tar.gz]
+[2023-06-17 21:54:43] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.5.0.tar.gz]
+[2023-06-17 21:54:43] INFO root fetch - main [MainThread]: End processing [libsodium]: success
+[2023-06-17 21:54:44] INFO root fetch - processPackages [octomachinery]: Remove: archive file [/home/abi/fetcher/tmp/octomachinery-0.3.6.post0.tar.gz]
+[2023-06-17 21:54:44] INFO root fetch - processPackages [octomachinery]: Remove: archive file [/home/abi/fetcher/tmp/octomachinery-0.3.7.tar.gz]
+[2023-06-17 21:54:44] INFO root fetch - main [MainThread]: End processing [octomachinery]: success
+[2023-06-17 21:54:44] INFO root fetch - main [MainThread]: Store serial: [18545576]
