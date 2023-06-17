@@ -13903,3 +13903,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:26:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.5.tar.gz]
 [2023-06-17 15:26:06] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-06-17 15:26:06] INFO root fetch - main [MainThread]: Store serial: [18543270]
+[2023-06-17 15:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543270]
+[2023-06-17 15:31:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shamela2epub
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gallery-dl
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweatDB
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-htu21df
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rrta
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: carefree-toolkit
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mysql-to-sqlite3
+[2023-06-17 15:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yabin
+[2023-06-17 15:31:16] WARNING root fetch - processPackages [rrta]: Skipping, unable to determine old version
+[2023-06-17 15:31:16] INFO root fetch - main [MainThread]: End processing [rrta] error
+[2023-06-17 15:31:16] INFO root fetch - processPackages [sweatDB]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-17 15:31:16] INFO root fetch - processPackages [shamela2epub]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-17 15:31:16] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [2.0.0] Old Version: [1.4.9]
+[2023-06-17 15:31:16] WARNING root fetch - processPackages [micropython-htu21df]: Skipping, unable to determine old version
+[2023-06-17 15:31:16] INFO root fetch - processPackages [carefree-toolkit]: New version: [0.3.6.5] Old Version: [0.3.6.4]
+[2023-06-17 15:31:16] INFO root fetch - processPackages [gallery-dl]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-06-17 15:31:16] INFO root fetch - main [MainThread]: End processing [micropython-htu21df] error
+[2023-06-17 15:31:16] INFO root fetch - processPackages [shamela2epub]: Downloading https://files.pythonhosted.org/packages/47/95/579f5619bb4c487ef2ef990a3383cb59aec63456e51e79fe7859b7049f6b/shamela2epub-1.3.0.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/43/f0/ecaa7e814d9a5cdb455b5197315a07c29ef74eb34ae9f7562874fd5c636d/carefree-toolkit-0.3.6.4.tar.gz
+[2023-06-17 15:31:17] WARNING root fetch - processPackages [yabin]: Skipping, unable to determine old version
+[2023-06-17 15:31:17] INFO root fetch - main [MainThread]: End processing [yabin] error
+[2023-06-17 15:31:17] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/80/88/57a3eb86f54d07654de4b1d3c44f6517ddaf6600bd751616fe045ccd2c9a/sweatDB-2.0.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/c6/36/e456c6959042232c3e1d36aa121f9c9def0c5e92529d35e0c2d26d44cf4b/mysql-to-sqlite3-1.4.9.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/5d/1c/09cf02a5b984e19ad70eef4b0546aef2c2642861044e7d619f393e8c8b9a/gallery_dl-1.8.7.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [shamela2epub]: Downloading https://files.pythonhosted.org/packages/70/b3/fb8201d39768c6a423ae1b8d7c2f82cb1538db83484ae381aacb18b446d0/shamela2epub-1.3.1.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/af/6f/e7222410d817a238c03787a48f0a0052dd91046e5b205381d4f1573521ae/carefree-toolkit-0.3.6.5.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [shamela2epub]: executing diffoscope
+[2023-06-17 15:31:17] INFO root fetch - processPackages [shamela2epub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shamela2epub-1.3.0.tar.gz tmp/shamela2epub-1.3.1.tar.gz --markdown 20230617/s/shamela2epub/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-17 15:31:17] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/04/43/4ae950db3b6ad03682e435e27a58170b54916373adde9abcdd6d61bda50a/sweatDB-2.0.1.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [carefree-toolkit]: executing diffoscope
+[2023-06-17 15:31:17] INFO root fetch - processPackages [carefree-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-toolkit-0.3.6.4.tar.gz tmp/carefree-toolkit-0.3.6.5.tar.gz --markdown 20230617/c/carefree-toolkit/0.3.6.4-0.3.6.5/diff.md --exclude *.pyd
+[2023-06-17 15:31:17] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-17 15:31:17] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.tar.gz tmp/sweatDB-2.0.1.tar.gz --markdown 20230617/s/sweatDB/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-17 15:31:17] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/b9/32/5b19258bcff59b7b427b59e4db77a59659dc3c6fa071f8b2a19274eb6977/mysql_to_sqlite3-2.0.0.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-06-17 15:31:17] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-to-sqlite3-1.4.9.tar.gz tmp/mysql_to_sqlite3-2.0.0.tar.gz --markdown 20230617/m/mysql-to-sqlite3/1.4.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 15:31:17] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/c5/b2/1405454a6bfc347687a5b389bf788d050a0f09cf6f56e4409b54a6571334/gallery_dl-1.9.0.tar.gz
+[2023-06-17 15:31:17] INFO root fetch - processPackages [gallery-dl]: executing diffoscope
+[2023-06-17 15:31:17] INFO root fetch - processPackages [gallery-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallery_dl-1.8.7.tar.gz tmp/gallery_dl-1.9.0.tar.gz --markdown 20230617/g/gallery-dl/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-06-17 15:31:18] INFO root fetch - processPackages [shamela2epub]: Remove: archive file [/home/abi/fetcher/tmp/shamela2epub-1.3.0.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - processPackages [shamela2epub]: Remove: archive file [/home/abi/fetcher/tmp/shamela2epub-1.3.1.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - main [MainThread]: End processing [shamela2epub]: success
+[2023-06-17 15:31:18] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.4.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.5.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - main [MainThread]: End processing [carefree-toolkit]: success
+[2023-06-17 15:31:18] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql-to-sqlite3-1.4.9.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.0.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-06-17 15:31:18] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.1.tar.gz]
+[2023-06-17 15:31:18] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-17 15:31:20] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.8.7.tar.gz]
+[2023-06-17 15:31:20] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.9.0.tar.gz]
+[2023-06-17 15:31:20] INFO root fetch - main [MainThread]: End processing [gallery-dl]: success
+[2023-06-17 15:31:20] INFO root fetch - main [MainThread]: Store serial: [18543316]
