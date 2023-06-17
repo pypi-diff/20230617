@@ -10357,3 +10357,24 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:12:19] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230617.tar.gz]
 [2023-06-17 10:12:19] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-17 10:12:19] INFO root fetch - main [MainThread]: Store serial: [18541723]
+[2023-06-17 10:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541723]
+[2023-06-17 10:17:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 10:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine-dev
+[2023-06-17 10:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idoctorai
+[2023-06-17 10:17:29] INFO root fetch - processPackages [idoctorai]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-17 10:17:29] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 10:17:29] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/b8/91/163cd4608ce29571fa64409afdb76e5e3d4a24021d7693e58fd14150e403/idoctorai-0.4.5.tar.gz
+[2023-06-17 10:17:29] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/ae/18/1e9a607eaef954b24ad69fe134afd6d0aec1cd9f8320dc79e68dc2a0e124/idoctorai-0.4.6.tar.gz
+[2023-06-17 10:17:30] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 10:17:30] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.5.tar.gz tmp/idoctorai-0.4.6.tar.gz --markdown 20230617/i/idoctorai/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-17 10:17:30] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-06-17 10:17:30] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-06-17 10:17:30] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-06-17 10:17:30] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230617/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:17:31] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.5.tar.gz]
+[2023-06-17 10:17:31] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.6.tar.gz]
+[2023-06-17 10:17:31] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 10:17:31] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-06-17 10:17:31] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-06-17 10:17:31] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-06-17 10:17:31] INFO root fetch - main [MainThread]: Store serial: [18541735]
