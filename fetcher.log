@@ -18072,3 +18072,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:39:08] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
 [2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [q2rad]: success
 [2023-06-17 21:39:08] INFO root fetch - main [MainThread]: Store serial: [18545513]
+[2023-06-17 21:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545513]
+[2023-06-17 21:44:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 21:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefecto
+[2023-06-17 21:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneapi-sdk
+[2023-06-17 21:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bludwig
+[2023-06-17 21:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HandGestureRec
+[2023-06-17 21:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2gui
+[2023-06-17 21:44:17] WARNING root fetch - processPackages [oneapi-sdk]: Skipping, unable to determine old version
+[2023-06-17 21:44:17] INFO root fetch - main [MainThread]: End processing [oneapi-sdk] error
+[2023-06-17 21:44:17] INFO root fetch - processPackages [bludwig]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 21:44:17] WARNING root fetch - processPackages [prefecto]: Skipping, unable to determine old version
+[2023-06-17 21:44:17] INFO root fetch - main [MainThread]: End processing [prefecto] error
+[2023-06-17 21:44:17] INFO root fetch - processPackages [HandGestureRec]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 21:44:17] INFO root fetch - processPackages [q2gui]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-06-17 21:44:17] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/93/63/e970e2936a25d8da35ebdf3eff9a9d587e4c513e9246480feb0b188b59a8/q2gui-0.1.90.tar.gz
+[2023-06-17 21:44:17] INFO root fetch - processPackages [HandGestureRec]: Downloading https://files.pythonhosted.org/packages/2f/de/7e5eae8bbf6cf0af75906f41f47cc6c3c5b42afdcadb50506d500669640a/HandGestureRec-0.1.5.tar.gz
+[2023-06-17 21:44:17] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/98/ba/10866c16ff518efe9693c1d3a412dee13639af15519de2b6640f471f9cb0/bludwig-0.0.4.tar.gz
+[2023-06-17 21:44:17] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/3c/48/ce317b433ab4e7b0efba9fc1ceeffe55d8891687a454143087665ece05b5/q2gui-0.1.91.tar.gz
+[2023-06-17 21:44:17] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-06-17 21:44:17] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.90.tar.gz tmp/q2gui-0.1.91.tar.gz --markdown 20230617/q/q2gui/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-06-17 21:44:17] INFO root fetch - processPackages [HandGestureRec]: Downloading https://files.pythonhosted.org/packages/b6/b5/3d84e929967cd95645f8c720a004fc1f914e629455385ced0bdeae74b261/HandGestureRec-0.1.6.tar.gz
+[2023-06-17 21:44:18] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/a8/7e/5ff1713bde115639736fc38b4c7f0cfdd558b7122b23f58c4ab62ee8a019/bludwig-0.0.5.tar.gz
+[2023-06-17 21:44:18] INFO root fetch - processPackages [HandGestureRec]: executing diffoscope
+[2023-06-17 21:44:18] INFO root fetch - processPackages [HandGestureRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandGestureRec-0.1.5.tar.gz tmp/HandGestureRec-0.1.6.tar.gz --markdown 20230617/H/HandGestureRec/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 21:44:18] INFO root fetch - processPackages [bludwig]: executing diffoscope
+[2023-06-17 21:44:18] INFO root fetch - processPackages [bludwig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bludwig-0.0.4.tar.gz tmp/bludwig-0.0.5.tar.gz --markdown 20230617/b/bludwig/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 21:44:19] INFO root fetch - processPackages [HandGestureRec]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRec-0.1.5.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - processPackages [HandGestureRec]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRec-0.1.6.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - main [MainThread]: End processing [HandGestureRec]: success
+[2023-06-17 21:44:19] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.4.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.5.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - main [MainThread]: End processing [bludwig]: success
+[2023-06-17 21:44:19] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.90.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.91.tar.gz]
+[2023-06-17 21:44:19] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-06-17 21:44:19] INFO root fetch - main [MainThread]: Store serial: [18545533]
