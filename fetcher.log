@@ -5806,3 +5806,158 @@
 [2023-06-17 03:41:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
 [2023-06-17 03:41:18] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-06-17 03:41:18] INFO root fetch - main [MainThread]: Store serial: [18539998]
+[2023-06-17 03:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18539998]
+[2023-06-17 03:46:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-files
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaven
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kultimate
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-testing
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rattail
+[2023-06-17 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: db2ixf
+[2023-06-17 03:46:27] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [heaven]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [mo-testing]: New version: [5.53.21241] Old Version: [5.413.23168]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [mo-files]: New version: [6.413.23168] Old Version: [6.407.23153]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [kultimate]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [db2ixf]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:46:27] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/44/5d/bd72ce04be2a9332d582bf522993c3c7d53c307da6490e3e6095685ae4d0/kultimate-0.2.6.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/64/0e/4dc1f786d07ed7745ad29ee45b3c028ee930eafb8cc98e153356cc28b316/mo_testing-5.413.23168-py2.py3-none-any.whl
+[2023-06-17 03:46:27] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/15/9e/7a3399e16060571d1010dcb9d3ff58eeec5c633be5f8e0286e0bfbd4ed63/heaven-0.0.6.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-17 03:46:27] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-17 03:46:27] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230617/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:46:27] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/7b/7a/287cc7175fed1e4178194f651d141441e3defce7a8e8103f24b7afad3b16/db2ixf-0.1.7.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/f5/79/abbd13eebfacef0135b73e1e310381bd80599395e830909eeef599f53b62/mo_files-6.407.23153-py2.py3-none-any.whl
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-17 03:46:27] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230617/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:46:27] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/85/db/9b14a7272512f358489884a1e68113cbd0e42d4d4dae28bcde659969e9d3/kultimate-0.2.7.tar.gz
+[2023-06-17 03:46:27] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-06-17 03:46:27] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230617/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-17 03:46:27] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-17 03:46:27] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.6.tar.gz tmp/kultimate-0.2.7.tar.gz --markdown 20230617/k/kultimate/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/89/a4/97a8c1992654667447689c55fd6d55c9651a63a7b0f6974e71924c6b3038/heaven-0.0.7.tar.gz
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d9/cd/f2576ce1ba78bee930d7589319531827d26adb89f1ffc604ffe0395e6bb5/mo-testing-5.53.21241.tar.gz
+[2023-06-17 03:46:28] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.6.tar.gz tmp/heaven-0.0.7.tar.gz --markdown 20230617/h/heaven/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-17 03:46:28] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/f4/15/b12b49aaf291f3c419c8c54e04048d6c1eadf460a4705d0c9b6a653f0983/db2ixf-0.2.0.tar.gz
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/d2/ec/8d923c1c1897920dee1ebfabd7bb7f1c07269db6bfe747bc80f2dc0afa33/mo_files-6.413.23168-py2.py3-none-any.whl
+[2023-06-17 03:46:28] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230617/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] INFO root fetch - processPackages [db2ixf]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [db2ixf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2ixf-0.1.7.tar.gz tmp/db2ixf-0.2.0.tar.gz --markdown 20230617/d/db2ixf/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.407.23153-py2.py3-none-any.whl.zip tmp/mo_files-6.413.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-files/6.407.23153-6.413.23168/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-06-17 03:46:28] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-5.413.23168-py2.py3-none-any.whl.zip tmp/mo-testing-5.53.21241.tar.gz --markdown 20230617/m/mo-testing/5.413.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-17 03:46:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230617/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-17 03:46:29] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [cdk-wordpress]: Start processing: bootleg-jwt
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [bootleg-jwt]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [bootleg-jwt]: Downloading https://files.pythonhosted.org/packages/87/4c/7ccfbef3ed78a363b760881d0e22d1c3ee28673ba1c6c894d0121af230f8/bootleg-jwt-0.2.3.tar.gz
+[2023-06-17 03:46:29] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.6.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.7.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [heaven]: Start processing: nbdev-apl
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.839] Old Version: [0.0.838]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.6.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.7.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [kultimate]: Start processing: hin
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.407.23153-py2.py3-none-any.whl.zip]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-files]: Start processing: Tailbone
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [hin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e4/ee/ec0a5be256d6608be3b099f4c9f9b117947b0f9366147f54da9567328795/nbdev-apl-0.0.838.tar.gz
+[2023-06-17 03:46:29] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: mo-json-config
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [bootleg-jwt]: Downloading https://files.pythonhosted.org/packages/40/26/2dee8210e74dc8d85c797afe95811c5d9aa396b6bbdc39d726c75c1df367/bootleg-jwt-0.3.0.tar.gz
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-json-config]: New version: [4.413.23168] Old Version: [4.407.23153]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-5.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo-testing-5.53.21241.tar.gz]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [mo-testing]: Start processing: pytype
+[2023-06-17 03:46:29] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2023-06-17 03:46:29] INFO root fetch - processPackages [bootleg-jwt]: executing diffoscope
+[2023-06-17 03:46:29] INFO root fetch - processPackages [bootleg-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootleg-jwt-0.2.3.tar.gz tmp/bootleg-jwt-0.3.0.tar.gz --markdown 20230617/b/bootleg-jwt/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 03:46:29] INFO root fetch - processPackages [pytype]: New version: [2023.6.2] Old Version: [2023.6.16]
+[2023-06-17 03:46:29] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/ef/f7/f7c5bbb3fb6cc72abf434348969a82a11571b52ee1af50b45560c6f633a2/hin-0.1.3.tar.gz
+[2023-06-17 03:46:29] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/5e/b5/9ac1e59b25b2cd29c3bd9622a607eaacedbbf881fdf1083190c560a86bf9/nbdev-apl-0.0.839.tar.gz
+[2023-06-17 03:46:29] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-06-17 03:46:30] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-17 03:46:30] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.838.tar.gz tmp/nbdev-apl-0.0.839.tar.gz --markdown 20230617/n/nbdev-apl/0.0.838-0.0.839/diff.md --exclude *.pyd
+[2023-06-17 03:46:30] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-17 03:46:30] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-17 03:46:30] INFO root fetch - processPackages [nbdev-django]: Start processing: atksh-utils
+[2023-06-17 03:46:30] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-17 03:46:30] INFO root fetch - processPackages [pytype]: Downloading https://files.pythonhosted.org/packages/c5/51/1e1172dde646d94d66a83639d7fdda43aa8004c6bb634122593e51ce077a/pytype-2023.6.16.tar.gz
+[2023-06-17 03:46:30] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/b6/6a/80a7e0799d94e54f59d54e5960ccd190ae090e5c41dce8c787d1cd6a2303/hin-0.1.4.tar.gz
+[2023-06-17 03:46:30] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/ef/31/0e16a9ae37cce6324c556e9e90a528e42ce4939e7cc977332baf4ae6d903/mo_json_config-4.407.23153-py2.py3-none-any.whl
+[2023-06-17 03:46:30] WARNING root fetch - processPackages [atksh-utils]: Skipping, unable to determine old version
+[2023-06-17 03:46:30] INFO root fetch - main [MainThread]: End processing [atksh-utils] error
+[2023-06-17 03:46:30] INFO root fetch - processPackages [hin]: executing diffoscope
+[2023-06-17 03:46:30] INFO root fetch - processPackages [hin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hin-0.1.3.tar.gz tmp/hin-0.1.4.tar.gz --markdown 20230617/h/hin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 03:46:30] INFO root fetch - processPackages [db2ixf]: Remove: archive file [/home/abi/fetcher/tmp/db2ixf-0.1.7.tar.gz]
+[2023-06-17 03:46:30] INFO root fetch - processPackages [db2ixf]: Remove: archive file [/home/abi/fetcher/tmp/db2ixf-0.2.0.tar.gz]
+[2023-06-17 03:46:30] INFO root fetch - main [MainThread]: End processing [db2ixf]: success
+[2023-06-17 03:46:30] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-06-17 03:46:30] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-06-17 03:46:30] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230617/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-17 03:46:30] INFO root fetch - processPackages [pytype]: Downloading https://files.pythonhosted.org/packages/ee/68/a41d08ee4184b3b35f12e46e0d03e7c0f31d0fc2ce9610117b337270102b/pytype-2023.6.2.tar.gz
+[2023-06-17 03:46:30] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/33/7b/2d6bb3808c42afb169e1df74a2a90e426470447f9c444aa428b064cd4b1b/mo_json_config-4.413.23168-py2.py3-none-any.whl
+[2023-06-17 03:46:30] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2023-06-17 03:46:30] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.407.23153-py2.py3-none-any.whl.zip tmp/mo_json_config-4.413.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-json-config/4.407.23153-4.413.23168/diff.md --exclude *.pyd
+[2023-06-17 03:46:30] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-17 03:46:30] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-17 03:46:30] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-17 03:46:31] INFO root fetch - processPackages [bootleg-jwt]: Remove: archive file [/home/abi/fetcher/tmp/bootleg-jwt-0.2.3.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - processPackages [bootleg-jwt]: Remove: archive file [/home/abi/fetcher/tmp/bootleg-jwt-0.3.0.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - main [MainThread]: End processing [bootleg-jwt]: success
+[2023-06-17 03:46:31] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.838.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.839.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-17 03:46:31] INFO root fetch - processPackages [pytype]: executing diffoscope
+[2023-06-17 03:46:31] INFO root fetch - processPackages [pytype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytype-2023.6.16.tar.gz tmp/pytype-2023.6.2.tar.gz --markdown 20230617/p/pytype/2023.6.16-2023.6.2/diff.md --exclude *.pyd
+[2023-06-17 03:46:31] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.3.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.4.tar.gz]
+[2023-06-17 03:46:31] INFO root fetch - main [MainThread]: End processing [hin]: success
+[2023-06-17 03:46:31] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.407.23153-py2.py3-none-any.whl.zip]
+[2023-06-17 03:46:31] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 03:46:31] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2023-06-17 03:46:32] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2023-06-17 03:46:32] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2023-06-17 03:46:32] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-06-17 03:46:34] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-06-17 03:46:34] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-06-17 03:46:34] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-06-17 03:48:53] INFO root fetch - processPackages [pytype]: Remove: archive file [/home/abi/fetcher/tmp/pytype-2023.6.16.tar.gz]
+[2023-06-17 03:48:53] INFO root fetch - processPackages [pytype]: Remove: archive file [/home/abi/fetcher/tmp/pytype-2023.6.2.tar.gz]
+[2023-06-17 03:48:53] INFO root fetch - main [MainThread]: End processing [pytype]: success
+[2023-06-17 03:48:53] INFO root fetch - main [MainThread]: Store serial: [18540047]
