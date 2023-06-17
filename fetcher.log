@@ -9199,3 +9199,36 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:49:55] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
 [2023-06-17 07:49:55] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-06-17 07:49:55] INFO root fetch - main [MainThread]: Store serial: [18541232]
+[2023-06-17 07:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541232]
+[2023-06-17 07:55:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CustomTkinterTitlebar
+[2023-06-17 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-supporter
+[2023-06-17 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainsurf
+[2023-06-17 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yamlgenerator-search-hook
+[2023-06-17 07:55:04] WARNING root fetch - processPackages [yamlgenerator-search-hook]: Skipping, unable to determine old version
+[2023-06-17 07:55:04] INFO root fetch - main [MainThread]: End processing [yamlgenerator-search-hook] error
+[2023-06-17 07:55:04] INFO root fetch - processPackages [pytorch-supporter]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-17 07:55:04] INFO root fetch - processPackages [CustomTkinterTitlebar]: New version: [1.0.7.9] Old Version: [1.0.7.8]
+[2023-06-17 07:55:04] INFO root fetch - processPackages [brainsurf]: New version: [8.0.1] Old Version: [7.0.0]
+[2023-06-17 07:55:04] INFO root fetch - processPackages [CustomTkinterTitlebar]: Downloading https://files.pythonhosted.org/packages/81/9f/c68d6c5cd76b6c501a2673e607d9b8af4787bb7f52be3c19145d1d4dfc92/CustomTkinterTitlebar-1.0.7.8.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/c2/79/94026be2b48248d556d5e06873679363975c91a3f339d6c66ebeae55a89c/pytorch-supporter-0.0.17.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/51/ee/0faf7f315b8684dfe8ce02b0a11af1ed274239d5a8220e1f1fcd0e0d9497/brainsurf-7.0.0.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/24/19/b3a1f1a854b3acd0a84b9122dd2f116400de48ec3e889e2646cab38abd67/pytorch-supporter-0.0.18.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [CustomTkinterTitlebar]: Downloading https://files.pythonhosted.org/packages/70/8f/e967e9a1e7a84445c6c23d48b98dda7636ccb3abc0cf031ea6de749e0c42/CustomTkinterTitlebar-1.0.7.9.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/90/e1/a7af34d2c769516fb9afb1ffe949fe739b97c5f22bc009b6e0228305be45/brainsurf-8.0.1.tar.gz
+[2023-06-17 07:55:04] INFO root fetch - processPackages [CustomTkinterTitlebar]: executing diffoscope
+[2023-06-17 07:55:04] INFO root fetch - processPackages [CustomTkinterTitlebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomTkinterTitlebar-1.0.7.8.tar.gz tmp/CustomTkinterTitlebar-1.0.7.9.tar.gz --markdown 20230617/C/CustomTkinterTitlebar/1.0.7.8-1.0.7.9/diff.md --exclude *.pyd
+[2023-06-17 07:55:04] INFO root fetch - processPackages [pytorch-supporter]: executing diffoscope
+[2023-06-17 07:55:04] INFO root fetch - processPackages [pytorch-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-supporter-0.0.17.tar.gz tmp/pytorch-supporter-0.0.18.tar.gz --markdown 20230617/p/pytorch-supporter/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-17 07:55:04] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-06-17 07:55:04] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-7.0.0.tar.gz tmp/brainsurf-8.0.1.tar.gz --markdown 20230617/b/brainsurf/7.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-06-17 07:55:05] INFO root fetch - processPackages [CustomTkinterTitlebar]: Remove: archive file [/home/abi/fetcher/tmp/CustomTkinterTitlebar-1.0.7.8.tar.gz]
+[2023-06-17 07:55:05] INFO root fetch - processPackages [CustomTkinterTitlebar]: Remove: archive file [/home/abi/fetcher/tmp/CustomTkinterTitlebar-1.0.7.9.tar.gz]
+[2023-06-17 07:55:05] INFO root fetch - main [MainThread]: End processing [CustomTkinterTitlebar]: success
+[2023-06-17 07:55:06] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-7.0.0.tar.gz]
+[2023-06-17 07:55:06] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-8.0.1.tar.gz]
+[2023-06-17 07:55:06] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-06-17 07:55:06] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.17.tar.gz]
+[2023-06-17 07:55:06] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.18.tar.gz]
+[2023-06-17 07:55:06] INFO root fetch - main [MainThread]: End processing [pytorch-supporter]: success
+[2023-06-17 07:55:06] INFO root fetch - main [MainThread]: Store serial: [18541245]
