@@ -11246,3 +11246,48 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:41:12] INFO root fetch - processPackages [eng-spacysentiment]: Remove: archive file [/home/abi/fetcher/tmp/eng_spacysentiment-2.1.0.tar.gz]
 [2023-06-17 11:41:12] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment]: success
 [2023-06-17 11:41:12] INFO root fetch - main [MainThread]: Store serial: [18542094]
+[2023-06-17 11:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542094]
+[2023-06-17 11:46:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrouter
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ascend-deployer
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gorilla-cli
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-timemachine
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htdb-py
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myopenpy-ltt-utils
+[2023-06-17 11:46:21] INFO root fetch - processPackages [gorilla-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 11:46:21] INFO root fetch - processPackages [git-timemachine]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-06-17 11:46:21] INFO root fetch - processPackages [zrouter]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-06-17 11:46:21] WARNING root fetch - processPackages [myopenpy-ltt-utils]: Skipping, unable to determine old version
+[2023-06-17 11:46:21] WARNING root fetch - processPackages [htdb-py]: Skipping, unable to determine old version
+[2023-06-17 11:46:21] INFO root fetch - main [MainThread]: End processing [myopenpy-ltt-utils] error
+[2023-06-17 11:46:21] INFO root fetch - main [MainThread]: End processing [htdb-py] error
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b7] Old Version: [5.0.0b6]
+[2023-06-17 11:46:21] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/c6/5f/71ed6473c4e776ceb6ad7e8d8168e605e42dba649b6f57cfd837bbd943aa/zrouter-0.3.3.tar.gz
+[2023-06-17 11:46:21] INFO root fetch - processPackages [git-timemachine]: Downloading https://files.pythonhosted.org/packages/dc/3e/8b76212caeb4e2c3c2fc817b39aaf62e906fa36ff52bd6ef63fe6f7e3257/git_timemachine-1.3.1.tar.gz
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/f4/d3/9554923db553624ce03343a2673dd7ec34336c5ed0b75710c1f25f1bc6d5/ascend_deployer-5.0.0b6-py3-none-any.whl
+[2023-06-17 11:46:21] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/3a/89/a540c623095de6890008533186c5b0de94f9de11faa74b6190e74d3de70e/gorilla-cli-0.0.1.zip
+[2023-06-17 11:46:21] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/9a/04/f6a834931acc26d80db5816f0c53245b9ca54bcc57a01b519ab1f0324c50/zrouter-0.3.5.tar.gz
+[2023-06-17 11:46:21] INFO root fetch - processPackages [git-timemachine]: Downloading https://files.pythonhosted.org/packages/ca/c5/bbdb692910bf8dada68c085502afdd156890ee02f81ef74f48c77b0e5337/git_timemachine-2.0.0.tar.gz
+[2023-06-17 11:46:21] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/4b/29/c81d81e6feabb80df9c0042a9278176e4d4f0fafccce7c98e7b82e06770a/gorilla-cli-0.0.2.tar.gz
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/c0/6b/ec7b5b0abc2bb40d0d6bb3804afcb97edc850b8ce6c359811eed3c44c7b5/ascend_deployer-5.0.0b7-py3-none-any.whl
+[2023-06-17 11:46:21] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-06-17 11:46:21] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.3.tar.gz tmp/zrouter-0.3.5.tar.gz --markdown 20230617/z/zrouter/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-06-17 11:46:21] INFO root fetch - processPackages [gorilla-cli]: executing diffoscope
+[2023-06-17 11:46:21] INFO root fetch - processPackages [gorilla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gorilla-cli-0.0.1.zip tmp/gorilla-cli-0.0.2.tar.gz --markdown 20230617/g/gorilla-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 11:46:21] INFO root fetch - processPackages [git-timemachine]: executing diffoscope
+[2023-06-17 11:46:21] INFO root fetch - processPackages [git-timemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_timemachine-1.3.1.tar.gz tmp/git_timemachine-2.0.0.tar.gz --markdown 20230617/g/git-timemachine/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-06-17 11:46:21] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b6-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b7-py3-none-any.whl.zip --markdown 20230617/a/ascend-deployer/5.0.0b6-5.0.0b7/diff.md --exclude *.pyd
+[2023-06-17 11:46:22] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.1.zip]
+[2023-06-17 11:46:22] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.2.tar.gz]
+[2023-06-17 11:46:22] INFO root fetch - main [MainThread]: End processing [gorilla-cli]: success
+[2023-06-17 11:46:22] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.3.tar.gz]
+[2023-06-17 11:46:22] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.5.tar.gz]
+[2023-06-17 11:46:22] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-06-17 11:46:22] INFO root fetch - processPackages [git-timemachine]: Remove: archive file [/home/abi/fetcher/tmp/git_timemachine-1.3.1.tar.gz]
+[2023-06-17 11:46:22] INFO root fetch - processPackages [git-timemachine]: Remove: archive file [/home/abi/fetcher/tmp/git_timemachine-2.0.0.tar.gz]
+[2023-06-17 11:46:22] INFO root fetch - main [MainThread]: End processing [git-timemachine]: success
+[2023-06-17 11:46:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b6-py3-none-any.whl.zip]
+[2023-06-17 11:46:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b7-py3-none-any.whl.zip]
+[2023-06-17 11:46:29] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-06-17 11:46:29] INFO root fetch - main [MainThread]: Store serial: [18542117]
