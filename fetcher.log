@@ -17937,3 +17937,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:22:38] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.90.tar.gz]
 [2023-06-17 21:22:38] INFO root fetch - main [MainThread]: End processing [q2gui]: success
 [2023-06-17 21:22:38] INFO root fetch - main [MainThread]: Store serial: [18545431]
+[2023-06-17 21:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545431]
+[2023-06-17 21:27:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dustpy
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-natpmp
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-provider-anomaly-detection
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezargs
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leuci-geo
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ezargs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 21:27:48] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/07/1d/78ca8c455eedf69f8fcf5c7e2d7b632c7dabf395e6849756c13495928ede/ezargs-0.0.3.tar.gz
+[2023-06-17 21:27:48] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/1c/b6/c6163265cdec8f20d2aa73df89d010ed295ccc72471c7061c93cce53644d/leuci-geo-0.0.5.tar.gz
+[2023-06-17 21:27:48] INFO root fetch - processPackages [py-natpmp]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-17 21:27:48] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 21:27:48] INFO root fetch - processPackages [dustpy]: New version: [1.0.4rc0] Old Version: [1.0.4]
+[2023-06-17 21:27:48] INFO root fetch - processPackages [dustpy]: Downloading https://files.pythonhosted.org/packages/dc/85/8a7460047ac83263c0d0ac6283ebbc12720e6d4bad807325b185ab322d88/dustpy-1.0.4.tar.gz
+[2023-06-17 21:27:48] INFO root fetch - processPackages [py-natpmp]: Downloading https://files.pythonhosted.org/packages/f8/14/ddcb0f8a3f05f743d30ca4a4778baa460eade0ed42b24d3d8dc8d3e040a9/py-natpmp-0.2.4.tar.gz
+[2023-06-17 21:27:48] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/e7/9c/3dab1e8e4f41c20ff91c43903500747a2f84cd528d59a7625135a8c47920/ezargs-0.0.4.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/be/9e/9ec7a49413b0ea4cd0602f1caaaa7ecf87d2841a7f94eeff0b08e95c3091/leuci-geo-0.0.6.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [ezargs]: executing diffoscope
+[2023-06-17 21:27:49] INFO root fetch - processPackages [ezargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezargs-0.0.3.tar.gz tmp/ezargs-0.0.4.tar.gz --markdown 20230617/e/ezargs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 21:27:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/09/50/6b084375e446e30ecd753063df31514c7862304f290a742694a2d6067ab5/airflow_provider_anomaly_detection-0.0.8.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [py-natpmp]: Downloading https://files.pythonhosted.org/packages/2a/fd/fc365c6aaf1ca6e3c708928ff623b4e0cb6aecdc1f86bacfcf7248e88e54/py-natpmp-0.2.5.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-17 21:27:49] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.5.tar.gz tmp/leuci-geo-0.0.6.tar.gz --markdown 20230617/l/leuci-geo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 21:27:49] INFO root fetch - processPackages [py-natpmp]: executing diffoscope
+[2023-06-17 21:27:49] INFO root fetch - processPackages [py-natpmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-natpmp-0.2.4.tar.gz tmp/py-natpmp-0.2.5.tar.gz --markdown 20230617/p/py-natpmp/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-17 21:27:49] INFO root fetch - processPackages [dustpy]: Downloading https://files.pythonhosted.org/packages/0f/a8/d81e443402b0f1ea788f1db4c52e738ff7585bf872ee8c32cf7d2eff9b7b/dustpy-1.0.4rc0.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/6a/ef/6a14c6f17aa64c5fd5f15ab602eb183edcbe6e06dd3eed4445d6ae0ea170/airflow_provider_anomaly_detection-0.0.9.tar.gz
+[2023-06-17 21:27:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: executing diffoscope
+[2023-06-17 21:27:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz --markdown 20230617/a/airflow-provider-anomaly-detection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 21:27:49] INFO root fetch - processPackages [dustpy]: executing diffoscope
+[2023-06-17 21:27:49] INFO root fetch - processPackages [dustpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustpy-1.0.4.tar.gz tmp/dustpy-1.0.4rc0.tar.gz --markdown 20230617/d/dustpy/1.0.4-1.0.4rc0/diff.md --exclude *.pyd
+[2023-06-17 21:27:50] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.3.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.4.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - main [MainThread]: End processing [ezargs]: success
+[2023-06-17 21:27:50] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.5.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.6.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-17 21:27:50] INFO root fetch - processPackages [py-natpmp]: Remove: archive file [/home/abi/fetcher/tmp/py-natpmp-0.2.4.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - processPackages [py-natpmp]: Remove: archive file [/home/abi/fetcher/tmp/py-natpmp-0.2.5.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - main [MainThread]: End processing [py-natpmp]: success
+[2023-06-17 21:27:50] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
+[2023-06-17 21:27:50] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
+[2023-06-17 21:27:51] INFO root fetch - processPackages [dustpy]: Remove: archive file [/home/abi/fetcher/tmp/dustpy-1.0.4.tar.gz]
+[2023-06-17 21:27:51] INFO root fetch - processPackages [dustpy]: Remove: archive file [/home/abi/fetcher/tmp/dustpy-1.0.4rc0.tar.gz]
+[2023-06-17 21:27:51] INFO root fetch - main [MainThread]: End processing [dustpy]: success
+[2023-06-17 21:27:51] INFO root fetch - main [MainThread]: Store serial: [18545447]
