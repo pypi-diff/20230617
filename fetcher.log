@@ -7548,3 +7548,85 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:31:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
 [2023-06-17 05:31:02] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-06-17 05:31:02] INFO root fetch - main [MainThread]: Store serial: [18540581]
+[2023-06-17 05:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540581]
+[2023-06-17 05:36:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-document-page-approval
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-document-page
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sentry
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-document-page
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-document-page
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-document-page
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: featureform
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airflow-provider-hex
+[2023-06-17 05:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bittrade-huobi-websocket
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [airflow-provider-hex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [bittrade-huobi-websocket]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [nonebot-plugin-sentry]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc5] Old Version: [1.9.2rc4]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/1b/33/9426730ce1b12785ea91f59cade91d9a7e1d4f23220397e6113bcec28677/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/5b/b8/376b4c1d8930fcad6e595decb4405ac692fd19cac0a699757412a578bebe/featureform-1.9.2rc4.tar.gz
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/09/6c/8a3f3cc7114c73358a74a42f4312dff9d115e3f44ef5e22f025edbe5f023/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/70/a9/6beb001b7d6124e044248a4130a4080e8341627f7ed83b9511cf55f0cb2b/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [airflow-provider-hex]: Downloading https://files.pythonhosted.org/packages/33/ae/cee9fa8238fbb8af8dc852e06446588a302d48ffce50d43f0eace61930ac/airflow-provider-hex-0.1.8.tar.gz
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/2f/d1/e563c7492448f0a0762a3df564cc76509b4d595e9b9ee0254d8c18f310d6/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/2f/d1/e563c7492448f0a0762a3df564cc76509b4d595e9b9ee0254d8c18f310d6/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/f3/f1/2334ebde8e139bbfee10b33cfa75939a5769ed46e2c0d5770592c0deb8ec/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/00/0c/3de894e6dc995ba2cac2a96d4a8111523a9f1bfaeceb7d402496a876e80a/bittrade_huobi_websocket-0.3.5.tar.gz
+[2023-06-17 05:36:11] INFO root fetch - processPackages [nonebot-plugin-sentry]: Downloading https://files.pythonhosted.org/packages/e4/08/ebadeb46b1add28ec2c823d9a21bdd5ca656ac0be9470a00b9e19e614c78/nonebot_plugin_sentry-0.4.0.tar.gz
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: executing diffoscope
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-document-page-approval/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page]: executing diffoscope
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo9-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-document-page/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 05:36:11] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-06-17 05:36:11] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/9a/0c/4de39980efce91cc3d5457d7c54fb02e007967b83141d6cc76c62c22b813/featureform-1.9.2rc5.tar.gz
+[2023-06-17 05:36:12] INFO root fetch - processPackages [airflow-provider-hex]: Downloading https://files.pythonhosted.org/packages/5c/ba/dba3d4c64039185022538b8a0f534f4429917391809bc86ff7427094b14a/airflow-provider-hex-0.1.9.tar.gz
+[2023-06-17 05:36:12] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/c6/fc/c1eeeae3c9a36726918f17d922bcfcec3b137d499c8f4ad6b4b75844462e/bittrade_huobi_websocket-0.3.6.tar.gz
+[2023-06-17 05:36:12] INFO root fetch - processPackages [nonebot-plugin-sentry]: Downloading https://files.pythonhosted.org/packages/fc/aa/6333086380b94e8f34e1446376784f8dd90147edfc4689c38f3b01650316/nonebot_plugin_sentry-0.4.1.tar.gz
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/58/76/9fbca08728bd9c34da76e88a217087c03890c5a1a3b12381575c6ca5a725/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/58/76/9fbca08728bd9c34da76e88a217087c03890c5a1a3b12381575c6ca5a725/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-17 05:36:12] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc4.tar.gz tmp/featureform-1.9.2rc5.tar.gz --markdown 20230617/f/featureform/1.9.2rc4-1.9.2rc5/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [airflow-provider-hex]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [airflow-provider-hex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-hex-0.1.8.tar.gz tmp/airflow-provider-hex-0.1.9.tar.gz --markdown 20230617/a/airflow-provider-hex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [bittrade-huobi-websocket]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [bittrade-huobi-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_huobi_websocket-0.3.5.tar.gz tmp/bittrade_huobi_websocket-0.3.6.tar.gz --markdown 20230617/b/bittrade-huobi-websocket/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [nonebot-plugin-sentry]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [nonebot-plugin-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sentry-0.4.0.tar.gz tmp/nonebot_plugin_sentry-0.4.1.tar.gz --markdown 20230617/n/nonebot-plugin-sentry/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-06-17 05:36:12] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 05:36:13] INFO root fetch - processPackages [airflow-provider-hex]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-hex-0.1.8.tar.gz]
+[2023-06-17 05:36:13] INFO root fetch - processPackages [airflow-provider-hex]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-hex-0.1.9.tar.gz]
+[2023-06-17 05:36:13] INFO root fetch - main [MainThread]: End processing [airflow-provider-hex]: success
+[2023-06-17 05:36:13] INFO root fetch - processPackages [nonebot-plugin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sentry-0.4.0.tar.gz]
+[2023-06-17 05:36:13] INFO root fetch - processPackages [nonebot-plugin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sentry-0.4.1.tar.gz]
+[2023-06-17 05:36:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sentry]: success
+[2023-06-17 05:36:13] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 05:36:13] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 05:36:13] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page]: success
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page-approval]: success
+[2023-06-17 05:36:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_huobi_websocket-0.3.5.tar.gz]
+[2023-06-17 05:36:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_huobi_websocket-0.3.6.tar.gz]
+[2023-06-17 05:36:14] INFO root fetch - main [MainThread]: End processing [bittrade-huobi-websocket]: success
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-06-17 05:36:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-17 05:36:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-06-17 05:36:16] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc4.tar.gz]
+[2023-06-17 05:36:16] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc5.tar.gz]
+[2023-06-17 05:36:16] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 05:36:16] INFO root fetch - main [MainThread]: Store serial: [18540603]
