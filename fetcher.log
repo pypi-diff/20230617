@@ -13768,3 +13768,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:15:35] INFO root fetch - processPackages [webscrapbook]: Remove: archive file [/home/abi/fetcher/tmp/webscrapbook-2.0.1.tar.gz]
 [2023-06-17 15:15:35] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
 [2023-06-17 15:15:35] INFO root fetch - main [MainThread]: Store serial: [18543196]
+[2023-06-17 15:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543196]
+[2023-06-17 15:20:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptlink
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-dependencies
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyais
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-apl
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweatDB
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crunch-cli
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-date-range
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide6-Fluent-Widgets
+[2023-06-17 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: repo-review
+[2023-06-17 15:20:46] INFO root fetch - processPackages [promptlink]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.10] Old Version: [202304.0.8]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [pyais]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [odoo14-addon-date-range]: New version: [14.0.2.1.2.dev5] Old Version: [14.0.2.1.2.dev4]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [repo-review]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-06-17 15:20:46] WARNING root fetch - processPackages [sweatDB]: Skipping, unable to determine old version
+[2023-06-17 15:20:46] INFO root fetch - main [MainThread]: End processing [sweatDB] error
+[2023-06-17 15:20:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [crunch-cli]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.840] Old Version: [0.0.839]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/5e/b5/9ac1e59b25b2cd29c3bd9622a607eaacedbbf881fdf1083190c560a86bf9/nbdev-apl-0.0.839.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/72/cd/84569251dbf07625d7bfb3c699223ac5bea38b607ea482b5b423482bfd07/data_ecosystem_dependencies-202304.0.8.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [odoo14-addon-date-range]: Downloading https://files.pythonhosted.org/packages/ee/8f/4d331d26be2e2d7102f9a7d5802ce13920f028d51d91ec526110ebdd8539/odoo14_addon_date_range-14.0.2.1.2.dev4-py3-none-any.whl
+[2023-06-17 15:20:46] INFO root fetch - processPackages [promptlink]: Downloading https://files.pythonhosted.org/packages/fb/fb/a13538b015d0ec2cec593287d2da6060b0e990b3ad5cf5773ed9f2e830b4/promptlink-0.1.0.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/83/2c/6a5dee6ddfe0898153da918f9e0366e2e13dd2d1a9efafca80e7447ab527/pyais-2.5.4.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/fb/e1/16f6f8f5b105137c20ed1ac1d807fa58b27eec8e9715d4f00a5788f388ca/crunch-cli-1.4.4.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/14/f7/53c589106e0e418fdbefd6e7cbc48c25f6bc0266b3c58aa0a07038a223c9/repo_review-0.7.0b8.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a6/37/6260c5d7bc8026a78e20cc84ffe7a98d34e7e8a0c4cc102d3ab651602d3a/PySide6-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/28/77/5102d8a7203aa2097619d93e50e80956c866c28b114c32857ce77a8acc03/nbdev-apl-0.0.840.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.839.tar.gz tmp/nbdev-apl-0.0.840.tar.gz --markdown 20230617/n/nbdev-apl/0.0.839-0.0.840/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [promptlink]: Downloading https://files.pythonhosted.org/packages/12/3e/fcbbaffb5f1d30ac8ff486a67b297cb1eb277df60d64211ee716ecc8b78c/promptlink-0.1.1.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/35/11/e821e91d973084bceffe740d6ca7fabe9c18ec9638d0cabdf1cb3fb1eedd/data_ecosystem_dependencies-202306.0.10.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [promptlink]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [promptlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlink-0.1.0.tar.gz tmp/promptlink-0.1.1.tar.gz --markdown 20230617/p/promptlink/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/26/35/9f2779e4972c47b558148fb6a8f784e8054fb1dd0ebd1e3f4512e8085260/repo_review-0.7.0b9.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202304.0.8.tar.gz tmp/data_ecosystem_dependencies-202306.0.10.tar.gz --markdown 20230617/d/data-ecosystem-dependencies/202304.0.8-202306.0.10/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/91/f2/1b4529893ed4df42487de3c35c710acb2b8d6fbf65a30943e8a35ae834fd/pyais-2.5.5.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/f3/a7/b4508b046eeeee0dced6255da14681b293e6d9d007038c36fd799180fd5d/crunch-cli-1.5.0.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [pyais]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/96/ea/0a21478b75401c5918ef3b61325e43883813134afb23b730f4bf91b7ae98/PySide6-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-17 15:20:46] INFO root fetch - processPackages [pyais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyais-2.5.4.tar.gz tmp/pyais-2.5.5.tar.gz --markdown 20230617/p/pyais/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230617/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [repo-review]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [repo-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo_review-0.7.0b8.tar.gz tmp/repo_review-0.7.0b9.tar.gz --markdown 20230617/r/repo-review/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.4.4.tar.gz tmp/crunch-cli-1.5.0.tar.gz --markdown 20230617/c/crunch-cli/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-06-17 15:20:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-17 15:20:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.4.tar.gz tmp/PySide6-Fluent-Widgets-0.9.5.tar.gz --markdown 20230617/P/PySide6-Fluent-Widgets/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-17 15:20:47] INFO root fetch - processPackages [odoo14-addon-date-range]: Downloading https://files.pythonhosted.org/packages/57/1b/ebf37725cb8080036cc74db1b9a5bf39061f47e4a8b58ff431227fdf6de4/odoo14_addon_date_range-14.0.2.1.2.dev5-py3-none-any.whl
+[2023-06-17 15:20:47] INFO root fetch - processPackages [odoo14-addon-date-range]: executing diffoscope
+[2023-06-17 15:20:47] INFO root fetch - processPackages [odoo14-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_date_range-14.0.2.1.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_date_range-14.0.2.1.2.dev5-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-date-range/14.0.2.1.2.dev4-14.0.2.1.2.dev5/diff.md --exclude *.pyd
+[2023-06-17 15:20:47] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.839.tar.gz]
+[2023-06-17 15:20:47] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.840.tar.gz]
+[2023-06-17 15:20:47] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-17 15:20:48] INFO root fetch - processPackages [promptlink]: Remove: archive file [/home/abi/fetcher/tmp/promptlink-0.1.0.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - processPackages [promptlink]: Remove: archive file [/home/abi/fetcher/tmp/promptlink-0.1.1.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - main [MainThread]: End processing [promptlink]: success
+[2023-06-17 15:20:48] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202304.0.8.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.10.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-17 15:20:48] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-17 15:20:48] INFO root fetch - processPackages [crunch-cli]: Remove: archive file [/home/abi/fetcher/tmp/crunch-cli-1.4.4.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - processPackages [crunch-cli]: Remove: archive file [/home/abi/fetcher/tmp/crunch-cli-1.5.0.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-06-17 15:20:48] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.7.0b8.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.7.0b9.tar.gz]
+[2023-06-17 15:20:48] INFO root fetch - main [MainThread]: End processing [repo-review]: success
+[2023-06-17 15:20:49] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.5.4.tar.gz]
+[2023-06-17 15:20:49] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.5.5.tar.gz]
+[2023-06-17 15:20:49] INFO root fetch - main [MainThread]: End processing [pyais]: success
+[2023-06-17 15:20:49] INFO root fetch - processPackages [odoo14-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_date_range-14.0.2.1.2.dev4-py3-none-any.whl.zip]
+[2023-06-17 15:20:49] INFO root fetch - processPackages [odoo14-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_date_range-14.0.2.1.2.dev5-py3-none-any.whl.zip]
+[2023-06-17 15:20:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-date-range]: success
+[2023-06-17 15:20:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-17 15:20:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-17 15:20:51] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-17 15:20:51] INFO root fetch - main [MainThread]: Store serial: [18543232]
