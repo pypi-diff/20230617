@@ -18108,3 +18108,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:44:19] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.91.tar.gz]
 [2023-06-17 21:44:19] INFO root fetch - main [MainThread]: End processing [q2gui]: success
 [2023-06-17 21:44:19] INFO root fetch - main [MainThread]: Store serial: [18545533]
+[2023-06-17 21:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545533]
+[2023-06-17 21:49:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prot
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web-ext-helper
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proconip
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serverless-sdk
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoptimum
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tweakpane
+[2023-06-17 21:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libsodium
+[2023-06-17 21:49:28] INFO root fetch - processPackages [serverless-sdk]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [prot]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyoptimum]: New version: [0.3] Old Version: [0.2]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [proconip]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-17 21:49:28] WARNING root fetch - processPackages [web-ext-helper]: Skipping, unable to determine old version
+[2023-06-17 21:49:28] INFO root fetch - main [MainThread]: End processing [web-ext-helper] error
+[2023-06-17 21:49:28] INFO root fetch - processPackages [tweakpane]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [prot]: Downloading https://files.pythonhosted.org/packages/b6/24/d2568ac952afd6bfd260c053c56596d3a494302aee5d23bd15927f77718d/prot-3.9.1.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/0f/d4/a3a774565c09ffeb079581a2e2b681e568b85e461273c0bab4238df4d578/serverless-sdk-0.4.9.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [libsodium]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-06-17 21:49:28] INFO root fetch - processPackages [prot]: Downloading https://files.pythonhosted.org/packages/f2/f5/3430bf6ab37bc4ecfecb9711eeae0db1d38640f43fb887a8ab179f9fc0a4/prot-3.9.2.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyoptimum]: Downloading https://files.pythonhosted.org/packages/5a/d9/47d19c2eb1a357bde235b2ccb47d3aebe439ee3cf37f8915ac0bd7e8d2b9/pyoptimum-0.2.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [prot]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [prot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prot-3.9.1.tar.gz tmp/prot-3.9.2.tar.gz --markdown 20230617/p/prot/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-17 21:49:28] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/49/bc/0d9059338e1104411b791d90a01c29001de355db2d69726e2b93febdae4a/proconip-1.2.2.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/b9/aa/4e1d1111b83fb18f339bedd4df91fd058afd8d7860b256993b59c397f0ed/serverless-sdk-0.5.0.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [tweakpane]: Downloading https://files.pythonhosted.org/packages/27/99/d045f0a635f72ecfb381fcc21adbe83bc4866adb5d9bb2f731636724ff76/tweakpane-0.0.2.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/32/1d/98e0eca0aefd0cdfa68fb75d88c925adb262a97c18a185bac586f983410a/libsodium-2.4.1.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.9.tar.gz tmp/serverless-sdk-0.5.0.tar.gz --markdown 20230617/s/serverless-sdk/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230617/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyoptimum]: Downloading https://files.pythonhosted.org/packages/73/04/c531088d8d159f14680bd6f8038a3eac816d2a9e413fbd5ee361013f3e56/pyoptimum-0.3.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/03/b1/73ca3b19ee28c9e9b40f977a1394ca08603244342ddf7005009b10e6441e/proconip-1.2.3.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.2.tar.gz tmp/proconip-1.2.3.tar.gz --markdown 20230617/p/proconip/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyoptimum]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [pyoptimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptimum-0.2.tar.gz tmp/pyoptimum-0.3.tar.gz --markdown 20230617/p/pyoptimum/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-17 21:49:28] INFO root fetch - processPackages [tweakpane]: Downloading https://files.pythonhosted.org/packages/71/fc/9b42a5091c3b826883844679c941485a33bb17d6f714cbb989a6f9c3a437/tweakpane-0.1.0.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/d4/c1/121fa7dfdd60510fed3d7e5561781c505d6d9e8618f5e84190e13f43fb22/libsodium-2.5.0.tar.gz
+[2023-06-17 21:49:28] INFO root fetch - processPackages [tweakpane]: executing diffoscope
+[2023-06-17 21:49:28] INFO root fetch - processPackages [tweakpane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweakpane-0.0.2.tar.gz tmp/tweakpane-0.1.0.tar.gz --markdown 20230617/t/tweakpane/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 21:49:29] INFO root fetch - processPackages [libsodium]: executing diffoscope
+[2023-06-17 21:49:29] INFO root fetch - processPackages [libsodium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsodium-2.4.1.tar.gz tmp/libsodium-2.5.0.tar.gz --markdown 20230617/l/libsodium/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-06-17 21:49:29] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-17 21:49:29] INFO root fetch - processPackages [prot]: Remove: archive file [/home/abi/fetcher/tmp/prot-3.9.1.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - processPackages [prot]: Remove: archive file [/home/abi/fetcher/tmp/prot-3.9.2.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - main [MainThread]: End processing [prot]: success
+[2023-06-17 21:49:29] INFO root fetch - processPackages [pyoptimum]: Remove: archive file [/home/abi/fetcher/tmp/pyoptimum-0.2.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - processPackages [pyoptimum]: Remove: archive file [/home/abi/fetcher/tmp/pyoptimum-0.3.tar.gz]
+[2023-06-17 21:49:29] INFO root fetch - main [MainThread]: End processing [pyoptimum]: success
+[2023-06-17 21:49:30] INFO root fetch - processPackages [tweakpane]: Remove: archive file [/home/abi/fetcher/tmp/tweakpane-0.0.2.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - processPackages [tweakpane]: Remove: archive file [/home/abi/fetcher/tmp/tweakpane-0.1.0.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - main [MainThread]: End processing [tweakpane]: success
+[2023-06-17 21:49:30] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.2.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.3.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-17 21:49:30] INFO root fetch - processPackages [serverless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-sdk-0.4.9.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - processPackages [serverless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-sdk-0.5.0.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-06-17 21:49:30] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.4.1.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.5.0.tar.gz]
+[2023-06-17 21:49:30] INFO root fetch - main [MainThread]: End processing [libsodium]: success
+[2023-06-17 21:49:30] INFO root fetch - main [MainThread]: Store serial: [18545562]
