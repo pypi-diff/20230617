@@ -6222,3 +6222,33 @@
 [2023-06-17 04:15:51] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1534.tar.gz]
 [2023-06-17 04:15:51] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-06-17 04:15:51] INFO root fetch - main [MainThread]: Store serial: [18540163]
+[2023-06-17 04:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540163]
+[2023-06-17 04:21:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 04:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usda-dashboard
+[2023-06-17 04:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asitop
+[2023-06-17 04:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmfs
+[2023-06-17 04:21:01] INFO root fetch - processPackages [asitop]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 04:21:01] INFO root fetch - processPackages [usda-dashboard]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-17 04:21:01] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5141]
+[2023-06-17 04:21:01] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/96/7e/7e299240391965efc21f95adcec939f626c3d41972c4173b2601a964fb57/usda_dashboard-0.0.1.tar.gz
+[2023-06-17 04:21:01] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/57/6b/0a722186757170c572bf8d0ecc1cebf1a54754872aaa3c4261a53406e11d/hmfs-1.1.5141.tar.gz
+[2023-06-17 04:21:01] INFO root fetch - processPackages [asitop]: Downloading https://files.pythonhosted.org/packages/69/de/3b1815f75672fcb68c2de14c89d9a388faf12c24a87e525e8333d9c08df1/asitop-0.0.7.tar.gz
+[2023-06-17 04:21:01] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-06-17 04:21:01] INFO root fetch - processPackages [asitop]: Downloading https://files.pythonhosted.org/packages/df/9e/a7b3aaee34a6378b3d5d4d51f3070b55b4c67575d926686a1d5ff5d928a0/asitop-0.0.8.tar.gz
+[2023-06-17 04:21:01] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-06-17 04:21:01] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5141.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230617/h/hmfs/1.1.5141-1.1.6/diff.md --exclude *.pyd
+[2023-06-17 04:21:01] INFO root fetch - processPackages [asitop]: executing diffoscope
+[2023-06-17 04:21:01] INFO root fetch - processPackages [asitop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asitop-0.0.7.tar.gz tmp/asitop-0.0.8.tar.gz --markdown 20230617/a/asitop/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 04:21:02] INFO root fetch - processPackages [asitop]: Remove: archive file [/home/abi/fetcher/tmp/asitop-0.0.7.tar.gz]
+[2023-06-17 04:21:02] INFO root fetch - processPackages [asitop]: Remove: archive file [/home/abi/fetcher/tmp/asitop-0.0.8.tar.gz]
+[2023-06-17 04:21:02] INFO root fetch - main [MainThread]: End processing [asitop]: success
+[2023-06-17 04:21:03] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/04/59/a77b4d34c80978936d9e2c3ed7ed75a76979e6e5b6453ae20f0a0c5ce9dc/usda_dashboard-0.0.3.tar.gz
+[2023-06-17 04:21:03] INFO root fetch - processPackages [usda-dashboard]: executing diffoscope
+[2023-06-17 04:21:03] INFO root fetch - processPackages [usda-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda_dashboard-0.0.1.tar.gz tmp/usda_dashboard-0.0.3.tar.gz --markdown 20230617/u/usda-dashboard/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 04:21:05] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.5141.tar.gz]
+[2023-06-17 04:21:05] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
+[2023-06-17 04:21:05] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-06-17 04:21:06] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.1.tar.gz]
+[2023-06-17 04:21:06] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.3.tar.gz]
+[2023-06-17 04:21:06] INFO root fetch - main [MainThread]: End processing [usda-dashboard]: success
+[2023-06-17 04:21:06] INFO root fetch - main [MainThread]: Store serial: [18540175]
