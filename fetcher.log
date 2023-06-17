@@ -17910,3 +17910,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:17:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.2.tar.gz]
 [2023-06-17 21:17:27] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-06-17 21:17:27] INFO root fetch - main [MainThread]: Store serial: [18545415]
+[2023-06-17 21:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545415]
+[2023-06-17 21:22:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 21:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rest-OC
+[2023-06-17 21:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SynGenes
+[2023-06-17 21:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q2gui
+[2023-06-17 21:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoflow
+[2023-06-17 21:22:36] WARNING root fetch - processPackages [SynGenes]: Skipping, unable to determine old version
+[2023-06-17 21:22:36] INFO root fetch - main [MainThread]: End processing [SynGenes] error
+[2023-06-17 21:22:36] WARNING root fetch - processPackages [ecoflow]: Skipping, unable to determine old version
+[2023-06-17 21:22:36] INFO root fetch - main [MainThread]: End processing [ecoflow] error
+[2023-06-17 21:22:36] INFO root fetch - processPackages [Rest-OC]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-17 21:22:36] INFO root fetch - processPackages [q2gui]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-06-17 21:22:36] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/b5/70/466f2fbec4a72f00c6f07fdce89a2bfb0a1200b6742c61d2c09e405775c6/q2gui-0.1.9.tar.gz
+[2023-06-17 21:22:36] INFO root fetch - processPackages [Rest-OC]: Downloading https://files.pythonhosted.org/packages/be/14/43ac7c14d409b65bc5ff41b2e9600ad32933cfb7104de5ddb09497e780bf/Rest-OC-1.2.3.tar.gz
+[2023-06-17 21:22:37] INFO root fetch - processPackages [Rest-OC]: Downloading https://files.pythonhosted.org/packages/ee/99/a618d19786b1c66e9cfd186fe4c38dbe87bd875783fdea8267f5ffbce53c/Rest-OC-1.2.4.tar.gz
+[2023-06-17 21:22:37] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/93/63/e970e2936a25d8da35ebdf3eff9a9d587e4c513e9246480feb0b188b59a8/q2gui-0.1.90.tar.gz
+[2023-06-17 21:22:37] INFO root fetch - processPackages [Rest-OC]: executing diffoscope
+[2023-06-17 21:22:37] INFO root fetch - processPackages [Rest-OC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rest-OC-1.2.3.tar.gz tmp/Rest-OC-1.2.4.tar.gz --markdown 20230617/R/Rest-OC/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-17 21:22:37] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-06-17 21:22:37] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.9.tar.gz tmp/q2gui-0.1.90.tar.gz --markdown 20230617/q/q2gui/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-06-17 21:22:38] INFO root fetch - processPackages [Rest-OC]: Remove: archive file [/home/abi/fetcher/tmp/Rest-OC-1.2.3.tar.gz]
+[2023-06-17 21:22:38] INFO root fetch - processPackages [Rest-OC]: Remove: archive file [/home/abi/fetcher/tmp/Rest-OC-1.2.4.tar.gz]
+[2023-06-17 21:22:38] INFO root fetch - main [MainThread]: End processing [Rest-OC]: success
+[2023-06-17 21:22:38] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.9.tar.gz]
+[2023-06-17 21:22:38] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.90.tar.gz]
+[2023-06-17 21:22:38] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-06-17 21:22:38] INFO root fetch - main [MainThread]: Store serial: [18545431]
