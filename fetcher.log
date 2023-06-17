@@ -7818,3 +7818,32 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:51:53] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl.zip]
 [2023-06-17 05:51:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
 [2023-06-17 05:51:53] INFO root fetch - main [MainThread]: Store serial: [18540666]
+[2023-06-17 05:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540666]
+[2023-06-17 05:57:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holy-diver
+[2023-06-17 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenopy
+[2023-06-17 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skulk
+[2023-06-17 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mathtranslate
+[2023-06-17 05:57:01] INFO root fetch - processPackages [skulk]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-06-17 05:57:01] WARNING root fetch - processPackages [holy-diver]: Skipping, unable to determine old version
+[2023-06-17 05:57:01] INFO root fetch - main [MainThread]: End processing [holy-diver] error
+[2023-06-17 05:57:01] INFO root fetch - processPackages [phenopy]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-17 05:57:01] INFO root fetch - processPackages [mathtranslate]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-17 05:57:01] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/2f/03/5dddc92babb6ea90b2471111d61bd153588c3ff537d6dc2ab6ac12f2f461/mathtranslate-2.4.2.tar.gz
+[2023-06-17 05:57:01] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/dd/dc/c5caa51360e4468e758afc6365aaf757954a17f232efb01a148e957984a4/skulk-2.1.6-py2.py3-none-any.whl
+[2023-06-17 05:57:01] INFO root fetch - processPackages [phenopy]: Downloading https://files.pythonhosted.org/packages/b5/49/69dddb143c9e29f36947d6b53323c43f74cce0d4ce536d7c1431c70bd031/phenopy-0.5.4.tar.gz
+[2023-06-17 05:57:02] WARNING root fetch - processPackages [phenopy]: Skipping package: exceeds size limit 12960277>=10485760
+[2023-06-17 05:57:02] INFO root fetch - main [MainThread]: End processing [phenopy] error
+[2023-06-17 05:57:02] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/ee/da/cc4315ace957da1c57224f1ff1b9457b04530035279259d046cb72c39e0b/skulk-2.1.7-py2.py3-none-any.whl
+[2023-06-17 05:57:02] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/99/2f/292e7bfd254989a1dd73cc32a25b799e5354f23f3e33c208f4c521f4fd9b/mathtranslate-2.4.3.tar.gz
+[2023-06-17 05:57:02] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-06-17 05:57:02] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-2.1.6-py2.py3-none-any.whl.zip tmp/skulk-2.1.7-py2.py3-none-any.whl.zip --markdown 20230617/s/skulk/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-06-17 05:57:02] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-06-17 05:57:02] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.4.2.tar.gz tmp/mathtranslate-2.4.3.tar.gz --markdown 20230617/m/mathtranslate/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-17 05:57:03] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.6-py2.py3-none-any.whl.zip]
+[2023-06-17 05:57:03] INFO root fetch - processPackages [skulk]: Remove: archive file [/home/abi/fetcher/tmp/skulk-2.1.7-py2.py3-none-any.whl.zip]
+[2023-06-17 05:57:03] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-06-17 05:57:03] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-2.4.2.tar.gz]
+[2023-06-17 05:57:03] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-2.4.3.tar.gz]
+[2023-06-17 05:57:03] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-06-17 05:57:03] INFO root fetch - main [MainThread]: Store serial: [18540679]
