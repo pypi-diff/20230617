@@ -17254,3 +17254,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:57:47] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.1.tar.gz]
 [2023-06-17 19:57:47] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
 [2023-06-17 19:57:47] INFO root fetch - main [MainThread]: Store serial: [18545060]
+[2023-06-17 20:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545060]
+[2023-06-17 20:02:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 20:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yid-langchain-extensions
+[2023-06-17 20:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kp-compression
+[2023-06-17 20:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-core
+[2023-06-17 20:02:55] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-17 20:02:55] INFO root fetch - processPackages [kp-compression]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 20:02:55] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-17 20:02:55] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/95/db/75430282a4b0b077184ee557a13e5fb12c4976eb8fcf3d526f3722ad4a77/yid_langchain_extensions-0.4.4.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [kp-compression]: Downloading https://files.pythonhosted.org/packages/f2/c1/e92be28246b6be9e5714e0136edd2694822f249f07c0cdb9739d8520edc3/kp_compression-0.2.5.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/c4/ce/4b00ec0eebe7c0c7829e2b2e6e62d00d08d96fe58741e7dbf8100f0ac698/yid_langchain_extensions-0.4.5.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-17 20:02:56] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230617/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 20:02:56] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-17 20:02:56] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.4.tar.gz tmp/yid_langchain_extensions-0.4.5.tar.gz --markdown 20230617/y/yid-langchain-extensions/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-17 20:02:56] INFO root fetch - processPackages [kp-compression]: Downloading https://files.pythonhosted.org/packages/53/91/2579be3323bff2a03ef5f194b1e2d975448830637c31f5bdfbf13279b2c8/kp_compression-0.2.6.tar.gz
+[2023-06-17 20:02:56] INFO root fetch - processPackages [kp-compression]: executing diffoscope
+[2023-06-17 20:02:56] INFO root fetch - processPackages [kp-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kp_compression-0.2.5.tar.gz tmp/kp_compression-0.2.6.tar.gz --markdown 20230617/k/kp-compression/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 20:02:57] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.4.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.5.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-17 20:02:57] INFO root fetch - processPackages [kp-compression]: Remove: archive file [/home/abi/fetcher/tmp/kp_compression-0.2.5.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - processPackages [kp-compression]: Remove: archive file [/home/abi/fetcher/tmp/kp_compression-0.2.6.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - main [MainThread]: End processing [kp-compression]: success
+[2023-06-17 20:02:57] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-17 20:02:57] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-17 20:02:57] INFO root fetch - main [MainThread]: Store serial: [18545069]
