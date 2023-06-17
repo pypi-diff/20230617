@@ -10498,3 +10498,66 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:33:07] INFO root fetch - processPackages [litebird-sim]: Remove: archive file [/home/abi/fetcher/tmp/litebird_sim-0.9.0.tar.gz]
 [2023-06-17 10:33:07] INFO root fetch - main [MainThread]: End processing [litebird-sim]: success
 [2023-06-17 10:33:07] INFO root fetch - main [MainThread]: Store serial: [18541791]
+[2023-06-17 10:38:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541791]
+[2023-06-17 10:38:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynocaptcha
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idoctorai
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geomat
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socialist-core-values
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bs-admin-utils
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tajik-text-segmentation
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-estimator-nightly
+[2023-06-17 10:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xtuples
+[2023-06-17 10:38:17] INFO root fetch - processPackages [tajik-text-segmentation]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 10:38:17] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 10:38:17] INFO root fetch - processPackages [xtuples]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 10:38:17] INFO root fetch - processPackages [idoctorai]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-17 10:38:17] WARNING root fetch - processPackages [socialist-core-values]: Skipping, unable to determine old version
+[2023-06-17 10:38:17] INFO root fetch - main [MainThread]: End processing [socialist-core-values] error
+[2023-06-17 10:38:17] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-17 10:38:17] WARNING root fetch - processPackages [geomat]: Skipping, unable to determine old version
+[2023-06-17 10:38:17] INFO root fetch - main [MainThread]: End processing [geomat] error
+[2023-06-17 10:38:17] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-17 10:38:17] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/18/74/5c9af520ec4670361952befedd14b0fb190a06a379a88f4fee2f3d769661/xtuples-0.0.3.tar.gz
+[2023-06-17 10:38:17] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/30/b8/53238268fc13fd52420f6db00a45808fd41bd377b8b21da83eb167c7dd78/idoctorai-0.4.8.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tajik-text-segmentation]: Downloading https://files.pythonhosted.org/packages/97/bd/bc1397ce996beb4c6d57f568a52e4bd820e65262fe74da1120ac24cbfb64/tajik_text_segmentation-0.1.4.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/99/ee/0e4d04a97bc0a5e683556cb661aea8833b6d61fad79df3085f492a53a1d2/bs_admin_utils-1.1.1.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/5f/f4/dc91321d7e615aa9f1d74735657c96443e97db2184e4b6213a7a6b3e5861/xtuples-0.0.4.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/48/a9/2163d1ae362ea2dcf25bec51bfbf311c480841cab4f896ce35b4ef412058/pynocaptcha-1.5.4.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-17 10:38:18] INFO root fetch - processPackages [xtuples]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [xtuples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuples-0.0.3.tar.gz tmp/xtuples-0.0.4.tar.gz --markdown 20230617/x/xtuples/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 10:38:18] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/92/9c/922d41cce50c2f696449597cc6f0b108b6dac2b06eeefdcab0c3c54bbbaa/idoctorai-0.4.9.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.8.tar.gz tmp/idoctorai-0.4.9.tar.gz --markdown 20230617/i/idoctorai/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-17 10:38:18] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/30/f8/52e63967ce50908314271585f47a0e13573353033ea96f08508e767092d6/pynocaptcha-1.5.5.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tajik-text-segmentation]: Downloading https://files.pythonhosted.org/packages/82/7d/2728627f54f520fbfa7fbc3212ed29a598727e22c533fac28a95e809d75f/tajik_text_segmentation-0.1.5.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/0d/c7/0d4eba972cbf3bca5ee76d3a70019c7289ec8197ba659865c84cd1eb5110/bs_admin_utils-1.1.2.tar.gz
+[2023-06-17 10:38:18] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.4.tar.gz tmp/pynocaptcha-1.5.5.tar.gz --markdown 20230617/p/pynocaptcha/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230617/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tajik-text-segmentation]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [tajik-text-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tajik_text_segmentation-0.1.4.tar.gz tmp/tajik_text_segmentation-0.1.5.tar.gz --markdown 20230617/t/tajik-text-segmentation/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 10:38:18] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-17 10:38:18] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.1.1.tar.gz tmp/bs_admin_utils-1.1.2.tar.gz --markdown 20230617/b/bs-admin-utils/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 10:38:19] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.3.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.4.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - main [MainThread]: End processing [xtuples]: success
+[2023-06-17 10:38:19] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.8.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.9.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 10:38:19] INFO root fetch - processPackages [tajik-text-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/tajik_text_segmentation-0.1.4.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - processPackages [tajik-text-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/tajik_text_segmentation-0.1.5.tar.gz]
+[2023-06-17 10:38:19] INFO root fetch - main [MainThread]: End processing [tajik-text-segmentation]: success
+[2023-06-17 10:38:20] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.4.tar.gz]
+[2023-06-17 10:38:20] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.5.tar.gz]
+[2023-06-17 10:38:20] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-17 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-17 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-17 10:38:20] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-17 10:38:20] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.1.tar.gz]
+[2023-06-17 10:38:20] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.2.tar.gz]
+[2023-06-17 10:38:20] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-17 10:38:20] INFO root fetch - main [MainThread]: Store serial: [18541818]
