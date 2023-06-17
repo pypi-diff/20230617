@@ -2020,3 +2020,51 @@
 [2023-06-17 02:35:05] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.2.tar.gz]
 [2023-06-17 02:35:05] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
 [2023-06-17 02:35:05] INFO root fetch - main [MainThread]: Store serial: [18538662]
+[2023-06-17 02:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538662]
+[2023-06-17 02:40:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 02:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-17 02:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kultimate
+[2023-06-17 02:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lispi
+[2023-06-17 02:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-17 02:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: state-machine-semaphore
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-17 02:40:15] INFO root fetch - processPackages [kultimate]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:40:15] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/ee/24/90e8fd0c48cce0a58d16cd6f570e781220c12bc03fb1da0d8da73039a68b/kultimate-0.2.2.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [lispi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 02:40:15] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/19/de/e3e6fd0a7f7c0a15f6fb959ac92e7ad09b6bd049e476f8f0a00a5679cc9d/lispi-0.0.6.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/da/ee/3e702d409a537987aa52c246a6709cddaf63dfe5c86317b7cbdc6b58713f/kultimate-0.2.3.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/38/eb/b1cd8a87e51270d3fdbbcd30b8c6058c9e4db892d76adcbbd449725f6d79/lispi-0.0.7.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-17 02:40:15] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.2.tar.gz tmp/kultimate-0.2.3.tar.gz --markdown 20230617/k/kultimate/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-17 02:40:15] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-17 02:40:15] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230617/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:40:15] INFO root fetch - processPackages [lispi]: executing diffoscope
+[2023-06-17 02:40:15] INFO root fetch - processPackages [lispi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lispi-0.0.6.tar.gz tmp/lispi-0.0.7.tar.gz --markdown 20230617/l/lispi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 02:40:15] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-17 02:40:16] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-17 02:40:16] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230617/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-17 02:40:16] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-17 02:40:16] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230617/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:40:16] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-17 02:40:16] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-17 02:40:16] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-17 02:40:16] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.2.tar.gz]
+[2023-06-17 02:40:16] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.3.tar.gz]
+[2023-06-17 02:40:16] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-17 02:40:17] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.6.tar.gz]
+[2023-06-17 02:40:17] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.7.tar.gz]
+[2023-06-17 02:40:17] INFO root fetch - main [MainThread]: End processing [lispi]: success
+[2023-06-17 02:40:18] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-17 02:40:18] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-17 02:40:18] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-17 02:40:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-17 02:40:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-17 02:40:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-17 02:40:18] INFO root fetch - main [MainThread]: Store serial: [18538678]
