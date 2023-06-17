@@ -9561,3 +9561,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:32:14] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc8.tar.gz]
 [2023-06-17 08:32:14] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-17 08:32:14] INFO root fetch - main [MainThread]: Store serial: [18541382]
+[2023-06-17 08:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541382]
+[2023-06-17 08:37:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiovantage
+[2023-06-17 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-limit
+[2023-06-17 08:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hrin-msb
+[2023-06-17 08:37:23] INFO root fetch - processPackages [redis-limit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 08:37:23] INFO root fetch - processPackages [aiovantage]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-17 08:37:23] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.81]
+[2023-06-17 08:37:23] INFO root fetch - processPackages [redis-limit]: Downloading https://files.pythonhosted.org/packages/91/bc/bb1b1ad472758006103a3fe1039daf5b793d37658e5ae74af4d8a37b70a0/redis-limit-0.0.2.tar.gz
+[2023-06-17 08:37:23] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/00/53/05e6284e707e5752adf68ac2565d857758434db4a11c093537496bca14e6/hrin_msb-0.2.81.tar.gz
+[2023-06-17 08:37:23] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/79/b4/898c262c1c5698a5f51c15a1860f9347219ad117c386a1a79e409c30df1a/aiovantage-0.1.1.tar.gz
+[2023-06-17 08:37:24] INFO root fetch - processPackages [redis-limit]: Downloading https://files.pythonhosted.org/packages/61/5a/b506ff5bc10c9fd3250356c5e8d9895ec2869489237f4ab0089fe0dd23dd/redis-limit-0.0.3.tar.gz
+[2023-06-17 08:37:24] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/aa/04/a59ac5fa4139df60f55479dc65224182c9d3cb6cff3d87059187e5c54ca8/aiovantage-0.2.0.tar.gz
+[2023-06-17 08:37:24] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-06-17 08:37:24] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.1.1.tar.gz tmp/aiovantage-0.2.0.tar.gz --markdown 20230617/a/aiovantage/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 08:37:25] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-17 08:37:25] INFO root fetch - processPackages [redis-limit]: executing diffoscope
+[2023-06-17 08:37:25] INFO root fetch - processPackages [redis-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-limit-0.0.2.tar.gz tmp/redis-limit-0.0.3.tar.gz --markdown 20230617/r/redis-limit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 08:37:25] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-17 08:37:25] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.81.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230617/h/hrin-msb/0.2.81-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 08:37:25] INFO root fetch - processPackages [redis-limit]: Remove: archive file [/home/abi/fetcher/tmp/redis-limit-0.0.2.tar.gz]
+[2023-06-17 08:37:25] INFO root fetch - processPackages [redis-limit]: Remove: archive file [/home/abi/fetcher/tmp/redis-limit-0.0.3.tar.gz]
+[2023-06-17 08:37:25] INFO root fetch - main [MainThread]: End processing [redis-limit]: success
+[2023-06-17 08:37:26] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.1.1.tar.gz]
+[2023-06-17 08:37:26] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.0.tar.gz]
+[2023-06-17 08:37:26] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-06-17 08:37:26] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.81.tar.gz]
+[2023-06-17 08:37:26] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-17 08:37:26] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-17 08:37:26] INFO root fetch - main [MainThread]: Store serial: [18541391]
