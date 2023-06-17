@@ -17985,3 +17985,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:27:51] INFO root fetch - processPackages [dustpy]: Remove: archive file [/home/abi/fetcher/tmp/dustpy-1.0.4rc0.tar.gz]
 [2023-06-17 21:27:51] INFO root fetch - main [MainThread]: End processing [dustpy]: success
 [2023-06-17 21:27:51] INFO root fetch - main [MainThread]: Store serial: [18545447]
+[2023-06-17 21:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545447]
+[2023-06-17 21:33:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gungnir
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotPython
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dustpylib
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usearch
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artd-price-list
+[2023-06-17 21:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-yaojh
+[2023-06-17 21:33:00] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-17 21:33:00] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-17 21:33:00] WARNING root fetch - processPackages [gungnir]: Skipping, unable to determine old version
+[2023-06-17 21:33:00] INFO root fetch - main [MainThread]: End processing [gungnir] error
+[2023-06-17 21:33:00] INFO root fetch - processPackages [dustpylib]: New version: [0.5.0rc0] Old Version: [0.5.0]
+[2023-06-17 21:33:01] WARNING root fetch - processPackages [example-package-yaojh]: Skipping, unable to determine old version
+[2023-06-17 21:33:01] INFO root fetch - main [MainThread]: End processing [example-package-yaojh] error
+[2023-06-17 21:33:01] WARNING root fetch - processPackages [artd-price-list]: Skipping, unable to determine old version
+[2023-06-17 21:33:01] INFO root fetch - main [MainThread]: End processing [artd-price-list] error
+[2023-06-17 21:33:01] INFO root fetch - processPackages [usearch]: New version: [0.9.7] Old Version: [0.5.1]
+[2023-06-17 21:33:01] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/41/df/6159bb20fe38265648324546bbeaf0b2a4fe35131050c104485bf22edd5a/dustpylib-0.5.0.tar.gz
+[2023-06-17 21:33:01] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/2a/c9/b25987d4526f4f83d81623c1986139f98f49d284351df0f377a33e5a1cd7/usearch-0.5.1-cp39-cp39-win_amd64.whl
+[2023-06-17 21:33:01] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-17 21:33:01] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-17 21:33:01] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230617/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 21:33:01] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-17 21:33:01] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/1d/4e/b1c6c9e450de72b106aa82b4711063b7937fd3c9943c82827d18ced11bf4/dustpylib-0.5.0rc0.tar.gz
+[2023-06-17 21:33:02] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-06-17 21:33:02] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230617/u/usearch/0.5.1-0.9.7/diff.md --exclude *.pyd
+[2023-06-17 21:33:02] INFO root fetch - processPackages [dustpylib]: executing diffoscope
+[2023-06-17 21:33:02] INFO root fetch - processPackages [dustpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustpylib-0.5.0.tar.gz tmp/dustpylib-0.5.0rc0.tar.gz --markdown 20230617/d/dustpylib/0.5.0-0.5.0rc0/diff.md --exclude *.pyd
+[2023-06-17 21:33:03] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 21:33:03] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-17 21:33:03] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-06-17 21:33:13] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-17 21:33:13] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-17 21:33:13] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-17 21:33:55] INFO root fetch - processPackages [dustpylib]: Remove: archive file [/home/abi/fetcher/tmp/dustpylib-0.5.0.tar.gz]
+[2023-06-17 21:33:55] INFO root fetch - processPackages [dustpylib]: Remove: archive file [/home/abi/fetcher/tmp/dustpylib-0.5.0rc0.tar.gz]
+[2023-06-17 21:33:55] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
+[2023-06-17 21:33:55] INFO root fetch - main [MainThread]: Store serial: [18545498]
