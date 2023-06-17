@@ -7630,3 +7630,68 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:36:16] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc5.tar.gz]
 [2023-06-17 05:36:16] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-17 05:36:16] INFO root fetch - main [MainThread]: Store serial: [18540603]
+[2023-06-17 05:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540603]
+[2023-06-17 05:41:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasoner-validator
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carefree-toolkit
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-delivery
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opencv-python-rolling
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transformers-supporter
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evadb
+[2023-06-17 05:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gorilla-cli
+[2023-06-17 05:41:25] INFO root fetch - processPackages [reasoner-validator]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [carefree-toolkit]: New version: [0.3.6.4] Old Version: [0.3.6.3]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.7.1.1.dev1] Old Version: [14.0.7.1.0]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev1]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-17 05:41:25] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-17 05:41:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/c2/b9/f9a6ca829d8ea2cfa9d93d9bb842844fb7d10e056895af62512453ab826d/odoo14_addon_l10n_br_account-14.0.7.1.0-py3-none-any.whl
+[2023-06-17 05:41:25] WARNING root fetch - processPackages [gorilla-cli]: Skipping, unable to determine old version
+[2023-06-17 05:41:25] INFO root fetch - main [MainThread]: End processing [gorilla-cli] error
+[2023-06-17 05:41:25] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/0c/aa/4fb3946b5f3c187d8c3ce029afad65655a577fe0d309d1c0b920f5b35d88/reasoner_validator-3.5.8.tar.gz
+[2023-06-17 05:41:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: Downloading https://files.pythonhosted.org/packages/32/67/c6060911a95c7f493b0cd8e9efdaf4ce680d51eb263c50e4675e8074473c/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-17 05:41:25] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-17 05:41:25] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/78/e0/43a9f2df448676b2409554593c8aab595a647ad5503e19d76ede9d5e72e7/carefree-toolkit-0.3.6.3.tar.gz
+[2023-06-17 05:41:25] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-17 05:41:25] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-17 05:41:25] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-17 05:41:25] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230617/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/73/fb/159c80b43b3dc1dc27675502c490ab11818469ddde18eafac2895c6c9c31/odoo14_addon_l10n_br_account-14.0.7.1.1.dev1-py3-none-any.whl
+[2023-06-17 05:41:26] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/fa/b9/e69dd29ab69970d89dd38884491c20a8e9221ab2acf98d0c9453344a77e3/reasoner_validator-3.5.9.tar.gz
+[2023-06-17 05:41:26] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/43/f0/ecaa7e814d9a5cdb455b5197315a07c29ef74eb34ae9f7562874fd5c636d/carefree-toolkit-0.3.6.4.tar.gz
+[2023-06-17 05:41:26] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-17 05:41:26] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.8.tar.gz tmp/reasoner_validator-3.5.9.tar.gz --markdown 20230617/r/reasoner-validator/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: Downloading https://files.pythonhosted.org/packages/a7/32/0a8dd61503539f4a7d00e49cc8e7ac59d987c211b4d307f6e4751444a2f6/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.7.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.7.1.1.dev1-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-l10n-br-account/14.0.7.1.0-14.0.7.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-17 05:41:26] INFO root fetch - processPackages [carefree-toolkit]: executing diffoscope
+[2023-06-17 05:41:26] INFO root fetch - processPackages [carefree-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-toolkit-0.3.6.3.tar.gz tmp/carefree-toolkit-0.3.6.4.tar.gz --markdown 20230617/c/carefree-toolkit/0.3.6.3-0.3.6.4/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-17 05:41:26] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230617/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: executing diffoscope
+[2023-06-17 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-l10n-br-delivery/14.0.1.1.1.dev1-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-17 05:41:26] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-06-17 05:41:26] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-06-17 05:41:27] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-17 05:41:27] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.8.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.9.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-17 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-17 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_delivery-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-06-17 05:41:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-delivery]: success
+[2023-06-17 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.0-py3-none-any.whl.zip]
+[2023-06-17 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-17 05:41:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-17 05:41:27] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.3.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.4.tar.gz]
+[2023-06-17 05:41:27] INFO root fetch - main [MainThread]: End processing [carefree-toolkit]: success
+[2023-06-17 05:41:30] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-17 05:41:30] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-17 05:41:30] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-17 05:41:30] INFO root fetch - main [MainThread]: Store serial: [18540627]
