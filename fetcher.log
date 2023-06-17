@@ -19064,3 +19064,18 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:05:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306172100-py3-none-any.whl.zip]
 [2023-06-17 23:05:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-17 23:05:00] INFO root fetch - main [MainThread]: Store serial: [18545897]
+[2023-06-17 23:10:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545897]
+[2023-06-17 23:10:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 23:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-codeblock-include
+[2023-06-17 23:10:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authro
+[2023-06-17 23:10:11] INFO root fetch - processPackages [pandoc-codeblock-include]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-17 23:10:11] WARNING root fetch - processPackages [authro]: Skipping, unable to determine old version
+[2023-06-17 23:10:11] INFO root fetch - main [MainThread]: End processing [authro] error
+[2023-06-17 23:10:11] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/19/34/ee9d8420a590a4b12d5095f9cfd53d8acedf0e3a3f7cf04a7da7c52c163f/pandoc-codeblock-include-0.1.1.tar.gz
+[2023-06-17 23:10:12] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/c3/02/035da1a31d6a5e929387f6ac083514ccf89f6784707a2f73bdb74dbb8429/pandoc_codeblock_include-1.0.0.tar.gz
+[2023-06-17 23:10:12] INFO root fetch - processPackages [pandoc-codeblock-include]: executing diffoscope
+[2023-06-17 23:10:12] INFO root fetch - processPackages [pandoc-codeblock-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-codeblock-include-0.1.1.tar.gz tmp/pandoc_codeblock_include-1.0.0.tar.gz --markdown 20230617/p/pandoc-codeblock-include/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 23:10:13] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-codeblock-include-0.1.1.tar.gz]
+[2023-06-17 23:10:13] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.0.tar.gz]
+[2023-06-17 23:10:13] INFO root fetch - main [MainThread]: End processing [pandoc-codeblock-include]: success
+[2023-06-17 23:10:13] INFO root fetch - main [MainThread]: Store serial: [18545905]
