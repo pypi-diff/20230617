@@ -18210,3 +18210,32 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:54:44] INFO root fetch - processPackages [octomachinery]: Remove: archive file [/home/abi/fetcher/tmp/octomachinery-0.3.7.tar.gz]
 [2023-06-17 21:54:44] INFO root fetch - main [MainThread]: End processing [octomachinery]: success
 [2023-06-17 21:54:44] INFO root fetch - main [MainThread]: Store serial: [18545576]
+[2023-06-17 21:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545576]
+[2023-06-17 21:59:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 21:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: portable-wisdom
+[2023-06-17 21:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2023-06-17 21:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caafe
+[2023-06-17 21:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isTrue
+[2023-06-17 21:59:54] INFO root fetch - processPackages [caafe]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 21:59:54] INFO root fetch - processPackages [portable-wisdom]: New version: [1.0] Old Version: [0.9]
+[2023-06-17 21:59:54] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-17 21:59:54] WARNING root fetch - processPackages [isTrue]: Skipping, unable to determine old version
+[2023-06-17 21:59:54] INFO root fetch - main [MainThread]: End processing [isTrue] error
+[2023-06-17 21:59:54] INFO root fetch - processPackages [caafe]: Downloading https://files.pythonhosted.org/packages/a6/ea/eb561d3337c04e756c2d35ac78b74a5b29a8a97916beb626746dcb6cc50b/caafe-0.1.5.tar.gz
+[2023-06-17 21:59:54] INFO root fetch - processPackages [portable-wisdom]: Downloading https://files.pythonhosted.org/packages/bb/d2/2fec1a83ce020fa18b1cc245c2ccb155ef33f8dd791b1fd8146d485e86d4/portable_wisdom-0.9.tar.gz
+[2023-06-17 21:59:54] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-17 21:59:54] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-17 21:59:54] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-17 21:59:54] INFO root fetch - processPackages [caafe]: Downloading https://files.pythonhosted.org/packages/64/74/5074d0728b05d2f46a0be6196a89f0041302a32cb2817b8bd6dc5fba0fff/caafe-0.1.6.tar.gz
+[2023-06-17 21:59:54] INFO root fetch - processPackages [caafe]: executing diffoscope
+[2023-06-17 21:59:54] INFO root fetch - processPackages [portable-wisdom]: Downloading https://files.pythonhosted.org/packages/44/ed/6a67777cd3d042143e05e78e5b7cd1c4ffc9204ed64250780edb32dd1446/portable_wisdom-1.0.tar.gz
+[2023-06-17 21:59:54] INFO root fetch - processPackages [caafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caafe-0.1.5.tar.gz tmp/caafe-0.1.6.tar.gz --markdown 20230617/c/caafe/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 21:59:54] INFO root fetch - processPackages [portable-wisdom]: executing diffoscope
+[2023-06-17 21:59:54] INFO root fetch - processPackages [portable-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portable_wisdom-0.9.tar.gz tmp/portable_wisdom-1.0.tar.gz --markdown 20230617/p/portable-wisdom/0.9-1.0/diff.md --exclude *.pyd
+[2023-06-17 21:59:55] INFO root fetch - processPackages [caafe]: Remove: archive file [/home/abi/fetcher/tmp/caafe-0.1.5.tar.gz]
+[2023-06-17 21:59:55] INFO root fetch - processPackages [caafe]: Remove: archive file [/home/abi/fetcher/tmp/caafe-0.1.6.tar.gz]
+[2023-06-17 21:59:55] INFO root fetch - main [MainThread]: End processing [caafe]: success
+[2023-06-17 21:59:55] INFO root fetch - processPackages [portable-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/portable_wisdom-0.9.tar.gz]
+[2023-06-17 21:59:55] INFO root fetch - processPackages [portable-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/portable_wisdom-1.0.tar.gz]
+[2023-06-17 21:59:55] INFO root fetch - main [MainThread]: End processing [portable-wisdom]: success
+[2023-06-17 21:59:55] INFO root fetch - main [MainThread]: Store serial: [18545590]
