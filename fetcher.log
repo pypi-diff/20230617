@@ -12773,3 +12773,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:07:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306171202-py3-none-any.whl.zip]
 [2023-06-17 14:07:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-17 14:07:59] INFO root fetch - main [MainThread]: Store serial: [18542808]
+[2023-06-17 14:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542808]
+[2023-06-17 14:13:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysheeter
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nicegui
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-agents-nightly
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: facebook-page-scraper
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: erniechatbotsdk
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invokees
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pidgin-eng-dictionary
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erniechatbotsdk
+[2023-06-17 14:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensquat
+[2023-06-17 14:13:10] INFO root fetch - processPackages [nicegui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [invokees]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pysheeter]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 14:13:10] WARNING root fetch - processPackages [opensquat]: Skipping, unable to determine old version
+[2023-06-17 14:13:10] INFO root fetch - processPackages [opensquat]: Start processing: eng-spacysentiment
+[2023-06-17 14:13:10] INFO root fetch - main [MainThread]: End processing [opensquat] error
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pidgin-eng-dictionary]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/0b/e5/e75dc3ba6e8473bd331e581414ab2832cf740fee0aca55c2bb99254eb0a8/invokees-0.1.0.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [facebook-page-scraper]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [eng-spacysentiment]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-17 14:13:10] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/35/d9/3755a0174dff3fabe8197ca66d234865c535e6def44c59a79263aa707215/nicegui-1.2.8.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/90/96/1c7ca651eacedf5fcb3297fa08b7c140c9659aa46bb55bfb7eb7f1bbf2f4/erniechatbotsdk-0.0.1.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/90/96/1c7ca651eacedf5fcb3297fa08b7c140c9659aa46bb55bfb7eb7f1bbf2f4/erniechatbotsdk-0.0.1.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pysheeter]: Downloading https://files.pythonhosted.org/packages/25/51/f123c034fc4fc173a9f11d39a93edfe8adc5748a735189ed44af0381ef64/pysheeter-1.0.6.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/b9/f0/9fd152e2f9a9b423f683559deb28b307011703d7d9ec95f0abe8084d89d7/invokees-0.2.0.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [eng-spacysentiment]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [eng-spacysentiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eng_spacysentiment-2.1.0.tar.gz tmp/eng_spacysentiment-2.2.0.tar.gz --markdown 20230617/e/eng-spacysentiment/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-17 14:13:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pidgin-eng-dictionary]: Downloading https://files.pythonhosted.org/packages/ab/64/50019e3c43ebb1ca1572d922ff8e5a842fdc738526aa8de15df1f235c421/pidgin_eng_dictionary-0.0.1-py3-none-any.whl
+[2023-06-17 14:13:10] INFO root fetch - processPackages [facebook-page-scraper]: Downloading https://files.pythonhosted.org/packages/1c/8a/7b695fdeda184e62358dc628843551a8e52bcdfaab5d297a2ec5763a22ab/facebook_page_scraper-5.0.0.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [invokees]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [invokees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokees-0.1.0.tar.gz tmp/invokees-0.2.0.tar.gz --markdown 20230617/i/invokees/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 14:13:10] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230617/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/74/24/dbbc18112296be7ea6d1d589210bfc5be848b63d188c94837e91c91007ef/erniechatbotsdk-0.0.2.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/74/24/dbbc18112296be7ea6d1d589210bfc5be848b63d188c94837e91c91007ef/erniechatbotsdk-0.0.2.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pysheeter]: Downloading https://files.pythonhosted.org/packages/f0/f6/605afd51dc63dd817982c4deebf5b309972ee8d7f788cf713366c4a0bd40/pysheeter-1.1.0.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pidgin-eng-dictionary]: Downloading https://files.pythonhosted.org/packages/21/7d/b002da4f3876509047e1c22d41a0d59208728bc2628e76c4940684244711/pidgin-eng-dictionary-0.0.2.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pysheeter]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [pysheeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysheeter-1.0.6.tar.gz tmp/pysheeter-1.1.0.tar.gz --markdown 20230617/p/pysheeter/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 14:13:10] INFO root fetch - processPackages [facebook-page-scraper]: Downloading https://files.pythonhosted.org/packages/94/f4/693e1ccda79cf6fe90a9e5ba7c39abb396967368d0989181ce462b5d1775/facebook_page_scraper-5.0.1.tar.gz
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.1.tar.gz tmp/erniechatbotsdk-0.0.2.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 14:13:10] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.1.tar.gz tmp/erniechatbotsdk-0.0.2.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 14:13:11] INFO root fetch - processPackages [pidgin-eng-dictionary]: executing diffoscope
+[2023-06-17 14:13:11] INFO root fetch - processPackages [pidgin-eng-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidgin_eng_dictionary-0.0.1-py3-none-any.whl.zip tmp/pidgin-eng-dictionary-0.0.2.tar.gz --markdown 20230617/p/pidgin-eng-dictionary/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 14:13:11] INFO root fetch - processPackages [facebook-page-scraper]: executing diffoscope
+[2023-06-17 14:13:11] INFO root fetch - processPackages [facebook-page-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook_page_scraper-5.0.0.tar.gz tmp/facebook_page_scraper-5.0.1.tar.gz --markdown 20230617/f/facebook-page-scraper/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-17 14:13:11] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-17 14:13:11] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.1.0.tar.gz]
+[2023-06-17 14:13:11] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.2.0.tar.gz]
+[2023-06-17 14:13:11] INFO root fetch - main [MainThread]: End processing [invokees]: success
+[2023-06-17 14:13:11] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/a8/5b/4700da14dca835cafbca381f4f627a906a0eb4deacdecde0e9d5c319bec5/nicegui-1.2.9.tar.gz
+[2023-06-17 14:13:12] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-17 14:13:12] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230617/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-17 14:13:12] INFO root fetch - processPackages [pysheeter]: Remove: archive file [/home/abi/fetcher/tmp/pysheeter-1.0.6.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - processPackages [pysheeter]: Remove: archive file [/home/abi/fetcher/tmp/pysheeter-1.1.0.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - main [MainThread]: End processing [pysheeter]: success
+[2023-06-17 14:13:12] INFO root fetch - processPackages [nicegui]: executing diffoscope
+[2023-06-17 14:13:12] INFO root fetch - processPackages [nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui-1.2.8.tar.gz tmp/nicegui-1.2.9.tar.gz --markdown 20230617/n/nicegui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-17 14:13:12] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.1.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.2.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 14:13:12] INFO root fetch - processPackages [pidgin-eng-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/pidgin_eng_dictionary-0.0.1-py3-none-any.whl.zip]
+[2023-06-17 14:13:12] INFO root fetch - processPackages [pidgin-eng-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/pidgin-eng-dictionary-0.0.2.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - main [MainThread]: End processing [pidgin-eng-dictionary]: success
+[2023-06-17 14:13:12] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 14:13:12] INFO root fetch - processPackages [facebook-page-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_page_scraper-5.0.0.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - processPackages [facebook-page-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_page_scraper-5.0.1.tar.gz]
+[2023-06-17 14:13:12] INFO root fetch - main [MainThread]: End processing [facebook-page-scraper]: success
+[2023-06-17 14:13:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-17 14:13:15] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-17 14:13:15] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-17 14:13:16] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.8.tar.gz]
+[2023-06-17 14:13:16] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.9.tar.gz]
+[2023-06-17 14:13:16] INFO root fetch - main [MainThread]: End processing [nicegui]: success
+[2023-06-17 14:13:19] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-17 14:13:19] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-17 14:13:19] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-17 14:16:10] ERROR root fetch - processPackages [eng-spacysentiment]: Timeout during execution of pkgdiff
+[2023-06-17 14:16:10] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment] error
+[2023-06-17 14:16:10] INFO root fetch - main [MainThread]: Store serial: [18542845]
