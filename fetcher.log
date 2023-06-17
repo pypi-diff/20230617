@@ -10233,3 +10233,32 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:50:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-17 09:50:38] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-17 09:50:38] INFO root fetch - main [MainThread]: Store serial: [18541671]
+[2023-06-17 09:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541671]
+[2023-06-17 09:55:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-06-17 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MuSeqPose
+[2023-06-17 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spam-detector-ai
+[2023-06-17 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monalysa
+[2023-06-17 09:55:49] INFO root fetch - processPackages [spam-detector-ai]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 09:55:49] WARNING root fetch - processPackages [MuSeqPose]: Skipping, unable to determine old version
+[2023-06-17 09:55:49] INFO root fetch - main [MainThread]: End processing [MuSeqPose] error
+[2023-06-17 09:55:49] INFO root fetch - processPackages [monalysa]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 09:55:49] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/4d/68/bb9a35bccc0f0c87bb11cb1e0757f5a8c4320b9aee6cb31f2e9b3072ed95/monalysa-0.0.7.tar.gz
+[2023-06-17 09:55:49] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230617] Old Version: [2.14.0.dev20230616]
+[2023-06-17 09:55:49] INFO root fetch - processPackages [spam-detector-ai]: Downloading https://files.pythonhosted.org/packages/6d/eb/b8696c06fb395d7b0f6bd913ab30b32f03756e598c4fa49384d0db56db86/spam-detector-ai-1.0.0.tar.gz
+[2023-06-17 09:55:49] WARNING root fetch - processPackages [spam-detector-ai]: Skipping package: exceeds size limit 11418832>=10485760
+[2023-06-17 09:55:49] INFO root fetch - main [MainThread]: End processing [spam-detector-ai] error
+[2023-06-17 09:55:49] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bd/98/2b6096466376acc3e375703ff02a5e7120372175c2a89b04b6f85dea54e6/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl
+[2023-06-17 09:55:49] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-17 09:55:49] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-17 09:55:49] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.7.tar.gz tmp/monalysa-0.0.8.tar.gz --markdown 20230617/m/monalysa/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 09:55:50] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/07/74/21da68abb3d0ecf39fc0ec75de8b66f4e63b9c322604bf11b0c50c097b50/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl
+[2023-06-17 09:55:50] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-17 09:55:50] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip --markdown 20230617/t/tf-nightly-cpu/2.14.0.dev20230616-2.14.0.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 09:55:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 09:55:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 09:55:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-17 09:55:51] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.7.tar.gz]
+[2023-06-17 09:55:51] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-17 09:55:51] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-17 09:55:51] INFO root fetch - main [MainThread]: Store serial: [18541689]
