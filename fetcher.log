@@ -17353,3 +17353,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:08:12] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.1.0-cp37-abi3-macosx_11_0_arm64.whl.zip]
 [2023-06-17 20:08:12] INFO root fetch - main [MainThread]: End processing [whitebox-workflows]: success
 [2023-06-17 20:08:12] INFO root fetch - main [MainThread]: Store serial: [18545096]
+[2023-06-17 20:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545096]
+[2023-06-17 20:13:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 20:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbtgenlib
+[2023-06-17 20:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foursight-core
+[2023-06-17 20:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-cgap
+[2023-06-17 20:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-17 20:13:22] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 20:13:22] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-17 20:13:22] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-17 20:13:22] INFO root fetch - processPackages [dbtgenlib]: Downloading https://files.pythonhosted.org/packages/76/df/02c8007231faf570d5f8d1386d6cc0e398960e20808c8d9caed10657bcc4/dbtgenlib-0.0.8.tar.gz
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-17 20:13:22] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-17 20:13:23] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-17 20:13:23] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230617/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 20:13:23] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-17 20:13:23] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230617/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 20:13:23] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-17 20:13:23] INFO root fetch - processPackages [dbtgenlib]: Downloading https://files.pythonhosted.org/packages/da/ca/df1c0d9456fe764aebe47de0b30d2688b738ec2688728e862644c917f36c/dbtgenlib-0.0.9.tar.gz
+[2023-06-17 20:13:23] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-17 20:13:23] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230617/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 20:13:23] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-06-17 20:13:23] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230617/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 20:13:24] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-17 20:13:24] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-17 20:13:24] INFO root fetch - processPackages [dbtgenlib]: Remove: archive file [/home/abi/fetcher/tmp/dbtgenlib-0.0.8.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - processPackages [dbtgenlib]: Remove: archive file [/home/abi/fetcher/tmp/dbtgenlib-0.0.9.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-06-17 20:13:24] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-17 20:13:24] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-17 20:13:24] INFO root fetch - main [MainThread]: Store serial: [18545106]
