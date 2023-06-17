@@ -14275,3 +14275,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:58:45] INFO root fetch - processPackages [sp-repo-review]: Remove: archive file [/home/abi/fetcher/tmp/sp_repo_review-2023.6.7.tar.gz]
 [2023-06-17 15:58:45] INFO root fetch - main [MainThread]: End processing [sp-repo-review]: success
 [2023-06-17 15:58:45] INFO root fetch - main [MainThread]: Store serial: [18543524]
+[2023-06-17 16:03:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543524]
+[2023-06-17 16:03:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-semantic-release
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-bma220
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atro-pylog
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-services
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-pypi-ejarkm-project2
+[2023-06-17 16:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scribe_store
+[2023-06-17 16:03:54] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-17 16:03:54] WARNING root fetch - processPackages [my-pypi-ejarkm-project2]: Skipping, unable to determine old version
+[2023-06-17 16:03:54] INFO root fetch - main [MainThread]: End processing [my-pypi-ejarkm-project2] error
+[2023-06-17 16:03:54] WARNING root fetch - processPackages [atro-pylog]: Skipping, unable to determine old version
+[2023-06-17 16:03:54] INFO root fetch - main [MainThread]: End processing [atro-pylog] error
+[2023-06-17 16:03:54] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-17 16:03:54] WARNING root fetch - processPackages [scribe_store]: Skipping, unable to determine old version
+[2023-06-17 16:03:54] INFO root fetch - main [MainThread]: End processing [scribe_store] error
+[2023-06-17 16:03:54] INFO root fetch - processPackages [micropython-bma220]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:03:55] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a8] Old Version: [8.0.0a7]
+[2023-06-17 16:03:55] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-17 16:03:55] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-17 16:03:55] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230617/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-17 16:03:55] INFO root fetch - processPackages [micropython-bma220]: Downloading https://files.pythonhosted.org/packages/b5/10/41d7c6dde289ea325ca6969c8609641fb77531069b0c69b29b2b783a9fb6/micropython-bma220-0.1.0.tar.gz
+[2023-06-17 16:03:55] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ae/6a/f859cc834d8bde8716431a9da867ed29de802d11a899f51d94932f40e339/python-semantic-release-8.0.0a7.tar.gz
+[2023-06-17 16:03:55] INFO root fetch - processPackages [micropython-bma220]: Downloading https://files.pythonhosted.org/packages/68/bb/a61fa5b74b40312384fb4a54c5551b14f6b9c6c277bd69ed3f4fadcbb1a3/micropython-bma220-0.1.1.tar.gz
+[2023-06-17 16:03:55] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/0e/80/0faa8b96467a50e1269c33948071713b96c275af90d02903fc023e4e3e5c/python-semantic-release-8.0.0a8.tar.gz
+[2023-06-17 16:03:55] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-06-17 16:03:55] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a7.tar.gz tmp/python-semantic-release-8.0.0a8.tar.gz --markdown 20230617/p/python-semantic-release/8.0.0a7-8.0.0a8/diff.md --exclude *.pyd
+[2023-06-17 16:03:55] INFO root fetch - processPackages [micropython-bma220]: executing diffoscope
+[2023-06-17 16:03:55] INFO root fetch - processPackages [micropython-bma220]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bma220-0.1.0.tar.gz tmp/micropython-bma220-0.1.1.tar.gz --markdown 20230617/m/micropython-bma220/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:03:56] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-17 16:03:56] INFO root fetch - processPackages [micropython-bma220]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma220-0.1.0.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - processPackages [micropython-bma220]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma220-0.1.1.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - main [MainThread]: End processing [micropython-bma220]: success
+[2023-06-17 16:03:56] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a7.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a8.tar.gz]
+[2023-06-17 16:03:56] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-06-17 16:03:56] INFO root fetch - main [MainThread]: Store serial: [18543551]
