@@ -13468,3 +13468,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:04:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-17 15:04:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-17 15:04:17] INFO root fetch - main [MainThread]: Store serial: [18543085]
+[2023-06-17 15:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543085]
+[2023-06-17 15:09:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oneat
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sb6
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bionty
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib-spark2
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-06-17 15:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_bionty
+[2023-06-17 15:09:33] INFO root fetch - processPackages [sb6]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/eb/f3/d66b88a58572809b024c799f4897eb8358cc14daded10daeb6397fec909d/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-17 15:09:33] INFO root fetch - processPackages [sb6]: Downloading https://files.pythonhosted.org/packages/5d/2d/3d51e3c90a165d197f7217dd2d5ce5839f234c9bf23f05ed30e3f3339ad7/sb6-0.0.3.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/bd/5e/1ef5f8f12b65e3912b80a37577ef256ab63a3ef8d2db660c5088f497daf0/bigdl_orca-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-17 15:09:33] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/38/d5/0891aa9f827b7a97897dc7ad00ff1ef3219db3f9c0b88a5d0ac18c29448f/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-17 15:09:33] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/d2/4b/d672bef4c190ac81bf46b9ee281dfdce8385b9273c6cba54ab7fa8a316dd/bigdl-dllib-spark2-2.4.0b20230616.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230617/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230617/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230617/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230617/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/1d/1b/554991eb0c1cabccccdf2a237e65933fa2b1f0d69cc390a44c8cc0eb5e09/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-17 15:09:33] INFO root fetch - processPackages [sb6]: Downloading https://files.pythonhosted.org/packages/50/63/5fa448c7878c43da21a86338057f37dc710de0e6af30c445333dd3c6b5fb/sb6-0.0.4.tar.gz
+[2023-06-17 15:09:33] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53637896>=10485760
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: nbdev-pandas
+[2023-06-17 15:09:33] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/24/6d/a8045e146e3ffa6f7cdc6a53b476029b261134330355b0bca44f379d0bd1/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-17 15:09:33] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [sb6]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [sb6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb6-0.0.3.tar.gz tmp/sb6-0.0.4.tar.gz --markdown 20230617/s/sb6/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip --markdown 20230617/b/bigdl-friesian/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369532>=10485760
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl-orca]: Start processing: languagemodels
+[2023-06-17 15:09:33] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-17 15:09:33] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230617/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip --markdown 20230617/b/bigdl/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-17 15:09:33] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230617/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 15:09:33] INFO root fetch - processPackages [languagemodels]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-17 15:09:34] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/b1/f4/2a9e56ba6cc563082e701e071b28d11c5ed465119e971e1cdd422e8e0e46/languagemodels-0.3.2.tar.gz
+[2023-06-17 15:09:34] INFO root fetch - processPackages [languagemodels]: Downloading https://files.pythonhosted.org/packages/3e/07/27905ec2e6430befda22dd4e21ea9980864769699dd104476d54ae4614b4/languagemodels-0.4.0.tar.gz
+[2023-06-17 15:09:34] INFO root fetch - processPackages [languagemodels]: executing diffoscope
+[2023-06-17 15:09:34] INFO root fetch - processPackages [languagemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languagemodels-0.3.2.tar.gz tmp/languagemodels-0.4.0.tar.gz --markdown 20230617/l/languagemodels/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 15:09:35] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [sb6]: Remove: archive file [/home/abi/fetcher/tmp/sb6-0.0.3.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [sb6]: Remove: archive file [/home/abi/fetcher/tmp/sb6-0.0.4.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [sb6]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-17 15:09:35] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.3.2.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - processPackages [languagemodels]: Remove: archive file [/home/abi/fetcher/tmp/languagemodels-0.4.0.tar.gz]
+[2023-06-17 15:09:35] INFO root fetch - main [MainThread]: End processing [languagemodels]: success
+[2023-06-17 15:09:36] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-17 15:09:36] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-17 15:09:36] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-17 15:09:36] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-06-17 15:09:36] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-06-17 15:09:36] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-06-17 15:09:36] INFO root fetch - main [MainThread]: Store serial: [18543123]
