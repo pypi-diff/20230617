@@ -15069,3 +15069,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:57:18] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.9.tar.gz]
 [2023-06-17 16:57:18] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
 [2023-06-17 16:57:18] INFO root fetch - main [MainThread]: Store serial: [18543929]
+[2023-06-17 17:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543929]
+[2023-06-17 17:02:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WavelinkPycord
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honkairail
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struid
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-mc3479
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vastaanottaa
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gentoo-update
+[2023-06-17 17:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: euroleague-api
+[2023-06-17 17:02:27] INFO root fetch - processPackages [honkairail]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-17 17:02:27] WARNING root fetch - processPackages [WavelinkPycord]: Skipping, unable to determine old version
+[2023-06-17 17:02:27] INFO root fetch - main [MainThread]: End processing [WavelinkPycord] error
+[2023-06-17 17:02:27] INFO root fetch - processPackages [micropython-mc3479]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-17 17:02:27] INFO root fetch - processPackages [struid]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 17:02:27] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/86/fd/5433a2fe89ee25a0fcc16f2d217c7197f7974153e710e69daa61feaafcb8/honkairail-1.0.4.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [gentoo-update]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 17:02:27] INFO root fetch - processPackages [vastaanottaa]: New version: [2023.6.17] Old Version: [2023.6.12]
+[2023-06-17 17:02:27] WARNING root fetch - processPackages [euroleague-api]: Skipping, unable to determine old version
+[2023-06-17 17:02:27] INFO root fetch - main [MainThread]: End processing [euroleague-api] error
+[2023-06-17 17:02:27] INFO root fetch - processPackages [struid]: Downloading https://files.pythonhosted.org/packages/0c/fd/71a55d87cdd3f1893e7ebfa089bd3ffb82f76e0392f7cce73503a2c7bcf6/struid-0.0.2.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [micropython-mc3479]: Downloading https://files.pythonhosted.org/packages/38/3a/a5cd93809ffa977590e24de744b29af71cda1a175b4f69a0d8c99788868e/micropython-mc3479-0.4.0.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/cc/af/ebd64e8232ff388b6ba3dc8e84a9d58f2148aa53971d4022d8131f628d9e/honkairail-1.0.5.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/9b/de/1e0b4f0fa5561537a9fca0362331980182d4a2e13bd251db6d6911b2bd87/gentoo-update-0.1.4.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [vastaanottaa]: Downloading https://files.pythonhosted.org/packages/b5/e9/1d217ffc39a92f5d0c8761575309419a4c13e89e746bb8afd738a49044aa/vastaanottaa-2023.6.12.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [struid]: Downloading https://files.pythonhosted.org/packages/11/0f/bd643be2a83e64e7e94ec12c4ccb3cf59089571358e48a6e1746a9e8c4d2/struid-0.0.3.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-17 17:02:27] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.4.tar.gz tmp/honkairail-1.0.5.tar.gz --markdown 20230617/h/honkairail/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-17 17:02:27] INFO root fetch - processPackages [struid]: executing diffoscope
+[2023-06-17 17:02:27] INFO root fetch - processPackages [struid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struid-0.0.2.tar.gz tmp/struid-0.0.3.tar.gz --markdown 20230617/s/struid/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 17:02:27] INFO root fetch - processPackages [micropython-mc3479]: Downloading https://files.pythonhosted.org/packages/03/ea/7c31cff173ec9e721bedeb478c9fb5b05c7532ef00bdd5117cc911d33d13/micropython-mc3479-0.4.1.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [micropython-mc3479]: executing diffoscope
+[2023-06-17 17:02:27] INFO root fetch - processPackages [micropython-mc3479]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-mc3479-0.4.0.tar.gz tmp/micropython-mc3479-0.4.1.tar.gz --markdown 20230617/m/micropython-mc3479/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 17:02:27] INFO root fetch - processPackages [vastaanottaa]: Downloading https://files.pythonhosted.org/packages/5a/d1/9966a7d51b850af5122f050efd62e01a4cbbf7d6e0782ef9f8e87b13fa49/vastaanottaa-2023.6.17.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/2d/cb/8853582372b4edc88caaad710f03b29341aac74fb8a81c2b91fb9d5f92bf/gentoo-update-0.1.5.tar.gz
+[2023-06-17 17:02:27] INFO root fetch - processPackages [vastaanottaa]: executing diffoscope
+[2023-06-17 17:02:27] INFO root fetch - processPackages [vastaanottaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastaanottaa-2023.6.12.tar.gz tmp/vastaanottaa-2023.6.17.tar.gz --markdown 20230617/v/vastaanottaa/2023.6.12-2023.6.17/diff.md --exclude *.pyd
+[2023-06-17 17:02:28] INFO root fetch - processPackages [gentoo-update]: executing diffoscope
+[2023-06-17 17:02:28] INFO root fetch - processPackages [gentoo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo-update-0.1.4.tar.gz tmp/gentoo-update-0.1.5.tar.gz --markdown 20230617/g/gentoo-update/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 17:02:28] INFO root fetch - processPackages [struid]: Remove: archive file [/home/abi/fetcher/tmp/struid-0.0.2.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - processPackages [struid]: Remove: archive file [/home/abi/fetcher/tmp/struid-0.0.3.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - main [MainThread]: End processing [struid]: success
+[2023-06-17 17:02:28] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.4.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.5.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-17 17:02:28] INFO root fetch - processPackages [vastaanottaa]: Remove: archive file [/home/abi/fetcher/tmp/vastaanottaa-2023.6.12.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - processPackages [vastaanottaa]: Remove: archive file [/home/abi/fetcher/tmp/vastaanottaa-2023.6.17.tar.gz]
+[2023-06-17 17:02:28] INFO root fetch - main [MainThread]: End processing [vastaanottaa]: success
+[2023-06-17 17:02:29] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.4.tar.gz]
+[2023-06-17 17:02:29] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.5.tar.gz]
+[2023-06-17 17:02:29] INFO root fetch - main [MainThread]: End processing [gentoo-update]: success
+[2023-06-17 17:02:29] INFO root fetch - processPackages [micropython-mc3479]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mc3479-0.4.0.tar.gz]
+[2023-06-17 17:02:29] INFO root fetch - processPackages [micropython-mc3479]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mc3479-0.4.1.tar.gz]
+[2023-06-17 17:02:29] INFO root fetch - main [MainThread]: End processing [micropython-mc3479]: success
+[2023-06-17 17:02:29] INFO root fetch - main [MainThread]: Store serial: [18543950]
