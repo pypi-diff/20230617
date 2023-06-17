@@ -12864,3 +12864,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:16:10] ERROR root fetch - processPackages [eng-spacysentiment]: Timeout during execution of pkgdiff
 [2023-06-17 14:16:10] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment] error
 [2023-06-17 14:16:10] INFO root fetch - main [MainThread]: Store serial: [18542845]
+[2023-06-17 14:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542845]
+[2023-06-17 14:21:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xanalyzer
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: callbackin
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invokees
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweatDB
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WebtoonScraper
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: callbackin
+[2023-06-17 14:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2023-06-17 14:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finops
+[2023-06-17 14:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linetasker
+[2023-06-17 14:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: almavik
+[2023-06-17 14:21:23] INFO root fetch - processPackages [xanalyzer]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [pypipr]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [finops]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [invokees]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-17 14:21:23] WARNING root fetch - processPackages [linetasker]: Skipping, unable to determine old version
+[2023-06-17 14:21:23] WARNING root fetch - processPackages [sweatDB]: Skipping, unable to determine old version
+[2023-06-17 14:21:23] INFO root fetch - processPackages [linetasker]: Start processing: chia-py-rpc
+[2023-06-17 14:21:23] INFO root fetch - main [MainThread]: End processing [linetasker] error
+[2023-06-17 14:21:23] INFO root fetch - main [MainThread]: End processing [sweatDB] error
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [almavik]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/cf/5b/ed77337b489da872ce2a113cb71677a0feb162c62eab0b9d5142534f9b7d/finops-0.1.1.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [chia-py-rpc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/ff/aa/fd66c400c95504e03b0b93a5dfb6a90ea77c4a6cb35e599899b7a39c75d2/callbackin-0.3.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/ff/aa/fd66c400c95504e03b0b93a5dfb6a90ea77c4a6cb35e599899b7a39c75d2/callbackin-0.3.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/3c/7d/3d5e5f81486f5659de8c1b1ad8d67ac6ed2fbb7174fa6008684834fc9519/pypipr-1.0.2.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/80/d2/27c040cbccbe74df30801fb558e3f2130114971d2cad3f43089311724c11/invokees-0.3.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/34/f7/719058aaee4b8e67bbb09317533b519e1753769f19fac8897b90c38e13a5/WebtoonScraper-0.0.8.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [xanalyzer]: Downloading https://files.pythonhosted.org/packages/ef/64/b1b5965a1e835b7ea5de60d1ea10d7c1b9c69af4cf22cbbee88e3f9944d9/xanalyzer-0.2.6.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/3a/01/8da5ad0861200292d51c418c469d934a20feb1d1c3d8dd86f114ef790db7/almavik-0.2.8.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [chia-py-rpc]: Downloading https://files.pythonhosted.org/packages/44/ad/b29ef9e9909b8c2cf277043bc86cf9b71837962b72c72f1491d5299dcbb7/chia_py_rpc-0.0.6.tar.gz
+[2023-06-17 14:21:23] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88363436>=10485760
+[2023-06-17 14:21:23] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 14:21:23] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/0c/87/b462b6a351486139ca8d69bb083048dfa97f7c3bd5a1af25bb4b919af1c4/finops-0.1.2.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [invokees]: Downloading https://files.pythonhosted.org/packages/12/ec/798034951d9fdecd91a2d293d95bd48246e7e73b1f3c5e6acda831098716/invokees-0.4.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/39/8d/ebe1ce0bdbd365fe63da8f2169546ff87e1b44c680e9871e931a5f23eea7/callbackin-0.4.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/39/8d/ebe1ce0bdbd365fe63da8f2169546ff87e1b44c680e9871e931a5f23eea7/callbackin-0.4.0.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ce/de/3c4de1042d5ba328cdc9209c19bb0d1bcf53fc181805f4f217e8d1ddd02a/pypipr-1.0.4.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.3.0.tar.gz tmp/callbackin-0.4.0.tar.gz --markdown 20230617/c/callbackin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.3.0.tar.gz tmp/callbackin-0.4.0.tar.gz --markdown 20230617/c/callbackin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [xanalyzer]: Downloading https://files.pythonhosted.org/packages/a4/4b/a680754e355efe1d88c81bb16baa4b775693035ae7407a50533dfde16c65/xanalyzer-0.2.7.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.1.1.tar.gz tmp/finops-0.1.2.tar.gz --markdown 20230617/f/finops/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/56/4d/ab30425426ac22413485f62f51e66b3b5fe0b027c5e4a3466794a86603e9/WebtoonScraper-0.0.9.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [invokees]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [invokees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokees-0.3.0.tar.gz tmp/invokees-0.4.0.tar.gz --markdown 20230617/i/invokees/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [chia-py-rpc]: Downloading https://files.pythonhosted.org/packages/45/70/7b663a17fabdcb653323a188abf3a8554c83178fe6f9116d9c2b20f5b9a0/chia_py_rpc-0.0.7.tar.gz
+[2023-06-17 14:21:23] INFO root fetch - processPackages [xanalyzer]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [xanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xanalyzer-0.2.6.tar.gz tmp/xanalyzer-0.2.7.tar.gz --markdown 20230617/x/xanalyzer/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.2.tar.gz tmp/pypipr-1.0.4.tar.gz --markdown 20230617/p/pypipr/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-17 14:21:23] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-17 14:21:23] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230617/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 14:21:24] INFO root fetch - processPackages [chia-py-rpc]: executing diffoscope
+[2023-06-17 14:21:24] INFO root fetch - processPackages [chia-py-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_py_rpc-0.0.6.tar.gz tmp/chia_py_rpc-0.0.7.tar.gz --markdown 20230617/c/chia-py-rpc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 14:21:25] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.3.0.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [invokees]: Remove: archive file [/home/abi/fetcher/tmp/invokees-0.4.0.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [invokees]: success
+[2023-06-17 14:21:25] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.3.0.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.4.0.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-17 14:21:25] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.0.8.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.0.9.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-17 14:21:25] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.2.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.4.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-17 14:21:25] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.1.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.2.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-17 14:21:25] INFO root fetch - processPackages [chia-py-rpc]: Remove: archive file [/home/abi/fetcher/tmp/chia_py_rpc-0.0.6.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - processPackages [chia-py-rpc]: Remove: archive file [/home/abi/fetcher/tmp/chia_py_rpc-0.0.7.tar.gz]
+[2023-06-17 14:21:25] INFO root fetch - main [MainThread]: End processing [chia-py-rpc]: success
+[2023-06-17 14:21:26] INFO root fetch - processPackages [xanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/xanalyzer-0.2.6.tar.gz]
+[2023-06-17 14:21:26] INFO root fetch - processPackages [xanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/xanalyzer-0.2.7.tar.gz]
+[2023-06-17 14:21:26] INFO root fetch - main [MainThread]: End processing [xanalyzer]: success
+[2023-06-17 14:21:26] INFO root fetch - main [MainThread]: Store serial: [18542887]
