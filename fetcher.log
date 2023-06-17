@@ -10027,3 +10027,54 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:24:26] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.0.1.tar.gz]
 [2023-06-17 09:24:26] INFO root fetch - main [MainThread]: End processing [evennia]: success
 [2023-06-17 09:24:26] INFO root fetch - main [MainThread]: Store serial: [18541567]
+[2023-06-17 09:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541567]
+[2023-06-17 09:29:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pk4adi
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame-ui-controls
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cq23
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf2-utilities
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytensor
+[2023-06-17 09:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-target-collection
+[2023-06-17 09:29:35] WARNING root fetch - processPackages [pygame-ui-controls]: Skipping, unable to determine old version
+[2023-06-17 09:29:35] INFO root fetch - main [MainThread]: End processing [pygame-ui-controls] error
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pk4adi]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-17 09:29:35] INFO root fetch - processPackages [tf2-utilities]: New version: [2.1.0] Old Version: [2.0.5]
+[2023-06-17 09:29:35] INFO root fetch - processPackages [cq23]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-06-17 09:29:35] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-06-17 09:29:35] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/8b/3d/4846ee2cd9a68dbcd59178c55a682986fe55de0df766ffbd67cc8d40acfc/cq23-1.9.2.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/d8/2f/5da5d16a41404b3456ca851a6e891186976f27a5ba645fc59c9949a1a516/pk4adi-0.0.3.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/d1/ab/85a426d5d1ded61cdd0e15ec4620be9d188606af1338c58546842cf16bda/macrometa-target-collection-0.0.75.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [tf2-utilities]: Downloading https://files.pythonhosted.org/packages/0f/c7/8a235e9189828cbde0c9dbd8b411bb4ddfbde2ab282ca49eb0eacabb83ac/tf2-utilities-2.0.5.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/31/69/204d43b897b4aa9a3d576938819276a0cf13141b673599fd3f1f1065ea26/cq23-1.9.3.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/7a/fa/c5501ecb4b13d6264b4e6012b30e1ebd027fe29906dca4972b9937c2dbc4/pk4adi-0.1.0.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/3c/c3/e931aa8f67c34c4c67c3100d18cf18c7f3f55eb8ab05a55ac9999df790b6/macrometa-target-collection-0.0.76.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [tf2-utilities]: Downloading https://files.pythonhosted.org/packages/15/0f/99cb15428905081200c3d1d2dd2f4820253cb3f4a34086822b96efdca27b/tf2-utilities-2.1.0.tar.gz
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pk4adi]: executing diffoscope
+[2023-06-17 09:29:35] INFO root fetch - processPackages [pk4adi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pk4adi-0.0.3.tar.gz tmp/pk4adi-0.1.0.tar.gz --markdown 20230617/p/pk4adi/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 09:29:35] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-17 09:29:35] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.9.2.tar.gz tmp/cq23-1.9.3.tar.gz --markdown 20230617/c/cq23/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-17 09:29:36] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-17 09:29:36] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.75.tar.gz tmp/macrometa-target-collection-0.0.76.tar.gz --markdown 20230617/m/macrometa-target-collection/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-06-17 09:29:36] INFO root fetch - processPackages [tf2-utilities]: executing diffoscope
+[2023-06-17 09:29:36] INFO root fetch - processPackages [tf2-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf2-utilities-2.0.5.tar.gz tmp/tf2-utilities-2.1.0.tar.gz --markdown 20230617/t/tf2-utilities/2.0.5-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 09:29:36] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-06-17 09:29:36] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.0.3.tar.gz]
+[2023-06-17 09:29:36] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.0.tar.gz]
+[2023-06-17 09:29:36] INFO root fetch - main [MainThread]: End processing [pk4adi]: success
+[2023-06-17 09:29:37] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.2.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.3.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-17 09:29:37] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.75.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.76.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-17 09:29:37] INFO root fetch - processPackages [tf2-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tf2-utilities-2.0.5.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - processPackages [tf2-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tf2-utilities-2.1.0.tar.gz]
+[2023-06-17 09:29:37] INFO root fetch - main [MainThread]: End processing [tf2-utilities]: success
+[2023-06-17 09:29:37] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-06-17 09:29:37] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230617/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-06-17 09:29:45] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.8.11.tar.gz]
+[2023-06-17 09:29:45] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
+[2023-06-17 09:29:45] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-06-17 09:29:45] INFO root fetch - main [MainThread]: Store serial: [18541611]
