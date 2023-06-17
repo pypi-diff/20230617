@@ -15210,3 +15210,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:07:40] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.0.tar.gz]
 [2023-06-17 17:07:40] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
 [2023-06-17 17:07:40] INFO root fetch - main [MainThread]: Store serial: [18543982]
+[2023-06-17 17:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543982]
+[2023-06-17 17:12:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-kx132
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pyara
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-text-nightly
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samp-query
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytmlib
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymultithreading
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: error-example
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pytdbot
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyheartlib
+[2023-06-17 17:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: json-tricks
+[2023-06-17 17:12:49] INFO root fetch - processPackages [Pyara]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [micropython-kx132]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [Pytdbot]: New version: [0.8.4.dev2] Old Version: [0.8.4.dev1]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [samp-query]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 17:12:49] WARNING root fetch - processPackages [pytmlib]: Skipping, unable to determine old version
+[2023-06-17 17:12:49] INFO root fetch - processPackages [pytmlib]: Start processing: micropython-isl29125
+[2023-06-17 17:12:49] INFO root fetch - main [MainThread]: End processing [pytmlib] error
+[2023-06-17 17:12:49] INFO root fetch - processPackages [pymultithreading]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [json-tricks]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [error-example]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [micropython-isl29125]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230617] Old Version: [2.14.0.dev20230616]
+[2023-06-17 17:12:49] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/61/35/bf83ca14a2eb0dae457d566f91d21e9ae1015574f5bc862e9258e64a7903/Pytdbot-0.8.4.dev1.tar.gz
+[2023-06-17 17:12:49] INFO root fetch - processPackages [micropython-kx132]: Downloading https://files.pythonhosted.org/packages/4b/fd/1358da6efe7270787c57d8487e3cba344b6bc7fcf63678e05b19dc5ee2c3/micropython-kx132-0.1.0.tar.gz
+[2023-06-17 17:12:49] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/25/ce/b9a14254614f6e2392a74febb93852b216fefd90ee43681eb9b89f60e682/error-example-0.0.3.tar.gz
+[2023-06-17 17:12:49] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/1c/e0/181f92817c984c7670d49008ffe182e013e7671d5c3f8129dde6fa4c42ca/Pyara-0.1.27.tar.gz
+[2023-06-17 17:12:49] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/ed/5c/0a7089ab8b99d148e966cddaf4e65f2805d1fe9d7357b7109e4faf2a8895/pymultithreading-0.0.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/8c/84/e8ef4776014c5128339123c20989c2fdb084d155b0aca80ab3d6491328ec/samp_query-0.1.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/8f/80/6344e811ee4fee0192b29f6374706930d6140fd37e591cdd2d403d3450cd/pyheartlib-0.0.8.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [json-tricks]: Downloading https://files.pythonhosted.org/packages/73/3c/865d14eaeda372949e1f2f05e0bbd0f033ddca3e295e99b3043339790a06/json_tricks-3.7.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-isl29125]: Downloading https://files.pythonhosted.org/packages/6a/dc/587540e844330764def8ccca1a60e9157219ddf772faf5fcbaf030bd23a6/micropython-isl29125-0.1.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/fb/3f/84769ca2e765f8358889254376529029cbc850ad7899bf2f6fa5161fb90a/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/b6/5c/496733d386d17f3a85fd744b6ad28dd0e71c4259daed952310b4dfb1422c/Pytdbot-0.8.4.dev2.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/e9/0d/6d6a18539ada6edec820457413f51f102018a0b1d0db2e83e1cb963a8c35/pyheartlib-0.0.9.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-kx132]: Downloading https://files.pythonhosted.org/packages/2e/d6/cfedbd16c212cfbeddcf59c617607454d4aef5f265b99a5b65e6ac141c71/micropython-kx132-0.1.1.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/f9/07/258755930eaeba70c41d9cf3dfee8a283e89677385695719b61e1cff338c/samp_query-0.2.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/af/d4/5a4b5ac955a7baaa4a4ba698a3498c16666d74b207f7eaddc27f9882db58/pymultithreading-0.1.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/d9/68/7dff39ad22af96ec19334a9df51c2a070e4ebcadd0c7d26f5b38a3c5a82c/error-example-0.0.4.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pytdbot]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pytdbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytdbot-0.8.4.dev1.tar.gz tmp/Pytdbot-0.8.4.dev2.tar.gz --markdown 20230617/P/Pytdbot/0.8.4.dev1-0.8.4.dev2/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [error-example]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [error-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-example-0.0.3.tar.gz tmp/error-example-0.0.4.tar.gz --markdown 20230617/e/error-example/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pymultithreading]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pymultithreading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultithreading-0.0.0.tar.gz tmp/pymultithreading-0.1.0.tar.gz --markdown 20230617/p/pymultithreading/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230617/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-kx132]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-kx132]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-kx132-0.1.0.tar.gz tmp/micropython-kx132-0.1.1.tar.gz --markdown 20230617/m/micropython-kx132/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [samp-query]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [samp-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samp_query-0.1.0.tar.gz tmp/samp_query-0.2.0.tar.gz --markdown 20230617/s/samp-query/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/48/3a/c6e8c15d9eee096653755de50c7e704c461c45864a1bdd5403817e89c480/Pyara-0.1.28.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-isl29125]: Downloading https://files.pythonhosted.org/packages/62/26/a020cfe1da90faec4fa8272971d302c0cc8cd194771979f09afb107b11c6/micropython-isl29125-0.1.1.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-isl29125]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [micropython-isl29125]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-isl29125-0.1.0.tar.gz tmp/micropython-isl29125-0.1.1.tar.gz --markdown 20230617/m/micropython-isl29125/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [json-tricks]: Downloading https://files.pythonhosted.org/packages/15/e4/d8e6477e00efda9848f86f3f28df36fd557fa12786016598e9b4dc9a4ff2/json_tricks-3.8.0.tar.gz
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.27.tar.gz tmp/Pyara-0.1.28.tar.gz --markdown 20230617/P/Pyara/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-06-17 17:12:50] INFO root fetch - processPackages [json-tricks]: executing diffoscope
+[2023-06-17 17:12:50] INFO root fetch - processPackages [json-tricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_tricks-3.7.0.tar.gz tmp/json_tricks-3.8.0.tar.gz --markdown 20230617/j/json-tricks/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-17 17:12:51] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/93/58/25a4863d41b27a2ce5a6e27bd3e13e88f8051ea316332191812fe1bab83a/tensorflow_text_nightly-2.14.0.dev20230617-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 17:12:51] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.3.tar.gz]
+[2023-06-17 17:12:51] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.4.tar.gz]
+[2023-06-17 17:12:51] INFO root fetch - processPackages [error-example]: Start processing: Pyara
+[2023-06-17 17:12:51] INFO root fetch - main [MainThread]: End processing [error-example]: success
+[2023-06-17 17:12:51] INFO root fetch - processPackages [Pyara]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/24/44/f0d2334219539f24d77669d5420c9dffcd998959cf2d9fad982d8a101c94/Pyara-0.1.29.tar.gz
+[2023-06-17 17:12:52] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.0.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.1.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [pymultithreading]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-0.0.8.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-0.0.9.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [micropython-kx132]: Remove: archive file [/home/abi/fetcher/tmp/micropython-kx132-0.1.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [micropython-kx132]: Remove: archive file [/home/abi/fetcher/tmp/micropython-kx132-0.1.1.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [micropython-kx132]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [micropython-isl29125]: Remove: archive file [/home/abi/fetcher/tmp/micropython-isl29125-0.1.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [micropython-isl29125]: Remove: archive file [/home/abi/fetcher/tmp/micropython-isl29125-0.1.1.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [micropython-isl29125]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [json-tricks]: Remove: archive file [/home/abi/fetcher/tmp/json_tricks-3.7.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [json-tricks]: Remove: archive file [/home/abi/fetcher/tmp/json_tricks-3.8.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [json-tricks]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.1.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.2.0.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [samp-query]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.27.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.28.tar.gz]
+[2023-06-17 17:12:52] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-17 17:12:52] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-17 17:12:52] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230617/t/tensorflow-text-nightly/2.14.0.dev20230616-2.14.0.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 17:12:53] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-17 17:12:53] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.28.tar.gz tmp/Pyara-0.1.29.tar.gz --markdown 20230617/P/Pyara/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-06-17 17:12:53] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev1.tar.gz]
+[2023-06-17 17:12:53] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev2.tar.gz]
+[2023-06-17 17:12:53] INFO root fetch - main [MainThread]: End processing [Pytdbot]: success
+[2023-06-17 17:12:53] ERROR root fetch - processPackages [Pyara]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/Pyara-0.1.28.tar.gz: No such file or directory
+
+[2023-06-17 17:12:53] INFO root fetch - main [MainThread]: End processing [Pyara] error
+[2023-06-17 17:13:31] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 17:13:31] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 17:13:31] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-17 17:13:31] INFO root fetch - main [MainThread]: Store serial: [18544024]
