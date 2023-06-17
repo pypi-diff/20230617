@@ -17745,3 +17745,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:56:17] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.0.3.tar.gz]
 [2023-06-17 20:56:17] INFO root fetch - main [MainThread]: End processing [next-bus-bot]: success
 [2023-06-17 20:56:17] INFO root fetch - main [MainThread]: Store serial: [18545302]
+[2023-06-17 21:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545302]
+[2023-06-17 21:01:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shellgenius
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-import-match
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury-sync
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezargs
+[2023-06-17 21:01:27] INFO root fetch - processPackages [mercury-sync]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ezargs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 21:01:27] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/44/22/870cb40b50d5144d3a130ae9dc7fb3e4413d337e0980aec3ae617634c48c/mercury-sync-0.2.0.tar.gz
+[2023-06-17 21:01:27] INFO root fetch - processPackages [shellgenius]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 21:01:27] INFO root fetch - processPackages [odoo-addon-base-import-match]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.4]
+[2023-06-17 21:01:27] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/da/bf/4f19093f4fcd439d3bf5a5813002f36c17fb03fab03d86c8cbcde05b0bd7/ezargs-0.0.2.tar.gz
+[2023-06-17 21:01:28] INFO root fetch - processPackages [shellgenius]: Downloading https://files.pythonhosted.org/packages/b3/e3/76ed8ce04801f6c609cfa4a8a17e085a8d3ad017a10203cce763dde03231/shellgenius-0.1.8.tar.gz
+[2023-06-17 21:01:28] INFO root fetch - processPackages [odoo-addon-base-import-match]: Downloading https://files.pythonhosted.org/packages/87/43/ab0999f1b2fea6638bbdca57549570031454eae9b3149cd9a649ba94e467/odoo_addon_base_import_match-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-17 21:01:28] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/07/1d/78ca8c455eedf69f8fcf5c7e2d7b632c7dabf395e6849756c13495928ede/ezargs-0.0.3.tar.gz
+[2023-06-17 21:01:28] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/4f/40/c526d13b26ee3290e6b8f884d0a4d42b538e1dd5e57545a8e63e0ed5d56c/mercury-sync-0.2.1.tar.gz
+[2023-06-17 21:01:28] INFO root fetch - processPackages [ezargs]: executing diffoscope
+[2023-06-17 21:01:28] INFO root fetch - processPackages [ezargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezargs-0.0.2.tar.gz tmp/ezargs-0.0.3.tar.gz --markdown 20230617/e/ezargs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 21:01:28] INFO root fetch - processPackages [shellgenius]: Downloading https://files.pythonhosted.org/packages/28/f9/9dfafb0e79d535cf50aa9338c5d0ce295b7ce7e5b9e4b56982d1847f3a45/shellgenius-0.1.9.tar.gz
+[2023-06-17 21:01:28] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-17 21:01:28] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.2.0.tar.gz tmp/mercury-sync-0.2.1.tar.gz --markdown 20230617/m/mercury-sync/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 21:01:28] INFO root fetch - processPackages [odoo-addon-base-import-match]: Downloading https://files.pythonhosted.org/packages/70/67/f5b9012b5b149a2de3f777ea101b5b426cde8b0488e903933310a7ded62e/odoo_addon_base_import_match-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-17 21:01:28] INFO root fetch - processPackages [shellgenius]: executing diffoscope
+[2023-06-17 21:01:28] INFO root fetch - processPackages [shellgenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellgenius-0.1.8.tar.gz tmp/shellgenius-0.1.9.tar.gz --markdown 20230617/s/shellgenius/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 21:01:28] INFO root fetch - processPackages [odoo-addon-base-import-match]: executing diffoscope
+[2023-06-17 21:01:28] INFO root fetch - processPackages [odoo-addon-base-import-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_import_match-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_import_match-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-base-import-match/15.0.1.0.1.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-17 21:01:29] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.2.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.3.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - main [MainThread]: End processing [ezargs]: success
+[2023-06-17 21:01:29] INFO root fetch - processPackages [shellgenius]: Remove: archive file [/home/abi/fetcher/tmp/shellgenius-0.1.8.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - processPackages [shellgenius]: Remove: archive file [/home/abi/fetcher/tmp/shellgenius-0.1.9.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - main [MainThread]: End processing [shellgenius]: success
+[2023-06-17 21:01:29] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.2.0.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.2.1.tar.gz]
+[2023-06-17 21:01:29] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-17 21:01:30] INFO root fetch - processPackages [odoo-addon-base-import-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_match-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-17 21:01:30] INFO root fetch - processPackages [odoo-addon-base-import-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_match-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-17 21:01:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-import-match]: success
+[2023-06-17 21:01:30] INFO root fetch - main [MainThread]: Store serial: [18545314]
