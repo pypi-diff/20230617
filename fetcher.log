@@ -1343,3 +1343,118 @@
 [2023-06-17 02:08:52] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-17 02:08:52] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-17 02:08:52] INFO root fetch - main [MainThread]: Store serial: [18538347]
+[2023-06-17 02:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538347]
+[2023-06-17 02:14:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reposter
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aws-discord-notifiers
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-grafana
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-jenkins
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-common
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.codepipeline-extensions
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-operator
+[2023-06-17 02:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-github
+[2023-06-17 02:14:01] INFO root fetch - processPackages [reposter]: New version: [23.0.6] Old Version: [23.0.5]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230616.post1034] Old Version: [1.1.0.20230615.post1048]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230617] Old Version: [3.0.1.dev20230616]
+[2023-06-17 02:14:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/a8/08/0e36975fac604588efc0745d71bbfe00f0aedc4e588be193f35ed9f137e8/mct-quantizers-nightly-1.1.0.20230615.post1048.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [reposter]: Downloading https://files.pythonhosted.org/packages/2a/15/5a40137c6d1bfd35b2a8cd2869653bcb2c70911d909a823ece0b00a5c8c1/reposter-23.0.5.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/a7/bb/1e1ddc7abc2865548bac3d8511e41be297c3c8da8a4cbd357825f4080f25/cdk-aws-discord-notifiers-0.0.96.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/d9/f5/0cb16d454a91364392700e65e46a1fe64d3c6960d34bc0d56de59a827e89/openbb_nightly-3.0.1.dev20230616.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230617/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:01] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-17 02:14:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/25/12/203aa60022260c129fc3b08507e0df834cd9b17113db649613ab400920fa/mct-quantizers-nightly-1.1.0.20230616.post1034.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230617/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [reposter]: Downloading https://files.pythonhosted.org/packages/92/05/4178af9e038093796eb745c6673f2b6c468014b2558f80796c4a93c6c93f/reposter-23.0.6.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230617/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230617/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [reposter]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [reposter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reposter-23.0.5.tar.gz tmp/reposter-23.0.6.tar.gz --markdown 20230617/r/reposter/23.0.5-23.0.6/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/3e/c9/ad708d33a5092814ea822f0ef7c80662d58d57685748dfcf174e878990d7/cdk-aws-discord-notifiers-0.0.97.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230615.post1048.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230616.post1034.tar.gz --markdown 20230617/m/mct-quantizers-nightly/1.1.0.20230615.post1048-1.1.0.20230616.post1034/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-iot-core-certificates
+[2023-06-17 02:14:02] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-17 02:14:02] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21237884>=10485760
+[2023-06-17 02:14:02] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdk-events-notify
+[2023-06-17 02:14:02] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230617/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230617/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-17 02:14:02] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.96.tar.gz tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz --markdown 20230617/c/cdk-aws-discord-notifiers/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230617/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: django-email-accounts
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-17 02:14:03] WARNING root fetch - processPackages [django-email-accounts]: Skipping, unable to determine old version
+[2023-06-17 02:14:03] INFO root fetch - processPackages [django-email-accounts]: Start processing: cdk-skylight
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [django-email-accounts] error
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230617/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-06-17 02:14:03] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.96.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [reposter]: Remove: archive file [/home/abi/fetcher/tmp/reposter-23.0.5.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [reposter]: Remove: archive file [/home/abi/fetcher/tmp/reposter-23.0.6.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [reposter]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230615.post1048.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230616.post1034.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-17 02:14:04] INFO root fetch - main [MainThread]: Store serial: [18538438]
