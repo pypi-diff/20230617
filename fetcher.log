@@ -10672,3 +10672,45 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:49:00] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-17 10:49:00] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-17 10:49:00] INFO root fetch - main [MainThread]: Store serial: [18541861]
+[2023-06-17 10:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541861]
+[2023-06-17 10:54:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 10:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-attention
+[2023-06-17 10:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-villa
+[2023-06-17 10:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyttsx4
+[2023-06-17 10:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mash-shell
+[2023-06-17 10:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: socialist-core-values
+[2023-06-17 10:54:09] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 10:54:09] INFO root fetch - processPackages [socialist-core-values]: New version: [2.0] Old Version: [1.0]
+[2023-06-17 10:54:09] INFO root fetch - processPackages [mash-shell]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 10:54:09] INFO root fetch - processPackages [pyttsx4]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-17 10:54:09] WARNING root fetch - processPackages [pytorch-attention]: Skipping, unable to determine old version
+[2023-06-17 10:54:09] INFO root fetch - main [MainThread]: End processing [pytorch-attention] error
+[2023-06-17 10:54:09] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/d0/94/5ac059f5e88036d53e7481df9343539967f16b5d4fa6525f540de4f94b20/nonebot_adapter_villa-0.2.0.tar.gz
+[2023-06-17 10:54:09] INFO root fetch - processPackages [socialist-core-values]: Downloading https://files.pythonhosted.org/packages/f2/3f/c41944185018af35484e09d65d9dcc5cb9fc70595b44c107df368d421b4e/socialist_core_values-1.0.tar.gz
+[2023-06-17 10:54:09] INFO root fetch - processPackages [pyttsx4]: Downloading https://files.pythonhosted.org/packages/dd/de/26b39dd5fed630ddc10980a3093173d56f7db5dc952f2b7a56690f60e300/pyttsx4-3.0.8-py3-none-any.whl
+[2023-06-17 10:54:10] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/39/e5/5089c8c5df88a75a681b543ed20ff81c7842cd11739abf40df754b620250/mash-shell-0.2.5.tar.gz
+[2023-06-17 10:54:10] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/3c/da/628f4460dc878cb3bb8e5a5430299944604505ec78dbd8f4b4f8c07c147b/nonebot_adapter_villa-0.2.1.tar.gz
+[2023-06-17 10:54:10] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-06-17 10:54:10] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.2.0.tar.gz tmp/nonebot_adapter_villa-0.2.1.tar.gz --markdown 20230617/n/nonebot-adapter-villa/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 10:54:10] INFO root fetch - processPackages [pyttsx4]: Downloading https://files.pythonhosted.org/packages/2a/ee/0e644ebf5b6bccad1a1ec24ecdb41ac104667d81bd2b27df29d036edd58a/pyttsx4-3.0.9-py3-none-any.whl
+[2023-06-17 10:54:10] INFO root fetch - processPackages [socialist-core-values]: Downloading https://files.pythonhosted.org/packages/ec/c7/48088c0eb4991fbfd6ee5eb0e6c0f9d534b14ace0ca46111f9cb9c03dd3d/socialist_core_values-2.0.tar.gz
+[2023-06-17 10:54:10] INFO root fetch - processPackages [pyttsx4]: executing diffoscope
+[2023-06-17 10:54:10] INFO root fetch - processPackages [pyttsx4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttsx4-3.0.8-py3-none-any.whl.zip tmp/pyttsx4-3.0.9-py3-none-any.whl.zip --markdown 20230617/p/pyttsx4/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:54:10] INFO root fetch - processPackages [socialist-core-values]: executing diffoscope
+[2023-06-17 10:54:10] INFO root fetch - processPackages [socialist-core-values]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialist_core_values-1.0.tar.gz tmp/socialist_core_values-2.0.tar.gz --markdown 20230617/s/socialist-core-values/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-17 10:54:10] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/ac/ee/347f196f9554b286b26ec56cb8a44e1a8ed2941b6ae38e1f0c9b0b7bd0cd/mash-shell-0.2.6.tar.gz
+[2023-06-17 10:54:10] INFO root fetch - processPackages [mash-shell]: executing diffoscope
+[2023-06-17 10:54:10] INFO root fetch - processPackages [mash-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mash-shell-0.2.5.tar.gz tmp/mash-shell-0.2.6.tar.gz --markdown 20230617/m/mash-shell/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 10:54:11] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.2.0.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.2.1.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-06-17 10:54:11] INFO root fetch - processPackages [socialist-core-values]: Remove: archive file [/home/abi/fetcher/tmp/socialist_core_values-1.0.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - processPackages [socialist-core-values]: Remove: archive file [/home/abi/fetcher/tmp/socialist_core_values-2.0.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - main [MainThread]: End processing [socialist-core-values]: success
+[2023-06-17 10:54:11] INFO root fetch - processPackages [pyttsx4]: Remove: archive file [/home/abi/fetcher/tmp/pyttsx4-3.0.8-py3-none-any.whl.zip]
+[2023-06-17 10:54:11] INFO root fetch - processPackages [pyttsx4]: Remove: archive file [/home/abi/fetcher/tmp/pyttsx4-3.0.9-py3-none-any.whl.zip]
+[2023-06-17 10:54:11] INFO root fetch - main [MainThread]: End processing [pyttsx4]: success
+[2023-06-17 10:54:11] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.5.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
+[2023-06-17 10:54:11] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
+[2023-06-17 10:54:11] INFO root fetch - main [MainThread]: Store serial: [18541876]
