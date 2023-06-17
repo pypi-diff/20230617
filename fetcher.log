@@ -10122,3 +10122,36 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:34:57] INFO root fetch - processPackages [vermin]: Remove: archive file [/home/abi/fetcher/tmp/vermin-1.5.2-py2.py3-none-any.whl.zip]
 [2023-06-17 09:34:57] INFO root fetch - main [MainThread]: End processing [vermin]: success
 [2023-06-17 09:34:57] INFO root fetch - main [MainThread]: Store serial: [18541629]
+[2023-06-17 09:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541629]
+[2023-06-17 09:40:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygame-ui-controls
+[2023-06-17 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spam-detector-ai
+[2023-06-17 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FJUtils
+[2023-06-17 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onion-config
+[2023-06-17 09:40:06] WARNING root fetch - processPackages [spam-detector-ai]: Skipping, unable to determine old version
+[2023-06-17 09:40:06] INFO root fetch - main [MainThread]: End processing [spam-detector-ai] error
+[2023-06-17 09:40:06] INFO root fetch - processPackages [pygame-ui-controls]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 09:40:06] INFO root fetch - processPackages [onion-config]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-06-17 09:40:06] INFO root fetch - processPackages [FJUtils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 09:40:06] INFO root fetch - processPackages [pygame-ui-controls]: Downloading https://files.pythonhosted.org/packages/d0/a1/30ad9a410da318b3e6e730249a27df5f1fa261212e4847ec95afe312d394/pygame_ui_controls-1.0.0.tar.gz
+[2023-06-17 09:40:06] INFO root fetch - processPackages [onion-config]: Downloading https://files.pythonhosted.org/packages/1d/21/2e087bd05cba2bf1bee9ca5ab04d0e2c5cee3c4f58052b079fe55732bd1a/onion_config-1.0.1.tar.gz
+[2023-06-17 09:40:06] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/89/d9/6b992f70d5969201aaa330ed7cafe5c7949af3c6ff2e59994e569310b775/FJUtils-0.0.3.tar.gz
+[2023-06-17 09:40:06] INFO root fetch - processPackages [pygame-ui-controls]: Downloading https://files.pythonhosted.org/packages/a9/a6/c0a0e6576f373214d90ae255d84a590e881296e63cdca0b44f65ddd42f94/pygame_ui_controls-1.0.1.tar.gz
+[2023-06-17 09:40:06] INFO root fetch - processPackages [pygame-ui-controls]: executing diffoscope
+[2023-06-17 09:40:06] INFO root fetch - processPackages [pygame-ui-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ui_controls-1.0.0.tar.gz tmp/pygame_ui_controls-1.0.1.tar.gz --markdown 20230617/p/pygame-ui-controls/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 09:40:06] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/75/c0/57f5a08522192b45155d23af024b53232f764ec7565234baa4b9cc390dbc/FJUtils-0.0.4.tar.gz
+[2023-06-17 09:40:06] INFO root fetch - processPackages [onion-config]: Downloading https://files.pythonhosted.org/packages/4f/bf/f19db53850bdfced9717eb15d25ef5c6371b92c7c8d409eddecb5c50abab/onion_config-2.0.0.tar.gz
+[2023-06-17 09:40:07] INFO root fetch - processPackages [FJUtils]: executing diffoscope
+[2023-06-17 09:40:07] INFO root fetch - processPackages [FJUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FJUtils-0.0.3.tar.gz tmp/FJUtils-0.0.4.tar.gz --markdown 20230617/F/FJUtils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 09:40:07] INFO root fetch - processPackages [onion-config]: executing diffoscope
+[2023-06-17 09:40:07] INFO root fetch - processPackages [onion-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_config-1.0.1.tar.gz tmp/onion_config-2.0.0.tar.gz --markdown 20230617/o/onion-config/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 09:40:07] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.0.0.tar.gz]
+[2023-06-17 09:40:07] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.0.1.tar.gz]
+[2023-06-17 09:40:07] INFO root fetch - main [MainThread]: End processing [pygame-ui-controls]: success
+[2023-06-17 09:40:07] INFO root fetch - processPackages [onion-config]: Remove: archive file [/home/abi/fetcher/tmp/onion_config-1.0.1.tar.gz]
+[2023-06-17 09:40:07] INFO root fetch - processPackages [onion-config]: Remove: archive file [/home/abi/fetcher/tmp/onion_config-2.0.0.tar.gz]
+[2023-06-17 09:40:07] INFO root fetch - main [MainThread]: End processing [onion-config]: success
+[2023-06-17 09:40:08] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.3.tar.gz]
+[2023-06-17 09:40:08] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.4.tar.gz]
+[2023-06-17 09:40:08] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
+[2023-06-17 09:40:08] INFO root fetch - main [MainThread]: Store serial: [18541642]
