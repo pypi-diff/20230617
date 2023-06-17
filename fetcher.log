@@ -2163,3 +2163,60 @@
 [2023-06-17 02:50:50] INFO root fetch - processPackages [peopledatalabs]: Remove: archive file [/home/abi/fetcher/tmp/peopledatalabs-1.1.8.tar.gz]
 [2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [peopledatalabs]: success
 [2023-06-17 02:50:50] INFO root fetch - main [MainThread]: Store serial: [18538727]
+[2023-06-17 02:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538727]
+[2023-06-17 02:55:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-ride
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extract-office-content
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitsnet-py
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kultimate
+[2023-06-17 02:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kedro-ibis-dataset
+[2023-06-17 02:55:59] INFO root fetch - processPackages [robotframework-ride]: New version: [2.0rc1] Old Version: [2.0b3]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kultimate]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [extract-office-content]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/ab/fe/e1f218394890d5f4b2dc6eb9a888c4600096f82f161a4ce5df9a64d5eea6/kultimate-0.2.5.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.6a2] Old Version: [0.0.6a0]
+[2023-06-17 02:55:59] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/e1/57/2e55082375ca275f1895c10b75ed7d756fea3d95749e2ea868b4bf9c92d5/unitsnet-py-0.1.40.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/c6/c3/5d8da7ae83a94313bf5235dbf568ca8a891ae3cecc8bb943ba9c7dba9d4d/kedro_ibis_dataset-0.0.6a0.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/d5/a0/51507b963a7f043265cc50df27306b580f7074945b79588ee5b9062d031f/extract_office_content-0.0.2-py3-none-any.whl
+[2023-06-17 02:55:59] INFO root fetch - processPackages [robotframework-ride]: Downloading https://files.pythonhosted.org/packages/de/d0/dede67ae593272431c81f524ef3f85ac2758889a4f8c6bf2720060619fd8/robotframework-ride-2.0b3.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/44/5d/bd72ce04be2a9332d582bf522993c3c7d53c307da6490e3e6095685ae4d0/kultimate-0.2.6.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/68/e3/308ea1592d344b067d77cdb362bcf0203ddde3f657a8b09228664a4badbc/unitsnet-py-0.1.41.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-17 02:55:59] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230617/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:55:59] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-06-17 02:55:59] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.40.tar.gz tmp/unitsnet-py-0.1.41.tar.gz --markdown 20230617/u/unitsnet-py/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.5.tar.gz tmp/kultimate-0.2.6.tar.gz --markdown 20230617/k/kultimate/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 02:55:59] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/2a/b1/e97baa7bb6a5834d6058ed0c9fbdc3b20c7f3d8050de777c46bd412b0637/kedro_ibis_dataset-0.0.6a2.tar.gz
+[2023-06-17 02:55:59] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/94/8d/ae9f2e33acc6ec71d4462e74a561a2d8bc71e798e1d39bdc870eb1c5939d/extract_office_content-0.0.3-py3-none-any.whl
+[2023-06-17 02:55:59] INFO root fetch - processPackages [extract-office-content]: executing diffoscope
+[2023-06-17 02:55:59] INFO root fetch - processPackages [extract-office-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_office_content-0.0.2-py3-none-any.whl.zip tmp/extract_office_content-0.0.3-py3-none-any.whl.zip --markdown 20230617/e/extract-office-content/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 02:56:00] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 02:56:00] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.6a0.tar.gz tmp/kedro_ibis_dataset-0.0.6a2.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.6a0-0.0.6a2/diff.md --exclude *.pyd
+[2023-06-17 02:56:00] INFO root fetch - processPackages [robotframework-ride]: Downloading https://files.pythonhosted.org/packages/2b/df/c6ff154e14ebb75be2d80d00c616689d2408f81968533e6784f954231572/robotframework-ride-2.0rc1.zip
+[2023-06-17 02:56:00] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.5.tar.gz]
+[2023-06-17 02:56:00] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.6.tar.gz]
+[2023-06-17 02:56:00] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-17 02:56:01] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a0.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a2.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 02:56:01] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.2-py3-none-any.whl.zip]
+[2023-06-17 02:56:01] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.3-py3-none-any.whl.zip]
+[2023-06-17 02:56:01] INFO root fetch - main [MainThread]: End processing [extract-office-content]: success
+[2023-06-17 02:56:01] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-17 02:56:01] INFO root fetch - processPackages [robotframework-ride]: executing diffoscope
+[2023-06-17 02:56:01] INFO root fetch - processPackages [robotframework-ride]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-ride-2.0b3.tar.gz tmp/robotframework-ride-2.0rc1.zip --markdown 20230617/r/robotframework-ride/2.0b3-2.0rc1/diff.md --exclude *.pyd
+[2023-06-17 02:56:01] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.40.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.41.tar.gz]
+[2023-06-17 02:56:01] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-06-17 02:56:03] INFO root fetch - processPackages [robotframework-ride]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-ride-2.0b3.tar.gz]
+[2023-06-17 02:56:03] INFO root fetch - processPackages [robotframework-ride]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-ride-2.0rc1.zip]
+[2023-06-17 02:56:03] INFO root fetch - main [MainThread]: End processing [robotframework-ride]: success
+[2023-06-17 02:56:03] INFO root fetch - main [MainThread]: Store serial: [18538742]
