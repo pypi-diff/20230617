@@ -7136,3 +7136,78 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:14:28] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc4.tar.gz]
 [2023-06-17 05:14:28] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-17 05:14:28] INFO root fetch - main [MainThread]: Store serial: [18540442]
+[2023-06-17 05:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540442]
+[2023-06-17 05:19:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-runtime
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-embed
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-pyodide
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-tmp
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-api
+[2023-06-17 05:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-event-session
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-runtime]: New version: [0.8.0.dev1537] Old Version: [0.8.0.dev1535]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [fast-tmp]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [odoo14-addon-event-session]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.2.dev8]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-embed]: New version: [0.8.0.dev1537] Old Version: [0.8.0.dev1535]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1537] Old Version: [0.8.0.dev1535]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1537] Old Version: [0.8.0.dev1535]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1537] Old Version: [0.8.0.dev1535]
+[2023-06-17 05:19:37] INFO root fetch - processPackages [fast-tmp]: Downloading https://files.pythonhosted.org/packages/3f/3d/5774a255fe8a9860698f7bef4b9ff43823ea534a07c79cce9d62f64d435a/fast_tmp-1.1.7.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/96/f0/145a401dc7bdbbb2b3940e9f1119a8644a3d6571df25887899c310a5f6a9/flet_embed-0.8.0.dev1535.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [odoo14-addon-event-session]: Downloading https://files.pythonhosted.org/packages/bc/3b/3e8c2f22d4994541c903d201fcd0ee7d27ffd4ea20718fba8732c0475b45/odoo14_addon_event_session-14.0.1.0.2.dev8-py3-none-any.whl
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/c5/cb/19226d439dc499956797c5c3a150b0f01a5e1340c35eb3a5b3e233528b4b/flet_runtime-0.8.0.dev1535.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/68/89/53b19e16e6c3ef61cc007288859feb794e77b87631f24c96278c70cd5fdd/flet-0.8.0.dev1535.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/01/7a/7e6d0bd0eb7a5938ab69076906cc07f5dcb87734e6fad5a3df9ec0f1801e/flet_pyodide-0.8.0.dev1535.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-17 05:19:37] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/f3/e0/647ca2f68f86347f59522217d1e85bd2c28895f49494c7c2f1b653dcf2d2/flet_core-0.8.0.dev1535.tar.gz
+[2023-06-17 05:19:37] INFO root fetch - processPackages [odoo14-addon-event-session]: Downloading https://files.pythonhosted.org/packages/07/6a/d870656765c9f7bea585fd346657c83166bc1ef18af1ebbae80bf8cfbc7b/odoo14_addon_event_session-14.0.1.1.0-py3-none-any.whl
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/4a/ee/d79d7f741c1db2606a8782716b7eb9564022dfc5f45e9edb473941c6f995/flet_embed-0.8.0.dev1537.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [odoo14-addon-event-session]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [odoo14-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_event_session-14.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_event_session-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-event-session/14.0.1.0.2.dev8-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/35/26/7f7ecdaed1f4394d735234412f1d171cc2d315d1d700b44c43bbbb9e2f67/flet_runtime-0.8.0.dev1537.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/4b/28/b9e10d5b85c6f8fd10c10c50397ed1d6e5676f6a7867a7b155ee12a78e8a/flet_pyodide-0.8.0.dev1537.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/69/9b/92cadf27c0a6a747b2a2fabdbcf63f5e6224f16d65a11386acb48586fa25/flet_core-0.8.0.dev1537.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.0.dev1535.tar.gz tmp/flet_embed-0.8.0.dev1537.tar.gz --markdown 20230617/f/flet-embed/0.8.0.dev1535-0.8.0.dev1537/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.0.dev1535.tar.gz tmp/flet_runtime-0.8.0.dev1537.tar.gz --markdown 20230617/f/flet-runtime/0.8.0.dev1535-0.8.0.dev1537/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1535.tar.gz tmp/flet_pyodide-0.8.0.dev1537.tar.gz --markdown 20230617/f/flet-pyodide/0.8.0.dev1535-0.8.0.dev1537/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1535.tar.gz tmp/flet_core-0.8.0.dev1537.tar.gz --markdown 20230617/f/flet-core/0.8.0.dev1535-0.8.0.dev1537/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230617/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/f0/09/4eb347ffa1814c9b7c0e8c2d146ce83f0e04d5c3d69ac756de6f3be85482/flet-0.8.0.dev1537.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [fast-tmp]: Downloading https://files.pythonhosted.org/packages/bf/07/c0db3eab764ca2c12610f2a484cf441dd178928571a09e97bf69f3e22796/fast_tmp-1.1.9.tar.gz
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-06-17 05:19:38] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1535.tar.gz tmp/flet-0.8.0.dev1537.tar.gz --markdown 20230617/f/flet/0.8.0.dev1535-0.8.0.dev1537/diff.md --exclude *.pyd
+[2023-06-17 05:19:39] INFO root fetch - processPackages [fast-tmp]: executing diffoscope
+[2023-06-17 05:19:39] INFO root fetch - processPackages [fast-tmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tmp-1.1.7.tar.gz tmp/fast_tmp-1.1.9.tar.gz --markdown 20230617/f/fast-tmp/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-06-17 05:19:39] INFO root fetch - processPackages [odoo14-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_session-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2023-06-17 05:19:39] INFO root fetch - processPackages [odoo14-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_session-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-17 05:19:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-event-session]: success
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1535.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1537.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1535.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1537.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1535.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1537.tar.gz]
+[2023-06-17 05:19:39] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-06-17 05:19:40] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1535.tar.gz]
+[2023-06-17 05:19:40] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1537.tar.gz]
+[2023-06-17 05:19:40] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-06-17 05:19:41] INFO root fetch - processPackages [fast-tmp]: Remove: archive file [/home/abi/fetcher/tmp/fast_tmp-1.1.7.tar.gz]
+[2023-06-17 05:19:41] INFO root fetch - processPackages [fast-tmp]: Remove: archive file [/home/abi/fetcher/tmp/fast_tmp-1.1.9.tar.gz]
+[2023-06-17 05:19:41] INFO root fetch - main [MainThread]: End processing [fast-tmp]: success
+[2023-06-17 05:19:41] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-17 05:19:41] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-17 05:19:41] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-17 05:20:28] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1535.tar.gz]
+[2023-06-17 05:20:28] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1537.tar.gz]
+[2023-06-17 05:20:28] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-06-17 05:20:28] INFO root fetch - main [MainThread]: Store serial: [18540474]
