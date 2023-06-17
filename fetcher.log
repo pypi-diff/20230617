@@ -18438,3 +18438,51 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:11:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
 [2023-06-17 22:11:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-06-17 22:11:13] INFO root fetch - main [MainThread]: Store serial: [18545652]
+[2023-06-17 22:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545652]
+[2023-06-17 22:16:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 22:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-cgap
+[2023-06-17 22:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griptape-tools
+[2023-06-17 22:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight
+[2023-06-17 22:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnadb
+[2023-06-17 22:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oneapi-sdk
+[2023-06-17 22:16:28] INFO root fetch - processPackages [oneapi-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 22:16:28] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-17 22:16:28] INFO root fetch - processPackages [dnadb]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-06-17 22:16:28] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-17 22:16:28] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-17 22:16:28] INFO root fetch - processPackages [oneapi-sdk]: Downloading https://files.pythonhosted.org/packages/d7/6d/ac5891220400ec3cca4b768bb016c126c9ab35c1461260bce58f3d40119b/oneapi_sdk-0.0.3.tar.gz
+[2023-06-17 22:16:28] INFO root fetch - processPackages [dnadb]: Downloading https://files.pythonhosted.org/packages/b7/7b/13e45eed377ae94adf8bac2a0e02b383b7fddb228f2cebb405e997fbd748/dnadb-0.6.4.tar.gz
+[2023-06-17 22:16:28] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-06-17 22:16:28] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-17 22:16:28] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-17 22:16:28] INFO root fetch - processPackages [oneapi-sdk]: Downloading https://files.pythonhosted.org/packages/1d/6f/55a00fe1e425ab256587a475f6b03db921323ea7a6ae787d606fae175db7/oneapi_sdk-0.0.4.tar.gz
+[2023-06-17 22:16:29] INFO root fetch - processPackages [oneapi-sdk]: executing diffoscope
+[2023-06-17 22:16:29] INFO root fetch - processPackages [oneapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneapi_sdk-0.0.3.tar.gz tmp/oneapi_sdk-0.0.4.tar.gz --markdown 20230617/o/oneapi-sdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 22:16:29] INFO root fetch - processPackages [dnadb]: Downloading https://files.pythonhosted.org/packages/ee/0d/610cfdd26b9da3df8d4a584625abcc2e193a893f3d03bb0757afb9e91a28/dnadb-0.7.0.tar.gz
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-17 22:16:29] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-06-17 22:16:29] INFO root fetch - processPackages [dnadb]: executing diffoscope
+[2023-06-17 22:16:29] INFO root fetch - processPackages [dnadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnadb-0.6.4.tar.gz tmp/dnadb-0.7.0.tar.gz --markdown 20230617/d/dnadb/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230617/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-17 22:16:29] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230617/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 22:16:29] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-17 22:16:29] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230617/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-17 22:16:30] INFO root fetch - processPackages [oneapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oneapi_sdk-0.0.3.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - processPackages [oneapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oneapi_sdk-0.0.4.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: End processing [oneapi-sdk]: success
+[2023-06-17 22:16:30] INFO root fetch - processPackages [dnadb]: Remove: archive file [/home/abi/fetcher/tmp/dnadb-0.6.4.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - processPackages [dnadb]: Remove: archive file [/home/abi/fetcher/tmp/dnadb-0.7.0.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: End processing [dnadb]: success
+[2023-06-17 22:16:30] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-17 22:16:30] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-17 22:16:30] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.1.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-17 22:16:30] INFO root fetch - main [MainThread]: Store serial: [18545667]
