@@ -19233,3 +19233,39 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:25:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
 [2023-06-17 23:25:49] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
 [2023-06-17 23:25:49] INFO root fetch - main [MainThread]: Store serial: [18545989]
+[2023-06-17 23:30:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545989]
+[2023-06-17 23:30:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 23:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statements-manager
+[2023-06-17 23:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamabot
+[2023-06-17 23:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezargs
+[2023-06-17 23:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdsync666
+[2023-06-17 23:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microsoft-kiota-abstractions
+[2023-06-17 23:30:58] WARNING root fetch - processPackages [ezargs]: Skipping, unable to determine old version
+[2023-06-17 23:30:58] INFO root fetch - main [MainThread]: End processing [ezargs] error
+[2023-06-17 23:30:58] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 23:30:58] INFO root fetch - processPackages [microsoft-kiota-abstractions]: New version: [0.5.3] Old Version: [0.5.1]
+[2023-06-17 23:30:58] WARNING root fetch - processPackages [gdsync666]: Skipping, unable to determine old version
+[2023-06-17 23:30:58] INFO root fetch - main [MainThread]: End processing [gdsync666] error
+[2023-06-17 23:30:58] INFO root fetch - processPackages [statements-manager]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-17 23:30:58] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-17 23:30:58] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/c7/14/e7fc5db34cb1f3e264f68609c73d3efb1dee78a034726cfc85fed1dfa448/microsoft-kiota-abstractions-0.5.1.tar.gz
+[2023-06-17 23:30:58] INFO root fetch - processPackages [statements-manager]: Downloading https://files.pythonhosted.org/packages/03/31/f34a6adf44abc5c1eef4da0c7281b3ae27ea99ae872afad264612c70bb40/statements_manager-1.7.8-py3-none-any.whl
+[2023-06-17 23:30:58] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-17 23:30:58] INFO root fetch - processPackages [statements-manager]: Downloading https://files.pythonhosted.org/packages/65/5a/3a8dfc5548306a9431729c1305fa29537dbc297bc12a3e59c99a1ad441f1/statements_manager-1.7.9-py3-none-any.whl
+[2023-06-17 23:30:58] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/5d/d2/0e0bb16c5cca27dca4950b6f13aca54baf93423926e7c366cf37203e93b2/microsoft_kiota_abstractions-0.5.3.tar.gz
+[2023-06-17 23:30:59] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-17 23:30:59] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230617/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 23:30:59] INFO root fetch - processPackages [statements-manager]: executing diffoscope
+[2023-06-17 23:30:59] INFO root fetch - processPackages [statements-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statements_manager-1.7.8-py3-none-any.whl.zip tmp/statements_manager-1.7.9-py3-none-any.whl.zip --markdown 20230617/s/statements-manager/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-17 23:30:59] INFO root fetch - processPackages [microsoft-kiota-abstractions]: executing diffoscope
+[2023-06-17 23:30:59] INFO root fetch - processPackages [microsoft-kiota-abstractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft-kiota-abstractions-0.5.1.tar.gz tmp/microsoft_kiota_abstractions-0.5.3.tar.gz --markdown 20230617/m/microsoft-kiota-abstractions/0.5.1-0.5.3/diff.md --exclude *.pyd
+[2023-06-17 23:30:59] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-17 23:30:59] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-17 23:30:59] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-17 23:31:00] INFO root fetch - processPackages [statements-manager]: Remove: archive file [/home/abi/fetcher/tmp/statements_manager-1.7.8-py3-none-any.whl.zip]
+[2023-06-17 23:31:00] INFO root fetch - processPackages [statements-manager]: Remove: archive file [/home/abi/fetcher/tmp/statements_manager-1.7.9-py3-none-any.whl.zip]
+[2023-06-17 23:31:00] INFO root fetch - main [MainThread]: End processing [statements-manager]: success
+[2023-06-17 23:31:00] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft-kiota-abstractions-0.5.1.tar.gz]
+[2023-06-17 23:31:00] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.5.3.tar.gz]
+[2023-06-17 23:31:00] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-abstractions]: success
+[2023-06-17 23:31:00] INFO root fetch - main [MainThread]: Store serial: [18546013]
