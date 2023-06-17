@@ -9710,3 +9710,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:47:48] INFO root fetch - processPackages [graphene-django]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-3.1.2.tar.gz]
 [2023-06-17 08:47:48] INFO root fetch - main [MainThread]: End processing [graphene-django]: success
 [2023-06-17 08:47:48] INFO root fetch - main [MainThread]: Store serial: [18541454]
+[2023-06-17 08:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541454]
+[2023-06-17 08:52:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TabularDataInvestigation
+[2023-06-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverse-sdk
+[2023-06-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kynaylibs
+[2023-06-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idoctorai
+[2023-06-17 08:52:57] INFO root fetch - processPackages [kynaylibs]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-17 08:52:57] INFO root fetch - processPackages [TabularDataInvestigation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 08:52:57] INFO root fetch - processPackages [idoctorai]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-17 08:52:57] INFO root fetch - processPackages [dataverse-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 08:52:57] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/5c/74/3b8e81a04abff0d217abca6c534558450c36d3cbad5e5e7d0961213136b9/kynaylibs-1.8.7.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [TabularDataInvestigation]: Downloading https://files.pythonhosted.org/packages/c3/75/c50989b7a24dbfe91636a81ac824c09beccf40ee382bae563cb54a104730/TabularDataInvestigation-0.0.5.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/6b/e5/a2731504862ec1f638d37b8e8e7e924093919b88eb75eecc654ff3f412d2/idoctorai-0.4.3.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/86/43/8829a4308dad051ca8fab04949b3f8ed9cc5575117ff40ca64eaa75acd05/dataverse-sdk-0.1.4.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/01/f0/9ef8c78798ad954dc2914175a635294e8a233102fcef98d09cafc8277bfa/kynaylibs-1.8.8.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/80/fd/22a7fa1946346395d9cc71705ec1a57f61f40c0d1d0048ec5a43fb61f001/idoctorai-0.4.4.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [TabularDataInvestigation]: Downloading https://files.pythonhosted.org/packages/47/7c/65ec9d2247135a64180284ada58455d021e0d8514984c283f0e8e5eaa9e5/TabularDataInvestigation-0.0.6.tar.gz
+[2023-06-17 08:52:57] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 08:52:57] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.3.tar.gz tmp/idoctorai-0.4.4.tar.gz --markdown 20230617/i/idoctorai/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-17 08:52:57] INFO root fetch - processPackages [TabularDataInvestigation]: executing diffoscope
+[2023-06-17 08:52:57] INFO root fetch - processPackages [TabularDataInvestigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TabularDataInvestigation-0.0.5.tar.gz tmp/TabularDataInvestigation-0.0.6.tar.gz --markdown 20230617/T/TabularDataInvestigation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 08:52:58] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-06-17 08:52:58] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.8.7.tar.gz tmp/kynaylibs-1.8.8.tar.gz --markdown 20230617/k/kynaylibs/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-17 08:52:58] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/da/6e/bc06eb62e81a3dde8922f1321e4743aa17e87680af156fc89924e4e68c30/dataverse-sdk-0.1.5.tar.gz
+[2023-06-17 08:52:58] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2023-06-17 08:52:58] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse-sdk-0.1.4.tar.gz tmp/dataverse-sdk-0.1.5.tar.gz --markdown 20230617/d/dataverse-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 08:52:58] INFO root fetch - processPackages [TabularDataInvestigation]: Remove: archive file [/home/abi/fetcher/tmp/TabularDataInvestigation-0.0.5.tar.gz]
+[2023-06-17 08:52:58] INFO root fetch - processPackages [TabularDataInvestigation]: Remove: archive file [/home/abi/fetcher/tmp/TabularDataInvestigation-0.0.6.tar.gz]
+[2023-06-17 08:52:58] INFO root fetch - main [MainThread]: End processing [TabularDataInvestigation]: success
+[2023-06-17 08:52:59] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.3.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.4.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 08:52:59] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.8.7.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.8.8.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-06-17 08:52:59] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.4.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.5.tar.gz]
+[2023-06-17 08:52:59] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2023-06-17 08:52:59] INFO root fetch - main [MainThread]: Store serial: [18541465]
