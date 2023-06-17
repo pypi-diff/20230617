@@ -9591,3 +9591,49 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:37:26] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
 [2023-06-17 08:37:26] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-06-17 08:37:26] INFO root fetch - main [MainThread]: Store serial: [18541391]
+[2023-06-17 08:42:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541391]
+[2023-06-17 08:42:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 08:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-everything
+[2023-06-17 08:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-compiler-python
+[2023-06-17 08:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gameyamlspiderandgenerator
+[2023-06-17 08:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gameyamlspiderandgenerator
+[2023-06-17 08:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: femwell
+[2023-06-17 08:42:35] INFO root fetch - processPackages [xia-compiler-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.2] Old Version: [1.6.1a0]
+[2023-06-17 08:42:35] INFO root fetch - processPackages [femwell]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.2] Old Version: [1.6.1a0]
+[2023-06-17 08:42:35] INFO root fetch - processPackages [auto-everything]: New version: [3.9] Old Version: [3.8]
+[2023-06-17 08:42:35] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/b2/5c/4166d16e48c7ea6add8ad26732e930371a75f0a6edc91652dc747a2aed61/femwell-0.1.1.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/e5/30/e20df1dc74d590416c1284047f6032852b69cfe8b097515fd6abfc1084fb/gameyamlspiderandgenerator-1.6.1a0.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/e5/30/e20df1dc74d590416c1284047f6032852b69cfe8b097515fd6abfc1084fb/gameyamlspiderandgenerator-1.6.1a0.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [auto-everything]: Downloading https://files.pythonhosted.org/packages/55/94/6d533c6710f10fbaf86108833bb72d58a04bfbb1985189bc544d6d89f743/auto_everything-3.8.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/e2/d7/dc0c9ba630c7624faa76be165f4efcee2a858e4c1c8df6aba447a182fa53/xia_compiler_python-0.1.2-cp39-none-win_amd64.whl
+[2023-06-17 08:42:35] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/66/14/b0f8eab531a8b4d5d224aa2a6875874d16527bcd7c6b72d637b084bca21f/femwell-0.1.2.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/f9/ce/7d449d47968c452b1e316fba935fcdabaad4a7a36332933e5938394ef54c/gameyamlspiderandgenerator-1.6.2.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/f9/ce/7d449d47968c452b1e316fba935fcdabaad4a7a36332933e5938394ef54c/gameyamlspiderandgenerator-1.6.2.tar.gz
+[2023-06-17 08:42:35] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-06-17 08:42:35] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.1.1.tar.gz tmp/femwell-0.1.2.tar.gz --markdown 20230617/f/femwell/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 08:42:35] INFO root fetch - processPackages [auto-everything]: Downloading https://files.pythonhosted.org/packages/b2/be/5da4db8476d7835cf93de5795870ca54d3f829b7a85700a7a58445d1364a/auto_everything-3.9.tar.gz
+[2023-06-17 08:42:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-17 08:42:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.1a0.tar.gz tmp/gameyamlspiderandgenerator-1.6.2.tar.gz --markdown 20230617/g/gameyamlspiderandgenerator/1.6.1a0-1.6.2/diff.md --exclude *.pyd
+[2023-06-17 08:42:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-17 08:42:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.1a0.tar.gz tmp/gameyamlspiderandgenerator-1.6.2.tar.gz --markdown 20230617/g/gameyamlspiderandgenerator/1.6.1a0-1.6.2/diff.md --exclude *.pyd
+[2023-06-17 08:42:36] INFO root fetch - processPackages [auto-everything]: executing diffoscope
+[2023-06-17 08:42:36] INFO root fetch - processPackages [auto-everything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_everything-3.8.tar.gz tmp/auto_everything-3.9.tar.gz --markdown 20230617/a/auto-everything/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-17 08:42:36] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/32/b0/5e3be53506bba1ad9fccce61d153a0b60c2b6824f5805a2ab7175eeaba77/xia_compiler_python-0.1.3-cp39-none-win_amd64.whl
+[2023-06-17 08:42:36] INFO root fetch - processPackages [xia-compiler-python]: executing diffoscope
+[2023-06-17 08:42:36] INFO root fetch - processPackages [xia-compiler-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_python-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_compiler_python-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230617/x/xia-compiler-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 08:42:37] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.1.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.2.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-06-17 08:42:37] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.1a0.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.2.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-17 08:42:37] INFO root fetch - processPackages [auto-everything]: Remove: archive file [/home/abi/fetcher/tmp/auto_everything-3.8.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - processPackages [auto-everything]: Remove: archive file [/home/abi/fetcher/tmp/auto_everything-3.9.tar.gz]
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: End processing [auto-everything]: success
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-17 08:42:37] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-17 08:42:37] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: End processing [xia-compiler-python]: success
+[2023-06-17 08:42:37] INFO root fetch - main [MainThread]: Store serial: [18541420]
