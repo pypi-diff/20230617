@@ -17693,3 +17693,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:45:01] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
 [2023-06-17 20:45:01] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
 [2023-06-17 20:45:01] INFO root fetch - main [MainThread]: Store serial: [18545237]
+[2023-06-17 20:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545237]
+[2023-06-17 20:50:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezargs
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ezargs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/da/bf/4f19093f4fcd439d3bf5a5813002f36c17fb03fab03d86c8cbcde05b0bd7/ezargs-0.0.2.tar.gz
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ezargs]: Downloading https://files.pythonhosted.org/packages/07/1d/78ca8c455eedf69f8fcf5c7e2d7b632c7dabf395e6849756c13495928ede/ezargs-0.0.3.tar.gz
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ezargs]: executing diffoscope
+[2023-06-17 20:50:10] INFO root fetch - processPackages [ezargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezargs-0.0.2.tar.gz tmp/ezargs-0.0.3.tar.gz --markdown 20230617/e/ezargs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 20:50:12] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.2.tar.gz]
+[2023-06-17 20:50:12] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.3.tar.gz]
+[2023-06-17 20:50:12] INFO root fetch - main [MainThread]: End processing [ezargs]: success
+[2023-06-17 20:50:12] INFO root fetch - main [MainThread]: Store serial: [18545288]
