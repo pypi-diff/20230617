@@ -15640,3 +15640,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:34:23] INFO root fetch - processPackages [QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl.zip]
 [2023-06-17 17:34:23] INFO root fetch - main [MainThread]: End processing [QScintilla]: success
 [2023-06-17 17:34:23] INFO root fetch - main [MainThread]: Store serial: [18544249]
+[2023-06-17 17:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544249]
+[2023-06-17 17:39:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leuci-geo
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erniechatbotsdk
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-portfolio-index
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-sync
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-QScintilla
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pcdl
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: almavik
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AshCrypt
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jgbpacking
+[2023-06-17 17:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FlowAnalyzer
+[2023-06-17 17:39:32] INFO root fetch - processPackages [almavik]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-17 17:39:32] INFO root fetch - processPackages [AshCrypt]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 17:39:32] INFO root fetch - processPackages [pcdl]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-17 17:39:32] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/d9/bb/356245c6620b5f8517dbdceebc89fe4ea1ee310e122aa5874b44dd1b12ea/almavik-0.3.2.tar.gz
+[2023-06-17 17:39:32] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/35/a7/db250335b69364cd828c437c4925e46036d8203f7ac4b0acaa9f41ebac28/pcdl-3.2.1.tar.gz
+[2023-06-17 17:39:32] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16735188>=10485760
+[2023-06-17 17:39:32] INFO root fetch - processPackages [pcdl]: Start processing: jgbpackinx
+[2023-06-17 17:39:32] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-17 17:39:32] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/58/60/e3532004e03fa5673642b1a5b7e96cf1ee7720907afd3d5a88fb36b9629c/AshCrypt-1.1.1.tar.gz
+[2023-06-17 17:39:32] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88363459>=10485760
+[2023-06-17 17:39:32] INFO root fetch - processPackages [almavik]: Start processing: artd-product
+[2023-06-17 17:39:32] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 17:39:32] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 17:39:32] WARNING root fetch - processPackages [FlowAnalyzer]: Skipping, unable to determine old version
+[2023-06-17 17:39:32] INFO root fetch - processPackages [FlowAnalyzer]: Start processing: micropython-adt7410
+[2023-06-17 17:39:32] INFO root fetch - main [MainThread]: End processing [FlowAnalyzer] error
+[2023-06-17 17:39:33] WARNING root fetch - processPackages [jgbpacking]: Skipping, unable to determine old version
+[2023-06-17 17:39:33] INFO root fetch - processPackages [jgbpacking]: Start processing: nyria-zenith
+[2023-06-17 17:39:33] INFO root fetch - main [MainThread]: End processing [jgbpacking] error
+[2023-06-17 17:39:33] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [PyQt6-QScintilla]: New version: [2.14.1] Old Version: [2.14.0]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/f4/bc/abf7f58cd8a42444077158579d0b9e40d89be898f006f82b6f275f2a68fd/py-portfolio-index-0.0.3.tar.gz
+[2023-06-17 17:39:33] WARNING root fetch - processPackages [jgbpackinx]: Skipping, unable to determine old version
+[2023-06-17 17:39:33] INFO root fetch - processPackages [jgbpackinx]: Start processing: pycistem
+[2023-06-17 17:39:33] INFO root fetch - main [MainThread]: End processing [jgbpackinx] error
+[2023-06-17 17:39:33] INFO root fetch - processPackages [artd-product]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:39:33] WARNING root fetch - processPackages [nyria-zenith]: Skipping, unable to determine old version
+[2023-06-17 17:39:33] INFO root fetch - main [MainThread]: End processing [nyria-zenith] error
+[2023-06-17 17:39:33] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0c/a7/eaff9355ce792a03370a3aa7f4cfa388fda42c07f85ccc06d5b8897adb1a/erniechatbotsdk-0.0.5.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [micropython-adt7410]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/07/44/ab8c5e945300da35d2d8a1385cdc06b1a7f11ef859f026e6aea37069bfbd/mercury-sync-0.1.7.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/3e/d9/bd9ff0127dc476b03342bcd92766324df04b059746a9ee2fba07fba1e64a/leuci-geo-0.0.3.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [pycistem]: New version: [0.3.1] Old Version: [0.1.5]
+[2023-06-17 17:39:33] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/eb/c1/2cf0930dc262a64576610088f856ea5c79ef255c02fd4baa3cc6e29d8c62/AshCrypt-1.1.2.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [PyQt6-QScintilla]: Downloading https://files.pythonhosted.org/packages/c5/09/34788ef414a7a9f64feab7fab13fa524e5418b685c6defca634685e24674/PyQt6_QScintilla-2.14.0.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/b7/98/f59af6b80f23e30d7aec88956b9c041b6d4861ef6aca0e7a7e446d032739/artd-product-0.0.3.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/14/ff/58a6985a133fb2f6850a095eb32b01af1ead86a6c39196ee247da2dc5712/py-portfolio-index-0.0.4.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/56/bd/6bcfd78a768989abbf915549bbb7f4c229cc2aaeb73d4b11a3ebc71554a5/micropython-adt7410-0.1.0.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.1.1.tar.gz tmp/AshCrypt-1.1.2.tar.gz --markdown 20230617/A/AshCrypt/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/58/f3/338f963b484cc4de38f83cc4db0b07c3c9ef7cd01ac11a3e8e06f97100a0/erniechatbotsdk-0.0.6.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/b8/77/dd39d03028ee88a173e8026075c2583cd5d9fa8804cb9d862c1c56f85850/mercury-sync-0.1.8.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [pycistem]: Downloading https://files.pythonhosted.org/packages/2f/e8/6f946aba1e58d2cf234b1c6f0052c1957cabddc715136662b19e8dbe7a8d/pycistem-0.1.5.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.5.tar.gz tmp/erniechatbotsdk-0.0.6.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.3.tar.gz tmp/py-portfolio-index-0.0.4.tar.gz --markdown 20230617/p/py-portfolio-index/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.7.tar.gz tmp/mercury-sync-0.1.8.tar.gz --markdown 20230617/m/mercury-sync/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/00/56/70dfec0e76baeb5e6e60c59238f4a501d9dd9af317f1b4632f70687b9daa/micropython-adt7410-0.1.1.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/66/cc/d685d0afbec195b3534bfda9330d6a35e75ccf4dbc68b2fa32627dd10ce3/leuci-geo-0.0.4.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/b8/72/25d44bb5276d7bd0a86c0489264d1c2cd881945e69c0d91345d9aae7a781/artd-product-0.0.4.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [PyQt6-QScintilla]: Downloading https://files.pythonhosted.org/packages/e8/06/799c04a51f6cc2111f0cfb090ed4938fc044c5c12d1d9671280e235f2f2e/PyQt6_QScintilla-2.14.1.tar.gz
+[2023-06-17 17:39:33] INFO root fetch - processPackages [micropython-adt7410]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [micropython-adt7410]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-adt7410-0.1.0.tar.gz tmp/micropython-adt7410-0.1.1.tar.gz --markdown 20230617/m/micropython-adt7410/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.3.tar.gz tmp/leuci-geo-0.0.4.tar.gz --markdown 20230617/l/leuci-geo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [artd-product]: executing diffoscope
+[2023-06-17 17:39:33] INFO root fetch - processPackages [artd-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-product-0.0.3.tar.gz tmp/artd-product-0.0.4.tar.gz --markdown 20230617/a/artd-product/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:39:33] INFO root fetch - processPackages [pycistem]: Downloading https://files.pythonhosted.org/packages/c1/df/0e5444e95abe41c12efc61690ccff566cb8d7c4c03ba72ef74ebbc9ff87d/pycistem-0.3.1.tar.gz
+[2023-06-17 17:39:34] INFO root fetch - processPackages [PyQt6-QScintilla]: executing diffoscope
+[2023-06-17 17:39:34] INFO root fetch - processPackages [PyQt6-QScintilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_QScintilla-2.14.0.tar.gz tmp/PyQt6_QScintilla-2.14.1.tar.gz --markdown 20230617/P/PyQt6-QScintilla/2.14.0-2.14.1/diff.md --exclude *.pyd
+[2023-06-17 17:39:34] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.1.1.tar.gz]
+[2023-06-17 17:39:34] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.1.2.tar.gz]
+[2023-06-17 17:39:34] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-06-17 17:39:34] WARNING root fetch - processPackages [pycistem]: Skipping package: exceeds size limit 16204026>=10485760
+[2023-06-17 17:39:34] INFO root fetch - main [MainThread]: End processing [pycistem] error
+[2023-06-17 17:39:34] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.5.tar.gz]
+[2023-06-17 17:39:34] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.6.tar.gz]
+[2023-06-17 17:39:34] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 17:39:35] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.3.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.4.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2023-06-17 17:39:35] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.7.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.8.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-17 17:39:35] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.0.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.1.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - main [MainThread]: End processing [micropython-adt7410]: success
+[2023-06-17 17:39:35] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.3.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.4.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-17 17:39:35] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-0.0.3.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-0.0.4.tar.gz]
+[2023-06-17 17:39:35] INFO root fetch - main [MainThread]: End processing [artd-product]: success
+[2023-06-17 17:39:39] INFO root fetch - processPackages [PyQt6-QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_QScintilla-2.14.0.tar.gz]
+[2023-06-17 17:39:39] INFO root fetch - processPackages [PyQt6-QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_QScintilla-2.14.1.tar.gz]
+[2023-06-17 17:39:39] INFO root fetch - main [MainThread]: End processing [PyQt6-QScintilla]: success
+[2023-06-17 17:39:39] INFO root fetch - main [MainThread]: Store serial: [18544308]
