@@ -1238,3 +1238,15 @@
 [2023-06-17 01:58:22] INFO root fetch - processPackages [excel-models]: Remove: archive file [/home/abi/fetcher/tmp/excel-models-0.3.tar.gz]
 [2023-06-17 01:58:22] INFO root fetch - main [MainThread]: End processing [excel-models]: success
 [2023-06-17 01:58:22] INFO root fetch - main [MainThread]: Store serial: [18538307]
+[2023-06-17 02:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538307]
+[2023-06-17 02:03:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-17 02:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: control-rod
+[2023-06-17 02:03:30] INFO root fetch - processPackages [control-rod]: New version: [2023.6.16.0] Old Version: [2023.6.13.0]
+[2023-06-17 02:03:30] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/45/4b/d9ccd9a4fb13265df04260e1fb776fd265ec88c16acc5e1e83081c569b26/control_rod-2023.6.13.0.tar.gz
+[2023-06-17 02:03:31] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/8e/87/40c1cf7480b1f5b3921478748dee5c35e209996aae54e89de9abde338e82/control_rod-2023.6.16.0.tar.gz
+[2023-06-17 02:03:31] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-06-17 02:03:31] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2023.6.13.0.tar.gz tmp/control_rod-2023.6.16.0.tar.gz --markdown 20230617/c/control-rod/2023.6.13.0-2023.6.16.0/diff.md --exclude *.pyd
+[2023-06-17 02:03:32] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.13.0.tar.gz]
+[2023-06-17 02:03:32] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.16.0.tar.gz]
+[2023-06-17 02:03:32] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-06-17 02:03:32] INFO root fetch - main [MainThread]: Store serial: [18538310]
