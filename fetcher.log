@@ -10968,3 +10968,62 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:09:51] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
 [2023-06-17 11:09:51] INFO root fetch - main [MainThread]: End processing [fhempy]: success
 [2023-06-17 11:09:51] INFO root fetch - main [MainThread]: Store serial: [18541969]
+[2023-06-17 11:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541969]
+[2023-06-17 11:15:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zdatabase
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-future
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpteasy
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: almavik
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shioaji-realtime-kbars
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-target-collection
+[2023-06-17 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecule-qemu
+[2023-06-17 11:15:01] INFO root fetch - processPackages [zdatabase]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-17 11:15:01] WARNING root fetch - processPackages [almavik]: Skipping, unable to determine old version
+[2023-06-17 11:15:01] INFO root fetch - processPackages [gpteasy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 11:15:01] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 11:15:01] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230617.9.10.534908] Old Version: [20230616.19.45.79967]
+[2023-06-17 11:15:01] INFO root fetch - processPackages [mo-future]: New version: [7.414.23168] Old Version: [7.401.23144]
+[2023-06-17 11:15:01] WARNING root fetch - processPackages [shioaji-realtime-kbars]: Skipping, unable to determine old version
+[2023-06-17 11:15:01] INFO root fetch - main [MainThread]: End processing [shioaji-realtime-kbars] error
+[2023-06-17 11:15:01] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-17 11:15:01] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-06-17 11:15:01] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/ff/27/31e38842ff9773cf7649276372152de0c02544c40f3d29c06fc3c7dc791d/zdatabase-0.4.7.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/c0/e4/8d3640461f6dea63bdfdfcab38d7d705207973e5f97501d7d9b5c7e98b3d/molecule-qemu-0.4.8.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/9a/20/6501543fe0da7da0e35c6549eae541d20fbc1c5620e99da482f3212f3987/gpteasy-0.0.3.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/bc/42/63a2fb3a34419c8ae9ab29e081cff9c6eb86273f05ce0c07ba234f9111ee/mo_future-7.401.23144-py2.py3-none-any.whl
+[2023-06-17 11:15:01] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/e9/d0/ca05d8f355833f4d2a653566eff440a0171f4b3ec1b5b929f635ed8d1fa4/macrometa-target-collection-0.0.78.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/3d/70/a13586cb33332794916847f3dd642ec7c03036bd70f4a5550933269e5198/certora-cli-alpha-master-20230616.19.45.79967.tar.gz
+[2023-06-17 11:15:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 36210440>=10485760
+[2023-06-17 11:15:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-17 11:15:01] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/ec/2c/15d16f7cd2a302d316bc86f110799ef66cd25a4dcddc1eb154ca02c7d557/zdatabase-0.4.8.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/2b/1d/3d8d8ae011263dd432e233bf3fe5a7634ac2580ea8b1314c0f4708da7eeb/molecule-qemu-0.4.9.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-06-17 11:15:01] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.4.7.tar.gz tmp/zdatabase-0.4.8.tar.gz --markdown 20230617/z/zdatabase/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-17 11:15:01] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/e8/59/7af8f42fa4272e974545c358ab13709e997ded151c66f7c1e637fdfb66c1/gpteasy-0.0.4.tar.gz
+[2023-06-17 11:15:01] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/5d/32/0110f81ac93b229a56f5bcdd26324f0f9262158d0c1cf15a2533c1daed57/mo_future-7.414.23168-py2.py3-none-any.whl
+[2023-06-17 11:15:02] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-17 11:15:02] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.8.tar.gz tmp/molecule-qemu-0.4.9.tar.gz --markdown 20230617/m/molecule-qemu/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-17 11:15:02] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-17 11:15:02] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-0.0.3.tar.gz tmp/gpteasy-0.0.4.tar.gz --markdown 20230617/g/gpteasy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 11:15:02] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/1b/73/34fa96c41abcafa017d1e49f07f9a8801754b155bb7fbe9fc5563b2800fa/macrometa-target-collection-0.0.79.tar.gz
+[2023-06-17 11:15:02] INFO root fetch - processPackages [mo-future]: executing diffoscope
+[2023-06-17 11:15:02] INFO root fetch - processPackages [mo-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_future-7.401.23144-py2.py3-none-any.whl.zip tmp/mo_future-7.414.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-future/7.401.23144-7.414.23168/diff.md --exclude *.pyd
+[2023-06-17 11:15:02] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-17 11:15:02] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.78.tar.gz tmp/macrometa-target-collection-0.0.79.tar.gz --markdown 20230617/m/macrometa-target-collection/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-06-17 11:15:02] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.4.7.tar.gz]
+[2023-06-17 11:15:02] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.4.8.tar.gz]
+[2023-06-17 11:15:02] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-06-17 11:15:03] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-0.0.3.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-0.0.4.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-17 11:15:03] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.8.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.9.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-17 11:15:03] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo_future-7.401.23144-py2.py3-none-any.whl.zip]
+[2023-06-17 11:15:03] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo_future-7.414.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 11:15:03] INFO root fetch - main [MainThread]: End processing [mo-future]: success
+[2023-06-17 11:15:03] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.78.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.79.tar.gz]
+[2023-06-17 11:15:03] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-17 11:15:03] INFO root fetch - main [MainThread]: Store serial: [18541997]
