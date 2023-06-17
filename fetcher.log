@@ -8623,3 +8623,51 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:54:34] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.0a1.tar.gz]
 [2023-06-17 06:54:34] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-17 06:54:34] INFO root fetch - main [MainThread]: Store serial: [18540983]
+[2023-06-17 06:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540983]
+[2023-06-17 06:59:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robin-stocks
+[2023-06-17 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gisting-test
+[2023-06-17 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featureform
+[2023-06-17 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-sale-workflow
+[2023-06-17 06:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neophaser
+[2023-06-17 06:59:43] INFO root fetch - processPackages [neophaser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 06:59:43] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc6] Old Version: [1.9.2rc5]
+[2023-06-17 06:59:43] INFO root fetch - processPackages [gisting-test]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 06:59:43] INFO root fetch - processPackages [robin-stocks]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-17 06:59:43] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: New version: [14.0.20230616.0] Old Version: [14.0.20230614.2]
+[2023-06-17 06:59:43] INFO root fetch - processPackages [neophaser]: Downloading https://files.pythonhosted.org/packages/68/9d/f28987a34023c1e6824c6cc96753cdcd8a5702cbe5f808cf38ad6f3f68bb/neophaser-0.1.3.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/9a/0c/4de39980efce91cc3d5457d7c54fb02e007967b83141d6cc76c62c22b813/featureform-1.9.2rc5.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/2a/d5/55e6612bae3dec12fc3991511fafd014451cbad08178755f6057e73d84d7/gisting_test-0.2.1.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/50/3f/c55c9806dc75047b26ef617913f35095ea3799ba422a21023511bdab971f/robin_stocks-3.0.2.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/65/50/b13954cbce72f6b82bdc92508c4f78c328e840ea72984dbb7441aa47e4da/odoo14_addons_oca_sale_workflow-14.0.20230614.2-py3-none-any.whl
+[2023-06-17 06:59:43] INFO root fetch - processPackages [neophaser]: Downloading https://files.pythonhosted.org/packages/d1/b3/4e23ed1b1ac2b8b72447294f31b7e25df5e68a14aa4e8f289fe4928324df/neophaser-0.1.4.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [gisting-test]: Downloading https://files.pythonhosted.org/packages/ab/05/87ed54250e2e6d3a3d7b214da27a97a0e1db9ab2e11431e4cf4ec3423cbb/gisting_test-0.2.2.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [neophaser]: executing diffoscope
+[2023-06-17 06:59:43] INFO root fetch - processPackages [neophaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neophaser-0.1.3.tar.gz tmp/neophaser-0.1.4.tar.gz --markdown 20230617/n/neophaser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 06:59:43] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/ea/0c/8da39a5042fb83636c651c50d54f109426e2ca4e8e1448d46355754eda82/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl
+[2023-06-17 06:59:43] INFO root fetch - processPackages [gisting-test]: executing diffoscope
+[2023-06-17 06:59:43] INFO root fetch - processPackages [gisting-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting_test-0.2.1.tar.gz tmp/gisting_test-0.2.2.tar.gz --markdown 20230617/g/gisting-test/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 06:59:43] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/9b/c0/22069c8b0302df72290eb02ed67ce7c2a6d5d223c9d71f046b6cdd4a22a1/robin_stocks-3.0.3.tar.gz
+[2023-06-17 06:59:43] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-17 06:59:43] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_workflow-14.0.20230614.2-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addons-oca-sale-workflow/14.0.20230614.2-14.0.20230616.0/diff.md --exclude *.pyd
+[2023-06-17 06:59:43] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/77/5c/2289a209b9aecf159c85f1f70b2ac6af5d0b894dc7c8b5accdf0edc2a6ef/featureform-1.9.2rc6.tar.gz
+[2023-06-17 06:59:44] INFO root fetch - processPackages [robin-stocks]: executing diffoscope
+[2023-06-17 06:59:44] INFO root fetch - processPackages [robin-stocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_stocks-3.0.2.tar.gz tmp/robin_stocks-3.0.3.tar.gz --markdown 20230617/r/robin-stocks/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-17 06:59:44] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230614.2-py3-none-any.whl.zip]
+[2023-06-17 06:59:44] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl.zip]
+[2023-06-17 06:59:44] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-workflow]: success
+[2023-06-17 06:59:44] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.2.1.tar.gz]
+[2023-06-17 06:59:44] INFO root fetch - processPackages [gisting-test]: Remove: archive file [/home/abi/fetcher/tmp/gisting_test-0.2.2.tar.gz]
+[2023-06-17 06:59:44] INFO root fetch - main [MainThread]: End processing [gisting-test]: success
+[2023-06-17 06:59:45] INFO root fetch - processPackages [neophaser]: Remove: archive file [/home/abi/fetcher/tmp/neophaser-0.1.3.tar.gz]
+[2023-06-17 06:59:45] INFO root fetch - processPackages [neophaser]: Remove: archive file [/home/abi/fetcher/tmp/neophaser-0.1.4.tar.gz]
+[2023-06-17 06:59:45] INFO root fetch - main [MainThread]: End processing [neophaser]: success
+[2023-06-17 06:59:45] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 06:59:45] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc5.tar.gz tmp/featureform-1.9.2rc6.tar.gz --markdown 20230617/f/featureform/1.9.2rc5-1.9.2rc6/diff.md --exclude *.pyd
+[2023-06-17 06:59:45] INFO root fetch - processPackages [robin-stocks]: Remove: archive file [/home/abi/fetcher/tmp/robin_stocks-3.0.2.tar.gz]
+[2023-06-17 06:59:45] INFO root fetch - processPackages [robin-stocks]: Remove: archive file [/home/abi/fetcher/tmp/robin_stocks-3.0.3.tar.gz]
+[2023-06-17 06:59:45] INFO root fetch - main [MainThread]: End processing [robin-stocks]: success
+[2023-06-17 07:00:11] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc5.tar.gz]
+[2023-06-17 07:00:11] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc6.tar.gz]
+[2023-06-17 07:00:11] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 07:00:11] INFO root fetch - main [MainThread]: Store serial: [18540994]
