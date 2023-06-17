@@ -19295,3 +19295,63 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:36:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306172100-py3-none-any.whl.zip]
 [2023-06-17 23:36:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-17 23:36:19] INFO root fetch - main [MainThread]: Store serial: [18546023]
+[2023-06-17 23:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546023]
+[2023-06-17 23:41:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griptape
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-quality-rules-tools
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proJSON
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: charactergpt-prompts
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotPython
+[2023-06-17 23:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape-tools
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 23:41:28] INFO root fetch - processPackages [proJSON]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-17 23:41:28] INFO root fetch - processPackages [kfish]: New version: [99.0.202306172103] Old Version: [99.0.202306171204]
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-17 23:41:28] WARNING root fetch - processPackages [charactergpt-prompts]: Skipping, unable to determine old version
+[2023-06-17 23:41:28] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts] error
+[2023-06-17 23:41:28] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/28/69/8e63947070b3718496a5cd73282ec265e290247cb508f1f6ec5351470dbf/proJSON-1.1.1.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a2/fa/5b25754eb666fe26331603f673680cabd1b2ccbcf6458f4c94cca75478c1/kfish-99.0.202306171204-py3-none-any.whl
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/67/95/1fb8c28918c42e3a8d7d0ec2ef528b8746ea32c71e5505aec977fc92ca5d/spark_quality_rules_tools-0.2.7.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/9b/93/3d37abb29b03a88bc7cbea8ec7973afd13f4250c1846775208c87bc47356/spark_quality_rules_tools-0.2.8.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/db/52/6274fa1965481138f8035993611bf5c5bf5e3eebc3463209d9732853ac18/kfish-99.0.202306172103-py3-none-any.whl
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/ce/53/a5c9396e97b8f619e9251264bd3e7fa7d651a5e372df37d2cd0b7e5669df/proJSON-1.1.2.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.2.7.tar.gz tmp/spark_quality_rules_tools-0.2.8.tar.gz --markdown 20230617/s/spark-quality-rules-tools/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-17 23:41:28] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-17 23:41:28] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306171204-py3-none-any.whl.zip tmp/kfish-99.0.202306172103-py3-none-any.whl.zip --markdown 20230617/k/kfish/99.0.202306171204-99.0.202306172103/diff.md --exclude *.pyd
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230617/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-17 23:41:28] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-17 23:41:28] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.1.1.tar.gz tmp/proJSON-1.1.2.tar.gz --markdown 20230617/p/proJSON/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-17 23:41:28] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230617/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 23:41:28] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-17 23:41:29] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-17 23:41:29] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230617/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 23:41:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306171204-py3-none-any.whl.zip]
+[2023-06-17 23:41:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306172103-py3-none-any.whl.zip]
+[2023-06-17 23:41:29] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-17 23:41:29] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.1.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-17 23:41:29] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.1.1.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.1.2.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-17 23:41:29] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.2.7.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.2.8.tar.gz]
+[2023-06-17 23:41:29] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-06-17 23:41:30] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-06-17 23:41:30] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-06-17 23:41:30] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-17 23:41:41] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-17 23:41:41] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-17 23:41:41] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-17 23:41:41] INFO root fetch - main [MainThread]: Store serial: [18546047]
