@@ -12948,3 +12948,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:21:26] INFO root fetch - processPackages [xanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/xanalyzer-0.2.7.tar.gz]
 [2023-06-17 14:21:26] INFO root fetch - main [MainThread]: End processing [xanalyzer]: success
 [2023-06-17 14:21:26] INFO root fetch - main [MainThread]: Store serial: [18542887]
+[2023-06-17 14:26:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542887]
+[2023-06-17 14:26:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 14:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelolinguagem
+[2023-06-17 14:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-kea-dhcp
+[2023-06-17 14:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newshomepages
+[2023-06-17 14:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: callbackin
+[2023-06-17 14:26:36] INFO root fetch - processPackages [newshomepages]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 14:26:36] INFO root fetch - processPackages [callbackin]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-17 14:26:36] INFO root fetch - processPackages [netbox-kea-dhcp]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-06-17 14:26:36] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/39/8d/ebe1ce0bdbd365fe63da8f2169546ff87e1b44c680e9871e931a5f23eea7/callbackin-0.4.0.tar.gz
+[2023-06-17 14:26:36] ERROR root fetch - processPackages [modelolinguagem]: Unable to get metadata: No such project 'modelolinguagem'
+[2023-06-17 14:26:36] INFO root fetch - main [MainThread]: End processing [modelolinguagem] error
+[2023-06-17 14:26:36] INFO root fetch - processPackages [netbox-kea-dhcp]: Downloading https://files.pythonhosted.org/packages/8f/ca/7e4fdc0011e3646238a15cf17bf113d8168035f97c79cdf724174e0450ad/netbox_kea_dhcp-0.0.1a3.tar.gz
+[2023-06-17 14:26:36] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/80/b1/9f8f691f3103d37bd22fdefccc25330667e9cdd7219746b425109e9770b1/newshomepages-0.0.8.tar.gz
+[2023-06-17 14:26:37] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/4b/aa/d820f03d817320a17ef87af48d9fd4aaa585ac7915f90154dc6265135364/callbackin-0.5.0.tar.gz
+[2023-06-17 14:26:37] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-17 14:26:37] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.4.0.tar.gz tmp/callbackin-0.5.0.tar.gz --markdown 20230617/c/callbackin/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 14:26:37] INFO root fetch - processPackages [netbox-kea-dhcp]: Downloading https://files.pythonhosted.org/packages/51/85/c553a7caa48ca355fc7c3a62a57db5431088a3ef52357cb990ba677c081b/netbox_kea_dhcp-0.0.1a4.tar.gz
+[2023-06-17 14:26:37] INFO root fetch - processPackages [netbox-kea-dhcp]: executing diffoscope
+[2023-06-17 14:26:37] INFO root fetch - processPackages [netbox-kea-dhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_kea_dhcp-0.0.1a3.tar.gz tmp/netbox_kea_dhcp-0.0.1a4.tar.gz --markdown 20230617/n/netbox-kea-dhcp/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-06-17 14:26:38] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.4.0.tar.gz]
+[2023-06-17 14:26:38] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.5.0.tar.gz]
+[2023-06-17 14:26:38] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-17 14:26:38] INFO root fetch - processPackages [netbox-kea-dhcp]: Remove: archive file [/home/abi/fetcher/tmp/netbox_kea_dhcp-0.0.1a3.tar.gz]
+[2023-06-17 14:26:38] INFO root fetch - processPackages [netbox-kea-dhcp]: Remove: archive file [/home/abi/fetcher/tmp/netbox_kea_dhcp-0.0.1a4.tar.gz]
+[2023-06-17 14:26:38] INFO root fetch - main [MainThread]: End processing [netbox-kea-dhcp]: success
+[2023-06-17 14:26:39] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/11/c4/54b425f19c160653a3dc7ea1b0d4c3cac1599d9bcf7ae5d4bc1eff1b4b12/newshomepages-0.0.9.tar.gz
+[2023-06-17 14:26:40] INFO root fetch - processPackages [newshomepages]: executing diffoscope
+[2023-06-17 14:26:40] INFO root fetch - processPackages [newshomepages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newshomepages-0.0.8.tar.gz tmp/newshomepages-0.0.9.tar.gz --markdown 20230617/n/newshomepages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 14:26:47] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.8.tar.gz]
+[2023-06-17 14:26:47] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
+[2023-06-17 14:26:47] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
+[2023-06-17 14:26:47] INFO root fetch - main [MainThread]: Store serial: [18542903]
