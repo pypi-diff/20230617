@@ -6054,3 +6054,18 @@
 [2023-06-17 03:54:09] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.2.tar.gz]
 [2023-06-17 03:54:09] INFO root fetch - main [MainThread]: End processing [usda-dashboard]: success
 [2023-06-17 03:54:09] INFO root fetch - main [MainThread]: Store serial: [18540079]
+[2023-06-17 03:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540079]
+[2023-06-17 03:59:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 03:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: progf
+[2023-06-17 03:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kultimate
+[2023-06-17 03:59:18] INFO root fetch - processPackages [kultimate]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-17 03:59:18] WARNING root fetch - processPackages [progf]: Skipping, unable to determine old version
+[2023-06-17 03:59:18] INFO root fetch - main [MainThread]: End processing [progf] error
+[2023-06-17 03:59:18] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/85/db/9b14a7272512f358489884a1e68113cbd0e42d4d4dae28bcde659969e9d3/kultimate-0.2.7.tar.gz
+[2023-06-17 03:59:19] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/c7/17/5b3daceedb4168c2c3e68fc1a87023efc1133946d90f58c7b32f8bf82d79/kultimate-0.2.8.tar.gz
+[2023-06-17 03:59:19] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-17 03:59:19] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.7.tar.gz tmp/kultimate-0.2.8.tar.gz --markdown 20230617/k/kultimate/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-17 03:59:20] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.7.tar.gz]
+[2023-06-17 03:59:20] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.8.tar.gz]
+[2023-06-17 03:59:20] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-17 03:59:20] INFO root fetch - main [MainThread]: Store serial: [18540093]
