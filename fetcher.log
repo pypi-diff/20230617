@@ -17284,3 +17284,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:02:57] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
 [2023-06-17 20:02:57] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-06-17 20:02:57] INFO root fetch - main [MainThread]: Store serial: [18545069]
+[2023-06-17 20:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545069]
+[2023-06-17 20:08:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acore-server-metadata
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browser-cookie3
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-cgap
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whitebox-workflows
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffmperative
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PythonNoteBook
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celery-types
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ffmperative]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [acore-server-metadata]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [whitebox-workflows]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-17 20:08:07] WARNING root fetch - processPackages [PythonNoteBook]: Skipping, unable to determine old version
+[2023-06-17 20:08:07] INFO root fetch - main [MainThread]: End processing [PythonNoteBook] error
+[2023-06-17 20:08:07] INFO root fetch - processPackages [browser-cookie3]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/13/fd/c4718a987ac463276797553041958ce721547f37b953e2efb15a8e4127e7/acore_server_metadata-0.2.1.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [celery-types]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/8f/fd/9b41c8a7bbe5058031cdef4817f26e043f02859f91ef44975119eefa5072/ffmperative-0.0.1.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [whitebox-workflows]: Downloading https://files.pythonhosted.org/packages/96/3c/c37abfd4f2ea1ec4f6316500229fd3b64c2ef8766de28a289bb36e39c1bb/whitebox_workflows-1.0.9-cp37-abi3-win_amd64.whl
+[2023-06-17 20:08:07] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/9c/a1/285fec171792b56db527381e4def7715d7eb664e206faf7b5c880c9d0ec4/browser-cookie3-0.9.0.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230617/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-17 20:08:07] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/d7/14/92faea13db0ed2dc58d1022d04a3edecc9e9c157a90018b2323649d446f4/acore_server_metadata-0.2.2.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230617/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 20:08:07] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/7f/8f/4871934c1fcb1d15846e2d353dfd6077b6f3c5c6c23892c5450808cd175d/celery-types-0.9.2.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [acore-server-metadata]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [acore-server-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_metadata-0.2.1.tar.gz tmp/acore_server_metadata-0.2.2.tar.gz --markdown 20230617/a/acore-server-metadata/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/74/5a/44b075c9257d658bee0e24b52d7b927692a094f5029e75598cd32f090934/ffmperative-0.0.2-py3-none-any.whl
+[2023-06-17 20:08:07] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/ac/15/b48d9960d5a08d57bd5948b4ab5a72c2c261fdd79d1157e5621a0bf8b089/browser-cookie3-0.9.1.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ffmperative]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [ffmperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmperative-0.0.1.tar.gz tmp/ffmperative-0.0.2-py3-none-any.whl.zip --markdown 20230617/f/ffmperative/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 20:08:07] INFO root fetch - processPackages [browser-cookie3]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [browser-cookie3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browser-cookie3-0.9.0.tar.gz tmp/browser-cookie3-0.9.1.tar.gz --markdown 20230617/b/browser-cookie3/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 20:08:07] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/03/3e/045d508416cfbaf5b23b0546854e86f8d3c5eb6b2fc28f2fee5c7fe4d215/celery-types-0.9.3.tar.gz
+[2023-06-17 20:08:07] INFO root fetch - processPackages [celery-types]: executing diffoscope
+[2023-06-17 20:08:07] INFO root fetch - processPackages [celery-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-types-0.9.2.tar.gz tmp/celery-types-0.9.3.tar.gz --markdown 20230617/c/celery-types/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-17 20:08:08] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.2.1.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.2.2.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - main [MainThread]: End processing [acore-server-metadata]: success
+[2023-06-17 20:08:08] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-17 20:08:08] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.1.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.2-py3-none-any.whl.zip]
+[2023-06-17 20:08:08] INFO root fetch - main [MainThread]: End processing [ffmperative]: success
+[2023-06-17 20:08:08] INFO root fetch - processPackages [browser-cookie3]: Remove: archive file [/home/abi/fetcher/tmp/browser-cookie3-0.9.0.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - processPackages [browser-cookie3]: Remove: archive file [/home/abi/fetcher/tmp/browser-cookie3-0.9.1.tar.gz]
+[2023-06-17 20:08:08] INFO root fetch - main [MainThread]: End processing [browser-cookie3]: success
+[2023-06-17 20:08:09] INFO root fetch - processPackages [celery-types]: Remove: archive file [/home/abi/fetcher/tmp/celery-types-0.9.2.tar.gz]
+[2023-06-17 20:08:09] INFO root fetch - processPackages [celery-types]: Remove: archive file [/home/abi/fetcher/tmp/celery-types-0.9.3.tar.gz]
+[2023-06-17 20:08:09] INFO root fetch - main [MainThread]: End processing [celery-types]: success
+[2023-06-17 20:08:09] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-17 20:08:09] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-17 20:08:09] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-17 20:08:10] INFO root fetch - processPackages [whitebox-workflows]: Downloading https://files.pythonhosted.org/packages/91/bd/b625529ca8ec8ddefa668ace871226797d5c52b0e911e246500f551ae50b/whitebox_workflows-1.1.0-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-17 20:08:10] INFO root fetch - processPackages [whitebox-workflows]: executing diffoscope
+[2023-06-17 20:08:10] INFO root fetch - processPackages [whitebox-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitebox_workflows-1.0.9-cp37-abi3-win_amd64.whl.zip tmp/whitebox_workflows-1.1.0-cp37-abi3-macosx_11_0_arm64.whl.zip --markdown 20230617/w/whitebox-workflows/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 20:08:12] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.0.9-cp37-abi3-win_amd64.whl.zip]
+[2023-06-17 20:08:12] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.1.0-cp37-abi3-macosx_11_0_arm64.whl.zip]
+[2023-06-17 20:08:12] INFO root fetch - main [MainThread]: End processing [whitebox-workflows]: success
+[2023-06-17 20:08:12] INFO root fetch - main [MainThread]: Store serial: [18545096]
