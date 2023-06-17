@@ -5743,3 +5743,66 @@
 [2023-06-17 03:36:06] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
 [2023-06-17 03:36:06] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-06-17 03:36:06] INFO root fetch - main [MainThread]: Store serial: [18539971]
+[2023-06-17 03:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18539971]
+[2023-06-17 03:41:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guispec
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykegg
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RolexReserver
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mo-threads
+[2023-06-17 03:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-scipy
+[2023-06-17 03:41:15] INFO root fetch - processPackages [mo-json]: New version: [6.413.23168] Old Version: [6.412.23165]
+[2023-06-17 03:41:15] WARNING root fetch - processPackages [guispec]: Skipping, unable to determine old version
+[2023-06-17 03:41:15] INFO root fetch - main [MainThread]: End processing [guispec] error
+[2023-06-17 03:41:15] WARNING root fetch - processPackages [pykegg]: Skipping, unable to determine old version
+[2023-06-17 03:41:15] INFO root fetch - main [MainThread]: End processing [pykegg] error
+[2023-06-17 03:41:15] INFO root fetch - processPackages [mo-threads]: New version: [5.53.21241] Old Version: [5.413.23168]
+[2023-06-17 03:41:15] INFO root fetch - processPackages [RolexReserver]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-17 03:41:15] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/41/aa/8b6a50e1496c7385d62b6255a70aa9ddc845bd5594d88c66347c26e426f8/mo_threads-5.413.23168-py2.py3-none-any.whl
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-17 03:41:15] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/d3/01/ba9d518c3ad86f186dfef04623b346b54b46750bb9abd91c804bcdb7b410/mo_json-6.412.23165-py2.py3-none-any.whl
+[2023-06-17 03:41:15] INFO root fetch - processPackages [RolexReserver]: Downloading https://files.pythonhosted.org/packages/26/95/2c4eb65b5e1758574839d0ceb31ca5948c30de391a3ededd0894e21b266b/RolexReserver-1.0.4.tar.gz
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-17 03:41:15] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230617/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/42/9d/de356c2c8539c56dda084e897ea07d5f2553c6ff16ac6252cd6047268782/mo-threads-5.53.21241.tar.gz
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-17 03:41:16] INFO root fetch - processPackages [RolexReserver]: Downloading https://files.pythonhosted.org/packages/ed/de/75b8f116dfc65b687ca609524df2a3b3849ceefaf229beb4da86cbadd69b/RolexReserver-1.0.5.tar.gz
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/b2/93/2ca1e6f0838a2c7d8d36183a481c2eed1437beed72e3e548edd48607591c/mo_json-6.413.23168-py2.py3-none-any.whl
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-5.413.23168-py2.py3-none-any.whl.zip tmp/mo-threads-5.53.21241.tar.gz --markdown 20230617/m/mo-threads/5.413.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230617/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:41:16] INFO root fetch - processPackages [RolexReserver]: executing diffoscope
+[2023-06-17 03:41:16] INFO root fetch - processPackages [RolexReserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RolexReserver-1.0.4.tar.gz tmp/RolexReserver-1.0.5.tar.gz --markdown 20230617/R/RolexReserver/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-06-17 03:41:16] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.412.23165-py2.py3-none-any.whl.zip tmp/mo_json-6.413.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-json/6.412.23165-6.413.23168/diff.md --exclude *.pyd
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-17 03:41:16] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230617/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:41:17] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-5.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 03:41:17] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo-threads-5.53.21241.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2023-06-17 03:41:17] INFO root fetch - processPackages [RolexReserver]: Remove: archive file [/home/abi/fetcher/tmp/RolexReserver-1.0.4.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - processPackages [RolexReserver]: Remove: archive file [/home/abi/fetcher/tmp/RolexReserver-1.0.5.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - main [MainThread]: End processing [RolexReserver]: success
+[2023-06-17 03:41:17] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-17 03:41:17] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.412.23165-py2.py3-none-any.whl.zip]
+[2023-06-17 03:41:17] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.413.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 03:41:17] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-06-17 03:41:17] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-17 03:41:17] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-17 03:41:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-17 03:41:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-17 03:41:18] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-17 03:41:18] INFO root fetch - main [MainThread]: Store serial: [18539998]
