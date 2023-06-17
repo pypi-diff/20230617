@@ -8150,3 +8150,41 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:17:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl.zip]
 [2023-06-17 06:17:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-06-17 06:17:59] INFO root fetch - main [MainThread]: Store serial: [18540780]
+[2023-06-17 06:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540780]
+[2023-06-17 06:23:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-06-17 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2023-06-17 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-partner-contact-in-several-companies
+[2023-06-17 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-partner-contact-in-several-companies
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: New version: [9.0.1.0.1.99.dev2] Old Version: [9.0.1.0.1.99.dev1]
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-06-17 06:23:08] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 06:23:08] INFO root fetch - processPackages [spPersist]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 06:23:08] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: Downloading https://files.pythonhosted.org/packages/64/16/0794518cc20597b6274007a29ad2a936df770997e6e061d4fd4cd7915643/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev1-py2-none-any.whl
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: Downloading https://files.pythonhosted.org/packages/2f/43/3134b6bbcaa24dceccad33d1a1f1f630fa2ff931d973d5c95954ca2ba1aa/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-17 06:23:08] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-17 06:23:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/2c/93/4b358172afe46ca4c497f5bc8b28591a1c2da3d2335e2d611990e53bceb4/sppersist-1.1.2.tar.gz
+[2023-06-17 06:23:08] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-17 06:23:08] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230617/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:23:08] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-17 06:23:08] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.1.tar.gz tmp/sppersist-1.1.2.tar.gz --markdown 20230617/s/spPersist/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: Downloading https://files.pythonhosted.org/packages/76/4e/b29d65232c68596e436d3cc1c460dfdaa1538611dea0f4189fea6849b8c8/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-06-17 06:23:08] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: Downloading https://files.pythonhosted.org/packages/1d/11/08a6d094c19254c06372eca24ed64499e43e43b856f55e9acda6061aff48/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-17 06:23:09] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: executing diffoscope
+[2023-06-17 06:23:09] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev1-py2-none-any.whl.zip tmp/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev2-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-partner-contact-in-several-companies/9.0.1.0.1.99.dev1-9.0.1.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-06-17 06:23:09] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: executing diffoscope
+[2023-06-17 06:23:09] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo10-addon-partner-contact-in-several-companies/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:23:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.1.tar.gz]
+[2023-06-17 06:23:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.2.tar.gz]
+[2023-06-17 06:23:09] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-17 06:23:09] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-17 06:23:09] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-17 06:23:09] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-17 06:23:10] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev1-py2-none-any.whl.zip]
+[2023-06-17 06:23:10] INFO root fetch - processPackages [odoo9-addon-partner-contact-in-several-companies]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_partner_contact_in_several_companies-9.0.1.0.1.99.dev2-py2-none-any.whl.zip]
+[2023-06-17 06:23:10] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-contact-in-several-companies]: success
+[2023-06-17 06:23:10] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 06:23:10] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 06:23:10] INFO root fetch - main [MainThread]: End processing [odoo10-addon-partner-contact-in-several-companies]: success
+[2023-06-17 06:23:10] INFO root fetch - main [MainThread]: Store serial: [18540795]
