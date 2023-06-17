@@ -6833,3 +6833,27 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 04:53:30] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.19.0.tar.gz]
 [2023-06-17 04:53:30] INFO root fetch - main [MainThread]: End processing [naludaq]: success
 [2023-06-17 04:53:30] INFO root fetch - main [MainThread]: Store serial: [18540368]
+[2023-06-17 04:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540368]
+[2023-06-17 04:58:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf-docx-pic
+[2023-06-17 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-connector
+[2023-06-17 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atksh-utils
+[2023-06-17 04:58:39] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-06-17 04:58:39] INFO root fetch - processPackages [atksh-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 04:58:39] WARNING root fetch - processPackages [pdf-docx-pic]: Skipping, unable to determine old version
+[2023-06-17 04:58:39] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic] error
+[2023-06-17 04:58:39] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/71/d8/5915fd47545803fa997174a0719e88ea159b53fc3b130359580ed28e3772/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-06-17 04:58:39] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/be/53/e26a2e6282948d5729bbdd290416a418e2861d75909be85563cbcc90aa27/atksh-utils-0.0.1.tar.gz
+[2023-06-17 04:58:39] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d7/ae/c52f20206ba0fed1917bd84359dba5eaeefbcf93ce9f441d1811e6311ed6/atksh-utils-0.0.2.tar.gz
+[2023-06-17 04:58:39] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-17 04:58:39] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.0.1.tar.gz tmp/atksh-utils-0.0.2.tar.gz --markdown 20230617/a/atksh-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 04:58:39] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/bf/46/3dea50a03eff6580b360609b0d0a4cfd4b5b3e5742972dc11654b205ace3/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-06-17 04:58:40] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-06-17 04:58:40] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-connector/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 04:58:40] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.1.tar.gz]
+[2023-06-17 04:58:40] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.2.tar.gz]
+[2023-06-17 04:58:40] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-17 04:58:42] INFO root fetch - processPackages [odoo9-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 04:58:42] INFO root fetch - processPackages [odoo9-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 04:58:42] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-06-17 04:58:42] INFO root fetch - main [MainThread]: Store serial: [18540375]
