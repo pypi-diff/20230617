@@ -17838,3 +17838,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:06:55] INFO root fetch - processPackages [zuspec-arl-dm]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_dm-0.0.1.5299673134-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-17 21:06:55] INFO root fetch - main [MainThread]: End processing [zuspec-arl-dm]: success
 [2023-06-17 21:06:55] INFO root fetch - main [MainThread]: Store serial: [18545341]
+[2023-06-17 21:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545341]
+[2023-06-17 21:12:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 21:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocabmaster
+[2023-06-17 21:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvalueobjects
+[2023-06-17 21:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bloptools
+[2023-06-17 21:12:08] INFO root fetch - processPackages [vocabmaster]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-17 21:12:08] INFO root fetch - processPackages [pyvalueobjects]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-17 21:12:08] INFO root fetch - processPackages [bloptools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-17 21:12:08] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/5e/a2/50c5c94fd5e4a2d8b2f03f89ef28f1aa77e9561cc8801c0e4c7b4d3086b5/pyvalueobjects-0.8.1.tar.gz
+[2023-06-17 21:12:08] INFO root fetch - processPackages [bloptools]: Downloading https://files.pythonhosted.org/packages/c8/ea/36996a979e0d0265b3af64ac21f62571fde82e6b4009b72e4f1bf05965bb/bloptools-0.2.0.tar.gz
+[2023-06-17 21:12:08] INFO root fetch - processPackages [vocabmaster]: Downloading https://files.pythonhosted.org/packages/91/e1/09b813171f9c95f01376de55468c616c68f6bb20d4125305339fb5b4b4da/vocabmaster-0.1.7.tar.gz
+[2023-06-17 21:12:09] INFO root fetch - processPackages [vocabmaster]: Downloading https://files.pythonhosted.org/packages/80/ba/5b5106a5717a8603836d2dc0849aae5c1fe5d8b8262193350f510084e8f9/vocabmaster-0.1.8-py3-none-any.whl
+[2023-06-17 21:12:09] INFO root fetch - processPackages [bloptools]: Downloading https://files.pythonhosted.org/packages/7a/1d/ca5221df9403b700b2538adcf3eb1cf400531180cb3d71fe530a4a8f9c8c/bloptools-0.3.0.tar.gz
+[2023-06-17 21:12:09] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/be/9f/b1b788501f6b3a2e7a44153dfac8828c7d91cf87ef5297c63081902ffee1/pyvalueobjects-0.9.0.tar.gz
+[2023-06-17 21:12:09] INFO root fetch - processPackages [bloptools]: executing diffoscope
+[2023-06-17 21:12:09] INFO root fetch - processPackages [bloptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloptools-0.2.0.tar.gz tmp/bloptools-0.3.0.tar.gz --markdown 20230617/b/bloptools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 21:12:09] INFO root fetch - processPackages [pyvalueobjects]: executing diffoscope
+[2023-06-17 21:12:09] INFO root fetch - processPackages [pyvalueobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalueobjects-0.8.1.tar.gz tmp/pyvalueobjects-0.9.0.tar.gz --markdown 20230617/p/pyvalueobjects/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 21:12:09] INFO root fetch - processPackages [vocabmaster]: executing diffoscope
+[2023-06-17 21:12:09] INFO root fetch - processPackages [vocabmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabmaster-0.1.7.tar.gz tmp/vocabmaster-0.1.8-py3-none-any.whl.zip --markdown 20230617/v/vocabmaster/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-17 21:12:10] INFO root fetch - processPackages [pyvalueobjects]: Remove: archive file [/home/abi/fetcher/tmp/pyvalueobjects-0.8.1.tar.gz]
+[2023-06-17 21:12:10] INFO root fetch - processPackages [pyvalueobjects]: Remove: archive file [/home/abi/fetcher/tmp/pyvalueobjects-0.9.0.tar.gz]
+[2023-06-17 21:12:10] INFO root fetch - main [MainThread]: End processing [pyvalueobjects]: success
+[2023-06-17 21:12:10] INFO root fetch - processPackages [vocabmaster]: Remove: archive file [/home/abi/fetcher/tmp/vocabmaster-0.1.7.tar.gz]
+[2023-06-17 21:12:10] INFO root fetch - processPackages [vocabmaster]: Remove: archive file [/home/abi/fetcher/tmp/vocabmaster-0.1.8-py3-none-any.whl.zip]
+[2023-06-17 21:12:10] INFO root fetch - main [MainThread]: End processing [vocabmaster]: success
+[2023-06-17 21:12:10] INFO root fetch - processPackages [bloptools]: Remove: archive file [/home/abi/fetcher/tmp/bloptools-0.2.0.tar.gz]
+[2023-06-17 21:12:10] INFO root fetch - processPackages [bloptools]: Remove: archive file [/home/abi/fetcher/tmp/bloptools-0.3.0.tar.gz]
+[2023-06-17 21:12:10] INFO root fetch - main [MainThread]: End processing [bloptools]: success
+[2023-06-17 21:12:10] INFO root fetch - main [MainThread]: Store serial: [18545350]
