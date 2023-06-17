@@ -9788,3 +9788,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:58:13] INFO root fetch - processPackages [hylite]: Remove: archive file [/home/abi/fetcher/tmp/hylite-1.23.tar.gz]
 [2023-06-17 08:58:13] INFO root fetch - main [MainThread]: End processing [hylite]: success
 [2023-06-17 08:58:13] INFO root fetch - main [MainThread]: Store serial: [18541481]
+[2023-06-17 09:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541481]
+[2023-06-17 09:03:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 09:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywencai
+[2023-06-17 09:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-06-17 09:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-06-17 09:03:22] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 09:03:22] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-17 09:03:22] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev53] Old Version: [0.6.3.dev45]
+[2023-06-17 09:03:23] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/55/b0/c36cffcbb50f709a6598414c26c4fb920cdffa4a479d1e0da0edb34f7c37/khoj_assistant-0.6.3.dev45.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-17 09:03:23] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230617/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-17 09:03:23] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-06-17 09:03:23] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230617/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 09:03:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/2e/b7/8fac0ea0a7f88a86cafac1081e8ca72413f26ca3b74498a6534350c46822/khoj_assistant-0.6.3.dev53.tar.gz
+[2023-06-17 09:03:23] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-17 09:03:23] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev45.tar.gz tmp/khoj_assistant-0.6.3.dev53.tar.gz --markdown 20230617/k/khoj-assistant/0.6.3.dev45-0.6.3.dev53/diff.md --exclude *.pyd
+[2023-06-17 09:03:24] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-06-17 09:03:24] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-06-17 09:03:24] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-06-17 09:03:24] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-17 09:03:24] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-17 09:03:24] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-17 09:03:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev45.tar.gz]
+[2023-06-17 09:03:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev53.tar.gz]
+[2023-06-17 09:03:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-17 09:03:25] INFO root fetch - main [MainThread]: Store serial: [18541495]
