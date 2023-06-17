@@ -13309,3 +13309,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:53:06] INFO root fetch - processPackages [embetter]: Remove: archive file [/home/abi/fetcher/tmp/embetter-0.4.0.tar.gz]
 [2023-06-17 14:53:06] INFO root fetch - main [MainThread]: End processing [embetter]: success
 [2023-06-17 14:53:06] INFO root fetch - main [MainThread]: Store serial: [18543022]
+[2023-06-17 14:58:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543022]
+[2023-06-17 14:58:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dpy-toolbox
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tired
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweatDB
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manticore
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaspersmicrobit
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamin_logger
+[2023-06-17 14:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: etm-dgraham
+[2023-06-17 14:58:15] INFO root fetch - processPackages [dpy-toolbox]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [etm-dgraham]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [webhooklib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/bb/3d/9d110a2ae4372db54604cc90e1d22573ed1ce6158d99eda423ed708d0c91/etm-dgraham-5.0.8.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [dpy-toolbox]: Downloading https://files.pythonhosted.org/packages/27/92/bec7ec774349eaf8a877a77765febcc7fd84d4143f665cca21938ad0364b/dpy-toolbox-0.0.1b8.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/8b/48/0f365fb2b24b6b87f70dff1d47525366918e8756fb08e9563fd87f5a518a/webhooklib-0.2.0.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-17 14:58:15] WARNING root fetch - processPackages [tired]: Skipping, unable to determine old version
+[2023-06-17 14:58:15] INFO root fetch - main [MainThread]: End processing [tired] error
+[2023-06-17 14:58:15] WARNING root fetch - processPackages [sweatDB]: Skipping, unable to determine old version
+[2023-06-17 14:58:15] INFO root fetch - main [MainThread]: End processing [sweatDB] error
+[2023-06-17 14:58:15] INFO root fetch - processPackages [lamin_logger]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [kaspersmicrobit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230617] Old Version: [0.3.8.dev230616]
+[2023-06-17 14:58:15] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/66/ca/717bfd26f5c10c63f718541bf133cb286033e421eb926c6f4281cab3d945/webhooklib-0.2.1.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/95/34/1f3ef42127e7244650e0b9ba18418821f1476cf60524bba67237ba73c469/etm-dgraham-5.0.9.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/95/13/4e3fdd5c31fc0b994f7e85fb66d1ac8796d6fee0f6d2be754a0bb5696ff9/PyQt6-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 14:58:15] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/e3/fd/3a2be7295a3238a21960edbc5e2ce5b67ae3166253d97489422a66c1531b/lamin_logger-0.5.2.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.2.0.tar.gz tmp/webhooklib-0.2.1.tar.gz --markdown 20230617/w/webhooklib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 14:58:15] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/bb/01/c3e82e7359ba9f8f53a4eba0d1e6dafe6f4824fcb318e266ea0e0df858a6/manticore-0.3.8.dev230616.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [kaspersmicrobit]: Downloading https://files.pythonhosted.org/packages/d0/c8/780633145542abfef73e3d143a7f982fd3b84f99cf9a01ce0d162ffc8b7d/kaspersmicrobit-0.4.1.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [dpy-toolbox]: Downloading https://files.pythonhosted.org/packages/f5/a4/3135e098fd91a6c397390dc61b9b86680d2e1080b94a7a57768db7f02e2e/dpy-toolbox-0.0.1b9.tar.gz
+[2023-06-17 14:58:15] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-17 14:58:15] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.8.tar.gz tmp/etm-dgraham-5.0.9.tar.gz --markdown 20230617/e/etm-dgraham/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [dpy-toolbox]: executing diffoscope
+[2023-06-17 14:58:16] INFO root fetch - processPackages [dpy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpy-toolbox-0.0.1b8.tar.gz tmp/dpy-toolbox-0.0.1b9.tar.gz --markdown 20230617/d/dpy-toolbox/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/14/c1/abab25f84b1429a9f7295153df0654cffd7d11b1013ed4f2d8a85256188b/manticore-0.3.8.dev230617.tar.gz
+[2023-06-17 14:58:16] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/77/8d/d379d6ce3be67e36e2300f61292311be9b987c2bf7b6111aacc2f13ada5f/lamin_logger-0.5.3.tar.gz
+[2023-06-17 14:58:16] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/d8/76/ba4c7ab4f0c346e47fef00b4b4c029d1f323219b93f9ff967ec775a7dc78/PyQt6-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-17 14:58:16] INFO root fetch - processPackages [kaspersmicrobit]: Downloading https://files.pythonhosted.org/packages/16/9d/dba4a541536650dc5816f8a75ebf093dd3b30fd61ef33ac3040bb79767c3/kaspersmicrobit-0.4.2.tar.gz
+[2023-06-17 14:58:16] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-17 14:58:16] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230616.tar.gz tmp/manticore-0.3.8.dev230617.tar.gz --markdown 20230617/m/manticore/0.3.8.dev230616-0.3.8.dev230617/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [lamin_logger]: executing diffoscope
+[2023-06-17 14:58:16] INFO root fetch - processPackages [lamin_logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_logger-0.5.2.tar.gz tmp/lamin_logger-0.5.3.tar.gz --markdown 20230617/l/lamin_logger/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [kaspersmicrobit]: executing diffoscope
+[2023-06-17 14:58:16] INFO root fetch - processPackages [kaspersmicrobit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaspersmicrobit-0.4.1.tar.gz tmp/kaspersmicrobit-0.4.2.tar.gz --markdown 20230617/k/kaspersmicrobit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-17 14:58:16] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.4.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.5.tar.gz --markdown 20230617/P/PyQt6-Fluent-Widgets/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-17 14:58:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.2.0.tar.gz]
+[2023-06-17 14:58:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.2.1.tar.gz]
+[2023-06-17 14:58:16] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 14:58:17] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.8.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.9.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-17 14:58:17] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.5.2.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.5.3.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
+[2023-06-17 14:58:17] INFO root fetch - processPackages [kaspersmicrobit]: Remove: archive file [/home/abi/fetcher/tmp/kaspersmicrobit-0.4.1.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - processPackages [kaspersmicrobit]: Remove: archive file [/home/abi/fetcher/tmp/kaspersmicrobit-0.4.2.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - main [MainThread]: End processing [kaspersmicrobit]: success
+[2023-06-17 14:58:17] INFO root fetch - processPackages [dpy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dpy-toolbox-0.0.1b8.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - processPackages [dpy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dpy-toolbox-0.0.1b9.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - main [MainThread]: End processing [dpy-toolbox]: success
+[2023-06-17 14:58:17] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230616.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230617.tar.gz]
+[2023-06-17 14:58:17] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-17 14:58:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-17 14:58:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-17 14:58:20] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-17 14:58:20] INFO root fetch - main [MainThread]: Store serial: [18543055]
