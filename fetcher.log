@@ -15852,3 +15852,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:50:05] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-4.1.5.tar.gz]
 [2023-06-17 17:50:05] INFO root fetch - main [MainThread]: End processing [fastapi-template]: success
 [2023-06-17 17:50:05] INFO root fetch - main [MainThread]: Store serial: [18544367]
+[2023-06-17 17:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544367]
+[2023-06-17 17:55:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 17:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erniechatbotsdk
+[2023-06-17 17:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myalias
+[2023-06-17 17:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gecs
+[2023-06-17 17:55:14] WARNING root fetch - processPackages [myalias]: Skipping, unable to determine old version
+[2023-06-17 17:55:14] INFO root fetch - main [MainThread]: End processing [myalias] error
+[2023-06-17 17:55:14] WARNING root fetch - processPackages [gecs]: Skipping, unable to determine old version
+[2023-06-17 17:55:14] INFO root fetch - main [MainThread]: End processing [gecs] error
+[2023-06-17 17:55:14] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 17:55:14] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/58/f3/338f963b484cc4de38f83cc4db0b07c3c9ef7cd01ac11a3e8e06f97100a0/erniechatbotsdk-0.0.6.tar.gz
+[2023-06-17 17:55:15] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/c2/b7/eb00c0f540d8f4d6d04dde79642679a91f859b6b3bff5314b6bd732c75f9/erniechatbotsdk-0.0.7.tar.gz
+[2023-06-17 17:55:15] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 17:55:15] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.6.tar.gz tmp/erniechatbotsdk-0.0.7.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 17:55:16] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.6.tar.gz]
+[2023-06-17 17:55:16] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.7.tar.gz]
+[2023-06-17 17:55:16] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 17:55:16] INFO root fetch - main [MainThread]: Store serial: [18544390]
