@@ -19355,3 +19355,33 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:41:41] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-17 23:41:41] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-17 23:41:41] INFO root fetch - main [MainThread]: Store serial: [18546047]
+[2023-06-17 23:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546047]
+[2023-06-17 23:46:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 23:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm
+[2023-06-17 23:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gex-cli
+[2023-06-17 23:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape
+[2023-06-17 23:46:50] INFO root fetch - processPackages [llm]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-17 23:46:50] INFO root fetch - processPackages [gex-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 23:46:50] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 23:46:50] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [gex-cli]: Downloading https://files.pythonhosted.org/packages/c2/c9/f0cc0bbe15644c3400713bd44b6c864f7e8f198501a8ce8c73a806412f79/gex_cli-1.0.1.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [llm]: Downloading https://files.pythonhosted.org/packages/32/15/0b31a634ae874d65b75953efe2d7bdd527d7994253ed81e5ac82505ba3de/llm-0.4.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-17 23:46:50] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230617/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 23:46:50] INFO root fetch - processPackages [gex-cli]: Downloading https://files.pythonhosted.org/packages/13/49/3eb101813ffff56ae3fee454bdc0c8b5ad0874354fe52ba4075ff2fdaff2/gex_cli-1.0.2.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [llm]: Downloading https://files.pythonhosted.org/packages/30/94/ba05f27ac047bc1bbed83ce59c1db040a7a8547c60330a636d501893082e/llm-0.4.1.tar.gz
+[2023-06-17 23:46:50] INFO root fetch - processPackages [gex-cli]: executing diffoscope
+[2023-06-17 23:46:50] INFO root fetch - processPackages [gex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gex_cli-1.0.1.tar.gz tmp/gex_cli-1.0.2.tar.gz --markdown 20230617/g/gex-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 23:46:50] INFO root fetch - processPackages [llm]: executing diffoscope
+[2023-06-17 23:46:50] INFO root fetch - processPackages [llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-0.4.tar.gz tmp/llm-0.4.1.tar.gz --markdown 20230617/l/llm/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 23:46:51] INFO root fetch - processPackages [gex-cli]: Remove: archive file [/home/abi/fetcher/tmp/gex_cli-1.0.1.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - processPackages [gex-cli]: Remove: archive file [/home/abi/fetcher/tmp/gex_cli-1.0.2.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - main [MainThread]: End processing [gex-cli]: success
+[2023-06-17 23:46:51] INFO root fetch - processPackages [llm]: Remove: archive file [/home/abi/fetcher/tmp/llm-0.4.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - processPackages [llm]: Remove: archive file [/home/abi/fetcher/tmp/llm-0.4.1.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - main [MainThread]: End processing [llm]: success
+[2023-06-17 23:46:51] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-06-17 23:46:51] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-17 23:46:51] INFO root fetch - main [MainThread]: Store serial: [18546056]
