@@ -7070,3 +7070,69 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:09:15] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.2.tar.gz]
 [2023-06-17 05:09:15] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
 [2023-06-17 05:09:15] INFO root fetch - main [MainThread]: Store serial: [18540421]
+[2023-06-17 05:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540421]
+[2023-06-17 05:14:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plib3.ui
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-delivery-carrier-deposit
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamatic
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: featureform
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaxi
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GANDLF
+[2023-06-17 05:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-env-config
+[2023-06-17 05:14:24] INFO root fetch - processPackages [datamatic]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [kaxi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: New version: [9.0.0.1.1.99.dev9] Old Version: [9.0.0.1.1.99.dev8]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [auto-env-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [plib3.ui]: New version: [0.15.8.2] Old Version: [0.15.8.1]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [featureform]: New version: [1.9.2rc4] Old Version: [1.9.2rc3]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230617] Old Version: [0.0.17.dev20230616]
+[2023-06-17 05:14:24] INFO root fetch - processPackages [auto-env-config]: Downloading https://files.pythonhosted.org/packages/b6/c6/06c1b79879ef7222d1eb37d3c60159f813cfc9ff1653a37606764febd61d/auto-env-config-1.0.8.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/18/7f/4b30a9a24843dda2982169bf12d17f1c84cd60bf09d832ba25a7bb37bd38/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl
+[2023-06-17 05:14:24] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/79/7c/88dbadab3114c0d37baaddaddd38ee40bbe1a946e2db68ecc4ac10dadc52/plib3.ui-0.15.8.1.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/66/d4/30e560617df005fc9d2e21170e48d1ecbb93888d97902a7dd0b00590d994/featureform-1.9.2rc3.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/18/86/d8a08b852549f7e003011c1b25d60202ece093058d11c0bf6f1bce696b0c/GANDLF-0.0.17.dev20230616.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [kaxi]: Downloading https://files.pythonhosted.org/packages/e8/c8/b97b98576b5fd4c0ca8b564c2a61b88ae6362acdb7164c2dda055c78c6ce/kaxi-0.1.0.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/a7/0a/1f551f65c4e5c0562a6b58e5a5a5ea65936a9ef476f6337530fbd7f57be1/datamatic-0.1.4.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/ae/f8/e97321b1419df3742df6c2d6c6fbf892a4361ceac24abbf93be1b850c3be/plib3.ui-0.15.8.2.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/4a/6b/ee38f6ecb21d2c2087b9bc68b1a8d88e7bcb57d676a24ca76c2c525581e2/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev9-py2-none-any.whl
+[2023-06-17 05:14:24] INFO root fetch - processPackages [plib3.ui]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [plib3.ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plib3.ui-0.15.8.1.tar.gz tmp/plib3.ui-0.15.8.2.tar.gz --markdown 20230617/p/plib3.ui/0.15.8.1-0.15.8.2/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/3d/76/abc6d29a64bfbf6926dd0f0d4a5a8f7561e3d4fc01fb8f86770d55da481b/GANDLF-0.0.17.dev20230617.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [auto-env-config]: Downloading https://files.pythonhosted.org/packages/d5/3b/e6c71cf422f53266b8bde9652f46ad70d7bdc42d66d67c030ae6c034d302/auto-env-config-1.0.9.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/5b/b8/376b4c1d8930fcad6e595decb4405ac692fd19cac0a699757412a578bebe/featureform-1.9.2rc4.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-delivery-carrier-deposit/9.0.0.1.1.99.dev8-9.0.0.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/ee/b9/b3c16b515473b76536cb49bf6a2750ae6cfa9cd73eb98ba3d236bb681cc3/datamatic-0.1.5.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [auto-env-config]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [auto-env-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-env-config-1.0.8.tar.gz tmp/auto-env-config-1.0.9.tar.gz --markdown 20230617/a/auto-env-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [datamatic]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [datamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamatic-0.1.4.tar.gz tmp/datamatic-0.1.5.tar.gz --markdown 20230617/d/datamatic/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [kaxi]: Downloading https://files.pythonhosted.org/packages/65/9f/038f6e5f1c3497faddd083be72791f2c00a8f3775a77378924854e0d3ee4/kaxi-0.1.1.tar.gz
+[2023-06-17 05:14:24] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230616.tar.gz tmp/GANDLF-0.0.17.dev20230617.tar.gz --markdown 20230617/G/GANDLF/0.0.17.dev20230616-0.0.17.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [kaxi]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [kaxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaxi-0.1.0.tar.gz tmp/kaxi-0.1.1.tar.gz --markdown 20230617/k/kaxi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 05:14:24] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-17 05:14:24] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.2rc3.tar.gz tmp/featureform-1.9.2rc4.tar.gz --markdown 20230617/f/featureform/1.9.2rc3-1.9.2rc4/diff.md --exclude *.pyd
+[2023-06-17 05:14:25] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.4.tar.gz]
+[2023-06-17 05:14:25] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.5.tar.gz]
+[2023-06-17 05:14:25] INFO root fetch - main [MainThread]: End processing [datamatic]: success
+[2023-06-17 05:14:25] INFO root fetch - processPackages [kaxi]: Remove: archive file [/home/abi/fetcher/tmp/kaxi-0.1.0.tar.gz]
+[2023-06-17 05:14:25] INFO root fetch - processPackages [kaxi]: Remove: archive file [/home/abi/fetcher/tmp/kaxi-0.1.1.tar.gz]
+[2023-06-17 05:14:25] INFO root fetch - main [MainThread]: End processing [kaxi]: success
+[2023-06-17 05:14:26] INFO root fetch - processPackages [auto-env-config]: Remove: archive file [/home/abi/fetcher/tmp/auto-env-config-1.0.8.tar.gz]
+[2023-06-17 05:14:26] INFO root fetch - processPackages [auto-env-config]: Remove: archive file [/home/abi/fetcher/tmp/auto-env-config-1.0.9.tar.gz]
+[2023-06-17 05:14:26] INFO root fetch - main [MainThread]: End processing [auto-env-config]: success
+[2023-06-17 05:14:26] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 05:14:26] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 05:14:26] INFO root fetch - main [MainThread]: End processing [odoo9-addon-delivery-carrier-deposit]: success
+[2023-06-17 05:14:26] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230616.tar.gz]
+[2023-06-17 05:14:26] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230617.tar.gz]
+[2023-06-17 05:14:26] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-17 05:14:27] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.1.tar.gz]
+[2023-06-17 05:14:27] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.2.tar.gz]
+[2023-06-17 05:14:27] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
+[2023-06-17 05:14:28] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc3.tar.gz]
+[2023-06-17 05:14:28] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc4.tar.gz]
+[2023-06-17 05:14:28] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-17 05:14:28] INFO root fetch - main [MainThread]: Store serial: [18540442]
