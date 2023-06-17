@@ -17194,3 +17194,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:52:34] INFO root fetch - processPackages [elementpath]: Remove: archive file [/home/abi/fetcher/tmp/elementpath-4.1.3.tar.gz]
 [2023-06-17 19:52:34] INFO root fetch - main [MainThread]: End processing [elementpath]: success
 [2023-06-17 19:52:34] INFO root fetch - main [MainThread]: Store serial: [18545040]
+[2023-06-17 19:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545040]
+[2023-06-17 19:57:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Artec
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yid-langchain-extensions
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: halborn-ctf
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-django-plus
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dal-python
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecowitt2mqtt
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ABOTP
+[2023-06-17 19:57:43] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.4] Old Version: [0.4.2]
+[2023-06-17 19:57:43] INFO root fetch - processPackages [Artec]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 19:57:43] INFO root fetch - processPackages [strawberry-django-plus]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-17 19:57:43] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 19:57:43] INFO root fetch - processPackages [dal-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 19:57:43] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 19:57:43] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/30/d3/f57e68164be618c2b56c7a76d03973172da5a0a43bb001308d13f6195176/dal_python-0.2.2-cp39-none-any.whl
+[2023-06-17 19:57:43] WARNING root fetch - processPackages [ABOTP]: Skipping, unable to determine old version
+[2023-06-17 19:57:43] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/86/49/3d09582cabc2b5556d13d6de7f53e597420fa0db64fa012be52d9fdc8635/Artec-0.1.2.tar.gz
+[2023-06-17 19:57:43] INFO root fetch - processPackages [ecowitt2mqtt]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-17 19:57:43] INFO root fetch - main [MainThread]: End processing [ABOTP] error
+[2023-06-17 19:57:43] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/fb/3d/05552053f3307ee6ba6a28d69eea8eb79e77b6e9456c977a0138e6e06c94/yid_langchain_extensions-0.4.2.tar.gz
+[2023-06-17 19:57:43] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/73/d1/baf6c1784910e9c04fa2f8ea300d51ad48514ce4845947c9dca63e0081d4/strawberry_django_plus-3.0.0.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/20/64/8cdc62c28f64785e06112011d339dd096c78e08783858e8c1d1c0ebd9b0b/ecowitt2mqtt-2023.5.0.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/50/2c/b95644bcb4acabf675605d3d86cb80ed8aa6fbefde05fe4cd2fa656fc1ab/Artec-0.1.3.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/95/db/75430282a4b0b077184ee557a13e5fb12c4976eb8fcf3d526f3722ad4a77/yid_langchain_extensions-0.4.4.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/e2/25/6d2f69a6aab0c724ec3f9b9870c76ff97b181a4cdc3c373f21e7130fa73f/strawberry_django_plus-3.0.1.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 19:57:44] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.2.tar.gz tmp/yid_langchain_extensions-0.4.4.tar.gz --markdown 20230617/y/yid-langchain-extensions/0.4.2-0.4.4/diff.md --exclude *.pyd
+[2023-06-17 19:57:44] INFO root fetch - processPackages [Artec]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [Artec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Artec-0.1.2.tar.gz tmp/Artec-0.1.3.tar.gz --markdown 20230617/A/Artec/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 19:57:44] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-3.0.0.tar.gz tmp/strawberry_django_plus-3.0.1.tar.gz --markdown 20230617/s/strawberry-django-plus/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-17 19:57:44] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/e2/27/4785d0f89bee5dad11b575e174ea63abb942ec702e71b897f65e2eb1e58d/ecowitt2mqtt-2023.6.0.tar.gz
+[2023-06-17 19:57:44] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/75/75/79cc855a8cdce0c5df3985e3769898b3f8103ef08f576c56c97eb69f9260/dal_python-0.2.3-cp39-none-any.whl
+[2023-06-17 19:57:44] INFO root fetch - processPackages [ecowitt2mqtt]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [ecowitt2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecowitt2mqtt-2023.5.0.tar.gz tmp/ecowitt2mqtt-2023.6.0.tar.gz --markdown 20230617/e/ecowitt2mqtt/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-17 19:57:44] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-17 19:57:44] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.2.2-cp39-none-any.whl.zip tmp/dal_python-0.2.3-cp39-none-any.whl.zip --markdown 20230617/d/dal-python/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 19:57:45] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.2.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.4.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-17 19:57:45] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.1.2.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.1.3.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - main [MainThread]: End processing [Artec]: success
+[2023-06-17 19:57:45] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 19:57:45] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.5.0.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.6.0.tar.gz]
+[2023-06-17 19:57:45] INFO root fetch - main [MainThread]: End processing [ecowitt2mqtt]: success
+[2023-06-17 19:57:45] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.2-cp39-none-any.whl.zip]
+[2023-06-17 19:57:45] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.3-cp39-none-any.whl.zip]
+[2023-06-17 19:57:45] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-17 19:57:47] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.0.tar.gz]
+[2023-06-17 19:57:47] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.1.tar.gz]
+[2023-06-17 19:57:47] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-06-17 19:57:47] INFO root fetch - main [MainThread]: Store serial: [18545060]
