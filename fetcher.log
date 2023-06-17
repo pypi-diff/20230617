@@ -11940,3 +11940,62 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:57:08] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt.ddsim-1.18.0.tar.gz]
 [2023-06-17 12:57:08] INFO root fetch - main [MainThread]: End processing [mqt.ddsim]: success
 [2023-06-17 12:57:08] INFO root fetch - main [MainThread]: Store serial: [18542452]
+[2023-06-17 13:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542452]
+[2023-06-17 13:02:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandaxt
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantile-estimator
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-astrolab
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crestic
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finlogic
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-target-collection
+[2023-06-17 13:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yid-langchain-extensions
+[2023-06-17 13:02:18] INFO root fetch - processPackages [pandaxt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 13:02:18] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-06-17 13:02:18] INFO root fetch - processPackages [almavik]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-17 13:02:18] INFO root fetch - processPackages [quantile-estimator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-17 13:02:18] WARNING root fetch - processPackages [yid-langchain-extensions]: Skipping, unable to determine old version
+[2023-06-17 13:02:18] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions] error
+[2023-06-17 13:02:18] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/e9/d0/ca05d8f355833f4d2a653566eff440a0171f4b3ec1b5b929f635ed8d1fa4/macrometa-target-collection-0.0.78.tar.gz
+[2023-06-17 13:02:18] ERROR root fetch - processPackages [py-astrolab]: Unable to get metadata: No such project 'py-astrolab'
+[2023-06-17 13:02:18] INFO root fetch - main [MainThread]: End processing [py-astrolab] error
+[2023-06-17 13:02:18] INFO root fetch - processPackages [finlogic]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-17 13:02:18] INFO root fetch - processPackages [crestic]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-17 13:02:18] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/29/05/3bf4e6d0c0798c941bd2ab9f1f9ccce7ecdc5d6cad135feb40dbc183fe7c/almavik-0.2.6.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [quantile-estimator]: Downloading https://files.pythonhosted.org/packages/de/c6/2ec2efa047bc347e93a214ac9b5eac37c4fe8fb59b36e1bda15816f52b2e/quantile-estimator-0.1.1.tar.gz
+[2023-06-17 13:02:18] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373513>=10485760
+[2023-06-17 13:02:18] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 13:02:18] INFO root fetch - processPackages [pandaxt]: Downloading https://files.pythonhosted.org/packages/9c/95/f98fff3f7c83b5f131ad1551b3efc82091d5b9f16894fe63d71aba34ef18/pandaxt-0.1.5.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/1b/73/34fa96c41abcafa017d1e49f07f9a8801754b155bb7fbe9fc5563b2800fa/macrometa-target-collection-0.0.79.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/8f/35/df609d39717e6b35caf0b4f8c75bbd455701488f89ed71151cc364a4fb37/finlogic-0.5.1.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [crestic]: Downloading https://files.pythonhosted.org/packages/84/fa/170ccc4421f98ddb7e567fffefbc02c707786e9a3601b5ad262773a17495/crestic-0.6.0.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-17 13:02:18] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.78.tar.gz tmp/macrometa-target-collection-0.0.79.tar.gz --markdown 20230617/m/macrometa-target-collection/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-06-17 13:02:18] INFO root fetch - processPackages [quantile-estimator]: Downloading https://files.pythonhosted.org/packages/85/98/793291631e52070db74e9277033dad086c4a64c3a8de59ee89d66bee1b17/quantile-estimator-0.1.2.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [quantile-estimator]: executing diffoscope
+[2023-06-17 13:02:18] INFO root fetch - processPackages [quantile-estimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantile-estimator-0.1.1.tar.gz tmp/quantile-estimator-0.1.2.tar.gz --markdown 20230617/q/quantile-estimator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 13:02:18] INFO root fetch - processPackages [crestic]: Downloading https://files.pythonhosted.org/packages/b1/11/d082788110ddb4b9089eb950c6625c0daa686723f41b0ae612e8a2e9d18a/crestic-0.7.0.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [pandaxt]: Downloading https://files.pythonhosted.org/packages/7a/cc/25dc05746ba3125ae645cf381612f9979a911dad6a84330318bacfcf649e/pandaxt-0.1.6.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [crestic]: executing diffoscope
+[2023-06-17 13:02:18] INFO root fetch - processPackages [crestic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crestic-0.6.0.tar.gz tmp/crestic-0.7.0.tar.gz --markdown 20230617/c/crestic/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-17 13:02:18] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/8a/22/48c4829f235e7d2882362dcc746b1365276d749f76516bb022cec3e15b08/finlogic-0.5.2.tar.gz
+[2023-06-17 13:02:18] INFO root fetch - processPackages [pandaxt]: executing diffoscope
+[2023-06-17 13:02:18] INFO root fetch - processPackages [pandaxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandaxt-0.1.5.tar.gz tmp/pandaxt-0.1.6.tar.gz --markdown 20230617/p/pandaxt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 13:02:19] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-06-17 13:02:19] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.5.1.tar.gz tmp/finlogic-0.5.2.tar.gz --markdown 20230617/f/finlogic/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-17 13:02:19] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.78.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.79.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-17 13:02:19] INFO root fetch - processPackages [quantile-estimator]: Remove: archive file [/home/abi/fetcher/tmp/quantile-estimator-0.1.1.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - processPackages [quantile-estimator]: Remove: archive file [/home/abi/fetcher/tmp/quantile-estimator-0.1.2.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - main [MainThread]: End processing [quantile-estimator]: success
+[2023-06-17 13:02:19] INFO root fetch - processPackages [crestic]: Remove: archive file [/home/abi/fetcher/tmp/crestic-0.6.0.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - processPackages [crestic]: Remove: archive file [/home/abi/fetcher/tmp/crestic-0.7.0.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - main [MainThread]: End processing [crestic]: success
+[2023-06-17 13:02:19] INFO root fetch - processPackages [pandaxt]: Remove: archive file [/home/abi/fetcher/tmp/pandaxt-0.1.5.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - processPackages [pandaxt]: Remove: archive file [/home/abi/fetcher/tmp/pandaxt-0.1.6.tar.gz]
+[2023-06-17 13:02:19] INFO root fetch - main [MainThread]: End processing [pandaxt]: success
+[2023-06-17 13:02:20] INFO root fetch - processPackages [finlogic]: Remove: archive file [/home/abi/fetcher/tmp/finlogic-0.5.1.tar.gz]
+[2023-06-17 13:02:20] INFO root fetch - processPackages [finlogic]: Remove: archive file [/home/abi/fetcher/tmp/finlogic-0.5.2.tar.gz]
+[2023-06-17 13:02:20] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-06-17 13:02:20] INFO root fetch - main [MainThread]: Store serial: [18542485]
