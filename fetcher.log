@@ -11156,3 +11156,54 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:30:49] INFO root fetch - processPackages [scrapeanything]: Remove: archive file [/home/abi/fetcher/tmp/scrapeanything-0.9.99.tar.gz]
 [2023-06-17 11:30:49] INFO root fetch - main [MainThread]: End processing [scrapeanything]: success
 [2023-06-17 11:30:49] INFO root fetch - main [MainThread]: Store serial: [18542058]
+[2023-06-17 11:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542058]
+[2023-06-17 11:35:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-simplified
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symbolicai
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: croqueta
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgsdl
+[2023-06-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-simplified
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [croqueta]: New version: [0.2] Old Version: [0.1]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [tgsdl]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [almavik]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/23/5c/1c3593adb3bf3c29f28d6e0c1dbfb1311ebed75b7e06b0a79f76a3b010f0/selenium-simplified-0.8.tar.gz
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/23/5c/1c3593adb3bf3c29f28d6e0c1dbfb1311ebed75b7e06b0a79f76a3b010f0/selenium-simplified-0.8.tar.gz
+[2023-06-17 11:35:58] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-06-17 11:35:58] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/a9/6a/2d32872c91827dc8d9073e33d2c704648184cde23ca3430c3cc89de59049/almavik-0.2.2.tar.gz
+[2023-06-17 11:35:58] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/52/ae/b6f2766cb32ff8e1dc2f0226491cbbc0a4c40b43c0ae0b6f93ac017b8815/croqueta-0.1.tar.gz
+[2023-06-17 11:35:58] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373813>=10485760
+[2023-06-17 11:35:58] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 11:35:58] INFO root fetch - processPackages [tgsdl]: Downloading https://files.pythonhosted.org/packages/ad/bb/feb8b555ed156b210edbbc7be81cf48a66d6df90c2f9569d5418c7bdd836/tgsdl-1.0.3.tar.gz
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/0b/b3/fc573bdfd459d5a9bba859784d73d28a5cf224a20005342c39fc0a45c231/selenium-simplified-0.9.tar.gz
+[2023-06-17 11:35:58] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/0b/b3/fc573bdfd459d5a9bba859784d73d28a5cf224a20005342c39fc0a45c231/selenium-simplified-0.9.tar.gz
+[2023-06-17 11:35:59] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-17 11:35:59] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-simplified-0.8.tar.gz tmp/selenium-simplified-0.9.tar.gz --markdown 20230617/s/selenium-simplified/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 11:35:59] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-17 11:35:59] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-simplified-0.8.tar.gz tmp/selenium-simplified-0.9.tar.gz --markdown 20230617/s/selenium-simplified/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 11:35:59] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-06-17 11:35:59] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/58/e3/0d5e338884339f8b55794888efd0b3af6ab3527bf075ae7bd44da7f15d57/croqueta-0.2.tar.gz
+[2023-06-17 11:35:59] INFO root fetch - processPackages [tgsdl]: Downloading https://files.pythonhosted.org/packages/3c/c0/968d079834faa4f1b30bca20d97a30ffa97ed49173983c84e31340b419ef/tgsdl-1.0.4.tar.gz
+[2023-06-17 11:35:59] INFO root fetch - processPackages [croqueta]: executing diffoscope
+[2023-06-17 11:35:59] INFO root fetch - processPackages [croqueta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croqueta-0.1.tar.gz tmp/croqueta-0.2.tar.gz --markdown 20230617/c/croqueta/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-17 11:35:59] INFO root fetch - processPackages [tgsdl]: executing diffoscope
+[2023-06-17 11:35:59] INFO root fetch - processPackages [tgsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgsdl-1.0.3.tar.gz tmp/tgsdl-1.0.4.tar.gz --markdown 20230617/t/tgsdl/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-17 11:35:59] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-06-17 11:35:59] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230617/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 11:36:00] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.8.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.9.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-17 11:36:00] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.1.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.2.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [croqueta]: success
+[2023-06-17 11:36:00] INFO root fetch - processPackages [tgsdl]: Remove: archive file [/home/abi/fetcher/tmp/tgsdl-1.0.3.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - processPackages [tgsdl]: Remove: archive file [/home/abi/fetcher/tmp/tgsdl-1.0.4.tar.gz]
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [tgsdl]: success
+[2023-06-17 11:36:00] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-06-17 11:36:00] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-06-17 11:36:00] INFO root fetch - main [MainThread]: Store serial: [18542082]
