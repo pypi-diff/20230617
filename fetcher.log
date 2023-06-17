@@ -16133,3 +16133,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:22:05] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-17 18:22:05] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-06-17 18:22:05] INFO root fetch - main [MainThread]: Store serial: [18544520]
+[2023-06-17 18:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544520]
+[2023-06-17 18:27:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halborn-ctf
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: philbot-voice
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rule-engine
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rolimons
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erniechatbotsdk
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: croqueta
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lief
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ProTaska-GPT
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaman
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: newshomepages
+[2023-06-17 18:27:15] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [croqueta]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rule-engine]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rolimons]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [yaman]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [newshomepages]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [lief]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-17 18:27:15] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/c2/b7/eb00c0f540d8f4d6d04dde79642679a91f859b6b3bff5314b6bd732c75f9/erniechatbotsdk-0.0.7.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/54/dc/64f22bcedcbc17a50d60806e5a7591b8d80f8196a5bb64a595a7e91ebf24/croqueta-0.2.1.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/80/b1/9f8f691f3103d37bd22fdefccc25330667e9cdd7219746b425109e9770b1/newshomepages-0.0.8.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/3c/0a/19562eacfd496e92ef263e1ab82b7466cbcff13b836d63164f98c205d12a/ProTaska-GPT-0.0.3.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [yaman]: Downloading https://files.pythonhosted.org/packages/47/34/ee2d334b481be2cf0cf822b73aa29ac9bd97329ed3b4037038907d772e4b/yaman-0.1.0.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rolimons]: Downloading https://files.pythonhosted.org/packages/60/07/2f75b9ecee84f96b1537dd866f8b5a0751363f273c66ca45cba3b4fb7605/rolimons-2.5.3.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [lief]: Downloading https://files.pythonhosted.org/packages/bc/71/447eb3ac7e942cec17c065100931e5f3d3a11428fae686b01a2d7d2da746/lief-0.8.3.post3.zip
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/8f/81/d25c24e46961fe7eb8027fef17f6e2108a8c3fcb63d23a83580bdc27d033/rule-engine-3.5.1.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [croqueta]: Downloading https://files.pythonhosted.org/packages/f0/c7/e35fd66b203d8b50a9e1c4f7596b0537f49c23701e6be4ef287341f658f6/croqueta-0.2.2.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [croqueta]: executing diffoscope
+[2023-06-17 18:27:15] INFO root fetch - processPackages [croqueta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croqueta-0.2.1.tar.gz tmp/croqueta-0.2.2.tar.gz --markdown 20230617/c/croqueta/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 18:27:15] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [yaman]: Downloading https://files.pythonhosted.org/packages/ea/58/9c2f5e477e30ec39fe9e36c518d269b3f42e91b5be4fe263d18f46d295f5/yaman-0.1.1.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/e8/df/b28aa0b06c22f2e8585507c0ed0b3ab5337073a92572b3325412dead54bb/rule-engine-3.6.0.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/11/c4/54b425f19c160653a3dc7ea1b0d4c3cac1599d9bcf7ae5d4bc1eff1b4b12/newshomepages-0.0.9.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 18:27:15] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.7.tar.gz tmp/erniechatbotsdk-0.0.8.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 18:27:15] INFO root fetch - processPackages [yaman]: executing diffoscope
+[2023-06-17 18:27:15] INFO root fetch - processPackages [yaman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaman-0.1.0.tar.gz tmp/yaman-0.1.1.tar.gz --markdown 20230617/y/yaman/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 18:27:15] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/2e/39/b827ad547ea1cbf16f2d0d0795b7e9ff7a70434ca41d02e740228cd8f973/ProTaska-GPT-0.0.4.tar.gz
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rule-engine]: executing diffoscope
+[2023-06-17 18:27:15] INFO root fetch - processPackages [rule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule-engine-3.5.1.tar.gz tmp/rule-engine-3.6.0.tar.gz --markdown 20230617/r/rule-engine/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.3.tar.gz tmp/ProTaska-GPT-0.0.4.tar.gz --markdown 20230617/P/ProTaska-GPT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [rolimons]: Downloading https://files.pythonhosted.org/packages/d3/08/b8749d173a3530b886e0af2ff6fc99da728a6034e0fe90b6d43a264e0f65/rolimons-2.5.4.tar.gz
+[2023-06-17 18:27:16] INFO root fetch - processPackages [newshomepages]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [newshomepages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newshomepages-0.0.8.tar.gz tmp/newshomepages-0.0.9.tar.gz --markdown 20230617/n/newshomepages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 18:27:16] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-06-17 18:27:16] INFO root fetch - processPackages [lief]: Downloading https://files.pythonhosted.org/packages/cd/0e/0d6f3357975dd1530aeb4b4a84a99d493775391758378fb5109f47b613f9/lief-0.9.0.zip
+[2023-06-17 18:27:16] INFO root fetch - processPackages [rolimons]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [rolimons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rolimons-2.5.3.tar.gz tmp/rolimons-2.5.4.tar.gz --markdown 20230617/r/rolimons/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230617/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 18:27:16] INFO root fetch - processPackages [lief]: executing diffoscope
+[2023-06-17 18:27:16] INFO root fetch - processPackages [lief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lief-0.8.3.post3.zip tmp/lief-0.9.0.zip --markdown 20230617/l/lief/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 18:27:17] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.7.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [erniechatbotsdk]: Start processing: halborn-ctf
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 18:27:17] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 18:27:17] INFO root fetch - processPackages [yaman]: Remove: archive file [/home/abi/fetcher/tmp/yaman-0.1.0.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [yaman]: Remove: archive file [/home/abi/fetcher/tmp/yaman-0.1.1.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [yaman]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [rolimons]: Remove: archive file [/home/abi/fetcher/tmp/rolimons-2.5.3.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [rolimons]: Remove: archive file [/home/abi/fetcher/tmp/rolimons-2.5.4.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [rolimons]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.3.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.4.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [lief]: Remove: archive file [/home/abi/fetcher/tmp/lief-0.8.3.post3.zip]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [lief]: Remove: archive file [/home/abi/fetcher/tmp/lief-0.9.0.zip]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [lief]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.2.1.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [croqueta]: Remove: archive file [/home/abi/fetcher/tmp/croqueta-0.2.2.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [croqueta]: success
+[2023-06-17 18:27:17] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-3.5.1.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-3.6.0.tar.gz]
+[2023-06-17 18:27:17] INFO root fetch - main [MainThread]: End processing [rule-engine]: success
+[2023-06-17 18:27:18] ERROR root fetch - processPackages [halborn-ctf]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/halborn_ctf-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/halborn_ctf-0.1.9.tar.gz: No such file or directory
+
+[2023-06-17 18:27:18] INFO root fetch - main [MainThread]: End processing [halborn-ctf] error
+[2023-06-17 18:27:24] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.8.tar.gz]
+[2023-06-17 18:27:24] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
+[2023-06-17 18:27:24] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
+[2023-06-17 18:27:24] INFO root fetch - main [MainThread]: Store serial: [18544580]
