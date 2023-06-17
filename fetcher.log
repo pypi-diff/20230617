@@ -19269,3 +19269,29 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 23:31:00] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.5.3.tar.gz]
 [2023-06-17 23:31:00] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-abstractions]: success
 [2023-06-17 23:31:00] INFO root fetch - main [MainThread]: Store serial: [18546013]
+[2023-06-17 23:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546013]
+[2023-06-17 23:36:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-quality-rules-tools
+[2023-06-17 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-17 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-nlp-library
+[2023-06-17 23:36:09] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-17 23:36:09] INFO root fetch - processPackages [kcli]: New version: [99.0.202306172100] Old Version: [99.0.202306171202]
+[2023-06-17 23:36:09] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/46/7e/32eb535c7f1e8af617647df1aa94a132260850b15c348aef601e13a816f4/kcli-99.0.202306171202-py3-none-any.whl
+[2023-06-17 23:36:09] INFO root fetch - processPackages [simple-nlp-library]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-17 23:36:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/67/95/1fb8c28918c42e3a8d7d0ec2ef528b8746ea32c71e5505aec977fc92ca5d/spark_quality_rules_tools-0.2.7.tar.gz
+[2023-06-17 23:36:09] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d0/8b/a9c3a05dbfae66296aec19c6b3125227271bb034a15526802e0821b85b32/kcli-99.0.202306172100-py3-none-any.whl
+[2023-06-17 23:36:09] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-17 23:36:09] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306171202-py3-none-any.whl.zip tmp/kcli-99.0.202306172100-py3-none-any.whl.zip --markdown 20230617/k/kcli/99.0.202306171202-99.0.202306172100/diff.md --exclude *.pyd
+[2023-06-17 23:36:09] INFO root fetch - processPackages [simple-nlp-library]: Downloading https://files.pythonhosted.org/packages/d6/2f/7743333595f8f44d763aaa884d519ce8df9eb23c43620363fd6d4e46773e/simple_nlp_library-1.5.0.tar.gz
+[2023-06-17 23:36:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/9b/93/3d37abb29b03a88bc7cbea8ec7973afd13f4250c1846775208c87bc47356/spark_quality_rules_tools-0.2.8.tar.gz
+[2023-06-17 23:36:09] WARNING root fetch - processPackages [simple-nlp-library]: Skipping package: exceeds size limit 68038884>=10485760
+[2023-06-17 23:36:09] INFO root fetch - main [MainThread]: End processing [simple-nlp-library] error
+[2023-06-17 23:36:09] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-06-17 23:36:09] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.2.7.tar.gz tmp/spark_quality_rules_tools-0.2.8.tar.gz --markdown 20230617/s/spark-quality-rules-tools/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-17 23:36:10] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.2.7.tar.gz]
+[2023-06-17 23:36:10] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.2.8.tar.gz]
+[2023-06-17 23:36:10] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-06-17 23:36:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306171202-py3-none-any.whl.zip]
+[2023-06-17 23:36:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306172100-py3-none-any.whl.zip]
+[2023-06-17 23:36:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-17 23:36:19] INFO root fetch - main [MainThread]: Store serial: [18546023]
