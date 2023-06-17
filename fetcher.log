@@ -11641,3 +11641,36 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:24:24] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post7.tar.gz]
 [2023-06-17 12:24:24] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-06-17 12:24:24] INFO root fetch - main [MainThread]: Store serial: [18542280]
+[2023-06-17 12:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542280]
+[2023-06-17 12:29:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 12:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qgs
+[2023-06-17 12:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydatawork
+[2023-06-17 12:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-interpolator
+[2023-06-17 12:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skoolkit
+[2023-06-17 12:29:34] WARNING root fetch - processPackages [qgs]: Skipping, unable to determine old version
+[2023-06-17 12:29:34] INFO root fetch - main [MainThread]: End processing [qgs] error
+[2023-06-17 12:29:34] INFO root fetch - processPackages [pydatawork]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 12:29:34] INFO root fetch - processPackages [skoolkit]: New version: [8.9] Old Version: [8.8]
+[2023-06-17 12:29:34] INFO root fetch - processPackages [simple-interpolator]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-17 12:29:34] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/77/77/dd85e7bc76356cd94e48ea13b1bf51e3c4f208084c21a7545287f104f30f/pydatawork-0.0.5.tar.gz
+[2023-06-17 12:29:34] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/e9/e2/3b92c8fefdfb5b2cec392920d4593723f20f7a86907a0e0bfccfb43ef1d3/simple-interpolator-0.0.9.tar.gz
+[2023-06-17 12:29:35] INFO root fetch - processPackages [skoolkit]: Downloading https://files.pythonhosted.org/packages/27/74/a796c09a7f1575f1f5c2239ab0edbcca67848d75d6ca77259e6c21efc333/skoolkit-8.8.tar.gz
+[2023-06-17 12:29:35] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/72/46/0e28a7f7c675278bab977a505eaaa825f254c09eb85000feaa2c3a261e42/pydatawork-0.0.6.tar.gz
+[2023-06-17 12:29:35] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/13/04/09dee78a416415a927cb52f09675affd64571d976973adc7be9399b715e1/simple-interpolator-0.1.0.tar.gz
+[2023-06-17 12:29:35] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-17 12:29:35] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.5.tar.gz tmp/pydatawork-0.0.6.tar.gz --markdown 20230617/p/pydatawork/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 12:29:35] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-17 12:29:35] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.0.9.tar.gz tmp/simple-interpolator-0.1.0.tar.gz --markdown 20230617/s/simple-interpolator/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 12:29:35] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.5.tar.gz]
+[2023-06-17 12:29:35] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.6.tar.gz]
+[2023-06-17 12:29:35] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-17 12:29:36] INFO root fetch - processPackages [skoolkit]: Downloading https://files.pythonhosted.org/packages/5e/c5/ffae79ba26e00aa027f30e9a289ae27a25856a5a52ce6c705650d32a8c1e/skoolkit-8.9.tar.gz
+[2023-06-17 12:29:36] INFO root fetch - processPackages [skoolkit]: executing diffoscope
+[2023-06-17 12:29:36] INFO root fetch - processPackages [skoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skoolkit-8.8.tar.gz tmp/skoolkit-8.9.tar.gz --markdown 20230617/s/skoolkit/8.8-8.9/diff.md --exclude *.pyd
+[2023-06-17 12:29:43] INFO root fetch - processPackages [skoolkit]: Remove: archive file [/home/abi/fetcher/tmp/skoolkit-8.8.tar.gz]
+[2023-06-17 12:29:43] INFO root fetch - processPackages [skoolkit]: Remove: archive file [/home/abi/fetcher/tmp/skoolkit-8.9.tar.gz]
+[2023-06-17 12:29:43] INFO root fetch - main [MainThread]: End processing [skoolkit]: success
+[2023-06-17 12:30:29] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.9.tar.gz]
+[2023-06-17 12:30:29] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.1.0.tar.gz]
+[2023-06-17 12:30:29] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-17 12:30:29] INFO root fetch - main [MainThread]: Store serial: [18542293]
