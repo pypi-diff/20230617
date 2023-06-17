@@ -14968,3 +14968,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:46:55] INFO root fetch - processPackages [pyenchant]: Remove: archive file [/home/abi/fetcher/tmp/pyenchant-3.3.0rc1.tar.gz]
 [2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [pyenchant]: success
 [2023-06-17 16:46:55] INFO root fetch - main [MainThread]: Store serial: [18543874]
+[2023-06-17 16:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543874]
+[2023-06-17 16:52:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-treehelp
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybitset
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-si7021
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laedingr
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywalc
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honkairail
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minidevice
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: y2mate-api
+[2023-06-17 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-qmc5883l
+[2023-06-17 16:52:04] WARNING root fetch - processPackages [laedingr]: Skipping, unable to determine old version
+[2023-06-17 16:52:04] INFO root fetch - main [MainThread]: End processing [laedingr] error
+[2023-06-17 16:52:04] INFO root fetch - processPackages [micropython-si7021]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:52:04] WARNING root fetch - processPackages [pybitset]: Skipping, unable to determine old version
+[2023-06-17 16:52:04] INFO root fetch - processPackages [minidevice]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-17 16:52:04] INFO root fetch - processPackages [pywalc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 16:52:04] INFO root fetch - main [MainThread]: End processing [pybitset] error
+[2023-06-17 16:52:04] INFO root fetch - processPackages [nonebot-plugin-treehelp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-17 16:52:04] WARNING root fetch - processPackages [y2mate-api]: Skipping, unable to determine old version
+[2023-06-17 16:52:04] INFO root fetch - processPackages [honkairail]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-17 16:52:04] INFO root fetch - main [MainThread]: End processing [y2mate-api] error
+[2023-06-17 16:52:05] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/e1/63/b75adaaf29346f9acd0ffcd146b00dc22719868ee97f1158c12972713394/honkairail-1.0.3.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-qmc5883l]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:52:05] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/65/53/3d52f96c04da9a2189b15a659a0709f38479fa8b00d7ef8794f4ec6785d7/minidevice-2.0.2.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/73/3e/c50db07fe44e95efb710091b2ffb9f66fba17a9bf0a4ca31f91bfa335125/pywalc-1.0.1.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-si7021]: Downloading https://files.pythonhosted.org/packages/8d/5d/cd2db06ad763d80c38ff4743186c37221cae64956551ba545420489a32a5/micropython-si7021-0.1.0.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Downloading https://files.pythonhosted.org/packages/aa/f8/0744d3a06ec7b00aa0680c2d27530f0bff067578e94d4ccb10424e8c2679/nonebot_plugin_treehelp-0.2.0.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/fe/3d/42f598854654e9ef9cda18a19e42daa9c1a0c43642c5af76362cf11a6fa3/micropython-qmc5883l-0.1.0.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/86/fd/5433a2fe89ee25a0fcc16f2d217c7197f7974153e710e69daa61feaafcb8/honkairail-1.0.4.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/8c/4d/edc1bc610a23a6a8aded5d9f2392645d751e28cc654cf6ca3a527ff18610/pywalc-1.0.2.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/68/38/bc14c6bf2fce2496d77237cd18dbba7b189d193c972b785dc8d8c0e06097/minidevice-2.0.3.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.3.tar.gz tmp/honkairail-1.0.4.tar.gz --markdown 20230617/h/honkairail/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-17 16:52:05] INFO root fetch - processPackages [pywalc]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [pywalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywalc-1.0.1.tar.gz tmp/pywalc-1.0.2.tar.gz --markdown 20230617/p/pywalc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 16:52:05] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.2.tar.gz tmp/minidevice-2.0.3.tar.gz --markdown 20230617/m/minidevice/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-17 16:52:05] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Downloading https://files.pythonhosted.org/packages/c3/00/6656ea55e9dbc43648f7f1ec2a551751bc5b32e8ba65bcd8406f55f0261c/nonebot_plugin_treehelp-0.3.0.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-si7021]: Downloading https://files.pythonhosted.org/packages/b2/89/58b2979d1273e73dcb497551cfc354f544fee67919c9e472ce43ebbc9f36/micropython-si7021-0.1.1.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/c5/1b/c9a5cd553cc8b94cb78ece50ed624616d95055c64f229bf495a3390e6b97/micropython-qmc5883l-0.1.1.tar.gz
+[2023-06-17 16:52:05] INFO root fetch - processPackages [nonebot-plugin-treehelp]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [nonebot-plugin-treehelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_treehelp-0.2.0.tar.gz tmp/nonebot_plugin_treehelp-0.3.0.tar.gz --markdown 20230617/n/nonebot-plugin-treehelp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-si7021]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-si7021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-si7021-0.1.0.tar.gz tmp/micropython-si7021-0.1.1.tar.gz --markdown 20230617/m/micropython-si7021/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-qmc5883l]: executing diffoscope
+[2023-06-17 16:52:05] INFO root fetch - processPackages [micropython-qmc5883l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-qmc5883l-0.1.0.tar.gz tmp/micropython-qmc5883l-0.1.1.tar.gz --markdown 20230617/m/micropython-qmc5883l/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:52:06] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.3.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.4.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-17 16:52:06] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.1.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.2.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - main [MainThread]: End processing [pywalc]: success
+[2023-06-17 16:52:06] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.2.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.3.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-17 16:52:06] INFO root fetch - processPackages [micropython-si7021]: Remove: archive file [/home/abi/fetcher/tmp/micropython-si7021-0.1.0.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - processPackages [micropython-si7021]: Remove: archive file [/home/abi/fetcher/tmp/micropython-si7021-0.1.1.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - main [MainThread]: End processing [micropython-si7021]: success
+[2023-06-17 16:52:06] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_treehelp-0.2.0.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_treehelp-0.3.0.tar.gz]
+[2023-06-17 16:52:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-treehelp]: success
+[2023-06-17 16:52:07] INFO root fetch - processPackages [micropython-qmc5883l]: Remove: archive file [/home/abi/fetcher/tmp/micropython-qmc5883l-0.1.0.tar.gz]
+[2023-06-17 16:52:07] INFO root fetch - processPackages [micropython-qmc5883l]: Remove: archive file [/home/abi/fetcher/tmp/micropython-qmc5883l-0.1.1.tar.gz]
+[2023-06-17 16:52:07] INFO root fetch - main [MainThread]: End processing [micropython-qmc5883l]: success
+[2023-06-17 16:52:07] INFO root fetch - main [MainThread]: Store serial: [18543910]
