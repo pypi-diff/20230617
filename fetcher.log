@@ -18641,3 +18641,36 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:26:55] INFO root fetch - processPackages [rocketsolver]: Remove: archive file [/home/abi/fetcher/tmp/rocketsolver-0.5.0.tar.gz]
 [2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [rocketsolver]: success
 [2023-06-17 22:26:55] INFO root fetch - main [MainThread]: Store serial: [18545722]
+[2023-06-17 22:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545722]
+[2023-06-17 22:32:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-provider-anomaly-detection
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-xmlmodel
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyfilite
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcfc
+[2023-06-17 22:32:04] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 22:32:04] WARNING root fetch - processPackages [mcfc]: Skipping, unable to determine old version
+[2023-06-17 22:32:04] INFO root fetch - main [MainThread]: End processing [mcfc] error
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:32:04] INFO root fetch - processPackages [pydantic-xmlmodel]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-17 22:32:04] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/09/50/6b084375e446e30ecd753063df31514c7862304f290a742694a2d6067ab5/airflow_provider_anomaly_detection-0.0.8.tar.gz
+[2023-06-17 22:32:04] INFO root fetch - processPackages [pydantic-xmlmodel]: Downloading https://files.pythonhosted.org/packages/a0/2f/47c08b38c9a8332e86de9d100c399a7ffc3a0bd3ab138f8c7e8cb09eece5/pydantic_xmlmodel-0.3.1.tar.gz
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-17 22:32:04] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230617/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:32:04] INFO root fetch - processPackages [pydantic-xmlmodel]: Downloading https://files.pythonhosted.org/packages/36/78/d20c5fd6fe6cd88f8ffee3b194de426f01d08c662bb8b0f7842f95d71402/pydantic_xmlmodel-0.3.2.tar.gz
+[2023-06-17 22:32:04] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/6a/ef/6a14c6f17aa64c5fd5f15ab602eb183edcbe6e06dd3eed4445d6ae0ea170/airflow_provider_anomaly_detection-0.0.9.tar.gz
+[2023-06-17 22:32:05] INFO root fetch - processPackages [pydantic-xmlmodel]: executing diffoscope
+[2023-06-17 22:32:05] INFO root fetch - processPackages [pydantic-xmlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xmlmodel-0.3.1.tar.gz tmp/pydantic_xmlmodel-0.3.2.tar.gz --markdown 20230617/p/pydantic-xmlmodel/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-17 22:32:05] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: executing diffoscope
+[2023-06-17 22:32:05] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz --markdown 20230617/a/airflow-provider-anomaly-detection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 22:32:05] INFO root fetch - processPackages [pydantic-xmlmodel]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xmlmodel-0.3.1.tar.gz]
+[2023-06-17 22:32:05] INFO root fetch - processPackages [pydantic-xmlmodel]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xmlmodel-0.3.2.tar.gz]
+[2023-06-17 22:32:05] INFO root fetch - main [MainThread]: End processing [pydantic-xmlmodel]: success
+[2023-06-17 22:32:06] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz]
+[2023-06-17 22:32:06] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
+[2023-06-17 22:32:06] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
+[2023-06-17 22:32:07] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-17 22:32:07] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-17 22:32:07] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-17 22:32:07] INFO root fetch - main [MainThread]: Store serial: [18545741]
