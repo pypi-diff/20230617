@@ -16375,3 +16375,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:37:49] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.5.tar.gz]
 [2023-06-17 18:37:49] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-06-17 18:37:49] INFO root fetch - main [MainThread]: Store serial: [18544644]
+[2023-06-17 18:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544644]
+[2023-06-17 18:42:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psd-export
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmodpy
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: halborn-ctf
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycistem
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erniechatbotsdk
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyheartlib
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywalc
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ProTaska-GPT
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aifunctools
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: salix-containers
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pycistem]: New version: [0.3.1] Old Version: [0.1.5]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pywalc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/3c/0a/19562eacfd496e92ef263e1ab82b7466cbcff13b836d63164f98c205d12a/ProTaska-GPT-0.0.3.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/8c/4d/edc1bc610a23a6a8aded5d9f2392645d751e28cc654cf6ca3a527ff18610/pywalc-1.0.2.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [psd-export]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [salix-containers]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-17 18:42:58] WARNING root fetch - processPackages [aifunctools]: Skipping, unable to determine old version
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pyheartlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [aifunctools]: Start processing: cq23
+[2023-06-17 18:42:58] INFO root fetch - main [MainThread]: End processing [aifunctools] error
+[2023-06-17 18:42:58] INFO root fetch - processPackages [fmodpy]: New version: [1.6.0] Old Version: [1.5.7]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [cq23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/2e/39/b827ad547ea1cbf16f2d0d0795b7e9ff7a70434ca41d02e740228cd8f973/ProTaska-GPT-0.0.4.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/31/69/204d43b897b4aa9a3d576938819276a0cf13141b673599fd3f1f1065ea26/cq23-1.9.3.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-17 18:42:58] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.3.tar.gz tmp/ProTaska-GPT-0.0.4.tar.gz --markdown 20230617/P/ProTaska-GPT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 18:42:58] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 18:42:58] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/cd/61/4f34f46989da0aaa49624e4fa77d52cd9bfbdf06af516a1997fd993c9b14/pyheartlib-1.0.0.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [salix-containers]: Downloading https://files.pythonhosted.org/packages/39/24/b73579aa374636b125bb4dc1fa2ce2149ede49442ac6638495f4800b470e/salix-containers-0.4.1.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [fmodpy]: Downloading https://files.pythonhosted.org/packages/d5/cc/2cf1a3356a0e970a0b8641295ebc0bcf735e500d1c7d76fb414a35644ca4/fmodpy-1.5.7.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/cd/10/1a015e194bb2f5ca9f82bb53a6de522311ed4b9d437324fb79da4aca170d/pywalc-1.0.3.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/5a/c8/e8c5d6490901c7007d0b3c3d63dcfedcc8fc727786b9d30e69e4cdfba6a8/cq23-1.9.4.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/79/be/bd79e2e66ae9642a3ef983c0b7d12c72224c279c11c0c4a0f441f2c4914c/psd_export-1.0.8.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/47/9acbb6be835bf604e58c663b9251f83f37a10a32058b6f1171aaa3e6a6aa/erniechatbotsdk-0.0.9.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-17 18:42:58] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.9.3.tar.gz tmp/cq23-1.9.4.tar.gz --markdown 20230617/c/cq23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pywalc]: executing diffoscope
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pywalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywalc-1.0.2.tar.gz tmp/pywalc-1.0.3.tar.gz --markdown 20230617/p/pywalc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:42:58] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pycistem]: Downloading https://files.pythonhosted.org/packages/c1/df/0e5444e95abe41c12efc61690ccff566cb8d7c4c03ba72ef74ebbc9ff87d/pycistem-0.3.1.tar.gz
+[2023-06-17 18:42:58] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.8.tar.gz tmp/erniechatbotsdk-0.0.9.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 18:42:58] WARNING root fetch - processPackages [pycistem]: Skipping package: exceeds size limit 16204026>=10485760
+[2023-06-17 18:42:58] INFO root fetch - processPackages [pycistem]: Start processing: spatiafi
+[2023-06-17 18:42:58] INFO root fetch - main [MainThread]: End processing [pycistem] error
+[2023-06-17 18:42:59] INFO root fetch - processPackages [spatiafi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-17 18:42:59] INFO root fetch - processPackages [fmodpy]: Downloading https://files.pythonhosted.org/packages/ab/fa/183d428698f2c26f524df19940b0d6e1a367705d394be207a4e58df5a09b/fmodpy-1.6.0.tar.gz
+[2023-06-17 18:42:59] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/20/2e/efe61fddffbc0c70d2873529c3631606e08536b0f5df2554aff44d4538f7/pyheartlib-1.0.1.tar.gz
+[2023-06-17 18:42:59] INFO root fetch - processPackages [salix-containers]: Downloading https://files.pythonhosted.org/packages/3d/52/7749cd54e0e1c097c092de42915bd599cebb1a7e769bdf28469d4d8cea32/salix_containers-0.5.0.tar.gz
+[2023-06-17 18:42:59] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/b4/2e/3892de4c1b874936438aa08ee9784611755a30d23b291eec2081c04dc15c/psd_export-1.0.9.tar.gz
+[2023-06-17 18:42:59] INFO root fetch - processPackages [fmodpy]: executing diffoscope
+[2023-06-17 18:42:59] INFO root fetch - processPackages [fmodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmodpy-1.5.7.tar.gz tmp/fmodpy-1.6.0.tar.gz --markdown 20230617/f/fmodpy/1.5.7-1.6.0/diff.md --exclude *.pyd
+[2023-06-17 18:42:59] INFO root fetch - processPackages [salix-containers]: executing diffoscope
+[2023-06-17 18:42:59] INFO root fetch - processPackages [salix-containers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salix-containers-0.4.1.tar.gz tmp/salix_containers-0.5.0.tar.gz --markdown 20230617/s/salix-containers/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 18:42:59] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-06-17 18:42:59] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-1.0.0.tar.gz tmp/pyheartlib-1.0.1.tar.gz --markdown 20230617/p/pyheartlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 18:42:59] INFO root fetch - processPackages [spatiafi]: Downloading https://files.pythonhosted.org/packages/b6/66/f3f143436eb7f7a1461ced1fb6a9b7dc5324c71759548f1ed98a0825641c/spatiafi-1.0.0.tar.gz
+[2023-06-17 18:42:59] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-06-17 18:42:59] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.8.tar.gz tmp/psd_export-1.0.9.tar.gz --markdown 20230617/p/psd-export/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 18:42:59] INFO root fetch - processPackages [spatiafi]: Downloading https://files.pythonhosted.org/packages/3e/7d/6a5d34f43a2a7d12fe47da941497dcbd67c78fe2bee8fda31c3db137755d/spatiafi-1.1.0-py3-none-any.whl
+[2023-06-17 18:42:59] INFO root fetch - processPackages [spatiafi]: executing diffoscope
+[2023-06-17 18:42:59] INFO root fetch - processPackages [spatiafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatiafi-1.0.0.tar.gz tmp/spatiafi-1.1.0-py3-none-any.whl.zip --markdown 20230617/s/spatiafi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-17 18:43:00] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.3.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.4.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [ProTaska-GPT]: Start processing: bantam
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [bantam]: New version: [2.4.0] Old Version: [2.3.5]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.9.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.2.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.3.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [pywalc]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.3.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.4.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/f2/24/de2358e17fb2caad6c329e13b78a0c0d91f0229dca95f913c75fae3346f0/bantam-2.3.5.tar.gz
+[2023-06-17 18:43:00] INFO root fetch - processPackages [salix-containers]: Remove: archive file [/home/abi/fetcher/tmp/salix-containers-0.4.1.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [salix-containers]: Remove: archive file [/home/abi/fetcher/tmp/salix_containers-0.5.0.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [salix-containers]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-1.0.0.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-1.0.1.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-06-17 18:43:00] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/69/3c/c8e1f339c7ff937be9e50bb21dcf8cb75e7e71049f25851a3d840f5c5afe/bantam-2.4.0.tar.gz
+[2023-06-17 18:43:00] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.8.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.9.tar.gz]
+[2023-06-17 18:43:00] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-06-17 18:43:01] INFO root fetch - processPackages [fmodpy]: Remove: archive file [/home/abi/fetcher/tmp/fmodpy-1.5.7.tar.gz]
+[2023-06-17 18:43:01] INFO root fetch - processPackages [fmodpy]: Remove: archive file [/home/abi/fetcher/tmp/fmodpy-1.6.0.tar.gz]
+[2023-06-17 18:43:01] INFO root fetch - main [MainThread]: End processing [fmodpy]: success
+[2023-06-17 18:43:01] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-17 18:43:01] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.3.5.tar.gz tmp/bantam-2.4.0.tar.gz --markdown 20230617/b/bantam/2.3.5-2.4.0/diff.md --exclude *.pyd
+[2023-06-17 18:43:01] INFO root fetch - processPackages [spatiafi]: Remove: archive file [/home/abi/fetcher/tmp/spatiafi-1.0.0.tar.gz]
+[2023-06-17 18:43:01] INFO root fetch - processPackages [spatiafi]: Remove: archive file [/home/abi/fetcher/tmp/spatiafi-1.1.0-py3-none-any.whl.zip]
+[2023-06-17 18:43:01] INFO root fetch - main [MainThread]: End processing [spatiafi]: success
+[2023-06-17 18:43:02] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.3.5.tar.gz]
+[2023-06-17 18:43:02] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.0.tar.gz]
+[2023-06-17 18:43:02] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-17 18:43:02] INFO root fetch - main [MainThread]: Store serial: [18544681]
