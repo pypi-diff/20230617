@@ -17512,3 +17512,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:24:13] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.5.9.tar.gz]
 [2023-06-17 20:24:13] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
 [2023-06-17 20:24:13] INFO root fetch - main [MainThread]: Store serial: [18545164]
+[2023-06-17 20:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545164]
+[2023-06-17 20:29:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halborn-ctf
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fix8
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezargs
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phub
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PythonNoteBook
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ohlcv-plus
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fafi
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zeroconf
+[2023-06-17 20:29:22] INFO root fetch - processPackages [PythonNoteBook]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 20:29:22] INFO root fetch - processPackages [ohlcv-plus]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-17 20:29:22] INFO root fetch - processPackages [phub]: New version: [2.3] Old Version: [2.2]
+[2023-06-17 20:29:22] INFO root fetch - processPackages [fix8]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-17 20:29:22] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 20:29:23] WARNING root fetch - processPackages [ezargs]: Skipping, unable to determine old version
+[2023-06-17 20:29:23] INFO root fetch - main [MainThread]: End processing [ezargs] error
+[2023-06-17 20:29:23] INFO root fetch - processPackages [ohlcv-plus]: Downloading https://files.pythonhosted.org/packages/44/e1/a6ccef3f9c0b7bd1bde9e69d467780b0588a2fe3e282c4d2742f86928806/ohlcv-plus-2.0.0.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [PythonNoteBook]: Downloading https://files.pythonhosted.org/packages/90/33/5ecd240a7572b87b6d2ad30f95f87d5733b98fc442df77bf1bca5fe58956/PythonNoteBook-0.0.4.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/7b/8c/311670952d7e0b40e0a76bf1a5192a7d669d8a53405dec58221c66d9ce45/phub-2.2.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fafi]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 20:29:23] INFO root fetch - processPackages [zeroconf]: New version: [0.67.0] Old Version: [0.66.0]
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fix8]: Downloading https://files.pythonhosted.org/packages/6c/b4/a41ac1f4dad5f6e53a907cfd9252e7c22c31d20ea735c8c20c62333f499c/fix8-0.1.6.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [PythonNoteBook]: Downloading https://files.pythonhosted.org/packages/be/02/3db33d97512fec923f85b7ce04820a8bfac3c9305e1dd522a4ca6e27c856/PythonNoteBook-0.0.5.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fafi]: Downloading https://files.pythonhosted.org/packages/e2/e1/d47477d0b5e09abfe6a90a55fa214bc86ee8962d1ee76bf994e23d075959/fafi-0.2.2.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [ohlcv-plus]: Downloading https://files.pythonhosted.org/packages/0a/62/281adc656b0e8d6fb2d234049844eb8c93f3c3d4e7c72301dfdab4da9c68/ohlcv-plus-2.0.1.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/6d/97/e273c09740f12688ed1d00bcb65424e42c6489e3182c00d9e74b44f8fa22/zeroconf-0.66.0.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [ohlcv-plus]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [ohlcv-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohlcv-plus-2.0.0.tar.gz tmp/ohlcv-plus-2.0.1.tar.gz --markdown 20230617/o/ohlcv-plus/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/31/a3/a4950f57c4150143be24e6d071a0d48bf5a3201fa7a8c62fbd21a8a6f49e/phub-2.3.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fix8]: Downloading https://files.pythonhosted.org/packages/aa/fe/ef20a4d96eea2b84e7fbe85af976848030e30d3b46194a170ce207f6fa5f/fix8-0.1.7.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [PythonNoteBook]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [PythonNoteBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonNoteBook-0.0.4.tar.gz tmp/PythonNoteBook-0.0.5.tar.gz --markdown 20230617/P/PythonNoteBook/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.2.tar.gz tmp/phub-2.3.tar.gz --markdown 20230617/p/phub/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/24/36/523e77956f2e2651ab0043b57ebab1c683a0c587378ac56471f341914a7e/zeroconf-0.67.0.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fix8]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fix8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix8-0.1.6.tar.gz tmp/fix8-0.1.7.tar.gz --markdown 20230617/f/fix8/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fafi]: Downloading https://files.pythonhosted.org/packages/92/ed/7040705f41d3f7e71ce1f7fa39979fbf6e6eeffb4659669378ec0c9b23a5/fafi-0.2.3.tar.gz
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fafi]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [fafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fafi-0.2.2.tar.gz tmp/fafi-0.2.3.tar.gz --markdown 20230617/f/fafi/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 20:29:23] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-17 20:29:23] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.66.0.tar.gz tmp/zeroconf-0.67.0.tar.gz --markdown 20230617/z/zeroconf/0.66.0-0.67.0/diff.md --exclude *.pyd
+[2023-06-17 20:29:24] INFO root fetch - processPackages [PythonNoteBook]: Remove: archive file [/home/abi/fetcher/tmp/PythonNoteBook-0.0.4.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - processPackages [PythonNoteBook]: Remove: archive file [/home/abi/fetcher/tmp/PythonNoteBook-0.0.5.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - main [MainThread]: End processing [PythonNoteBook]: success
+[2023-06-17 20:29:24] INFO root fetch - processPackages [ohlcv-plus]: Remove: archive file [/home/abi/fetcher/tmp/ohlcv-plus-2.0.0.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - processPackages [ohlcv-plus]: Remove: archive file [/home/abi/fetcher/tmp/ohlcv-plus-2.0.1.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - main [MainThread]: End processing [ohlcv-plus]: success
+[2023-06-17 20:29:24] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.2.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.3.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-17 20:29:24] INFO root fetch - processPackages [fix8]: Remove: archive file [/home/abi/fetcher/tmp/fix8-0.1.6.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - processPackages [fix8]: Remove: archive file [/home/abi/fetcher/tmp/fix8-0.1.7.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - main [MainThread]: End processing [fix8]: success
+[2023-06-17 20:29:24] INFO root fetch - processPackages [fafi]: Remove: archive file [/home/abi/fetcher/tmp/fafi-0.2.2.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - processPackages [fafi]: Remove: archive file [/home/abi/fetcher/tmp/fafi-0.2.3.tar.gz]
+[2023-06-17 20:29:24] INFO root fetch - main [MainThread]: End processing [fafi]: success
+[2023-06-17 20:29:25] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 20:29:25] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 20:29:25] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 20:29:25] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.66.0.tar.gz]
+[2023-06-17 20:29:25] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.67.0.tar.gz]
+[2023-06-17 20:29:25] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-17 20:29:25] INFO root fetch - main [MainThread]: Store serial: [18545190]
