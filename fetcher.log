@@ -15909,3 +15909,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:00:29] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.3.tar.gz]
 [2023-06-17 18:00:29] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-06-17 18:00:29] INFO root fetch - main [MainThread]: Store serial: [18544416]
+[2023-06-17 18:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544416]
+[2023-06-17 18:05:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vagd
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artd-product
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Kivy
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Kivy-examples
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skmetpy
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quilt-py
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notification-service-nightly
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-flow-nightly
+[2023-06-17 18:05:38] INFO root fetch - processPackages [Kivy-examples]: New version: [2.2.1] Old Version: [2.2.0rc1]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [artd-product]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [Kivy]: New version: [2.2.1] Old Version: [2.2.0rc1]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [vagd]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [quilt-py]: New version: [0.6.1] Old Version: [0.5.6]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [skmetpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-17 18:05:38] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-17 18:05:38] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/b8/72/25d44bb5276d7bd0a86c0489264d1c2cd881945e69c0d91345d9aae7a781/artd-product-0.0.4.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/29/21/41545f865505f11464450a34bd873404562b048dd2c0b4eb85b5dddf5fdb/skmetpy-0.0.2.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/2a/cd/37f057d7436776e10f37015e14d5adb6c85b2faa826482da8352ac43fb36/Kivy_examples-2.2.0rc1-py2.py3-none-any.whl
+[2023-06-17 18:05:39] INFO root fetch - processPackages [Kivy]: Downloading https://files.pythonhosted.org/packages/6d/81/5e54185df2e42ad3f77896226cd767e2a3ed59f0a419bfad96f6182982f6/Kivy-2.2.0rc1.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/84/67/b1506f5f56f63947117dc0eb888db765abc1ec12e87792e1435e345860d3/vagd-0.4.1.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/8f/d9/6629184900e38277c75e5ff59acd5700d738b195f0451e57ea52d20196d4/quilt_py-0.5.6.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230617/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] WARNING root fetch - processPackages [Kivy]: Skipping package: exceeds size limit 23967390>=10485760
+[2023-06-17 18:05:39] INFO root fetch - main [MainThread]: End processing [Kivy] error
+[2023-06-17 18:05:39] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/1a/14/f4c80204b3061aad50cae49a61e7616fc54a742f2ad0b097d5b874e10b50/skmetpy-0.0.3.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [artd-product]: Downloading https://files.pythonhosted.org/packages/53/35/820c7fd851ae30d200fdf06e69821aa89e34de7505c5a8224659c057eced/artd-product-0.0.5.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230617/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/9c/48/3b49108d9d168ff5d81dbafc1ec015a53c6bc8b34053676facd6b8ea419b/vagd-0.4.2.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/8c/d8/e24b9a919449322abb205994861ddf0dcf49e3362160480b9005080833bf/Kivy_examples-2.2.1-py2.py3-none-any.whl
+[2023-06-17 18:05:39] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/cb/02/6c53f9ebd1b15663f4e4021735c836eecaa00a92d82f6d343507e3292428/quilt_py-0.6.1.tar.gz
+[2023-06-17 18:05:39] INFO root fetch - processPackages [artd-product]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [artd-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-product-0.0.4.tar.gz tmp/artd-product-0.0.5.tar.gz --markdown 20230617/a/artd-product/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.2.tar.gz tmp/skmetpy-0.0.3.tar.gz --markdown 20230617/s/skmetpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.5.6.tar.gz tmp/quilt_py-0.6.1.tar.gz --markdown 20230617/q/quilt-py/0.5.6-0.6.1/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.4.1.tar.gz tmp/vagd-0.4.2.tar.gz --markdown 20230617/v/vagd/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-17 18:05:39] INFO root fetch - processPackages [Kivy-examples]: executing diffoscope
+[2023-06-17 18:05:39] INFO root fetch - processPackages [Kivy-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kivy_examples-2.2.0rc1-py2.py3-none-any.whl.zip tmp/Kivy_examples-2.2.1-py2.py3-none-any.whl.zip --markdown 20230617/K/Kivy-examples/2.2.0rc1-2.2.1/diff.md --exclude *.pyd
+[2023-06-17 18:05:40] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-0.0.4.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - processPackages [artd-product]: Remove: archive file [/home/abi/fetcher/tmp/artd-product-0.0.5.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - main [MainThread]: End processing [artd-product]: success
+[2023-06-17 18:05:40] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.2.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.3.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-17 18:05:40] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-17 18:05:40] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-17 18:05:41] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.1.tar.gz]
+[2023-06-17 18:05:41] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.2.tar.gz]
+[2023-06-17 18:05:41] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-06-17 18:05:41] INFO root fetch - processPackages [quilt-py]: Remove: archive file [/home/abi/fetcher/tmp/quilt_py-0.5.6.tar.gz]
+[2023-06-17 18:05:41] INFO root fetch - processPackages [quilt-py]: Remove: archive file [/home/abi/fetcher/tmp/quilt_py-0.6.1.tar.gz]
+[2023-06-17 18:05:41] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-06-17 18:05:42] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-17 18:05:42] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-17 18:05:42] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-17 18:05:47] INFO root fetch - processPackages [Kivy-examples]: Remove: archive file [/home/abi/fetcher/tmp/Kivy_examples-2.2.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-17 18:05:47] INFO root fetch - processPackages [Kivy-examples]: Remove: archive file [/home/abi/fetcher/tmp/Kivy_examples-2.2.1-py2.py3-none-any.whl.zip]
+[2023-06-17 18:05:47] INFO root fetch - main [MainThread]: End processing [Kivy-examples]: success
+[2023-06-17 18:05:47] INFO root fetch - main [MainThread]: Store serial: [18544449]
