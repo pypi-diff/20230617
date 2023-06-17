@@ -11426,3 +11426,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:02:34] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.6a0.tar.gz]
 [2023-06-17 12:02:34] INFO root fetch - main [MainThread]: End processing [mongorunway]: success
 [2023-06-17 12:02:34] INFO root fetch - main [MainThread]: Store serial: [18542178]
+[2023-06-17 12:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542178]
+[2023-06-17 12:07:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyNyaaTa
+[2023-06-17 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pocketsearch
+[2023-06-17 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric-orchestrator-client
+[2023-06-17 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabrictestbed
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.1] Old Version: [1.5.0rc2]
+[2023-06-17 12:07:43] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306171004] Old Version: [202306080728]
+[2023-06-17 12:07:43] INFO root fetch - processPackages [pocketsearch]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabrictestbed]: New version: [1.5.1] Old Version: [1.5.0rc2]
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c4/00/5b41ba1e5daf20e78089ad9613e875aff66968174cf93d204d6381e9634f/PyNyaaTa-202306080728.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/5c/a8/32ff6ba0af71134229fee55ab80274c4e478b7464a3abcf169b8501819cc/fabrictestbed-1.5.0rc2.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/ef/20/0c106700a54616e3911187812b03f155471a839e01f6bb21fc75e383fa82/pocketsearch-0.7.1.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/6e/a5/f908b01968f001541588663175fb261c95e8d00fab19e9792b2c4404c04f/fabrictestbed-1.5.1.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/dc/b9/0fcd54cc18a7fc8451286b80fd66d27512935a4f0cdec19cb09c46b82436/fabric-orchestrator-client-1.5.1.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/0c/18/cbd0e41e7b40b18ec8a5a3773b4c72265f1083b37b655d4bd50a477e3fb6/pocketsearch-0.8.0.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.5.0rc2.tar.gz tmp/fabrictestbed-1.5.1.tar.gz --markdown 20230617/f/fabrictestbed/1.5.0rc2-1.5.1/diff.md --exclude *.pyd
+[2023-06-17 12:07:43] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/2e/6c/7a4bb336a2cbdb81f229442a68a5b6024fb5f8455afdcf3a538b7d4e4f77/PyNyaaTa-202306171004.tar.gz
+[2023-06-17 12:07:43] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-06-17 12:07:43] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.7.1.tar.gz tmp/pocketsearch-0.8.0.tar.gz --markdown 20230617/p/pocketsearch/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-17 12:07:43] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz tmp/fabric-orchestrator-client-1.5.1.tar.gz --markdown 20230617/f/fabric-orchestrator-client/1.5.0rc2-1.5.1/diff.md --exclude *.pyd
+[2023-06-17 12:07:43] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-17 12:07:43] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306080728.tar.gz tmp/PyNyaaTa-202306171004.tar.gz --markdown 20230617/P/PyNyaaTa/202306080728-202306171004/diff.md --exclude *.pyd
+[2023-06-17 12:07:44] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc2.tar.gz]
+[2023-06-17 12:07:44] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.1.tar.gz]
+[2023-06-17 12:07:44] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-06-17 12:07:44] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.7.1.tar.gz]
+[2023-06-17 12:07:44] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.8.0.tar.gz]
+[2023-06-17 12:07:44] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-06-17 12:07:45] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306080728.tar.gz]
+[2023-06-17 12:07:45] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306171004.tar.gz]
+[2023-06-17 12:07:45] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-17 12:07:45] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-17 12:07:45] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.1.tar.gz]
+[2023-06-17 12:07:45] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-17 12:07:45] INFO root fetch - main [MainThread]: Store serial: [18542189]
