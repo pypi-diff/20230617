@@ -8501,3 +8501,76 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:44:05] INFO root fetch - processPackages [github-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/github_rest_api-0.9.0.tar.gz]
 [2023-06-17 06:44:05] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
 [2023-06-17 06:44:05] INFO root fetch - main [MainThread]: Store serial: [18540939]
+[2023-06-17 06:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540939]
+[2023-06-17 06:49:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webhooklib
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bikeshare-model
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-crm-claim-rma
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aitemplates
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-rma
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iranetf
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audiobook-tags
+[2023-06-17 06:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webhooklib
+[2023-06-17 06:49:14] INFO root fetch - processPackages [audiobook-tags]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: New version: [8.0.1.2.0.99.dev5] Old Version: [8.0.1.2.0.99.dev4]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [bikeshare-model]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [iranetf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2023-06-17 06:49:14] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/fa/e8/85f798f4ad4c605d500e23bcbd84d35e21e0886b828f0f2d73b2718b0286/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [audiobook-tags]: Downloading https://files.pythonhosted.org/packages/31/fc/97a8e29a3cd6edf68da29cf8012676847f6d93c44b653eead11ed8afb2c3/audiobook-tags-0.1.0.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Downloading https://files.pythonhosted.org/packages/a6/c4/34fb84cfe579b965a1f18657abfb037f9df2b2b57c5ed5fcd9c0593ff70a/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev4-py2-none-any.whl
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/a2/83/bb36ba85dae238c4266e1d1b1819796da7e9b1d1d4638345fecddb0bac29/bikeshare_model-0.0.8-py3-none-any.whl
+[2023-06-17 06:49:14] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/13/fa/ca27cb7ea77c138ca4142cbb138910ddb5f3f57bb0ace643813d498c9d0d/iranetf-0.8.1.tar.gz
+[2023-06-17 06:49:14] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:49:14] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230617/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 06:49:14] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:49:15] INFO root fetch - processPackages [audiobook-tags]: Downloading https://files.pythonhosted.org/packages/ff/f1/bf0bdd6479848e012225fc938b7690baa85fa5e5c838d7ba40d04f770576/audiobook-tags-1.0.0.tar.gz
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/ff/6b/807cd5cc8b55054db429d0cca4c01ba905e18261081cd6df7b9cfc2c8981/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:49:15] INFO root fetch - processPackages [audiobook-tags]: executing diffoscope
+[2023-06-17 06:49:15] INFO root fetch - processPackages [audiobook-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiobook-tags-0.1.0.tar.gz tmp/audiobook-tags-1.0.0.tar.gz --markdown 20230617/a/audiobook-tags/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Downloading https://files.pythonhosted.org/packages/04/0a/707ee863163d9752d6214f481182fecbfba7fd647af7907406ea5a36ce41/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl
+[2023-06-17 06:49:15] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/5b/18/6cd63f74908de4d3d1801b2717445522889045b8b7280846f1b9c4e5e818/bikeshare_model-0.0.9-py3-none-any.whl
+[2023-06-17 06:49:15] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/de/32/2fd33eafec94b14d144edffe2e00b0d68221076651e8f8cd029b26311acd/iranetf-0.9.0.tar.gz
+[2023-06-17 06:49:15] INFO root fetch - processPackages [bikeshare-model]: executing diffoscope
+[2023-06-17 06:49:15] INFO root fetch - processPackages [bikeshare-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshare_model-0.0.8-py3-none-any.whl.zip tmp/bikeshare_model-0.0.9-py3-none-any.whl.zip --markdown 20230617/b/bikeshare-model/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: executing diffoscope
+[2023-06-17 06:49:15] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev4-py2-none-any.whl.zip tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl.zip --markdown 20230617/o/odoo8-addon-crm-claim-rma/8.0.1.2.0.99.dev4-8.0.1.2.0.99.dev5/diff.md --exclude *.pyd
+[2023-06-17 06:49:15] INFO root fetch - processPackages [iranetf]: executing diffoscope
+[2023-06-17 06:49:15] INFO root fetch - processPackages [iranetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iranetf-0.8.1.tar.gz tmp/iranetf-0.9.0.tar.gz --markdown 20230617/i/iranetf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 06:49:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 06:49:16] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 06:49:16] INFO root fetch - processPackages [audiobook-tags]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-tags-0.1.0.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [audiobook-tags]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-tags-1.0.0.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [audiobook-tags]: success
+[2023-06-17 06:49:16] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.0.8-py3-none-any.whl.zip]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.0.9-py3-none-any.whl.zip]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [bikeshare-model]: success
+[2023-06-17 06:49:16] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.8.1.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.9.0.tar.gz]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [iranetf]: success
+[2023-06-17 06:49:16] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-17 06:49:16] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-17 06:49:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2023-06-17 06:49:17] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev4-py2-none-any.whl.zip]
+[2023-06-17 06:49:17] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-17 06:49:17] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-claim-rma]: success
+[2023-06-17 06:49:17] INFO root fetch - main [MainThread]: Store serial: [18540960]
