@@ -11999,3 +11999,20 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 13:02:20] INFO root fetch - processPackages [finlogic]: Remove: archive file [/home/abi/fetcher/tmp/finlogic-0.5.2.tar.gz]
 [2023-06-17 13:02:20] INFO root fetch - main [MainThread]: End processing [finlogic]: success
 [2023-06-17 13:02:20] INFO root fetch - main [MainThread]: Store serial: [18542485]
+[2023-06-17 13:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542485]
+[2023-06-17 13:07:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 13:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yid-langchain-extensions
+[2023-06-17 13:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cwinpy
+[2023-06-17 13:07:29] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.2] Old Version: [0.1]
+[2023-06-17 13:07:29] INFO root fetch - processPackages [cwinpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 13:07:29] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/1b/6d/7a93272d4baaf81c204a11adcbe0a33620abc4336986e7a1fb9c9da0d0f6/yid_langchain_extensions-0.1.tar.gz
+[2023-06-17 13:07:29] INFO root fetch - processPackages [cwinpy]: Downloading https://files.pythonhosted.org/packages/e9/0b/d36f84c4305cf3b1c17128bbd24081dea3c7d5668ea914a23aa0911cb653/cwinpy-1.0.1.tar.gz
+[2023-06-17 13:07:29] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/00/88/2ed59625dded808c83decc65b3cc11c7dc5fa27cc283c2fdf7549a597ff5/yid_langchain_extensions-0.2.tar.gz
+[2023-06-17 13:07:29] WARNING root fetch - processPackages [cwinpy]: Skipping package: exceeds size limit 71303272>=10485760
+[2023-06-17 13:07:29] INFO root fetch - main [MainThread]: End processing [cwinpy] error
+[2023-06-17 13:07:29] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-17 13:07:29] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.1.tar.gz tmp/yid_langchain_extensions-0.2.tar.gz --markdown 20230617/y/yid-langchain-extensions/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-17 13:07:30] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.1.tar.gz]
+[2023-06-17 13:07:30] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.2.tar.gz]
+[2023-06-17 13:07:30] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-17 13:07:30] INFO root fetch - main [MainThread]: Store serial: [18542493]
