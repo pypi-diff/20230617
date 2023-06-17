@@ -7847,3 +7847,39 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:57:03] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-2.4.3.tar.gz]
 [2023-06-17 05:57:03] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
 [2023-06-17 05:57:03] INFO root fetch - main [MainThread]: Store serial: [18540679]
+[2023-06-17 06:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540679]
+[2023-06-17 06:02:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clearner
+[2023-06-17 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinGen
+[2023-06-17 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aixlab.cn-pre
+[2023-06-17 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pico-acme
+[2023-06-17 06:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-06-17 06:02:12] INFO root fetch - processPackages [FinGen]: New version: [0.3] Old Version: [0.2]
+[2023-06-17 06:02:12] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230615] Old Version: [1.0.3.dev20230614]
+[2023-06-17 06:02:12] INFO root fetch - processPackages [clearner]: New version: [0.9.83] Old Version: [0.9.82]
+[2023-06-17 06:02:12] WARNING root fetch - processPackages [pico-acme]: Skipping, unable to determine old version
+[2023-06-17 06:02:12] INFO root fetch - main [MainThread]: End processing [pico-acme] error
+[2023-06-17 06:02:12] WARNING root fetch - processPackages [aixlab.cn-pre]: Skipping, unable to determine old version
+[2023-06-17 06:02:12] INFO root fetch - main [MainThread]: End processing [aixlab.cn-pre] error
+[2023-06-17 06:02:12] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/37/cb/5580517a6c3fba4d8b8599800e4af8934b2679105999cdb00c1d9b0af127/evals-nightly-1.0.3.dev20230614.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/1b/b5/b74411ea358a2bfb555b4fda343cdac98bd66a2d018c550ea40688ea18d9/clearner-0.9.82.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [FinGen]: Downloading https://files.pythonhosted.org/packages/ef/dc/4d08ac304d6134aeecc34cdff24d9439e8939968669e1aa3fdc8dc43997c/FinGen-0.2.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ac/52/ddc0e7f277831c80419249adf749512800afe99179c43aa308fdf9c9fab5/evals-nightly-1.0.3.dev20230615.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [FinGen]: Downloading https://files.pythonhosted.org/packages/4f/6b/ad551feb7bdc3763630268f1c1feea2cd37dfe608ff2b253365983fedab3/FinGen-0.3.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [FinGen]: executing diffoscope
+[2023-06-17 06:02:13] INFO root fetch - processPackages [FinGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinGen-0.2.tar.gz tmp/FinGen-0.3.tar.gz --markdown 20230617/F/FinGen/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-17 06:02:13] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-17 06:02:13] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230614.tar.gz tmp/evals-nightly-1.0.3.dev20230615.tar.gz --markdown 20230617/e/evals-nightly/1.0.3.dev20230614-1.0.3.dev20230615/diff.md --exclude *.pyd
+[2023-06-17 06:02:13] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/b5/cb/d673592f89eaf19be561075360ef813c9ae1ac5528b5b9bd88a86265a425/clearner-0.9.83.tar.gz
+[2023-06-17 06:02:13] INFO root fetch - processPackages [clearner]: executing diffoscope
+[2023-06-17 06:02:13] INFO root fetch - processPackages [clearner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearner-0.9.82.tar.gz tmp/clearner-0.9.83.tar.gz --markdown 20230617/c/clearner/0.9.82-0.9.83/diff.md --exclude *.pyd
+[2023-06-17 06:02:14] INFO root fetch - processPackages [FinGen]: Remove: archive file [/home/abi/fetcher/tmp/FinGen-0.2.tar.gz]
+[2023-06-17 06:02:14] INFO root fetch - processPackages [FinGen]: Remove: archive file [/home/abi/fetcher/tmp/FinGen-0.3.tar.gz]
+[2023-06-17 06:02:14] INFO root fetch - main [MainThread]: End processing [FinGen]: success
+[2023-06-17 06:02:15] INFO root fetch - processPackages [clearner]: Remove: archive file [/home/abi/fetcher/tmp/clearner-0.9.82.tar.gz]
+[2023-06-17 06:02:15] INFO root fetch - processPackages [clearner]: Remove: archive file [/home/abi/fetcher/tmp/clearner-0.9.83.tar.gz]
+[2023-06-17 06:02:15] INFO root fetch - main [MainThread]: End processing [clearner]: success
+[2023-06-17 06:02:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230614.tar.gz]
+[2023-06-17 06:02:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230615.tar.gz]
+[2023-06-17 06:02:15] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-17 06:02:15] INFO root fetch - main [MainThread]: Store serial: [18540698]
