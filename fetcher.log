@@ -18024,3 +18024,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:33:55] INFO root fetch - processPackages [dustpylib]: Remove: archive file [/home/abi/fetcher/tmp/dustpylib-0.5.0rc0.tar.gz]
 [2023-06-17 21:33:55] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
 [2023-06-17 21:33:55] INFO root fetch - main [MainThread]: Store serial: [18545498]
+[2023-06-17 21:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545498]
+[2023-06-17 21:39:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 21:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2rad
+[2023-06-17 21:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidypandas
+[2023-06-17 21:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastq-dl
+[2023-06-17 21:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2db
+[2023-06-17 21:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freeGPT
+[2023-06-17 21:39:06] INFO root fetch - processPackages [fastq-dl]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-17 21:39:06] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-17 21:39:06] INFO root fetch - processPackages [tidypandas]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-17 21:39:06] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 21:39:06] INFO root fetch - processPackages [freeGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-17 21:39:06] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [fastq-dl]: Downloading https://files.pythonhosted.org/packages/64/bf/127e82711ab91d448a835d15567a58512e9a28bca92e51a19e1e3b3f008a/fastq_dl-2.0.1.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [tidypandas]: Downloading https://files.pythonhosted.org/packages/f4/b8/371843d7f04db10e1fef850875d30d8aac3582f0d73f1d4bfa2ed4c0cc18/tidypandas-0.2.5.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/97/e5/0a694648fa02463ece88ca7cc9f8fbb9254d1739482f7220419c18d225b8/freeGPT-1.1.8.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [tidypandas]: Downloading https://files.pythonhosted.org/packages/bb/3e/2852e2ff933fc0cab54c0e72a9fa22a3b735953baff64677535d412c19d9/tidypandas-0.2.6.tar.gz
+[2023-06-17 21:39:06] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/e9/35/b9e81927e143dc47efdddaf90556338a61343a80c611a8e21bb0e6dec03e/freeGPT-1.1.9.tar.gz
+[2023-06-17 21:39:07] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-06-17 21:39:07] INFO root fetch - processPackages [fastq-dl]: Downloading https://files.pythonhosted.org/packages/3e/b2/42cd6c01c1c4c8e12eaf0c52b57aa7b188bc38f03da12e8b95dee233675d/fastq_dl-2.0.2.tar.gz
+[2023-06-17 21:39:07] INFO root fetch - processPackages [tidypandas]: executing diffoscope
+[2023-06-17 21:39:07] INFO root fetch - processPackages [tidypandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypandas-0.2.5.tar.gz tmp/tidypandas-0.2.6.tar.gz --markdown 20230617/t/tidypandas/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-17 21:39:07] INFO root fetch - processPackages [fastq-dl]: executing diffoscope
+[2023-06-17 21:39:07] INFO root fetch - processPackages [fastq-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq_dl-2.0.1.tar.gz tmp/fastq_dl-2.0.2.tar.gz --markdown 20230617/f/fastq-dl/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-17 21:39:07] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2023-06-17 21:39:07] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20230617/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 21:39:07] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-06-17 21:39:07] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.1.8.tar.gz tmp/freeGPT-1.1.9.tar.gz --markdown 20230617/f/freeGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-17 21:39:07] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-06-17 21:39:07] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230617/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-17 21:39:08] INFO root fetch - processPackages [fastq-dl]: Remove: archive file [/home/abi/fetcher/tmp/fastq_dl-2.0.1.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - processPackages [fastq-dl]: Remove: archive file [/home/abi/fetcher/tmp/fastq_dl-2.0.2.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [fastq-dl]: success
+[2023-06-17 21:39:08] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.1.8.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.1.9.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-06-17 21:39:08] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2023-06-17 21:39:08] INFO root fetch - processPackages [tidypandas]: Remove: archive file [/home/abi/fetcher/tmp/tidypandas-0.2.5.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - processPackages [tidypandas]: Remove: archive file [/home/abi/fetcher/tmp/tidypandas-0.2.6.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [tidypandas]: success
+[2023-06-17 21:39:08] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-06-17 21:39:08] INFO root fetch - main [MainThread]: Store serial: [18545513]
