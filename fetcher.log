@@ -12405,3 +12405,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 13:28:23] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-17 13:28:23] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-06-17 13:28:23] INFO root fetch - main [MainThread]: Store serial: [18542618]
+[2023-06-17 13:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542618]
+[2023-06-17 13:33:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insurance
+[2023-06-17 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wwpdb.utils.oe-util
+[2023-06-17 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arabica
+[2023-06-17 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnviz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [insurance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 13:33:33] INFO root fetch - processPackages [wwpdb.utils.oe-util]: New version: [0.8] Old Version: [0.7.1]
+[2023-06-17 13:33:33] INFO root fetch - processPackages [arabica]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-17 13:33:33] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/04/a7/0fbbc2df96f7c6c1de1e1a065985a2c459c6837c6e76a3464481283fe9c7/insurance-0.0.3.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [nnviz]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-17 13:33:33] INFO root fetch - processPackages [wwpdb.utils.oe-util]: Downloading https://files.pythonhosted.org/packages/d2/27/671e4b1009f227ba24d5cd1a5cf0b528497dd6dcedc2a14b4dbda34d32e6/wwpdb.utils.oe_util-0.7.1.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/23/37/a9830965b7d360a06656b1d934a699e712f8ec900468d3338aef0aa90a47/arabica-1.6.0.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [nnviz]: Downloading https://files.pythonhosted.org/packages/13/ac/76e5b619cb748070d32f53e8f357eb65bb78b8db96f449e26f81bd2f8118/nnviz-0.4.0.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [insurance]: Downloading https://files.pythonhosted.org/packages/c2/2e/e3d16dede8c655bf2c09949166bf9ca810ab926becfdc017b6990070ede0/insurance-0.0.4.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/d6/e2/cbfd76f62a71a0a143d047566065726eb3c2db913ceabc8655c4cf9ab49e/arabica-1.6.1.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [insurance]: executing diffoscope
+[2023-06-17 13:33:33] INFO root fetch - processPackages [insurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insurance-0.0.3.tar.gz tmp/insurance-0.0.4.tar.gz --markdown 20230617/i/insurance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 13:33:33] INFO root fetch - processPackages [wwpdb.utils.oe-util]: Downloading https://files.pythonhosted.org/packages/f5/32/9facd582882e8f4f858215716f7dd3224a06ad44d92f2468200ab5743d71/wwpdb.utils.oe_util-0.8.tar.gz
+[2023-06-17 13:33:33] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-17 13:33:33] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.0.tar.gz tmp/arabica-1.6.1.tar.gz --markdown 20230617/a/arabica/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-17 13:33:33] INFO root fetch - processPackages [wwpdb.utils.oe-util]: executing diffoscope
+[2023-06-17 13:33:33] INFO root fetch - processPackages [wwpdb.utils.oe-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.oe_util-0.7.1.tar.gz tmp/wwpdb.utils.oe_util-0.8.tar.gz --markdown 20230617/w/wwpdb.utils.oe-util/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-06-17 13:33:33] INFO root fetch - processPackages [nnviz]: Downloading https://files.pythonhosted.org/packages/19/2f/4eb515fd4d4e55a762b025e39634d76a2929161cbf52dbade5e2f0134b92/nnviz-1.0.0.tar.gz
+[2023-06-17 13:33:34] INFO root fetch - processPackages [nnviz]: executing diffoscope
+[2023-06-17 13:33:34] INFO root fetch - processPackages [nnviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnviz-0.4.0.tar.gz tmp/nnviz-1.0.0.tar.gz --markdown 20230617/n/nnviz/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 13:33:34] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.3.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - processPackages [insurance]: Remove: archive file [/home/abi/fetcher/tmp/insurance-0.0.4.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - main [MainThread]: End processing [insurance]: success
+[2023-06-17 13:33:34] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.0.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.1.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-17 13:33:34] INFO root fetch - processPackages [wwpdb.utils.oe-util]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.oe_util-0.7.1.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - processPackages [wwpdb.utils.oe-util]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.oe_util-0.8.tar.gz]
+[2023-06-17 13:33:34] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.oe-util]: success
+[2023-06-17 13:33:35] INFO root fetch - processPackages [nnviz]: Remove: archive file [/home/abi/fetcher/tmp/nnviz-0.4.0.tar.gz]
+[2023-06-17 13:33:35] INFO root fetch - processPackages [nnviz]: Remove: archive file [/home/abi/fetcher/tmp/nnviz-1.0.0.tar.gz]
+[2023-06-17 13:33:35] INFO root fetch - main [MainThread]: End processing [nnviz]: success
+[2023-06-17 13:33:35] INFO root fetch - main [MainThread]: Store serial: [18542633]
