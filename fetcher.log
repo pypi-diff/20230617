@@ -10283,3 +10283,38 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:01:02] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
 [2023-06-17 10:01:02] INFO root fetch - main [MainThread]: End processing [oarepo]: success
 [2023-06-17 10:01:02] INFO root fetch - main [MainThread]: Store serial: [18541695]
+[2023-06-17 10:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541695]
+[2023-06-17 10:06:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow
+[2023-06-17 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NanoRepeat
+[2023-06-17 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GCoCF
+[2023-06-17 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TabularDataInvestigation
+[2023-06-17 10:06:11] INFO root fetch - processPackages [GCoCF]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-17 10:06:11] INFO root fetch - processPackages [TabularDataInvestigation]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 10:06:11] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.2rc2] Old Version: [2.6.2rc1]
+[2023-06-17 10:06:11] INFO root fetch - processPackages [NanoRepeat]: New version: [1.7] Old Version: [1.6]
+[2023-06-17 10:06:11] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/67/4f/27450c0ddd82c142c9bad53b7104ab01f43ace38ff4ad0d565135c5d6512/gcocf-0.9.7.tar.gz
+[2023-06-17 10:06:11] INFO root fetch - processPackages [TabularDataInvestigation]: Downloading https://files.pythonhosted.org/packages/47/7c/65ec9d2247135a64180284ada58455d021e0d8514984c283f0e8e5eaa9e5/TabularDataInvestigation-0.0.6.tar.gz
+[2023-06-17 10:06:11] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/4d/4c/bc26ccc729d12aae05727b909b4e89c28888b1125049876c17f011e1d75b/apache-airflow-2.6.2rc1.tar.gz
+[2023-06-17 10:06:11] INFO root fetch - processPackages [NanoRepeat]: Downloading https://files.pythonhosted.org/packages/3e/0c/2f8d0ea1d679f279c6d7fc396c40fa2c8473339f371ae5772a074f9e0d82/NanoRepeat-1.6.tar.gz
+[2023-06-17 10:06:11] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/c4/c7/5a018a92f6e70a34b8eaac533bccd197bd24645bd3af78c7d2524547f2ea/gcocf-0.9.8.tar.gz
+[2023-06-17 10:06:11] INFO root fetch - processPackages [TabularDataInvestigation]: Downloading https://files.pythonhosted.org/packages/38/26/b0cb3e190a1de1aae98ff094007b71f7ad824b3dd2f639f24e419a1a89f1/TabularDataInvestigation-0.0.7.tar.gz
+[2023-06-17 10:06:11] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11460397>=10485760
+[2023-06-17 10:06:11] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-06-17 10:06:11] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 10:06:11] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.7.tar.gz tmp/gcocf-0.9.8.tar.gz --markdown 20230617/G/GCoCF/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-17 10:06:11] INFO root fetch - processPackages [TabularDataInvestigation]: executing diffoscope
+[2023-06-17 10:06:11] INFO root fetch - processPackages [TabularDataInvestigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TabularDataInvestigation-0.0.6.tar.gz tmp/TabularDataInvestigation-0.0.7.tar.gz --markdown 20230617/T/TabularDataInvestigation/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 10:06:12] INFO root fetch - processPackages [NanoRepeat]: Downloading https://files.pythonhosted.org/packages/e9/62/0fa7669334b805f319b3fb4b80cc593a174681289171ffe9182fc37c7e96/NanoRepeat-1.7.tar.gz
+[2023-06-17 10:06:12] INFO root fetch - processPackages [NanoRepeat]: executing diffoscope
+[2023-06-17 10:06:12] INFO root fetch - processPackages [NanoRepeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoRepeat-1.6.tar.gz tmp/NanoRepeat-1.7.tar.gz --markdown 20230617/N/NanoRepeat/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-17 10:06:12] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.7.tar.gz]
+[2023-06-17 10:06:12] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.8.tar.gz]
+[2023-06-17 10:06:12] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 10:06:12] INFO root fetch - processPackages [TabularDataInvestigation]: Remove: archive file [/home/abi/fetcher/tmp/TabularDataInvestigation-0.0.6.tar.gz]
+[2023-06-17 10:06:12] INFO root fetch - processPackages [TabularDataInvestigation]: Remove: archive file [/home/abi/fetcher/tmp/TabularDataInvestigation-0.0.7.tar.gz]
+[2023-06-17 10:06:12] INFO root fetch - main [MainThread]: End processing [TabularDataInvestigation]: success
+[2023-06-17 10:07:08] INFO root fetch - processPackages [NanoRepeat]: Remove: archive file [/home/abi/fetcher/tmp/NanoRepeat-1.6.tar.gz]
+[2023-06-17 10:07:08] INFO root fetch - processPackages [NanoRepeat]: Remove: archive file [/home/abi/fetcher/tmp/NanoRepeat-1.7.tar.gz]
+[2023-06-17 10:07:08] INFO root fetch - main [MainThread]: End processing [NanoRepeat]: success
+[2023-06-17 10:07:08] INFO root fetch - main [MainThread]: Store serial: [18541707]
