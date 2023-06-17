@@ -17011,3 +17011,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:30:32] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
 [2023-06-17 19:30:32] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
 [2023-06-17 19:30:32] INFO root fetch - main [MainThread]: Store serial: [18544947]
+[2023-06-17 19:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544947]
+[2023-06-17 19:35:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evatr-client
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doe-toolbox
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamutrf
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreimac
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kangforecast
+[2023-06-17 19:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hectorp
+[2023-06-17 19:35:42] INFO root fetch - processPackages [evatr-client]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-17 19:35:42] WARNING root fetch - processPackages [doe-toolbox]: Skipping, unable to determine old version
+[2023-06-17 19:35:42] INFO root fetch - main [MainThread]: End processing [doe-toolbox] error
+[2023-06-17 19:35:42] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-17 19:35:42] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/cf/3f/fc0b51aa1d9d5ec84490b77c71eef83783acdb86dc419567f6e307f4c6b4/evatr-client-0.0.4.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [dreimac]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 19:35:42] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 19:35:42] INFO root fetch - processPackages [hectorp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 19:35:42] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/34/c1/c8d1c2ab5b788da16c53e7861cd005c1dbe7231062ea5e4d49928ef5cfa8/evatr-client-0.1.0.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [evatr-client]: executing diffoscope
+[2023-06-17 19:35:42] INFO root fetch - processPackages [evatr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evatr-client-0.0.4.tar.gz tmp/evatr-client-0.1.0.tar.gz --markdown 20230617/e/evatr-client/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-17 19:35:42] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/08/46/a697615a7f068f4e26d4f0280a9d186a8772aa9c0746dca1710f866033e9/dreimac-0.2.0.tar.gz
+[2023-06-17 19:35:42] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-06-17 19:35:42] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230617/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-17 19:35:42] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/96/15/effca531be5d360be3504aea92ebe05794f41aa3af2a7a4fba839aee61df/hectorp-0.1.3.tar.gz
+[2023-06-17 19:35:43] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-17 19:35:43] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-17 19:35:43] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230617/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 19:35:43] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/16/78/1506623e0614e6a4b085641ab6855ffcde1ac1aa02108c0ae7cfce5a3faf/hectorp-0.1.4.tar.gz
+[2023-06-17 19:35:43] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/ed/cc/013eda3995e60535c3fffae169be63188f58b261c667e64abc709a09befe/dreimac-0.2.1.tar.gz
+[2023-06-17 19:35:43] INFO root fetch - processPackages [hectorp]: executing diffoscope
+[2023-06-17 19:35:43] INFO root fetch - processPackages [hectorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hectorp-0.1.3.tar.gz tmp/hectorp-0.1.4.tar.gz --markdown 20230617/h/hectorp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 19:35:43] INFO root fetch - processPackages [dreimac]: executing diffoscope
+[2023-06-17 19:35:43] INFO root fetch - processPackages [dreimac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreimac-0.2.0.tar.gz tmp/dreimac-0.2.1.tar.gz --markdown 20230617/d/dreimac/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 19:35:44] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.0.4.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.1.0.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - main [MainThread]: End processing [evatr-client]: success
+[2023-06-17 19:35:44] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-17 19:35:44] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.8.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.9.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-06-17 19:35:44] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.3.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.4.tar.gz]
+[2023-06-17 19:35:44] INFO root fetch - main [MainThread]: End processing [hectorp]: success
+[2023-06-17 19:36:38] INFO root fetch - processPackages [dreimac]: Remove: archive file [/home/abi/fetcher/tmp/dreimac-0.2.0.tar.gz]
+[2023-06-17 19:36:38] INFO root fetch - processPackages [dreimac]: Remove: archive file [/home/abi/fetcher/tmp/dreimac-0.2.1.tar.gz]
+[2023-06-17 19:36:38] INFO root fetch - main [MainThread]: End processing [dreimac]: success
+[2023-06-17 19:36:38] INFO root fetch - main [MainThread]: Store serial: [18544964]
