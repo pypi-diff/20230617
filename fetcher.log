@@ -9471,3 +9471,27 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:21:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230617.tar.gz]
 [2023-06-17 08:21:44] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-17 08:21:44] INFO root fetch - main [MainThread]: Store serial: [18541341]
+[2023-06-17 08:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541341]
+[2023-06-17 08:26:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 08:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-base-recurrence
+[2023-06-17 08:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-short-links
+[2023-06-17 08:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-06-17 08:26:54] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230617] Old Version: [20230616]
+[2023-06-17 08:26:54] INFO root fetch - processPackages [django-short-links]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 08:26:54] WARNING root fetch - processPackages [odoo13-addon-base-recurrence]: Skipping, unable to determine old version
+[2023-06-17 08:26:54] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-recurrence] error
+[2023-06-17 08:26:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/7c/dc/8984449f8bd19bfe96295b0eb5b827d6fc4d5139851f321cb4833f6520a0/fake-bpy-module-latest-20230616.tar.gz
+[2023-06-17 08:26:54] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/73/50/8a499b480541b54365a096255d51ebc399a6cb128acd003204989761dd30/django_short_links-0.1.4.tar.gz
+[2023-06-17 08:26:54] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/99/18/853b2e033c0ece4092805ec608c2fcabf4732d5c3f0f65119ae9de47a03d/django_short_links-0.1.5.tar.gz
+[2023-06-17 08:26:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/03/12/1fe17dd0126d494cebe87139acd79912455341597f2817bb94890980cfff/fake-bpy-module-latest-20230617.tar.gz
+[2023-06-17 08:26:54] INFO root fetch - processPackages [django-short-links]: executing diffoscope
+[2023-06-17 08:26:54] INFO root fetch - processPackages [django-short-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_short_links-0.1.4.tar.gz tmp/django_short_links-0.1.5.tar.gz --markdown 20230617/d/django-short-links/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 08:26:54] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-17 08:26:54] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230616.tar.gz tmp/fake-bpy-module-latest-20230617.tar.gz --markdown 20230617/f/fake-bpy-module-latest/20230616-20230617/diff.md --exclude *.pyd
+[2023-06-17 08:26:55] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.4.tar.gz]
+[2023-06-17 08:26:55] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.5.tar.gz]
+[2023-06-17 08:26:55] INFO root fetch - main [MainThread]: End processing [django-short-links]: success
+[2023-06-17 08:27:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230616.tar.gz]
+[2023-06-17 08:27:00] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230617.tar.gz]
+[2023-06-17 08:27:00] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-17 08:27:00] INFO root fetch - main [MainThread]: Store serial: [18541357]
