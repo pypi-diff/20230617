@@ -6602,3 +6602,114 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 04:42:11] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.3.tar.gz]
 [2023-06-17 04:42:11] INFO root fetch - main [MainThread]: End processing [usda-dashboard]: success
 [2023-06-17 04:42:11] INFO root fetch - main [MainThread]: Store serial: [18540285]
+[2023-06-17 04:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540285]
+[2023-06-17 04:47:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openfs
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabric_cf
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric-am-handlers
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciohoudini
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-account-payment-return
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AshCrypt
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-core
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-runtime
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-embed
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet
+[2023-06-17 04:47:20] INFO root fetch - processPackages [ciohoudini]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2023-06-17 04:47:20] WARNING root fetch - processPackages [openfs]: Skipping, unable to determine old version
+[2023-06-17 04:47:20] INFO root fetch - processPackages [openfs]: Start processing: kaxi
+[2023-06-17 04:47:20] INFO root fetch - main [MainThread]: End processing [openfs] error
+[2023-06-17 04:47:20] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [fabric-am-handlers]: New version: [1rc3] Old Version: [1.5.1rc0]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1535] Old Version: [0.8.0.dev1534]
+[2023-06-17 04:47:20] WARNING root fetch - processPackages [AshCrypt]: Skipping, unable to determine old version
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-embed]: New version: [0.8.0.dev1535] Old Version: [0.8.0.dev1534]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [AshCrypt]: Start processing: odoo9-addon-account-move-base-import
+[2023-06-17 04:47:20] INFO root fetch - main [MainThread]: End processing [AshCrypt] error
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-runtime]: New version: [0.8.0.dev1535] Old Version: [0.8.0.dev1534]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [fabric_cf]: New version: [1.5.1rc0] Old Version: [1.5.1]
+[2023-06-17 04:47:20] WARNING root fetch - processPackages [kaxi]: Skipping, unable to determine old version
+[2023-06-17 04:47:20] INFO root fetch - processPackages [kaxi]: Start processing: flet-pyodide
+[2023-06-17 04:47:20] INFO root fetch - main [MainThread]: End processing [kaxi] error
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1535] Old Version: [0.8.0.dev1534]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: New version: [9.0.1.0.0.99.dev97] Old Version: [9.0.1.0.0.99.dev95]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1534] Old Version: [0.8.0.dev1511]
+[2023-06-17 04:47:20] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/dd/c2/8049a69b427f8b527ce0dcb3acba3bbcbcd3ed6c9992bddfc1fd794e5388/fabric-am-handlers-1.5.1rc0.tar.gz
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/af/7c/3f2b99da161ee36b10c12edbeec8f47e884b0d958e978196cdd392f2081d/flet_core-0.8.0.dev1534.tar.gz
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/be/d7/96c01e1e3a5200bfdefd01b0f8838db4dbfdb91bba6e197d8334e57e80fb/flet-0.8.0.dev1534.tar.gz
+[2023-06-17 04:47:20] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/76/f1/1e781734960d9cac8637a1ed86b0af8cbaf290004aebfc96762b129500d8/flet_embed-0.8.0.dev1534.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/39/66/f7eb730c65c47dd69550987b851b8f9c94b63d17859621774f9ea4122a33/flet_runtime-0.8.0.dev1534.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/cc/00/ae94ca88a905b9a32a69998f3771090060c5ef860f64d61b43294f001f31/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev95-py2-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/8b/98/a026668ff6b1bcd4f4620123a0e07d3860f9f971f8a0339b4d5aad28a1c9/flet_pyodide-0.8.0.dev1511.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/af/c7/1b28d117b2c8edd7c804766ff623b4c593c1df1b96e472304b9a114fedca/ciohoudini-0.7.0rc1-py2.py3-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/29/38/71deba8887d0213d9e9b6e05e6311cf80ddc760533bd8e033ee6b007d753/fabric_cf-1.5.1.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/fa/db/69742084dcb7abdeed6f4c8845210cf86ec58fde4fc308e44a5dfc2a1399/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/95/fd/5989a4e7b955374f83a339d5b7bb5b046031d451e13fa868379852606d79/fabric-am-handlers-1rc3.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/70/2c/75b7580bfdc5e8fea4f37a2ef449e1e7ed0088cdad8567f0c290e2a6d2b4/flet_pyodide-0.8.0.dev1534.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/80/31/3bbf7d9e33a0c87d27b3a4c5647a81a8c54ededb38cf65842cb8f0f136fb/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev97-py2-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/96/f0/145a401dc7bdbbb2b3940e9f1119a8644a3d6571df25887899c310a5f6a9/flet_embed-0.8.0.dev1535.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/f3/e0/647ca2f68f86347f59522217d1e85bd2c28895f49494c7c2f1b653dcf2d2/flet_core-0.8.0.dev1535.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/6a/4f/e957eb859b4e7d2fb73ca21216b7b03ed17b261323ff8b8982daf65c4983/ciohoudini-0.7.1-py2.py3-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1511.tar.gz tmp/flet_pyodide-0.8.0.dev1534.tar.gz --markdown 20230617/f/flet-pyodide/0.8.0.dev1511-0.8.0.dev1534/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/c5/cb/19226d439dc499956797c5c3a150b0f01a5e1340c35eb3a5b3e233528b4b/flet_runtime-0.8.0.dev1535.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev95-py2-none-any.whl.zip tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev97-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-account-move-base-import/9.0.1.0.0.99.dev95-9.0.1.0.0.99.dev97/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/68/89/53b19e16e6c3ef61cc007288859feb794e77b87631f24c96278c70cd5fdd/flet-0.8.0.dev1535.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric-am-handlers]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric-am-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-am-handlers-1.5.1rc0.tar.gz tmp/fabric-am-handlers-1rc3.tar.gz --markdown 20230617/f/fabric-am-handlers/1.5.1rc0-1rc3/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/93/da/14c6e45dc188e8a3c4134156d28ee62c00d4b91c12c0804a24717d76b841/fabric_cf-1.5.1rc0.tar.gz
+[2023-06-17 04:47:21] INFO root fetch - processPackages [ciohoudini]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [ciohoudini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciohoudini-0.7.0rc1-py2.py3-none-any.whl.zip tmp/ciohoudini-0.7.1-py2.py3-none-any.whl.zip --markdown 20230617/c/ciohoudini/0.7.0rc1-0.7.1/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.0.dev1534.tar.gz tmp/flet_embed-0.8.0.dev1535.tar.gz --markdown 20230617/f/flet-embed/0.8.0.dev1534-0.8.0.dev1535/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/53/f5/532815f5ef9ad32be380f0746438cde8eb8d5f48ca8f7ad869d5de7b89c7/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1534.tar.gz tmp/flet_core-0.8.0.dev1535.tar.gz --markdown 20230617/f/flet-core/0.8.0.dev1534-0.8.0.dev1535/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.0.dev1534.tar.gz tmp/flet_runtime-0.8.0.dev1535.tar.gz --markdown 20230617/f/flet-runtime/0.8.0.dev1534-0.8.0.dev1535/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric_cf]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [fabric_cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_cf-1.5.1.tar.gz tmp/fabric_cf-1.5.1rc0.tar.gz --markdown 20230617/f/fabric_cf/1.5.1-1.5.1rc0/diff.md --exclude *.pyd
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: executing diffoscope
+[2023-06-17 04:47:21] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo8-addon-account-payment-return/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1534.tar.gz tmp/flet-0.8.0.dev1535.tar.gz --markdown 20230617/f/flet/0.8.0.dev1534-0.8.0.dev1535/diff.md --exclude *.pyd
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1511.tar.gz]
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1534.tar.gz]
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet-pyodide]: Start processing: usda-dashboard
+[2023-06-17 04:47:22] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-06-17 04:47:22] INFO root fetch - processPackages [usda-dashboard]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-17 04:47:22] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/96/7e/7e299240391965efc21f95adcec939f626c3d41972c4173b2601a964fb57/usda_dashboard-0.0.1.tar.gz
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1534.tar.gz]
+[2023-06-17 04:47:22] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1535.tar.gz]
+[2023-06-17 04:47:22] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-06-17 04:47:23] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1534.tar.gz]
+[2023-06-17 04:47:23] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1535.tar.gz]
+[2023-06-17 04:47:23] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-06-17 04:47:23] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/04/59/a77b4d34c80978936d9e2c3ed7ed75a76979e6e5b6453ae20f0a0c5ce9dc/usda_dashboard-0.0.3.tar.gz
+[2023-06-17 04:47:23] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.1-py2.py3-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - main [MainThread]: End processing [ciohoudini]: success
+[2023-06-17 04:47:23] INFO root fetch - processPackages [usda-dashboard]: executing diffoscope
+[2023-06-17 04:47:23] INFO root fetch - processPackages [usda-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda_dashboard-0.0.1.tar.gz tmp/usda_dashboard-0.0.3.tar.gz --markdown 20230617/u/usda-dashboard/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 04:47:23] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev95-py2-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev97-py2-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-move-base-import]: success
+[2023-06-17 04:47:23] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - processPackages [odoo8-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_payment_return-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 04:47:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-payment-return]: success
+[2023-06-17 04:47:23] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1534.tar.gz]
+[2023-06-17 04:47:23] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1535.tar.gz]
+[2023-06-17 04:47:23] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-06-17 04:47:24] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1.5.1rc0.tar.gz]
+[2023-06-17 04:47:24] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1rc3.tar.gz]
+[2023-06-17 04:47:24] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
+[2023-06-17 04:47:26] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.1.tar.gz]
+[2023-06-17 04:47:26] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.3.tar.gz]
+[2023-06-17 04:47:26] INFO root fetch - main [MainThread]: End processing [usda-dashboard]: success
+[2023-06-17 04:47:28] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.1.tar.gz]
+[2023-06-17 04:47:28] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.1rc0.tar.gz]
+[2023-06-17 04:47:28] INFO root fetch - main [MainThread]: End processing [fabric_cf]: success
+[2023-06-17 04:48:14] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1534.tar.gz]
+[2023-06-17 04:48:14] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1535.tar.gz]
+[2023-06-17 04:48:14] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-06-17 04:48:14] INFO root fetch - main [MainThread]: Store serial: [18540336]
