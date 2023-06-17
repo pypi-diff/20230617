@@ -18870,3 +18870,86 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:48:26] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
 [2023-06-17 22:48:26] INFO root fetch - main [MainThread]: End processing [gaphor]: success
 [2023-06-17 22:48:26] INFO root fetch - main [MainThread]: Store serial: [18545810]
+[2023-06-17 22:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545810]
+[2023-06-17 22:53:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-ext-helper
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasklar
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenVisus
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytdl-sub
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenVisusNoGui
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proJSON
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: web-ext-helper
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monthify
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hqdragondownload
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-provider-anomaly-detection
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.6.3] Old Version: [2023.6.17.post4]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [pandasklar]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [proJSON]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [monthify]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [hqdragondownload]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [OpenVisus]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/24/f4/9b02365bc8d753da3385bb718edf74d8cd226018dc1367bf6a95165f1705/ytdl-sub-2023.6.17.post4.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/09/50/6b084375e446e30ecd753063df31514c7862304f290a742694a2d6067ab5/airflow_provider_anomaly_detection-0.0.8.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/8b/1b/d3694aa3ee57930cffe22630b6340e79e52b895095be0caa539738dcc4be/web_ext_helper-1.0.2.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/8b/1b/d3694aa3ee57930cffe22630b6340e79e52b895095be0caa539738dcc4be/web_ext_helper-1.0.2.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/29/c2/92003e4de68dc0facee504fb072d92d662c937095fe9bbd185c39b7d66cd/proJSON-1.0.0.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/31/9f/5c6ba23e62fd5c95cedf31ac9e737110a6eadfac30bd87581b6188d2fc02/monthify-0.3.4.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/d0/a5/8b7422c82b6dd02d18f651a40e0f2e43e3846afdb3acc7f7e59f9a82615d/hqdragondownload-1.1.1.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/7d/9f/425c38252c66bdb1ed48f26ad022e8acc1fc525c145bc1e7988ef2314a91/pandasklar-0.3.4.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/db/c0/79dda0fe8f2d178da49ea512afd1c1a8f1a366aff5d3cc043a187b2ae6c7/OpenVisusNoGui-2.2.97-cp39-none-win_amd64.whl
+[2023-06-17 22:53:35] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 43066678>=10485760
+[2023-06-17 22:53:35] INFO root fetch - processPackages [OpenVisus]: Downloading https://files.pythonhosted.org/packages/ed/58/84763e7f5fb90af81efa4632d3f97d04c81edb451f9e5ea79a27a3799ef8/OpenVisus-2.2.97-cp39-none-win_amd64.whl
+[2023-06-17 22:53:35] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/6d/3a3da8b1a8081732036cac9976155ed25006692dc0d50256ec4f22126ee5/ytdl-sub-2023.6.3.tar.gz
+[2023-06-17 22:53:35] WARNING root fetch - processPackages [OpenVisus]: Skipping package: exceeds size limit 44428616>=10485760
+[2023-06-17 22:53:35] INFO root fetch - main [MainThread]: End processing [OpenVisus] error
+[2023-06-17 22:53:35] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/6a/ef/6a14c6f17aa64c5fd5f15ab602eb183edcbe6e06dd3eed4445d6ae0ea170/airflow_provider_anomaly_detection-0.0.9.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/28/69/8e63947070b3718496a5cd73282ec265e290247cb508f1f6ec5351470dbf/proJSON-1.1.1.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz --markdown 20230617/a/airflow-provider-anomaly-detection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/db/65/7ec142fd9d91fd4997dda562ca9f631b793462b3c5a3def7353eb960db75/web_ext_helper-1.0.3.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/db/65/7ec142fd9d91fd4997dda562ca9f631b793462b3c5a3def7353eb960db75/web_ext_helper-1.0.3.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.0.0.tar.gz tmp/proJSON-1.1.1.tar.gz --markdown 20230617/p/proJSON/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/01/d0/301193f98461d6570dff5ce3bd1c1f3e18b1ea05d2ccaf30afd330ad1b2f/pandasklar-0.3.5.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.6.17.post4.tar.gz tmp/ytdl-sub-2023.6.3.tar.gz --markdown 20230617/y/ytdl-sub/2023.6.17.post4-2023.6.3/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/2f/3e/ef380b9fff0b6412f9387f4616e329e904befbc230331a3ce25d162959a9/hqdragondownload-1.1.2.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/5d/4f/2d8a6483349c7ab6ee46dbe9c37501872a81fad9c97e2cd3c96ebd527816/monthify-0.3.5.tar.gz
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.0.2.tar.gz tmp/web_ext_helper-1.0.3.tar.gz --markdown 20230617/w/web-ext-helper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.0.2.tar.gz tmp/web_ext_helper-1.0.3.tar.gz --markdown 20230617/w/web-ext-helper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [hqdragondownload]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [hqdragondownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqdragondownload-1.1.1.tar.gz tmp/hqdragondownload-1.1.2.tar.gz --markdown 20230617/h/hqdragondownload/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [pandasklar]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [pandasklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasklar-0.3.4.tar.gz tmp/pandasklar-0.3.5.tar.gz --markdown 20230617/p/pandasklar/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-17 22:53:35] INFO root fetch - processPackages [monthify]: executing diffoscope
+[2023-06-17 22:53:35] INFO root fetch - processPackages [monthify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monthify-0.3.4.tar.gz tmp/monthify-0.3.5.tar.gz --markdown 20230617/m/monthify/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-17 22:53:37] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.0.0.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.1.1.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.2.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.3.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [hqdragondownload]: Remove: archive file [/home/abi/fetcher/tmp/hqdragondownload-1.1.1.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [hqdragondownload]: Remove: archive file [/home/abi/fetcher/tmp/hqdragondownload-1.1.2.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [hqdragondownload]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.4.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.5.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [pandasklar]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.3.4.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.3.5.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [monthify]: success
+[2023-06-17 22:53:37] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.17.post4.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-06-17 22:53:37] INFO root fetch - main [MainThread]: Store serial: [18545843]
