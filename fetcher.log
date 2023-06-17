@@ -12444,3 +12444,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 13:33:35] INFO root fetch - processPackages [nnviz]: Remove: archive file [/home/abi/fetcher/tmp/nnviz-1.0.0.tar.gz]
 [2023-06-17 13:33:35] INFO root fetch - main [MainThread]: End processing [nnviz]: success
 [2023-06-17 13:33:35] INFO root fetch - main [MainThread]: Store serial: [18542633]
+[2023-06-17 13:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542633]
+[2023-06-17 13:38:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-utils
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: callbackin
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.utils.wf
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mangadex-downloader
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: callbackin
+[2023-06-17 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pid-dictionary1
+[2023-06-17 13:38:44] INFO root fetch - processPackages [callbackin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 13:38:44] INFO root fetch - processPackages [wwpdb.utils.wf]: New version: [0.35] Old Version: [0.34]
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-17 13:38:45] INFO root fetch - processPackages [mangadex-downloader]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-17 13:38:45] INFO root fetch - processPackages [python-utils]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-17 13:38:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 13:38:45] WARNING root fetch - processPackages [pid-dictionary1]: Skipping, unable to determine old version
+[2023-06-17 13:38:45] INFO root fetch - main [MainThread]: End processing [pid-dictionary1] error
+[2023-06-17 13:38:45] INFO root fetch - processPackages [wwpdb.utils.wf]: Downloading https://files.pythonhosted.org/packages/0e/af/f3909c65c6712eae495055c020659e9f4466f6d1c312c8e0720386cd43ad/wwpdb.utils.wf-0.34.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/4a/bf/2f228f4b3c8e4494ee2d88417a2c551a43898b306241203248d6798d3d45/callbackin-0.1.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/4a/bf/2f228f4b3c8e4494ee2d88417a2c551a43898b306241203248d6798d3d45/callbackin-0.1.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/24/06/7d739d7f41e4ae780f74dd540596ac75c623c21984d58976a00f6bb9191b/mangadex-downloader-2.9.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [python-utils]: Downloading https://files.pythonhosted.org/packages/da/8d/b60c0c49aa992fca37cd5cf504dab055b56ab7dc56416baf7a8421d9bb9c/python-utils-3.6.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/47/94/2dc924350a0e843ccbc4082cf1cb50ebbc50369449736f40cc255ea3364e/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-17 13:38:45] INFO root fetch - processPackages [wwpdb.utils.wf]: Downloading https://files.pythonhosted.org/packages/69/95/ca52de1764536397f4083d0d7200460e14c171c0a6f2bd6afad903087a9a/wwpdb.utils.wf-0.35.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/aa/24/0268adabb779431edcfa4bafcb76315bd8c6f2811a10ac3d26551d886fa0/callbackin-0.2.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/aa/24/0268adabb779431edcfa4bafcb76315bd8c6f2811a10ac3d26551d886fa0/callbackin-0.2.0.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [python-utils]: Downloading https://files.pythonhosted.org/packages/49/87/f372f397ef1627ffbc6a5d6346d357c97896c5633fcae5fc514e2976a437/python-utils-3.6.1.tar.gz
+[2023-06-17 13:38:45] INFO root fetch - processPackages [wwpdb.utils.wf]: executing diffoscope
+[2023-06-17 13:38:45] INFO root fetch - processPackages [wwpdb.utils.wf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.wf-0.34.tar.gz tmp/wwpdb.utils.wf-0.35.tar.gz --markdown 20230617/w/wwpdb.utils.wf/0.34-0.35/diff.md --exclude *.pyd
+[2023-06-17 13:38:45] INFO root fetch - processPackages [python-utils]: executing diffoscope
+[2023-06-17 13:38:45] INFO root fetch - processPackages [python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-utils-3.6.0.tar.gz tmp/python-utils-3.6.1.tar.gz --markdown 20230617/p/python-utils/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-17 13:38:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/02/2e/efb903ade03595cd9eb18530355cf55e93e2227b58f769ee72977a9da4da/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.1.0.tar.gz tmp/callbackin-0.2.0.tar.gz --markdown 20230617/c/callbackin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-17 13:38:45] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.1.0.tar.gz tmp/callbackin-0.2.0.tar.gz --markdown 20230617/c/callbackin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 13:38:45] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/b5/11/34eb8f10519d917a24f7b838c7bb8a9361ce4685f99dbae9dbb4938b02e2/mangadex-downloader-2.9.1.tar.gz
+[2023-06-17 13:38:46] INFO root fetch - processPackages [mangadex-downloader]: executing diffoscope
+[2023-06-17 13:38:46] INFO root fetch - processPackages [mangadex-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex-downloader-2.9.0.tar.gz tmp/mangadex-downloader-2.9.1.tar.gz --markdown 20230617/m/mangadex-downloader/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-17 13:38:46] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-17 13:38:46] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl.zip --markdown 20230617/b/bigdl-nano/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-17 13:38:46] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.1.0.tar.gz]
+[2023-06-17 13:38:46] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.2.0.tar.gz]
+[2023-06-17 13:38:46] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-17 13:38:46] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-17 13:38:47] INFO root fetch - processPackages [wwpdb.utils.wf]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.wf-0.34.tar.gz]
+[2023-06-17 13:38:47] INFO root fetch - processPackages [wwpdb.utils.wf]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.wf-0.35.tar.gz]
+[2023-06-17 13:38:47] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.wf]: success
+[2023-06-17 13:38:47] INFO root fetch - processPackages [python-utils]: Remove: archive file [/home/abi/fetcher/tmp/python-utils-3.6.0.tar.gz]
+[2023-06-17 13:38:47] INFO root fetch - processPackages [python-utils]: Remove: archive file [/home/abi/fetcher/tmp/python-utils-3.6.1.tar.gz]
+[2023-06-17 13:38:47] INFO root fetch - main [MainThread]: End processing [python-utils]: success
+[2023-06-17 13:38:48] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.0.tar.gz]
+[2023-06-17 13:38:48] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.1.tar.gz]
+[2023-06-17 13:38:48] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
+[2023-06-17 13:38:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:38:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-17 13:38:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-17 13:38:49] INFO root fetch - main [MainThread]: Store serial: [18542656]
