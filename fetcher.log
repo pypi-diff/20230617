@@ -9818,3 +9818,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:03:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev53.tar.gz]
 [2023-06-17 09:03:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-17 09:03:25] INFO root fetch - main [MainThread]: Store serial: [18541495]
+[2023-06-17 09:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541495]
+[2023-06-17 09:08:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-supporter
+[2023-06-17 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extract-office-content
+[2023-06-17 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytk-net
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytorch-supporter]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-06-17 09:08:34] INFO root fetch - processPackages [extract-office-content]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytk-net]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-17 09:08:34] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/94/8d/ae9f2e33acc6ec71d4462e74a561a2d8bc71e798e1d39bdc870eb1c5939d/extract_office_content-0.0.3-py3-none-any.whl
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/83/37/fa3d5d7e71ffa84fceeb5fe60c8799c515cc8e41c86a2e15d8f9afda9d16/pytorch-supporter-0.0.19.tar.gz
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/06/b9/476400d969cb15240ef8d173c92dd513a27136cb6d69ee75e3f1f29370ab/pytk_net-0.2.2.tar.gz
+[2023-06-17 09:08:34] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/43/b3/b09750164c4f7dd88b619478bb77460f7d4f783679e79d529b7dcffbdad8/extract_office_content-0.0.4-py3-none-any.whl
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/50/c3/d11d39ac2e5e8af44bd5ff31584e9c1aee0e0a43850d39da317cf4e6fabf/pytorch-supporter-0.0.20.tar.gz
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/17/44/82cbc938352615c506d3def719474243f9132b9b63e935193ef2ab7c6883/pytk_net-0.2.3.tar.gz
+[2023-06-17 09:08:34] INFO root fetch - processPackages [extract-office-content]: executing diffoscope
+[2023-06-17 09:08:34] INFO root fetch - processPackages [extract-office-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_office_content-0.0.3-py3-none-any.whl.zip tmp/extract_office_content-0.0.4-py3-none-any.whl.zip --markdown 20230617/e/extract-office-content/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytorch-supporter]: executing diffoscope
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytorch-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-supporter-0.0.19.tar.gz tmp/pytorch-supporter-0.0.20.tar.gz --markdown 20230617/p/pytorch-supporter/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-17 09:08:34] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.2.2.tar.gz tmp/pytk_net-0.2.3.tar.gz --markdown 20230617/p/pytk-net/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 09:08:35] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.3-py3-none-any.whl.zip]
+[2023-06-17 09:08:35] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.4-py3-none-any.whl.zip]
+[2023-06-17 09:08:35] INFO root fetch - main [MainThread]: End processing [extract-office-content]: success
+[2023-06-17 09:08:35] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.19.tar.gz]
+[2023-06-17 09:08:35] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.20.tar.gz]
+[2023-06-17 09:08:35] INFO root fetch - main [MainThread]: End processing [pytorch-supporter]: success
+[2023-06-17 09:08:35] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.2.tar.gz]
+[2023-06-17 09:08:35] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.3.tar.gz]
+[2023-06-17 09:08:35] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-17 09:08:35] INFO root fetch - main [MainThread]: Store serial: [18541505]
