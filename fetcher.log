@@ -10378,3 +10378,51 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:17:31] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
 [2023-06-17 10:17:31] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
 [2023-06-17 10:17:31] INFO root fetch - main [MainThread]: Store serial: [18541735]
+[2023-06-17 10:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541735]
+[2023-06-17 10:22:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 10:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bgolearn
+[2023-06-17 10:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frontengine
+[2023-06-17 10:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: websocket-client
+[2023-06-17 10:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-target-collection
+[2023-06-17 10:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-model-optimization-nightly
+[2023-06-17 10:22:40] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-17 10:22:40] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 10:22:40] INFO root fetch - processPackages [Bgolearn]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-17 10:22:40] INFO root fetch - processPackages [websocket-client]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-06-17 10:22:40] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/3c/c3/e931aa8f67c34c4c67c3100d18cf18c7f3f55eb8ab05a55ac9999df790b6/macrometa-target-collection-0.0.76.tar.gz
+[2023-06-17 10:22:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230617] Old Version: [0.7.5.dev20230615]
+[2023-06-17 10:22:40] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/98/be/1aa255e5b937e62ca81b6d990e372bc013e355bd8048b8579eefe24ad57d/websocket-client-1.5.3.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/ae/69/8ac870c71acc773cf282fc2e0f111a212d61880800a7b001e5907367c3cd/Bgolearn-2.1.1.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/c5/34/b9bff1f58294ec64009c21c3f907e6ac49d2e644733f30152e5c6007b0b0/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl
+[2023-06-17 10:22:41] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/a1/21/5e28aad03da662c7fe2bac53922ca5d8c3bab207db8cd0e17172eb322267/macrometa-target-collection-0.0.77.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/31/4e/aa6ab8f8812b5766350ed2beb5bc6f3a007c448dd9c178ef5db2d163dac3/websocket-client-1.6.0.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-06-17 10:22:41] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.76.tar.gz tmp/macrometa-target-collection-0.0.77.tar.gz --markdown 20230617/m/macrometa-target-collection/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-17 10:22:41] INFO root fetch - processPackages [websocket-client]: executing diffoscope
+[2023-06-17 10:22:41] INFO root fetch - processPackages [websocket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websocket-client-1.5.3.tar.gz tmp/websocket-client-1.6.0.tar.gz --markdown 20230617/w/websocket-client/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-06-17 10:22:41] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/0d/e8/9dc34bb9311a7fcc7fc3514849c67edd5372d7fed34278a5f21d71ea55b0/Bgolearn-2.1.2.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-06-17 10:22:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/e9/57/8a1a4f2869d8fd1fcebe376074ab297ed0813e2dee366e0aab9d462c4352/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl
+[2023-06-17 10:22:41] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2023-06-17 10:22:41] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.1.1.tar.gz tmp/Bgolearn-2.1.2.tar.gz --markdown 20230617/B/Bgolearn/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-17 10:22:41] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-06-17 10:22:41] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230617/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:22:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-17 10:22:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl.zip --markdown 20230617/t/tf-model-optimization-nightly/0.7.5.dev20230615-0.7.5.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 10:22:42] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.1.1.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.1.2.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2023-06-17 10:22:42] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.5.3.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.6.0.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - main [MainThread]: End processing [websocket-client]: success
+[2023-06-17 10:22:42] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.76.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.77.tar.gz]
+[2023-06-17 10:22:42] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-06-17 10:22:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230615-py2.py3-none-any.whl.zip]
+[2023-06-17 10:22:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl.zip]
+[2023-06-17 10:22:43] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-17 10:22:43] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-06-17 10:22:43] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-06-17 10:22:43] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-06-17 10:22:43] INFO root fetch - main [MainThread]: Store serial: [18541758]
