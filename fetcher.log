@@ -14896,3 +14896,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:41:43] INFO root fetch - processPackages [numpy]: Remove: archive file [/home/abi/fetcher/tmp/numpy-1.9.3.zip]
 [2023-06-17 16:41:43] INFO root fetch - main [MainThread]: End processing [numpy]: success
 [2023-06-17 16:41:43] INFO root fetch - main [MainThread]: Store serial: [18543832]
+[2023-06-17 16:46:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543832]
+[2023-06-17 16:46:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardano-nft-vending-machine
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: struid
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sce
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyenchant
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nft-market
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-stts22h
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vagd
+[2023-06-17 16:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-06-17 16:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erniechatbotsdk
+[2023-06-17 16:46:53] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 16:46:53] WARNING root fetch - processPackages [sce]: Skipping, unable to determine old version
+[2023-06-17 16:46:53] INFO root fetch - main [MainThread]: End processing [sce] error
+[2023-06-17 16:46:53] INFO root fetch - processPackages [cardano-nft-vending-machine]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-17 16:46:53] INFO root fetch - processPackages [vagd]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-17 16:46:53] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/90/96/1c7ca651eacedf5fcb3297fa08b7c140c9659aa46bb55bfb7eb7f1bbf2f4/erniechatbotsdk-0.0.1.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/69/c5/006c0c379c284ea2c3726aee642f799449e2a7a01d05ac09dd2014dbfddf/vagd-0.3.9.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [micropython-stts22h]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:46:53] INFO root fetch - processPackages [nft-market]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 16:46:53] INFO root fetch - processPackages [pyenchant]: New version: [3.3.0rc1] Old Version: [3.2.2]
+[2023-06-17 16:46:53] WARNING root fetch - processPackages [struid]: Skipping, unable to determine old version
+[2023-06-17 16:46:53] INFO root fetch - main [MainThread]: End processing [struid] error
+[2023-06-17 16:46:53] INFO root fetch - processPackages [QuNet]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-06-17 16:46:53] INFO root fetch - processPackages [cardano-nft-vending-machine]: Downloading https://files.pythonhosted.org/packages/d6/0c/d98e08a1647ecc3b13a291a45eca2ee7e21785b19ae20d5b85722c355ed2/cardano-nft-vending-machine-0.8.0.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [micropython-stts22h]: Downloading https://files.pythonhosted.org/packages/f6/26/d11597e90c789d530bf03bd451618e2e139a16fa6319a1f44b81602fd46d/micropython-stts22h-0.1.0.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/a3/24/36b47d0016f881d3c1c1a3f6831b006f1ba8bfe1c479e6a5d7c6a3660357/vagd-0.4.0.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [pyenchant]: Downloading https://files.pythonhosted.org/packages/b1/a3/86763b6350727ca81c8fcc5bb5bccee416e902e0085dc7a902c81233717e/pyenchant-3.2.2.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [nft-market]: Downloading https://files.pythonhosted.org/packages/e6/21/4bb1fe9978e8d80da115fef25cb965d81bb92a1c72ee7f8226abc665cfe8/nft_market-1.8.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-17 16:46:53] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/74/24/dbbc18112296be7ea6d1d589210bfc5be848b63d188c94837e91c91007ef/erniechatbotsdk-0.0.2.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.3.9.tar.gz tmp/vagd-0.4.0.tar.gz --markdown 20230617/v/vagd/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 16:46:53] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.1.tar.gz tmp/erniechatbotsdk-0.0.2.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 16:46:53] INFO root fetch - processPackages [micropython-stts22h]: Downloading https://files.pythonhosted.org/packages/1f/43/48e9556e0f2ae84e06c8555e54dfa3a82fbaf12c241cd1776131c1f980b8/micropython-stts22h-0.1.1.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [cardano-nft-vending-machine]: Downloading https://files.pythonhosted.org/packages/15/0e/46236107ab5c4ea70bd90d130a871e6b6453ed0f674cfd9cbe26abe1a42c/cardano-nft-vending-machine-0.8.1.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/d9/2c96d57e9cf98532d8777c4811565c0f419792b27f40b094fa4c3d03b59b/QuNet-0.0.90-py3-none-any.whl
+[2023-06-17 16:46:53] INFO root fetch - processPackages [pyenchant]: Downloading https://files.pythonhosted.org/packages/ea/8d/96c6484b97e0f615ae52cfacaabbeb451c8246a117d8e4843b82cb91b39b/pyenchant-3.3.0rc1.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [micropython-stts22h]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [micropython-stts22h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-stts22h-0.1.0.tar.gz tmp/micropython-stts22h-0.1.1.tar.gz --markdown 20230617/m/micropython-stts22h/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:46:53] INFO root fetch - processPackages [cardano-nft-vending-machine]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [cardano-nft-vending-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-nft-vending-machine-0.8.0.tar.gz tmp/cardano-nft-vending-machine-0.8.1.tar.gz --markdown 20230617/c/cardano-nft-vending-machine/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-17 16:46:53] INFO root fetch - processPackages [nft-market]: Downloading https://files.pythonhosted.org/packages/cb/88/6f189d0fbfdcb06afa1ac885bc16f2f88a3dc1c63626d0001a9ca9b4acb5/nft_market-1.9.tar.gz
+[2023-06-17 16:46:53] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.9-py3-none-any.whl.zip tmp/QuNet-0.0.90-py3-none-any.whl.zip --markdown 20230617/Q/QuNet/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-06-17 16:46:53] INFO root fetch - processPackages [pyenchant]: executing diffoscope
+[2023-06-17 16:46:53] INFO root fetch - processPackages [pyenchant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenchant-3.2.2.tar.gz tmp/pyenchant-3.3.0rc1.tar.gz --markdown 20230617/p/pyenchant/3.2.2-3.3.0rc1/diff.md --exclude *.pyd
+[2023-06-17 16:46:54] INFO root fetch - processPackages [nft-market]: executing diffoscope
+[2023-06-17 16:46:54] INFO root fetch - processPackages [nft-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nft_market-1.8.tar.gz tmp/nft_market-1.9.tar.gz --markdown 20230617/n/nft-market/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 16:46:54] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.1.tar.gz]
+[2023-06-17 16:46:54] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.2.tar.gz]
+[2023-06-17 16:46:54] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [micropython-stts22h]: Remove: archive file [/home/abi/fetcher/tmp/micropython-stts22h-0.1.0.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [micropython-stts22h]: Remove: archive file [/home/abi/fetcher/tmp/micropython-stts22h-0.1.1.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [micropython-stts22h]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [cardano-nft-vending-machine]: Remove: archive file [/home/abi/fetcher/tmp/cardano-nft-vending-machine-0.8.0.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [cardano-nft-vending-machine]: Remove: archive file [/home/abi/fetcher/tmp/cardano-nft-vending-machine-0.8.1.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [cardano-nft-vending-machine]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.90-py3-none-any.whl.zip]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [nft-market]: Remove: archive file [/home/abi/fetcher/tmp/nft_market-1.8.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [nft-market]: Remove: archive file [/home/abi/fetcher/tmp/nft_market-1.9.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [nft-market]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.3.9.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.0.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-06-17 16:46:55] INFO root fetch - processPackages [pyenchant]: Remove: archive file [/home/abi/fetcher/tmp/pyenchant-3.2.2.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - processPackages [pyenchant]: Remove: archive file [/home/abi/fetcher/tmp/pyenchant-3.3.0rc1.tar.gz]
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: End processing [pyenchant]: success
+[2023-06-17 16:46:55] INFO root fetch - main [MainThread]: Store serial: [18543874]
