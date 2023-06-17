@@ -10606,3 +10606,69 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:43:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl.zip]
 [2023-06-17 10:43:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-06-17 10:43:34] INFO root fetch - main [MainThread]: Store serial: [18541837]
+[2023-06-17 10:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541837]
+[2023-06-17 10:48:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipyfilite
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypuregym
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clustimage
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlbi-at-dku-lib
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtuples
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [clustimage]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [llm]: New version: [0.4] Old Version: [0.3]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [pypuregym]: New version: [1.6.0] Old Version: [1.4.0]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [xtuples]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-17 10:48:43] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/5f/f4/dc91321d7e615aa9f1d74735657c96443e97db2184e4b6213a7a6b3e5861/xtuples-0.0.4.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-17 10:48:43] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/e3/68/f6bb67b5c96c732337804ce7f400c8557ba8d6ef3dc97d4db5a4f8c9dd08/mlbi_at_dku_lib-0.1.7.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/57/ed/d304662a558e304bcba25df649b188acd09e7efa6e25c4de1b480242df60/clustimage-1.5.8.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [llm]: Downloading https://files.pythonhosted.org/packages/69/16/7edb4bc510f4cc69267cc3c4ebe65e1b7fed276cd07cf74752887a644f64/llm-0.3.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [pypuregym]: Downloading https://files.pythonhosted.org/packages/46/da/1d3c26b8d2f533dbbcf9a2ffaf302fddb47caf6c6cdfccd4748ff42a31da/pypuregym-v1.4.0.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/53/86/5067c578afc8a5387f11dbdad409d51627d55f472921a7879311ca2e00d8/xtuples-0.0.5.tar.gz
+[2023-06-17 10:48:43] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-17 10:48:44] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230617/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [llm]: Downloading https://files.pythonhosted.org/packages/32/15/0b31a634ae874d65b75953efe2d7bdd527d7994253ed81e5ac82505ba3de/llm-0.4.tar.gz
+[2023-06-17 10:48:44] INFO root fetch - processPackages [pypuregym]: Downloading https://files.pythonhosted.org/packages/64/1d/f7024c430422b5cee990435b92e0ce2e1a95cdfc42deb89a0c8c805acdc8/pypuregym-v1.6.0.tar.gz
+[2023-06-17 10:48:44] INFO root fetch - processPackages [llm]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-0.3.tar.gz tmp/llm-0.4.tar.gz --markdown 20230617/l/llm/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/5f/8a/6b5b4e483d11502b4b80b5e1642ee0fdf34e1f99c58ed130a89a75a2b63d/mlbi_at_dku_lib-0.1.8.tar.gz
+[2023-06-17 10:48:44] INFO root fetch - processPackages [xtuples]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [xtuples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuples-0.0.4.tar.gz tmp/xtuples-0.0.5.tar.gz --markdown 20230617/x/xtuples/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/94/eb/110301aacac610178260ea5b86a12edcfdb979075298fe6edbe3f915b89b/clustimage-1.5.9.tar.gz
+[2023-06-17 10:48:44] INFO root fetch - processPackages [pypuregym]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [pypuregym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypuregym-v1.4.0.tar.gz tmp/pypuregym-v1.6.0.tar.gz --markdown 20230617/p/pypuregym/1.4.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.7.tar.gz tmp/mlbi_at_dku_lib-0.1.8.tar.gz --markdown 20230617/m/mlbi-at-dku-lib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [clustimage]: executing diffoscope
+[2023-06-17 10:48:44] INFO root fetch - processPackages [clustimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustimage-1.5.8.tar.gz tmp/clustimage-1.5.9.tar.gz --markdown 20230617/c/clustimage/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-17 10:48:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-17 10:48:45] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-17 10:48:45] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230617/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-17 10:48:45] INFO root fetch - processPackages [llm]: Remove: archive file [/home/abi/fetcher/tmp/llm-0.3.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - processPackages [llm]: Remove: archive file [/home/abi/fetcher/tmp/llm-0.4.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - main [MainThread]: End processing [llm]: success
+[2023-06-17 10:48:45] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.4.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.5.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - main [MainThread]: End processing [xtuples]: success
+[2023-06-17 10:48:45] INFO root fetch - processPackages [pypuregym]: Remove: archive file [/home/abi/fetcher/tmp/pypuregym-v1.4.0.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - processPackages [pypuregym]: Remove: archive file [/home/abi/fetcher/tmp/pypuregym-v1.6.0.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - main [MainThread]: End processing [pypuregym]: success
+[2023-06-17 10:48:45] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.7.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.8.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-06-17 10:48:45] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.8.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.9.tar.gz]
+[2023-06-17 10:48:45] INFO root fetch - main [MainThread]: End processing [clustimage]: success
+[2023-06-17 10:48:47] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-17 10:48:47] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-17 10:48:47] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-17 10:49:00] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-17 10:49:00] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-17 10:49:00] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-17 10:49:00] INFO root fetch - main [MainThread]: Store serial: [18541861]
