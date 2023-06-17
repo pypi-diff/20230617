@@ -10318,3 +10318,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:07:08] INFO root fetch - processPackages [NanoRepeat]: Remove: archive file [/home/abi/fetcher/tmp/NanoRepeat-1.7.tar.gz]
 [2023-06-17 10:07:08] INFO root fetch - main [MainThread]: End processing [NanoRepeat]: success
 [2023-06-17 10:07:08] INFO root fetch - main [MainThread]: Store serial: [18541707]
+[2023-06-17 10:12:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541707]
+[2023-06-17 10:12:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-06-17 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-06-17 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformers-supporter
+[2023-06-17 10:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GCoCF
+[2023-06-17 10:12:16] INFO root fetch - processPackages [hyfi]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-17 10:12:16] INFO root fetch - processPackages [GCoCF]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-17 10:12:16] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 10:12:16] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230617] Old Version: [0.3.1.dev20230616]
+[2023-06-17 10:12:16] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/67/4f/27450c0ddd82c142c9bad53b7104ab01f43ace38ff4ad0d565135c5d6512/gcocf-0.9.7.tar.gz
+[2023-06-17 10:12:16] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/62/bb/30dc12d946e56ad26af524a0f62f82de321dd822f71915f4c253adfb0133/hyfi-0.7.0.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/20/17/bb6d60fc13e36f62b0301028b974dcfa670899d055f82714c3d0050f5c01/pyglove-0.3.1.dev20230616.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/c4/c7/5a018a92f6e70a34b8eaac533bccd197bd24645bd3af78c7d2524547f2ea/gcocf-0.9.8.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-17 10:12:17] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230617/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:12:17] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 10:12:17] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.7.tar.gz tmp/gcocf-0.9.8.tar.gz --markdown 20230617/G/GCoCF/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-17 10:12:17] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/de/32/c208b2b9ead8b0e9fd49b216bfe38258913429839aa56dc27a7dc92ff77f/hyfi-0.7.1.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ee/91/b4fa6ce6c45c2e69f9168d8c3580f46611f6446d633de5a0e068bd21433f/pyglove-0.3.1.dev20230617.tar.gz
+[2023-06-17 10:12:17] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-17 10:12:17] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.7.0.tar.gz tmp/hyfi-0.7.1.tar.gz --markdown 20230617/h/hyfi/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-17 10:12:17] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-17 10:12:17] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230616.tar.gz tmp/pyglove-0.3.1.dev20230617.tar.gz --markdown 20230617/p/pyglove/0.3.1.dev20230616-0.3.1.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 10:12:18] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-17 10:12:18] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-17 10:12:18] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-17 10:12:18] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.0.tar.gz]
+[2023-06-17 10:12:18] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.1.tar.gz]
+[2023-06-17 10:12:18] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-17 10:12:19] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.7.tar.gz]
+[2023-06-17 10:12:19] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.8.tar.gz]
+[2023-06-17 10:12:19] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 10:12:19] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230616.tar.gz]
+[2023-06-17 10:12:19] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230617.tar.gz]
+[2023-06-17 10:12:19] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-17 10:12:19] INFO root fetch - main [MainThread]: Store serial: [18541723]
