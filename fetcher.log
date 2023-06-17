@@ -15314,3 +15314,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:13:31] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-17 17:13:31] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-06-17 17:13:31] INFO root fetch - main [MainThread]: Store serial: [18544024]
+[2023-06-17 17:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544024]
+[2023-06-17 17:18:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pyara
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagrid
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-icm20948
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: almavik
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: repetita-parser
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: error-example
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-h3lis200dl
+[2023-06-17 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: watch-diff
+[2023-06-17 17:18:44] INFO root fetch - processPackages [Pyara]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [micropython-h3lis200dl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [error-example]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [micropython-icm20948]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [almavik]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [repetita-parser]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [watch-diff]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 17:18:44] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/d9/68/7dff39ad22af96ec19334a9df51c2a070e4ebcadd0c7d26f5b38a3c5a82c/error-example-0.0.4.tar.gz
+[2023-06-17 17:18:44] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/48/3a/c6e8c15d9eee096653755de50c7e704c461c45864a1bdd5403817e89c480/Pyara-0.1.28.tar.gz
+[2023-06-17 17:18:44] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/d9/bb/356245c6620b5f8517dbdceebc89fe4ea1ee310e122aa5874b44dd1b12ea/almavik-0.3.2.tar.gz
+[2023-06-17 17:18:44] INFO root fetch - processPackages [micropython-icm20948]: Downloading https://files.pythonhosted.org/packages/89/cb/8722c9579aa10714052009e13e32ac5ecfad0f0760378fba5dac267c5b48/micropython-icm20948-0.2.0.tar.gz
+[2023-06-17 17:18:44] INFO root fetch - processPackages [micropython-h3lis200dl]: Downloading https://files.pythonhosted.org/packages/95/34/89afc8c8df117352b580949d25b75794ec7515c25eabdd82a16db4d1c5b0/micropython-h3lis200dl-0.1.0.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [repetita-parser]: Downloading https://files.pythonhosted.org/packages/17/53/6ffd9d65ed67f0d7380ee63e4d55112e1a023efd7879f7b6e608315d94a2/repetita_parser-1.0.2.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/b2/b2/4cfc00ddc62bfb2350fd43f63f2288222aec22240deeaf01e21875056df9/watch-diff-1.1.1.tar.gz
+[2023-06-17 17:18:45] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88363459>=10485760
+[2023-06-17 17:18:45] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 17:18:45] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/0a/45/03e0264227d2a0e8416f9f31ad667c3f1a6b4b44296807f13f2b8c181ba8/error-example-0.0.5.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-h3lis200dl]: Downloading https://files.pythonhosted.org/packages/2f/c1/bf5951b095aee06dd0ec874a762db874a40f6cf700e3431b3466ddc6e644/micropython-h3lis200dl-0.1.1.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [error-example]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [error-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-example-0.0.4.tar.gz tmp/error-example-0.0.5.tar.gz --markdown 20230617/e/error-example/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.28.tar.gz tmp/Pyara-0.1.29.tar.gz --markdown 20230617/P/Pyara/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-h3lis200dl]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-h3lis200dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-h3lis200dl-0.1.0.tar.gz tmp/micropython-h3lis200dl-0.1.1.tar.gz --markdown 20230617/m/micropython-h3lis200dl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-icm20948]: Downloading https://files.pythonhosted.org/packages/cd/b3/778bcc0b3e37b74aa8ed891ab33f98c3e0d921fa1c1f928b377dfd1046c6/micropython-icm20948-0.2.1.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [repetita-parser]: Downloading https://files.pythonhosted.org/packages/a1/4f/b12fde25b72230ca79c1bd3e51cb37a9f44958846051c63522c08b0cfcbe/repetita_parser-2.0.0.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [repetita-parser]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [repetita-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repetita_parser-1.0.2.tar.gz tmp/repetita_parser-2.0.0.tar.gz --markdown 20230617/r/repetita-parser/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-icm20948]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/40/91/e4dd3e5d68fc9c3ee6f0037b682cbe7ff86ad8b4f2c3d100222846fbd0af/watch-diff-1.1.2.tar.gz
+[2023-06-17 17:18:45] INFO root fetch - processPackages [micropython-icm20948]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-icm20948-0.2.0.tar.gz tmp/micropython-icm20948-0.2.1.tar.gz --markdown 20230617/m/micropython-icm20948/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230617/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-17 17:18:45] INFO root fetch - processPackages [watch-diff]: executing diffoscope
+[2023-06-17 17:18:45] INFO root fetch - processPackages [watch-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-diff-1.1.1.tar.gz tmp/watch-diff-1.1.2.tar.gz --markdown 20230617/w/watch-diff/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 17:18:46] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.4.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.5.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [error-example]: success
+[2023-06-17 17:18:46] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.28.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.29.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-17 17:18:46] INFO root fetch - processPackages [micropython-h3lis200dl]: Remove: archive file [/home/abi/fetcher/tmp/micropython-h3lis200dl-0.1.0.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [micropython-h3lis200dl]: Remove: archive file [/home/abi/fetcher/tmp/micropython-h3lis200dl-0.1.1.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [micropython-h3lis200dl]: success
+[2023-06-17 17:18:46] INFO root fetch - processPackages [micropython-icm20948]: Remove: archive file [/home/abi/fetcher/tmp/micropython-icm20948-0.2.0.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [micropython-icm20948]: Remove: archive file [/home/abi/fetcher/tmp/micropython-icm20948-0.2.1.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [micropython-icm20948]: success
+[2023-06-17 17:18:46] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.1.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.2.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [watch-diff]: success
+[2023-06-17 17:18:46] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-17 17:18:46] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-17 17:18:47] INFO root fetch - processPackages [repetita-parser]: Remove: archive file [/home/abi/fetcher/tmp/repetita_parser-1.0.2.tar.gz]
+[2023-06-17 17:18:47] INFO root fetch - processPackages [repetita-parser]: Remove: archive file [/home/abi/fetcher/tmp/repetita_parser-2.0.0.tar.gz]
+[2023-06-17 17:18:47] INFO root fetch - main [MainThread]: End processing [repetita-parser]: success
+[2023-06-17 17:18:47] INFO root fetch - main [MainThread]: Store serial: [18544069]
