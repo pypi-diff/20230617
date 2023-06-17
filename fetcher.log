@@ -9411,3 +9411,63 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:16:30] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz]
 [2023-06-17 08:16:30] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2023-06-17 08:16:30] INFO root fetch - main [MainThread]: Store serial: [18541310]
+[2023-06-17 08:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541310]
+[2023-06-17 08:21:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-base-extras
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssbdplus
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TabularDataInvestigation
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformers-supporter
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkglog
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webhooklib
+[2023-06-17 08:21:39] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 08:21:39] WARNING root fetch - processPackages [TabularDataInvestigation]: Skipping, unable to determine old version
+[2023-06-17 08:21:39] INFO root fetch - main [MainThread]: End processing [TabularDataInvestigation] error
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ssbdplus]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-17 08:21:39] INFO root fetch - processPackages [pkglog]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 08:21:39] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 08:21:39] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 08:21:39] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230617] Old Version: [1.6.1.dev20230616]
+[2023-06-17 08:21:39] INFO root fetch - processPackages [ssbdplus]: Downloading https://files.pythonhosted.org/packages/51/1b/b9e22c77968d3a29ca36f656a8b3442747b67619087bf3551df1dbf9ad2f/ssbdplus-2.0.0.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/b1/6e/bf9b5bb041dd77abaf3c3d2af4d51b3f0d34611a1e6469674784fa7c6a55/pkglog-1.8.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/57/ea/ba8d1daa7cac43effcda63bc8555cf0e1a8cc279831c9e7975ca89482978/pretext-1.6.1.dev20230616.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/13/f4/c1b17ccae3c8e359ca72e37b10fa544b6c5754902de435d0b61b4ac24580/pkglog-1.9.tar.gz
+[2023-06-17 08:21:39] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-17 08:21:39] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230617/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 08:21:40] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-17 08:21:40] INFO root fetch - processPackages [pkglog]: executing diffoscope
+[2023-06-17 08:21:40] INFO root fetch - processPackages [pkglog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglog-1.8.tar.gz tmp/pkglog-1.9.tar.gz --markdown 20230617/p/pkglog/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 08:21:40] INFO root fetch - processPackages [ssbdplus]: Downloading https://files.pythonhosted.org/packages/14/4b/f981cd7f86175dd4035535358f9cbeb3d112383db69297c17b8231b55fbf/ssbdplus-2.1.0.tar.gz
+[2023-06-17 08:21:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/72/e1/d8323c8bc44f29a45a035a8da7e47f8562aadd9665789bc6b09a890babb1/pretext-1.6.1.dev20230617.tar.gz
+[2023-06-17 08:21:40] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-17 08:21:40] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230617/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 08:21:40] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 08:21:40] INFO root fetch - processPackages [ssbdplus]: executing diffoscope
+[2023-06-17 08:21:40] INFO root fetch - processPackages [ssbdplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssbdplus-2.0.0.tar.gz tmp/ssbdplus-2.1.0.tar.gz --markdown 20230617/s/ssbdplus/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 08:21:40] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 08:21:40] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 08:21:40] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-17 08:21:40] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230616.tar.gz tmp/pretext-1.6.1.dev20230617.tar.gz --markdown 20230617/p/pretext/1.6.1.dev20230616-1.6.1.dev20230617/diff.md --exclude *.pyd
+[2023-06-17 08:21:41] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.8.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.9.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - main [MainThread]: End processing [pkglog]: success
+[2023-06-17 08:21:41] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-17 08:21:41] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 08:21:41] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-17 08:21:41] INFO root fetch - processPackages [ssbdplus]: Remove: archive file [/home/abi/fetcher/tmp/ssbdplus-2.0.0.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - processPackages [ssbdplus]: Remove: archive file [/home/abi/fetcher/tmp/ssbdplus-2.1.0.tar.gz]
+[2023-06-17 08:21:41] INFO root fetch - main [MainThread]: End processing [ssbdplus]: success
+[2023-06-17 08:21:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230616.tar.gz]
+[2023-06-17 08:21:44] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230617.tar.gz]
+[2023-06-17 08:21:44] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-17 08:21:44] INFO root fetch - main [MainThread]: Store serial: [18541341]
