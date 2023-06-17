@@ -11207,3 +11207,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:36:00] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
 [2023-06-17 11:36:00] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
 [2023-06-17 11:36:00] INFO root fetch - main [MainThread]: Store serial: [18542082]
+[2023-06-17 11:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542082]
+[2023-06-17 11:41:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ensta
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eng-spacysentiment
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trulia-rapidapi
+[2023-06-17 11:41:10] INFO root fetch - processPackages [eng-spacysentiment]: New version: [2.1.0] Old Version: [2.0]
+[2023-06-17 11:41:10] INFO root fetch - processPackages [trulia-rapidapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 11:41:10] INFO root fetch - processPackages [pydatawork]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ensta]: New version: [2.6] Old Version: [2.5]
+[2023-06-17 11:41:10] INFO root fetch - processPackages [trulia-rapidapi]: Downloading https://files.pythonhosted.org/packages/bb/2b/55825aa566497a5259b637d7004844d1171d38fb04a62cc0c4fbb8171935/trulia_rapidapi-0.1.0.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/52/48/f28685b5dd529fc2f2da62615b8d8335610a89f8b05ec4ef190e2ce57d4e/eng_spacysentiment-2.0.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/de/c5/eb8b4a4396605b3bfb37c2a1c3737665b7b7d5d8c339f554e273f50a084c/ensta-2.5.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/28/88/952f2cfad9268258a2f6506ac2211425de9a8ac042947f2bce351c3cccb6/pydatawork-0.0.3.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/9e/9a/fdb25723b367ba0112be385805fcf483db77839c86cfe4cd167fe024a3a0/ensta-2.6.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [trulia-rapidapi]: Downloading https://files.pythonhosted.org/packages/2d/13/c97fa38a1ae7f9925569650a4165287c2e00e53b5f25b4bbfd2db8076af9/trulia_rapidapi-0.1.1.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/0e/59/5c2058e4cd22117daab709292139b705e76768c5c121eb0bc3c296799ce9/pydatawork-0.0.4.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-17 11:41:10] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-2.5.tar.gz tmp/ensta-2.6.tar.gz --markdown 20230617/e/ensta/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-17 11:41:10] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/73/7a/279e535190e904b3cf779f18f4b93d9e724272478e5c3aecca39b603de11/eng_spacysentiment-2.1.0.tar.gz
+[2023-06-17 11:41:10] INFO root fetch - processPackages [trulia-rapidapi]: executing diffoscope
+[2023-06-17 11:41:10] INFO root fetch - processPackages [trulia-rapidapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulia_rapidapi-0.1.0.tar.gz tmp/trulia_rapidapi-0.1.1.tar.gz --markdown 20230617/t/trulia-rapidapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 11:41:10] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-17 11:41:10] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.3.tar.gz tmp/pydatawork-0.0.4.tar.gz --markdown 20230617/p/pydatawork/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 11:41:10] INFO root fetch - processPackages [eng-spacysentiment]: executing diffoscope
+[2023-06-17 11:41:10] INFO root fetch - processPackages [eng-spacysentiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eng_spacysentiment-2.0.tar.gz tmp/eng_spacysentiment-2.1.0.tar.gz --markdown 20230617/e/eng-spacysentiment/2.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 11:41:11] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.3.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.4.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-17 11:41:11] INFO root fetch - processPackages [trulia-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/trulia_rapidapi-0.1.0.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - processPackages [trulia-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/trulia_rapidapi-0.1.1.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - main [MainThread]: End processing [trulia-rapidapi]: success
+[2023-06-17 11:41:11] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.5.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.6.tar.gz]
+[2023-06-17 11:41:11] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-17 11:41:12] INFO root fetch - processPackages [eng-spacysentiment]: Remove: archive file [/home/abi/fetcher/tmp/eng_spacysentiment-2.0.tar.gz]
+[2023-06-17 11:41:12] INFO root fetch - processPackages [eng-spacysentiment]: Remove: archive file [/home/abi/fetcher/tmp/eng_spacysentiment-2.1.0.tar.gz]
+[2023-06-17 11:41:12] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment]: success
+[2023-06-17 11:41:12] INFO root fetch - main [MainThread]: Store serial: [18542094]
