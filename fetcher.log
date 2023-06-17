@@ -15796,3 +15796,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:44:54] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
 [2023-06-17 17:44:54] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2023-06-17 17:44:54] INFO root fetch - main [MainThread]: Store serial: [18544340]
+[2023-06-17 17:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544340]
+[2023-06-17 17:50:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safe-pls-py
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artd-partner
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whool
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-majsoul
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-template
+[2023-06-17 17:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyheartlib
+[2023-06-17 17:50:02] INFO root fetch - processPackages [almavik]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-17 17:50:02] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 17:50:02] INFO root fetch - processPackages [artd-partner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 17:50:02] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/8f/80/6344e811ee4fee0192b29f6374706930d6140fd37e591cdd2d403d3450cd/pyheartlib-0.0.8.tar.gz
+[2023-06-17 17:50:02] INFO root fetch - processPackages [nonebot-plugin-majsoul]: New version: [0.2.1.post1] Old Version: [0.2.1]
+[2023-06-17 17:50:02] INFO root fetch - processPackages [whool]: New version: [0.2.1] Old Version: [0.1]
+[2023-06-17 17:50:02] WARNING root fetch - processPackages [safe-pls-py]: Skipping, unable to determine old version
+[2023-06-17 17:50:02] INFO root fetch - main [MainThread]: End processing [safe-pls-py] error
+[2023-06-17 17:50:02] INFO root fetch - processPackages [fastapi-template]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-06-17 17:50:02] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/7a/e4/48ccac2301bd19d3ad70435182d3228611c8f602f09eb895e23c5439a2bb/almavik-0.3.3.tar.gz
+[2023-06-17 17:50:02] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373523>=10485760
+[2023-06-17 17:50:02] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 17:50:03] INFO root fetch - processPackages [artd-partner]: Downloading https://files.pythonhosted.org/packages/58/77/717785bd2e6e6f6dd01e10ee9b71133e2b14b29f9804c8d302036ef623a7/artd-partner-0.0.1.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/e9/0d/6d6a18539ada6edec820457413f51f102018a0b1d0db2e83e1cb963a8c35/pyheartlib-0.0.9.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [whool]: Downloading https://files.pythonhosted.org/packages/99/87/953a99fbf00c91ce51cb730c3113ac7e766c6ba6383b13917dbee3607d73/whool-0.1.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/38/88/91b53507f8b8611072ba7064aed9155d0e75fc551e71ae019817788bb659/fastapi_template-4.1.4.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-06-17 17:50:03] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230617/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 17:50:03] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/75/f0/673c21844be010b3a6b348b3a8e8b5daa9b3ab9e35e1ae2793227ba525fc/nonebot_plugin_majsoul-0.2.1.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [artd-partner]: Downloading https://files.pythonhosted.org/packages/65/54/c026518ad1699eecd11ec3c6b696c3ad0890e5a278c10273c9b78d14c5d2/artd-partner-0.0.2.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [whool]: Downloading https://files.pythonhosted.org/packages/4c/72/65eba5ed8ef3233f823b1acb942edf0fddd36000a80f07cefe0bd16884f4/whool-0.2.1.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/bc/a1/51a56e59eb25638e5aec824b748dfa95d46d8acc1b0e86f545aa16659d8f/fastapi_template-4.1.5.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [artd-partner]: executing diffoscope
+[2023-06-17 17:50:03] INFO root fetch - processPackages [artd-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-partner-0.0.1.tar.gz tmp/artd-partner-0.0.2.tar.gz --markdown 20230617/a/artd-partner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 17:50:03] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/e4/20/ea6b1bfb57b055c12b5940e4bd5087d78de0c98fbbf05cc5d1d4e844d9cf/nonebot_plugin_majsoul-0.2.1.post1.tar.gz
+[2023-06-17 17:50:03] INFO root fetch - processPackages [whool]: executing diffoscope
+[2023-06-17 17:50:03] INFO root fetch - processPackages [whool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whool-0.1.tar.gz tmp/whool-0.2.1.tar.gz --markdown 20230617/w/whool/0.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-17 17:50:03] INFO root fetch - processPackages [fastapi-template]: executing diffoscope
+[2023-06-17 17:50:03] INFO root fetch - processPackages [fastapi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_template-4.1.4.tar.gz tmp/fastapi_template-4.1.5.tar.gz --markdown 20230617/f/fastapi-template/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-06-17 17:50:03] INFO root fetch - processPackages [nonebot-plugin-majsoul]: executing diffoscope
+[2023-06-17 17:50:03] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.2.1.tar.gz tmp/nonebot_plugin_majsoul-0.2.1.post1.tar.gz --markdown 20230617/n/nonebot-plugin-majsoul/0.2.1-0.2.1.post1/diff.md --exclude *.pyd
+[2023-06-17 17:50:04] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-0.0.8.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - processPackages [pyheartlib]: Remove: archive file [/home/abi/fetcher/tmp/pyheartlib-0.0.9.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-06-17 17:50:04] INFO root fetch - processPackages [artd-partner]: Remove: archive file [/home/abi/fetcher/tmp/artd-partner-0.0.1.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - processPackages [artd-partner]: Remove: archive file [/home/abi/fetcher/tmp/artd-partner-0.0.2.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - main [MainThread]: End processing [artd-partner]: success
+[2023-06-17 17:50:04] INFO root fetch - processPackages [whool]: Remove: archive file [/home/abi/fetcher/tmp/whool-0.1.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - processPackages [whool]: Remove: archive file [/home/abi/fetcher/tmp/whool-0.2.1.tar.gz]
+[2023-06-17 17:50:04] INFO root fetch - main [MainThread]: End processing [whool]: success
+[2023-06-17 17:50:05] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_majsoul-0.2.1.tar.gz]
+[2023-06-17 17:50:05] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_majsoul-0.2.1.post1.tar.gz]
+[2023-06-17 17:50:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
+[2023-06-17 17:50:05] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-4.1.4.tar.gz]
+[2023-06-17 17:50:05] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-4.1.5.tar.gz]
+[2023-06-17 17:50:05] INFO root fetch - main [MainThread]: End processing [fastapi-template]: success
+[2023-06-17 17:50:05] INFO root fetch - main [MainThread]: Store serial: [18544367]
