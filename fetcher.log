@@ -9074,3 +9074,47 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:33:19] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-17 07:33:19] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-17 07:33:19] INFO root fetch - main [MainThread]: Store serial: [18541173]
+[2023-06-17 07:38:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541173]
+[2023-06-17 07:38:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 07:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sora-sdk
+[2023-06-17 07:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revolution.py
+[2023-06-17 07:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authomize-rest-api-client
+[2023-06-17 07:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-17 07:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meowerbot
+[2023-06-17 07:38:29] INFO root fetch - processPackages [meowerbot]: New version: [2.6.0] Old Version: [2.5.7]
+[2023-06-17 07:38:29] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 07:38:29] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev6] Old Version: [2023.1.0.dev1]
+[2023-06-17 07:38:29] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/e4/7e/68a080351677bd7cd911af6e5741515fa60c6609519b26d3cd712b1fffd0/meowerbot-2.5.7.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [revolution.py]: New version: [5.0.1.0] Old Version: [5.0.0.9]
+[2023-06-17 07:38:29] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.2.7] Old Version: [4.2.6]
+[2023-06-17 07:38:29] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/98/3f/ff8355e0a599c3fbfd031c2e5e69fb84efb13e84f1ee04542a3d7dd90f91/sora_sdk-2023.1.0.dev1.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/0c/a5/2cf5b214b4f4112db838ab7d2e9dd78a68bfda5ad541f6ed48a31127a122/revolution.py-5.0.0.9.tar.gz
+[2023-06-17 07:38:29] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11345390>=10485760
+[2023-06-17 07:38:29] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-17 07:38:29] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/ab/00/331a84f2c1d2b841094d3330360d686b51bdd297ca8c2bd7482f59e92d25/meowerbot-2.6.0.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/89/0c/c268ee8626e52410865a1ea9ef9a7109d9d3ee796aa96ef4e89ce5acd723/authomize-rest-api-client-4.2.6.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [meowerbot]: executing diffoscope
+[2023-06-17 07:38:29] INFO root fetch - processPackages [meowerbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowerbot-2.5.7.tar.gz tmp/meowerbot-2.6.0.tar.gz --markdown 20230617/m/meowerbot/2.5.7-2.6.0/diff.md --exclude *.pyd
+[2023-06-17 07:38:29] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 07:38:29] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 07:38:29] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/b0/fc/b8315c0a3f19c930c400dbe918f618bada4cd4b8e5bb7781fc8add5a4ec8/revolution.py-5.0.1.0.tar.gz
+[2023-06-17 07:38:29] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/cd/65/2438c05f29a21048e66ba9eb3ca8bdc94f6cac3fbb05f01a40eed490220e/authomize-rest-api-client-4.2.7.tar.gz
+[2023-06-17 07:38:30] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-06-17 07:38:30] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.2.6.tar.gz tmp/authomize-rest-api-client-4.2.7.tar.gz --markdown 20230617/a/authomize-rest-api-client/4.2.6-4.2.7/diff.md --exclude *.pyd
+[2023-06-17 07:38:30] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-17 07:38:30] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.9.tar.gz tmp/revolution.py-5.0.1.0.tar.gz --markdown 20230617/r/revolution.py/5.0.0.9-5.0.1.0/diff.md --exclude *.pyd
+[2023-06-17 07:38:30] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 07:38:30] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 07:38:30] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 07:38:31] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.9.tar.gz]
+[2023-06-17 07:38:31] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.1.0.tar.gz]
+[2023-06-17 07:38:31] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-17 07:38:31] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.6.tar.gz]
+[2023-06-17 07:38:31] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.7.tar.gz]
+[2023-06-17 07:38:31] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-06-17 07:39:25] INFO root fetch - processPackages [meowerbot]: Remove: archive file [/home/abi/fetcher/tmp/meowerbot-2.5.7.tar.gz]
+[2023-06-17 07:39:25] INFO root fetch - processPackages [meowerbot]: Remove: archive file [/home/abi/fetcher/tmp/meowerbot-2.6.0.tar.gz]
+[2023-06-17 07:39:25] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
+[2023-06-17 07:39:25] INFO root fetch - main [MainThread]: Store serial: [18541199]
