@@ -17705,3 +17705,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:50:12] INFO root fetch - processPackages [ezargs]: Remove: archive file [/home/abi/fetcher/tmp/ezargs-0.0.3.tar.gz]
 [2023-06-17 20:50:12] INFO root fetch - main [MainThread]: End processing [ezargs]: success
 [2023-06-17 20:50:12] INFO root fetch - main [MainThread]: Store serial: [18545288]
+[2023-06-17 20:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545288]
+[2023-06-17 20:55:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 20:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aifunctools
+[2023-06-17 20:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webhooklib
+[2023-06-17 20:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeroconf
+[2023-06-17 20:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-17 20:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: next-bus-bot
+[2023-06-17 20:55:22] WARNING root fetch - processPackages [aifunctools]: Skipping, unable to determine old version
+[2023-06-17 20:55:22] INFO root fetch - main [MainThread]: End processing [aifunctools] error
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c8/3b/9cbad764a6fbc26a41a4da9875c16837195cdc20b489f4bb1120fb0d896e/webhooklib-0.3.3.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c8/3b/9cbad764a6fbc26a41a4da9875c16837195cdc20b489f4bb1120fb0d896e/webhooklib-0.3.3.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [next-bus-bot]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 20:55:22] INFO root fetch - processPackages [zeroconf]: New version: [0.68.0] Old Version: [0.67.0]
+[2023-06-17 20:55:22] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/0a/05/bad16c66bcaadc4621a13a3501d6c5f4367758240aab2824d8879898f44d/next-bus-bot-1.0.2.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/0e/89/dd2e7264d80c5b120332f2bcf0ca4a72331e2296b3038d8be675a4f0ee3e/webhooklib-0.4.0.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/0e/89/dd2e7264d80c5b120332f2bcf0ca4a72331e2296b3038d8be675a4f0ee3e/webhooklib-0.4.0.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/24/36/523e77956f2e2651ab0043b57ebab1c683a0c587378ac56471f341914a7e/zeroconf-0.67.0.tar.gz
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.3.3.tar.gz tmp/webhooklib-0.4.0.tar.gz --markdown 20230617/w/webhooklib/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 20:55:22] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.3.3.tar.gz tmp/webhooklib-0.4.0.tar.gz --markdown 20230617/w/webhooklib/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 20:55:23] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/1a/ba/c5c5a1d863a07db64fdc744618e6cc66c8de37bcdd7cbf0dd5e65cd1d6a6/next-bus-bot-1.0.3.tar.gz
+[2023-06-17 20:55:23] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/62/97/12a9c5023d43e261c19004b64e17315339ee6d4ccaed4d1ed048950045dd/zeroconf-0.68.0.tar.gz
+[2023-06-17 20:55:23] INFO root fetch - processPackages [next-bus-bot]: executing diffoscope
+[2023-06-17 20:55:23] INFO root fetch - processPackages [next-bus-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next-bus-bot-1.0.2.tar.gz tmp/next-bus-bot-1.0.3.tar.gz --markdown 20230617/n/next-bus-bot/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 20:55:23] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-17 20:55:23] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.67.0.tar.gz tmp/zeroconf-0.68.0.tar.gz --markdown 20230617/z/zeroconf/0.67.0-0.68.0/diff.md --exclude *.pyd
+[2023-06-17 20:55:23] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.3.3.tar.gz]
+[2023-06-17 20:55:23] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.4.0.tar.gz]
+[2023-06-17 20:55:23] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 20:55:23] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 20:55:24] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.67.0.tar.gz]
+[2023-06-17 20:55:24] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.68.0.tar.gz]
+[2023-06-17 20:55:24] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-17 20:56:17] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.0.2.tar.gz]
+[2023-06-17 20:56:17] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.0.3.tar.gz]
+[2023-06-17 20:56:17] INFO root fetch - main [MainThread]: End processing [next-bus-bot]: success
+[2023-06-17 20:56:17] INFO root fetch - main [MainThread]: Store serial: [18545302]
