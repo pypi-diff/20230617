@@ -9331,3 +9331,38 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:05:29] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
 [2023-06-17 08:05:29] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
 [2023-06-17 08:05:29] INFO root fetch - main [MainThread]: Store serial: [18541279]
+[2023-06-17 08:10:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541279]
+[2023-06-17 08:10:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 08:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-freezer
+[2023-06-17 08:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-06-17 08:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolibri-explore-plugin
+[2023-06-17 08:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authomize-rest-api-client
+[2023-06-17 08:10:38] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-06-17 08:10:38] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pytest-freezer]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230616] Old Version: [2.4.0.dev20230615]
+[2023-06-17 08:10:38] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/15/4b/3d17329d29bc45ff0d1096662110273606842c4dcef209a197cddfa85941/authomize-rest-api-client-4.2.8.tar.gz
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/76/3f/c342ed2ee53f89204c2416829c188e9020865c1fb8c75c772e09fbe1a2da/pyg_nightly-2.4.0.dev20230615.tar.gz
+[2023-06-17 08:10:38] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-17 08:10:38] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-17 08:10:38] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pytest-freezer]: Downloading https://files.pythonhosted.org/packages/8e/1c/b2fc7216e8185f9185e46a6f7293d131641c7781353c37e1e2f05c232500/pytest_freezer-0.4.6.tar.gz
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/9d/66/f29f137fc90cf6610468354169af14dbac396a12fccff11eab9b224fc7d5/pyg_nightly-2.4.0.dev20230616.tar.gz
+[2023-06-17 08:10:38] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/af/47/04e8f1f47a6c6080c20babc34bc9a1945f761c1f6b9e82b9065bb66d8c7f/authomize-rest-api-client-4.2.9.tar.gz
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-17 08:10:38] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230615.tar.gz tmp/pyg_nightly-2.4.0.dev20230616.tar.gz --markdown 20230617/p/pyg-nightly/2.4.0.dev20230615-2.4.0.dev20230616/diff.md --exclude *.pyd
+[2023-06-17 08:10:38] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-06-17 08:10:38] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.2.8.tar.gz tmp/authomize-rest-api-client-4.2.9.tar.gz --markdown 20230617/a/authomize-rest-api-client/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-06-17 08:10:39] INFO root fetch - processPackages [pytest-freezer]: Downloading https://files.pythonhosted.org/packages/1a/06/a28ba59bad74f0f5b9146524c81acbc99599a4ac7c8b118f2b8773df26c5/pytest_freezer-0.4.7.tar.gz
+[2023-06-17 08:10:39] INFO root fetch - processPackages [pytest-freezer]: executing diffoscope
+[2023-06-17 08:10:39] INFO root fetch - processPackages [pytest-freezer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_freezer-0.4.6.tar.gz tmp/pytest_freezer-0.4.7.tar.gz --markdown 20230617/p/pytest-freezer/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-17 08:10:39] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.8.tar.gz]
+[2023-06-17 08:10:39] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.9.tar.gz]
+[2023-06-17 08:10:39] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-06-17 08:10:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230615.tar.gz]
+[2023-06-17 08:10:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230616.tar.gz]
+[2023-06-17 08:10:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-17 08:11:19] INFO root fetch - processPackages [pytest-freezer]: Remove: archive file [/home/abi/fetcher/tmp/pytest_freezer-0.4.6.tar.gz]
+[2023-06-17 08:11:19] INFO root fetch - processPackages [pytest-freezer]: Remove: archive file [/home/abi/fetcher/tmp/pytest_freezer-0.4.7.tar.gz]
+[2023-06-17 08:11:19] INFO root fetch - main [MainThread]: End processing [pytest-freezer]: success
+[2023-06-17 08:11:19] INFO root fetch - main [MainThread]: Store serial: [18541289]
