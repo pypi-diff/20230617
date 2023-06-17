@@ -10474,3 +10474,27 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:27:54] INFO root fetch - processPackages [zhtools]: Remove: archive file [/home/abi/fetcher/tmp/zhtools-1.0.0.tar.gz]
 [2023-06-17 10:27:54] INFO root fetch - main [MainThread]: End processing [zhtools]: success
 [2023-06-17 10:27:54] INFO root fetch - main [MainThread]: Store serial: [18541775]
+[2023-06-17 10:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541775]
+[2023-06-17 10:33:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idoctorai
+[2023-06-17 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litebird-sim
+[2023-06-17 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpteasy
+[2023-06-17 10:33:04] INFO root fetch - processPackages [idoctorai]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-17 10:33:04] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/ae/18/1e9a607eaef954b24ad69fe134afd6d0aec1cd9f8320dc79e68dc2a0e124/idoctorai-0.4.6.tar.gz
+[2023-06-17 10:33:04] WARNING root fetch - processPackages [gpteasy]: Skipping, unable to determine old version
+[2023-06-17 10:33:04] INFO root fetch - main [MainThread]: End processing [gpteasy] error
+[2023-06-17 10:33:04] INFO root fetch - processPackages [litebird-sim]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-17 10:33:04] INFO root fetch - processPackages [litebird-sim]: Downloading https://files.pythonhosted.org/packages/32/18/046f7929cefdaadf005625b7593b4f198ac7d2a286414e760232d570470f/litebird_sim-0.8.0.tar.gz
+[2023-06-17 10:33:04] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/5c/5d/95d49318d9f472ba55ecb388c7ae5737d9e6a477e13de28819213290d529/idoctorai-0.4.7.tar.gz
+[2023-06-17 10:33:04] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 10:33:04] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.6.tar.gz tmp/idoctorai-0.4.7.tar.gz --markdown 20230617/i/idoctorai/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-17 10:33:05] INFO root fetch - processPackages [litebird-sim]: Downloading https://files.pythonhosted.org/packages/7a/0f/214325ad81437684ffc3513a4b50e81ace9e4c4ded56ed668a734e72ba1d/litebird_sim-0.9.0.tar.gz
+[2023-06-17 10:33:05] INFO root fetch - processPackages [litebird-sim]: executing diffoscope
+[2023-06-17 10:33:05] INFO root fetch - processPackages [litebird-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litebird_sim-0.8.0.tar.gz tmp/litebird_sim-0.9.0.tar.gz --markdown 20230617/l/litebird-sim/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-17 10:33:06] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.6.tar.gz]
+[2023-06-17 10:33:06] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.7.tar.gz]
+[2023-06-17 10:33:06] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 10:33:07] INFO root fetch - processPackages [litebird-sim]: Remove: archive file [/home/abi/fetcher/tmp/litebird_sim-0.8.0.tar.gz]
+[2023-06-17 10:33:07] INFO root fetch - processPackages [litebird-sim]: Remove: archive file [/home/abi/fetcher/tmp/litebird_sim-0.9.0.tar.gz]
+[2023-06-17 10:33:07] INFO root fetch - main [MainThread]: End processing [litebird-sim]: success
+[2023-06-17 10:33:07] INFO root fetch - main [MainThread]: Store serial: [18541791]
