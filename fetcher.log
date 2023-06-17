@@ -11081,3 +11081,39 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:20:25] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-17 11:20:25] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-17 11:20:25] INFO root fetch - main [MainThread]: Store serial: [18542027]
+[2023-06-17 11:25:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542027]
+[2023-06-17 11:25:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 11:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmfs
+[2023-06-17 11:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unasyncd
+[2023-06-17 11:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insurance
+[2023-06-17 11:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: af-adapter
+[2023-06-17 11:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-future
+[2023-06-17 11:25:34] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5143]
+[2023-06-17 11:25:34] INFO root fetch - processPackages [mo-future]: New version: [7.414.23168] Old Version: [7.401.23144]
+[2023-06-17 11:25:34] WARNING root fetch - processPackages [af-adapter]: Skipping, unable to determine old version
+[2023-06-17 11:25:34] INFO root fetch - main [MainThread]: End processing [af-adapter] error
+[2023-06-17 11:25:34] WARNING root fetch - processPackages [insurance]: Skipping, unable to determine old version
+[2023-06-17 11:25:34] INFO root fetch - main [MainThread]: End processing [insurance] error
+[2023-06-17 11:25:34] INFO root fetch - processPackages [unasyncd]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-17 11:25:34] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/bc/42/63a2fb3a34419c8ae9ab29e081cff9c6eb86273f05ce0c07ba234f9111ee/mo_future-7.401.23144-py2.py3-none-any.whl
+[2023-06-17 11:25:34] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/ff/b5/b11091a4fb91008a0a05579e6bf18ac7a860b0eaedc3b423a1083563436a/hmfs-1.1.5143.tar.gz
+[2023-06-17 11:25:34] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/11/f0/64d7a7fa5ee5f742dda5888e064f68f2e5a1d3fcc0a2a9a8d4742b725c75/unasyncd-0.2.1.tar.gz
+[2023-06-17 11:25:34] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/5d/32/0110f81ac93b229a56f5bcdd26324f0f9262158d0c1cf15a2533c1daed57/mo_future-7.414.23168-py2.py3-none-any.whl
+[2023-06-17 11:25:34] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-06-17 11:25:34] INFO root fetch - processPackages [mo-future]: executing diffoscope
+[2023-06-17 11:25:34] INFO root fetch - processPackages [mo-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_future-7.401.23144-py2.py3-none-any.whl.zip tmp/mo_future-7.414.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-future/7.401.23144-7.414.23168/diff.md --exclude *.pyd
+[2023-06-17 11:25:34] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-06-17 11:25:34] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5143.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230617/h/hmfs/1.1.5143-1.1.6/diff.md --exclude *.pyd
+[2023-06-17 11:25:35] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/2e/91/2ca799b0592c357ca0e6cbdd29fe0153e7e422f9a6a8d0156cf717407839/unasyncd-0.3.0.tar.gz
+[2023-06-17 11:25:35] INFO root fetch - processPackages [unasyncd]: executing diffoscope
+[2023-06-17 11:25:35] INFO root fetch - processPackages [unasyncd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasyncd-0.2.1.tar.gz tmp/unasyncd-0.3.0.tar.gz --markdown 20230617/u/unasyncd/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 11:25:35] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo_future-7.401.23144-py2.py3-none-any.whl.zip]
+[2023-06-17 11:25:35] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo_future-7.414.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 11:25:35] INFO root fetch - main [MainThread]: End processing [mo-future]: success
+[2023-06-17 11:25:36] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.2.1.tar.gz]
+[2023-06-17 11:25:36] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.3.0.tar.gz]
+[2023-06-17 11:25:36] INFO root fetch - main [MainThread]: End processing [unasyncd]: success
+[2023-06-17 11:25:38] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.5143.tar.gz]
+[2023-06-17 11:25:38] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
+[2023-06-17 11:25:38] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-06-17 11:25:38] INFO root fetch - main [MainThread]: Store serial: [18542047]
