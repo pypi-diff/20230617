@@ -2424,3 +2424,165 @@
 [2023-06-17 03:17:14] INFO root fetch - processPackages [finance-enums]: Remove: archive file [/home/abi/fetcher/tmp/finance_enums-0.2.3.tar.gz]
 [2023-06-17 03:17:14] INFO root fetch - main [MainThread]: End processing [finance-enums]: success
 [2023-06-17 03:17:14] INFO root fetch - main [MainThread]: Store serial: [18538844]
+[2023-06-17 03:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538844]
+[2023-06-17 03:22:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Double-Dobust-did
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-sb-dc-accessdata
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-kendra
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-schemas
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-athena
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-mediapackagev2
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-sagemaker-featurestore-runtime
+[2023-06-17 03:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-quicksight
+[2023-06-17 03:22:22] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:22] WARNING root fetch - processPackages [Double-Dobust-did]: Skipping, unable to determine old version
+[2023-06-17 03:22:22] INFO root fetch - processPackages [Double-Dobust-did]: Start processing: botocore-a-la-carte-polly
+[2023-06-17 03:22:22] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: New version: [1.29.155] Old Version: [1.29.154]
+[2023-06-17 03:22:22] WARNING root fetch - processPackages [netbox-sb-dc-accessdata]: Skipping, unable to determine old version
+[2023-06-17 03:22:22] INFO root fetch - main [MainThread]: End processing [Double-Dobust-did] error
+[2023-06-17 03:22:22] INFO root fetch - processPackages [netbox-sb-dc-accessdata]: Start processing: botocore-a-la-carte-batch
+[2023-06-17 03:22:22] INFO root fetch - main [MainThread]: End processing [netbox-sb-dc-accessdata] error
+[2023-06-17 03:22:22] INFO root fetch - processPackages [botocore-a-la-carte-athena]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-polly]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-batch]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Downloading https://files.pythonhosted.org/packages/2b/0f/3166e509fafd86383268ce98b5e0c841d870371fa3e55979f3e298fed5e4/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-polly]: Downloading https://files.pythonhosted.org/packages/a5/b5/9a5392d06654551f77bcc74177045dd9818ee02df3d6ceac5e06e817178b/botocore-a-la-carte-polly-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Downloading https://files.pythonhosted.org/packages/3d/09/270188ed2c70e235e8ed8cf98494041eb054ff2094a68c57d4402e6a7c50/botocore-a-la-carte-schemas-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Downloading https://files.pythonhosted.org/packages/1b/df/9bb751d315edef028ac7b1bb2933ef2c49460a1c73a3933b51617460eba8/botocore-a-la-carte-athena-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: Downloading https://files.pythonhosted.org/packages/b2/c9/e48dbc0d99f0a9bc54140cf113ea817395102b66df0d3e982610359995bf/botocore-a-la-carte-kendra-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: Downloading https://files.pythonhosted.org/packages/a7/00/a22499de41739d1e4218cb5bad568b6df13a1452c93a59d5ece9cb2622d5/botocore-a-la-carte-mediapackagev2-1.29.154.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-batch]: Downloading https://files.pythonhosted.org/packages/e0/27/278ed07939ed1b5b6573a24ce33116de276aa182ec679db2866c3f76c25f/botocore-a-la-carte-batch-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/50/fd/337a8bedaf0dd34a4e325834689d18d6a1210392647df6c3f9552465c40e/botocore-a-la-carte-quicksight-1.29.98.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-polly]: Downloading https://files.pythonhosted.org/packages/4c/4a/415f2b08c41b2935225f7952c3ce5d221aef04c5f5985f5c4b7070c0d28d/botocore-a-la-carte-polly-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Downloading https://files.pythonhosted.org/packages/07/33/f61c496bb5f07620d2d2033c10608187d2049f3d3cd37ee5c22bbecd96d7/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230617/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-polly]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-polly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-polly-1.29.98.tar.gz tmp/botocore-a-la-carte-polly-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-polly/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Downloading https://files.pythonhosted.org/packages/9e/2a/60e5c7fc456b88e88b0bbd3665131e28680d09d667f2fce567eaf6e4b5a3/botocore-a-la-carte-schemas-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Downloading https://files.pythonhosted.org/packages/b2/35/3f856874392ce0f503cffb1c830926cc809f468dd711194c2cea833de7d4/botocore-a-la-carte-athena-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: Downloading https://files.pythonhosted.org/packages/c2/1e/2fcafe94b51d6a64f25c4fb0849bafc0045825e8519b876cac4dca74e248/botocore_a_la_carte_mediapackagev2-1.29.155-py3-none-any.whl
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: Downloading https://files.pythonhosted.org/packages/47/a6/53b8c7279d36090623bb0d32be0a11d1d9d891165e52ebcd212e79fca16c/botocore-a-la-carte-kendra-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230617/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-sagemaker-featurestore-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-athena]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-athena-1.29.98.tar.gz tmp/botocore-a-la-carte-athena-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-athena/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-batch]: Downloading https://files.pythonhosted.org/packages/0a/28/5e9294eb3c97c0f0758de62d11d838e951436b1113f26cc68e09030e6d39/botocore-a-la-carte-batch-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-schemas-1.29.98.tar.gz tmp/botocore-a-la-carte-schemas-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-schemas/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/78/7e/2ef2449cc6d6bb0fa2fefd96cf4f12258bbae800b058c2cdc2eaae930c61/botocore-a-la-carte-quicksight-1.29.99.tar.gz
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-batch]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-batch-1.29.98.tar.gz tmp/botocore-a-la-carte-batch-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-batch/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mediapackagev2-1.29.154.tar.gz tmp/botocore_a_la_carte_mediapackagev2-1.29.155-py3-none-any.whl.zip --markdown 20230617/b/botocore-a-la-carte-mediapackagev2/1.29.154-1.29.155/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kendra-1.29.98.tar.gz tmp/botocore-a-la-carte-kendra-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-kendra/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: executing diffoscope
+[2023-06-17 03:22:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-quicksight-1.29.98.tar.gz tmp/botocore-a-la-carte-quicksight-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-quicksight/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-athena-1.29.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-athena-1.29.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Start processing: botocore-a-la-carte-appflow
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-athena]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-schemas-1.29.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-schemas-1.29.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Start processing: botocore-a-la-carte-sagemaker-a2i-runtime
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-schemas]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: Downloading https://files.pythonhosted.org/packages/96/35/120f219c68ed901537d50163d6bd989c7c3899b9f59a15ac6ff988e554ca/botocore-a-la-carte-appflow-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-batch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-batch-1.29.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-batch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-batch-1.29.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-batch]: Start processing: botocore-a-la-carte-datapipeline
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-batch]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: Downloading https://files.pythonhosted.org/packages/2c/19/24b5750d3feaf3fb22319469bc5aa8bfce0ab9d0523dbb57577823502a90/botocore-a-la-carte-datapipeline-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-featurestore-runtime-1.29.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-featurestore-runtime]: Start processing: botocore-a-la-carte-fsx
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-featurestore-runtime]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediapackagev2-1.29.154.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_mediapackagev2-1.29.155-py3-none-any.whl.zip]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-mediapackagev2]: Start processing: botocore-a-la-carte-autoscaling-plans
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mediapackagev2]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/42/0c/31634e99880c0c1d818859f712e6ca3afbfe348f936e7e04746e737275c2/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-polly]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-polly-1.29.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-polly]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-polly-1.29.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-polly]: Start processing: botocore-a-la-carte-tnb
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-polly]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: Downloading https://files.pythonhosted.org/packages/39/db/4d106325175aef05d30503cc7eaf4f363993fcea5e5573fbfbeb904b7b97/botocore-a-la-carte-appflow-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Downloading https://files.pythonhosted.org/packages/0e/cf/9ccc345224cf58162083014aff7425764b0d1fcc512b189189fd8318c982/botocore-a-la-carte-fsx-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: Downloading https://files.pythonhosted.org/packages/6f/07/4eee18516fc48fadef936181b19b77491e1966e2003c916c4f09f4981790/botocore-a-la-carte-autoscaling-plans-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [cdk-lambda-subminute]: Start processing: botocore-a-la-carte-kms
+[2023-06-17 03:22:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: executing diffoscope
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-appflow-1.29.98.tar.gz tmp/botocore-a-la-carte-appflow-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-appflow/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-kms]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: Downloading https://files.pythonhosted.org/packages/5b/60/eace9c097f4a863c367b650bdc626326af9e9fc1517a14bc46f71860dc3a/botocore-a-la-carte-tnb-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/34/ab/28e3d2eaf92694d1aa76d8281140ccf30c37b98bcc33402de3e9376d8ebc/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: Downloading https://files.pythonhosted.org/packages/f8/86/c4faa5d3f48f590c87db98277e780f85fcf3fe8b061c8ec976ab850a521b/botocore-a-la-carte-datapipeline-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Downloading https://files.pythonhosted.org/packages/87/0a/94902328a579e228774bf15bf3d55ca0b3cc6c9394fc0e72243f9d886034/botocore-a-la-carte-kms-1.29.98.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: executing diffoscope
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-sagemaker-a2i-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: executing diffoscope
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-datapipeline-1.29.98.tar.gz tmp/botocore-a-la-carte-datapipeline-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-datapipeline/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Downloading https://files.pythonhosted.org/packages/03/b9/4bc488be8a3f66bdcf180faf54ea533058e919d6ccc86808520197a67ddb/botocore-a-la-carte-fsx-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: Downloading https://files.pythonhosted.org/packages/2e/5d/2fcefa49b86e9333677fd8efbd9dcc6fd6fbfeae3b363b1380745a303d9c/botocore-a-la-carte-tnb-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: Downloading https://files.pythonhosted.org/packages/e5/9d/d95d990370a40f7838475608410e684bdb88e37176e5b21b989ef2d53288/botocore-a-la-carte-autoscaling-plans-1.29.99.tar.gz
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: executing diffoscope
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-fsx-1.29.98.tar.gz tmp/botocore-a-la-carte-fsx-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-fsx/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: executing diffoscope
+[2023-06-17 03:22:25] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-tnb-1.29.98.tar.gz tmp/botocore-a-la-carte-tnb-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-tnb/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Downloading https://files.pythonhosted.org/packages/0c/b8/2bf3ec04115a9fd3d5e28204a6d634ec2446db18dbc260e5446121cb52fa/botocore-a-la-carte-kms-1.29.99.tar.gz
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: executing diffoscope
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-autoscaling-plans-1.29.98.tar.gz tmp/botocore-a-la-carte-autoscaling-plans-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-autoscaling-plans/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-kms]: executing diffoscope
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kms-1.29.98.tar.gz tmp/botocore-a-la-carte-kms-1.29.99.tar.gz --markdown 20230617/b/botocore-a-la-carte-kms/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kendra-1.29.98.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-kendra]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kendra-1.29.99.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kendra]: success
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.98.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.29.99.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-a2i-runtime]: success
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-datapipeline-1.29.98.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - processPackages [botocore-a-la-carte-datapipeline]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-datapipeline-1.29.99.tar.gz]
+[2023-06-17 03:22:26] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-datapipeline]: success
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-fsx-1.29.98.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-fsx-1.29.99.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-fsx]: success
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-autoscaling-plans-1.29.98.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling-plans]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-autoscaling-plans-1.29.99.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-autoscaling-plans]: success
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.29.98.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.29.99.tar.gz]
+[2023-06-17 03:22:27] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-quicksight]: success
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-tnb-1.29.98.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-tnb]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-tnb-1.29.99.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-tnb]: success
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appflow-1.29.98.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-appflow]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appflow-1.29.99.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-appflow]: success
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kms-1.29.98.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kms-1.29.99.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kms]: success
+[2023-06-17 03:22:28] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-17 03:22:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-17 03:22:28] INFO root fetch - main [MainThread]: Store serial: [18538890]
