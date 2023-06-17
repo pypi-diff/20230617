@@ -16648,3 +16648,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:54:06] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.0-cp39-non-any.whl.zip]
 [2023-06-17 18:54:06] INFO root fetch - main [MainThread]: End processing [dal-python]: success
 [2023-06-17 18:54:06] INFO root fetch - main [MainThread]: Store serial: [18544755]
+[2023-06-17 18:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544755]
+[2023-06-17 18:59:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-project-center
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mleko
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigtree
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git-gitlab
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AlgoMaster
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiolm-pytorch
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProTaska-GPT
+[2023-06-17 18:59:18] WARNING root fetch - processPackages [AlgoMaster]: Skipping, unable to determine old version
+[2023-06-17 18:59:18] INFO root fetch - main [MainThread]: End processing [AlgoMaster] error
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/b8/f4/f9c8debb9852650eacc016335c6f10a3ecb248beca4510e8179d154fa9dc/audiolm-pytorch-1.2.0.tar.gz
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/42/f2/8e58489a292938ff342527503df91b647aacc82cff40ab0dab6445ca30a6/ProTaska-GPT-0.0.6.tar.gz
+[2023-06-17 18:59:18] INFO root fetch - processPackages [mleko]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [bigtree]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [django-project-center]: New version: [1.3] Old Version: [1.2]
+[2023-06-17 18:59:18] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/7b/45/ec429242de57cb4eef803e5cb6eb8d55d10ea9c1f286808856d99ab41e96/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl
+[2023-06-17 18:59:18] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/6f/c3/8e6e947fddd1241d96bb9c21aad87cc36e62e579c4d6f3f284e388ecb754/bigtree-0.9.3.tar.gz
+[2023-06-17 18:59:18] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/ee/16/284bb9172de0e2c6ab43f3833c0eaa6b3002d4b46af162558a6a51a2edcf/mleko-0.4.2.tar.gz
+[2023-06-17 18:59:18] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/30/88/9a1bcf60125ebc406a23375f128244682cb720b7be5fab914c5a083b2136/django-project-center-1.2.tar.gz
+[2023-06-17 18:59:18] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/aa/f0/3b618b51c2e9932a0edc56104bf7dcde5cebc668a88400d125dd12900904/ProTaska-GPT-0.0.7.tar.gz
+[2023-06-17 18:59:19] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/27/4b/08067ddf05a310017fe63e9c7be9f59dce5d7bdb5ebda279da455277c946/audiolm-pytorch-1.2.1.tar.gz
+[2023-06-17 18:59:19] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.6.tar.gz tmp/ProTaska-GPT-0.0.7.tar.gz --markdown 20230617/P/ProTaska-GPT/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-17 18:59:19] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.2.0.tar.gz tmp/audiolm-pytorch-1.2.1.tar.gz --markdown 20230617/a/audiolm-pytorch/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-17 18:59:19] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/53/03/2396132b9984be21d4b4827cef69ca9a9ac54cfdc36b600b8e82bd51a19d/mleko-0.5.0.tar.gz
+[2023-06-17 18:59:19] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/5c/10/deef37f6a6c117971c2557277b16ad3a4980b5514b1e06287b57a383d31e/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl
+[2023-06-17 18:59:19] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/34/6a/ce80a554f632244a77e52f4ebec9eff87028bf689b10309a25b16c73f6fc/django-project-center-1.3.tar.gz
+[2023-06-17 18:59:19] INFO root fetch - processPackages [mleko]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [mleko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mleko-0.4.2.tar.gz tmp/mleko-0.5.0.tar.gz --markdown 20230617/m/mleko/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 18:59:19] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230617/x/xia-git-gitlab/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 18:59:19] INFO root fetch - processPackages [django-project-center]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [django-project-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-center-1.2.tar.gz tmp/django-project-center-1.3.tar.gz --markdown 20230617/d/django-project-center/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-17 18:59:19] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/a3/06/d26933e315119b44cb2b7cfcfde9085578c4bfefd8991b2f226ab875ec4e/bigtree-0.9.4.tar.gz
+[2023-06-17 18:59:19] INFO root fetch - processPackages [bigtree]: executing diffoscope
+[2023-06-17 18:59:19] INFO root fetch - processPackages [bigtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtree-0.9.3.tar.gz tmp/bigtree-0.9.4.tar.gz --markdown 20230617/b/bigtree/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-17 18:59:20] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.6.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.7.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-17 18:59:20] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.0.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.1.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-06-17 18:59:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-17 18:59:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-17 18:59:20] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-17 18:59:20] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-1.2.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-1.3.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - main [MainThread]: End processing [django-project-center]: success
+[2023-06-17 18:59:20] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-0.4.2.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-0.5.0.tar.gz]
+[2023-06-17 18:59:20] INFO root fetch - main [MainThread]: End processing [mleko]: success
+[2023-06-17 18:59:23] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.3.tar.gz]
+[2023-06-17 18:59:23] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.4.tar.gz]
+[2023-06-17 18:59:23] INFO root fetch - main [MainThread]: End processing [bigtree]: success
+[2023-06-17 18:59:23] INFO root fetch - main [MainThread]: Store serial: [18544778]
