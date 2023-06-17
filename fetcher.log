@@ -13381,3 +13381,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:58:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.5.tar.gz]
 [2023-06-17 14:58:20] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-06-17 14:58:20] INFO root fetch - main [MainThread]: Store serial: [18543055]
+[2023-06-17 15:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543055]
+[2023-06-17 15:03:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honkairail
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newshomepages
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wgd
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kedro-ibis-dataset
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kast-flow-api-python
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AshCrypt
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openllm
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-17 15:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unasyncd
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.6b1] Old Version: [0.0.6a3]
+[2023-06-17 15:03:32] WARNING root fetch - processPackages [AshCrypt]: Skipping, unable to determine old version
+[2023-06-17 15:03:32] INFO root fetch - main [MainThread]: End processing [AshCrypt] error
+[2023-06-17 15:03:32] INFO root fetch - processPackages [unasyncd]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [newshomepages]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/39/45/92045b0a8d639f9ac64ebb363f11c98a417a6fbc9091acba16622a05c9d5/kedro_ibis_dataset-0.0.6a3.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/11/f0/64d7a7fa5ee5f742dda5888e064f68f2e5a1d3fcc0a2a9a8d4742b725c75/unasyncd-0.2.1.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [wgd]: New version: [2.0.18] Old Version: [2.0.16]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [honkairail]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kast-flow-api-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [openllm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/80/b1/9f8f691f3103d37bd22fdefccc25330667e9cdd7219746b425109e9770b1/newshomepages-0.0.8.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-17 15:03:32] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/9b/61/598ab174417a871f4112a479dc16867080dc3e6c312847d088a6171a8a64/wgd-2.0.16.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/36/9c/546a48ae79781bb929968868642a361242f79ab849dfba9c837dd920eb21/kedro_ibis_dataset-0.0.6b1.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/2e/91/2ca799b0592c357ca0e6cbdd29fe0153e7e422f9a6a8d0156cf717407839/unasyncd-0.3.0.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.17] Old Version: [2023.6.16]
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/5d/0c/5d4fa2026670e53f354f37c621086ba6edafc1bd852262bba3e836ccd224/kast_flow_api_python-1.0.3.tar.gz
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 15:03:32] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.6a3.tar.gz tmp/kedro_ibis_dataset-0.0.6b1.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.6a3-0.0.6b1/diff.md --exclude *.pyd
+[2023-06-17 15:03:32] INFO root fetch - processPackages [unasyncd]: executing diffoscope
+[2023-06-17 15:03:32] INFO root fetch - processPackages [unasyncd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasyncd-0.2.1.tar.gz tmp/unasyncd-0.3.0.tar.gz --markdown 20230617/u/unasyncd/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 15:03:32] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/ba/f1/aa0d87106b8a1e7f180be2199bf6f098764a54e6ef66acea34130fa3a3ec/honkairail-1.0.2.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/8b/b7/3fa598b679a6ffb5def7eb976b39495c185d9ff36ca562a7bfc6f4ffd8cc/openllm-0.1.5.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bb/cb/e1bd5e284d6144936065417206c7cc00d24278ac97cb43ff31fc5549996d/fbgemm_gpu_nightly_cpu-2023.6.16-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-17 15:03:33] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/11/c4/54b425f19c160653a3dc7ea1b0d4c3cac1599d9bcf7ae5d4bc1eff1b4b12/newshomepages-0.0.9.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-17 15:03:33] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/3f/ee/c15770f01b6153d65821e73139719384f5e1f35ea660c2b55c2798015dd5/wgd-2.0.18.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/95/d2/f6b7f684f89e59821cd5a3c29294f595a49a21bb7618c624aaa9b3610344/kast_flow_api_python-1.0.4.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/e1/63/b75adaaf29346f9acd0ffcd146b00dc22719868ee97f1158c12972713394/honkairail-1.0.3.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [newshomepages]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [newshomepages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newshomepages-0.0.8.tar.gz tmp/newshomepages-0.0.9.tar.gz --markdown 20230617/n/newshomepages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 15:03:33] INFO root fetch - processPackages [kast-flow-api-python]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [kast-flow-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kast_flow_api_python-1.0.3.tar.gz tmp/kast_flow_api_python-1.0.4.tar.gz --markdown 20230617/k/kast-flow-api-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-17 15:03:33] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.2.tar.gz tmp/honkairail-1.0.3.tar.gz --markdown 20230617/h/honkairail/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 15:03:33] INFO root fetch - processPackages [wgd]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [wgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgd-2.0.16.tar.gz tmp/wgd-2.0.18.tar.gz --markdown 20230617/w/wgd/2.0.16-2.0.18/diff.md --exclude *.pyd
+[2023-06-17 15:03:33] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230617/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-17 15:03:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/35/38/82bf5d3a5de619bf30638710ecea5cdf977c9195173b409ac113c54417bc/openllm-0.1.6.tar.gz
+[2023-06-17 15:03:33] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-17 15:03:33] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.5.tar.gz tmp/openllm-0.1.6.tar.gz --markdown 20230617/o/openllm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 15:03:34] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/99/27/11020e9652817c79d069f28be5ea80b3fef429a98622e0c3bfb2c42dd937/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-17 15:03:34] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a3.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6b1.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 15:03:34] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.2.1.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.3.0.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - main [MainThread]: End processing [unasyncd]: success
+[2023-06-17 15:03:34] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.3.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.4.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - main [MainThread]: End processing [kast-flow-api-python]: success
+[2023-06-17 15:03:34] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.2.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.3.tar.gz]
+[2023-06-17 15:03:34] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-17 15:03:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-17 15:03:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.16-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230617/f/fbgemm-gpu-nightly-cpu/2023.6.16-2023.6.17/diff.md --exclude *.pyd
+[2023-06-17 15:03:35] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.16.tar.gz]
+[2023-06-17 15:03:35] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.18.tar.gz]
+[2023-06-17 15:03:35] INFO root fetch - main [MainThread]: End processing [wgd]: success
+[2023-06-17 15:03:36] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.5.tar.gz]
+[2023-06-17 15:03:36] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.6.tar.gz]
+[2023-06-17 15:03:36] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-17 15:03:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-17 15:03:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-17 15:03:38] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-17 15:03:40] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.8.tar.gz]
+[2023-06-17 15:03:40] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
+[2023-06-17 15:03:40] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
+[2023-06-17 15:04:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.16-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-17 15:04:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-17 15:04:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-17 15:04:17] INFO root fetch - main [MainThread]: Store serial: [18543085]
