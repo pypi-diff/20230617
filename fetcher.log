@@ -12502,3 +12502,31 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 13:38:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl.zip]
 [2023-06-17 13:38:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-06-17 13:38:49] INFO root fetch - main [MainThread]: Store serial: [18542656]
+[2023-06-17 13:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542656]
+[2023-06-17 13:43:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 13:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eng-spacysentiment
+[2023-06-17 13:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-06-17 13:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bio2csv
+[2023-06-17 13:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erniebotchat
+[2023-06-17 13:43:58] INFO root fetch - processPackages [bio2csv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 13:43:58] WARNING root fetch - processPackages [erniebotchat]: Skipping, unable to determine old version
+[2023-06-17 13:43:58] INFO root fetch - main [MainThread]: End processing [erniebotchat] error
+[2023-06-17 13:43:58] INFO root fetch - processPackages [eng-spacysentiment]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-17 13:43:58] INFO root fetch - processPackages [bio2csv]: Downloading https://files.pythonhosted.org/packages/4c/b9/74dcebafc5bc93de4341fc264006768e93c969a473dc6bc6bca829c2c129/bio2csv-0.0.2.tar.gz
+[2023-06-17 13:43:58] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687000253] Old Version: [0.0.101686913954]
+[2023-06-17 13:43:58] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/73/7a/279e535190e904b3cf779f18f4b93d9e724272478e5c3aecca39b603de11/eng_spacysentiment-2.1.0.tar.gz
+[2023-06-17 13:43:58] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/d7/f0/73c610594596a52eeefab96b1ce921b5ba81f465117708d2312ac5623aa6/pyre-check-nightly-0.0.101686913954.tar.gz
+[2023-06-17 13:43:58] INFO root fetch - processPackages [bio2csv]: Downloading https://files.pythonhosted.org/packages/75/5b/42e3c85eedbbe8419da77f7227c29fce9e9411881d3b11cae08907ebb173/bio2csv-0.0.3.tar.gz
+[2023-06-17 13:43:58] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23507890>=10485760
+[2023-06-17 13:43:58] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-17 13:43:58] INFO root fetch - processPackages [bio2csv]: executing diffoscope
+[2023-06-17 13:43:58] INFO root fetch - processPackages [bio2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio2csv-0.0.2.tar.gz tmp/bio2csv-0.0.3.tar.gz --markdown 20230617/b/bio2csv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 13:43:58] INFO root fetch - processPackages [eng-spacysentiment]: Downloading https://files.pythonhosted.org/packages/79/20/b76cfbfc99d277806102a01e27e9d968a9315c27e8cb82869871cfa6c63e/eng_spacysentiment-2.2.0.tar.gz
+[2023-06-17 13:43:58] INFO root fetch - processPackages [eng-spacysentiment]: executing diffoscope
+[2023-06-17 13:43:58] INFO root fetch - processPackages [eng-spacysentiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eng_spacysentiment-2.1.0.tar.gz tmp/eng_spacysentiment-2.2.0.tar.gz --markdown 20230617/e/eng-spacysentiment/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-17 13:43:59] INFO root fetch - processPackages [bio2csv]: Remove: archive file [/home/abi/fetcher/tmp/bio2csv-0.0.2.tar.gz]
+[2023-06-17 13:43:59] INFO root fetch - processPackages [bio2csv]: Remove: archive file [/home/abi/fetcher/tmp/bio2csv-0.0.3.tar.gz]
+[2023-06-17 13:43:59] INFO root fetch - main [MainThread]: End processing [bio2csv]: success
+[2023-06-17 13:46:59] ERROR root fetch - processPackages [eng-spacysentiment]: Timeout during execution of pkgdiff
+[2023-06-17 13:46:59] INFO root fetch - main [MainThread]: End processing [eng-spacysentiment] error
+[2023-06-17 13:46:59] INFO root fetch - main [MainThread]: Store serial: [18542669]
