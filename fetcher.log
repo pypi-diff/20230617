@@ -13855,3 +13855,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:20:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.5.tar.gz]
 [2023-06-17 15:20:51] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-06-17 15:20:51] INFO root fetch - main [MainThread]: Store serial: [18543232]
+[2023-06-17 15:25:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543232]
+[2023-06-17 15:26:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 15:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide2-Fluent-Widgets
+[2023-06-17 15:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brunotest
+[2023-06-17 15:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nibiru
+[2023-06-17 15:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shapes-recognition
+[2023-06-17 15:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsrs4anki-optimizer
+[2023-06-17 15:26:01] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.5] Old Version: [3.24.4]
+[2023-06-17 15:26:01] INFO root fetch - processPackages [brunotest]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-17 15:26:01] INFO root fetch - processPackages [brunotest]: Downloading https://files.pythonhosted.org/packages/0a/3a/9ef19983f97b4cb25580024a8a59eddc61c4ddb1dad11682bd2ebe9801cb/brunotest-0.1.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/b7/05/fb9d29188a969573c41aebe55ab966b4ab646b9457b11c7b8def054aa85c/fsrs4anki_optimizer-3.24.4.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-17 15:26:01] INFO root fetch - processPackages [nibiru]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-17 15:26:01] INFO root fetch - processPackages [shapes-recognition]: New version: [2.1.1] Old Version: [2.0.0]
+[2023-06-17 15:26:01] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/50/03/3a2b2f612f39e722a954fe71bd7524b06cf91a76d8c2039931fe3e23c230/fsrs4anki_optimizer-3.24.5.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [brunotest]: Downloading https://files.pythonhosted.org/packages/22/43/b829757270763b2e6dbb4e1ad3e17ddd99a20591e1a77085e15491bb6b25/brunotest-0.1.1.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/68/0f/a6201e226b8abd22a96d1f584a39e6367a9dc664ae9da9ddd6e7be1d60ac/PySide2-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-17 15:26:01] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.4.tar.gz tmp/fsrs4anki_optimizer-3.24.5.tar.gz --markdown 20230617/f/fsrs4anki-optimizer/3.24.4-3.24.5/diff.md --exclude *.pyd
+[2023-06-17 15:26:01] INFO root fetch - processPackages [brunotest]: executing diffoscope
+[2023-06-17 15:26:01] INFO root fetch - processPackages [brunotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunotest-0.1.tar.gz tmp/brunotest-0.1.1.tar.gz --markdown 20230617/b/brunotest/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 15:26:01] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/c9/8f/3cb00d502eaf610ca4b02f5e37b7c4772342e7a8951630764f454da93faa/nibiru-0.5.3.tar.gz
+[2023-06-17 15:26:01] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-06-17 15:26:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/b9/b6/476007b556f28085f8251602b4847add99bc28448ebeba74ddaceb02270a/PySide2-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-17 15:26:02] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/c4/a7/346400a84fc1c86da41ad62bcc548e38b10fffa54e16789b7c142767254d/shapes_recognition-2.1.1.tar.gz
+[2023-06-17 15:26:02] INFO root fetch - processPackages [nibiru]: Downloading https://files.pythonhosted.org/packages/50/dc/7e6c979729048b5ab50308a9ee2b3d871bec8633dab926fb0c420a1eab55/nibiru-0.5.4.tar.gz
+[2023-06-17 15:26:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-06-17 15:26:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.4.tar.gz tmp/PySide2-Fluent-Widgets-0.9.5.tar.gz --markdown 20230617/P/PySide2-Fluent-Widgets/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-17 15:26:02] INFO root fetch - processPackages [nibiru]: executing diffoscope
+[2023-06-17 15:26:02] INFO root fetch - processPackages [nibiru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru-0.5.3.tar.gz tmp/nibiru-0.5.4.tar.gz --markdown 20230617/n/nibiru/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-17 15:26:02] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-17 15:26:02] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.0.0.tar.gz tmp/shapes_recognition-2.1.1.tar.gz --markdown 20230617/s/shapes-recognition/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-17 15:26:03] INFO root fetch - processPackages [brunotest]: Remove: archive file [/home/abi/fetcher/tmp/brunotest-0.1.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - processPackages [brunotest]: Remove: archive file [/home/abi/fetcher/tmp/brunotest-0.1.1.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - main [MainThread]: End processing [brunotest]: success
+[2023-06-17 15:26:03] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.4.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.5.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-17 15:26:03] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.0.0.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.1.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-17 15:26:03] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.3.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - processPackages [nibiru]: Remove: archive file [/home/abi/fetcher/tmp/nibiru-0.5.4.tar.gz]
+[2023-06-17 15:26:03] INFO root fetch - main [MainThread]: End processing [nibiru]: success
+[2023-06-17 15:26:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-17 15:26:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-17 15:26:06] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-06-17 15:26:06] INFO root fetch - main [MainThread]: Store serial: [18543270]
