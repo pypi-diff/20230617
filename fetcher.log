@@ -1250,3 +1250,96 @@
 [2023-06-17 02:03:32] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.16.0.tar.gz]
 [2023-06-17 02:03:32] INFO root fetch - main [MainThread]: End processing [control-rod]: success
 [2023-06-17 02:03:32] INFO root fetch - main [MainThread]: Store serial: [18538310]
+[2023-06-17 02:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538310]
+[2023-06-17 02:08:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwdetchar
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexam
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqrack
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zrb
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keepercommander
+[2023-06-17 02:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchlayers-nightly
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [gwdetchar]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [kodexam]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230616] Old Version: [0.0.8.dev20230615]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686873807] Old Version: [1686787414]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [keepercommander]: New version: [4.9] Old Version: [4.88]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686874038] Old Version: [1686787651]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/f8/b8/b42df10da7cf0aa7c179e727440b74e3fdec03d137e855c3ba54f4ecfd84/torchdatasets-nightly-1686787414.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-17 02:08:42] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/c0/a2b22cf958e88a88d363794691308d0f1ec5c488361e30dc563defebe7e7/jaxutils-nightly-0.0.8.dev20230615.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/14/4a/6509524d79091d6d9782c63dc20fb03cf47f50f3a8565763fb5a130e6fef/torchlayers-nightly-1686787651.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [kodexam]: Downloading https://files.pythonhosted.org/packages/de/f0/060bd5dc2be20ba637b1e0b9f24aad0eda3a67fed9d9be56f46d908338e1/kodexam-0.0.1.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/8b/4a/cf11b535fdf8c863b17cc257ad7aa2945336a2d898e6d012dcc8524a896a/gwdetchar-2.0.9.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/16/91/5a24b372408888daef4a70bb214157f171e35ef268f1a3904fd190336343/keepercommander-4.88.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230617/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-17 02:08:42] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/92/b9/9f2a757ebe32b77ed88b33f75c7f67f5842b26be58796b9387fcf33630c2/jaxutils-nightly-0.0.8.dev20230616.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/17/fd/b096f643199c75ffc1a1dba273b1afeda98e64412835de17506682ec7ae6/torchlayers-nightly-1686874038.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230617/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/72/67/c41d66aacecdcd2266d9cc8b33971c58687b315c880c7c5fddd058aee5ce/torchdatasets-nightly-1686873807.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/7f/03/c0a27b5f87a026feaaa668a8b2ed73fa67e2fd257001c6c4a9171bf7c159/gwdetchar-2.1.0.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230617/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230615.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230616.tar.gz --markdown 20230617/j/jaxutils-nightly/0.0.8.dev20230615-0.0.8.dev20230616/diff.md --exclude *.pyd
+[2023-06-17 02:08:42] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/81/36/49b1c4234938830448040dbce4a33041541130d80e9ff959c80a7863be75/keepercommander-4.9.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686787651.tar.gz tmp/torchlayers-nightly-1686874038.tar.gz --markdown 20230617/t/torchlayers-nightly/1686787651-1686874038/diff.md --exclude *.pyd
+[2023-06-17 02:08:42] INFO root fetch - processPackages [kodexam]: Downloading https://files.pythonhosted.org/packages/8a/70/9ef1f5fe0eeaa0fd344447bbbc0a2345586963add0fdeedd37a9be51a9f7/kodexam-0.0.2.tar.gz
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-17 02:08:42] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686787414.tar.gz tmp/torchdatasets-nightly-1686873807.tar.gz --markdown 20230617/t/torchdatasets-nightly/1686787414-1686873807/diff.md --exclude *.pyd
+[2023-06-17 02:08:43] INFO root fetch - processPackages [gwdetchar]: executing diffoscope
+[2023-06-17 02:08:43] INFO root fetch - processPackages [gwdetchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdetchar-2.0.9.tar.gz tmp/gwdetchar-2.1.0.tar.gz --markdown 20230617/g/gwdetchar/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-06-17 02:08:43] INFO root fetch - processPackages [kodexam]: executing diffoscope
+[2023-06-17 02:08:43] INFO root fetch - processPackages [kodexam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexam-0.0.1.tar.gz tmp/kodexam-0.0.2.tar.gz --markdown 20230617/k/kodexam/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 02:08:43] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-17 02:08:43] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230617/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-17 02:08:43] INFO root fetch - processPackages [keepercommander]: executing diffoscope
+[2023-06-17 02:08:43] INFO root fetch - processPackages [keepercommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepercommander-4.88.tar.gz tmp/keepercommander-4.9.tar.gz --markdown 20230617/k/keepercommander/4.88-4.9/diff.md --exclude *.pyd
+[2023-06-17 02:08:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-17 02:08:44] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-17 02:08:44] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686787414.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686873807.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-17 02:08:44] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230615.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230616.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-17 02:08:44] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-17 02:08:44] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-17 02:08:45] INFO root fetch - processPackages [kodexam]: Remove: archive file [/home/abi/fetcher/tmp/kodexam-0.0.1.tar.gz]
+[2023-06-17 02:08:45] INFO root fetch - processPackages [kodexam]: Remove: archive file [/home/abi/fetcher/tmp/kodexam-0.0.2.tar.gz]
+[2023-06-17 02:08:45] INFO root fetch - main [MainThread]: End processing [kodexam]: success
+[2023-06-17 02:08:45] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686787651.tar.gz]
+[2023-06-17 02:08:45] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686874038.tar.gz]
+[2023-06-17 02:08:45] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-17 02:08:46] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.0.9.tar.gz]
+[2023-06-17 02:08:46] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.0.tar.gz]
+[2023-06-17 02:08:46] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
+[2023-06-17 02:08:47] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.88.tar.gz]
+[2023-06-17 02:08:47] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.9.tar.gz]
+[2023-06-17 02:08:47] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
+[2023-06-17 02:08:52] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-17 02:08:52] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-17 02:08:52] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-17 02:08:52] INFO root fetch - main [MainThread]: Store serial: [18538347]
