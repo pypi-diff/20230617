@@ -19013,3 +19013,54 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:59:42] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
 [2023-06-17 22:59:42] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2023-06-17 22:59:42] INFO root fetch - main [MainThread]: Store serial: [18545864]
+[2023-06-17 23:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545864]
+[2023-06-17 23:04:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyote
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web-ext-helper
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rss2pdf
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FluidPyPLC
+[2023-06-17 23:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-17 23:04:51] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kfish]: New version: [99.0.202306172103] Old Version: [99.0.202306171204]
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kcli]: New version: [99.0.202306172100] Old Version: [99.0.202306171202]
+[2023-06-17 23:04:51] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-17 23:04:51] INFO root fetch - processPackages [web-ext-helper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-17 23:04:51] WARNING root fetch - processPackages [rss2pdf]: Skipping, unable to determine old version
+[2023-06-17 23:04:51] INFO root fetch - processPackages [pyote]: New version: [5.2.6] Old Version: [5.2.4]
+[2023-06-17 23:04:51] INFO root fetch - main [MainThread]: End processing [rss2pdf] error
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/46/7e/32eb535c7f1e8af617647df1aa94a132260850b15c348aef601e13a816f4/kcli-99.0.202306171202-py3-none-any.whl
+[2023-06-17 23:04:51] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/54/c9/717d9b5e6d66338b2db9dfe168ddfafd0d427dd0fa2be3db10f336ef8069/FluidPyPLC-0.1.9.tar.gz
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a2/fa/5b25754eb666fe26331603f673680cabd1b2ccbcf6458f4c94cca75478c1/kfish-99.0.202306171204-py3-none-any.whl
+[2023-06-17 23:04:51] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/db/65/7ec142fd9d91fd4997dda562ca9f631b793462b3c5a3def7353eb960db75/web_ext_helper-1.0.3.tar.gz
+[2023-06-17 23:04:51] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-17 23:04:51] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.8.tar.gz tmp/FluidPyPLC-0.1.9.tar.gz --markdown 20230617/F/FluidPyPLC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 23:04:51] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/44/7f/8ce2de4bfcc6c4e2b04b075c8cba8c765ff7323ad5bb08cc4dfcd1ed2dad/pyote-5.2.4.tar.gz
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d0/8b/a9c3a05dbfae66296aec19c6b3125227271bb034a15526802e0821b85b32/kcli-99.0.202306172100-py3-none-any.whl
+[2023-06-17 23:04:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/db/52/6274fa1965481138f8035993611bf5c5bf5e3eebc3463209d9732853ac18/kfish-99.0.202306172103-py3-none-any.whl
+[2023-06-17 23:04:52] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/f6/f0/8d78a7021718c8553a0466f98ddff9f7afc7913d1446b87d28068b1f4ccd/web_ext_helper-1.0.4.tar.gz
+[2023-06-17 23:04:52] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-17 23:04:52] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306171204-py3-none-any.whl.zip tmp/kfish-99.0.202306172103-py3-none-any.whl.zip --markdown 20230617/k/kfish/99.0.202306171204-99.0.202306172103/diff.md --exclude *.pyd
+[2023-06-17 23:04:52] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-06-17 23:04:52] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.0.3.tar.gz tmp/web_ext_helper-1.0.4.tar.gz --markdown 20230617/w/web-ext-helper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-17 23:04:52] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-17 23:04:52] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306171202-py3-none-any.whl.zip tmp/kcli-99.0.202306172100-py3-none-any.whl.zip --markdown 20230617/k/kcli/99.0.202306171202-99.0.202306172100/diff.md --exclude *.pyd
+[2023-06-17 23:04:52] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/d7/2a/c6d5140ccf5b8a2dc66c5bf65583066f2657b3df29546dfc14156062838c/pyote-5.2.6.tar.gz
+[2023-06-17 23:04:52] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-06-17 23:04:52] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.2.4.tar.gz tmp/pyote-5.2.6.tar.gz --markdown 20230617/p/pyote/5.2.4-5.2.6/diff.md --exclude *.pyd
+[2023-06-17 23:04:52] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.8.tar.gz]
+[2023-06-17 23:04:52] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.9.tar.gz]
+[2023-06-17 23:04:52] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-17 23:04:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306171204-py3-none-any.whl.zip]
+[2023-06-17 23:04:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306172103-py3-none-any.whl.zip]
+[2023-06-17 23:04:53] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-17 23:04:53] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.3.tar.gz]
+[2023-06-17 23:04:53] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.4.tar.gz]
+[2023-06-17 23:04:53] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-06-17 23:04:55] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.2.4.tar.gz]
+[2023-06-17 23:04:55] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.2.6.tar.gz]
+[2023-06-17 23:04:55] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-06-17 23:05:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306171202-py3-none-any.whl.zip]
+[2023-06-17 23:05:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306172100-py3-none-any.whl.zip]
+[2023-06-17 23:05:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-17 23:05:00] INFO root fetch - main [MainThread]: Store serial: [18545897]
