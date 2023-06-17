@@ -6572,3 +6572,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-17 04:36:52] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-17 04:36:52] INFO root fetch - main [MainThread]: Store serial: [18540276]
+[2023-06-17 04:42:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540276]
+[2023-06-17 04:42:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 04:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynetem
+[2023-06-17 04:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lispi
+[2023-06-17 04:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usda-dashboard
+[2023-06-17 04:42:07] INFO root fetch - processPackages [lispi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 04:42:07] INFO root fetch - processPackages [pynetem]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 04:42:07] INFO root fetch - processPackages [usda-dashboard]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-17 04:42:07] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/38/eb/b1cd8a87e51270d3fdbbcd30b8c6058c9e4db892d76adcbbd449725f6d79/lispi-0.0.7.tar.gz
+[2023-06-17 04:42:07] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/96/7e/7e299240391965efc21f95adcec939f626c3d41972c4173b2601a964fb57/usda_dashboard-0.0.1.tar.gz
+[2023-06-17 04:42:08] INFO root fetch - processPackages [pynetem]: Downloading https://files.pythonhosted.org/packages/9f/33/4c077a7eb6e33538f2d48325dfe63c90f178d0b522e9baa373933acf0e51/pynetem-0.1.4-py2.py3-none-any.whl
+[2023-06-17 04:42:08] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/9c/7f/0c9e6313dd6013a177f1338ec67e62b3299e517a0a3332ed88082bf1e692/lispi-0.0.8.tar.gz
+[2023-06-17 04:42:08] INFO root fetch - processPackages [lispi]: executing diffoscope
+[2023-06-17 04:42:08] INFO root fetch - processPackages [lispi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lispi-0.0.7.tar.gz tmp/lispi-0.0.8.tar.gz --markdown 20230617/l/lispi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 04:42:08] INFO root fetch - processPackages [usda-dashboard]: Downloading https://files.pythonhosted.org/packages/04/59/a77b4d34c80978936d9e2c3ed7ed75a76979e6e5b6453ae20f0a0c5ce9dc/usda_dashboard-0.0.3.tar.gz
+[2023-06-17 04:42:08] INFO root fetch - processPackages [pynetem]: Downloading https://files.pythonhosted.org/packages/b0/5d/14be90499a1d314e77131a8438b108d1780ebc14bf771105ef549fd54257/pynetem-0.1.5.tar.gz
+[2023-06-17 04:42:08] INFO root fetch - processPackages [usda-dashboard]: executing diffoscope
+[2023-06-17 04:42:08] INFO root fetch - processPackages [usda-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda_dashboard-0.0.1.tar.gz tmp/usda_dashboard-0.0.3.tar.gz --markdown 20230617/u/usda-dashboard/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 04:42:08] INFO root fetch - processPackages [pynetem]: executing diffoscope
+[2023-06-17 04:42:08] INFO root fetch - processPackages [pynetem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynetem-0.1.4-py2.py3-none-any.whl.zip tmp/pynetem-0.1.5.tar.gz --markdown 20230617/p/pynetem/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 04:42:09] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.7.tar.gz]
+[2023-06-17 04:42:09] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.8.tar.gz]
+[2023-06-17 04:42:09] INFO root fetch - main [MainThread]: End processing [lispi]: success
+[2023-06-17 04:42:09] INFO root fetch - processPackages [pynetem]: Remove: archive file [/home/abi/fetcher/tmp/pynetem-0.1.4-py2.py3-none-any.whl.zip]
+[2023-06-17 04:42:09] INFO root fetch - processPackages [pynetem]: Remove: archive file [/home/abi/fetcher/tmp/pynetem-0.1.5.tar.gz]
+[2023-06-17 04:42:09] INFO root fetch - main [MainThread]: End processing [pynetem]: success
+[2023-06-17 04:42:11] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.1.tar.gz]
+[2023-06-17 04:42:11] INFO root fetch - processPackages [usda-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/usda_dashboard-0.0.3.tar.gz]
+[2023-06-17 04:42:11] INFO root fetch - main [MainThread]: End processing [usda-dashboard]: success
+[2023-06-17 04:42:11] INFO root fetch - main [MainThread]: Store serial: [18540285]
