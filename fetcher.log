@@ -12710,3 +12710,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:02:40] INFO root fetch - processPackages [damo-embedding]: Remove: archive file [/home/abi/fetcher/tmp/damo_embedding-1.0.5-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2023-06-17 14:02:40] INFO root fetch - main [MainThread]: End processing [damo-embedding]: success
 [2023-06-17 14:02:40] INFO root fetch - main [MainThread]: Store serial: [18542763]
+[2023-06-17 14:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542763]
+[2023-06-17 14:07:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almavik
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dblp-sax-parser
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octomachinery
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-toolbox
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-toolbox
+[2023-06-17 14:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serverless-sdk
+[2023-06-17 14:07:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202306161936] Old Version: [99.0.202306161743]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [almavik]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-17 14:07:50] WARNING root fetch - processPackages [dblp-sax-parser]: Skipping, unable to determine old version
+[2023-06-17 14:07:50] INFO root fetch - main [MainThread]: End processing [dblp-sax-parser] error
+[2023-06-17 14:07:50] INFO root fetch - processPackages [kcli]: New version: [99.0.202306171202] Old Version: [99.0.202306161934]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [octomachinery]: New version: [0.3.6.post0] Old Version: [0.3.6]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [simple-toolbox]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [simple-toolbox]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-17 14:07:50] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/29/05/3bf4e6d0c0798c941bd2ab9f1f9ccce7ecdc5d6cad135feb40dbc183fe7c/almavik-0.2.6.tar.gz
+[2023-06-17 14:07:50] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373513>=10485760
+[2023-06-17 14:07:50] INFO root fetch - processPackages [simple-toolbox]: Downloading https://files.pythonhosted.org/packages/7c/9e/cc446b0927c5415ef8442dd52b385863840c163ebfc51101ba08a6db1166/simple_toolbox-0.1.4.tar.gz
+[2023-06-17 14:07:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7b/f0/5d44383828aceaa3dc5420053c4b7790e43dd14bea26af79e615bd7d7373/kfish-99.0.202306161743-py3-none-any.whl
+[2023-06-17 14:07:50] INFO root fetch - processPackages [simple-toolbox]: Downloading https://files.pythonhosted.org/packages/7c/9e/cc446b0927c5415ef8442dd52b385863840c163ebfc51101ba08a6db1166/simple_toolbox-0.1.4.tar.gz
+[2023-06-17 14:07:50] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 14:07:50] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b8/75/8d24b9d983bf5198db55e5b3297da5ce29fb8854c4d6e16b45fb37a01a56/kcli-99.0.202306161934-py3-none-any.whl
+[2023-06-17 14:07:50] INFO root fetch - processPackages [octomachinery]: Downloading https://files.pythonhosted.org/packages/00/e4/ebb2f18cee06a4aef047d7965bde0456ecb69b3c405ab84ddf9997b353df/octomachinery-0.3.6.tar.gz
+[2023-06-17 14:07:50] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/a7/19/f93827d0a76b7d8be82dea57518cbc31562532e06653eb7ff4f2f6c5a423/serverless-sdk-0.4.8.tar.gz
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/88/3b/0972fa0f4dd53e30a76f214852d95be9ddeafa8d057eda3abb1ade771351/kfish-99.0.202306161936-py3-none-any.whl
+[2023-06-17 14:07:51] INFO root fetch - processPackages [octomachinery]: Downloading https://files.pythonhosted.org/packages/69/f9/216b87cdbe7c1c39084063262dd1bcc12c247e8aae293e8711bc3f26acb3/octomachinery-0.3.6.post0.tar.gz
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: Downloading https://files.pythonhosted.org/packages/df/73/8831106f6102d31912fd174f968611a0c2f4f8754d6b8bd27602d057895d/simple_toolbox-0.1.5.tar.gz
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: Downloading https://files.pythonhosted.org/packages/df/73/8831106f6102d31912fd174f968611a0c2f4f8754d6b8bd27602d057895d/simple_toolbox-0.1.5.tar.gz
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306161743-py3-none-any.whl.zip tmp/kfish-99.0.202306161936-py3-none-any.whl.zip --markdown 20230617/k/kfish/99.0.202306161743-99.0.202306161936/diff.md --exclude *.pyd
+[2023-06-17 14:07:51] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/0f/d4/a3a774565c09ffeb079581a2e2b681e568b85e461273c0bab4238df4d578/serverless-sdk-0.4.9.tar.gz
+[2023-06-17 14:07:51] INFO root fetch - processPackages [octomachinery]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [octomachinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomachinery-0.3.6.tar.gz tmp/octomachinery-0.3.6.post0.tar.gz --markdown 20230617/o/octomachinery/0.3.6-0.3.6.post0/diff.md --exclude *.pyd
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/46/7e/32eb535c7f1e8af617647df1aa94a132260850b15c348aef601e13a816f4/kcli-99.0.202306171202-py3-none-any.whl
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_toolbox-0.1.4.tar.gz tmp/simple_toolbox-0.1.5.tar.gz --markdown 20230617/s/simple-toolbox/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [simple-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_toolbox-0.1.4.tar.gz tmp/simple_toolbox-0.1.5.tar.gz --markdown 20230617/s/simple-toolbox/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 14:07:51] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.8.tar.gz tmp/serverless-sdk-0.4.9.tar.gz --markdown 20230617/s/serverless-sdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-17 14:07:51] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306161934-py3-none-any.whl.zip tmp/kcli-99.0.202306171202-py3-none-any.whl.zip --markdown 20230617/k/kcli/99.0.202306161934-99.0.202306171202/diff.md --exclude *.pyd
+[2023-06-17 14:07:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306161743-py3-none-any.whl.zip]
+[2023-06-17 14:07:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306161936-py3-none-any.whl.zip]
+[2023-06-17 14:07:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-17 14:07:53] INFO root fetch - processPackages [serverless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-sdk-0.4.8.tar.gz]
+[2023-06-17 14:07:53] INFO root fetch - processPackages [serverless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-sdk-0.4.9.tar.gz]
+[2023-06-17 14:07:53] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-06-17 14:07:53] INFO root fetch - processPackages [octomachinery]: Remove: archive file [/home/abi/fetcher/tmp/octomachinery-0.3.6.tar.gz]
+[2023-06-17 14:07:53] INFO root fetch - processPackages [octomachinery]: Remove: archive file [/home/abi/fetcher/tmp/octomachinery-0.3.6.post0.tar.gz]
+[2023-06-17 14:07:53] INFO root fetch - main [MainThread]: End processing [octomachinery]: success
+[2023-06-17 14:07:54] INFO root fetch - processPackages [simple-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/simple_toolbox-0.1.4.tar.gz]
+[2023-06-17 14:07:54] INFO root fetch - processPackages [simple-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/simple_toolbox-0.1.5.tar.gz]
+[2023-06-17 14:07:54] INFO root fetch - main [MainThread]: End processing [simple-toolbox]: success
+[2023-06-17 14:07:54] INFO root fetch - main [MainThread]: End processing [simple-toolbox]: success
+[2023-06-17 14:07:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306161934-py3-none-any.whl.zip]
+[2023-06-17 14:07:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306171202-py3-none-any.whl.zip]
+[2023-06-17 14:07:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-17 14:07:59] INFO root fetch - main [MainThread]: Store serial: [18542808]
