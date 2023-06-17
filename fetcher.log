@@ -15034,3 +15034,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:52:07] INFO root fetch - processPackages [micropython-qmc5883l]: Remove: archive file [/home/abi/fetcher/tmp/micropython-qmc5883l-0.1.1.tar.gz]
 [2023-06-17 16:52:07] INFO root fetch - main [MainThread]: End processing [micropython-qmc5883l]: success
 [2023-06-17 16:52:07] INFO root fetch - main [MainThread]: Store serial: [18543910]
+[2023-06-17 16:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543910]
+[2023-06-17 16:57:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cv-3
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVLMP
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtstools
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-mlx90393
+[2023-06-17 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrbot
+[2023-06-17 16:57:16] INFO root fetch - processPackages [almavik]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-17 16:57:16] WARNING root fetch - processPackages [hrbot]: Skipping, unable to determine old version
+[2023-06-17 16:57:16] INFO root fetch - main [MainThread]: End processing [hrbot] error
+[2023-06-17 16:57:16] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/1c/1f/7a8796cf0cb4512a384dd6a2f4261c1af962d8b619c3be5d215b13111634/almavik-0.3.tar.gz
+[2023-06-17 16:57:16] WARNING root fetch - processPackages [cv-3]: Skipping, unable to determine old version
+[2023-06-17 16:57:16] INFO root fetch - main [MainThread]: End processing [cv-3] error
+[2023-06-17 16:57:16] INFO root fetch - processPackages [micropython-mlx90393]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:57:16] WARNING root fetch - processPackages [dtstools]: Skipping, unable to determine old version
+[2023-06-17 16:57:16] INFO root fetch - main [MainThread]: End processing [dtstools] error
+[2023-06-17 16:57:16] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 16:57:16] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88364057>=10485760
+[2023-06-17 16:57:16] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 16:57:16] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/a0/9f/de8c692e43885a1cd4df1121f56c201fa2127e8ef95a0256da68218dac3a/pyVLMP-1.0.8.tar.gz
+[2023-06-17 16:57:16] INFO root fetch - processPackages [micropython-mlx90393]: Downloading https://files.pythonhosted.org/packages/ba/12/de85e0ffc4c5d137da7bebf0ea46f745f277442faf1413417d98da522a27/micropython-mlx90393-0.1.0.tar.gz
+[2023-06-17 16:57:16] INFO root fetch - processPackages [micropython-mlx90393]: Downloading https://files.pythonhosted.org/packages/12/f1/37ca9826e9c0819684ac32494c0ca91202fe96b1b820a969b7c6fd4c2aca/micropython-mlx90393-0.1.1.tar.gz
+[2023-06-17 16:57:16] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/7c/ea/35cd69b1b58b34a0c136e11b1a7e25fb86caa2cbc27af323ca3fd6a8a95f/pyVLMP-1.0.9.tar.gz
+[2023-06-17 16:57:16] INFO root fetch - processPackages [micropython-mlx90393]: executing diffoscope
+[2023-06-17 16:57:16] INFO root fetch - processPackages [micropython-mlx90393]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-mlx90393-0.1.0.tar.gz tmp/micropython-mlx90393-0.1.1.tar.gz --markdown 20230617/m/micropython-mlx90393/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:57:17] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-06-17 16:57:17] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230617/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 16:57:17] INFO root fetch - processPackages [micropython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mlx90393-0.1.0.tar.gz]
+[2023-06-17 16:57:17] INFO root fetch - processPackages [micropython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mlx90393-0.1.1.tar.gz]
+[2023-06-17 16:57:17] INFO root fetch - main [MainThread]: End processing [micropython-mlx90393]: success
+[2023-06-17 16:57:18] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.8.tar.gz]
+[2023-06-17 16:57:18] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.9.tar.gz]
+[2023-06-17 16:57:18] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-06-17 16:57:18] INFO root fetch - main [MainThread]: Store serial: [18543929]
