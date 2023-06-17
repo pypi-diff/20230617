@@ -9118,3 +9118,40 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:39:25] INFO root fetch - processPackages [meowerbot]: Remove: archive file [/home/abi/fetcher/tmp/meowerbot-2.6.0.tar.gz]
 [2023-06-17 07:39:25] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
 [2023-06-17 07:39:25] INFO root fetch - main [MainThread]: Store serial: [18541199]
+[2023-06-17 07:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541199]
+[2023-06-17 07:44:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 07:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webhooklib
+[2023-06-17 07:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-shopfloor
+[2023-06-17 07:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-short-links
+[2023-06-17 07:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 07:44:34] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [django-short-links]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-17 07:44:34] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 07:44:34] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/ac/7b/d176078771eef2c534c9a0d7d86599630bfe6c368664d78a682928ba8f6c/django_short_links-0.1.2.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 07:44:34] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 07:44:34] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-06-17 07:44:34] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-06-17 07:44:34] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/e5/f0/8080097f49129a8479f6cdd04b3140946853380080e65c69f0e16bd438bc/django_short_links-0.1.3.tar.gz
+[2023-06-17 07:44:34] INFO root fetch - processPackages [django-short-links]: executing diffoscope
+[2023-06-17 07:44:34] INFO root fetch - processPackages [django-short-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_short_links-0.1.2.tar.gz tmp/django_short_links-0.1.3.tar.gz --markdown 20230617/d/django-short-links/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-17 07:44:35] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 07:44:35] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 07:44:35] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 07:44:35] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 07:44:35] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.2.tar.gz]
+[2023-06-17 07:44:35] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.3.tar.gz]
+[2023-06-17 07:44:35] INFO root fetch - main [MainThread]: End processing [django-short-links]: success
+[2023-06-17 07:44:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-17 07:44:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-06-17 07:44:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-06-17 07:44:36] INFO root fetch - main [MainThread]: Store serial: [18541210]
