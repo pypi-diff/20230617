@@ -15384,3 +15384,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:18:47] INFO root fetch - processPackages [repetita-parser]: Remove: archive file [/home/abi/fetcher/tmp/repetita_parser-2.0.0.tar.gz]
 [2023-06-17 17:18:47] INFO root fetch - main [MainThread]: End processing [repetita-parser]: success
 [2023-06-17 17:18:47] INFO root fetch - main [MainThread]: Store serial: [18544069]
+[2023-06-17 17:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544069]
+[2023-06-17 17:23:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utnamgeo
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litesqlite
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watch-diff
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-htu21df
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: error-example
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-screener
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandoc-latex-french-spaces
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yt-subs-migrate
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microcat
+[2023-06-17 17:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keyauth-tech
+[2023-06-17 17:23:56] INFO root fetch - processPackages [auto-screener]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [watch-diff]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 17:23:56] WARNING root fetch - processPackages [micropython-htu21df]: Skipping, unable to determine old version
+[2023-06-17 17:23:56] INFO root fetch - processPackages [micropython-htu21df]: Start processing: jupyterlab-courselevels
+[2023-06-17 17:23:56] INFO root fetch - main [MainThread]: End processing [micropython-htu21df] error
+[2023-06-17 17:23:56] INFO root fetch - processPackages [utnamgeo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [error-example]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/2f/c1/98f7ff63c64056e73d318ad8745aa1fb5d92048ffe505397447bbe2d2458/auto-screener-0.2.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/b2/b2/4cfc00ddc62bfb2350fd43f63f2288222aec22240deeaf01e21875056df9/watch-diff-1.1.1.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [utnamgeo]: Downloading https://files.pythonhosted.org/packages/af/a2/0a18886b4e1a53d74c5f7aff8c244a9ecc8443337e65e3dc9d923581539b/utnamgeo-0.0.1.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/d9/68/7dff39ad22af96ec19334a9df51c2a070e4ebcadd0c7d26f5b38a3c5a82c/error-example-0.0.4.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [pandoc-latex-french-spaces]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-17 17:23:56] WARNING root fetch - processPackages [yt-subs-migrate]: Skipping, unable to determine old version
+[2023-06-17 17:23:56] INFO root fetch - processPackages [yt-subs-migrate]: Start processing: micropython-dps310
+[2023-06-17 17:23:56] INFO root fetch - main [MainThread]: End processing [yt-subs-migrate] error
+[2023-06-17 17:23:56] INFO root fetch - processPackages [microcat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [litesqlite]: New version: [2.7.1] Old Version: [2.7]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [jupyterlab-courselevels]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [keyauth-tech]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/52/2b/00d506d5bc29224511a0afd0bd59671a814d91e866a3939f41ee8730ca37/auto-screener-1.0.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [utnamgeo]: Downloading https://files.pythonhosted.org/packages/8c/4d/27e76a7faceb7fc02c52e12fe932ffc4187550fac2e0af68ea28002ac2a7/utnamgeo-0.0.2.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [micropython-dps310]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:23:56] INFO root fetch - processPackages [error-example]: Downloading https://files.pythonhosted.org/packages/0a/45/03e0264227d2a0e8416f9f31ad667c3f1a6b4b44296807f13f2b8c181ba8/error-example-0.0.5.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Downloading https://files.pythonhosted.org/packages/46/db/e9e03060a6a6c6569eb021402aaca439eb9a11f0827703d07e2869bfbf0a/pandoc-latex-french-spaces-0.1.2.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [watch-diff]: Downloading https://files.pythonhosted.org/packages/40/91/e4dd3e5d68fc9c3ee6f0037b682cbe7ff86ad8b4f2c3d100222846fbd0af/watch-diff-1.1.2.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/e3/39/f4ec9a9bde95c327dfead7bfb8da595e9fe397bc191b6b5e3f80450e12f8/jupyterlab_courselevels-0.3.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/b9/42/92a178644e0af728733616cc08c26b2640b05baeabf322e5cb5d811d5af9/microcat-0.1.5.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/7c/61/a7af1334d4a88edf745492fcd956b3ccec2918972206c0d8641d6652a4ab/litesqlite-2.7.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [utnamgeo]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.2.0.tar.gz tmp/auto-screener-1.0.0.tar.gz --markdown 20230617/a/auto-screener/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [utnamgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utnamgeo-0.0.1.tar.gz tmp/utnamgeo-0.0.2.tar.gz --markdown 20230617/u/utnamgeo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [keyauth-tech]: Downloading https://files.pythonhosted.org/packages/c8/7c/9d169a426a934a43e48862bb3da4bd17f9b6687b7fb856a2ae0e5755eec7/keyauth-tech-0.0.4.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [error-example]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [error-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-example-0.0.4.tar.gz tmp/error-example-0.0.5.tar.gz --markdown 20230617/e/error-example/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [micropython-dps310]: Downloading https://files.pythonhosted.org/packages/c1/7d/90a5bb5dfb85924f2e41cf42930a47321ae5afcd618a6b02820fefe7aef0/micropython-dps310-0.1.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [watch-diff]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [watch-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-diff-1.1.1.tar.gz tmp/watch-diff-1.1.2.tar.gz --markdown 20230617/w/watch-diff/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/5e/e7/582e5a2a3745b0f9dc2415064b3f1536d51dec41441e7877fe79c314472b/litesqlite-2.7.1.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [keyauth-tech]: Downloading https://files.pythonhosted.org/packages/9f/f1/0d31391c32705bb0473893765f6b1365781a2e41d22d460d03a48087127b/keyauth-tech-0.0.5.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/e6/8a/ba0a9af8c5a24bf1de3a731fb7370155aa4b7394a3dc1e132c19f07e13d7/microcat-0.1.6.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Downloading https://files.pythonhosted.org/packages/32/7e/b76db4d8fe98cc918c8f56aa043cc0c523db825b5437ab98617a0a0fec07/pandoc_latex_french_spaces-1.0.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/58/45/409301352bb60f94a24c4e7d3a146aafa574ec2c84492df8ef56a7b9d917/jupyterlab_courselevels-0.4.0.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.7.tar.gz tmp/litesqlite-2.7.1.tar.gz --markdown 20230617/l/litesqlite/2.7-2.7.1/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [pandoc-latex-french-spaces]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [pandoc-latex-french-spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-french-spaces-0.1.2.tar.gz tmp/pandoc_latex_french_spaces-1.0.0.tar.gz --markdown 20230617/p/pandoc-latex-french-spaces/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.1.5.tar.gz tmp/microcat-0.1.6.tar.gz --markdown 20230617/m/microcat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [jupyterlab-courselevels]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [jupyterlab-courselevels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_courselevels-0.3.0.tar.gz tmp/jupyterlab_courselevels-0.4.0.tar.gz --markdown 20230617/j/jupyterlab-courselevels/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 17:23:56] INFO root fetch - processPackages [micropython-dps310]: Downloading https://files.pythonhosted.org/packages/27/ca/38ee95cef0b9290547c2d03154261e553c74d5d596e77d872b15f58e6c05/micropython-dps310-0.1.1.tar.gz
+[2023-06-17 17:23:56] INFO root fetch - processPackages [keyauth-tech]: executing diffoscope
+[2023-06-17 17:23:56] INFO root fetch - processPackages [keyauth-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyauth-tech-0.0.4.tar.gz tmp/keyauth-tech-0.0.5.tar.gz --markdown 20230617/k/keyauth-tech/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 17:23:57] INFO root fetch - processPackages [micropython-dps310]: executing diffoscope
+[2023-06-17 17:23:57] INFO root fetch - processPackages [micropython-dps310]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-dps310-0.1.0.tar.gz tmp/micropython-dps310-0.1.1.tar.gz --markdown 20230617/m/micropython-dps310/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:23:57] INFO root fetch - processPackages [utnamgeo]: Remove: archive file [/home/abi/fetcher/tmp/utnamgeo-0.0.1.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - processPackages [utnamgeo]: Remove: archive file [/home/abi/fetcher/tmp/utnamgeo-0.0.2.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - main [MainThread]: End processing [utnamgeo]: success
+[2023-06-17 17:23:57] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.4.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - processPackages [error-example]: Remove: archive file [/home/abi/fetcher/tmp/error-example-0.0.5.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - main [MainThread]: End processing [error-example]: success
+[2023-06-17 17:23:57] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.2.0.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-1.0.0.tar.gz]
+[2023-06-17 17:23:57] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.1.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [watch-diff]: Remove: archive file [/home/abi/fetcher/tmp/watch-diff-1.1.2.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [watch-diff]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [keyauth-tech]: Remove: archive file [/home/abi/fetcher/tmp/keyauth-tech-0.0.4.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [keyauth-tech]: Remove: archive file [/home/abi/fetcher/tmp/keyauth-tech-0.0.5.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [keyauth-tech]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-french-spaces-0.1.2.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_french_spaces-1.0.0.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [pandoc-latex-french-spaces]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.7.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.7.1.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [micropython-dps310]: Remove: archive file [/home/abi/fetcher/tmp/micropython-dps310-0.1.0.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [micropython-dps310]: Remove: archive file [/home/abi/fetcher/tmp/micropython-dps310-0.1.1.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [micropython-dps310]: success
+[2023-06-17 17:23:58] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.3.0.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.4.0.tar.gz]
+[2023-06-17 17:23:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels]: success
+[2023-06-17 17:23:59] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.5.tar.gz]
+[2023-06-17 17:23:59] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.6.tar.gz]
+[2023-06-17 17:23:59] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-06-17 17:23:59] INFO root fetch - main [MainThread]: Store serial: [18544110]
