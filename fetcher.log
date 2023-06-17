@@ -15870,3 +15870,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:55:16] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.7.tar.gz]
 [2023-06-17 17:55:16] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
 [2023-06-17 17:55:16] INFO root fetch - main [MainThread]: Store serial: [18544390]
+[2023-06-17 18:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544390]
+[2023-06-17 18:00:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 18:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-ghost
+[2023-06-17 18:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artd-location
+[2023-06-17 18:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GCoCF
+[2023-06-17 18:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ca
+[2023-06-17 18:00:26] INFO root fetch - processPackages [GCoCF]: New version: [0.9.98] Old Version: [0.9.97]
+[2023-06-17 18:00:26] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/31/34/b1aff421f7f96499f5846698a987f919ad53775932694789f3efadd58f61/gcocf-0.9.97.tar.gz
+[2023-06-17 18:00:26] INFO root fetch - processPackages [django-ca]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-17 18:00:26] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-17 18:00:26] INFO root fetch - processPackages [artd-location]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 18:00:26] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/29/1a/4e530ac963d3f805bbfdf6d1c3d2bc601e17fe06cdc762d6a7d0b7452990/astro_ghost-2.0.2.tar.gz
+[2023-06-17 18:00:26] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/1d/51/2eb31a2adae9da086e12553bae6d75c4c04de4825186955ad4646214fc0f/gcocf-0.9.98.tar.gz
+[2023-06-17 18:00:26] INFO root fetch - processPackages [django-ca]: Downloading https://files.pythonhosted.org/packages/19/96/dd8d71525f9d03d22237963913c8061f55c423d6b4319131f8e14f57d94e/django-ca-1.7.0.tar.gz
+[2023-06-17 18:00:26] INFO root fetch - processPackages [artd-location]: Downloading https://files.pythonhosted.org/packages/e9/4f/0da994ec9e8684a057bd322609ebd2b6548917556247729a9cadae58c87b/artd-location-0.0.1.tar.gz
+[2023-06-17 18:00:26] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 18:00:26] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.97.tar.gz tmp/gcocf-0.9.98.tar.gz --markdown 20230617/G/GCoCF/0.9.97-0.9.98/diff.md --exclude *.pyd
+[2023-06-17 18:00:27] INFO root fetch - processPackages [artd-location]: Downloading https://files.pythonhosted.org/packages/13/b2/259291cf55c0a8d2384bcf8bbf5858ea8a216be97c971b4d846bd3891216/artd-location-0.0.2.tar.gz
+[2023-06-17 18:00:27] INFO root fetch - processPackages [django-ca]: Downloading https://files.pythonhosted.org/packages/f1/3f/9ba58a4bfd20100d1c94f3998358b43f0c49179c13165ac6788ae5f8425d/django-ca-1.9.0.tar.gz
+[2023-06-17 18:00:27] INFO root fetch - processPackages [artd-location]: executing diffoscope
+[2023-06-17 18:00:27] INFO root fetch - processPackages [artd-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd-location-0.0.1.tar.gz tmp/artd-location-0.0.2.tar.gz --markdown 20230617/a/artd-location/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 18:00:27] INFO root fetch - processPackages [django-ca]: executing diffoscope
+[2023-06-17 18:00:27] INFO root fetch - processPackages [django-ca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ca-1.7.0.tar.gz tmp/django-ca-1.9.0.tar.gz --markdown 20230617/d/django-ca/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-17 18:00:27] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/48/49/a078af5655a89a6bc429dc080e5bdadb29f6267705adb93a5bb3ff0ef0c4/astro_ghost-2.0.3.tar.gz
+[2023-06-17 18:00:27] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-06-17 18:00:27] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.0.2.tar.gz tmp/astro_ghost-2.0.3.tar.gz --markdown 20230617/a/astro-ghost/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:00:28] INFO root fetch - processPackages [artd-location]: Remove: archive file [/home/abi/fetcher/tmp/artd-location-0.0.1.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - processPackages [artd-location]: Remove: archive file [/home/abi/fetcher/tmp/artd-location-0.0.2.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - main [MainThread]: End processing [artd-location]: success
+[2023-06-17 18:00:28] INFO root fetch - processPackages [django-ca]: Remove: archive file [/home/abi/fetcher/tmp/django-ca-1.7.0.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - processPackages [django-ca]: Remove: archive file [/home/abi/fetcher/tmp/django-ca-1.9.0.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - main [MainThread]: End processing [django-ca]: success
+[2023-06-17 18:00:28] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.97.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.98.tar.gz]
+[2023-06-17 18:00:28] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 18:00:29] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.2.tar.gz]
+[2023-06-17 18:00:29] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.3.tar.gz]
+[2023-06-17 18:00:29] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-06-17 18:00:29] INFO root fetch - main [MainThread]: Store serial: [18544416]
