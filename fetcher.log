@@ -10078,3 +10078,47 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:29:45] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
 [2023-06-17 09:29:45] INFO root fetch - main [MainThread]: End processing [pytensor]: success
 [2023-06-17 09:29:45] INFO root fetch - main [MainThread]: Store serial: [18541611]
+[2023-06-17 09:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541611]
+[2023-06-17 09:34:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 09:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainsurf
+[2023-06-17 09:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychicapi
+[2023-06-17 09:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expert-intelligence-toolbox
+[2023-06-17 09:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vermin
+[2023-06-17 09:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-06-17 09:34:55] INFO root fetch - processPackages [brainsurf]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-17 09:34:55] INFO root fetch - processPackages [psychicapi]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-17 09:34:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 09:34:55] INFO root fetch - processPackages [vermin]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-17 09:34:55] INFO root fetch - processPackages [vermin]: Downloading https://files.pythonhosted.org/packages/d2/9d/7dc49fece1a9c99c87671f11df1355fcfe620407f524235e503f5602e58d/vermin-1.5.1-py2.py3-none-any.whl
+[2023-06-17 09:34:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/16/75/638aa163ea910fac8ef7143ec533f31af50193fa65fe70e969abc747fb4e/expert_intelligence_toolbox-0.0.5.tar.gz
+[2023-06-17 09:34:55] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/90/e1/a7af34d2c769516fb9afb1ffe949fe739b97c5f22bc009b6e0228305be45/brainsurf-8.0.1.tar.gz
+[2023-06-17 09:34:55] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230617] Old Version: [0.7.3.dev20230616]
+[2023-06-17 09:34:55] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/00/9a/fd64806fc597d22f7e4d2bb2b622e388e586b782b751ceb7d8094b2c5870/psychicapi-0.7.4.tar.gz
+[2023-06-17 09:34:55] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/11/3a/92d4fef12edcbaf35e706db4542fe9cbc86dca038d303bc25ee230457583/tfq_nightly-0.7.3.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 09:34:55] INFO root fetch - processPackages [vermin]: Downloading https://files.pythonhosted.org/packages/46/ed/420955392d9c2743c93e0418928927e34aba355c716a70c6bdba209b930f/vermin-1.5.2-py2.py3-none-any.whl
+[2023-06-17 09:34:55] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/a4/98/19093a095d2a2e2f5a58f4a033ea7a3737c408eab465a744773d6461ec59/brainsurf-8.0.2.tar.gz
+[2023-06-17 09:34:55] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-06-17 09:34:55] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-8.0.1.tar.gz tmp/brainsurf-8.0.2.tar.gz --markdown 20230617/b/brainsurf/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-06-17 09:34:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/cb/50/fe94eeee2bfdf533abe32dc63492f44a3361d808e005b2fd766075802f1c/expert_intelligence_toolbox-0.0.6.tar.gz
+[2023-06-17 09:34:55] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822714>=10485760
+[2023-06-17 09:34:55] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-17 09:34:55] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/11/42/ddb35317ea7f2f31a1ce3bce9cac1561f65d5ea5b3d771e414f168008566/psychicapi-0.7.5.tar.gz
+[2023-06-17 09:34:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-17 09:34:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.5.tar.gz tmp/expert_intelligence_toolbox-0.0.6.tar.gz --markdown 20230617/e/expert-intelligence-toolbox/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 09:34:55] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-06-17 09:34:55] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.7.4.tar.gz tmp/psychicapi-0.7.5.tar.gz --markdown 20230617/p/psychicapi/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-17 09:34:55] INFO root fetch - processPackages [vermin]: executing diffoscope
+[2023-06-17 09:34:55] INFO root fetch - processPackages [vermin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vermin-1.5.1-py2.py3-none-any.whl.zip tmp/vermin-1.5.2-py2.py3-none-any.whl.zip --markdown 20230617/v/vermin/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-17 09:34:56] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.5.tar.gz]
+[2023-06-17 09:34:56] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.6.tar.gz]
+[2023-06-17 09:34:56] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-17 09:34:56] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-8.0.1.tar.gz]
+[2023-06-17 09:34:56] INFO root fetch - processPackages [brainsurf]: Remove: archive file [/home/abi/fetcher/tmp/brainsurf-8.0.2.tar.gz]
+[2023-06-17 09:34:56] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-06-17 09:34:57] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.4.tar.gz]
+[2023-06-17 09:34:57] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.5.tar.gz]
+[2023-06-17 09:34:57] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-06-17 09:34:57] INFO root fetch - processPackages [vermin]: Remove: archive file [/home/abi/fetcher/tmp/vermin-1.5.1-py2.py3-none-any.whl.zip]
+[2023-06-17 09:34:57] INFO root fetch - processPackages [vermin]: Remove: archive file [/home/abi/fetcher/tmp/vermin-1.5.2-py2.py3-none-any.whl.zip]
+[2023-06-17 09:34:57] INFO root fetch - main [MainThread]: End processing [vermin]: success
+[2023-06-17 09:34:57] INFO root fetch - main [MainThread]: Store serial: [18541629]
