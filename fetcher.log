@@ -13960,3 +13960,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:31:20] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.9.0.tar.gz]
 [2023-06-17 15:31:20] INFO root fetch - main [MainThread]: End processing [gallery-dl]: success
 [2023-06-17 15:31:20] INFO root fetch - main [MainThread]: Store serial: [18543316]
+[2023-06-17 15:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543316]
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelerator-toolbox
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AtroPyLog
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almavik
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweatDB
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yabin
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atro-pylog
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-toolbox
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecule-qemu
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chainforge
+[2023-06-17 15:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moldoc
+[2023-06-17 15:36:29] WARNING root fetch - processPackages [yabin]: Skipping, unable to determine old version
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: End processing [yabin] error
+[2023-06-17 15:36:29] INFO root fetch - processPackages [chainforge]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-06-17 15:36:29] INFO root fetch - processPackages [almavik]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 15:36:29] INFO root fetch - processPackages [molecule-qemu]: New version: [0.5.0rc0] Old Version: [0.5.0]
+[2023-06-17 15:36:29] WARNING root fetch - processPackages [simple-toolbox]: Skipping, unable to determine old version
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: End processing [simple-toolbox] error
+[2023-06-17 15:36:29] INFO root fetch - processPackages [sweatDB]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-17 15:36:29] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/9e/a5/1190115cb918e4817d8275836067dd6f95327cfa263c58620deca51edb96/chainforge-0.1.6.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/80/88/57a3eb86f54d07654de4b1d3c44f6517ddaf6600bd751616fe045ccd2c9a/sweatDB-2.0.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/3a/01/8da5ad0861200292d51c418c469d934a20feb1d1c3d8dd86f114ef790db7/almavik-0.2.8.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [accelerator-toolbox]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-17 15:36:29] ERROR root fetch - processPackages [AtroPyLog]: Unable to get metadata: No such project 'AtroPyLog'
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: End processing [AtroPyLog] error
+[2023-06-17 15:36:29] WARNING root fetch - processPackages [atro-pylog]: Skipping, unable to determine old version
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: End processing [atro-pylog] error
+[2023-06-17 15:36:29] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88363436>=10485760
+[2023-06-17 15:36:29] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 15:36:29] INFO root fetch - processPackages [moldoc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 15:36:29] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/c9/4d/f2b7d1f4b698c1a0c4adc99b80dd87fdb988d288ded25d48ddc203eef2ed/molecule-qemu-0.5.0.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/04/43/4ae950db3b6ad03682e435e27a58170b54916373adde9abcdd6d61bda50a/sweatDB-2.0.1.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-17 15:36:29] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.tar.gz tmp/sweatDB-2.0.1.tar.gz --markdown 20230617/s/sweatDB/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-17 15:36:29] INFO root fetch - processPackages [accelerator-toolbox]: Downloading https://files.pythonhosted.org/packages/1c/34/854828d170c9ad73af81af35dac5bb03445f3ec0baaaa2e3d28205c63bc3/accelerator-toolbox-0.3.0.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/46/1d/ef249a27a441caaa1557dcc29b8b5b5e071ecef360dd89e324931e22f5d3/molecule-qemu-0.5.0rc0.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [moldoc]: Downloading https://files.pythonhosted.org/packages/2b/1f/647f3ab2c34c469ec293855edbf561aee3d52ad61b11e8d069c6729f13d1/moldoc-0.0.3.tar.gz
+[2023-06-17 15:36:29] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-17 15:36:29] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.5.0.tar.gz tmp/molecule-qemu-0.5.0rc0.tar.gz --markdown 20230617/m/molecule-qemu/0.5.0-0.5.0rc0/diff.md --exclude *.pyd
+[2023-06-17 15:36:30] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/7b/b3/9a5ea7e7074c85f84009fc0664272dddab74814dd1d83e8c3492eb7cd4c7/chainforge-0.1.6.1.tar.gz
+[2023-06-17 15:36:30] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-06-17 15:36:30] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.1.6.tar.gz tmp/chainforge-0.1.6.1.tar.gz --markdown 20230617/c/chainforge/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-06-17 15:36:30] INFO root fetch - processPackages [moldoc]: Downloading https://files.pythonhosted.org/packages/5a/ad/29833e508470c3317c0f4e9e84afcd63bc95fc39bc4ab8f69370a9f63b3e/moldoc-0.0.4.tar.gz
+[2023-06-17 15:36:30] INFO root fetch - processPackages [accelerator-toolbox]: Downloading https://files.pythonhosted.org/packages/2a/aa/e5b8a11628d7002b033a62dd33e158d1343389be1bd26b35a6b06f3dfde3/accelerator_toolbox-0.4.0-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-06-17 15:36:30] INFO root fetch - processPackages [moldoc]: executing diffoscope
+[2023-06-17 15:36:30] INFO root fetch - processPackages [moldoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moldoc-0.0.3.tar.gz tmp/moldoc-0.0.4.tar.gz --markdown 20230617/m/moldoc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 15:36:30] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.tar.gz]
+[2023-06-17 15:36:30] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.1.tar.gz]
+[2023-06-17 15:36:30] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-17 15:36:30] INFO root fetch - processPackages [accelerator-toolbox]: executing diffoscope
+[2023-06-17 15:36:30] INFO root fetch - processPackages [accelerator-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerator-toolbox-0.3.0.tar.gz tmp/accelerator_toolbox-0.4.0-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230617/a/accelerator-toolbox/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 15:36:31] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.0.tar.gz]
+[2023-06-17 15:36:31] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.5.0rc0.tar.gz]
+[2023-06-17 15:36:31] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-17 15:36:31] INFO root fetch - processPackages [moldoc]: Remove: archive file [/home/abi/fetcher/tmp/moldoc-0.0.3.tar.gz]
+[2023-06-17 15:36:31] INFO root fetch - processPackages [moldoc]: Remove: archive file [/home/abi/fetcher/tmp/moldoc-0.0.4.tar.gz]
+[2023-06-17 15:36:31] INFO root fetch - main [MainThread]: End processing [moldoc]: success
+[2023-06-17 15:36:32] INFO root fetch - processPackages [accelerator-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/accelerator-toolbox-0.3.0.tar.gz]
+[2023-06-17 15:36:32] INFO root fetch - processPackages [accelerator-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/accelerator_toolbox-0.4.0-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-06-17 15:36:32] INFO root fetch - main [MainThread]: End processing [accelerator-toolbox]: success
+[2023-06-17 15:37:33] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.6.tar.gz]
+[2023-06-17 15:37:33] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.6.1.tar.gz]
+[2023-06-17 15:37:33] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-06-17 15:37:33] INFO root fetch - main [MainThread]: Store serial: [18543365]
