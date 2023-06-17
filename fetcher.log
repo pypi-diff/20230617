@@ -18953,3 +18953,63 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:53:37] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
 [2023-06-17 22:53:37] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
 [2023-06-17 22:53:37] INFO root fetch - main [MainThread]: Store serial: [18545843]
+[2023-06-17 22:58:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545843]
+[2023-06-17 22:58:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hqdragondownload
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proJSON
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joes-giant-toolbox
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lispi
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FluidPyPLC
+[2023-06-17 22:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mcfc
+[2023-06-17 22:58:46] INFO root fetch - processPackages [proJSON]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-17 22:58:46] INFO root fetch - processPackages [lispi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 22:58:46] WARNING root fetch - processPackages [mcfc]: Skipping, unable to determine old version
+[2023-06-17 22:58:46] INFO root fetch - main [MainThread]: End processing [mcfc] error
+[2023-06-17 22:58:46] INFO root fetch - processPackages [hqdragondownload]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 22:58:46] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:58:46] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/29/c2/92003e4de68dc0facee504fb072d92d662c937095fe9bbd185c39b7d66cd/proJSON-1.0.0.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/38/eb/b1cd8a87e51270d3fdbbcd30b8c6058c9e4db892d76adcbbd449725f6d79/lispi-0.0.7.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [joes-giant-toolbox]: New version: [0.3.1] Old Version: [0.2.23]
+[2023-06-17 22:58:46] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/d0/a5/8b7422c82b6dd02d18f651a40e0f2e43e3846afdb3acc7f7e59f9a82615d/hqdragondownload-1.1.1.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-06-17 22:58:46] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/9c/7f/0c9e6313dd6013a177f1338ec67e62b3299e517a0a3332ed88082bf1e692/lispi-0.0.8.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/28/69/8e63947070b3718496a5cd73282ec265e290247cb508f1f6ec5351470dbf/proJSON-1.1.1.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/ff/78/899232da993044a4ee1eeb561f1242b95310a4b27d041af62599fd5b4f9c/joes_giant_toolbox-0.2.23.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/2f/3e/ef380b9fff0b6412f9387f4616e329e904befbc230331a3ce25d162959a9/hqdragondownload-1.1.2.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/54/c9/717d9b5e6d66338b2db9dfe168ddfafd0d427dd0fa2be3db10f336ef8069/FluidPyPLC-0.1.9.tar.gz
+[2023-06-17 22:58:46] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-06-17 22:58:46] INFO root fetch - processPackages [lispi]: executing diffoscope
+[2023-06-17 22:58:46] INFO root fetch - processPackages [lispi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lispi-0.0.7.tar.gz tmp/lispi-0.0.8.tar.gz --markdown 20230617/l/lispi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 22:58:46] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-17 22:58:46] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.0.0.tar.gz tmp/proJSON-1.1.1.tar.gz --markdown 20230617/p/proJSON/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-17 22:58:46] INFO root fetch - processPackages [hqdragondownload]: executing diffoscope
+[2023-06-17 22:58:46] INFO root fetch - processPackages [hqdragondownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqdragondownload-1.1.1.tar.gz tmp/hqdragondownload-1.1.2.tar.gz --markdown 20230617/h/hqdragondownload/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 22:58:46] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-17 22:58:46] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.8.tar.gz tmp/FluidPyPLC-0.1.9.tar.gz --markdown 20230617/F/FluidPyPLC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:58:47] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/d0/fd/fc49d1924c611e84551020503ac36892a03943631d9d8faf2f3853a0decc/joes_giant_toolbox-0.3.1.tar.gz
+[2023-06-17 22:58:47] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-06-17 22:58:47] INFO root fetch - processPackages [joes-giant-toolbox]: executing diffoscope
+[2023-06-17 22:58:47] INFO root fetch - processPackages [joes-giant-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joes_giant_toolbox-0.2.23.tar.gz tmp/joes_giant_toolbox-0.3.1.tar.gz --markdown 20230617/j/joes-giant-toolbox/0.2.23-0.3.1/diff.md --exclude *.pyd
+[2023-06-17 22:58:47] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-06-17 22:58:47] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230617/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-06-17 22:58:48] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.7.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.8.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - main [MainThread]: End processing [lispi]: success
+[2023-06-17 22:58:48] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.0.0.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.1.1.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-17 22:58:48] INFO root fetch - processPackages [hqdragondownload]: Remove: archive file [/home/abi/fetcher/tmp/hqdragondownload-1.1.1.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - processPackages [hqdragondownload]: Remove: archive file [/home/abi/fetcher/tmp/hqdragondownload-1.1.2.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - main [MainThread]: End processing [hqdragondownload]: success
+[2023-06-17 22:58:48] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.8.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.9.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-17 22:58:48] INFO root fetch - processPackages [joes-giant-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/joes_giant_toolbox-0.2.23.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - processPackages [joes-giant-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/joes_giant_toolbox-0.3.1.tar.gz]
+[2023-06-17 22:58:48] INFO root fetch - main [MainThread]: End processing [joes-giant-toolbox]: success
+[2023-06-17 22:59:42] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-06-17 22:59:42] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-06-17 22:59:42] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-06-17 22:59:42] INFO root fetch - main [MainThread]: Store serial: [18545864]
