@@ -7695,3 +7695,87 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 05:41:30] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
 [2023-06-17 05:41:30] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-06-17 05:41:30] INFO root fetch - main [MainThread]: Store serial: [18540627]
+[2023-06-17 05:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540627]
+[2023-06-17 05:46:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymino
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secureli
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openfs
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciform
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamatic
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaya-module-sdk
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spPersist
+[2023-06-17 05:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-assets-management
+[2023-06-17 05:46:39] INFO root fetch - processPackages [datamatic]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [secureli]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [openfs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [kaya-module-sdk]: New version: [1.3] Old Version: [1.2]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev48] Old Version: [9.0.1.0.0.99.dev47]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/ee/b9/b3c16b515473b76536cb49bf6a2750ae6cfa9cd73eb98ba3d236bb681cc3/datamatic-0.1.5.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [spPersist]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [pymino]: New version: [1.1.9.8] Old Version: [1.1.9.7]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/a5/43/0c170e149cc6b5c42e629bebe530504fa43440e3880561655eec73d5f020/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl
+[2023-06-17 05:46:39] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/64/ca/982783027a8554ebf7532b2369ac9906f47df5f69388c3cd865dfdc15c66/spPersist-1.0.8.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/2b/55/fadc720d744f683455979e95f8c1917835bafa72866d6c56e41c151af92d/pymino-1.1.9.7.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-06-17 05:46:39] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/f0/3a/d8122fe02dd4bb2d695e0703e9970d92f6b68db6ecc6d8e92481203c4833/secureli-0.4.3.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [openfs]: Downloading https://files.pythonhosted.org/packages/c7/1c/018533b3fc6daa55c85ad7be5dc6e7a894db672a3e5e7921eb7e512376bc/openfs-1.0.0-py3-none-any.whl
+[2023-06-17 05:46:39] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/42/03/d06393a3f2be1c14bc3e0b292d6cfbb09e3c4335ae3fbf1349249443ed20/sppersist-1.0.9.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [kaya-module-sdk]: Downloading https://files.pythonhosted.org/packages/91/8d/30596518b004fabb2697f60db6d89af706cfaf941b6a327ccddb983069b7/kaya-module-sdk-1.2.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [datamatic]: Downloading https://files.pythonhosted.org/packages/e1/71/ac7aede987eee4680b260ec6fc83d2a851ab509f0016cadb1c97d5a0124c/datamatic-0.1.6.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-17 05:46:39] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.8.tar.gz tmp/sppersist-1.0.9.tar.gz --markdown 20230617/s/spPersist/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/24/13/4e1e47b0c342b5b88c4537b3063161509a4a6f249f7a8f0c5bd4d1707943/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/53/26/c77d03516843e3dd26c8f8fd6335976c55d39485ee23b464fac175c6db9d/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-06-17 05:46:39] INFO root fetch - processPackages [datamatic]: executing diffoscope
+[2023-06-17 05:46:39] INFO root fetch - processPackages [datamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamatic-0.1.5.tar.gz tmp/datamatic-0.1.6.tar.gz --markdown 20230617/d/datamatic/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 05:46:39] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/87/76/0c6d53572aa9bf1e8d5b6c94c99d7f75e5cebc99ece57cba83658ff98ddd/pymino-1.1.9.8.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/6e/39/f5912bc2d9012efe199e68d8c5284f5bb781742e34de7a98cde1abc028a6/secureli-0.4.4.tar.gz
+[2023-06-17 05:46:39] INFO root fetch - processPackages [openfs]: Downloading https://files.pythonhosted.org/packages/d4/a5/8e689ebde5d8e6bb768f375fff2052f4dc3a095e7c64f1fcb28c5257a5ec/openfs-1.0.1-py3-none-any.whl
+[2023-06-17 05:46:39] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-06-17 05:46:39] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.4.3.tar.gz tmp/secureli-0.4.4.tar.gz --markdown 20230617/s/secureli/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-17 05:46:39] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-17 05:46:39] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.9.7.tar.gz tmp/pymino-1.1.9.8.tar.gz --markdown 20230617/p/pymino/1.1.9.7-1.1.9.8/diff.md --exclude *.pyd
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-06-17 05:46:39] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev47-9.0.1.0.0.99.dev48/diff.md --exclude *.pyd
+[2023-06-17 05:46:40] INFO root fetch - processPackages [openfs]: executing diffoscope
+[2023-06-17 05:46:40] INFO root fetch - processPackages [openfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfs-1.0.0-py3-none-any.whl.zip tmp/openfs-1.0.1-py3-none-any.whl.zip --markdown 20230617/o/openfs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 05:46:40] INFO root fetch - processPackages [kaya-module-sdk]: Downloading https://files.pythonhosted.org/packages/c6/1b/13e170bb56eb78d85a6d79270f1cf3bb2f5a2d13177aef0c0e24584e82f5/kaya_module_sdk-1.3.tar.gz
+[2023-06-17 05:46:40] INFO root fetch - processPackages [kaya-module-sdk]: executing diffoscope
+[2023-06-17 05:46:40] INFO root fetch - processPackages [kaya-module-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaya-module-sdk-1.2.tar.gz tmp/kaya_module_sdk-1.3.tar.gz --markdown 20230617/k/kaya-module-sdk/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-17 05:46:40] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-17 05:46:40] ERROR root fetch - processPackages [secureli]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-17 05:46:40] INFO root fetch - main [MainThread]: End processing [secureli] error
+[2023-06-17 05:46:40] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/69/acc815cbed2250bd596a3ef7593e4afe4d29244b1124c409750cf387d6d9/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-06-17 05:46:40] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-17 05:46:40] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230617/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-17 05:46:40] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2023-06-17 05:46:40] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230617/o/odoo12-addon-assets-management/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-17 05:46:41] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.8.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.0.9.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.5.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [datamatic]: Remove: archive file [/home/abi/fetcher/tmp/datamatic-0.1.6.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [datamatic]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [openfs]: Remove: archive file [/home/abi/fetcher/tmp/openfs-1.0.0-py3-none-any.whl.zip]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [openfs]: Remove: archive file [/home/abi/fetcher/tmp/openfs-1.0.1-py3-none-any.whl.zip]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [openfs]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [kaya-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kaya-module-sdk-1.2.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [kaya-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kaya_module_sdk-1.3.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [kaya-module-sdk]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.7.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.9.8.tar.gz]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-17 05:46:41] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl.zip]
+[2023-06-17 05:46:41] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev48-py2-none-any.whl.zip]
+[2023-06-17 05:46:41] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-06-17 05:46:42] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-17 05:46:42] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-17 05:46:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2023-06-17 05:46:42] INFO root fetch - main [MainThread]: Store serial: [18540653]
