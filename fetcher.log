@@ -17581,3 +17581,34 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 20:29:25] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.67.0.tar.gz]
 [2023-06-17 20:29:25] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
 [2023-06-17 20:29:25] INFO root fetch - main [MainThread]: Store serial: [18545190]
+[2023-06-17 20:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545190]
+[2023-06-17 20:34:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 20:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCodeBook
+[2023-06-17 20:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: halborn-ctf
+[2023-06-17 20:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: distolol
+[2023-06-17 20:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCodeBook
+[2023-06-17 20:34:35] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 20:34:35] WARNING root fetch - processPackages [distolol]: Skipping, unable to determine old version
+[2023-06-17 20:34:35] INFO root fetch - main [MainThread]: End processing [distolol] error
+[2023-06-17 20:34:35] INFO root fetch - processPackages [PyCodeBook]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 20:34:35] INFO root fetch - processPackages [PyCodeBook]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 20:34:35] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-17 20:34:35] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-17 20:34:35] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/56/e3/48ce573ad16ff9db32e753bc9a9b27adfe37a8510d11dd969d8ca1107280/PyCodeBook-0.0.1.tar.gz
+[2023-06-17 20:34:35] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/56/e3/48ce573ad16ff9db32e753bc9a9b27adfe37a8510d11dd969d8ca1107280/PyCodeBook-0.0.1.tar.gz
+[2023-06-17 20:34:35] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-17 20:34:35] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230617/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/0a/a2/e1c5420073fc0c21eb7cb1c1b176c32e0fbff5821ca132b94dc89c36f997/PyCodeBook-0.0.2.tar.gz
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/0a/a2/e1c5420073fc0c21eb7cb1c1b176c32e0fbff5821ca132b94dc89c36f997/PyCodeBook-0.0.2.tar.gz
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: executing diffoscope
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCodeBook-0.0.1.tar.gz tmp/PyCodeBook-0.0.2.tar.gz --markdown 20230617/P/PyCodeBook/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: executing diffoscope
+[2023-06-17 20:34:36] INFO root fetch - processPackages [PyCodeBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCodeBook-0.0.1.tar.gz tmp/PyCodeBook-0.0.2.tar.gz --markdown 20230617/P/PyCodeBook/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 20:34:37] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.1.tar.gz]
+[2023-06-17 20:34:37] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.2.tar.gz]
+[2023-06-17 20:34:37] INFO root fetch - main [MainThread]: End processing [PyCodeBook]: success
+[2023-06-17 20:34:37] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-17 20:34:37] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-17 20:34:37] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-17 20:34:37] INFO root fetch - main [MainThread]: End processing [PyCodeBook]: success
+[2023-06-17 20:34:37] INFO root fetch - main [MainThread]: Store serial: [18545209]
