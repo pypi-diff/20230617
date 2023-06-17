@@ -2068,3 +2068,33 @@
 [2023-06-17 02:40:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-17 02:40:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-17 02:40:18] INFO root fetch - main [MainThread]: Store serial: [18538678]
+[2023-06-17 02:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538678]
+[2023-06-17 02:45:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 02:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kultimate
+[2023-06-17 02:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-aggregator
+[2023-06-17 02:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-06-17 02:45:26] INFO root fetch - processPackages [data-aggregator]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-17 02:45:26] INFO root fetch - processPackages [kultimate]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-17 02:45:26] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306160045] Old Version: [4.9.2.dev202306150045]
+[2023-06-17 02:45:26] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d2/3e/ae973e7bf8e4070bd917c31999790ba003289e28dd71b27897a4296974d8/tfds-nightly-4.9.2.dev202306150045.tar.gz
+[2023-06-17 02:45:26] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/07/2b/985316d4e35b3fbe860866d254b87a352b78aa0c7d3a93363c844260405a/kultimate-0.2.4.tar.gz
+[2023-06-17 02:45:27] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/ac/6d/46550beac2f69d2de44315279cb186be988059dfd788d4a772fe08dc22ac/data_aggregator-1.1.1.tar.gz
+[2023-06-17 02:45:27] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/ab/fe/e1f218394890d5f4b2dc6eb9a888c4600096f82f161a4ce5df9a64d5eea6/kultimate-0.2.5.tar.gz
+[2023-06-17 02:45:27] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e7/1e/c66a8704a0e1f11dde012df65d00809d7a68066a44c7db76c3a6577c16b7/tfds-nightly-4.9.2.dev202306160045.tar.gz
+[2023-06-17 02:45:27] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-17 02:45:27] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.4.tar.gz tmp/kultimate-0.2.5.tar.gz --markdown 20230617/k/kultimate/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-17 02:45:27] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/1c/0a/b671c9544e3b95f6f0272c9754073ef7b0df44d670653b87afa56f775ebc/data_aggregator-1.1.2.tar.gz
+[2023-06-17 02:45:27] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-17 02:45:27] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306150045.tar.gz tmp/tfds-nightly-4.9.2.dev202306160045.tar.gz --markdown 20230617/t/tfds-nightly/4.9.2.dev202306150045-4.9.2.dev202306160045/diff.md --exclude *.pyd
+[2023-06-17 02:45:27] INFO root fetch - processPackages [data-aggregator]: executing diffoscope
+[2023-06-17 02:45:27] INFO root fetch - processPackages [data-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_aggregator-1.1.1.tar.gz tmp/data_aggregator-1.1.2.tar.gz --markdown 20230617/d/data-aggregator/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-17 02:45:28] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.4.tar.gz]
+[2023-06-17 02:45:28] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.5.tar.gz]
+[2023-06-17 02:45:28] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-17 02:45:28] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.1.1.tar.gz]
+[2023-06-17 02:45:28] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.1.2.tar.gz]
+[2023-06-17 02:45:28] INFO root fetch - main [MainThread]: End processing [data-aggregator]: success
+[2023-06-17 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306150045.tar.gz]
+[2023-06-17 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306160045.tar.gz]
+[2023-06-17 02:45:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-17 02:45:39] INFO root fetch - main [MainThread]: Store serial: [18538702]
