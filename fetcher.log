@@ -8188,3 +8188,43 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:23:10] INFO root fetch - processPackages [odoo10-addon-partner-contact-in-several-companies]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_partner_contact_in_several_companies-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
 [2023-06-17 06:23:10] INFO root fetch - main [MainThread]: End processing [odoo10-addon-partner-contact-in-several-companies]: success
 [2023-06-17 06:23:10] INFO root fetch - main [MainThread]: Store serial: [18540795]
+[2023-06-17 06:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540795]
+[2023-06-17 06:28:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plib3.ui
+[2023-06-17 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2023-06-17 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aitemplates
+[2023-06-17 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aitemplates
+[2023-06-17 06:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: holy-diver
+[2023-06-17 06:28:19] INFO root fetch - processPackages [aitemplates]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-17 06:28:19] INFO root fetch - processPackages [aitemplates]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-17 06:28:19] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.903067183.dev11538] Old Version: [0.2.902182978.dev11525]
+[2023-06-17 06:28:19] WARNING root fetch - processPackages [holy-diver]: Skipping, unable to determine old version
+[2023-06-17 06:28:19] INFO root fetch - main [MainThread]: End processing [holy-diver] error
+[2023-06-17 06:28:19] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/e6/cd/3283796fef834f515149cc0e4b11ae22308cf694a51ffbd6d0356bc40a3e/aitemplates-0.1.6.tar.gz
+[2023-06-17 06:28:19] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/e6/cd/3283796fef834f515149cc0e4b11ae22308cf694a51ffbd6d0356bc40a3e/aitemplates-0.1.6.tar.gz
+[2023-06-17 06:28:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/b3/10/573fb7cc68a2ad842475488d8b249c6753436f9f03184cada8969610ccf7/quickstart-vdk-0.2.902182978.dev11525.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [plib3.ui]: New version: [0.15.8.3] Old Version: [0.15.8.2]
+[2023-06-17 06:28:20] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/ae/f8/e97321b1419df3742df6c2d6c6fbf892a4361ceac24abbf93be1b850c3be/plib3.ui-0.15.8.2.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/88/59/50daf3984d746bb461fdd2407e1547fd33a7f828e06ca788b7829ef78121/aitemplates-0.1.7.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/88/59/50daf3984d746bb461fdd2407e1547fd33a7f828e06ca788b7829ef78121/aitemplates-0.1.7.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/43/e2/d2e1b9b5e2d1ec6be40575d985765a8fee3b1aad3da9435b52d332eae3f3/quickstart-vdk-0.2.903067183.dev11538.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.6.tar.gz tmp/aitemplates-0.1.7.tar.gz --markdown 20230617/a/aitemplates/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:28:20] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.6.tar.gz tmp/aitemplates-0.1.7.tar.gz --markdown 20230617/a/aitemplates/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-17 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-17 06:28:20] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.902182978.dev11525.tar.gz tmp/quickstart-vdk-0.2.903067183.dev11538.tar.gz --markdown 20230617/q/quickstart-vdk/0.2.902182978.dev11525-0.2.903067183.dev11538/diff.md --exclude *.pyd
+[2023-06-17 06:28:20] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/ec/5b/878277b0487a0a5455b29a343008139b3de98fdb04c19ae61afb8acb115d/plib3.ui-0.15.8.3.tar.gz
+[2023-06-17 06:28:20] INFO root fetch - processPackages [plib3.ui]: executing diffoscope
+[2023-06-17 06:28:20] INFO root fetch - processPackages [plib3.ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plib3.ui-0.15.8.2.tar.gz tmp/plib3.ui-0.15.8.3.tar.gz --markdown 20230617/p/plib3.ui/0.15.8.2-0.15.8.3/diff.md --exclude *.pyd
+[2023-06-17 06:28:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.902182978.dev11525.tar.gz]
+[2023-06-17 06:28:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.903067183.dev11538.tar.gz]
+[2023-06-17 06:28:21] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-17 06:28:21] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.6.tar.gz]
+[2023-06-17 06:28:21] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.7.tar.gz]
+[2023-06-17 06:28:21] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 06:28:21] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 06:28:23] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.2.tar.gz]
+[2023-06-17 06:28:23] INFO root fetch - processPackages [plib3.ui]: Remove: archive file [/home/abi/fetcher/tmp/plib3.ui-0.15.8.3.tar.gz]
+[2023-06-17 06:28:23] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
+[2023-06-17 06:28:23] INFO root fetch - main [MainThread]: Store serial: [18540820]
