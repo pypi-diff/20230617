@@ -15560,3 +15560,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 17:29:11] INFO root fetch - processPackages [deltachat]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-1.99.0.tar.gz]
 [2023-06-17 17:29:11] INFO root fetch - main [MainThread]: End processing [deltachat]: success
 [2023-06-17 17:29:11] INFO root fetch - main [MainThread]: Store serial: [18544204]
+[2023-06-17 17:34:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544204]
+[2023-06-17 17:34:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbm-agent
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erniechatbotsdk
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidevice
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pasta-eln
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-leaflet
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QScintilla
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-bmi160
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daisykit
+[2023-06-17 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leuci-geo
+[2023-06-17 17:34:20] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [minidevice]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.9] Old Version: [8.33.8]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [daisykit]: New version: [0.3.0.3] Old Version: [0.3.0.2]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [micropython-bmi160]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [dash-leaflet]: New version: [0.1.9rc5] Old Version: [0.1.9rc4]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [QScintilla]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/7a/88/608618942be11abd6f27e9d0a112b21318eec21ecacb731b6b7225a4d5dd/erniechatbotsdk-0.0.4.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 17:34:20] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/68/38/bc14c6bf2fce2496d77237cd18dbba7b189d193c972b785dc8d8c0e06097/minidevice-2.0.3.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/59/01/45ffea951e67890c77f3163c7ed1a04ee8ce4d2bb13f356a5a300937db83/pasta_eln-2.3.8-py3-none-any.whl
+[2023-06-17 17:34:20] INFO root fetch - processPackages [daisykit]: Downloading https://files.pythonhosted.org/packages/1b/a7/a3e8ce757577fac0adbf806c849de09b4f41cd49ce6ceafb77bf6da77daf/daisykit-0.3.0.2.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/96/b4/5d18c8ae0baf6ec55dd17fe5481bea87feb7ea2efe1bf67a841037c6843c/dbm-agent-8.33.8.tar.gz
+[2023-06-17 17:34:20] WARNING root fetch - processPackages [daisykit]: Skipping package: exceeds size limit 18679613>=10485760
+[2023-06-17 17:34:20] INFO root fetch - main [MainThread]: End processing [daisykit] error
+[2023-06-17 17:34:20] INFO root fetch - processPackages [micropython-bmi160]: Downloading https://files.pythonhosted.org/packages/e6/aa/262487894834fb4acbcb8c85ef8deff78759371f6dbb31620978532d8c24/micropython-bmi160-0.1.0.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/5b/0e/2b7ec9cca9f2affae75ab19e21334ea836bb6fb14e64d1bf107f1533be2f/dash_leaflet-0.1.9rc4.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [QScintilla]: Downloading https://files.pythonhosted.org/packages/9c/6e/258ca2ffe1e3fd1aa425fae4505b3da3bdc0d7e4fcecc71e11b180d3df8c/QScintilla-2.9.3-cp35-none-win_amd64.whl
+[2023-06-17 17:34:20] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/3e/d9/bd9ff0127dc476b03342bcd92766324df04b059746a9ee2fba07fba1e64a/leuci-geo-0.0.3.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/a8/27/3034a146f30a043e8885985175049ac5b15bf1aa1ac67f9743bf60b9c405/minidevice-2.0.4.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0c/a7/eaff9355ce792a03370a3aa7f4cfa388fda42c07f85ccc06d5b8897adb1a/erniechatbotsdk-0.0.5.tar.gz
+[2023-06-17 17:34:20] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/ff/12/4f1000dade1566838e3e724b7d28c6409c52ce7ac4152a176bdc17bdb32f/pasta_eln-2.3.9-py3-none-any.whl
+[2023-06-17 17:34:21] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/6e/eb/46f6de2ab921535aa9eac258386a1d4005faf46ad0a43f4556c8e41d51d5/dbm-agent-8.33.9.tar.gz
+[2023-06-17 17:34:21] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.3.tar.gz tmp/minidevice-2.0.4.tar.gz --markdown 20230617/m/minidevice/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [micropython-bmi160]: Downloading https://files.pythonhosted.org/packages/97/8c/4f52d9575c79614f5f5d6ac3ed3559ec5e563e8cad1f29cf23f9a9c2b3e8/micropython-bmi160-0.1.1.tar.gz
+[2023-06-17 17:34:21] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.4.tar.gz tmp/erniechatbotsdk-0.0.5.tar.gz --markdown 20230617/e/erniechatbotsdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230617/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.8.tar.gz tmp/dbm-agent-8.33.9.tar.gz --markdown 20230617/d/dbm-agent/8.33.8-8.33.9/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [micropython-bmi160]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [micropython-bmi160]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bmi160-0.1.0.tar.gz tmp/micropython-bmi160-0.1.1.tar.gz --markdown 20230617/m/micropython-bmi160/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/d8/11/23b8c92f4969205f93b576d8f656c1e412e565ac2e32dc9da2a228652d6b/leuci_geo-0.0.4-py3-none-any.whl
+[2023-06-17 17:34:21] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/f2/6f/fc587f0f269f8bda040c0174d28a96058686b992cdc8cf56f5d0acce9ebf/dash_leaflet-0.1.9rc5.tar.gz
+[2023-06-17 17:34:21] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-17 17:34:21] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.3.tar.gz tmp/leuci_geo-0.0.4-py3-none-any.whl.zip --markdown 20230617/l/leuci-geo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 17:34:21] INFO root fetch - processPackages [QScintilla]: Downloading https://files.pythonhosted.org/packages/8f/74/39898b3f6238b775d2172f7bf25b7f69276e0a21406b85d09a0db158946b/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl
+[2023-06-17 17:34:22] INFO root fetch - processPackages [QScintilla]: executing diffoscope
+[2023-06-17 17:34:22] INFO root fetch - processPackages [QScintilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QScintilla-2.9.3-cp35-none-win_amd64.whl.zip tmp/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl.zip --markdown 20230617/Q/QScintilla/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-17 17:34:22] INFO root fetch - processPackages [dash-leaflet]: executing diffoscope
+[2023-06-17 17:34:22] INFO root fetch - processPackages [dash-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_leaflet-0.1.9rc4.tar.gz tmp/dash_leaflet-0.1.9rc5.tar.gz --markdown 20230617/d/dash-leaflet/0.1.9rc4-0.1.9rc5/diff.md --exclude *.pyd
+[2023-06-17 17:34:22] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.4.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.5.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-17 17:34:22] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.3.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.4.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-17 17:34:22] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.3.8-py3-none-any.whl.zip]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.3.9-py3-none-any.whl.zip]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-06-17 17:34:22] INFO root fetch - processPackages [micropython-bmi160]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmi160-0.1.0.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [micropython-bmi160]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmi160-0.1.1.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [micropython-bmi160]: success
+[2023-06-17 17:34:22] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.3.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci_geo-0.0.4-py3-none-any.whl.zip]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-17 17:34:22] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.8.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
+[2023-06-17 17:34:22] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-06-17 17:34:23] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc4.tar.gz]
+[2023-06-17 17:34:23] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc5.tar.gz]
+[2023-06-17 17:34:23] INFO root fetch - main [MainThread]: End processing [dash-leaflet]: success
+[2023-06-17 17:34:23] INFO root fetch - processPackages [QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/QScintilla-2.9.3-cp35-none-win_amd64.whl.zip]
+[2023-06-17 17:34:23] INFO root fetch - processPackages [QScintilla]: Remove: archive file [/home/abi/fetcher/tmp/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl.zip]
+[2023-06-17 17:34:23] INFO root fetch - main [MainThread]: End processing [QScintilla]: success
+[2023-06-17 17:34:23] INFO root fetch - main [MainThread]: Store serial: [18544249]
