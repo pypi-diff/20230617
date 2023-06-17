@@ -11907,3 +11907,36 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:51:23] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo-collections-5.45.21241.tar.gz]
 [2023-06-17 12:51:23] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
 [2023-06-17 12:51:23] INFO root fetch - main [MainThread]: Store serial: [18542422]
+[2023-06-17 12:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542422]
+[2023-06-17 12:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 12:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfs-replicate
+[2023-06-17 12:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvchecker
+[2023-06-17 12:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqt.ddsim
+[2023-06-17 12:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-attention
+[2023-06-17 12:56:32] INFO root fetch - processPackages [nvchecker]: New version: [2.9] Old Version: [2.8.post1]
+[2023-06-17 12:56:32] WARNING root fetch - processPackages [torch-attention]: Skipping, unable to determine old version
+[2023-06-17 12:56:32] INFO root fetch - main [MainThread]: End processing [torch-attention] error
+[2023-06-17 12:56:32] INFO root fetch - processPackages [zfs-replicate]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-17 12:56:32] INFO root fetch - processPackages [mqt.ddsim]: New version: [1.18.0] Old Version: [1.17.3]
+[2023-06-17 12:56:32] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/7a/c0/61b7c2dab2e9d3526d8542ccab27577cf82fa5c4534ce661740dd2670beb/nvchecker-2.8.post1.tar.gz
+[2023-06-17 12:56:32] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/82/53/89d71321fa23027e20d733fa0c17a6b0bd51d9f206ea25c2d3f6f229b0da/zfs_replicate-2.1.1.tar.gz
+[2023-06-17 12:56:32] INFO root fetch - processPackages [mqt.ddsim]: Downloading https://files.pythonhosted.org/packages/db/e5/b335ad6a640243cc6945a1baaff0c85953df5bafe2254266cb6e613241ec/mqt.ddsim-1.17.3.tar.gz
+[2023-06-17 12:56:32] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/d1/8a/f4b4ed99c5089753695eaea576851c1947c1a4fe5ad9f8ae61b88d66a39b/zfs_replicate-2.2.0.tar.gz
+[2023-06-17 12:56:33] INFO root fetch - processPackages [zfs-replicate]: executing diffoscope
+[2023-06-17 12:56:33] INFO root fetch - processPackages [zfs-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfs_replicate-2.1.1.tar.gz tmp/zfs_replicate-2.2.0.tar.gz --markdown 20230617/z/zfs-replicate/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-17 12:56:33] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/c2/71/13c7c02602489b6187aca3bf833f577afc1e10501a3b394f8de5cf4f6ccb/nvchecker-2.9.tar.gz
+[2023-06-17 12:56:33] INFO root fetch - processPackages [nvchecker]: executing diffoscope
+[2023-06-17 12:56:33] INFO root fetch - processPackages [nvchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvchecker-2.8.post1.tar.gz tmp/nvchecker-2.9.tar.gz --markdown 20230617/n/nvchecker/2.8.post1-2.9/diff.md --exclude *.pyd
+[2023-06-17 12:56:33] INFO root fetch - processPackages [mqt.ddsim]: Downloading https://files.pythonhosted.org/packages/20/ca/63014c7da060ca4f3247339258fe872f56607d7e7d30da93a58ceaef25bc/mqt.ddsim-1.18.0.tar.gz
+[2023-06-17 12:56:33] INFO root fetch - processPackages [mqt.ddsim]: executing diffoscope
+[2023-06-17 12:56:33] INFO root fetch - processPackages [mqt.ddsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.ddsim-1.17.3.tar.gz tmp/mqt.ddsim-1.18.0.tar.gz --markdown 20230617/m/mqt.ddsim/1.17.3-1.18.0/diff.md --exclude *.pyd
+[2023-06-17 12:56:34] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-2.1.1.tar.gz]
+[2023-06-17 12:56:34] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-2.2.0.tar.gz]
+[2023-06-17 12:56:34] INFO root fetch - main [MainThread]: End processing [zfs-replicate]: success
+[2023-06-17 12:56:34] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.8.post1.tar.gz]
+[2023-06-17 12:56:34] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.9.tar.gz]
+[2023-06-17 12:56:34] INFO root fetch - main [MainThread]: End processing [nvchecker]: success
+[2023-06-17 12:57:08] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt.ddsim-1.17.3.tar.gz]
+[2023-06-17 12:57:08] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt.ddsim-1.18.0.tar.gz]
+[2023-06-17 12:57:08] INFO root fetch - main [MainThread]: End processing [mqt.ddsim]: success
+[2023-06-17 12:57:08] INFO root fetch - main [MainThread]: Store serial: [18542452]
