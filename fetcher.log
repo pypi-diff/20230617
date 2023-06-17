@@ -12073,3 +12073,130 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 13:12:41] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.94.tar.gz]
 [2023-06-17 13:12:41] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
 [2023-06-17 13:12:41] INFO root fetch - main [MainThread]: Store serial: [18542521]
+[2023-06-17 13:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542521]
+[2023-06-17 13:17:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 13:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GCoCF
+[2023-06-17 13:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-screener
+[2023-06-17 13:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erniebotchat
+[2023-06-17 13:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GCoCF
+[2023-06-17 13:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-testing
+[2023-06-17 13:17:51] WARNING root fetch - processPackages [erniebotchat]: Skipping, unable to determine old version
+[2023-06-17 13:17:51] INFO root fetch - main [MainThread]: End processing [erniebotchat] error
+[2023-06-17 13:17:51] INFO root fetch - processPackages [GCoCF]: New version: [0.9.96] Old Version: [0.9.95]
+[2023-06-17 13:17:51] INFO root fetch - processPackages [GCoCF]: New version: [0.9.96] Old Version: [0.9.95]
+[2023-06-17 13:17:51] INFO root fetch - processPackages [auto-screener]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-17 13:17:52] INFO root fetch - processPackages [mo-testing]: New version: [5.53.21241] Old Version: [5.419.23168]
+[2023-06-17 13:17:52] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/2f/c1/98f7ff63c64056e73d318ad8745aa1fb5d92048ffe505397447bbe2d2458/auto-screener-0.2.0.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/3e/7d/4c31df225df7cbd351c5e316a5d82eb9ea4d065e46ed807aea9d19b987d3/gcocf-0.9.95.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/3e/7d/4c31df225df7cbd351c5e316a5d82eb9ea4d065e46ed807aea9d19b987d3/gcocf-0.9.95.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/c3/53/f3f7fa6fa1ebe85c0fd4e081466ce33564ab13e27eb577617879412755bd/mo_testing-5.419.23168-py2.py3-none-any.whl
+[2023-06-17 13:17:52] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/52/2b/00d506d5bc29224511a0afd0bd59671a814d91e866a3939f41ee8730ca37/auto-screener-1.0.0.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-17 13:17:52] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.2.0.tar.gz tmp/auto-screener-1.0.0.tar.gz --markdown 20230617/a/auto-screener/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 13:17:52] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d9/cd/f2576ce1ba78bee930d7589319531827d26adb89f1ffc604ffe0395e6bb5/mo-testing-5.53.21241.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/df/92/d5b2b8e107dbcc37d0bd09b84045a7d65167916d2961e787e3d640287d35/gcocf-0.9.96.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/df/92/d5b2b8e107dbcc37d0bd09b84045a7d65167916d2961e787e3d640287d35/gcocf-0.9.96.tar.gz
+[2023-06-17 13:17:52] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2023-06-17 13:17:52] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-5.419.23168-py2.py3-none-any.whl.zip tmp/mo-testing-5.53.21241.tar.gz --markdown 20230617/m/mo-testing/5.419.23168-5.53.21241/diff.md --exclude *.pyd
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.95.tar.gz tmp/gcocf-0.9.96.tar.gz --markdown 20230617/G/GCoCF/0.9.95-0.9.96/diff.md --exclude *.pyd
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 13:17:52] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.95.tar.gz tmp/gcocf-0.9.96.tar.gz --markdown 20230617/G/GCoCF/0.9.95-0.9.96/diff.md --exclude *.pyd
+[2023-06-17 13:17:53] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.2.0.tar.gz]
+[2023-06-17 13:17:53] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-1.0.0.tar.gz]
+[2023-06-17 13:17:53] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-17 13:17:53] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-5.419.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 13:17:53] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo-testing-5.53.21241.tar.gz]
+[2023-06-17 13:17:53] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2023-06-17 13:17:53] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.95.tar.gz]
+[2023-06-17 13:17:53] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.96.tar.gz]
+[2023-06-17 13:17:53] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 13:17:54] ERROR root fetch - processPackages [GCoCF]: Diffoscope failed: gzip: tmp/gcocf-0.9.96.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/gcocf-0.9.96.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-17 13:17:54] INFO root fetch - main [MainThread]: End processing [GCoCF] error
+[2023-06-17 13:17:54] INFO root fetch - main [MainThread]: Store serial: [18542537]
