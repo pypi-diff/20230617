@@ -8954,3 +8954,33 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:17:30] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.2rc7.tar.gz]
 [2023-06-17 07:17:30] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-17 07:17:30] INFO root fetch - main [MainThread]: Store serial: [18541114]
+[2023-06-17 07:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541114]
+[2023-06-17 07:22:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-17 07:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-request
+[2023-06-17 07:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-stock-picking-package-preparation
+[2023-06-17 07:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yakinori
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.6.3.dev3] Old Version: [14.0.1.6.3.dev2]
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/77/0f/aa59388939b7107ef5480a0671bc0a41d98e5438adeab5ad687cfb6979f2/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl
+[2023-06-17 07:22:39] INFO root fetch - processPackages [yakinori]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/38/77/4c9f125062ff29750e1a960e31dc3d6ea0bcb3468b1d62c86202547dd0d3/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-17 07:22:39] INFO root fetch - processPackages [yakinori]: Downloading https://files.pythonhosted.org/packages/e4/b5/3f03b2ba88ee8dd4f7765ba9a631ec369fed48a8a1edc53bf0d331e866dd/yakinori-0.1.0.tar.gz
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/2a/d5/843342bd73deade1973edc9bd749a7a7d00d80645b73996f6c5a5be1e80f/odoo14_addon_stock_request-14.0.1.6.3.dev3-py3-none-any.whl
+[2023-06-17 07:22:39] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/a5/aa/d6a1996cf514670accce70bcf8689c070a2c10013912b373f0da925b9d2c/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-17 07:22:40] INFO root fetch - processPackages [yakinori]: Downloading https://files.pythonhosted.org/packages/0c/64/d7a3ae2d99741c0fda6605f4897ab2806065114b35635bc63bcdafe76b67/yakinori-0.1.2-py3-none-any.whl
+[2023-06-17 07:22:40] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-06-17 07:22:40] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.6.3.dev3-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-stock-request/14.0.1.6.3.dev2-14.0.1.6.3.dev3/diff.md --exclude *.pyd
+[2023-06-17 07:22:40] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: executing diffoscope
+[2023-06-17 07:22:40] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo9-addon-stock-picking-package-preparation/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 07:22:40] INFO root fetch - processPackages [yakinori]: executing diffoscope
+[2023-06-17 07:22:40] INFO root fetch - processPackages [yakinori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yakinori-0.1.0.tar.gz tmp/yakinori-0.1.2-py3-none-any.whl.zip --markdown 20230617/y/yakinori/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-17 07:22:41] INFO root fetch - processPackages [yakinori]: Remove: archive file [/home/abi/fetcher/tmp/yakinori-0.1.0.tar.gz]
+[2023-06-17 07:22:41] INFO root fetch - processPackages [yakinori]: Remove: archive file [/home/abi/fetcher/tmp/yakinori-0.1.2-py3-none-any.whl.zip]
+[2023-06-17 07:22:41] INFO root fetch - main [MainThread]: End processing [yakinori]: success
+[2023-06-17 07:22:41] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 07:22:41] INFO root fetch - processPackages [odoo9-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_picking_package_preparation-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 07:22:41] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-picking-package-preparation]: success
+[2023-06-17 07:22:41] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl.zip]
+[2023-06-17 07:22:41] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.3.dev3-py3-none-any.whl.zip]
+[2023-06-17 07:22:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-06-17 07:22:41] INFO root fetch - main [MainThread]: Store serial: [18541122]
