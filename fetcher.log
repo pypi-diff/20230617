@@ -8299,3 +8299,148 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:33:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.0a0.tar.gz]
 [2023-06-17 06:33:40] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-17 06:33:40] INFO root fetch - main [MainThread]: Store serial: [18540858]
+[2023-06-17 06:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540858]
+[2023-06-17 06:38:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thelogger
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitemplates
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-project-mail-chatter
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-project-administrator-restricted-visibility
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webhooklib
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-project
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spPersist
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaserver-activity
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-project-scrum
+[2023-06-17 06:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyvoicebox
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [spPersist]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [thelogger]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230613.0] Old Version: [16.0.20230605.0]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo14-addon-project-scrum]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-17 06:38:50] WARNING root fetch - processPackages [pyvoicebox]: Skipping, unable to determine old version
+[2023-06-17 06:38:50] INFO root fetch - processPackages [pyvoicebox]: Start processing: boost-loss
+[2023-06-17 06:38:50] INFO root fetch - main [MainThread]: End processing [pyvoicebox] error
+[2023-06-17 06:38:50] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [boost-loss]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-17 06:38:50] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/2c/93/4b358172afe46ca4c497f5bc8b28591a1c2da3d2335e2d611990e53bceb4/sppersist-1.1.2.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [boost-loss]: Downloading https://files.pythonhosted.org/packages/f4/86/a75ace9ed6a2aa488a8248976523111825c7a7e2f6c8cdfd656835314a5f/boost_loss-0.1.1.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/01/71/67687824aabfb570d91834d308b2b055762e0424710ae53a79d14ef11257/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/e4/7b/968eb012dd656cd14144a759809528ce5debf38759bed1f608d04e72785a/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: Downloading https://files.pythonhosted.org/packages/ba/bc/ae132ac5b17142d52a2ebb6de581d6f85c077020b652b0d83bed58a60d74/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/39/b4/80c7147e7f296f15cb40d338d6108c570e10a6bc769ba713aec7517919aa/thelogger-0.2.8-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/b9/dc/63f8367ebefe40a901574746e2b0688d6004203e10453272a876b55baa90/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f4/3a/3bc4bb7e3aeee96d98e51fa301c90804dac1b853dbda5c78bfce0df4cab4/sppersist-1.1.3.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [boost-loss]: Downloading https://files.pythonhosted.org/packages/91/31/0819209917fc48c9c450758e685f22acc3acdf0170b971f5bc676534b8c3/boost_loss-0.2.0.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-06-17 06:38:50] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 06:38:50] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: Downloading https://files.pythonhosted.org/packages/99/e7/0fee7748251a79aa83730afa0d60df4d20c665daca9f586be439ef0d5781/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-17 06:38:50] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.2.tar.gz tmp/sppersist-1.1.3.tar.gz --markdown 20230617/s/spPersist/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-17 06:38:50] INFO root fetch - processPackages [boost-loss]: executing diffoscope
+[2023-06-17 06:38:50] INFO root fetch - processPackages [boost-loss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boost_loss-0.1.1.tar.gz tmp/boost_loss-0.2.0.tar.gz --markdown 20230617/b/boost-loss/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-17 06:38:50] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:38:50] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230617/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/f9/6e/a99ee215b8db9a522dbeac690054c3929fdfb3a5cbce76d5885c539a9da8/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/bb/7a/960410330112677c17d690a3fd69a07bd712e806f4f618359aad6b549592/thelogger-0.2.9-py3-none-any.whl
+[2023-06-17 06:38:50] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/79/c2/3c1b3d3165e5233338fedcdfe23767a9ee0555541fe8f48f571f1237e27e/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/f6/fb/9d2304aec76a914fbaebfc595a0cc31fa2e13884f8aa14119f06f242b37d/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip --markdown 20230617/o/odoo-addons-oca-project/16.0.20230605.0-16.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-17 06:38:51] INFO root fetch - processPackages [thelogger]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [thelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thelogger-0.2.8-py3-none-any.whl.zip tmp/thelogger-0.2.9-py3-none-any.whl.zip --markdown 20230617/t/thelogger/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-project-administrator-restricted-visibility/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-project-mail-chatter/14.0.1.1.1.dev8-14.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo14-addon-project-scrum]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [odoo14-addon-project-scrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo14-addon-project-scrum/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:38:51] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-06-17 06:38:51] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-06-17 06:38:51] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230617/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-17 06:38:52] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.2.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.3.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [spPersist]: Start processing: gascompressibility
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [gascompressibility]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [webhooklib]: Start processing: control-rod
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [control-rod]: New version: [2023.6.16.1] Old Version: [2023.6.16.0]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/8e/87/40c1cf7480b1f5b3921478748dee5c35e209996aae54e89de9abde338e82/control_rod-2023.6.16.0.tar.gz
+[2023-06-17 06:38:52] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/b2/b4/df933726349311bcc16426ae39c9ffc8904f5f95f7e2ee1e69f72869bcf8/gascompressibility-0.1.0.tar.gz
+[2023-06-17 06:38:52] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.2.8-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.2.9-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [thelogger]: Start processing: odoo8-addon-purchase-request
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [thelogger]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo8-addon-purchase-request]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo-addons-oca-project]: Start processing: aitemplates
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/20/91/4f5e35927e3f4b75407b6b9da8a65849822be8b106153efbd26b58f138b9/control_rod-2023.6.16.1.tar.gz
+[2023-06-17 06:38:52] INFO root fetch - processPackages [boost-loss]: Remove: archive file [/home/abi/fetcher/tmp/boost_loss-0.1.1.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [boost-loss]: Remove: archive file [/home/abi/fetcher/tmp/boost_loss-0.2.0.tar.gz]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [boost-loss]: Start processing: tf-nightly-macos
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [boost-loss]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:38:52] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230617/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Start processing: odoo12-addon-purchase-request
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-mail-chatter]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/ee/1d/54fd0bb8c4163089fd1a7b50f1f9b82fb984f98ca1c684cabf97dfb63776/gascompressibility-0.1.1.tar.gz
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/34/e3/20ba06ffaa42bc3391b6f6eb364c7cabe58e599ec2f3eaba87fae1f531a7/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo-addon-project-administrator-restricted-visibility]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_administrator_restricted_visibility-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-17 06:38:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-administrator-restricted-visibility]: success
+[2023-06-17 06:38:52] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230616] Old Version: [2.14.0.dev20230615]
+[2023-06-17 06:38:52] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-06-17 06:38:52] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2023.6.16.0.tar.gz tmp/control_rod-2023.6.16.1.tar.gz --markdown 20230617/c/control-rod/2023.6.16.0-2023.6.16.1/diff.md --exclude *.pyd
+[2023-06-17 06:38:52] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-06-17 06:38:52] INFO root fetch - processPackages [gascompressibility]: executing diffoscope
+[2023-06-17 06:38:52] INFO root fetch - processPackages [gascompressibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gascompressibility-0.1.0.tar.gz tmp/gascompressibility-0.1.1.tar.gz --markdown 20230617/g/gascompressibility/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-06-17 06:38:53] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/fd/cd/40d2250a8f0a502c002054fe9855452387f38aeb9265c0b1a033e2605d40/tf_nightly_macos-2.14.0.dev20230615-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-17 06:38:53] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-06-17 06:38:53] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-06-17 06:38:53] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 06:38:53] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199032737>=10485760
+[2023-06-17 06:38:53] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/c9/ec/ebdca117cda7b507d9a149fed48e0427000ffb9e5ee938effdc471d06e90/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-17 06:38:53] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-06-17 06:38:53] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-06-17 06:38:53] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo8-addon-purchase-request]: executing diffoscope
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo8-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230617/o/odoo8-addon-purchase-request/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230617/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-17 06:38:53] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-17 06:38:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-scrum]: success
+[2023-06-17 06:38:53] ERROR root fetch - processPackages [aitemplates]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/aitemplates-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/aitemplates-0.1.9.tar.gz: No such file or directory
+
+[2023-06-17 06:38:53] INFO root fetch - main [MainThread]: End processing [aitemplates] error
+[2023-06-17 06:38:54] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.0.tar.gz]
+[2023-06-17 06:38:54] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.1.tar.gz]
+[2023-06-17 06:38:54] INFO root fetch - main [MainThread]: End processing [gascompressibility]: success
+[2023-06-17 06:38:54] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.16.0.tar.gz]
+[2023-06-17 06:38:54] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.16.1.tar.gz]
+[2023-06-17 06:38:54] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-06-17 06:38:54] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-17 06:38:54] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-17 06:38:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-request]: success
+[2023-06-17 06:38:55] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-17 06:38:55] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-17 06:38:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-06-17 06:38:55] INFO root fetch - main [MainThread]: Store serial: [18540905]
