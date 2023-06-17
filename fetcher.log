@@ -2220,3 +2220,69 @@
 [2023-06-17 02:56:03] INFO root fetch - processPackages [robotframework-ride]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-ride-2.0rc1.zip]
 [2023-06-17 02:56:03] INFO root fetch - main [MainThread]: End processing [robotframework-ride]: success
 [2023-06-17 02:56:03] INFO root fetch - main [MainThread]: Store serial: [18538742]
+[2023-06-17 03:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538742]
+[2023-06-17 03:01:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpr
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-bitly
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-netbox-sb-dc-accessdata
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kedro-ibis-dataset
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-utils
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyqt-llamaindex
+[2023-06-17 03:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aemcmc-nightly
+[2023-06-17 03:01:12] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 03:01:12] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-17 03:01:12] WARNING root fetch - processPackages [netbox-netbox-sb-dc-accessdata]: Skipping, unable to determine old version
+[2023-06-17 03:01:12] WARNING root fetch - processPackages [tap-bitly]: Skipping, unable to determine old version
+[2023-06-17 03:01:12] INFO root fetch - main [MainThread]: End processing [netbox-netbox-sb-dc-accessdata] error
+[2023-06-17 03:01:12] INFO root fetch - main [MainThread]: End processing [tap-bitly] error
+[2023-06-17 03:01:12] INFO root fetch - processPackages [neon-utils]: New version: [1.5.1a6] Old Version: [1.5.1a5]
+[2023-06-17 03:01:12] WARNING root fetch - processPackages [pyqt-llamaindex]: Skipping, unable to determine old version
+[2023-06-17 03:01:12] INFO root fetch - main [MainThread]: End processing [pyqt-llamaindex] error
+[2023-06-17 03:01:12] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230616] Old Version: [0.0.8.dev20230615]
+[2023-06-17 03:01:12] INFO root fetch - processPackages [kedro-ibis-dataset]: New version: [0.0.6a3] Old Version: [0.0.6a2]
+[2023-06-17 03:01:12] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-17 03:01:12] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/2a/b1/e97baa7bb6a5834d6058ed0c9fbdc3b20c7f3d8050de777c46bd412b0637/kedro_ibis_dataset-0.0.6a2.tar.gz
+[2023-06-17 03:01:12] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/6f/80/e7779be44e52ab6c42571ccb9f2b825c096cdc66c5d8839ffc99dd50a4e0/aemcmc-nightly-0.0.8.dev20230615.tar.gz
+[2023-06-17 03:01:12] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-17 03:01:12] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/57/42/9b646ef0fcd3a552adb6ee84ce42df3149ffca0fad441d9aea12ef6904a6/neon-utils-1.5.1a5.tar.gz
+[2023-06-17 03:01:12] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-06-17 03:01:12] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/e4/d8/a1f95b2fe89eb4e76caabf2a80a5bd602aebbd9093bd504721d0c06a3b5e/aemcmc-nightly-0.0.8.dev20230616.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [kedro-ibis-dataset]: Downloading https://files.pythonhosted.org/packages/39/45/92045b0a8d639f9ac64ebb363f11c98a417a6fbc9091acba16622a05c9d5/kedro_ibis_dataset-0.0.6a3.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4c/39/b4fc169eb49d2c4bfe1d4747ed4b239f854422ea71d7578c5b21bd14a8dd/neon-utils-1.5.1a6.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230615.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230616.tar.gz --markdown 20230617/a/aemcmc-nightly/0.0.8.dev20230615-0.0.8.dev20230616/diff.md --exclude *.pyd
+[2023-06-17 03:01:13] INFO root fetch - processPackages [kedro-ibis-dataset]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [kedro-ibis-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_ibis_dataset-0.0.6a2.tar.gz tmp/kedro_ibis_dataset-0.0.6a3.tar.gz --markdown 20230617/k/kedro-ibis-dataset/0.0.6a2-0.0.6a3/diff.md --exclude *.pyd
+[2023-06-17 03:01:13] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-17 03:01:13] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230617/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-17 03:01:13] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230617/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 03:01:13] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.5.1a5.tar.gz tmp/neon-utils-1.5.1a6.tar.gz --markdown 20230617/n/neon-utils/1.5.1a5-1.5.1a6/diff.md --exclude *.pyd
+[2023-06-17 03:01:13] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-17 03:01:13] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230617/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-17 03:01:14] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a2.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - processPackages [kedro-ibis-dataset]: Remove: archive file [/home/abi/fetcher/tmp/kedro_ibis_dataset-0.0.6a3.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - main [MainThread]: End processing [kedro-ibis-dataset]: success
+[2023-06-17 03:01:14] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-17 03:01:14] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.8.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.9.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-06-17 03:01:14] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230615.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230616.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-17 03:01:14] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.5.1a5.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.5.1a6.tar.gz]
+[2023-06-17 03:01:14] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-06-17 03:01:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-17 03:01:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-17 03:01:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-17 03:01:34] INFO root fetch - main [MainThread]: Store serial: [18538778]
