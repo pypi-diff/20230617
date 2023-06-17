@@ -9232,3 +9232,60 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 07:55:06] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.18.tar.gz]
 [2023-06-17 07:55:06] INFO root fetch - main [MainThread]: End processing [pytorch-supporter]: success
 [2023-06-17 07:55:06] INFO root fetch - main [MainThread]: Store serial: [18541245]
+[2023-06-17 08:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541245]
+[2023-06-17 08:00:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authomize-rest-api-client
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-short-links
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydiverse-pipedag
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ruamel.yaml
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-06-17 08:00:14] INFO root fetch - processPackages [django-short-links]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [spPersist]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [webhooklib]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-17 08:00:14] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/cd/65/2438c05f29a21048e66ba9eb3ca8bdc94f6cac3fbb05f01a40eed490220e/authomize-rest-api-client-4.2.7.tar.gz
+[2023-06-17 08:00:14] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/e5/f0/8080097f49129a8479f6cdd04b3140946853380080e65c69f0e16bd438bc/django_short_links-0.1.3.tar.gz
+[2023-06-17 08:00:14] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/13/a4/261ad907d6ba8f01f7b6f33fe9217585a0e8735e3a5ff4779e89b7450665/webhooklib-0.1.7.tar.gz
+[2023-06-17 08:00:14] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/59/a2/6145f104681ab2afff8c2dffa416244bd71e41840d4892e42cae8589c27a/pydiverse_pipedag-0.4.0.tar.gz
+[2023-06-17 08:00:14] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/fe/6b/0ee195de1a36da953b19a720b9700e36ab3624e752f22fb062ee6209e530/sppersist-1.1.4.tar.gz
+[2023-06-17 08:00:14] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/08/2e/36ad3bba826620494292ad7c14beb21695e6da91705f50cf228fb0fa4409/ruamel.yaml-0.9.7.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/c4/40/cd5c68a92c0757e4a803f7bcd93c3290edc714271e5814ca000679d42457/webhooklib-0.1.9.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/15/4b/3d17329d29bc45ff0d1096662110273606842c4dcef209a197cddfa85941/authomize-rest-api-client-4.2.8.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.1.7.tar.gz tmp/webhooklib-0.1.9.tar.gz --markdown 20230617/w/webhooklib/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 08:00:15] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/73/50/8a499b480541b54365a096255d51ebc399a6cb128acd003204989761dd30/django_short_links-0.1.4.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.2.7.tar.gz tmp/authomize-rest-api-client-4.2.8.tar.gz --markdown 20230617/a/authomize-rest-api-client/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-06-17 08:00:15] INFO root fetch - processPackages [django-short-links]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/a8/fe/58cc77b780bdd4c2619085e0e5c72f4b62d244e48a4be5301a338af2159c/sppersist-1.1.5.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [django-short-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_short_links-0.1.3.tar.gz tmp/django_short_links-0.1.4.tar.gz --markdown 20230617/d/django-short-links/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-17 08:00:15] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/3e/1b/6a5828b3b1fce61b40d6953d7c02b2d1e6f653dcff2ab976f139709bc4f6/pydiverse_pipedag-0.4.1.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.4.tar.gz tmp/sppersist-1.1.5.tar.gz --markdown 20230617/s/spPersist/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-17 08:00:15] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse_pipedag-0.4.0.tar.gz tmp/pydiverse_pipedag-0.4.1.tar.gz --markdown 20230617/p/pydiverse-pipedag/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-17 08:00:15] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/29/71/ac3ab7be172ca88b6d16134578c9124e0b5ed157a3681e5181d9ca9bb3ec/ruamel.yaml-0.9.8.tar.gz
+[2023-06-17 08:00:15] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-06-17 08:00:15] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230617/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-17 08:00:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.7.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.1.9.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 08:00:16] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.7.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.8.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-06-17 08:00:16] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.3.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.4.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - main [MainThread]: End processing [django-short-links]: success
+[2023-06-17 08:00:16] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.4.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.5.tar.gz]
+[2023-06-17 08:00:16] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-17 08:00:17] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.4.0.tar.gz]
+[2023-06-17 08:00:17] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.4.1.tar.gz]
+[2023-06-17 08:00:17] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2023-06-17 08:00:18] INFO root fetch - processPackages [ruamel.yaml]: Remove: archive file [/home/abi/fetcher/tmp/ruamel.yaml-0.9.7.tar.gz]
+[2023-06-17 08:00:18] INFO root fetch - processPackages [ruamel.yaml]: Remove: archive file [/home/abi/fetcher/tmp/ruamel.yaml-0.9.8.tar.gz]
+[2023-06-17 08:00:18] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-06-17 08:00:18] INFO root fetch - main [MainThread]: Store serial: [18541262]
