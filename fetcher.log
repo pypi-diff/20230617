@@ -9905,3 +9905,63 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:13:56] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-17 09:13:56] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-17 09:13:56] INFO root fetch - main [MainThread]: Store serial: [18541522]
+[2023-06-17 09:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541522]
+[2023-06-17 09:19:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idoctorai
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlppets
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athena-cli
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpugen
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensearch-orm
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: covey-sdk
+[2023-06-17 09:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CacheToolsUtils
+[2023-06-17 09:19:05] INFO root fetch - processPackages [idoctorai]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-17 09:19:05] INFO root fetch - processPackages [dpugen]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-06-17 09:19:05] INFO root fetch - processPackages [athena-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 09:19:05] INFO root fetch - processPackages [CacheToolsUtils]: New version: [7.0] Old Version: [6.0]
+[2023-06-17 09:19:05] INFO root fetch - processPackages [covey-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 09:19:05] INFO root fetch - processPackages [opensearch-orm]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-17 09:19:05] WARNING root fetch - processPackages [nlppets]: Skipping, unable to determine old version
+[2023-06-17 09:19:05] INFO root fetch - main [MainThread]: End processing [nlppets] error
+[2023-06-17 09:19:05] INFO root fetch - processPackages [athena-cli]: Downloading https://files.pythonhosted.org/packages/d6/ff/6b7403ca7e5ec562693f6f695ea025a96ea732f0b8381d14eae103627d09/athena-cli-0.1.8.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/b8/91/163cd4608ce29571fa64409afdb76e5e3d4a24021d7693e58fd14150e403/idoctorai-0.4.5.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [dpugen]: Downloading https://files.pythonhosted.org/packages/a7/5b/6bb4deee48e7dce49b1ce5406ac7e88bf94fdf80bf2fa99492a27b491b3e/dpugen-0.0.9.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [covey-sdk]: Downloading https://files.pythonhosted.org/packages/19/8b/0abfe1bf647c1f3be94700173dd0493f86b73be535d3f3d894498c3b2961/covey_sdk-0.1.8-py3-none-any.whl
+[2023-06-17 09:19:05] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/55/8b/c6d50bdb307e81b61f4cf306006b250765ca3ed052f723ae1d9899cac89d/opensearch-orm-0.1.6.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [CacheToolsUtils]: Downloading https://files.pythonhosted.org/packages/1a/a5/238f36306d73e6a18e343ca2e8c10f959544567e78fabf03ed87255a3889/CacheToolsUtils-6.0.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [athena-cli]: Downloading https://files.pythonhosted.org/packages/86/1c/fdee71b6b519cebfc5c20f8913a8dbd0127b5f0aeacc598f431513692891/athena-cli-0.1.9.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/ae/18/1e9a607eaef954b24ad69fe134afd6d0aec1cd9f8320dc79e68dc2a0e124/idoctorai-0.4.6.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [athena-cli]: executing diffoscope
+[2023-06-17 09:19:05] INFO root fetch - processPackages [athena-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena-cli-0.1.8.tar.gz tmp/athena-cli-0.1.9.tar.gz --markdown 20230617/a/athena-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 09:19:05] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-17 09:19:05] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.5.tar.gz tmp/idoctorai-0.4.6.tar.gz --markdown 20230617/i/idoctorai/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-17 09:19:05] INFO root fetch - processPackages [CacheToolsUtils]: Downloading https://files.pythonhosted.org/packages/47/b5/2434ee267d1e9622d206df16eb91b6f76efe826199a5b64e15720cc7615b/CacheToolsUtils-7.0.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [covey-sdk]: Downloading https://files.pythonhosted.org/packages/9f/5e/c2a27f34174011b66b98187a392b6d1c63ee44d7aa2355be81b677ea1138/covey_sdk-0.1.9-py3-none-any.whl
+[2023-06-17 09:19:05] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/81/e2/d4472d9477139c7c8d71704d46f40070f92e69e81e486a982ec99b339704/opensearch_orm-0.1.7.tar.gz
+[2023-06-17 09:19:05] INFO root fetch - processPackages [CacheToolsUtils]: executing diffoscope
+[2023-06-17 09:19:05] INFO root fetch - processPackages [CacheToolsUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CacheToolsUtils-6.0.tar.gz tmp/CacheToolsUtils-7.0.tar.gz --markdown 20230617/C/CacheToolsUtils/6.0-7.0/diff.md --exclude *.pyd
+[2023-06-17 09:19:05] INFO root fetch - processPackages [covey-sdk]: executing diffoscope
+[2023-06-17 09:19:05] INFO root fetch - processPackages [covey-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covey_sdk-0.1.8-py3-none-any.whl.zip tmp/covey_sdk-0.1.9-py3-none-any.whl.zip --markdown 20230617/c/covey-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 09:19:05] INFO root fetch - processPackages [opensearch-orm]: executing diffoscope
+[2023-06-17 09:19:05] INFO root fetch - processPackages [opensearch-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch-orm-0.1.6.tar.gz tmp/opensearch_orm-0.1.7.tar.gz --markdown 20230617/o/opensearch-orm/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-17 09:19:05] INFO root fetch - processPackages [dpugen]: Downloading https://files.pythonhosted.org/packages/ff/2a/65df09ba44023a64e6467798ff8199c1681dc11241f867c598e766995e5d/dpugen-0.1.1.tar.gz
+[2023-06-17 09:19:06] INFO root fetch - processPackages [dpugen]: executing diffoscope
+[2023-06-17 09:19:06] INFO root fetch - processPackages [dpugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpugen-0.0.9.tar.gz tmp/dpugen-0.1.1.tar.gz --markdown 20230617/d/dpugen/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 09:19:07] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.5.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.6.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-17 09:19:07] INFO root fetch - processPackages [CacheToolsUtils]: Remove: archive file [/home/abi/fetcher/tmp/CacheToolsUtils-6.0.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - processPackages [CacheToolsUtils]: Remove: archive file [/home/abi/fetcher/tmp/CacheToolsUtils-7.0.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - main [MainThread]: End processing [CacheToolsUtils]: success
+[2023-06-17 09:19:07] INFO root fetch - processPackages [athena-cli]: Remove: archive file [/home/abi/fetcher/tmp/athena-cli-0.1.8.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - processPackages [athena-cli]: Remove: archive file [/home/abi/fetcher/tmp/athena-cli-0.1.9.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - main [MainThread]: End processing [athena-cli]: success
+[2023-06-17 09:19:07] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-orm-0.1.6.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_orm-0.1.7.tar.gz]
+[2023-06-17 09:19:07] INFO root fetch - main [MainThread]: End processing [opensearch-orm]: success
+[2023-06-17 09:19:07] INFO root fetch - processPackages [covey-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covey_sdk-0.1.8-py3-none-any.whl.zip]
+[2023-06-17 09:19:07] INFO root fetch - processPackages [covey-sdk]: Remove: archive file [/home/abi/fetcher/tmp/covey_sdk-0.1.9-py3-none-any.whl.zip]
+[2023-06-17 09:19:07] INFO root fetch - main [MainThread]: End processing [covey-sdk]: success
+[2023-06-17 09:19:08] INFO root fetch - processPackages [dpugen]: Remove: archive file [/home/abi/fetcher/tmp/dpugen-0.0.9.tar.gz]
+[2023-06-17 09:19:08] INFO root fetch - processPackages [dpugen]: Remove: archive file [/home/abi/fetcher/tmp/dpugen-0.1.1.tar.gz]
+[2023-06-17 09:19:08] INFO root fetch - main [MainThread]: End processing [dpugen]: success
+[2023-06-17 09:19:08] INFO root fetch - main [MainThread]: Store serial: [18541544]
