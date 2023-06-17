@@ -14585,3 +14585,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:20:38] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.2.tar.gz]
 [2023-06-17 16:20:38] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-06-17 16:20:38] INFO root fetch - main [MainThread]: Store serial: [18543672]
+[2023-06-17 16:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543672]
+[2023-06-17 16:25:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EdgeGPT
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpteasy
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: artd-partner
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webhooklib
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-ds3502
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-decorators
+[2023-06-17 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: almavik
+[2023-06-17 16:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelolinguagem
+[2023-06-17 16:25:48] WARNING root fetch - processPackages [micropython-ds3502]: Skipping, unable to determine old version
+[2023-06-17 16:25:48] INFO root fetch - processPackages [micropython-ds3502]: Start processing: webhooklib
+[2023-06-17 16:25:48] INFO root fetch - main [MainThread]: End processing [micropython-ds3502] error
+[2023-06-17 16:25:48] WARNING root fetch - processPackages [artd-partner]: Skipping, unable to determine old version
+[2023-06-17 16:25:48] INFO root fetch - processPackages [artd-partner]: Start processing: data-ecosystem-services
+[2023-06-17 16:25:48] INFO root fetch - main [MainThread]: End processing [artd-partner] error
+[2023-06-17 16:25:48] INFO root fetch - processPackages [almavik]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-17 16:25:48] WARNING root fetch - processPackages [modelolinguagem]: Skipping, unable to determine old version
+[2023-06-17 16:25:48] INFO root fetch - main [MainThread]: End processing [modelolinguagem] error
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [gpteasy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/11/d2/a8b7a5c3c0577ef4504afb8412c7b135e3624aa2fd4d243ca07df69f3418/gpteasy-1.0.1.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/ca/54/3d446bbce0542c1db7140048d479a16605ac2d8c3229334b4fade0cff716/webhooklib-0.2.2.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/4f/85/aa2958e5e7c4554b7931edb92a6fc617dffcefee63444a8211db21a6a635/langchain-decorators-0.0.7.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/3a/01/8da5ad0861200292d51c418c469d934a20feb1d1c3d8dd86f114ef790db7/almavik-0.2.8.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-17 16:25:48] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88363436>=10485760
+[2023-06-17 16:25:48] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 16:25:48] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/d9/df/ebebbf4dd21793b1ca5212be8e0f7cba37e8c611bbd80b3110f8573c2892/langchain-decorators-0.0.8.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/50/86/fe5cfebc5ad923675303ef710e90dd272dae163a7a0d03283af371f720f5/webhooklib-0.3.0.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/93/f7/4f4a2001c9fe19a5f19d0c23d485dc8bc76b32fd57553a85bfbebbef6f0b/gpteasy-1.0.2.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/50/86/fe5cfebc5ad923675303ef710e90dd272dae163a7a0d03283af371f720f5/webhooklib-0.3.0.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.7.tar.gz tmp/langchain-decorators-0.0.8.tar.gz --markdown 20230617/l/langchain-decorators/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230617/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-1.0.1.tar.gz tmp/gpteasy-1.0.2.tar.gz --markdown 20230617/g/gpteasy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.2.2.tar.gz tmp/webhooklib-0.3.0.tar.gz --markdown 20230617/w/webhooklib/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.2.2.tar.gz tmp/webhooklib-0.3.0.tar.gz --markdown 20230617/w/webhooklib/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-17 16:25:48] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230617/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 16:25:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 16:25:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 16:25:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 16:25:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 16:25:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 16:25:50] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.2.2.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.3.0.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 16:25:50] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.0.1.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.0.2.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-17 16:25:50] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-17 16:25:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 16:25:50] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.7.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.8.tar.gz]
+[2023-06-17 16:25:50] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-06-17 16:25:51] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-17 16:25:51] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-17 16:25:51] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-17 16:25:51] INFO root fetch - main [MainThread]: Store serial: [18543710]
