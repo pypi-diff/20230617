@@ -17784,3 +17784,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:01:30] INFO root fetch - processPackages [odoo-addon-base-import-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_match-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2023-06-17 21:01:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-import-match]: success
 [2023-06-17 21:01:30] INFO root fetch - main [MainThread]: Store serial: [18545314]
+[2023-06-17 21:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545314]
+[2023-06-17 21:06:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simframe
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leuci-geo
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuspec-arl-dm
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realpython-reader-EXAMPLE
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acore-paths
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sankaku
+[2023-06-17 21:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oooenv
+[2023-06-17 21:06:40] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 21:06:40] WARNING root fetch - processPackages [realpython-reader-EXAMPLE]: Skipping, unable to determine old version
+[2023-06-17 21:06:40] INFO root fetch - main [MainThread]: End processing [realpython-reader-EXAMPLE] error
+[2023-06-17 21:06:40] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/66/cc/d685d0afbec195b3534bfda9330d6a35e75ccf4dbc68b2fa32627dd10ce3/leuci-geo-0.0.4.tar.gz
+[2023-06-17 21:06:40] INFO root fetch - processPackages [zuspec-arl-dm]: New version: [0.0.1.5299673134] Old Version: [0.0.1.5207391436]
+[2023-06-17 21:06:40] INFO root fetch - processPackages [oooenv]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 21:06:40] WARNING root fetch - processPackages [acore-paths]: Skipping, unable to determine old version
+[2023-06-17 21:06:40] INFO root fetch - processPackages [sankaku]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 21:06:40] INFO root fetch - main [MainThread]: End processing [acore-paths] error
+[2023-06-17 21:06:40] INFO root fetch - processPackages [simframe]: New version: [1.0.3rc1] Old Version: [1.0.3rc0]
+[2023-06-17 21:06:40] INFO root fetch - processPackages [zuspec-arl-dm]: Downloading https://files.pythonhosted.org/packages/0a/e2/7dd9eb216eefe2a6f53262e53fc7bf6e46f02cad890d0e62fe613e770d40/zuspec_arl_dm-0.0.1.5207391436-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 21:06:40] INFO root fetch - processPackages [simframe]: Downloading https://files.pythonhosted.org/packages/d7/66/d54309dd6fadb378d0461fa7494a05072d83983477310ac9e13cb9fd3d60/simframe-1.0.3rc0.tar.gz
+[2023-06-17 21:06:40] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/1c/b6/c6163265cdec8f20d2aa73df89d010ed295ccc72471c7061c93cce53644d/leuci-geo-0.0.5.tar.gz
+[2023-06-17 21:06:40] INFO root fetch - processPackages [oooenv]: Downloading https://files.pythonhosted.org/packages/91/35/d44912353717475c76cb176f46c80d4621b08a0a6cd9095064fba1901e4d/oooenv-0.2.1.tar.gz
+[2023-06-17 21:06:40] INFO root fetch - processPackages [sankaku]: Downloading https://files.pythonhosted.org/packages/65/fa/3a9e0104a442467c63363c2c5cc4b0be145619718580c851cd4e721957ad/sankaku-1.0.2.tar.gz
+[2023-06-17 21:06:40] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-17 21:06:40] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.4.tar.gz tmp/leuci-geo-0.0.5.tar.gz --markdown 20230617/l/leuci-geo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 21:06:41] INFO root fetch - processPackages [zuspec-arl-dm]: Downloading https://files.pythonhosted.org/packages/36/9f/28e44e8ce0b401305e06800f67e35fb3fc414b16a7578b8dee71c9e86363/zuspec_arl_dm-0.0.1.5299673134-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-17 21:06:41] INFO root fetch - processPackages [sankaku]: Downloading https://files.pythonhosted.org/packages/20/49/9c9695cc448067c9295f4acfc3896d3379235aa55621265adc38629b20d4/sankaku-1.0.3.tar.gz
+[2023-06-17 21:06:41] INFO root fetch - processPackages [oooenv]: Downloading https://files.pythonhosted.org/packages/96/60/1e4ce87aff455c1e63b009fd854fba016cfad8f2b3158ad1529f6941dc21/oooenv-0.2.2.tar.gz
+[2023-06-17 21:06:41] INFO root fetch - processPackages [zuspec-arl-dm]: executing diffoscope
+[2023-06-17 21:06:41] INFO root fetch - processPackages [zuspec-arl-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_dm-0.0.1.5207391436-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_dm-0.0.1.5299673134-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230617/z/zuspec-arl-dm/0.0.1.5207391436-0.0.1.5299673134/diff.md --exclude *.pyd
+[2023-06-17 21:06:41] INFO root fetch - processPackages [sankaku]: executing diffoscope
+[2023-06-17 21:06:41] INFO root fetch - processPackages [sankaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sankaku-1.0.2.tar.gz tmp/sankaku-1.0.3.tar.gz --markdown 20230617/s/sankaku/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 21:06:41] INFO root fetch - processPackages [oooenv]: executing diffoscope
+[2023-06-17 21:06:41] INFO root fetch - processPackages [oooenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oooenv-0.2.1.tar.gz tmp/oooenv-0.2.2.tar.gz --markdown 20230617/o/oooenv/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 21:06:41] INFO root fetch - processPackages [simframe]: Downloading https://files.pythonhosted.org/packages/6f/64/057940a7b8a55a95ffe934627b293f3c7b60bd3819afd1afe08c013cbd73/simframe-1.0.3rc1.tar.gz
+[2023-06-17 21:06:41] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.4.tar.gz]
+[2023-06-17 21:06:41] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.5.tar.gz]
+[2023-06-17 21:06:41] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-17 21:06:42] INFO root fetch - processPackages [oooenv]: Remove: archive file [/home/abi/fetcher/tmp/oooenv-0.2.1.tar.gz]
+[2023-06-17 21:06:42] INFO root fetch - processPackages [oooenv]: Remove: archive file [/home/abi/fetcher/tmp/oooenv-0.2.2.tar.gz]
+[2023-06-17 21:06:42] INFO root fetch - main [MainThread]: End processing [oooenv]: success
+[2023-06-17 21:06:42] INFO root fetch - processPackages [simframe]: executing diffoscope
+[2023-06-17 21:06:42] INFO root fetch - processPackages [simframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simframe-1.0.3rc0.tar.gz tmp/simframe-1.0.3rc1.tar.gz --markdown 20230617/s/simframe/1.0.3rc0-1.0.3rc1/diff.md --exclude *.pyd
+[2023-06-17 21:06:42] INFO root fetch - processPackages [sankaku]: Remove: archive file [/home/abi/fetcher/tmp/sankaku-1.0.2.tar.gz]
+[2023-06-17 21:06:42] INFO root fetch - processPackages [sankaku]: Remove: archive file [/home/abi/fetcher/tmp/sankaku-1.0.3.tar.gz]
+[2023-06-17 21:06:42] INFO root fetch - main [MainThread]: End processing [sankaku]: success
+[2023-06-17 21:06:44] INFO root fetch - processPackages [simframe]: Remove: archive file [/home/abi/fetcher/tmp/simframe-1.0.3rc0.tar.gz]
+[2023-06-17 21:06:44] INFO root fetch - processPackages [simframe]: Remove: archive file [/home/abi/fetcher/tmp/simframe-1.0.3rc1.tar.gz]
+[2023-06-17 21:06:44] INFO root fetch - main [MainThread]: End processing [simframe]: success
+[2023-06-17 21:06:55] INFO root fetch - processPackages [zuspec-arl-dm]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_dm-0.0.1.5207391436-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 21:06:55] INFO root fetch - processPackages [zuspec-arl-dm]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_dm-0.0.1.5299673134-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-17 21:06:55] INFO root fetch - main [MainThread]: End processing [zuspec-arl-dm]: success
+[2023-06-17 21:06:55] INFO root fetch - main [MainThread]: Store serial: [18545341]
