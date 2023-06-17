@@ -11465,3 +11465,44 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 12:07:45] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.1.tar.gz]
 [2023-06-17 12:07:45] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
 [2023-06-17 12:07:45] INFO root fetch - main [MainThread]: Store serial: [18542189]
+[2023-06-17 12:12:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542189]
+[2023-06-17 12:12:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soul-knight-data-processing
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrochempy
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-astrolab
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongorunway
+[2023-06-17 12:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-astrolab
+[2023-06-17 12:12:54] INFO root fetch - processPackages [spectrochempy]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-17 12:12:54] INFO root fetch - processPackages [soul-knight-data-processing]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 12:12:54] WARNING root fetch - processPackages [py-astrolab]: Skipping, unable to determine old version
+[2023-06-17 12:12:54] INFO root fetch - main [MainThread]: End processing [py-astrolab] error
+[2023-06-17 12:12:54] INFO root fetch - processPackages [almavik]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-17 12:12:54] INFO root fetch - processPackages [mongorunway]: New version: [1.0.7a0] Old Version: [1.0.6a0]
+[2023-06-17 12:12:54] WARNING root fetch - processPackages [py-astrolab]: Skipping, unable to determine old version
+[2023-06-17 12:12:54] INFO root fetch - main [MainThread]: End processing [py-astrolab] error
+[2023-06-17 12:12:54] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/e2/bc/1b1c238ef4f4027b72b0d0bcebef35e6141cae057749b350d1015d9ec448/mongorunway-1.0.6a0.tar.gz
+[2023-06-17 12:12:54] INFO root fetch - processPackages [spectrochempy]: Downloading https://files.pythonhosted.org/packages/e9/e9/9a51436c7d72abad3fcfc62ec7996ebf2f1bb5f52a87d17af1e64f676821/spectrochempy-0.6.5.tar.gz
+[2023-06-17 12:12:54] INFO root fetch - processPackages [soul-knight-data-processing]: Downloading https://files.pythonhosted.org/packages/0c/76/dabcb474a13a8caa79b408d5a9ed4db1a0ad01ab02619f45869a5d36cbd3/soul_knight_data_processing-0.0.3.tar.gz
+[2023-06-17 12:12:54] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/ac/90/2696ef2c73587bb5d928a0400948659b61fa3cf8d123108f900a90b9c1b1/almavik-0.2.3.tar.gz
+[2023-06-17 12:12:54] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373811>=10485760
+[2023-06-17 12:12:54] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 12:12:54] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/83/d6/4a68383f69e0ad62ec7b7b3cf3b07f7d36ac846ab1c5ba67bde4366da85f/mongorunway-1.0.7a0.tar.gz
+[2023-06-17 12:12:54] INFO root fetch - processPackages [soul-knight-data-processing]: Downloading https://files.pythonhosted.org/packages/9e/f5/03cc8301a9beb0a7dc8b92939624cf603aa063c86724a4ff7217d5b83d78/soul_knight_data_processing-0.0.4.tar.gz
+[2023-06-17 12:12:55] INFO root fetch - processPackages [soul-knight-data-processing]: executing diffoscope
+[2023-06-17 12:12:55] INFO root fetch - processPackages [soul-knight-data-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soul_knight_data_processing-0.0.3.tar.gz tmp/soul_knight_data_processing-0.0.4.tar.gz --markdown 20230617/s/soul-knight-data-processing/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 12:12:55] INFO root fetch - processPackages [mongorunway]: executing diffoscope
+[2023-06-17 12:12:55] INFO root fetch - processPackages [mongorunway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongorunway-1.0.6a0.tar.gz tmp/mongorunway-1.0.7a0.tar.gz --markdown 20230617/m/mongorunway/1.0.6a0-1.0.7a0/diff.md --exclude *.pyd
+[2023-06-17 12:12:55] INFO root fetch - processPackages [spectrochempy]: Downloading https://files.pythonhosted.org/packages/55/38/f356a482e09bc054fdae588879b020c53e7ad6969a884ca7e637a1be241b/spectrochempy-0.6.6.tar.gz
+[2023-06-17 12:12:55] INFO root fetch - processPackages [spectrochempy]: executing diffoscope
+[2023-06-17 12:12:55] INFO root fetch - processPackages [spectrochempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrochempy-0.6.5.tar.gz tmp/spectrochempy-0.6.6.tar.gz --markdown 20230617/s/spectrochempy/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-17 12:12:56] INFO root fetch - processPackages [soul-knight-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/soul_knight_data_processing-0.0.3.tar.gz]
+[2023-06-17 12:12:56] INFO root fetch - processPackages [soul-knight-data-processing]: Remove: archive file [/home/abi/fetcher/tmp/soul_knight_data_processing-0.0.4.tar.gz]
+[2023-06-17 12:12:56] INFO root fetch - main [MainThread]: End processing [soul-knight-data-processing]: success
+[2023-06-17 12:12:56] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.6a0.tar.gz]
+[2023-06-17 12:12:56] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.7a0.tar.gz]
+[2023-06-17 12:12:56] INFO root fetch - main [MainThread]: End processing [mongorunway]: success
+[2023-06-17 12:13:01] INFO root fetch - processPackages [spectrochempy]: Remove: archive file [/home/abi/fetcher/tmp/spectrochempy-0.6.5.tar.gz]
+[2023-06-17 12:13:01] INFO root fetch - processPackages [spectrochempy]: Remove: archive file [/home/abi/fetcher/tmp/spectrochempy-0.6.6.tar.gz]
+[2023-06-17 12:13:01] INFO root fetch - main [MainThread]: End processing [spectrochempy]: success
+[2023-06-17 12:13:01] INFO root fetch - main [MainThread]: Store serial: [18542208]
