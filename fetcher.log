@@ -9366,3 +9366,48 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:11:19] INFO root fetch - processPackages [pytest-freezer]: Remove: archive file [/home/abi/fetcher/tmp/pytest_freezer-0.4.7.tar.gz]
 [2023-06-17 08:11:19] INFO root fetch - main [MainThread]: End processing [pytest-freezer]: success
 [2023-06-17 08:11:19] INFO root fetch - main [MainThread]: Store serial: [18541289]
+[2023-06-17 08:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541289]
+[2023-06-17 08:16:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkglog
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-limit
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rancher2
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utnamgeo
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdx
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-case
+[2023-06-17 08:16:28] INFO root fetch - processPackages [pulumi-rancher2]: New version: [5.1.0a1686980182] Old Version: [5.0.0a1686930702]
+[2023-06-17 08:16:28] WARNING root fetch - processPackages [pdx]: Skipping, unable to determine old version
+[2023-06-17 08:16:28] INFO root fetch - main [MainThread]: End processing [pdx] error
+[2023-06-17 08:16:28] INFO root fetch - processPackages [pkglog]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 08:16:28] INFO root fetch - processPackages [utnamgeo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 08:16:28] WARNING root fetch - processPackages [redis-limit]: Skipping, unable to determine old version
+[2023-06-17 08:16:28] INFO root fetch - main [MainThread]: End processing [redis-limit] error
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ats-case]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-17 08:16:28] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/5c/13/be577d7095bf91ca6cd156ce4841a57a2c30cc156ecd50c0ddb849b13b94/pulumi_rancher2-5.0.0a1686930702.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/6f/f7/1c13372aeb45c44778004388218a11f12a8c86cd72cd93a100f5a6c978f2/ats_case-0.8.6.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/b1/6e/bf9b5bb041dd77abaf3c3d2af4d51b3f0d34611a1e6469674784fa7c6a55/pkglog-1.8.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [utnamgeo]: Downloading https://files.pythonhosted.org/packages/af/a2/0a18886b4e1a53d74c5f7aff8c244a9ecc8443337e65e3dc9d923581539b/utnamgeo-0.0.1.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f8/ba/706a5ceabfb3927500d10076e0ba55ebdfdec51a128a315ee63955456df6/pulumi_rancher2-5.1.0a1686980182.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [utnamgeo]: Downloading https://files.pythonhosted.org/packages/8c/4d/27e76a7faceb7fc02c52e12fe932ffc4187550fac2e0af68ea28002ac2a7/utnamgeo-0.0.2.tar.gz
+[2023-06-17 08:16:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/b3/17/18455deb310d8b6af2f9ec243435e26e5db1cfc2620faa1efdbc49b128fe/ats_case-0.8.7.tar.gz
+[2023-06-17 08:16:29] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/13/f4/c1b17ccae3c8e359ca72e37b10fa544b6c5754902de435d0b61b4ac24580/pkglog-1.9.tar.gz
+[2023-06-17 08:16:29] INFO root fetch - processPackages [utnamgeo]: executing diffoscope
+[2023-06-17 08:16:29] INFO root fetch - processPackages [utnamgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utnamgeo-0.0.1.tar.gz tmp/utnamgeo-0.0.2.tar.gz --markdown 20230617/u/utnamgeo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 08:16:29] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-06-17 08:16:29] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-5.0.0a1686930702.tar.gz tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz --markdown 20230617/p/pulumi-rancher2/5.0.0a1686930702-5.1.0a1686980182/diff.md --exclude *.pyd
+[2023-06-17 08:16:29] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-17 08:16:29] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.6.tar.gz tmp/ats_case-0.8.7.tar.gz --markdown 20230617/a/ats-case/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-17 08:16:29] INFO root fetch - processPackages [pkglog]: executing diffoscope
+[2023-06-17 08:16:29] INFO root fetch - processPackages [pkglog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglog-1.8.tar.gz tmp/pkglog-1.9.tar.gz --markdown 20230617/p/pkglog/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 08:16:30] INFO root fetch - processPackages [utnamgeo]: Remove: archive file [/home/abi/fetcher/tmp/utnamgeo-0.0.1.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - processPackages [utnamgeo]: Remove: archive file [/home/abi/fetcher/tmp/utnamgeo-0.0.2.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - main [MainThread]: End processing [utnamgeo]: success
+[2023-06-17 08:16:30] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.6.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.7.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-17 08:16:30] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.8.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.9.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - main [MainThread]: End processing [pkglog]: success
+[2023-06-17 08:16:30] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.0.0a1686930702.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz]
+[2023-06-17 08:16:30] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-06-17 08:16:30] INFO root fetch - main [MainThread]: Store serial: [18541310]
