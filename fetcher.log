@@ -16708,3 +16708,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:59:23] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.4.tar.gz]
 [2023-06-17 18:59:23] INFO root fetch - main [MainThread]: End processing [bigtree]: success
 [2023-06-17 18:59:23] INFO root fetch - main [MainThread]: Store serial: [18544778]
+[2023-06-17 19:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544778]
+[2023-06-17 19:04:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-forbid
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: harlequin
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fgo-api-types
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tepgaast
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpsbot
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tepgacast
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytmlib
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ProTaska-GPT
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polar-diagrams
+[2023-06-17 19:04:32] INFO root fetch - processPackages [django-forbid]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [pytmlib]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [harlequin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 19:04:32] WARNING root fetch - processPackages [tepgacast]: Skipping, unable to determine old version
+[2023-06-17 19:04:32] INFO root fetch - main [MainThread]: End processing [tepgacast] error
+[2023-06-17 19:04:32] WARNING root fetch - processPackages [tepgaast]: Skipping, unable to determine old version
+[2023-06-17 19:04:32] INFO root fetch - main [MainThread]: End processing [tepgaast] error
+[2023-06-17 19:04:32] INFO root fetch - processPackages [rpsbot]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.6.8.15.39.7] Old Version: [2023.6.7.4.47.40]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/aa/f0/3b618b51c2e9932a0edc56104bf7dcde5cebc668a88400d125dd12900904/ProTaska-GPT-0.0.7.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/32/b3/9890a6a9a47047c376b9b3d351f266b489bdbadf98aa6a75ac4e6bbdade7/pytmlib-1.0.0rc4.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [polar-diagrams]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-17 19:04:32] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/40/ea/07f42b620fa19e6ea2c02886317c7c8ac5a8695f3dd29584f6dea90e367c/fgo_api_types-2023.6.7.4.47.40.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [django-forbid]: Downloading https://files.pythonhosted.org/packages/f0/c4/80abf1b8ca18ff9d56be35da08c1b3e3fe7080a5c3dfaf2470c6e921d676/django-forbid-0.1.4.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [rpsbot]: Downloading https://files.pythonhosted.org/packages/96/3b/571c73c724d3fd41b2f37be028e551976611fbd90bc7606c7cfb87e4a528/rpsbot-0.0.1.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/9a/84/d4433542b532cc2cf84b7c6f9c0fc8a4dacf46f0869451b85488cd9c70f9/harlequin-0.0.8.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/d2/ee/93d61572a7f4647514cd5763194fee7ca0eb73e1c09c2693be94313a41e4/fgo_api_types-2023.6.8.15.39.7.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz --markdown 20230617/f/fgo-api-types/2023.6.7.4.47.40-2023.6.8.15.39.7/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/94/52/a464decb78a0def40a5157a94f72a2d1cdcc5fb3e8dee342a965d49d189e/pytmlib-1.0.0rc5.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [polar-diagrams]: Downloading https://files.pythonhosted.org/packages/d9/88/eea8946117adaec4a1cd71cd6fe8f5b5872d1d823ac4de9d58c3e5fed74c/polar_diagrams-1.0.4.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/79/be/62f503a14e7ff4554a6df415b4ccce51b902eeb0978c9684d2093f9c8691/ProTaska-GPT-0.0.8.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/e2/a0/ca3c337e06ecbd039bbccab3d2d55ab9c4a87f51afd28c19e804aca66fd5/harlequin-0.0.9.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.7.tar.gz tmp/ProTaska-GPT-0.0.8.tar.gz --markdown 20230617/P/ProTaska-GPT/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.0.0rc4.tar.gz tmp/pytmlib-1.0.0rc5.tar.gz --markdown 20230617/p/pytmlib/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [django-forbid]: Downloading https://files.pythonhosted.org/packages/e2/77/1b1f56195d1e2dd7e0797cdfbba989c3d17bff80be78274efe1ecd05d420/django-forbid-0.1.5.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [rpsbot]: Downloading https://files.pythonhosted.org/packages/a3/a5/dceaadd22e6a8d8d32a9977cd1de632b770aa2a31e806070c1f2d53af66a/rpsbot-1.0.0.tar.gz
+[2023-06-17 19:04:32] INFO root fetch - processPackages [django-forbid]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [django-forbid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forbid-0.1.4.tar.gz tmp/django-forbid-0.1.5.tar.gz --markdown 20230617/d/django-forbid/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [rpsbot]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [rpsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpsbot-0.0.1.tar.gz tmp/rpsbot-1.0.0.tar.gz --markdown 20230617/r/rpsbot/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-06-17 19:04:32] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.8.tar.gz tmp/harlequin-0.0.9.tar.gz --markdown 20230617/h/harlequin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 19:04:32] INFO root fetch - processPackages [polar-diagrams]: Downloading https://files.pythonhosted.org/packages/d8/90/4f768a6f64d867ad77ccde2d69f7fbc0f6df03432e9f8d3047dc415e74be/polar_diagrams-1.0.5.tar.gz
+[2023-06-17 19:04:33] INFO root fetch - processPackages [polar-diagrams]: executing diffoscope
+[2023-06-17 19:04:33] INFO root fetch - processPackages [polar-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_diagrams-1.0.4.tar.gz tmp/polar_diagrams-1.0.5.tar.gz --markdown 20230617/p/polar-diagrams/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-17 19:04:33] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz]
+[2023-06-17 19:04:33] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz]
+[2023-06-17 19:04:33] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.7.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.8.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [rpsbot]: Remove: archive file [/home/abi/fetcher/tmp/rpsbot-0.0.1.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [rpsbot]: Remove: archive file [/home/abi/fetcher/tmp/rpsbot-1.0.0.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [rpsbot]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc4.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc5.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [django-forbid]: Remove: archive file [/home/abi/fetcher/tmp/django-forbid-0.1.4.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [django-forbid]: Remove: archive file [/home/abi/fetcher/tmp/django-forbid-0.1.5.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [django-forbid]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.8.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.9.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-06-17 19:04:34] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.4.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.5.tar.gz]
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: End processing [polar-diagrams]: success
+[2023-06-17 19:04:34] INFO root fetch - main [MainThread]: Store serial: [18544813]
