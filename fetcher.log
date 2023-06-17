@@ -17062,3 +17062,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:36:38] INFO root fetch - processPackages [dreimac]: Remove: archive file [/home/abi/fetcher/tmp/dreimac-0.2.1.tar.gz]
 [2023-06-17 19:36:38] INFO root fetch - main [MainThread]: End processing [dreimac]: success
 [2023-06-17 19:36:38] INFO root fetch - main [MainThread]: Store serial: [18544964]
+[2023-06-17 19:41:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544964]
+[2023-06-17 19:41:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoconf-language-server
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esp32-micropython-i2cLCD
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gorilla-cli
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kangforecast
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gentrace-py
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dal-python
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercury-sync
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kangforecast
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Texo
+[2023-06-17 19:41:48] WARNING root fetch - processPackages [autoconf-language-server]: Skipping, unable to determine old version
+[2023-06-17 19:41:48] INFO root fetch - main [MainThread]: End processing [autoconf-language-server] error
+[2023-06-17 19:41:48] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [dal-python]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gorilla-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gentrace-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-17 19:41:48] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/b8/77/dd39d03028ee88a173e8026075c2583cd5d9fa8804cb9d862c1c56f85850/mercury-sync-0.1.8.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-17 19:41:48] WARNING root fetch - processPackages [Texo]: Skipping, unable to determine old version
+[2023-06-17 19:41:48] INFO root fetch - main [MainThread]: End processing [Texo] error
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/b5/6f/2febb2dd6f420b685e16d7fcdcec00aeccb6f0d1c3618fa7e9dc00ee023c/gorilla-cli-0.0.3.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/66/39/6dd32b653f6abebff89e774dd3ef21b52112e5131188cd427a61fb2e04d1/dal_python-0.2.1-cp39-none-any.whl
+[2023-06-17 19:41:48] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: Downloading https://files.pythonhosted.org/packages/04/5a/cb75cc5a4ac80b5e10f68b23393709e58eacfaaae12feee2eab6f3e83790/esp32_micropython_i2cLCD-0.0.1.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/28/1d/260a9d1832a0c7e40a19de65e5b9680ece0b1ee669ef7cfa9dd7006b2787/gentrace_py-0.9.0.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/c2/bb/16e8f44a17ca16e3bbd73d7c0c10ac314d52b3b40919c22e9f583d2095b4/mercury-sync-0.1.9.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230617/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 19:41:48] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-17 19:41:48] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230617/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/1d/f2/caeef7e01a3f6e7341b8658ae28f8e7f661d1a915a478f3720db3203003a/gorilla-cli-0.0.4.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-17 19:41:48] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.8.tar.gz tmp/mercury-sync-0.1.9.tar.gz --markdown 20230617/m/mercury-sync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 19:41:48] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: Downloading https://files.pythonhosted.org/packages/0a/c4/1923f0dee100a0270a95371ab1d4f4c08086de55118573181661cd552aff/esp32_micropython_i2cLCD-0.0.2.tar.gz
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gorilla-cli]: executing diffoscope
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gorilla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gorilla-cli-0.0.3.tar.gz tmp/gorilla-cli-0.0.4.tar.gz --markdown 20230617/g/gorilla-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 19:41:48] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/30/d3/f57e68164be618c2b56c7a76d03973172da5a0a43bb001308d13f6195176/dal_python-0.2.2-cp39-none-any.whl
+[2023-06-17 19:41:48] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/e5/c3/d0ce9414bb9b5a3467baa87d578314dae84fe8b66d2b1f2d38cab4e20714/gentrace_py-0.9.1.tar.gz
+[2023-06-17 19:41:49] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-17 19:41:49] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.2.1-cp39-none-any.whl.zip tmp/dal_python-0.2.2-cp39-none-any.whl.zip --markdown 20230617/d/dal-python/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-17 19:41:49] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-06-17 19:41:49] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.9.0.tar.gz tmp/gentrace_py-0.9.1.tar.gz --markdown 20230617/g/gentrace-py/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-17 19:41:49] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: executing diffoscope
+[2023-06-17 19:41:49] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp32_micropython_i2cLCD-0.0.1.tar.gz tmp/esp32_micropython_i2cLCD-0.0.2.tar.gz --markdown 20230617/e/esp32-micropython-i2cLCD/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 19:41:49] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-17 19:41:49] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-17 19:41:49] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-17 19:41:49] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-17 19:41:49] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-17 19:41:50] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-17 19:41:50] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230617/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-17 19:41:50] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.3.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.4.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - main [MainThread]: End processing [gorilla-cli]: success
+[2023-06-17 19:41:50] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: Remove: archive file [/home/abi/fetcher/tmp/esp32_micropython_i2cLCD-0.0.1.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - processPackages [esp32-micropython-i2cLCD]: Remove: archive file [/home/abi/fetcher/tmp/esp32_micropython_i2cLCD-0.0.2.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - main [MainThread]: End processing [esp32-micropython-i2cLCD]: success
+[2023-06-17 19:41:50] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.8.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.9.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-17 19:41:50] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.0.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.1.tar.gz]
+[2023-06-17 19:41:50] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-06-17 19:41:58] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-17 19:41:58] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-17 19:41:58] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-17 19:42:05] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.1-cp39-none-any.whl.zip]
+[2023-06-17 19:42:05] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.2-cp39-none-any.whl.zip]
+[2023-06-17 19:42:05] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-17 19:42:05] INFO root fetch - main [MainThread]: Store serial: [18545005]
