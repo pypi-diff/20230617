@@ -9749,3 +9749,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 08:52:59] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.5.tar.gz]
 [2023-06-17 08:52:59] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
 [2023-06-17 08:52:59] INFO root fetch - main [MainThread]: Store serial: [18541465]
+[2023-06-17 08:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541465]
+[2023-06-17 08:58:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hylite
+[2023-06-17 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DefyDatabase
+[2023-06-17 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-supporter
+[2023-06-17 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minidevice
+[2023-06-17 08:58:08] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a4.dev202306171455] Old Version: [10.0.0a4.dev202306171423]
+[2023-06-17 08:58:08] INFO root fetch - processPackages [hylite]: New version: [1.23] Old Version: [1.21]
+[2023-06-17 08:58:08] INFO root fetch - processPackages [pytorch-supporter]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-17 08:58:08] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/47/38/ecf4c978d6c7166408948a68c7ff9859fcbb17f2cccf4a10b52d64ff1ff5/DefyDatabase-10.0.0a4.dev202306171423.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/c2/79/94026be2b48248d556d5e06873679363975c91a3f339d6c66ebeae55a89c/pytorch-supporter-0.0.17.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [minidevice]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-17 08:58:08] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/24/19/b3a1f1a854b3acd0a84b9122dd2f116400de48ec3e889e2646cab38abd67/pytorch-supporter-0.0.18.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [pytorch-supporter]: executing diffoscope
+[2023-06-17 08:58:08] INFO root fetch - processPackages [pytorch-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-supporter-0.0.17.tar.gz tmp/pytorch-supporter-0.0.18.tar.gz --markdown 20230617/p/pytorch-supporter/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-17 08:58:08] INFO root fetch - processPackages [hylite]: Downloading https://files.pythonhosted.org/packages/ff/11/a754e8fe99de77f7f99fa0f3b14d908ec151766ee78cf8e4595a4579ab4e/hylite-1.21.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/3c/a4/e86c4c207f726d8ecc681112c3e4f0082bfcdb639758872649eae52f9d95/minidevice-1.1.1.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/06/0a/86471a18869228971f35252955e78a88965e79605d4b6df9d4afba27d260/DefyDatabase-10.0.0a4.dev202306171455.tar.gz
+[2023-06-17 08:58:08] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-06-17 08:58:08] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202306171423.tar.gz tmp/DefyDatabase-10.0.0a4.dev202306171455.tar.gz --markdown 20230617/D/DefyDatabase/10.0.0a4.dev202306171423-10.0.0a4.dev202306171455/diff.md --exclude *.pyd
+[2023-06-17 08:58:08] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/8c/52/8e5316f20e64bf8299d3cf49afa3f3fce28dd3598809b74dc560cbd03d52/minidevice-2.0.0.tar.gz
+[2023-06-17 08:58:09] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-17 08:58:09] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.1.1.tar.gz tmp/minidevice-2.0.0.tar.gz --markdown 20230617/m/minidevice/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-17 08:58:09] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.17.tar.gz]
+[2023-06-17 08:58:09] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.18.tar.gz]
+[2023-06-17 08:58:09] INFO root fetch - main [MainThread]: End processing [pytorch-supporter]: success
+[2023-06-17 08:58:09] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202306171423.tar.gz]
+[2023-06-17 08:58:09] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202306171455.tar.gz]
+[2023-06-17 08:58:09] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-06-17 08:58:10] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.1.1.tar.gz]
+[2023-06-17 08:58:10] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.0.tar.gz]
+[2023-06-17 08:58:10] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-17 08:58:10] INFO root fetch - processPackages [hylite]: Downloading https://files.pythonhosted.org/packages/d2/a9/c9352d522d9cb0aa69b39054af2e084e347dc2d59a5e7f4fd11df8b854c8/hylite-1.23.tar.gz
+[2023-06-17 08:58:10] INFO root fetch - processPackages [hylite]: executing diffoscope
+[2023-06-17 08:58:10] INFO root fetch - processPackages [hylite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hylite-1.21.tar.gz tmp/hylite-1.23.tar.gz --markdown 20230617/h/hylite/1.21-1.23/diff.md --exclude *.pyd
+[2023-06-17 08:58:13] INFO root fetch - processPackages [hylite]: Remove: archive file [/home/abi/fetcher/tmp/hylite-1.21.tar.gz]
+[2023-06-17 08:58:13] INFO root fetch - processPackages [hylite]: Remove: archive file [/home/abi/fetcher/tmp/hylite-1.23.tar.gz]
+[2023-06-17 08:58:13] INFO root fetch - main [MainThread]: End processing [hylite]: success
+[2023-06-17 08:58:13] INFO root fetch - main [MainThread]: Store serial: [18541481]
