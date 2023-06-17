@@ -13192,3 +13192,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:42:39] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-06-17 14:42:39] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-06-17 14:42:39] INFO root fetch - main [MainThread]: Store serial: [18542980]
+[2023-06-17 14:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542980]
+[2023-06-17 14:47:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wgd
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytrend
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maryChain
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aviatrix
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt-Fluent-Widgets
+[2023-06-17 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oneat
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [talkytrend]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [maryChain]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pulumi-aviatrix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [wgd]: New version: [2.0.17] Old Version: [2.0.16]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ae/24/905cf263cde01899598343283d490e98c345ba7c17797f5c84b8f5e2a1d4/pypipr-1.0.5.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ae/24/905cf263cde01899598343283d490e98c345ba7c17797f5c84b8f5e2a1d4/pypipr-1.0.5.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [maryChain]: Downloading https://files.pythonhosted.org/packages/2c/94/babd40c3f1689a1ac34b90e09e0cefeccabe877e0510a046644d71c557c1/maryChain-0.0.2.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/de/1c/01841446a04d54fcb5de03d2ffdc007c0da3a188a1a63b0a0cf1710391e2/PyQt-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pulumi-aviatrix]: Downloading https://files.pythonhosted.org/packages/28/f9/c7429436a8a0f0f33dda5f2670075bd4675e721962ad0f7db40ce4e422e9/pulumi_aviatrix-0.0.8.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/29/a1/efd857cd1ff5fcd1f6f8ce85ef2dc23a548d16d06b54b04aa1d3deb74d9d/talkytrend-1.3.1.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/9b/61/598ab174417a871f4112a479dc16867080dc3e6c312847d088a6171a8a64/wgd-2.0.16.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [maryChain]: Downloading https://files.pythonhosted.org/packages/67/83/8f41de6376c9c01b9ac01f1311d87b4fbdc10ff33d030fe999485fb4f4c7/maryChain-0.0.3.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/23/dd/8f977b5771c57b40e6da7358572ab96df1d1e0db4e142b3ad1e8b0599d72/pypipr-1.0.6.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/23/dd/8f977b5771c57b40e6da7358572ab96df1d1e0db4e142b3ad1e8b0599d72/pypipr-1.0.6.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/b6/49/15b3d861e399137d304fb5f63068be9c8c2ba03cb91881a372cc3d3ee358/PyQt-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [maryChain]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [maryChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maryChain-0.0.2.tar.gz tmp/maryChain-0.0.3.tar.gz --markdown 20230617/m/maryChain/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.5.tar.gz tmp/pypipr-1.0.6.tar.gz --markdown 20230617/p/pypipr/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.5.tar.gz tmp/pypipr-1.0.6.tar.gz --markdown 20230617/p/pypipr/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-17 14:47:50] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a6/f7/58e804d878605a9f1ab2db52df4d9e2bdbb8a3106c2265bf8c2458001eb0/talkytrend-1.3.2.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.4.tar.gz tmp/PyQt-Fluent-Widgets-0.9.5.tar.gz --markdown 20230617/P/PyQt-Fluent-Widgets/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-17 14:47:50] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.3.1.tar.gz tmp/talkytrend-1.3.2.tar.gz --markdown 20230617/t/talkytrend/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-17 14:47:50] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/6b/eb/9a8d532c6c0b3082480224bef056b291ac523c4253211eba25417b510a8c/wgd-2.0.17.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [pulumi-aviatrix]: Downloading https://files.pythonhosted.org/packages/04/63/708ee3e0d5623e111bb48d9e10a3ba0f612fc15a04c8b558af7d44e97d51/pulumi_aviatrix-0.0.9.tar.gz
+[2023-06-17 14:47:50] INFO root fetch - processPackages [wgd]: executing diffoscope
+[2023-06-17 14:47:50] INFO root fetch - processPackages [wgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgd-2.0.16.tar.gz tmp/wgd-2.0.17.tar.gz --markdown 20230617/w/wgd/2.0.16-2.0.17/diff.md --exclude *.pyd
+[2023-06-17 14:47:51] INFO root fetch - processPackages [pulumi-aviatrix]: executing diffoscope
+[2023-06-17 14:47:51] INFO root fetch - processPackages [pulumi-aviatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aviatrix-0.0.8.tar.gz tmp/pulumi_aviatrix-0.0.9.tar.gz --markdown 20230617/p/pulumi-aviatrix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 14:47:51] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-06-17 14:47:51] INFO root fetch - processPackages [maryChain]: Remove: archive file [/home/abi/fetcher/tmp/maryChain-0.0.2.tar.gz]
+[2023-06-17 14:47:51] INFO root fetch - processPackages [maryChain]: Remove: archive file [/home/abi/fetcher/tmp/maryChain-0.0.3.tar.gz]
+[2023-06-17 14:47:51] INFO root fetch - main [MainThread]: End processing [maryChain]: success
+[2023-06-17 14:47:52] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.5.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.6.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-17 14:47:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.1.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.2.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-17 14:47:52] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-17 14:47:52] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.16.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.17.tar.gz]
+[2023-06-17 14:47:52] INFO root fetch - main [MainThread]: End processing [wgd]: success
+[2023-06-17 14:47:52] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-06-17 14:47:52] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230617/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-06-17 14:47:53] INFO root fetch - processPackages [pulumi-aviatrix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aviatrix-0.0.8.tar.gz]
+[2023-06-17 14:47:53] INFO root fetch - processPackages [pulumi-aviatrix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aviatrix-0.0.9.tar.gz]
+[2023-06-17 14:47:53] INFO root fetch - main [MainThread]: End processing [pulumi-aviatrix]: success
+[2023-06-17 14:47:54] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-17 14:47:54] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-17 14:47:54] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-17 14:47:54] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-06-17 14:47:54] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-06-17 14:47:54] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-06-17 14:47:54] INFO root fetch - main [MainThread]: Store serial: [18543004]
