@@ -14669,3 +14669,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:25:51] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
 [2023-06-17 16:25:51] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
 [2023-06-17 16:25:51] INFO root fetch - main [MainThread]: Store serial: [18543710]
+[2023-06-17 16:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543710]
+[2023-06-17 16:31:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tail-jsonl
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transitfit
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transitfit
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-dependencies
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vagd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aider-chat
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PEC-project-Diego-Benavent
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minidevice
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monalysa
+[2023-06-17 16:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micropython-bma400
+[2023-06-17 16:31:00] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.12] Old Version: [202306.0.10]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [minidevice]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [aider-chat]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [monalysa]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/9b/29/e497290fd86ed5da2003eb2d04402543dcd61a71967034566663881775e6/aider-chat-0.6.2.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/4d/68/bb9a35bccc0f0c87bb11cb1e0757f5a8c4320b9aee6cb31f2e9b3072ed95/monalysa-0.0.7.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/8c/52/8e5316f20e64bf8299d3cf49afa3f3fce28dd3598809b74dc560cbd03d52/minidevice-2.0.0.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/35/11/e821e91d973084bceffe740d6ca7fabe9c18ec9638d0cabdf1cb3fb1eedd/data_ecosystem_dependencies-202306.0.10.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [tail-jsonl]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [vagd]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-17 16:31:00] WARNING root fetch - processPackages [PEC-project-Diego-Benavent]: Skipping, unable to determine old version
+[2023-06-17 16:31:00] WARNING root fetch - processPackages [micropython-bma400]: Skipping, unable to determine old version
+[2023-06-17 16:31:00] INFO root fetch - main [MainThread]: End processing [PEC-project-Diego-Benavent] error
+[2023-06-17 16:31:00] INFO root fetch - main [MainThread]: End processing [micropython-bma400] error
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-06-17 16:31:00] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/c9/83/85491396e52378926d2df9594a106a9d0a22259873d7129bff6421784033/transitfit-3.0.7.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/c9/83/85491396e52378926d2df9594a106a9d0a22259873d7129bff6421784033/transitfit-3.0.7.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [tail-jsonl]: Downloading https://files.pythonhosted.org/packages/e3/83/bdd09937566d11a845cefecdcd8c9bf065b7d359ef8b6e9e5a601c7de418/tail_jsonl-1.2.3.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/69/c5/006c0c379c284ea2c3726aee642f799449e2a7a01d05ac09dd2014dbfddf/vagd-0.3.9.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/49/7c/10bd9c07a557332f384feeca8f83e544827979118cf423dc0cf0ed6fc7ba/data_ecosystem_dependencies-202306.0.12.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/7e/f2/a3795f8534c103752f02d2bd97fdbb488fe3dfac6cd74e58bca51bfdcdbf/aider-chat-0.6.4.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/03/9c/5bcbc9f499b9357e95cdb0736e9738e4bfda255691a8008e34fb6ee88d60/minidevice-2.0.1.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.7.tar.gz tmp/monalysa-0.0.8.tar.gz --markdown 20230617/m/monalysa/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.6.2.tar.gz tmp/aider-chat-0.6.4.tar.gz --markdown 20230617/a/aider-chat/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.10.tar.gz tmp/data_ecosystem_dependencies-202306.0.12.tar.gz --markdown 20230617/d/data-ecosystem-dependencies/202306.0.10-202306.0.12/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.0.tar.gz tmp/minidevice-2.0.1.tar.gz --markdown 20230617/m/minidevice/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/9f/84/ca7f7a2802ec31809f8916c2faf32b0cc9c54aa25a7ef71d0b8b5369c006/transitfit-3.0.8.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/9f/84/ca7f7a2802ec31809f8916c2faf32b0cc9c54aa25a7ef71d0b8b5369c006/transitfit-3.0.8.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/a3/24/36b47d0016f881d3c1c1a3f6831b006f1ba8bfe1c479e6a5d7c6a3660357/vagd-0.4.0.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitfit-3.0.7.tar.gz tmp/transitfit-3.0.8.tar.gz --markdown 20230617/t/transitfit/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [tail-jsonl]: Downloading https://files.pythonhosted.org/packages/31/0c/4f3781a51d8dd90a82e0c0ae803f9c4129cfc27c1e8d3c72439bd7bb398a/tail_jsonl-1.2.4.tar.gz
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [transitfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitfit-3.0.7.tar.gz tmp/transitfit-3.0.8.tar.gz --markdown 20230617/t/transitfit/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [tail-jsonl]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [tail-jsonl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tail_jsonl-1.2.3.tar.gz tmp/tail_jsonl-1.2.4.tar.gz --markdown 20230617/t/tail-jsonl/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-17 16:31:00] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-06-17 16:31:00] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.3.9.tar.gz tmp/vagd-0.4.0.tar.gz --markdown 20230617/v/vagd/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-17 16:31:01] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.7.tar.gz]
+[2023-06-17 16:31:01] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-17 16:31:01] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-17 16:31:01] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.10.tar.gz]
+[2023-06-17 16:31:01] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.12.tar.gz]
+[2023-06-17 16:31:01] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-17 16:31:02] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.6.2.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.6.4.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-06-17 16:31:02] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.0.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.1.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-17 16:31:02] INFO root fetch - processPackages [transitfit]: Remove: archive file [/home/abi/fetcher/tmp/transitfit-3.0.7.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - processPackages [transitfit]: Remove: archive file [/home/abi/fetcher/tmp/transitfit-3.0.8.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [transitfit]: success
+[2023-06-17 16:31:02] INFO root fetch - processPackages [tail-jsonl]: Remove: archive file [/home/abi/fetcher/tmp/tail_jsonl-1.2.3.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - processPackages [tail-jsonl]: Remove: archive file [/home/abi/fetcher/tmp/tail_jsonl-1.2.4.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [tail-jsonl]: success
+[2023-06-17 16:31:02] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.3.9.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.0.tar.gz]
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [transitfit]: success
+[2023-06-17 16:31:02] INFO root fetch - main [MainThread]: Store serial: [18543754]
