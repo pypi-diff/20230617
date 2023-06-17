@@ -9965,3 +9965,65 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:19:08] INFO root fetch - processPackages [dpugen]: Remove: archive file [/home/abi/fetcher/tmp/dpugen-0.1.1.tar.gz]
 [2023-06-17 09:19:08] INFO root fetch - main [MainThread]: End processing [dpugen]: success
 [2023-06-17 09:19:08] INFO root fetch - main [MainThread]: Store serial: [18541544]
+[2023-06-17 09:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541544]
+[2023-06-17 09:24:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GCoCF
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-create
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alltime-athletics-python
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evennia
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-create
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alltime-athletics-python
+[2023-06-17 09:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logop
+[2023-06-17 09:24:18] INFO root fetch - processPackages [evennia]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: New version: [0.1.1] Old Version: [0.0.41]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: New version: [0.1.1] Old Version: [0.0.41]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [logop]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: New version: [1.20230617.0] Old Version: [1.20230612.1]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [GCoCF]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/47/42/674a2870a06228417f7f9a54d585384d6bbec43ec44ddd38535aeef0977b/gcocf-0.9.5.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: New version: [1.20230617.1] Old Version: [1.20230617.0]
+[2023-06-17 09:24:18] INFO root fetch - processPackages [logop]: Downloading https://files.pythonhosted.org/packages/b3/cf/b46aa2cf8e7d93d370248e5e1c50adf349750af503e5910b8809b05b2f6b/logop-0.6.0.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/1f/22/7609bb87b4c3cbb3ca754352acbb41160d916c07b8fa39c0eb8b96f0db7a/ansar-create-0.0.41.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/1f/22/7609bb87b4c3cbb3ca754352acbb41160d916c07b8fa39c0eb8b96f0db7a/ansar-create-0.0.41.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/51/03/0bd0688e390e0bc66af3fcccb44a7a8f4399a6d47c2c2825e3bd7912fd7d/evennia-2.0.0.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/49/37/e7569353d13c13cc94cb3bd4e996e534546f5d885b26776b469e3f96b1a9/alltime_athletics_python-1.20230612.1.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/cf/d9/47a5fbf9f181f16c11a7f526357b8d0c720bb9dba1534070482ed09ef8db/alltime_athletics_python-1.20230617.0.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/8c/8a/89e396dcf654d076c6587548b3d2af8f50910ff1bc7113b699c254adbe0e/gcocf-0.9.6.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [logop]: Downloading https://files.pythonhosted.org/packages/24/d1/a03b71bb193d0244c2ad7d5a5114d18552a6ea30a9d697ececdb88330b3c/logop-1.0.0.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/72/26/e30638fc790400c7bc796a3cd8f726f97908c4300f238f3cfaa606122947/ansar-create-0.1.1.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/72/26/e30638fc790400c7bc796a3cd8f726f97908c4300f238f3cfaa606122947/ansar-create-0.1.1.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.5.tar.gz tmp/gcocf-0.9.6.tar.gz --markdown 20230617/G/GCoCF/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [logop]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [logop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logop-0.6.0.tar.gz tmp/logop-1.0.0.tar.gz --markdown 20230617/l/logop/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/27/b6/2770f954e9a615ea2c3f2d1ccc48f1b2c2491cd510e721309a94bcf28cb2/evennia-2.0.1.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-1.20230612.1.tar.gz tmp/alltime_athletics_python-1.20230617.0.tar.gz --markdown 20230617/a/alltime-athletics-python/1.20230612.1-1.20230617.0/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/87/12/39f04effebab013f5cbd4eb67fa7442762e19382ae4417d690feab4e1ad8/alltime_athletics_python-1.20230617.1.tar.gz
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-create-0.0.41.tar.gz tmp/ansar-create-0.1.1.tar.gz --markdown 20230617/a/ansar-create/0.0.41-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-create-0.0.41.tar.gz tmp/ansar-create-0.1.1.tar.gz --markdown 20230617/a/ansar-create/0.0.41-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [evennia]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [evennia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evennia-2.0.0.tar.gz tmp/evennia-2.0.1.tar.gz --markdown 20230617/e/evennia/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-17 09:24:18] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-1.20230617.0.tar.gz tmp/alltime_athletics_python-1.20230617.1.tar.gz --markdown 20230617/a/alltime-athletics-python/1.20230617.0-1.20230617.1/diff.md --exclude *.pyd
+[2023-06-17 09:24:19] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.5.tar.gz]
+[2023-06-17 09:24:19] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.6.tar.gz]
+[2023-06-17 09:24:19] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-17 09:24:19] INFO root fetch - processPackages [logop]: Remove: archive file [/home/abi/fetcher/tmp/logop-0.6.0.tar.gz]
+[2023-06-17 09:24:19] INFO root fetch - processPackages [logop]: Remove: archive file [/home/abi/fetcher/tmp/logop-1.0.0.tar.gz]
+[2023-06-17 09:24:19] INFO root fetch - main [MainThread]: End processing [logop]: success
+[2023-06-17 09:24:20] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.20230617.0.tar.gz]
+[2023-06-17 09:24:20] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.20230617.1.tar.gz]
+[2023-06-17 09:24:20] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-17 09:24:20] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.20230612.1.tar.gz]
+[2023-06-17 09:24:20] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-17 09:24:20] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.0.41.tar.gz]
+[2023-06-17 09:24:20] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.1.tar.gz]
+[2023-06-17 09:24:20] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2023-06-17 09:24:20] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2023-06-17 09:24:26] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.0.0.tar.gz]
+[2023-06-17 09:24:26] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.0.1.tar.gz]
+[2023-06-17 09:24:26] INFO root fetch - main [MainThread]: End processing [evennia]: success
+[2023-06-17 09:24:26] INFO root fetch - main [MainThread]: Store serial: [18541567]
