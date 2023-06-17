@@ -17868,3 +17868,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 21:12:10] INFO root fetch - processPackages [bloptools]: Remove: archive file [/home/abi/fetcher/tmp/bloptools-0.3.0.tar.gz]
 [2023-06-17 21:12:10] INFO root fetch - main [MainThread]: End processing [bloptools]: success
 [2023-06-17 21:12:10] INFO root fetch - main [MainThread]: Store serial: [18545350]
+[2023-06-17 21:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545350]
+[2023-06-17 21:17:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-17 21:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simba-UW-tf-dev
+[2023-06-17 21:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webhooklib
+[2023-06-17 21:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reader-yaojh
+[2023-06-17 21:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boardgen
+[2023-06-17 21:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: letras-custom-israelubeda
+[2023-06-17 21:17:19] INFO root fetch - processPackages [webhooklib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-17 21:17:19] INFO root fetch - processPackages [boardgen]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-17 21:17:19] INFO root fetch - processPackages [letras-custom-israelubeda]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-17 21:17:19] WARNING root fetch - processPackages [reader-yaojh]: Skipping, unable to determine old version
+[2023-06-17 21:17:19] INFO root fetch - main [MainThread]: End processing [reader-yaojh] error
+[2023-06-17 21:17:19] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/ff/ab/cfd63db7a95dee0f5468026171520db5d4e26383b8349d9710e92f9bad0d/boardgen-0.7.0.tar.gz
+[2023-06-17 21:17:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.63.2] Old Version: [1.63.1]
+[2023-06-17 21:17:19] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/5c/a7/06bb7ca13b2c4fad92b2c1d3cb02782732a57ec1ea94ac2f818258c3177e/webhooklib-0.5.0.tar.gz
+[2023-06-17 21:17:19] INFO root fetch - processPackages [letras-custom-israelubeda]: Downloading https://files.pythonhosted.org/packages/f3/99/a731b87daf60956b64e81d473c74095cabedea86ce0eda90333195558eb6/letras_custom_israelubeda-0.0.1.tar.gz
+[2023-06-17 21:17:19] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/3b/00/4d2d34fd77b41e3693a5be83e390dffb11ca981b21720bb2dad44f71c3b6/boardgen-0.7.1.tar.gz
+[2023-06-17 21:17:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/bf/4b/85e3f0293c1f4539c7574c2d96b7012267678fdbedaae0e816ed5290552f/Simba-UW-tf-dev-1.63.1.tar.gz
+[2023-06-17 21:17:20] INFO root fetch - processPackages [boardgen]: executing diffoscope
+[2023-06-17 21:17:20] INFO root fetch - processPackages [boardgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boardgen-0.7.0.tar.gz tmp/boardgen-0.7.1.tar.gz --markdown 20230617/b/boardgen/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-17 21:17:20] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d2/bf/65eaab9f9ab4af86d71eb58a761cc153583a9cd0f0df207618924e4e46cd/webhooklib-0.5.1.tar.gz
+[2023-06-17 21:17:20] INFO root fetch - processPackages [letras-custom-israelubeda]: Downloading https://files.pythonhosted.org/packages/e4/46/35105bd06c7fad60a886e5e5772b46acfc21086b37762c36e3030ce1130f/letras_custom_israelubeda-0.0.2.tar.gz
+[2023-06-17 21:17:20] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 21:17:20] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.5.0.tar.gz tmp/webhooklib-0.5.1.tar.gz --markdown 20230617/w/webhooklib/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-17 21:17:20] INFO root fetch - processPackages [letras-custom-israelubeda]: executing diffoscope
+[2023-06-17 21:17:20] INFO root fetch - processPackages [letras-custom-israelubeda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letras_custom_israelubeda-0.0.1.tar.gz tmp/letras_custom_israelubeda-0.0.2.tar.gz --markdown 20230617/l/letras-custom-israelubeda/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-17 21:17:20] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d5/64/63deebaeb945be4d38c52197f676ef3c8a8f937aaed4a1bb524d7d878f50/Simba-UW-tf-dev-1.63.2.tar.gz
+[2023-06-17 21:17:21] INFO root fetch - processPackages [letras-custom-israelubeda]: Remove: archive file [/home/abi/fetcher/tmp/letras_custom_israelubeda-0.0.1.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - processPackages [letras-custom-israelubeda]: Remove: archive file [/home/abi/fetcher/tmp/letras_custom_israelubeda-0.0.2.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - main [MainThread]: End processing [letras-custom-israelubeda]: success
+[2023-06-17 21:17:21] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-06-17 21:17:21] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.63.1.tar.gz tmp/Simba-UW-tf-dev-1.63.2.tar.gz --markdown 20230617/S/Simba-UW-tf-dev/1.63.1-1.63.2/diff.md --exclude *.pyd
+[2023-06-17 21:17:21] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.0.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.1.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - main [MainThread]: End processing [boardgen]: success
+[2023-06-17 21:17:21] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.5.0.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.5.1.tar.gz]
+[2023-06-17 21:17:21] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 21:17:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.1.tar.gz]
+[2023-06-17 21:17:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.2.tar.gz]
+[2023-06-17 21:17:27] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-06-17 21:17:27] INFO root fetch - main [MainThread]: Store serial: [18545415]
