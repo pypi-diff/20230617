@@ -14101,3 +14101,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:42:56] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
 [2023-06-17 15:42:56] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
 [2023-06-17 15:42:56] INFO root fetch - main [MainThread]: Store serial: [18543416]
+[2023-06-17 15:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543416]
+[2023-06-17 15:48:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bilibili-toolman
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-pypi-ejarkm-project
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-dlock
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shioaji-realtime-kbars
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlk
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-usernames
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hase
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: umap-project
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aider-chat
+[2023-06-17 15:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aider-chat
+[2023-06-17 15:48:05] WARNING root fetch - processPackages [shioaji-realtime-kbars]: Skipping, unable to determine old version
+[2023-06-17 15:48:05] INFO root fetch - main [MainThread]: End processing [shioaji-realtime-kbars] error
+[2023-06-17 15:48:06] INFO root fetch - processPackages [sqlalchemy-dlock]: New version: [0.4] Old Version: [0.3.1]
+[2023-06-17 15:48:06] WARNING root fetch - processPackages [my-pypi-ejarkm-project]: Skipping, unable to determine old version
+[2023-06-17 15:48:06] INFO root fetch - main [MainThread]: End processing [my-pypi-ejarkm-project] error
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-17 15:48:06] WARNING root fetch - processPackages [hase]: Skipping, unable to determine old version
+[2023-06-17 15:48:06] INFO root fetch - main [MainThread]: End processing [hase] error
+[2023-06-17 15:48:06] INFO root fetch - processPackages [dlk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 15:48:06] INFO root fetch - processPackages [python-usernames]: New version: [1.0.0rc0] Old Version: [0.4.1]
+[2023-06-17 15:48:06] INFO root fetch - processPackages [umap-project]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-17 15:48:06] INFO root fetch - processPackages [bilibili-toolman]: New version: [1.0.7.8] Old Version: [1.0.7.7.3]
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/4d/fd/68825fbad4ff435e55a2574ef7689f241c98a43f3604fc21a789d2cbbd19/aider-chat-0.6.1.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/4d/fd/68825fbad4ff435e55a2574ef7689f241c98a43f3604fc21a789d2cbbd19/aider-chat-0.6.1.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [sqlalchemy-dlock]: Downloading https://files.pythonhosted.org/packages/02/c9/7370a035f97d3517dc6aa7fee35aa9eb37a508258347419d9563dba7f29f/sqlalchemy-dlock-0.3.1.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/52/1a/107a956788b283e99a4f1c1c51068192c810d002c2794255f5f9ce75400e/python-usernames-0.4.1.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [dlk]: Downloading https://files.pythonhosted.org/packages/52/fb/6299b5c612f0264cf44a9cdd4f1e47c761bda29c5e5d2627f1f25cb40b82/dlk-0.0.8.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [bilibili-toolman]: Downloading https://files.pythonhosted.org/packages/b6/a7/adcbe6a7af74d94eecf58071b608df59306ab96175eee20ef25a4d9faf1f/bilibili-toolman-1.0.7.7.3.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/d3/53/be25dbb2f2402bd38ffae8f3396b279a354269cdc2ece9da42b1c4097e0d/umap-project-1.3.3.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [python-usernames]: Downloading https://files.pythonhosted.org/packages/42/c9/ca99d043418ef4f3d3c05b183e725a49792ac9052f3ae8c9c4de978beee4/python_usernames-1.0.0rc0.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/9b/29/e497290fd86ed5da2003eb2d04402543dcd61a71967034566663881775e6/aider-chat-0.6.2.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/9b/29/e497290fd86ed5da2003eb2d04402543dcd61a71967034566663881775e6/aider-chat-0.6.2.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [sqlalchemy-dlock]: Downloading https://files.pythonhosted.org/packages/e5/55/b6823bd8d751bed358180214a7f9698cc3032c180d1a2556d17c83e97c2b/sqlalchemy-dlock-0.4.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [bilibili-toolman]: Downloading https://files.pythonhosted.org/packages/93/d4/4124cdbabd26411be897dcf10b888dcec8d5e96b052fce2f1b564a580764/bilibili-toolman-1.0.7.8.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [bilibili-toolman]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [bilibili-toolman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-toolman-1.0.7.7.3.tar.gz tmp/bilibili-toolman-1.0.7.8.tar.gz --markdown 20230617/b/bilibili-toolman/1.0.7.7.3-1.0.7.8/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [dlk]: Downloading https://files.pythonhosted.org/packages/c1/31/4ce59acd77cdf8408274730d1cc61a66e4a52639b792fe8a736e9a817aad/dlk-0.0.9.tar.gz
+[2023-06-17 15:48:06] INFO root fetch - processPackages [python-usernames]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [python-usernames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-usernames-0.4.1.tar.gz tmp/python_usernames-1.0.0rc0.tar.gz --markdown 20230617/p/python-usernames/0.4.1-1.0.0rc0/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.6.1.tar.gz tmp/aider-chat-0.6.2.tar.gz --markdown 20230617/a/aider-chat/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.6.1.tar.gz tmp/aider-chat-0.6.2.tar.gz --markdown 20230617/a/aider-chat/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [sqlalchemy-dlock]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [sqlalchemy-dlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-dlock-0.3.1.tar.gz tmp/sqlalchemy-dlock-0.4.tar.gz --markdown 20230617/s/sqlalchemy-dlock/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [dlk]: executing diffoscope
+[2023-06-17 15:48:06] INFO root fetch - processPackages [dlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlk-0.0.8.tar.gz tmp/dlk-0.0.9.tar.gz --markdown 20230617/d/dlk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 15:48:06] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/02/ca/ac7db94500f6a8348d0f4d9a499a82f801ab697a35130fa801fb14879d80/umap_project-1.3.4.tar.gz
+[2023-06-17 15:48:07] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-06-17 15:48:07] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap-project-1.3.3.tar.gz tmp/umap_project-1.3.4.tar.gz --markdown 20230617/u/umap-project/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-17 15:48:08] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.6.1.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.6.2.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-06-17 15:48:08] INFO root fetch - processPackages [sqlalchemy-dlock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-dlock-0.3.1.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - processPackages [sqlalchemy-dlock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-dlock-0.4.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - main [MainThread]: End processing [sqlalchemy-dlock]: success
+[2023-06-17 15:48:08] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-06-17 15:48:08] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python-usernames-0.4.1.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - processPackages [python-usernames]: Remove: archive file [/home/abi/fetcher/tmp/python_usernames-1.0.0rc0.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - main [MainThread]: End processing [python-usernames]: success
+[2023-06-17 15:48:08] INFO root fetch - processPackages [bilibili-toolman]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-toolman-1.0.7.7.3.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - processPackages [bilibili-toolman]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-toolman-1.0.7.8.tar.gz]
+[2023-06-17 15:48:08] INFO root fetch - main [MainThread]: End processing [bilibili-toolman]: success
+[2023-06-17 15:48:09] INFO root fetch - processPackages [dlk]: Remove: archive file [/home/abi/fetcher/tmp/dlk-0.0.8.tar.gz]
+[2023-06-17 15:48:09] INFO root fetch - processPackages [dlk]: Remove: archive file [/home/abi/fetcher/tmp/dlk-0.0.9.tar.gz]
+[2023-06-17 15:48:09] INFO root fetch - main [MainThread]: End processing [dlk]: success
+[2023-06-17 15:48:16] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap-project-1.3.3.tar.gz]
+[2023-06-17 15:48:16] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.3.4.tar.gz]
+[2023-06-17 15:48:16] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-06-17 15:48:16] INFO root fetch - main [MainThread]: Store serial: [18543455]
