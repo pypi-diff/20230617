@@ -14025,3 +14025,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 15:37:33] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.6.1.tar.gz]
 [2023-06-17 15:37:33] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-06-17 15:37:33] INFO root fetch - main [MainThread]: Store serial: [18543365]
+[2023-06-17 15:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543365]
+[2023-06-17 15:42:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpteasy
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newshomepages
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zebrazoom
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json2schema
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydraughts
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jarvis-leaderboard
+[2023-06-17 15:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bilibili-toolman
+[2023-06-17 15:42:50] INFO root fetch - processPackages [newshomepages]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230616] Old Version: [2.14.0.dev20230614]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [gpteasy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/80/b1/9f8f691f3103d37bd22fdefccc25330667e9cdd7219746b425109e9770b1/newshomepages-0.0.8.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/37/35/a33c35c989a368a02c8dfc61669d0b0486de22dc5f9eb60e3e4ec01c50e3/tf_nightly_intel-2.14.0.dev20230614-cp39-cp39-win_amd64.whl
+[2023-06-17 15:42:50] INFO root fetch - processPackages [json2schema]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/9a/20/6501543fe0da7da0e35c6549eae541d20fbc1c5620e99da482f3212f3987/gpteasy-0.0.3.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [pydraughts]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [dxsp]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.6.12] Old Version: [2023.5.5]
+[2023-06-17 15:42:50] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183784575>=10485760
+[2023-06-17 15:42:50] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-17 15:42:50] INFO root fetch - processPackages [bilibili-toolman]: New version: [1.0.7.8] Old Version: [1.0.7.7.3]
+[2023-06-17 15:42:50] INFO root fetch - processPackages [json2schema]: Downloading https://files.pythonhosted.org/packages/06/f7/6a05f6868cf1f6dd5302d311860f6b6f64348965a70de3315c78b8f5d4e2/json2schema-0.1.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/e8/59/7af8f42fa4272e974545c358ab13709e997ded151c66f7c1e637fdfb66c1/gpteasy-0.0.4.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [pydraughts]: Downloading https://files.pythonhosted.org/packages/26/47/ef4f497f99623fc6b4f0cb2a37e8fb60dfa253b3dcfd0b5492187b2ef0c6/pydraughts-0.6.3.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [newshomepages]: Downloading https://files.pythonhosted.org/packages/11/c4/54b425f19c160653a3dc7ea1b0d4c3cac1599d9bcf7ae5d4bc1eff1b4b12/newshomepages-0.0.9.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b0/d5/715a79aab5bc95cd5dcec1b1f99ff7531f1ad87b39f966b367df5472fbed/dxsp-2.6.8.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-17 15:42:50] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-0.0.3.tar.gz tmp/gpteasy-0.0.4.tar.gz --markdown 20230617/g/gpteasy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 15:42:50] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/39/e0/b640b18d23d77654ab56503f08ca859e20c2b66544d12f9fe30b0bf97d36/jarvis_leaderboard-2023.5.5.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [bilibili-toolman]: Downloading https://files.pythonhosted.org/packages/b6/a7/adcbe6a7af74d94eecf58071b608df59306ab96175eee20ef25a4d9faf1f/bilibili-toolman-1.0.7.7.3.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [newshomepages]: executing diffoscope
+[2023-06-17 15:42:50] INFO root fetch - processPackages [newshomepages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newshomepages-0.0.8.tar.gz tmp/newshomepages-0.0.9.tar.gz --markdown 20230617/n/newshomepages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-17 15:42:50] INFO root fetch - processPackages [pydraughts]: Downloading https://files.pythonhosted.org/packages/a6/9d/1611b39e0ee7b8a4e7cd7160c91c73d3f7817b8f91801a2f70c217198f06/pydraughts-0.6.4.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [json2schema]: Downloading https://files.pythonhosted.org/packages/33/06/2b98d8b35b3730f140822ecf5937386446e33d8c8a072724745b81f24618/json2schema-0.1.1.tar.gz
+[2023-06-17 15:42:50] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 87617046>=10485760
+[2023-06-17 15:42:50] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-06-17 15:42:50] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8e/36/ebff45e8fcfc7c802f316046901c42642ea5b4cf5a7cca835e9dba832590/dxsp-2.6.9.tar.gz
+[2023-06-17 15:42:50] INFO root fetch - processPackages [pydraughts]: executing diffoscope
+[2023-06-17 15:42:50] INFO root fetch - processPackages [pydraughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraughts-0.6.3.tar.gz tmp/pydraughts-0.6.4.tar.gz --markdown 20230617/p/pydraughts/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-17 15:42:50] INFO root fetch - processPackages [json2schema]: executing diffoscope
+[2023-06-17 15:42:50] INFO root fetch - processPackages [json2schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json2schema-0.1.tar.gz tmp/json2schema-0.1.1.tar.gz --markdown 20230617/j/json2schema/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 15:42:50] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-06-17 15:42:50] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.8.tar.gz tmp/dxsp-2.6.9.tar.gz --markdown 20230617/d/dxsp/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-17 15:42:51] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-06-17 15:42:51] INFO root fetch - processPackages [bilibili-toolman]: Downloading https://files.pythonhosted.org/packages/93/d4/4124cdbabd26411be897dcf10b888dcec8d5e96b052fce2f1b564a580764/bilibili-toolman-1.0.7.8.tar.gz
+[2023-06-17 15:42:51] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-06-17 15:42:51] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230617/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-17 15:42:51] INFO root fetch - processPackages [bilibili-toolman]: executing diffoscope
+[2023-06-17 15:42:51] INFO root fetch - processPackages [bilibili-toolman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-toolman-1.0.7.7.3.tar.gz tmp/bilibili-toolman-1.0.7.8.tar.gz --markdown 20230617/b/bilibili-toolman/1.0.7.7.3-1.0.7.8/diff.md --exclude *.pyd
+[2023-06-17 15:42:51] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-0.0.3.tar.gz]
+[2023-06-17 15:42:51] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-0.0.4.tar.gz]
+[2023-06-17 15:42:51] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-17 15:42:52] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.8.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.9.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-06-17 15:42:52] INFO root fetch - processPackages [json2schema]: Remove: archive file [/home/abi/fetcher/tmp/json2schema-0.1.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - processPackages [json2schema]: Remove: archive file [/home/abi/fetcher/tmp/json2schema-0.1.1.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - main [MainThread]: End processing [json2schema]: success
+[2023-06-17 15:42:52] INFO root fetch - processPackages [pydraughts]: Remove: archive file [/home/abi/fetcher/tmp/pydraughts-0.6.3.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - processPackages [pydraughts]: Remove: archive file [/home/abi/fetcher/tmp/pydraughts-0.6.4.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - main [MainThread]: End processing [pydraughts]: success
+[2023-06-17 15:42:52] INFO root fetch - processPackages [bilibili-toolman]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-toolman-1.0.7.7.3.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - processPackages [bilibili-toolman]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-toolman-1.0.7.8.tar.gz]
+[2023-06-17 15:42:52] INFO root fetch - main [MainThread]: End processing [bilibili-toolman]: success
+[2023-06-17 15:42:53] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-06-17 15:42:53] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-06-17 15:42:53] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-06-17 15:42:56] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.8.tar.gz]
+[2023-06-17 15:42:56] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
+[2023-06-17 15:42:56] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
+[2023-06-17 15:42:56] INFO root fetch - main [MainThread]: Store serial: [18543416]
