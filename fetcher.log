@@ -14314,3 +14314,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:03:56] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a8.tar.gz]
 [2023-06-17 16:03:56] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
 [2023-06-17 16:03:56] INFO root fetch - main [MainThread]: Store serial: [18543551]
+[2023-06-17 16:09:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543551]
+[2023-06-17 16:09:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gma
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umap-project
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-core
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lama-cleaner
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpteasy
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revproxy-auth
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-eyedata
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: get-eyedata
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: get-eyedata
+[2023-06-17 16:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trionesDevice
+[2023-06-17 16:09:07] INFO root fetch - processPackages [umap-project]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gpteasy]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/d3/53/be25dbb2f2402bd38ffae8f3396b279a354269cdc2ece9da42b1c4097e0d/umap-project-1.3.3.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/e8/59/7af8f42fa4272e974545c358ab13709e997ded151c66f7c1e637fdfb66c1/gpteasy-0.0.4.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gma]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-17 16:09:07] WARNING root fetch - processPackages [trionesDevice]: Skipping, unable to determine old version
+[2023-06-17 16:09:07] INFO root fetch - processPackages [lama-cleaner]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-17 16:09:07] INFO root fetch - main [MainThread]: End processing [trionesDevice] error
+[2023-06-17 16:09:07] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-17 16:09:07] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/02/ca/ac7db94500f6a8348d0f4d9a499a82f801ab697a35130fa801fb14879d80/umap_project-1.3.4.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/4c/6c/3c8ace64928cbcd5d3d069024daf95f0facafd91d8980acfb50c4a18e3e8/gma-2.0.0a1-cp39-cp39-win_amd64.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/cd/e1/a5035a470734d526fee0d72da6883f50470ac1943fc9be59686496b10b25/get_eyedata-1.1.7-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/cd/e1/a5035a470734d526fee0d72da6883f50470ac1943fc9be59686496b10b25/get_eyedata-1.1.7-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/cd/e1/a5035a470734d526fee0d72da6883f50470ac1943fc9be59686496b10b25/get_eyedata-1.1.7-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/41/91/fa77919396135790508672004aed506a3b8a591abd29a725ac6689eb2ddd/revproxy_auth-0.1.7.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [lama-cleaner]: Downloading https://files.pythonhosted.org/packages/a4/da/9178360b2f4a434abba512361e5b799afa1aca40f08a3a2f5c6515c99882/lama-cleaner-1.2.0.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/11/d2/a8b7a5c3c0577ef4504afb8412c7b135e3624aa2fd4d243ca07df69f3418/gpteasy-1.0.1.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap-project-1.3.3.tar.gz tmp/umap_project-1.3.4.tar.gz --markdown 20230617/u/umap-project/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-0.0.4.tar.gz tmp/gpteasy-1.0.1.tar.gz --markdown 20230617/g/gpteasy/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/0c/ad/97961b42a21862d0f52b563c9bbc8118ff6a255cafa8783c70a6c84ca6c5/get_eyedata-1.2.0-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/0c/ad/97961b42a21862d0f52b563c9bbc8118ff6a255cafa8783c70a6c84ca6c5/get_eyedata-1.2.0-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/0c/ad/97961b42a21862d0f52b563c9bbc8118ff6a255cafa8783c70a6c84ca6c5/get_eyedata-1.2.0-py3-none-any.whl
+[2023-06-17 16:09:07] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/77/fd/eaa77c6583582581791be68ac357eb81916f75286a9afdb6f4a8182ca907/revproxy_auth-0.1.8.tar.gz
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.1.7-py3-none-any.whl.zip tmp/get_eyedata-1.2.0-py3-none-any.whl.zip --markdown 20230617/g/get-eyedata/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.1.7-py3-none-any.whl.zip tmp/get_eyedata-1.2.0-py3-none-any.whl.zip --markdown 20230617/g/get-eyedata/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.1.7-py3-none-any.whl.zip tmp/get_eyedata-1.2.0-py3-none-any.whl.zip --markdown 20230617/g/get-eyedata/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.7.tar.gz tmp/revproxy_auth-0.1.8.tar.gz --markdown 20230617/r/revproxy-auth/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-17 16:09:07] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-17 16:09:07] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230617/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 16:09:08] INFO root fetch - processPackages [lama-cleaner]: Downloading https://files.pythonhosted.org/packages/a8/e2/a9cd3df1eb49d71d0a638f130dc55736a93e9ec0875fc526043a0ecdb529/lama-cleaner-1.2.1.tar.gz
+[2023-06-17 16:09:08] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/88/04/2c219eb93b5e2997bbf8b1cd3a66cee48d7d36a79c6f59d3b25570ff5dfe/gma-2.0.0a2-cp39-cp39-win_amd64.whl
+[2023-06-17 16:09:09] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.1.7-py3-none-any.whl.zip]
+[2023-06-17 16:09:09] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.2.0-py3-none-any.whl.zip]
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-06-17 16:09:09] INFO root fetch - processPackages [lama-cleaner]: executing diffoscope
+[2023-06-17 16:09:09] INFO root fetch - processPackages [lama-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama-cleaner-1.2.0.tar.gz tmp/lama-cleaner-1.2.1.tar.gz --markdown 20230617/l/lama-cleaner/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-06-17 16:09:09] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-0.0.4.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.0.1.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-17 16:09:09] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.7.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.8.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-06-17 16:09:09] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-17 16:09:09] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-17 16:09:09] INFO root fetch - processPackages [gma]: executing diffoscope
+[2023-06-17 16:09:09] INFO root fetch - processPackages [gma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gma-2.0.0a1-cp39-cp39-win_amd64.whl.zip tmp/gma-2.0.0a2-cp39-cp39-win_amd64.whl.zip --markdown 20230617/g/gma/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-06-17 16:09:11] INFO root fetch - processPackages [lama-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/lama-cleaner-1.2.0.tar.gz]
+[2023-06-17 16:09:11] INFO root fetch - processPackages [lama-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/lama-cleaner-1.2.1.tar.gz]
+[2023-06-17 16:09:11] INFO root fetch - main [MainThread]: End processing [lama-cleaner]: success
+[2023-06-17 16:09:11] INFO root fetch - processPackages [gma]: Remove: archive file [/home/abi/fetcher/tmp/gma-2.0.0a1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 16:09:11] INFO root fetch - processPackages [gma]: Remove: archive file [/home/abi/fetcher/tmp/gma-2.0.0a2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-17 16:09:11] INFO root fetch - main [MainThread]: End processing [gma]: success
+[2023-06-17 16:09:16] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap-project-1.3.3.tar.gz]
+[2023-06-17 16:09:16] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.3.4.tar.gz]
+[2023-06-17 16:09:16] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-06-17 16:09:16] INFO root fetch - main [MainThread]: Store serial: [18543587]
