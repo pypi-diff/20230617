@@ -8117,3 +8117,36 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 06:12:42] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mrp_production_request-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
 [2023-06-17 06:12:42] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mrp-production-request]: success
 [2023-06-17 06:12:42] INFO root fetch - main [MainThread]: Store serial: [18540769]
+[2023-06-17 06:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18540769]
+[2023-06-17 06:17:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 06:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swmmtoolbox
+[2023-06-17 06:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitemplates
+[2023-06-17 06:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2023-06-17 06:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mizcore
+[2023-06-17 06:17:51] INFO root fetch - processPackages [aitemplates]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-17 06:17:51] INFO root fetch - processPackages [swmmtoolbox]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-06-17 06:17:51] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/dc/7d/a1b09ddebae20babf22d5a11ed53c367593e4a7ff38371e1dbc622db46b1/aitemplates-0.1.5.tar.gz
+[2023-06-17 06:17:51] WARNING root fetch - processPackages [mizcore]: Skipping, unable to determine old version
+[2023-06-17 06:17:51] INFO root fetch - main [MainThread]: End processing [mizcore] error
+[2023-06-17 06:17:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-17 06:17:51] INFO root fetch - processPackages [swmmtoolbox]: Downloading https://files.pythonhosted.org/packages/df/10/ca7d3337fc628766c64729276c31bb024b41232e7fb8f21b98509d8b84fc/swmmtoolbox-4.0.6.tar.gz
+[2023-06-17 06:17:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/78/aa/7cf9e6def9944f5dcc69df49bbc3da902e7562c70135790deee2e0189cbc/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl
+[2023-06-17 06:17:51] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/e6/cd/3283796fef834f515149cc0e4b11ae22308cf694a51ffbd6d0356bc40a3e/aitemplates-0.1.6.tar.gz
+[2023-06-17 06:17:51] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 06:17:51] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.5.tar.gz tmp/aitemplates-0.1.6.tar.gz --markdown 20230617/a/aitemplates/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-17 06:17:51] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/6b/54/b852b57115446247318f73ce1858acabc97648c6e8bcbc66297ad6d98b7f/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-17 06:17:51] INFO root fetch - processPackages [swmmtoolbox]: Downloading https://files.pythonhosted.org/packages/d3/36/a90dc84ea920e7f1e9642375bef85f45a05e2329374076a76c2f06827b56/swmmtoolbox-4.0.7.tar.gz
+[2023-06-17 06:17:52] INFO root fetch - processPackages [swmmtoolbox]: executing diffoscope
+[2023-06-17 06:17:52] INFO root fetch - processPackages [swmmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmmtoolbox-4.0.6.tar.gz tmp/swmmtoolbox-4.0.7.tar.gz --markdown 20230617/s/swmmtoolbox/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-06-17 06:17:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-17 06:17:52] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230617/o/odoo-addon-openupgrade-scripts/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-17 06:17:52] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.5.tar.gz]
+[2023-06-17 06:17:52] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.6.tar.gz]
+[2023-06-17 06:17:52] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 06:17:53] INFO root fetch - processPackages [swmmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/swmmtoolbox-4.0.6.tar.gz]
+[2023-06-17 06:17:53] INFO root fetch - processPackages [swmmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/swmmtoolbox-4.0.7.tar.gz]
+[2023-06-17 06:17:53] INFO root fetch - main [MainThread]: End processing [swmmtoolbox]: success
+[2023-06-17 06:17:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-17 06:17:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-17 06:17:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-06-17 06:17:59] INFO root fetch - main [MainThread]: Store serial: [18540780]
