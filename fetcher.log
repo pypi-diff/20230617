@@ -18577,3 +18577,67 @@ AssertionError: tmp/isTrue-0.0.4.tar.gz does not exist
 [2023-06-17 22:21:43] INFO root fetch - processPackages [pynamer]: Remove: archive file [/home/abi/fetcher/tmp/pynamer-2.1.6.tar.gz]
 [2023-06-17 22:21:43] INFO root fetch - main [MainThread]: End processing [pynamer]: success
 [2023-06-17 22:21:43] INFO root fetch - main [MainThread]: Store serial: [18545698]
+[2023-06-17 22:26:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18545698]
+[2023-06-17 22:26:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaobject
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocketsolver
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-git-gitlab
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unihan-etl
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FluidPyPLC
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goodmap
+[2023-06-17 22:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaobject
+[2023-06-17 22:26:53] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [goodmap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [rocketsolver]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-17 22:26:53] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/25/19/3303c2dd03b28127f1c52579160ee3e6121494b9d820f439b95ba4d198fb/xia_git_gitlab-0.1.0-cp39-none-win_amd64.whl
+[2023-06-17 22:26:53] INFO root fetch - processPackages [rocketsolver]: Downloading https://files.pythonhosted.org/packages/05/bc/599b18b7f574e081cc82bbb3a38f4c4f93a12a483d8043c7d755b07adde3/rocketsolver-0.3.0.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/5b/ff/668b9ee04f4974ada8018b3236d0655549acc0a3d149f334e36711212c0d/FluidPyPLC-0.1.8.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [goodmap]: Downloading https://files.pythonhosted.org/packages/ed/70/53184838638713ac590f4125926dbcff898b029593280871fea09815684b/goodmap-0.1.8.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/e1/65/858c2930d7b5503cd19f1d037f695e7bd906cc77df462219dfa2a8fc52b7/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/54/c9/717d9b5e6d66338b2db9dfe168ddfafd0d427dd0fa2be3db10f336ef8069/FluidPyPLC-0.1.9.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [goodmap]: Downloading https://files.pythonhosted.org/packages/c2/83/c24b554dfc68a3edc677a522fdf365b996ff1fce7aa2f4e8b9d45f48b54a/goodmap-0.1.9.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [rocketsolver]: Downloading https://files.pythonhosted.org/packages/f5/06/8b2b2311eb4a0253b2e050050f305a88b46564533c192a79e235c354a56d/rocketsolver-0.5.0.tar.gz
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230617/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230617/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.8.tar.gz tmp/FluidPyPLC-0.1.9.tar.gz --markdown 20230617/F/FluidPyPLC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [rocketsolver]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [rocketsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketsolver-0.3.0.tar.gz tmp/rocketsolver-0.5.0.tar.gz --markdown 20230617/r/rocketsolver/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230617/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [goodmap]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [goodmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodmap-0.1.8.tar.gz tmp/goodmap-0.1.9.tar.gz --markdown 20230617/g/goodmap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 22:26:53] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-17 22:26:53] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230617/x/xia-git-gitlab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 22:26:54] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a8.tar.gz]
+[2023-06-17 22:26:54] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a9.tar.gz]
+[2023-06-17 22:26:54] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-06-17 22:26:55] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.8.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.9.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-06-17 22:26:55] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-17 22:26:55] INFO root fetch - processPackages [goodmap]: Remove: archive file [/home/abi/fetcher/tmp/goodmap-0.1.8.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - processPackages [goodmap]: Remove: archive file [/home/abi/fetcher/tmp/goodmap-0.1.9.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [goodmap]: success
+[2023-06-17 22:26:55] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.0-cp39-none-win_amd64.whl.zip]
+[2023-06-17 22:26:55] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-17 22:26:55] INFO root fetch - processPackages [rocketsolver]: Remove: archive file [/home/abi/fetcher/tmp/rocketsolver-0.3.0.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - processPackages [rocketsolver]: Remove: archive file [/home/abi/fetcher/tmp/rocketsolver-0.5.0.tar.gz]
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: End processing [rocketsolver]: success
+[2023-06-17 22:26:55] INFO root fetch - main [MainThread]: Store serial: [18545722]
