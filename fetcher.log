@@ -15980,3 +15980,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 18:05:47] INFO root fetch - processPackages [Kivy-examples]: Remove: archive file [/home/abi/fetcher/tmp/Kivy_examples-2.2.1-py2.py3-none-any.whl.zip]
 [2023-06-17 18:05:47] INFO root fetch - main [MainThread]: End processing [Kivy-examples]: success
 [2023-06-17 18:05:47] INFO root fetch - main [MainThread]: Store serial: [18544449]
+[2023-06-17 18:10:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544449]
+[2023-06-17 18:10:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaman
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skmetpy
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywalc
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leuci-geo
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SydneyGPT
+[2023-06-17 18:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tutor-contrib-k8s-deploy-tasks
+[2023-06-17 18:10:57] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 18:10:57] INFO root fetch - processPackages [pywalc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-17 18:10:57] INFO root fetch - processPackages [skmetpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-17 18:10:57] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/73/3e/c50db07fe44e95efb710091b2ffb9f66fba17a9bf0a4ca31f91bfa335125/pywalc-1.0.1.tar.gz
+[2023-06-17 18:10:57] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/3e/d9/bd9ff0127dc476b03342bcd92766324df04b059746a9ee2fba07fba1e64a/leuci-geo-0.0.3.tar.gz
+[2023-06-17 18:10:57] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/29/21/41545f865505f11464450a34bd873404562b048dd2c0b4eb85b5dddf5fdb/skmetpy-0.0.2.tar.gz
+[2023-06-17 18:10:57] WARNING root fetch - processPackages [yaman]: Skipping, unable to determine old version
+[2023-06-17 18:10:57] INFO root fetch - main [MainThread]: End processing [yaman] error
+[2023-06-17 18:10:57] INFO root fetch - processPackages [SydneyGPT]: New version: [0.11.1] Old Version: [0.10.16]
+[2023-06-17 18:10:57] ERROR root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Unable to get metadata: No such project 'tutor-contrib-k8s-deploy-tasks'
+[2023-06-17 18:10:57] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-17 18:10:57] INFO root fetch - main [MainThread]: End processing [tutor-contrib-k8s-deploy-tasks] error
+[2023-06-17 18:10:57] INFO root fetch - processPackages [pywalc]: Downloading https://files.pythonhosted.org/packages/8c/4d/edc1bc610a23a6a8aded5d9f2392645d751e28cc654cf6ca3a527ff18610/pywalc-1.0.2.tar.gz
+[2023-06-17 18:10:57] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/66/cc/d685d0afbec195b3534bfda9330d6a35e75ccf4dbc68b2fa32627dd10ce3/leuci-geo-0.0.4.tar.gz
+[2023-06-17 18:10:57] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/1a/14/f4c80204b3061aad50cae49a61e7616fc54a742f2ad0b097d5b874e10b50/skmetpy-0.0.3.tar.gz
+[2023-06-17 18:10:58] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-17 18:10:58] INFO root fetch - processPackages [pywalc]: executing diffoscope
+[2023-06-17 18:10:58] INFO root fetch - processPackages [pywalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywalc-1.0.1.tar.gz tmp/pywalc-1.0.2.tar.gz --markdown 20230617/p/pywalc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-17 18:10:58] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-17 18:10:58] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.3.tar.gz tmp/leuci-geo-0.0.4.tar.gz --markdown 20230617/l/leuci-geo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 18:10:58] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/6d/07/1bdecb3355352d567879a0fa184c122a26c01df0801b17ae5c46fed1aebb/SydneyGPT-0.10.16.tar.gz
+[2023-06-17 18:10:58] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-17 18:10:58] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.2.tar.gz tmp/skmetpy-0.0.3.tar.gz --markdown 20230617/s/skmetpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-17 18:10:58] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-17 18:10:58] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-17 18:10:58] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230617/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-17 18:10:58] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/9e/80/2231b5ffce6539051af766af20a8dd4428e73370270f887588c18f53730f/SydneyGPT-0.11.1.tar.gz
+[2023-06-17 18:10:58] INFO root fetch - processPackages [SydneyGPT]: executing diffoscope
+[2023-06-17 18:10:58] INFO root fetch - processPackages [SydneyGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SydneyGPT-0.10.16.tar.gz tmp/SydneyGPT-0.11.1.tar.gz --markdown 20230617/S/SydneyGPT/0.10.16-0.11.1/diff.md --exclude *.pyd
+[2023-06-17 18:10:59] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.3.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.4.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-17 18:10:59] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.2.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.3.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-17 18:10:59] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.1.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - processPackages [pywalc]: Remove: archive file [/home/abi/fetcher/tmp/pywalc-1.0.2.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - main [MainThread]: End processing [pywalc]: success
+[2023-06-17 18:10:59] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.10.16.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.11.1.tar.gz]
+[2023-06-17 18:10:59] INFO root fetch - main [MainThread]: End processing [SydneyGPT]: success
+[2023-06-17 18:11:30] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-17 18:11:30] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-17 18:11:30] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-17 18:11:30] INFO root fetch - main [MainThread]: Store serial: [18544477]
