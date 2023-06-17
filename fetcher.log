@@ -10714,3 +10714,38 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 10:54:11] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
 [2023-06-17 10:54:11] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
 [2023-06-17 10:54:11] INFO root fetch - main [MainThread]: Store serial: [18541876]
+[2023-06-17 10:59:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541876]
+[2023-06-17 10:59:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 10:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atksh-utils
+[2023-06-17 10:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-simplified
+[2023-06-17 10:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almavik
+[2023-06-17 10:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hin
+[2023-06-17 10:59:20] INFO root fetch - processPackages [selenium-simplified]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 10:59:20] INFO root fetch - processPackages [atksh-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-17 10:59:20] INFO root fetch - processPackages [almavik]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-17 10:59:20] INFO root fetch - processPackages [hin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 10:59:20] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/49/1f/99083bd2953ec1280d729576ed197be555b1d18ad4ebe0d14644a9963b4d/atksh-utils-0.0.4.tar.gz
+[2023-06-17 10:59:20] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/b6/6a/80a7e0799d94e54f59d54e5960ccd190ae090e5c41dce8c787d1cd6a2303/hin-0.1.4.tar.gz
+[2023-06-17 10:59:20] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/23/5c/1c3593adb3bf3c29f28d6e0c1dbfb1311ebed75b7e06b0a79f76a3b010f0/selenium-simplified-0.8.tar.gz
+[2023-06-17 10:59:20] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/0b/01/1adb669196a6f5a574cbd6d994a295bc8cd99e0af93695228a9959a39947/almavik-0.2.tar.gz
+[2023-06-17 10:59:20] INFO root fetch - processPackages [hin]: Downloading https://files.pythonhosted.org/packages/26/9f/d167b8cd183396e7db8bddce7e164dda545638c58d34ccb39f340d23cbac/hin-0.1.5.tar.gz
+[2023-06-17 10:59:21] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373900>=10485760
+[2023-06-17 10:59:21] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-17 10:59:21] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/70/21/8b316ef8af0ec05447e67ae0c5f2b2d94b6fabac16b6c83aee4af9680f8b/atksh-utils-0.0.5.tar.gz
+[2023-06-17 10:59:21] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-17 10:59:21] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.0.4.tar.gz tmp/atksh-utils-0.0.5.tar.gz --markdown 20230617/a/atksh-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-17 10:59:21] INFO root fetch - processPackages [hin]: executing diffoscope
+[2023-06-17 10:59:21] INFO root fetch - processPackages [hin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hin-0.1.4.tar.gz tmp/hin-0.1.5.tar.gz --markdown 20230617/h/hin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 10:59:21] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/0b/b3/fc573bdfd459d5a9bba859784d73d28a5cf224a20005342c39fc0a45c231/selenium-simplified-0.9.tar.gz
+[2023-06-17 10:59:21] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-17 10:59:21] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-simplified-0.8.tar.gz tmp/selenium-simplified-0.9.tar.gz --markdown 20230617/s/selenium-simplified/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 10:59:22] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.4.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - processPackages [hin]: Remove: archive file [/home/abi/fetcher/tmp/hin-0.1.5.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - main [MainThread]: End processing [hin]: success
+[2023-06-17 10:59:22] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.4.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.5.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-17 10:59:22] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.8.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.9.tar.gz]
+[2023-06-17 10:59:22] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-17 10:59:22] INFO root fetch - main [MainThread]: Store serial: [18541888]
