@@ -10262,3 +10262,24 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 09:55:51] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
 [2023-06-17 09:55:51] INFO root fetch - main [MainThread]: End processing [monalysa]: success
 [2023-06-17 09:55:51] INFO root fetch - main [MainThread]: Store serial: [18541689]
+[2023-06-17 10:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18541689]
+[2023-06-17 10:01:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-17 10:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo
+[2023-06-17 10:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motion-python
+[2023-06-17 10:01:00] INFO root fetch - processPackages [motion-python]: New version: [0.1.66] Old Version: [0.1.65]
+[2023-06-17 10:01:00] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-06-17 10:01:00] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/fa/8d/d1260687b1959ce16c8ec3393c69481564dee1987dc65b91b9ec45cba0dd/motion_python-0.1.65.tar.gz
+[2023-06-17 10:01:00] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-06-17 10:01:00] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/45/e8/0bae17a37a2ddd1371d2035b8e1fecbb9544c3554bdff071a01711b3dc90/motion_python-0.1.66.tar.gz
+[2023-06-17 10:01:00] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-17 10:01:00] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.65.tar.gz tmp/motion_python-0.1.66.tar.gz --markdown 20230617/m/motion-python/0.1.65-0.1.66/diff.md --exclude *.pyd
+[2023-06-17 10:01:01] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-06-17 10:01:01] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-06-17 10:01:01] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230617/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-06-17 10:01:02] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.65.tar.gz]
+[2023-06-17 10:01:02] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.66.tar.gz]
+[2023-06-17 10:01:02] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-17 10:01:02] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-06-17 10:01:02] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-06-17 10:01:02] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-06-17 10:01:02] INFO root fetch - main [MainThread]: Store serial: [18541695]
