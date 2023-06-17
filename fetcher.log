@@ -11117,3 +11117,42 @@ AssertionError: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip does not 
 [2023-06-17 11:25:38] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
 [2023-06-17 11:25:38] INFO root fetch - main [MainThread]: End processing [hmfs]: success
 [2023-06-17 11:25:38] INFO root fetch - main [MainThread]: Store serial: [18542047]
+[2023-06-17 11:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542047]
+[2023-06-17 11:30:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-17 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-imports
+[2023-06-17 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-simplified
+[2023-06-17 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapeanything
+[2023-06-17 11:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhtools
+[2023-06-17 11:30:47] INFO root fetch - processPackages [selenium-simplified]: New version: [0.9] Old Version: [0.8]
+[2023-06-17 11:30:47] INFO root fetch - processPackages [zhtools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-17 11:30:47] INFO root fetch - processPackages [mo-imports]: New version: [7.416.23168] Old Version: [7.408.23161]
+[2023-06-17 11:30:47] INFO root fetch - processPackages [scrapeanything]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-17 11:30:47] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/23/5c/1c3593adb3bf3c29f28d6e0c1dbfb1311ebed75b7e06b0a79f76a3b010f0/selenium-simplified-0.8.tar.gz
+[2023-06-17 11:30:47] INFO root fetch - processPackages [zhtools]: Downloading https://files.pythonhosted.org/packages/d3/f0/32b55c4088e7d432573e94fea60d0efebb9a6ca52237e510f39e14600902/zhtools-1.0.0.tar.gz
+[2023-06-17 11:30:47] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/ed/d6/5d1673e47f2ed46e942311180a35a71023c79d6d6e6727a9c9e824ccfd51/mo_imports-7.408.23161-py2.py3-none-any.whl
+[2023-06-17 11:30:47] INFO root fetch - processPackages [scrapeanything]: Downloading https://files.pythonhosted.org/packages/4f/79/76c6a500556ca5614632771b87138c903ffe2040ba0d41724a81bb2f4ace/scrapeanything-0.9.98.tar.gz
+[2023-06-17 11:30:47] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/0b/b3/fc573bdfd459d5a9bba859784d73d28a5cf224a20005342c39fc0a45c231/selenium-simplified-0.9.tar.gz
+[2023-06-17 11:30:47] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-17 11:30:47] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-simplified-0.8.tar.gz tmp/selenium-simplified-0.9.tar.gz --markdown 20230617/s/selenium-simplified/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-17 11:30:47] INFO root fetch - processPackages [zhtools]: Downloading https://files.pythonhosted.org/packages/b0/a7/78888264a5fb5cf3a3203eaced6650fefcb22b739a262b1d838bdeadcf63/zhtools-1.0.1.tar.gz
+[2023-06-17 11:30:48] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/59/0f/1e3fd2ba6bc041988569212eec5f9483fb88a7d4aaf66f5c36fcf7fc1468/mo_imports-7.416.23168-py2.py3-none-any.whl
+[2023-06-17 11:30:48] INFO root fetch - processPackages [zhtools]: executing diffoscope
+[2023-06-17 11:30:48] INFO root fetch - processPackages [zhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhtools-1.0.0.tar.gz tmp/zhtools-1.0.1.tar.gz --markdown 20230617/z/zhtools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 11:30:48] INFO root fetch - processPackages [mo-imports]: executing diffoscope
+[2023-06-17 11:30:48] INFO root fetch - processPackages [mo-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_imports-7.408.23161-py2.py3-none-any.whl.zip tmp/mo_imports-7.416.23168-py2.py3-none-any.whl.zip --markdown 20230617/m/mo-imports/7.408.23161-7.416.23168/diff.md --exclude *.pyd
+[2023-06-17 11:30:48] INFO root fetch - processPackages [scrapeanything]: Downloading https://files.pythonhosted.org/packages/fa/e4/773f04000d2184a28c8617fbe3df7fe93b181902a2ddb0a0e5f61f67c158/scrapeanything-0.9.99.tar.gz
+[2023-06-17 11:30:48] INFO root fetch - processPackages [scrapeanything]: executing diffoscope
+[2023-06-17 11:30:48] INFO root fetch - processPackages [scrapeanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapeanything-0.9.98.tar.gz tmp/scrapeanything-0.9.99.tar.gz --markdown 20230617/s/scrapeanything/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-17 11:30:48] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.8.tar.gz]
+[2023-06-17 11:30:48] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium-simplified-0.9.tar.gz]
+[2023-06-17 11:30:48] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-17 11:30:49] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo_imports-7.408.23161-py2.py3-none-any.whl.zip]
+[2023-06-17 11:30:49] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo_imports-7.416.23168-py2.py3-none-any.whl.zip]
+[2023-06-17 11:30:49] INFO root fetch - main [MainThread]: End processing [mo-imports]: success
+[2023-06-17 11:30:49] INFO root fetch - processPackages [zhtools]: Remove: archive file [/home/abi/fetcher/tmp/zhtools-1.0.0.tar.gz]
+[2023-06-17 11:30:49] INFO root fetch - processPackages [zhtools]: Remove: archive file [/home/abi/fetcher/tmp/zhtools-1.0.1.tar.gz]
+[2023-06-17 11:30:49] INFO root fetch - main [MainThread]: End processing [zhtools]: success
+[2023-06-17 11:30:49] INFO root fetch - processPackages [scrapeanything]: Remove: archive file [/home/abi/fetcher/tmp/scrapeanything-0.9.98.tar.gz]
+[2023-06-17 11:30:49] INFO root fetch - processPackages [scrapeanything]: Remove: archive file [/home/abi/fetcher/tmp/scrapeanything-0.9.99.tar.gz]
+[2023-06-17 11:30:49] INFO root fetch - main [MainThread]: End processing [scrapeanything]: success
+[2023-06-17 11:30:49] INFO root fetch - main [MainThread]: Store serial: [18542058]
