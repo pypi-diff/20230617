@@ -14748,3 +14748,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [vagd]: success
 [2023-06-17 16:31:02] INFO root fetch - main [MainThread]: End processing [transitfit]: success
 [2023-06-17 16:31:02] INFO root fetch - main [MainThread]: Store serial: [18543754]
+[2023-06-17 16:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543754]
+[2023-06-17 16:36:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-scribe-store
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cv3-beta
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webhooklib
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyosrs
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dromi
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide1-Customized-Window
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySide2-Customized-Window
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySide6-Customized-Window
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piwwwaterflow
+[2023-06-17 16:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micropython-adxl343
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.7] Old Version: [1.6]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [webhooklib]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.7] Old Version: [1.6]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.7] Old Version: [1.6]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [pyosrs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [micropython-adxl343]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [piwwwaterflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-17 16:36:11] WARNING root fetch - processPackages [dromi]: Skipping, unable to determine old version
+[2023-06-17 16:36:11] INFO root fetch - processPackages [dromi]: Start processing: piwaterflow
+[2023-06-17 16:36:11] WARNING root fetch - processPackages [cv3-beta]: Skipping, unable to determine old version
+[2023-06-17 16:36:11] INFO root fetch - main [MainThread]: End processing [dromi] error
+[2023-06-17 16:36:11] INFO root fetch - main [MainThread]: End processing [cv3-beta] error
+[2023-06-17 16:36:11] WARNING root fetch - processPackages [django-scribe-store]: Skipping, unable to determine old version
+[2023-06-17 16:36:11] INFO root fetch - main [MainThread]: End processing [django-scribe-store] error
+[2023-06-17 16:36:11] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d4/c4/437c7ac12c70d6aa8ce30f3c2f26d0dc8f90750a3257d6a69bc46464297e/webhooklib-0.3.1.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/0b/f0/3d77aedd06468dd75e7937ccacba2801c5b4195015800715199c3f83b5bf/PySide1_Customized_Window-1.6-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/fd/8b/84416a53daea277f251bb41ec469b7e807ff2edab8de595a1f08e475894e/PySide6_Customized_Window-1.6-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/75/d0/2bff408b3593678a04560125075ce2e66f96d41c63a769c126fd4115a34e/pyosrs-0.0.3.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-17 16:36:11] INFO root fetch - processPackages [micropython-adxl343]: Downloading https://files.pythonhosted.org/packages/5b/b9/701f09599e6fcd161590abe959f69e321653dd58e5ecd55997440ea3f55d/micropython-adxl343-0.1.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [piwwwaterflow]: Downloading https://files.pythonhosted.org/packages/1c/a3/71914ca8042718c1ba06dd6ac344dea25075b5ab0a7fa0ac560852761d45/piwwwaterflow-0.1.8.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/f9/bd/b033c4d2b366d182011d22c6efd022a8b7411e69bbdbab2d6152a40242e3/PySide2_Customized_Window-1.6-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/a8/53/7e759bc336f2b8bc81cf0252e534cc2d0ccf8d431d97f502b905a46b5992/webhooklib-0.3.2.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/66/df/85ac908888229e2fd0e73e4714ca152cbccd22e30fb695175410863ca90c/piwaterflow-0.5.8.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/2c/c1/556ef9fab99ce1d339dcde0e6cc6cfe545108506b2fa278c4bbafb3dea66/PySide1_Customized_Window-1.7-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/79/ee/a0b7c9ac9a7e7c5ec06f2fe555de84c33a1cab3b4356ad37c57d2be44fbb/pyosrs-0.0.4.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-17 16:36:11] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.3.1.tar.gz tmp/webhooklib-0.3.2.tar.gz --markdown 20230617/w/webhooklib/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.6-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.7-py3-none-any.whl.zip --markdown 20230617/P/PySide1-Customized-Window/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/f8/6f/f016ce6cdfa274d0c1d048d3129719b8a57ecc47e9ed42bef70949124a54/PySide6_Customized_Window-1.7-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [micropython-adxl343]: Downloading https://files.pythonhosted.org/packages/6a/e1/b4f70fa9b8226a2f0e05c0c39427888a3adb40adcb3b5920333cc79e6989/micropython-adxl343-0.1.1.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [piwwwaterflow]: Downloading https://files.pythonhosted.org/packages/35/c1/13854c89a7f1c1dae3976fae7cf6ab7d8f34963ec517503c535a688a787f/piwwwaterflow-0.1.9.tar.gz
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.6-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.7-py3-none-any.whl.zip --markdown 20230617/P/PySide6-Customized-Window/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-17 16:36:11] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/ea/d9/ee5713fdd8fee0be70bfb5fbf7bfd4f59cda802d533c28c47cf74c628376/PySide2_Customized_Window-1.7-py3-none-any.whl
+[2023-06-17 16:36:11] INFO root fetch - processPackages [pyosrs]: executing diffoscope
+[2023-06-17 16:36:11] INFO root fetch - processPackages [pyosrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosrs-0.0.3.tar.gz tmp/pyosrs-0.0.4.tar.gz --markdown 20230617/p/pyosrs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-17 16:36:12] INFO root fetch - processPackages [micropython-adxl343]: executing diffoscope
+[2023-06-17 16:36:12] INFO root fetch - processPackages [micropython-adxl343]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-adxl343-0.1.tar.gz tmp/micropython-adxl343-0.1.1.tar.gz --markdown 20230617/m/micropython-adxl343/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:36:12] INFO root fetch - processPackages [piwwwaterflow]: executing diffoscope
+[2023-06-17 16:36:12] INFO root fetch - processPackages [piwwwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwwwaterflow-0.1.8.tar.gz tmp/piwwwaterflow-0.1.9.tar.gz --markdown 20230617/p/piwwwaterflow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-17 16:36:12] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/82/51/517c4aa51b97a44fef6bad6a62754225b3145ea1eedb4aee131daf72ea1f/piwaterflow-0.5.9.tar.gz
+[2023-06-17 16:36:12] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-06-17 16:36:12] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.6-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.7-py3-none-any.whl.zip --markdown 20230617/P/PySide2-Customized-Window/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-17 16:36:12] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-06-17 16:36:12] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.8.tar.gz tmp/piwaterflow-0.5.9.tar.gz --markdown 20230617/p/piwaterflow/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.6-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.7-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-06-17 16:36:13] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.3.1.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.3.2.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.6-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.7-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-06-17 16:36:13] INFO root fetch - processPackages [pyosrs]: Remove: archive file [/home/abi/fetcher/tmp/pyosrs-0.0.3.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [pyosrs]: Remove: archive file [/home/abi/fetcher/tmp/pyosrs-0.0.4.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [pyosrs]: success
+[2023-06-17 16:36:13] INFO root fetch - processPackages [micropython-adxl343]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adxl343-0.1.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [micropython-adxl343]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adxl343-0.1.1.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [micropython-adxl343]: success
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.6-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.8.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.7-py3-none-any.whl.zip]
+[2023-06-17 16:36:13] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.9.tar.gz]
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-06-17 16:36:13] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-06-17 16:36:14] INFO root fetch - processPackages [piwwwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwwwaterflow-0.1.8.tar.gz]
+[2023-06-17 16:36:14] INFO root fetch - processPackages [piwwwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwwwaterflow-0.1.9.tar.gz]
+[2023-06-17 16:36:14] INFO root fetch - main [MainThread]: End processing [piwwwaterflow]: success
+[2023-06-17 16:36:14] INFO root fetch - main [MainThread]: Store serial: [18543799]
