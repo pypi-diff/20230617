@@ -2098,3 +2098,68 @@
 [2023-06-17 02:45:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306160045.tar.gz]
 [2023-06-17 02:45:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-17 02:45:39] INFO root fetch - main [MainThread]: Store serial: [18538702]
+[2023-06-17 02:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18538702]
+[2023-06-17 02:50:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agency
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peopledatalabs
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aitemplates
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-slack-chatbot
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SimplePyDB
+[2023-06-17 02:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osint-python-starter-service
+[2023-06-17 02:50:48] INFO root fetch - processPackages [peopledatalabs]: New version: [1.1.8] Old Version: [1.1.6]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [aitemplates]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 02:50:48] WARNING root fetch - processPackages [SimplePyDB]: Skipping, unable to determine old version
+[2023-06-17 02:50:48] INFO root fetch - main [MainThread]: End processing [SimplePyDB] error
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [agency]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [osint-python-starter-service]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-17 02:50:48] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/98/08/f16ca0b2a731d9c361638c054c6d4648902139100bce9ee2c53e9ca5ad5f/aitemplates-0.1.4.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/7f/d1/4aa6ce9731396d0b2a6b0950da9d324c6151234f469b0f6eb442171ae907/peopledatalabs-1.1.6.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/f7/76/6c03321090bc66d125531e49db30d342db999294decf6154cefeb9da3eb7/agency-1.0.2.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-17 02:50:48] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-17 02:50:48] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-17 02:50:48] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/bc/12/9e7ac1595a5baa563a5731dcdb1ff537260aebc24e06aac2dcdd0fdc7609/osint-python-starter-service-2.1.0.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/a1/d6/baf5a83bdb02dfac6b6d6bd296323b73dd5f5cbd40a28d331ccde0a07e1a/agency-1.0.3.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/dc/7d/a1b09ddebae20babf22d5a11ed53c367593e4a7ff38371e1dbc622db46b1/aitemplates-0.1.5.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [agency]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/ec/30/73cb132bed9674fe8770b2ec41a5e92685fc42e7b8106a1dfc00c5b42613/peopledatalabs-1.1.8.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [agency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-1.0.2.tar.gz tmp/agency-1.0.3.tar.gz --markdown 20230617/a/agency/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-17 02:50:48] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/66/9d/d400d4095f3acfba7b34ca7ecf322e1bbd6761c51e6fe72d285010feb3aa/osint-python-starter-service-2.1.1.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-17 02:50:48] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.4.tar.gz tmp/aitemplates-0.1.5.tar.gz --markdown 20230617/a/aitemplates/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230617/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-17 02:50:48] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230617/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-17 02:50:48] INFO root fetch - processPackages [peopledatalabs]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [peopledatalabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peopledatalabs-1.1.6.tar.gz tmp/peopledatalabs-1.1.8.tar.gz --markdown 20230617/p/peopledatalabs/1.1.6-1.1.8/diff.md --exclude *.pyd
+[2023-06-17 02:50:48] INFO root fetch - processPackages [osint-python-starter-service]: executing diffoscope
+[2023-06-17 02:50:48] INFO root fetch - processPackages [osint-python-starter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-python-starter-service-2.1.0.tar.gz tmp/osint-python-starter-service-2.1.1.tar.gz --markdown 20230617/o/osint-python-starter-service/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-17 02:50:49] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.0.2.tar.gz]
+[2023-06-17 02:50:49] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.0.3.tar.gz]
+[2023-06-17 02:50:49] INFO root fetch - main [MainThread]: End processing [agency]: success
+[2023-06-17 02:50:50] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.4.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.5.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-06-17 02:50:50] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-17 02:50:50] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.1.0.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.1.1.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [osint-python-starter-service]: success
+[2023-06-17 02:50:50] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-17 02:50:50] INFO root fetch - processPackages [peopledatalabs]: Remove: archive file [/home/abi/fetcher/tmp/peopledatalabs-1.1.6.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - processPackages [peopledatalabs]: Remove: archive file [/home/abi/fetcher/tmp/peopledatalabs-1.1.8.tar.gz]
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: End processing [peopledatalabs]: success
+[2023-06-17 02:50:50] INFO root fetch - main [MainThread]: Store serial: [18538727]
