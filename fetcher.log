@@ -14472,3 +14472,116 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 16:15:21] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a8.tar.gz]
 [2023-06-17 16:15:21] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
 [2023-06-17 16:15:21] INFO root fetch - main [MainThread]: Store serial: [18543627]
+[2023-06-17 16:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18543627]
+[2023-06-17 16:20:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasieve
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywalc
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NameGenderFA
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groupeffect
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-upload
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nsdpy
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daisykit
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: novalabs-backtest
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AshCrypt
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RolexReserver
+[2023-06-17 16:20:30] INFO root fetch - processPackages [telegram-upload]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [AshCrypt]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [datasieve]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-17 16:20:30] WARNING root fetch - processPackages [NameGenderFA]: Skipping, unable to determine old version
+[2023-06-17 16:20:30] WARNING root fetch - processPackages [pywalc]: Skipping, unable to determine old version
+[2023-06-17 16:20:30] INFO root fetch - processPackages [NameGenderFA]: Start processing: osxphotos
+[2023-06-17 16:20:30] INFO root fetch - processPackages [pywalc]: Start processing: ctypes-rgb-values
+[2023-06-17 16:20:30] INFO root fetch - main [MainThread]: End processing [NameGenderFA] error
+[2023-06-17 16:20:30] INFO root fetch - main [MainThread]: End processing [pywalc] error
+[2023-06-17 16:20:30] INFO root fetch - processPackages [nsdpy]: New version: [0.3.6b0] Old Version: [0.3.5b0]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [groupeffect]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [daisykit]: New version: [0.3.0.3] Old Version: [0.3.0.2]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [RolexReserver]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [RolexReserver]: Downloading https://files.pythonhosted.org/packages/26/95/2c4eb65b5e1758574839d0ceb31ca5948c30de391a3ededd0894e21b266b/RolexReserver-1.0.4.tar.gz
+[2023-06-17 16:20:30] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/ca/ae/3da896ad7495c20df15737f216e777eb10a61512bed3884e5d46ed4d4298/datasieve-0.1.4.tar.gz
+[2023-06-17 16:20:30] INFO root fetch - processPackages [osxphotos]: New version: [0.60.2] Old Version: [0.60.1]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [ctypes-rgb-values]: New version: [0.11] Old Version: [0.10]
+[2023-06-17 16:20:30] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/96/78/bf32843b4206d90b939c0d91d6b366a4a9e043e6880f825526946237e001/novalabs-backtest-1.1.8.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [groupeffect]: Downloading https://files.pythonhosted.org/packages/2f/99/085b4898fdc354112a14d72a7f5682d8dc811c121b0df61d35ef3e0262e4/groupeffect-0.1.0.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [daisykit]: Downloading https://files.pythonhosted.org/packages/1b/a7/a3e8ce757577fac0adbf806c849de09b4f41cd49ce6ceafb77bf6da77daf/daisykit-0.3.0.2.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/6d/25/e280f0f8130a2698858c433c98d684b2a5e219b6850cc935429619d766ae/AshCrypt-1.0.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [nsdpy]: Downloading https://files.pythonhosted.org/packages/2d/d7/c93df9e3abfe0d01904329c011bdf36b13ac7000a1cdb01ef4f24f3f8332/nsdpy-0.3.5b0.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [telegram-upload]: Downloading https://files.pythonhosted.org/packages/14/ec/063a4edb809e716bf7e1265e09a85586c734f62c662187d3144e72d8d9f7/telegram-upload-0.6.0.tar.gz
+[2023-06-17 16:20:31] WARNING root fetch - processPackages [daisykit]: Skipping package: exceeds size limit 18679613>=10485760
+[2023-06-17 16:20:31] INFO root fetch - processPackages [daisykit]: Start processing: python-semantic-release
+[2023-06-17 16:20:31] INFO root fetch - main [MainThread]: End processing [daisykit] error
+[2023-06-17 16:20:31] INFO root fetch - processPackages [RolexReserver]: Downloading https://files.pythonhosted.org/packages/ed/de/75b8f116dfc65b687ca609524df2a3b3849ceefaf229beb4da86cbadd69b/RolexReserver-1.0.5.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a8] Old Version: [8.0.0a7]
+[2023-06-17 16:20:31] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ae/6a/f859cc834d8bde8716431a9da867ed29de802d11a899f51d94932f40e339/python-semantic-release-8.0.0a7.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [ctypes-rgb-values]: Downloading https://files.pythonhosted.org/packages/6a/17/32c52a7f2f10395f2549f824448e66d08123bcdbf5274eeea8df5c77e8df/ctypes_rgb_values-0.10.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/99/bf/5822d7667730ed584406211e3f8051c4ded46361a8a1b371ba5eaf0554fb/osxphotos-0.60.1.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [RolexReserver]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [RolexReserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RolexReserver-1.0.4.tar.gz tmp/RolexReserver-1.0.5.tar.gz --markdown 20230617/R/RolexReserver/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/4c/65/d88309818b95e38d880160466d477dbb1a771634d8dcffd572f1dc44c68b/datasieve-0.1.5.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [groupeffect]: Downloading https://files.pythonhosted.org/packages/88/8b/2890cea8b0f91d41e03e3e364b795874eaf9a68a48c4c80f077f9d03bd86/groupeffect-0.1.1.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [datasieve]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [datasieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasieve-0.1.4.tar.gz tmp/datasieve-0.1.5.tar.gz --markdown 20230617/d/datasieve/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [nsdpy]: Downloading https://files.pythonhosted.org/packages/79/58/4edb707bdf19aaf4658c8fa2e5ad724a99f2062b9ee7535cb2dec834979a/nsdpy-0.3.6b0.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/0e/80/0faa8b96467a50e1269c33948071713b96c275af90d02903fc023e4e3e5c/python-semantic-release-8.0.0a8.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [telegram-upload]: Downloading https://files.pythonhosted.org/packages/77/95/3cd548e4da45f4ea18adf119b001582333947eafee54236e90716b230f1d/telegram-upload-0.6.1.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/a2/38/1bb46fca8aa87d5375b99b0927a732739b47b6f4d60dfa183990acf5110f/novalabs-backtest-1.1.9.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/92/98/9ae86f101cd9070593b3d1fbd1b2ce47ac25d94dc758838d99140ab26165/AshCrypt-1.0.1.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [groupeffect]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [groupeffect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupeffect-0.1.0.tar.gz tmp/groupeffect-0.1.1.tar.gz --markdown 20230617/g/groupeffect/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [ctypes-rgb-values]: Downloading https://files.pythonhosted.org/packages/15/a0/db0e37fb4193fba6b428485b4746aafc855c81375b41dc6cddb3e9590db8/ctypes_rgb_values-0.11.tar.gz
+[2023-06-17 16:20:31] INFO root fetch - processPackages [nsdpy]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [nsdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdpy-0.3.5b0.tar.gz tmp/nsdpy-0.3.6b0.tar.gz --markdown 20230617/n/nsdpy/0.3.5b0-0.3.6b0/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a7.tar.gz tmp/python-semantic-release-8.0.0a8.tar.gz --markdown 20230617/p/python-semantic-release/8.0.0a7-8.0.0a8/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [telegram-upload]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [telegram-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram-upload-0.6.0.tar.gz tmp/telegram-upload-0.6.1.tar.gz --markdown 20230617/t/telegram-upload/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.0.tar.gz tmp/AshCrypt-1.0.1.tar.gz --markdown 20230617/A/AshCrypt/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230617/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [ctypes-rgb-values]: executing diffoscope
+[2023-06-17 16:20:31] INFO root fetch - processPackages [ctypes-rgb-values]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctypes_rgb_values-0.10.tar.gz tmp/ctypes_rgb_values-0.11.tar.gz --markdown 20230617/c/ctypes-rgb-values/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-17 16:20:31] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/5f/61/7bd811d709a9994cba14eeac21984043420beea7dbbb4ab3a794ffaa858c/osxphotos-0.60.2.tar.gz
+[2023-06-17 16:20:32] INFO root fetch - processPackages [osxphotos]: executing diffoscope
+[2023-06-17 16:20:32] INFO root fetch - processPackages [osxphotos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxphotos-0.60.1.tar.gz tmp/osxphotos-0.60.2.tar.gz --markdown 20230617/o/osxphotos/0.60.1-0.60.2/diff.md --exclude *.pyd
+[2023-06-17 16:20:32] INFO root fetch - processPackages [RolexReserver]: Remove: archive file [/home/abi/fetcher/tmp/RolexReserver-1.0.4.tar.gz]
+[2023-06-17 16:20:32] INFO root fetch - processPackages [RolexReserver]: Remove: archive file [/home/abi/fetcher/tmp/RolexReserver-1.0.5.tar.gz]
+[2023-06-17 16:20:32] INFO root fetch - processPackages [RolexReserver]: Start processing: micropython-ds1841
+[2023-06-17 16:20:32] INFO root fetch - main [MainThread]: End processing [RolexReserver]: success
+[2023-06-17 16:20:32] INFO root fetch - processPackages [datasieve]: Remove: archive file [/home/abi/fetcher/tmp/datasieve-0.1.4.tar.gz]
+[2023-06-17 16:20:32] INFO root fetch - processPackages [datasieve]: Remove: archive file [/home/abi/fetcher/tmp/datasieve-0.1.5.tar.gz]
+[2023-06-17 16:20:32] INFO root fetch - main [MainThread]: End processing [datasieve]: success
+[2023-06-17 16:20:32] INFO root fetch - processPackages [micropython-ds1841]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [groupeffect]: Remove: archive file [/home/abi/fetcher/tmp/groupeffect-0.1.0.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [groupeffect]: Remove: archive file [/home/abi/fetcher/tmp/groupeffect-0.1.1.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - main [MainThread]: End processing [groupeffect]: success
+[2023-06-17 16:20:33] INFO root fetch - processPackages [nsdpy]: Remove: archive file [/home/abi/fetcher/tmp/nsdpy-0.3.5b0.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [nsdpy]: Remove: archive file [/home/abi/fetcher/tmp/nsdpy-0.3.6b0.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - main [MainThread]: End processing [nsdpy]: success
+[2023-06-17 16:20:33] INFO root fetch - processPackages [ctypes-rgb-values]: Remove: archive file [/home/abi/fetcher/tmp/ctypes_rgb_values-0.10.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [ctypes-rgb-values]: Remove: archive file [/home/abi/fetcher/tmp/ctypes_rgb_values-0.11.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - main [MainThread]: End processing [ctypes-rgb-values]: success
+[2023-06-17 16:20:33] INFO root fetch - processPackages [micropython-ds1841]: Downloading https://files.pythonhosted.org/packages/ab/e1/b3fa08f1e625712a1a4227e190bffa107514bd1e677073fad3beaec37b29/micropython-ds1841-0.1.0.tar.gz
+[2023-06-17 16:20:33] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.0.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.0.1.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-06-17 16:20:33] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a7.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a8.tar.gz]
+[2023-06-17 16:20:33] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-06-17 16:20:33] INFO root fetch - processPackages [micropython-ds1841]: Downloading https://files.pythonhosted.org/packages/98/bc/9f0494dbaaee08e874bdd8791c225a6895701c0d19edc7e910301c25bf69/micropython-ds1841-0.1.1.tar.gz
+[2023-06-17 16:20:33] INFO root fetch - processPackages [micropython-ds1841]: executing diffoscope
+[2023-06-17 16:20:33] INFO root fetch - processPackages [micropython-ds1841]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-ds1841-0.1.0.tar.gz tmp/micropython-ds1841-0.1.1.tar.gz --markdown 20230617/m/micropython-ds1841/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-17 16:20:34] INFO root fetch - processPackages [telegram-upload]: Remove: archive file [/home/abi/fetcher/tmp/telegram-upload-0.6.0.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - processPackages [telegram-upload]: Remove: archive file [/home/abi/fetcher/tmp/telegram-upload-0.6.1.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - main [MainThread]: End processing [telegram-upload]: success
+[2023-06-17 16:20:34] INFO root fetch - processPackages [novalabs-backtest]: Remove: archive file [/home/abi/fetcher/tmp/novalabs-backtest-1.1.8.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - processPackages [novalabs-backtest]: Remove: archive file [/home/abi/fetcher/tmp/novalabs-backtest-1.1.9.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-06-17 16:20:34] INFO root fetch - processPackages [micropython-ds1841]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds1841-0.1.0.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - processPackages [micropython-ds1841]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds1841-0.1.1.tar.gz]
+[2023-06-17 16:20:34] INFO root fetch - main [MainThread]: End processing [micropython-ds1841]: success
+[2023-06-17 16:20:38] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.1.tar.gz]
+[2023-06-17 16:20:38] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.2.tar.gz]
+[2023-06-17 16:20:38] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
+[2023-06-17 16:20:38] INFO root fetch - main [MainThread]: Store serial: [18543672]
