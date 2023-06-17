@@ -16926,3 +16926,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 19:20:08] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
 [2023-06-17 19:20:08] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
 [2023-06-17 19:20:08] INFO root fetch - main [MainThread]: Store serial: [18544878]
+[2023-06-17 19:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18544878]
+[2023-06-17 19:25:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mykit
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn-guard-rs
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohlcv-plus
+[2023-06-17 19:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtorch
+[2023-06-17 19:25:19] INFO root fetch - processPackages [dtorch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-17 19:25:19] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/1d/5c/05fcc1e4ec8e4b21176bb31f51c01dde00e6193396ddf209aacb4683f1a1/dtorch-0.0.5.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [cfn-guard-rs]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-17 19:25:19] WARNING root fetch - processPackages [ohlcv-plus]: Skipping, unable to determine old version
+[2023-06-17 19:25:19] INFO root fetch - main [MainThread]: End processing [ohlcv-plus] error
+[2023-06-17 19:25:19] INFO root fetch - processPackages [mykit]: New version: [3.0.0] Old Version: [2.0.4]
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-17 19:25:19] INFO root fetch - processPackages [cfn-guard-rs]: Downloading https://files.pythonhosted.org/packages/26/7a/c84c2bdc0b5ca1acaaf2a469a6f63de65d782e067addc39734edb4ccb29a/cfn_guard_rs-0.2.1.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/cd/22/15d2bbf1e55105984a729c143445d368144f0e1ca8f4601c48800d4baf36/dtorch-0.0.6.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/fa/e1/9aeeec3ccc0a2f53dcc4252ad3ebdff31aa131cfc1ad989b29c37fa0ebfd/mykit-2.0.4.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [dtorch]: executing diffoscope
+[2023-06-17 19:25:19] INFO root fetch - processPackages [dtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtorch-0.0.5.tar.gz tmp/dtorch-0.0.6.tar.gz --markdown 20230617/d/dtorch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/b3/b3/e83434a4acb3e7231127b1b8f5c799135c798898a3544140c9a76d3b49e3/mykit-3.0.0.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [cfn-guard-rs]: Downloading https://files.pythonhosted.org/packages/e9/9e/e147e1da2e1510405b1b277bbc26ac1d7076458b8130e088908a32b6a849/cfn_guard_rs-0.2.3.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-17 19:25:19] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230617/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-17 19:25:19] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-17 19:25:19] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-2.0.4.tar.gz tmp/mykit-3.0.0.tar.gz --markdown 20230617/m/mykit/2.0.4-3.0.0/diff.md --exclude *.pyd
+[2023-06-17 19:25:19] INFO root fetch - processPackages [cfn-guard-rs]: executing diffoscope
+[2023-06-17 19:25:19] INFO root fetch - processPackages [cfn-guard-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_guard_rs-0.2.1.tar.gz tmp/cfn_guard_rs-0.2.3.tar.gz --markdown 20230617/c/cfn-guard-rs/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-17 19:25:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 19:25:21] INFO root fetch - processPackages [cfn-guard-rs]: Remove: archive file [/home/abi/fetcher/tmp/cfn_guard_rs-0.2.1.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - processPackages [cfn-guard-rs]: Remove: archive file [/home/abi/fetcher/tmp/cfn_guard_rs-0.2.3.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: End processing [cfn-guard-rs]: success
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-17 19:25:21] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.4.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-3.0.0.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-17 19:25:21] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.5.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.6.tar.gz]
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: End processing [dtorch]: success
+[2023-06-17 19:25:21] INFO root fetch - main [MainThread]: Store serial: [18544928]
