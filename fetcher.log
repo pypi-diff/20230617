@@ -12981,3 +12981,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-17 14:26:47] INFO root fetch - processPackages [newshomepages]: Remove: archive file [/home/abi/fetcher/tmp/newshomepages-0.0.9.tar.gz]
 [2023-06-17 14:26:47] INFO root fetch - main [MainThread]: End processing [newshomepages]: success
 [2023-06-17 14:26:47] INFO root fetch - main [MainThread]: Store serial: [18542903]
+[2023-06-17 14:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18542903]
+[2023-06-17 14:31:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thundra
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelolinguagem
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark3
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsrs4anki-optimizer
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skale.py
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-17 14:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dpy-toolbox
+[2023-06-17 14:31:58] INFO root fetch - processPackages [skale.py]: New version: [6.0.dev0] Old Version: [5.8b2]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.5] Old Version: [3.24.4]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 14:31:58] WARNING root fetch - processPackages [modelolinguagem]: Skipping, unable to determine old version
+[2023-06-17 14:31:58] INFO root fetch - main [MainThread]: End processing [modelolinguagem] error
+[2023-06-17 14:31:58] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-17 14:31:58] INFO root fetch - processPackages [dpy-toolbox]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-06-17 14:31:58] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/b1/c7/dadab4bbf0327c7a16e69eb9c33a333c13ef1f3bb008884656aec82bdb1f/skale.py-5.8b2.tar.gz
+[2023-06-17 14:31:58] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/b7/05/fb9d29188a969573c41aebe55ab966b4ab646b9457b11c7b8def054aa85c/fsrs4anki_optimizer-3.24.4.tar.gz
+[2023-06-17 14:31:58] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/a3/e6/4cf57a0241d0b7c37df85c2c0fe9f048ee3cc8879d84497bc6e015ad4f40/bigdl-dllib-spark3-2.4.0b20230616.tar.gz
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 14:31:58] INFO root fetch - processPackages [dpy-toolbox]: Downloading https://files.pythonhosted.org/packages/27/92/bec7ec774349eaf8a877a77765febcc7fd84d4143f665cca21938ad0364b/dpy-toolbox-0.0.1b8.tar.gz
+[2023-06-17 14:31:58] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328811>=10485760
+[2023-06-17 14:31:58] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-17 14:31:58] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-17 14:31:59] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 14:31:59] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 14:31:59] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-17 14:31:59] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230617/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-17 14:31:59] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/fb/6f/56026d408a7e6ab0cdf77499727f1db45797dcff62dc7a9936d70c0939a2/skale.py-6.0.dev0.tar.gz
+[2023-06-17 14:31:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/50/03/3a2b2f612f39e722a954fe71bd7524b06cf91a76d8c2039931fe3e23c230/fsrs4anki_optimizer-3.24.5.tar.gz
+[2023-06-17 14:31:59] INFO root fetch - processPackages [skale.py]: executing diffoscope
+[2023-06-17 14:31:59] INFO root fetch - processPackages [skale.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale.py-5.8b2.tar.gz tmp/skale.py-6.0.dev0.tar.gz --markdown 20230617/s/skale.py/5.8b2-6.0.dev0/diff.md --exclude *.pyd
+[2023-06-17 14:31:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-17 14:31:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.4.tar.gz tmp/fsrs4anki_optimizer-3.24.5.tar.gz --markdown 20230617/f/fsrs4anki-optimizer/3.24.4-3.24.5/diff.md --exclude *.pyd
+[2023-06-17 14:31:59] INFO root fetch - processPackages [dpy-toolbox]: Downloading https://files.pythonhosted.org/packages/f5/a4/3135e098fd91a6c397390dc61b9b86680d2e1080b94a7a57768db7f02e2e/dpy-toolbox-0.0.1b9.tar.gz
+[2023-06-17 14:31:59] INFO root fetch - processPackages [dpy-toolbox]: executing diffoscope
+[2023-06-17 14:31:59] INFO root fetch - processPackages [dpy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230617:/home/abi/fetcher/20230617:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpy-toolbox-0.0.1b8.tar.gz tmp/dpy-toolbox-0.0.1b9.tar.gz --markdown 20230617/d/dpy-toolbox/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-06-17 14:32:00] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.4.tar.gz]
+[2023-06-17 14:32:00] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.5.tar.gz]
+[2023-06-17 14:32:00] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-17 14:32:00] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-5.8b2.tar.gz]
+[2023-06-17 14:32:00] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-6.0.dev0.tar.gz]
+[2023-06-17 14:32:00] INFO root fetch - main [MainThread]: End processing [skale.py]: success
+[2023-06-17 14:32:01] INFO root fetch - processPackages [dpy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dpy-toolbox-0.0.1b8.tar.gz]
+[2023-06-17 14:32:01] INFO root fetch - processPackages [dpy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dpy-toolbox-0.0.1b9.tar.gz]
+[2023-06-17 14:32:01] INFO root fetch - main [MainThread]: End processing [dpy-toolbox]: success
+[2023-06-17 14:32:01] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-17 14:32:01] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-17 14:32:01] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 14:32:01] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-17 14:32:01] INFO root fetch - main [MainThread]: Store serial: [18542925]
